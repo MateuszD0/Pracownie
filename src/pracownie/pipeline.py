@@ -9,7 +9,7 @@ import tempfile
 import time
 import uuid
 from dataclasses import dataclass
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from playwright.async_api import Error as BrowserError
@@ -17,9 +17,10 @@ from playwright.async_api import TimeoutError as BrowserTimeout
 
 from .browser import BrowserScanner, Capture, TransientFetchError, infer_scenarios
 from .compare import compare
+from .extract import is_listing_title
 from .images import image_difference, ocr_context
 from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
-from .report import install_outputs, write_outputs
+from .report import install_outputs, resume_data, write_outputs
 from .state import StateStore
 
 
@@ -36,6 +37,7 @@ class RunOptions:
     settle_ms: int = 500
     retention_days: int = 180
     ocr: bool = True
+    resume: bool = False
 
 
 async def run_scan(sites: list[Site], store: StateStore, output: Path, options: RunOptions) -> dict:
@@ -45,10 +47,19 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
     metadata = {"run_id": run_id, "day": day, "started_at": now_iso(), "domains": len(sites)}
     state = store.begin(day, options.retention_days)
     results: list[Result] = []
+    reused, previous_metadata = set(), {}
+    if options.resume:
+        reused, results, previous_metadata = resume_data(output, day, sites, store.read())
+    metadata["reused_domains"] = sorted(reused)
+    metadata["resumed_from"] = previous_metadata.get("run_id")
     semaphore = asyncio.Semaphore(options.concurrency)
     output.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=".scan-", dir=output) as temporary:
         staging = Path(temporary)
+        for domain in reused:
+            previous = output / day / slug(domain)
+            if previous.is_dir():
+                shutil.copytree(previous, staging / day / slug(domain))
         async with BrowserScanner(options.browser_executable, options.navigation_timeout, options.settle_ms) as scanner:
             async def capture_retry(site, kind, url, scenario, dest):
                 for attempt in range(options.retries + 1):
@@ -80,14 +91,15 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         "warnings": snapshot.warnings,
                     }))
                 evidence = {}
+                result_warnings = list(snapshot.warnings)
                 after_path = folder / "po.png"
                 before_path = folder / "przed.png"
                 difference_path = folder / "roznice.png"
                 visual = None
-                if before and before.renderer == snapshot.renderer:
+                if before and before.renderer.split("|extractor=")[0] == snapshot.renderer.split("|extractor=")[0]:
                     visual = await asyncio.to_thread(image_difference, store.root / before.image, capture.screenshot, difference_path)
                 elif before:
-                    changes.append(Change("review", "obraz", "Zmiana wersji przeglądarki lub sposobu renderowania", before.renderer, snapshot.renderer, before.observed_at, snapshot.observed_at, snapshot.url, snapshot.scenario, note="Porównanie wizualne pominięto; porównanie danych zachowano."))
+                    result_warnings.append("Zmieniono wersję przeglądarki; porównanie obrazu pominięto, a dane porównano ostrożnie.")
                 if before and visual and visual.changed:
                     text, note = "", "Zmiana obrazu wymaga oceny; może wynikać również ze zmiany układu."
                     if options.ocr:
@@ -109,10 +121,10 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 for change in changes:
                     change.evidence = evidence
                 status = "baseline" if before is None else "review" if changes and all(c.kind == "review" for c in changes) else "changed" if changes else "unchanged"
-                if snapshot.warnings:
+                if result_warnings:
                     status = "partial"
-                results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, snapshot.warnings, observed_at=snapshot.observed_at, evidence=evidence))
-                if snapshot.quality == "ok":
+                results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, result_warnings, observed_at=snapshot.observed_at, evidence=evidence))
+                if snapshot.quality == "ok" or snapshot.quality == "visual" and (before is None or not before.fields):
                     state["snapshots"][snapshot.key] = retained.to_dict()
 
             async def interactions(site: Site, kind: str, url: str, base: Capture, work: Path):
@@ -140,6 +152,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         nested, nested_warnings = infer_scenarios(captured.payload, kind, options.max_scenarios)
                         warnings.extend(nested_warnings)
                         for child in nested:
+                            if any(a.get("cart") for a in scenario.actions) and any(a.get("cart") for a in child.actions):
+                                continue
                             action_key = json.dumps(child.actions[-1], sort_keys=True)
                             if action_key in action_seen:
                                 continue
@@ -165,6 +179,14 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     results.append(Result(site.domain, "glowna", "podstawowy", "error", site.home_url, error=str(exc).splitlines()[0][:600]))
                     home = None
                 selection = state["selections"].get(site.domain)
+                correction = site.selection.get("initial_choice_correction")
+                if selection and correction and selection["url"] == correction.get("from_url") and is_listing_title(selection.get("name", "")) and local_day(datetime.fromisoformat(selection["selected_at"])) == correction.get("selected_day"):
+                    metadata.setdefault("selection_corrections", []).append({"domain": site.domain, "from": selection, "reason": correction["reason"]})
+                    state.setdefault("selection_corrections", {})[site.domain] = {"from": selection, "reason": correction["reason"], "corrected_at": now_iso()}
+                    del state["selections"][site.domain]
+                    for group in ("snapshots", "anchor"):
+                        state[group] = {key: value for key, value in state[group].items() if not key.startswith(site.domain + "/projekt/")}
+                    selection = None
                 project = None
                 if site.project_url:
                     if selection and selection["url"] != site.project_url:
@@ -178,6 +200,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     try:
                         project = project or await capture_retry(site, "projekt", selection["url"], Scenario("podstawowy", "Wariant podstawowy"), work / "projekt.png")
                         # Selection is frozen only after a product page was successfully validated.
+                        if site.project_name:
+                            selection["name"] = site.project_name
                         state["selections"][site.domain] = selection
                         await record(project)
                     except Exception as exc:
@@ -208,7 +232,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         results.append(Result(site.domain, "zakres", "blad", "error", site.home_url, error=str(exc).splitlines()[0][:600]))
                     print(f"Sprawdzono {site.domain}", flush=True)
 
-            await asyncio.gather(*(bounded(site) for site in sites))
+            await asyncio.gather(*(bounded(site) for site in sites if site.domain not in reused))
         results.sort(key=lambda result: (result.domain, result.page, result.scenario))
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})

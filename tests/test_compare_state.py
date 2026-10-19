@@ -48,6 +48,24 @@ def test_money_and_normalization():
         validate_payload({"title": "Just a moment", "text": "Verify you are human"})
 
 
+@pytest.mark.parametrize("title", ["Projekty dużych domów jednorodzinnych", "Najnowsze projekty domów", "PROJEKTY DOMÓW", "Projekty domów do 100m2", "Jak mądrze wybrać projekt domu?", "Pompy ciepła", "DOMY DLA DEWELOPERÓW"])
+def test_category_or_article_is_not_a_project_even_with_product_schema(title):
+    with pytest.raises(ValueError, match="kategorii"):
+        validate_payload({"h1": title, "text": "Projekt domu, opis projektu i powierzchnia. Cena 4500 PLN. " * 3, "products": [{"name": "Dom A"}]}, product=True)
+    validate_payload({"h1": "Projekt domu Lolek II N", "text": "Opis projektu domu, powierzchnia 100 m2. Cena 4500 PLN."}, product=True)
+
+
+def test_changed_extractor_requires_review_and_ignores_derived_only_change():
+    before, after = snapshot(), snapshot("4290.00")
+    before.renderer = "chromium-1|extractor=old"
+    after.renderer = "chromium-1|extractor=new"
+    changes, _ = compare(before, after)
+    assert changes[0].kind == "review"
+    assert "reguły odczytu" in changes[0].note
+    after.fields["price"].value = before.fields["price"].value
+    assert compare(before, after)[0] == []
+
+
 def test_variants_are_separate():
     fields, _ = extract_fields({"products": [{"name": "Dom", "offers": [
         {"name": "PDF", "price": "4590", "priceCurrency": "PLN"},
@@ -163,3 +181,18 @@ def test_output_preserves_notes_added_to_generated_report(tmp_path):
     with pytest.raises(ValueError, match="użytkownika"):
         install_outputs(second, output, day, "two")
     assert notes.read_text() == "Notatki użytkownika"
+
+
+def test_verified_daily_archive_restore_and_wrong_run(tmp_path):
+    from pracownie.report import bundle_report, restore_report, verify_outputs, write_outputs
+    day = "2026-10-19"
+    root = tmp_path / "source"
+    metadata = {"run_id": "expected", "started_at": day + "T04:00:00+00:00", "finished_at": day + "T04:01:00+00:00", "elapsed_seconds": 60}
+    write_outputs(root, day, [], metadata, {}, [])
+    archive = tmp_path / "report.zip"
+    bundle_report(root, day, archive)
+    restored = tmp_path / "restored"
+    restore_report(archive, restored, day, "expected")
+    verify_outputs(restored, day)
+    with pytest.raises(ValueError, match="zatwierdzonemu"):
+        restore_report(archive, tmp_path / "wrong", day, "other-run")

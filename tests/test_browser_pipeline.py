@@ -1,4 +1,5 @@
 import json
+from dataclasses import replace
 from pathlib import Path
 
 import pytest
@@ -71,6 +72,15 @@ async def test_cookie_refusal_is_applied_and_excluded(sample_site, executable, t
 
 
 @pytest.mark.browser
+async def test_wp_cookie_settings_lead_to_refusal(sample_site, executable, tmp_path):
+    sample_site.wp_cookies = True
+    async with BrowserScanner(executable, settle_ms=10) as scanner:
+        captured = await scanner.capture(site_config(sample_site), "glowna", sample_site.url, Scenario("podstawowy", "Start"), tmp_path / "cookie.png")
+    assert not any("cookies" in warning for warning in captured.snapshot.warnings)
+    assert not sample_site.submitted
+
+
+@pytest.mark.browser
 async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executable, tmp_path):
     sample_site.duplicate_cart = True
     site = site_config(sample_site)
@@ -82,6 +92,52 @@ async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executa
         for index, scenario in enumerate(cart):
             captured = await scanner.capture(site, "projekt", sample_site.url + "/projekt-domu-testowy", scenario, tmp_path / f"cart-{index}.png")
             assert captured.snapshot.url.endswith("/cart")
+
+
+@pytest.mark.browser
+async def test_visual_monitoring_without_recognized_sales_text(sample_site, executable, tmp_path):
+    sample_site.no_sales = True
+    site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
+    await run_scan([site], store, output, options(executable, "2026-10-18"))
+    assert store.read()["snapshots"]["test.pl/glowna/podstawowy"]["quality"] == "visual"
+    sample_site.background = "#ccddff"
+    outcome = await run_scan([site], store, output, options(executable, "2026-10-19"))
+    changes = [change for result in outcome["results"] for change in result.changes]
+    assert changes and all(change.kind == "review" for change in changes)
+    assert all(change.evidence.get("przed") and change.evidence.get("po") for change in changes)
+
+
+@pytest.mark.browser
+async def test_resume_uses_valid_same_day_reads_without_requests(sample_site, executable, tmp_path):
+    site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
+    settings = options(executable, "2026-10-19")
+    first = await run_scan([site], store, output, settings)
+    assert not [r.error for r in first["results"] if r.error]
+    requests = sample_site.requests
+    sample_site.unavailable = True
+    settings.resume = True
+    second = await run_scan([site], store, output, settings)
+    assert second["metadata"]["reused_domains"] == ["test.pl"], [(r.page, r.scenario, r.error, r.warnings) for r in first["results"]]
+    assert sample_site.requests == requests
+    assert len(second["results"]) == len(first["results"])
+    verify_outputs(output, "2026-10-19")
+
+
+@pytest.mark.browser
+async def test_explicit_correction_of_invalid_initial_choice_resets_only_project(sample_site, executable, tmp_path):
+    site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
+    await run_scan([site], store, output, options(executable, "2026-10-18"))
+    state = store.read()
+    state["selections"][site.domain].update(url=sample_site.url + "/category", name="Projekty domów", selected_at="2026-10-18T06:00:00+00:00")
+    store.commit(state)
+    corrected = replace(site, project_url=sample_site.url + "/projekt-domu-testowy", selection={"initial_choice_correction": {"from_url": sample_site.url + "/category", "selected_day": "2026-10-18", "reason": "Kategoria zamiast karty"}})
+    sample_site.price = 4290
+    sample_site.banner = "Promocja zimowa"
+    outcome = await run_scan([corrected], store, output, options(executable, "2026-10-19"))
+    assert outcome["metadata"]["selection_corrections"][0]["domain"] == site.domain
+    assert store.read()["selections"][site.domain]["url"].endswith("/projekt-domu-testowy")
+    assert all(not r.changes for r in outcome["results"] if r.page == "projekt")
+    assert any(r.changes for r in outcome["results"] if r.page == "glowna")
 
 
 def test_scenarios_have_stable_ids_when_option_price_changes():

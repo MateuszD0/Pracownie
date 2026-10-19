@@ -12,6 +12,10 @@ on:
         options: [pilot, full]
         default: pilot
         required: true
+      rescan:
+        description: Powtórz również poprawne odczyty z tego samego dnia
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -50,14 +54,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCAN_SCOPE: ${{ github.event_name == 'schedule' && 'full' || inputs.scope }}
-        run: uv run pracownie run --github --scope "$SCAN_SCOPE" --budget-seconds 1800
+          FORCE_RESCAN: ${{ inputs.rescan || 'false' }}
+        run: |
+          scan_args=(--github --scope "$SCAN_SCOPE" --budget-seconds 1800)
+          if [[ "$FORCE_RESCAN" != 'true' ]]; then
+            scan_args+=(--resume)
+          fi
+          uv run pracownie run "${scan_args[@]}"
       - name: Diagnostyka w razie awarii
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: diagnostyka-${{ github.run_id }}
           path: |
-            raporty/*.txt
-            raporty/*/pokrycie.json
+            raporty/**/*.txt
+            raporty/**/pokrycie.json
           if-no-files-found: ignore
           retention-days: 3

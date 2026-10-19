@@ -10,13 +10,14 @@ import pytest
 
 @pytest.fixture
 def sample_site():
-    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, duplicate_cart=False)
+    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, duplicate_cart=False, no_sales=False, background="white", requests=0)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
             pass
 
         def do_GET(self):
+            state.requests += 1
             if self.path == "/favicon.ico":
                 self.send_response(204)
                 self.end_headers()
@@ -52,9 +53,16 @@ def sample_site():
                     <p>Pomagamy wybrać projekt domu. Konsultacje dostępne przed zakupem.</p>'''
             if state.cookies:
                 body += '''<div id="CybotCookiebotDialog" role="dialog">Pliki cookies<button onclick="document.getElementById('CybotCookiebotDialog').remove()">Odmowa</button><button role="tab">Szczegóły</button></div>'''
+            if state.wp_cookies:
+                body += '''<div role="dialog" aria-label="Plansza informacyjna WP" id="wp-dialog">Cenimy Twoją prywatność. Pliki cookies.
+                <a href="#" onclick="document.getElementById('refuse-wp').hidden=false">Ustawienia zaawansowane</a>
+                <button id="refuse-wp" hidden onclick="document.getElementById('wp-dialog').remove()">Nie wyrażam zgody</button>
+                <button onclick="fetch('/submitted')">Akceptuję i przechodzę do serwisu</button></div>'''
             if state.duplicate_cart:
                 body += '<div><a id="cart" class="btn" href="/cart">Dodaj do koszyka</a></div>'
-            html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title><style>body{{font:18px sans-serif;margin:30px}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
+            if state.no_sales:
+                body = '<h1>Pracownia testowa</h1><p>Witamy na naszej stronie internetowej. Zapraszamy do oglądania zdjęć i poznania naszej historii.</p>'
+            html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title><style>body{{font:18px sans-serif;margin:30px;background:{state.background}}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()

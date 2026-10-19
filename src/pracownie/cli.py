@@ -12,7 +12,7 @@ import httpx
 from .github import GitHubStore
 from .model import load_sites, local_day
 from .pipeline import RunOptions, run_scan
-from .report import bundle_report, coverage, verify_outputs
+from .report import bundle_report, coverage, restore_report, verify_outputs
 from .state import StateStore
 
 
@@ -35,6 +35,7 @@ def parser() -> argparse.ArgumentParser:
     run.add_argument("--retries", type=int, default=1)
     run.add_argument("--browser-executable")
     run.add_argument("--no-ocr", action="store_true")
+    run.add_argument("--resume", action="store_true", help="Wykorzystaj poprawne odczyty z tego samego dnia i napraw pozostałe")
     run.add_argument("--github", action="store_true", help="Pobierz stan i zapisz wyniki w GitHub Releases")
     run.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", "MateuszD0/Pracownie"))
     run.add_argument("--namespace", default="monitor")
@@ -91,6 +92,8 @@ def execute(args) -> int:
             namespace = "monitor-pilot"
         # A pilot must not alter production local state either.
         args.state_dir = args.state_dir / "pilot"
+        if args.output == Path("raporty"):
+            args.output = args.output / "pilot"
     if args.domains:
         selected = set(args.domains.split(","))
         unknown = selected - {s.domain for s in sites}
@@ -107,7 +110,7 @@ def execute(args) -> int:
         day=args.day, concurrency=args.concurrency, domain_timeout=args.domain_timeout,
         budget_seconds=args.budget_seconds, max_scenarios=args.max_scenarios,
         retries=args.retries, browser_executable=args.browser_executable,
-        navigation_timeout=args.navigation_timeout, settle_ms=args.settle_ms, ocr=not args.no_ocr,
+        navigation_timeout=args.navigation_timeout, settle_ms=args.settle_ms, ocr=not args.no_ocr, resume=args.resume,
     )
     store = StateStore(args.state_dir)
     remote = None
@@ -122,6 +125,16 @@ def execute(args) -> int:
                 # This reversible, owned empty release verifies the actual write capability.
                 # No baseline pointer is created before a successful scan/report transaction.
                 remote.release(f"{namespace}-state-v1", create=True)
+                if args.resume and record and record["day"] == (args.day or local_day()):
+                    asset_id = record["report_assets"][-1]
+                    asset = remote.request("GET", f"{remote.prefix}/releases/assets/{asset_id}").json()
+                    incoming = store.root / "incoming-report.zip"
+                    expected = asset.get("digest", "").removeprefix("sha256:") or None
+                    remote.download(asset, incoming, expected)
+                    try:
+                        restore_report(incoming, args.output, record["day"], record["run_id"])
+                    finally:
+                        incoming.unlink(missing_ok=True)
             outcome = asyncio.run(run_scan(sites, store, args.output, options))
             metadata = outcome["metadata"]
             day = metadata["day"]

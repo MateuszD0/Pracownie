@@ -2,13 +2,15 @@ from __future__ import annotations
 
 import json
 import shutil
+import tempfile
 import zipfile
 from collections import Counter
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
 
-from .model import WARSAW, Result, digest, json_bytes
+from .extract import is_listing_title
+from .model import WARSAW, Change, Result, Site, digest, json_bytes, safe_path
 from .state import atomic_write
 
 STATUS = {
@@ -60,6 +62,10 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
         "UWAGA: brak zmian dotyczy wyłącznie poprawnie odczytanego zakresu. Skan raz dziennie nie wykrywa zmian pomiędzy skanami.",
         "", "NAJWAŻNIEJSZE ZMIANY", "",
     ]
+    if metadata.get("reused_domains"):
+        lines.insert(10, f"Tryb naprawczy: wykorzystano poprawne odczyty {len(metadata['reused_domains'])} domen z tego samego dnia; przy wpisach podano ich rzeczywiste godziny.")
+    for correction in metadata.get("selection_corrections", []):
+        lines.insert(10, f"Korekta początkowego wyboru ({correction['domain']}): {correction['reason']} Punkt odniesienia karty utworzono ponownie.")
     highlights = []
     for result in results:
         for change in result.changes:
@@ -167,3 +173,81 @@ def bundle_report(root: Path, day: str, destination: Path):
     with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for path in [root / f"{day}.txt", *sorted(p for p in (root / day).rglob("*") if p.is_file())]:
             archive.write(path, "raporty/" + path.relative_to(root).as_posix())
+
+
+def restore_report(archive_path: Path, destination: Path, day: str, expected_run: str):
+    """Restore only a verified report bound to the committed state record."""
+    destination.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(dir=destination) as temporary:
+        staging = Path(temporary)
+        with zipfile.ZipFile(archive_path) as archive:
+            if sum(info.file_size for info in archive.infolist()) > 1_500_000_000:
+                raise ValueError("Archiwum raportu jest zbyt duże")
+            if len(archive.namelist()) != len(set(archive.namelist())):
+                raise ValueError("Powtórzone ścieżki w raporcie")
+            for info in archive.infolist():
+                if not info.filename.startswith("raporty/"):
+                    raise ValueError("Nieoczekiwany katalog w archiwum raportu")
+                relative = info.filename.removeprefix("raporty/")
+                if not relative and info.is_dir():
+                    continue
+                target = safe_path(staging, relative)
+                if info.is_dir():
+                    target.mkdir(parents=True, exist_ok=True)
+                    continue
+                if (info.external_attr >> 16) & 0o170000 == 0o120000:
+                    raise ValueError("Dowiązania w raporcie są niedozwolone")
+                target.parent.mkdir(parents=True, exist_ok=True)
+                with archive.open(info) as source, target.open("wb") as stream:
+                    shutil.copyfileobj(source, stream)
+        verify_outputs(staging, day)
+        manifest_path = staging / day / "manifest.json"
+        manifest = json.loads(manifest_path.read_text())
+        if manifest["run_id"] != expected_run or manifest["day"] != day:
+            raise ValueError("Raport nie odpowiada zatwierdzonemu stanowi")
+        allowed = set(manifest["files"]) | {f"{day}/manifest.json"}
+        if any(p.relative_to(staging).as_posix() not in allowed for p in staging.rglob("*") if p.is_file()):
+            raise ValueError("Archiwum zawiera pliki spoza manifestu")
+        # Earlier v1 archives had no owner field. Their ownership is proven by the
+        # owned release, committed asset ID, run ID and verified per-file hashes.
+        manifest["owner"] = "pracownie-monitor:v1"
+        atomic_write(manifest_path, json_bytes(manifest))
+        install_outputs(staging, destination, day, "restore")
+
+
+def resume_data(root: Path, day: str, sites: list[Site], state: dict) -> tuple[set[str], list[Result], dict]:
+    path = root / day / "zmiany.json"
+    if state.get("day") != day or not path.is_file():
+        return set(), [], {}
+    verify_outputs(root, day)
+    data = json.loads(path.read_text())
+    if data.get("schema") != 1:
+        raise ValueError("Nieobsługiwana wersja raportu do wznowienia")
+    results = []
+    for entry in data["results"]:
+        entry = dict(entry)
+        entry["changes"] = [Change(**change) for change in entry["changes"]]
+        results.append(Result(**entry))
+    if {r.domain for r in results} != {s.domain for s in sites}:
+        raise ValueError("Istniejący raport ma inny zakres domen; wybierz osobny --output")
+    completed = set()
+    for site in sites:
+        if is_listing_title(state["selections"].get(site.domain, {}).get("name", "")):
+            continue
+        rows = [r for r in results if r.domain == site.domain]
+        if any(r.error for r in rows):
+            continue
+        observed = [r for r in rows if r.observed_at]
+        pages = {r.page for r in observed if r.scenario == "podstawowy"}
+        if not {"glowna", "projekt"} <= pages:
+            continue
+        if site.project_url and state["selections"].get(site.domain, {}).get("url") != site.project_url:
+            continue
+        if any(f"{site.domain}/{scenario.page}/{scenario.id}" not in state["snapshots"] for scenario in site.scenarios):
+            continue
+        if any("adapter:" + rule["key"] not in state["snapshots"].get(f"{site.domain}/{rule.get('page', 'projekt')}/podstawowy", {}).get("fields", {}) for rule in site.field_selectors):
+            continue
+        valid = all(state["snapshots"].get(f"{r.domain}/{r.page}/{r.scenario}", {}).get("observed_at") == r.observed_at for r in observed)
+        if valid:
+            completed.add(site.domain)
+    return completed, [r for r in results if r.domain in completed], data["metadata"]

@@ -15,6 +15,8 @@ W zakładce Actions wybierz workflow i Run workflow:
 - pilot: pięć domen, osobny stan i archiwum monitor-pilot;
 - full: wszystkie 65 domen, stan i archiwum monitor.
 
+Ponowienie tego samego dnia domyślnie naprawia brakujące odczyty. Poprawne scenariusze są odtwarzane z zatwierdzonego archiwum i zachowują rzeczywiste godziny odczytu. Zaznacz rescan, aby wykonać wszystkie odczyty ponownie. Każdego nowego dnia wszystkie domeny są odczytywane od początku.
+
 Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Releases. Nie dodawaj osobistego tokenu do kodu. Workflow nie zmienia widoczności repozytorium. W publicznym repozytorium opublikowane raporty również są publiczne.
 
 W Releases znajdziesz „Raport YYYY-MM-DD” z TXT i ZIP. ZIP zawiera folder raporty, plik dnia i podfolder dnia z dowodami. Pliki kontrolki.json pomagają dopracować adaptery. Zmiany są też dostępne maszynowo w zmiany.json, a zakres odczytu w pokrycie.json.
@@ -40,7 +42,7 @@ uv sync --frozen
 uv run playwright install --with-deps chromium
 uv run pracownie doctor
 uv run pracownie run --scope pilot
-uv run pracownie verify
+uv run pracownie verify --output raporty/pilot
 ~~~
 
 W środowisku z istniejącym systemowym Chromium można wybrać binarną przeglądarkę:
@@ -54,6 +56,8 @@ Wersja przeglądarki jest zapisywana w stanie. Po jej zmianie porównanie obrazu
 Środowisko z proxy musi zapewniać prawidłowe zaufanie do jego certyfikatu w przeglądarce. Narzędzie nie wyłącza TLS i nie importuje samodzielnie certyfikatów. HTTP i Chromium mogą korzystać z różnych magazynów zaufania. W razie błędu certyfikatu raport zawiera błąd, a poprzedni stan pozostaje zachowany.
 
 Lokalne katalogi .monitor i raporty są ignorowane przez Git. Stan pilotażu ma oddzielny podkatalog. Przy własnych eksperymentach wybieraj osobny --state-dir i --output. Argument --day służy testom i kontrolowanym odtworzeniom; normalny skan sam ustala datę warszawską.
+
+Lokalny tryb naprawczy włącza --resume. Wznawiane są wyłącznie poprawne odczyty znanych scenariuszy tego samego dnia, powiązane z utrwalonym stanem. Błędy, brak punktu odniesienia, inne zakresy domen i nowe jawne scenariusze wymagają ponownego sprawdzenia. Przy odtwarzaniu z GitHuba weryfikowane są powiązanie z uruchomieniem oraz sumy kontrolne plików.
 
 Zapis i odtworzenie z GitHuba poza Actions wymagają dostępnego GITHUB_TOKEN lub GH_TOKEN z właściwym zakresem:
 

@@ -11,7 +11,7 @@
     {
       "domain": "1001studio.pl",
       "home_url": "https://1001studio.pl",
-      "project_url": null,
+      "project_url": "https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -23,13 +23,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.106470+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://1001studio.pl",
+        "browser_verified_at": "2026-10-19T19:31:30.958846+00:00"
+      },
+      "project_name": "Projekt domu BOLONIA – bliźniak (dla jednego segmentu)"
     },
     {
       "domain": "alexanderstudio.pl",
       "home_url": "https://alexanderstudio.pl",
-      "project_url": null,
+      "project_url": "https://alexanderstudio.pl/produkt/carmen-magdalena-a/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -41,13 +45,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.107036+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://alexanderstudio.pl/projekty-duzych-domow-jednorodzinnych/",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://alexanderstudio.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Carmen Magdalena A"
     },
     {
       "domain": "archand.pl",
       "home_url": "https://archand.pl",
-      "project_url": null,
+      "project_url": "https://www.archand.pl/projekty/perfetto-3-modern/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -59,13 +72,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.107558+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży.",
+        "source": "https://archand.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Perfetto 3 modern"
     },
     {
       "domain": "archdesign.pl",
-      "home_url": "https://archdesign.pl",
-      "project_url": null,
+      "home_url": "https://www.archdesign.pl",
+      "project_url": "https://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -77,8 +94,13 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.107946+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; interakcje są raportowane osobno.",
+        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak publicznego rankingu sprzedaży.",
+        "source": "https://www.archdesign.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "DN 051"
     },
     {
       "domain": "archdom.pl",
@@ -95,13 +117,19 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.108355+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "initial_choice_correction": {
+          "from_url": "https://archdom.pl/kategoria-produktu/najnowsze-projekty-domow/",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        }
+      },
+      "product_url_pattern": "/(?:produkt|product)/[^/]+/?$"
     },
     {
       "domain": "archeton.pl",
       "home_url": "https://archeton.pl",
-      "project_url": null,
+      "project_url": "https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -113,13 +141,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.108666+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; interakcje są raportowane osobno.",
+        "basis": "Pierwszy projekt domu mieszkalnego w publicznej sekcji „Najczęściej kupowane”; wcześniejsze pozycje to garaże.",
+        "source": "https://archeton.pl/najczesciej-kupowane",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Celia Mini"
     },
     {
       "domain": "archetyp.pl",
       "home_url": "https://archetyp.pl",
-      "project_url": null,
+      "project_url": "https://archetyp.pl/projekt/lifi/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -131,13 +163,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.109217+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://archetyp.pl",
+        "browser_verified_at": "2026-10-19T19:33:23.686857+00:00"
+      },
+      "project_name": "Lifi- projekt domu"
     },
     {
       "domain": "archi-projekt.com.pl",
       "home_url": "https://archi-projekt.com.pl",
-      "project_url": null,
+      "project_url": "https://archi-projekt.com.pl/product/aps-343-porotherm/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -149,8 +185,12 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.109627+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://archi-projekt.com.pl",
+        "browser_verified_at": "2026-10-19T19:33:53.204499+00:00"
+      },
+      "project_name": "APS 343 POROTHERM"
     },
     {
       "domain": "archido.pl",
@@ -173,7 +213,7 @@
     {
       "domain": "archipelag.pl",
       "home_url": "https://archipelag.pl",
-      "project_url": null,
+      "project_url": "https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -187,13 +227,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:00.212213+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: TOP - hity naszej kolekcji. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://www.archipelag.pl/projekty-domow/top-100-hity-naszej-kolekcji",
+        "browser_verified_at": "2026-10-19T19:34:03.735846+00:00"
+      },
+      "project_name": "Alison III G2"
     },
     {
       "domain": "archstodola.pl",
       "home_url": "https://archstodola.pl",
-      "project_url": null,
+      "project_url": "https://archstodola.pl/stodola-chalet-p-14.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -205,13 +249,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:00.590307+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://archstodola.pl",
+        "browser_verified_at": "2026-10-19T19:34:04.609468+00:00"
+      },
+      "project_name": "STODOŁA CHALET"
     },
     {
       "domain": "dobredomy.pl",
       "home_url": "https://dobredomy.pl",
-      "project_url": null,
+      "project_url": "https://www.dobredomy.pl/projekt/jantarVII",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -225,17 +273,21 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:01.135289+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: Polecane projekty. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://www.dobredomy.pl/projekty/polecane_projekty/",
+        "browser_verified_at": "2026-10-19T19:34:23.298007+00:00"
       },
       "product_url_pattern": "/projekt/[^/?#]+/?$",
       "ignore_resource_hosts": [
         "adsearch.adkontekst.pl"
-      ]
+      ],
+      "project_name": "Projekt domu Jantar VII"
     },
     {
       "domain": "dom-projekt.pl",
       "home_url": "https://dom-projekt.pl",
-      "project_url": null,
+      "project_url": "https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -247,8 +299,12 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:01.280089+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://dom-projekt.pl",
+        "browser_verified_at": "2026-10-19T19:34:39.085378+00:00"
+      },
+      "project_name": "gryfice 31 pcr"
     },
     {
       "domain": "domdlaciebie.com.pl",
@@ -271,7 +327,7 @@
     {
       "domain": "domenadom.pl",
       "home_url": "https://domenadom.pl",
-      "project_url": null,
+      "project_url": "https://domenadom.pl/p/domena-169-a1-i532",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -283,13 +339,18 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:01.903472+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://domenadom.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Domena 169 A1",
+      "product_url_pattern": "/p/[^/]+-i\\d+/?$"
     },
     {
       "domain": "dominanta.pl",
       "home_url": "https://dominanta.pl",
-      "project_url": null,
+      "project_url": "https://www.dominanta.pl/projekty-domow/lolek-ii-n",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -301,13 +362,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:02.147869+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://www.dominanta.pl/projekty-domow/domy-energooszczedne",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://dominanta.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Lolek II N"
     },
     {
       "domain": "domoweklimaty.pl",
       "home_url": "https://domoweklimaty.pl",
-      "project_url": null,
+      "project_url": "https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -321,14 +391,18 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:02.303507+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: - Domowe Klimaty. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://www.domoweklimaty.pl/projekty-domow-najpopularniejsze-projekty-2024/",
+        "browser_verified_at": "2026-10-19T19:35:50.261086+00:00"
       },
-      "product_url_pattern": "/projekt/[^/?#]+/?$"
+      "product_url_pattern": "/projekt/[^/?#]+/?$",
+      "project_name": "PROJEKT DOMU AKORD 14 T"
     },
     {
       "domain": "dompasja.pl",
       "home_url": "https://dompasja.pl",
-      "project_url": null,
+      "project_url": "https://dompasja.pl/dompasja-61b.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -340,8 +414,12 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:02.690180+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://dompasja.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Dompasja 61B"
     },
     {
       "domain": "dompp.pl",
@@ -382,7 +460,7 @@
     {
       "domain": "domywstylu.pl",
       "home_url": "https://domywstylu.pl",
-      "project_url": null,
+      "project_url": "https://www.domywstylu.pl/projekt-domu-malutki_12.php",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -394,13 +472,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:03.483373+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://domywstylu.pl",
+        "browser_verified_at": "2026-10-19T19:36:27.456012+00:00"
+      },
+      "project_name": "MALUTKI 12 – projekt domu z poddaszem, 107 m²"
     },
     {
       "domain": "domyzweranda.pl",
       "home_url": "https://domyzweranda.pl",
-      "project_url": null,
+      "project_url": "https://domyzweranda.pl/projekty/uroczy-klasyczny-82",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -412,13 +494,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:03.535978+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Oznaczenie bestseller w kontekście karty/linku.",
+        "source": "https://domyzweranda.pl",
+        "browser_verified_at": "2026-10-19T19:36:52.994780+00:00"
+      },
+      "project_name": "Uroczy Klasyczny 82"
     },
     {
       "domain": "e-domy.pl",
       "home_url": "https://e-domy.pl",
-      "project_url": null,
+      "project_url": "https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -430,13 +516,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:04.126411+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://e-domy.pl",
+        "browser_verified_at": "2026-10-19T19:37:16.821108+00:00"
+      },
+      "project_name": "E-268a Dom parterowy na planie kwadratu"
     },
     {
       "domain": "eg-domy.pl",
       "home_url": "https://eg-domy.pl",
-      "project_url": null,
+      "project_url": "https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -448,13 +538,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:04.222230+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://eg-domy.pl",
+        "browser_verified_at": "2026-10-19T19:38:08.082040+00:00"
+      },
+      "project_name": "WYSZUKANY D64 wariant II"
     },
     {
       "domain": "extradom.pl",
       "home_url": "https://extradom.pl",
-      "project_url": null,
+      "project_url": "https://www.extradom.pl/projekt-domu-tracja-2-WOE1114",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -468,14 +562,18 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:04.933414+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: Nagroda publiczności: najpopularniejsze projekty domów w 2026 roku. Wyniki głosowania na Extraprojekt 2027. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://www.extradom.pl/porady/artykul-extraprojekt-najpopularniejsze-projekty-domow-2026",
+        "browser_verified_at": "2026-10-19T19:58:12.287043+00:00"
       },
-      "product_url_pattern": "/projekt-domu-[^/?#]+/?$"
+      "product_url_pattern": "/projekt-domu-[^/?#]+/?$",
+      "project_name": "Projekt domu Tracja 2 WOE1114"
     },
     {
       "domain": "galeriadomow.pl",
       "home_url": "https://galeriadomow.pl",
-      "project_url": null,
+      "project_url": "https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -487,13 +585,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:05.017474+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://galeriadomow.pl",
+        "browser_verified_at": "2026-10-19T19:38:58.212828+00:00"
+      },
+      "project_name": "Projekt domu - Dom przy Bukowej 14"
     },
     {
       "domain": "hbstudio.pl",
       "home_url": "https://hbstudio.pl",
-      "project_url": null,
+      "project_url": "https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -505,13 +607,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:05.455626+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://hbstudio.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Groszek — dach dwuspadowy"
     },
     {
       "domain": "hexagreen.pl",
       "home_url": "https://hexagreen.pl",
-      "project_url": null,
+      "project_url": "https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -523,13 +629,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:05.496151+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://hexagreen.pl",
+        "browser_verified_at": "2026-10-19T19:39:12.785940+00:00"
+      },
+      "project_name": "HG 01 Premium"
     },
     {
       "domain": "housecollection.pl",
       "home_url": "https://housecollection.pl",
-      "project_url": null,
+      "project_url": "https://housecollection.pl/strona-glowna/dom-w-toskanii",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -543,13 +653,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:05.943220+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://housecollection.pl/projekty-domow-do-100m2",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://housecollection.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Dom w Toskanii"
     },
     {
       "domain": "kbprojekt.pl",
       "home_url": "https://kbprojekt.pl",
-      "project_url": null,
+      "project_url": "https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -561,13 +680,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:06.123702+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://kbprojekt.pl",
+        "browser_verified_at": "2026-10-19T19:40:43.731531+00:00"
+      },
+      "project_name": "Ragon"
     },
     {
       "domain": "klimatdrewna.pl",
       "home_url": "https://klimatdrewna.pl",
-      "project_url": null,
+      "project_url": "https://klimatdrewna.pl/projekt/ranek/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -579,13 +702,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:06.541365+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://klimatdrewna.pl",
+        "browser_verified_at": "2026-10-19T19:41:15.776238+00:00"
+      },
+      "project_name": "„Ranek”"
     },
     {
       "domain": "kreatywnedomy.pl",
       "home_url": "https://kreatywnedomy.pl",
-      "project_url": null,
+      "project_url": "https://kreatywnedomy.pl/projekt/kd_2402m/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -597,13 +724,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:06.833463+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://kreatywnedomy.pl",
+        "browser_verified_at": "2026-10-19T19:42:23.916314+00:00"
+      },
+      "project_name": "KD_2402M"
     },
     {
       "domain": "kreodom.pl",
       "home_url": "https://kreodom.pl",
-      "project_url": null,
+      "project_url": "https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -615,13 +746,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:06.959959+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://kreodom.pl",
+        "browser_verified_at": "2026-10-19T19:43:12.862470+00:00"
+      },
+      "project_name": "PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706"
     },
     {
       "domain": "lipinscy.pl",
       "home_url": "https://lipinscy.pl",
-      "project_url": null,
+      "project_url": "https://lipinscy.pl/projekt/annecy/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -633,9 +768,13 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:07.034610+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://lipinscy.pl",
+        "browser_verified_at": "2026-10-19T19:43:14.819286+00:00"
       },
-      "product_url_pattern": "/projekt/[^/?#]+/?$"
+      "product_url_pattern": "/projekt/[^/?#]+/?$",
+      "project_name": "ANNECY 357,32m²"
     },
     {
       "domain": "lk-projekt.pl",
@@ -675,8 +814,8 @@
     },
     {
       "domain": "mtmstyl.com.pl",
-      "home_url": "https://mtmstyl.com.pl",
-      "project_url": null,
+      "home_url": "https://www.mtmstyl.com.pl",
+      "project_url": "https://www.mtmstyl.com.pl/projekt-domu-malutki_12.php",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -688,13 +827,18 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:07.841299+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży.",
+        "source": "https://mtmstyl.com.pl",
+        "http_verified_at": "2026-10-19",
+        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu."
+      },
+      "project_name": "Malutki 12"
     },
     {
       "domain": "myhome.eco",
       "home_url": "https://myhome.eco",
-      "project_url": null,
+      "project_url": "https://myhome.eco/produkt/dom-mod-1/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -706,12 +850,16 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:07.880315+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://myhome.eco",
+        "browser_verified_at": "2026-10-19T19:44:50.861849+00:00"
+      },
+      "project_name": "DOM MOD 1"
     },
     {
       "domain": "nowoczesne-projektydomow.pl",
-      "home_url": "https://nowoczesne-projektydomow.pl",
+      "home_url": "https://www.nowoczesne-projektydomow.pl",
       "project_url": null,
       "inspection": "pending",
       "scenarios": [],
@@ -724,13 +872,14 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:08.373601+00:00",
         "http_status": 403,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu."
       }
     },
     {
       "domain": "ototwojdom.pl",
       "home_url": "https://ototwojdom.pl",
-      "project_url": null,
+      "project_url": "https://ototwojdom.pl/oto70pietrowy-wariant-schody-korytarz/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -742,13 +891,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:08.834975+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://ototwojdom.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "OTO70 Piętrowy — schody w korytarzu"
     },
     {
       "domain": "penthus.pl",
       "home_url": "https://penthus.pl",
-      "project_url": null,
+      "project_url": "https://www.penthus.pl/projects/hus-167",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -760,13 +913,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:09.013546+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://penthus.pl",
+        "browser_verified_at": "2026-10-19T19:45:51.816587+00:00"
+      },
+      "project_name": "HUS 167"
     },
     {
       "domain": "pioroarchitekci.pl",
       "home_url": "https://pioroarchitekci.pl",
-      "project_url": null,
+      "project_url": "https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -778,13 +935,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:09.119998+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://pioroarchitekci.pl",
+        "browser_verified_at": "2026-10-19T19:45:59.806076+00:00"
+      },
+      "project_name": "PióroArchitekci - 10"
     },
     {
       "domain": "planujdom.pl",
       "home_url": "https://planujdom.pl",
-      "project_url": null,
+      "project_url": "https://planujdom.pl/projekty-domow/projekt-domu-d-072/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -796,13 +957,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:09.182843+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://planujdom.pl",
+        "browser_verified_at": "2026-10-19T19:46:55.535310+00:00"
+      },
+      "project_name": "Projekt domu PLANUJDOM 072"
     },
     {
       "domain": "pollio.pl",
       "home_url": "https://pollio.pl",
-      "project_url": null,
+      "project_url": "https://pollio.pl/projekty-domow/projekt/xb8/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -814,13 +979,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:09.597523+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://pollio.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Xb8"
     },
     {
       "domain": "polskiedomki.pl",
       "home_url": "https://polskiedomki.pl",
-      "project_url": null,
+      "project_url": "https://www.polskiedomki.pl/produkt/lk1322_4124.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -832,13 +1001,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:09.647423+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://polskiedomki.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "LK&1322"
     },
     {
       "domain": "postawdom24.pl",
       "home_url": "https://postawdom24.pl",
-      "project_url": null,
+      "project_url": "https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -850,13 +1023,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:10.228136+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Oznaczenie bestseller w kontekście karty/linku.",
+        "source": "https://postawdom24.pl",
+        "browser_verified_at": "2026-10-19T19:47:26.758014+00:00"
+      },
+      "project_name": "Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2"
     },
     {
       "domain": "praktyczneprojekty.pl",
       "home_url": "https://praktyczneprojekty.pl",
-      "project_url": null,
+      "project_url": "https://praktyczneprojekty.pl/b11___75m2lok.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -870,13 +1047,18 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:10.489948+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży.",
+        "source": "https://praktyczneprojekty.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "B11 — 75 m²/lokal",
+      "product_url_pattern": "/[a-z]\\d+[^/]*\\.html$"
     },
     {
       "domain": "pro-arte.pl",
       "home_url": "https://pro-arte.pl",
-      "project_url": null,
+      "project_url": "https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -888,13 +1070,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:10.811296+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://pro-arte.pl",
+        "browser_verified_at": "2026-10-19T19:47:37.752768+00:00"
+      },
+      "project_name": "TRYPOLIS 7 szkielet drewniany"
     },
     {
       "domain": "profesjonalne-projekty-domow.pl",
       "home_url": "https://profesjonalne-projekty-domow.pl",
-      "project_url": null,
+      "project_url": "https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -906,13 +1092,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:10.821955+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "http://profesjonalne-projekty-domow.pl/_cms/view/15/dobor-najlepszego-projektu-typowego-.html",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://profesjonalne-projekty-domow.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Dom Mistrza Aleksandra — wersja podstawowa"
     },
     {
       "domain": "projektdomudo100m2.pl",
       "home_url": "https://projektdomudo100m2.pl",
-      "project_url": null,
+      "project_url": "https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -926,13 +1121,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:11.910958+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: Projekt domu parterowego 100 m². Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://www.projektdomudo100m2.pl/dom-parterowy-100m2/",
+        "browser_verified_at": "2026-10-19T19:48:53.747951+00:00"
+      },
+      "project_name": "Projekt domu parterowego 100 m² – dach czterospadowy"
     },
     {
       "domain": "projektstodola.pl",
       "home_url": "https://projektstodola.pl",
-      "project_url": null,
+      "project_url": "https://projektstodola.pl/produkt/projekt-dwie-stodoly/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -944,13 +1143,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:11.971515+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://projektstodola.pl",
+        "browser_verified_at": "2026-10-19T19:49:23.817957+00:00"
+      },
+      "project_name": "Projekt Dwie Stodoły"
     },
     {
       "domain": "projektydomow.redcart.pl",
       "home_url": "https://projektydomow.redcart.pl",
-      "project_url": null,
+      "project_url": "https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -962,13 +1165,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:12.636149+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://projektydomow.redcart.pl",
+        "browser_verified_at": "2026-10-19T19:49:53.251983+00:00"
+      },
+      "project_name": "Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2"
     },
     {
       "domain": "projektygebala.com",
       "home_url": "https://projektygebala.com",
-      "project_url": null,
+      "project_url": "https://projektygebala.com/projekt/Nowoczesna%20Stodo%C5%82a%20Regulice",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -980,13 +1187,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:12.924713+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://projektygebala.com",
+        "browser_verified_at": "2026-10-19T19:49:57.527114+00:00"
+      },
+      "project_name": "Nowoczesna Stodoła Regulice"
     },
     {
       "domain": "projektyka.pl",
       "home_url": "https://projektyka.pl",
-      "project_url": null,
+      "project_url": "https://projektyka.pl/projekty/ka288",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -998,13 +1209,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:13.030904+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://projektyka.pl",
+        "browser_verified_at": "2026-10-19T19:50:20.969295+00:00"
+      },
+      "project_name": "Ka288"
     },
     {
       "domain": "projektyszkieletowe.pl",
       "home_url": "https://projektyszkieletowe.pl",
-      "project_url": null,
+      "project_url": "https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1016,13 +1231,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:13.256970+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://projektyszkieletowe.pl",
+        "browser_verified_at": "2026-10-19T19:50:27.679908+00:00"
+      },
+      "project_name": "DOM—B55"
     },
     {
       "domain": "projektyzwizja.pl",
       "home_url": "https://projektyzwizja.pl",
-      "project_url": null,
+      "project_url": "https://projektyzwizja.pl/projekty-domow/193,idealny-m3",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1034,13 +1253,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:13.741862+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://projektyzwizja.pl/65,projekty-domow-do-120-m2",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Oznaczenie „Wybór klientów” przy projekcie Idealny M3 na stronie głównej; brak publicznej liczby sprzedaży.",
+        "source": "https://projektyzwizja.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Idealny M3"
     },
     {
       "domain": "sej-pro.pl",
       "home_url": "https://sej-pro.pl",
-      "project_url": null,
+      "project_url": "https://www.sej-pro.pl/projekt/sej-pro-016-energo/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1052,13 +1280,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:13.866281+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://sej-pro.pl",
+        "browser_verified_at": "2026-10-19T19:50:51.491755+00:00"
+      },
+      "project_name": "SEJ-PRO 016 ENERGO"
     },
     {
       "domain": "skahus.pl",
       "home_url": "https://skahus.pl",
-      "project_url": null,
+      "project_url": "https://skahus.pl/produkt/dom-jednorodzinny-parterowy-z-antresola-krzna-49c/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1070,13 +1302,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:14.089490+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://skahus.pl",
+        "browser_verified_at": "2026-10-19T19:52:53.710537+00:00"
+      },
+      "project_name": "Dom jednorodzinny parterowy z antresolą KRZNA 49C"
     },
     {
       "domain": "slonecznedomy.pl",
       "home_url": "https://slonecznedomy.pl",
-      "project_url": null,
+      "project_url": "https://www.slonecznedomy.pl/projekty/sava-b",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1088,13 +1324,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:14.107075+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://www.slonecznedomy.pl/projekty/pompy-ciepla",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://slonecznedomy.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Sava B"
     },
     {
       "domain": "sprytnaoaza.pl",
       "home_url": "https://sprytnaoaza.pl",
-      "project_url": null,
+      "project_url": "https://sprytnaoaza.pl/products/projekt-sprytna-oaza",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1106,13 +1351,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:15.130263+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; przeglądarkowy odczyt oraz interakcje są raportowane osobno.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://sprytnaoaza.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Sprytna Oaza"
     },
     {
       "domain": "studioatrium.pl",
       "home_url": "https://studioatrium.pl",
-      "project_url": null,
+      "project_url": "https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1124,13 +1373,22 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:15.826242+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Konkretna karta zweryfikowana w HTTP; interakcje są raportowane osobno.",
+        "initial_choice_correction": {
+          "from_url": "https://www.studioatrium.pl/projekty-domow/dla-deweloperow/",
+          "selected_day": "2026-10-19",
+          "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
+        },
+        "basis": "Pierwszy projekt z sekcji „Polecane projekty” na stronie głównej; brak publicznego rankingu sprzedaży.",
+        "source": "https://studioatrium.pl",
+        "http_verified_at": "2026-10-19"
+      },
+      "project_name": "Rodrigo SZ"
     },
     {
       "domain": "studiokrajobrazy.pl",
       "home_url": "https://studiokrajobrazy.pl",
-      "project_url": null,
+      "project_url": "https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1142,13 +1400,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:15.876714+00:00",
         "http_status": 503,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Pierwszy poprawny projekt z sekcji: Projekty domów z poddaszem użytkowym z garażem jednostanowiskowym. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
+        "source": "https://studiokrajobrazy.pl/projekty-domow/z-poddaszem-uzytkowym/z-garazem-1-st",
+        "browser_verified_at": "2026-10-19T19:53:21.940719+00:00"
+      },
+      "project_name": "Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L"
     },
     {
       "domain": "teaprojekt.pl",
       "home_url": "https://teaprojekt.pl",
-      "project_url": null,
+      "project_url": "https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1160,13 +1422,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:16.056601+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://teaprojekt.pl",
+        "browser_verified_at": "2026-10-19T19:53:23.214514+00:00"
+      },
+      "project_name": "Projekt domu AR-22 P"
     },
     {
       "domain": "uarchitekta.pl",
       "home_url": "https://uarchitekta.pl",
-      "project_url": null,
+      "project_url": "https://www.uarchitekta.pl/projekt/uA441,6969",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1178,13 +1444,17 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:16.229285+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://uarchitekta.pl",
+        "browser_verified_at": "2026-10-19T19:53:35.817185+00:00"
+      },
+      "project_name": "Projekt domu z poddaszem i garażem dwustanowiskowym uA441"
     },
     {
       "domain": "zbudujsamdom.pl",
       "home_url": "https://zbudujsamdom.pl",
-      "project_url": null,
+      "project_url": "https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -1196,8 +1466,12 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:16.263833+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
+        "source": "https://zbudujsamdom.pl",
+        "browser_verified_at": "2026-10-19T19:53:53.415080+00:00"
+      },
+      "project_name": "Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO"
     }
   ]
 }

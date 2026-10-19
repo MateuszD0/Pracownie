@@ -1,21 +1,31 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import re
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
 from importlib.resources import files
 from pathlib import Path
 from urllib.parse import urlsplit
 
 from playwright.async_api import Browser, Page, async_playwright
+from playwright.async_api import Error as BrowserError
 
-from .extract import MONEY, amount, canonical_url, currency_code, extract_fields, validate_payload
+from .extract import (
+    MONEY,
+    amount,
+    canonical_url,
+    currency_code,
+    extract_fields,
+    page_identity,
+    validate_payload,
+)
 from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
-COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
-UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit", re.I)
+COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
+UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
 
 class TransientFetchError(RuntimeError):
@@ -51,6 +61,8 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
     known_ids = set()
     for control in controls:
         kind, label, selector = control["kind"], control["label"], control["selector"]
+        if control.get("scope") == "search":
+            continue
         if UNSAFE_OPTIONS.search(label + " " + control.get("name", "")):
             continue
         actions = []
@@ -77,14 +89,15 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
         elif kind == "unknown" and re.search(r"konfigur|kalkulator|personaliz|dopasuj|pakiet|dodatk", label, re.I):
             warnings.append(f"Niezweryfikowana kontrolka sprzedażowa: {label[:100]}")
         if actions:
-            identity = kind + "-" + hashlib.sha256(f"{control.get('name') or selector}:{control.get('value', '')}".encode()).hexdigest()[:12]
+            stable_value = control.get("value", "") if kind in {"radio", "checkbox"} else ""
+            identity = kind + "-" + hashlib.sha256(f"{control.get('name') or selector.removeprefix('body > ')}:{stable_value}".encode()).hexdigest()[:12]
             if identity not in known_ids:
                 scenarios.append(Scenario(identity, label, actions, page=page))
                 known_ids.add(identity)
     if len(scenarios) > limit:
         warnings.append(f"Wykryto {len(scenarios)} scenariuszy, limit wynosi {limit}; pokrycie częściowe.")
         scenarios = scenarios[:limit]
-    if any(c["kind"] in {"select", "radio", "checkbox"} and not UNSAFE_OPTIONS.search(c["label"] + " " + c.get("name", "")) for c in controls):
+    if any(c["kind"] in {"select", "radio", "checkbox"} and c.get("scope") != "search" and not UNSAFE_OPTIONS.search(c["label"] + " " + c.get("name", "")) for c in controls):
         warnings.append("Sprawdzane opcje pojedynczo; kombinacje i zależności wymagają zatwierdzonego adaptera.")
     return scenarios, list(dict.fromkeys(warnings))
 
@@ -93,12 +106,14 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
     candidates = []
     for position, link in enumerate(payload.get("links", [])):
         url = canonical_url(link["url"])
-        if not allowed_url(site, url) or url.rstrip("/") == canonical_url(site.home_url).rstrip("/"):
+        if not allowed_url(site, url) or page_identity(url) in {page_identity(site.home_url), page_identity(payload.get("url", site.home_url))}:
             continue
         path = urlsplit(url).path.lower()
-        if re.search(r"\.(pdf|zip|jpg|png|webp)$|/koszyk|/kontakt|/regulamin|/logowanie|/blog|/porady|/informacje|/aktualnosci|/dodatki/|/pakiet-dodatkow/", path):
+        if re.search(r"\.(pdf|zip|jpg|png|webp)$|/koszyk|/kontakt|/regulamin|/logowanie|/blog|/porady|/informacje|/aktualnosci|/dodatki/|/pakiet-dodatkow/|/kategoria-produktu/|/product-category/|/_cms/view/|/content/", path):
             continue
         if re.search(r"/(lista|nowosci|kategorie|ulubione|wszystkie-projekty|polecane_projekty|promocja|energo-plus)/?$", path):
+            continue
+        if re.search(r"^/(o-nas|onas|firma|biuro|pracownia|partnerzy|user|login|register|konto)(/|$)|-c\d+/?$", path):
             continue
         context = (link.get("text", "") + " " + link.get("context", "")).lower()
         detail = bool(re.search(r"projekt[^/]*[/_-].+|/dom[-/].+|/projekty/[^/]+", path))
@@ -107,20 +122,22 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
                 continue
             detail = True
         price = bool(re.search(r"\d\s*(zł|pln)", context))
-        if not (detail or price and link.get("image")):
+        surface = bool(re.search(r"\d[\d,.]*\s*m[²2]", context))
+        named_link = bool(link.get("text")) and not re.match(r"^(projekty|domy|zobacz|więcej|szczegóły|czytaj|przejdź)\b", link["text"], re.I)
+        strong_detail = bool(re.search(r"^/projekt/[^/]+/?$|^/projekt-domu-[^/]+/?$|^/produkt/[^/]+/?$|^/product/[^/]+/?$|^/projects/[^/]+/?$", path))
+        named_image = link.get("image") and named_link
+        if not (strong_detail or detail or (price or surface) and (link.get("image") or named_link) or named_image):
             continue
-        strong_detail = bool(re.search(r"^/projekt/[^/]+/?$|^/projekt-domu-[^/]+/?$", path))
         if not strong_detail and not site.product_url_pattern:
-            card_signal = bool(price or re.search(r"powierzch|\d\s*m[²2]", context))
-            named_image = link.get("image") and bool(link.get("text")) and not re.match(r"^(projekty|domy)\b", link["text"], re.I)
+            card_signal = bool(price or surface or re.search(r"powierzch", context))
             if not card_signal and not named_image:
                 continue
         confidence_penalty = 0 if strong_detail else 1000 if price and link.get("image") else 3000
         rank = 4
         basis = "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży."
-        if "bestseller" in context or "najlepiej sprzed" in context:
+        if re.search(r"bestseller|najlepiej sprzed|najczęściej kupow|najchętniej wybier", context):
             rank, basis = 1, "Oznaczenie bestseller w kontekście karty/linku."
-        elif "najpopular" in context:
+        elif re.search(r"najpopular|wybór klientów", context):
             rank, basis = 2, "Sekcja najpopularniejszych projektów."
         score = rank * 10000 + confidence_penalty + position
         candidates.append((score, {"url": url, "name": link.get("text") or urlsplit(url).path,
@@ -161,6 +178,7 @@ class BrowserScanner:
             await self.manager.stop()
             raise
         self.renderer = f"chromium-{self.browser.version}-playwright-1.56.0-v1-1280x900"
+        self.extractor = hashlib.sha256((EXTRACT + files("pracownie").joinpath("extract.py").read_text() + files("pracownie").joinpath("browser.py").read_text()).encode()).hexdigest()[:16]
         return self
 
     async def __aexit__(self, *args):
@@ -200,6 +218,24 @@ class BrowserScanner:
                 if await button.is_visible():
                     await button.click(timeout=1500)
                     return
+        # WP exposes its refusal button only after opening the consent settings.
+        wp_dialog = page.get_by_role("dialog", name="Plansza informacyjna WP")
+        if await wp_dialog.count() and await wp_dialog.first.is_visible():
+            settings = wp_dialog.get_by_text("Ustawienia zaawansowane", exact=True)
+            if await settings.count():
+                await settings.first.click(timeout=2500)
+                await page.wait_for_timeout(250)
+                refusal = page.get_by_role("button", name=COOKIE_NAMES)
+                for index in range(min(await refusal.count(), 3)):
+                    if await refusal.nth(index).is_visible():
+                        await refusal.nth(index).click(timeout=2500)
+                        return
+
+    async def disable_motion(self, page: Page, warnings: list[str]):
+        try:
+            await page.add_style_tag(content="html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} [data-monitor-ignore]{visibility:hidden!important}")
+        except BrowserError:
+            warnings.append("Nie udało się wyłączyć animacji; porównanie wizualne wymaga oceny.")
 
     async def capture(self, site: Site, page_kind: str, url: str, scenario: Scenario, destination: Path) -> Capture:
         if not allowed_url(site, url):
@@ -210,8 +246,16 @@ class BrowserScanner:
         page = await context.new_page()
         page.set_default_timeout(7000)
         failed_hosts = set()
-        page.on("requestfailed", lambda request: failed_hosts.add(urlsplit(request.url).hostname) if request.resource_type in {"image", "stylesheet"} else None)
+        failed_styles = set()
+        def failed_request(request):
+            if request.resource_type in {"image", "stylesheet"}:
+                host = urlsplit(request.url).hostname
+                failed_hosts.add(host)
+                if request.resource_type == "stylesheet":
+                    failed_styles.add(host)
+        page.on("requestfailed", failed_request)
         warnings = []
+        data_ready = True
         try:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: nawigacja"
             response = await page.goto(url, wait_until="domcontentloaded", timeout=self.navigation_timeout)
@@ -221,22 +265,26 @@ class BrowserScanner:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
             if not allowed_url(site, page.url):
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
-            await page.add_style_tag(content="html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important}")
+            await self.disable_motion(page, warnings)
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: obsługa cookies"
             await self.cookies(page)
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
             await self.settle(page)
+            # Consent managers often appear asynchronously, after DOMContentLoaded.
+            await self.cookies(page)
+            await page.wait_for_timeout(self.settle_ms)
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
             for index in range(await cookie_dialog.count()):
                 element = cookie_dialog.nth(index)
                 if await element.is_visible() and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
                     warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
+                    data_ready = False
             for action in scenario.actions:
                 self.phases[site.domain] = f"{page_kind}/{scenario.id}: interakcja {action['action']}"
                 selector = action.get("selector", "")
                 locator = page.locator(selector)
                 if action["action"] == "click":
-                    text = (await locator.inner_text()).strip()
+                    text = (await locator.inner_text()).strip() or await locator.get_attribute("value") or await locator.get_attribute("alt") or ""
                     if re.search(r"zamawiam.*płac|potwierdź zamówienie|złóż zamówienie|place order|pay now|wyślij zapytanie", text, re.I):
                         raise ValueError("Scenariusz próbuje wysłać zamówienie lub zapytanie; działanie poza zakresem")
                     await locator.click()
@@ -267,7 +315,7 @@ class BrowserScanner:
             for selector in [*page_required, *scenario.required]:
                 if not await page.locator(selector).count() or not await page.locator(selector).first.is_visible():
                     raise ValueError(f"Nie odnaleziono wymaganego elementu: {selector}")
-            await page.add_style_tag(content="*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} [data-monitor-ignore]{visibility:hidden!important}")
+            await self.disable_motion(page, warnings)
             for selector in site.masks:
                 await page.locator(selector).evaluate_all("es => es.forEach(e => e.style.visibility='hidden')")
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: odczyt DOM"
@@ -275,9 +323,12 @@ class BrowserScanner:
             validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
             if payload.get("truncated"):
                 warnings.append("Limit elementów DOM; odczyt częściowy.")
+                data_ready = False
             if await page.evaluate("document.body.scrollHeight") > 24000:
                 warnings.append("Strona dłuższa niż 24000 px; zrzut i przewijanie ograniczone.")
             relevant_failed = failed_hosts - set(site.ignore_resource_hosts)
+            if failed_styles - set(site.ignore_resource_hosts):
+                data_ready = False
             if relevant_failed:
                 warnings.append("Niezaładowane obrazy/style z hostów: " + ", ".join(sorted(str(h) for h in relevant_failed)))
             if any(image["broken"] and image["rendered_width"] >= 80 and image["rendered_height"] >= 50 and urlsplit(image["src"]).hostname not in site.ignore_resource_hosts for image in payload.get("images", [])):
@@ -315,8 +366,8 @@ class BrowserScanner:
             snapshot = Snapshot(
                 domain=site.domain, page=page_kind, scenario=scenario.id, url=canonical_url(page.url),
                 observed_at=timestamp, title=payload.get("h1") or payload["title"], fields=fields,
-                sections=sections, image="", renderer=self.renderer, warnings=warnings,
-                quality="partial" if warnings else "ok",
+                sections=sections, image="", renderer=self.renderer + "|extractor=" + self.extractor + "-" + hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12], warnings=warnings,
+                quality="partial" if not data_ready else "ok" if fields else "visual",
             )
             return Capture(snapshot, payload, destination, payload.get("controls", []))
         finally:
@@ -345,10 +396,12 @@ class BrowserScanner:
             if selection["url"] in seen:
                 continue
             seen.add(selection["url"])
-            if len(seen) > 4:
+            if len(seen) > 8:
                 break
             try:
                 capture = await self.capture(site, "projekt", selection["url"], Scenario("podstawowy", "Wariant podstawowy"), directory / "projekt.png")
+                if page_identity(capture.snapshot.url) in {page_identity(site.home_url), page_identity(home.snapshot.url)}:
+                    raise ValueError("Kandydat przekierował na stronę główną zamiast karty projektu")
                 selection["name"] = capture.snapshot.title
                 return selection, capture, warnings
             except Exception as exc:

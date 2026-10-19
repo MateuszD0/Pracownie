@@ -53,6 +53,16 @@ def canonical_url(url: str) -> str:
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), ""))
 
 
+def is_listing_title(title: str) -> bool:
+    pattern = r"^(projekty\b|wszystkie projekty|najnowsze projekty|polecane projekty|najpopularniejsze projekty|nasze projekty|nowo[śs]ci\b|nasz katalog|bestsell|top\s*\d+|hity\b|domy\s+(dla|do|z\b|parterowe|piętrowe|nowoczesne|energooszczędne)|z poddaszem|parterowe\b|piętrowe\b|logowanie\b|rejestracja\b|pompy ciepła|jak\s|dlaczego\s|poradnik\b|katalog\b|lista projektów)"
+    return bool(re.search(pattern, normalize(title), re.I))
+
+
+def page_identity(url: str) -> tuple:
+    parts = urlsplit(canonical_url(url))
+    return ((parts.hostname or "").removeprefix("www."), parts.path.rstrip("/"), parts.query)
+
+
 def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] | None = None) -> tuple[dict[str, Field], list[str]]:
     fields: dict[str, Field] = {}
     sections = list(dict.fromkeys(["oferta"] + [slug(x) for x in payload.get("sections", [])]))
@@ -132,8 +142,9 @@ def validate_payload(payload: dict, product: bool = False) -> None:
         raise ValueError("Strona blokady lub weryfikacji zamiast oferty")
     if len(text) < 40:
         raise ValueError("Pusta lub niekompletna strona")
-    if product and not (
-        payload.get("products") or payload.get("prices") or
-        re.search(r"powierzch|projekt domu|kosztorys|do koszyka", text, re.I)
-    ):
-        raise ValueError("Nie potwierdzono, że wybrany adres jest kartą projektu")
+    if product:
+        title = normalize(payload.get("h1") or payload.get("title", ""))
+        if is_listing_title(title):
+            raise ValueError("Adres prowadzi do kategorii, poradnika lub dodatku, a nie pojedynczego projektu")
+        if not (payload.get("products") or title and re.search(r"powierzch|projekt domu|opis projektu|rzuty|kosztorys|do koszyka", text, re.I)):
+            raise ValueError("Nie potwierdzono, że wybrany adres jest kartą projektu")

@@ -1,5 +1,15 @@
 () => {
-  const visible = e => !!(e.getClientRects().length && getComputedStyle(e).visibility !== 'hidden');
+  const visible = e => {
+    if (!e.getClientRects().length || getComputedStyle(e).visibility === 'hidden') return false;
+    if (e.checkVisibility && !e.checkVisibility({visibilityProperty:true})) return false;
+    for (let parent=e.parentElement; parent; parent=parent.parentElement) {
+      if (parent.tagName === 'DETAILS' && !parent.open) {
+        const summary=parent.querySelector(':scope > summary');
+        if (!summary || !summary.contains(e)) return false;
+      }
+    }
+    return true;
+  };
   const clean = s => (s || '').replace(/\s+/g, ' ').trim();
   const css = e => {
     if (e.id && document.querySelectorAll('#' + CSS.escape(e.id)).length === 1) return '#' + CSS.escape(e.id);
@@ -50,20 +60,21 @@
     try { walk(JSON.parse(e.textContent)); } catch { /* malformed structured data is optional */ }
   }
   const links = [...document.querySelectorAll('a[href]')].filter(e => visible(e) && !e.closest('nav,[role=navigation],footer')).slice(0,2000).map(e => ({
-    url:e.href, text:clean(e.innerText || e.getAttribute('aria-label') || e.querySelector('img')?.alt),
-    context:clean(e.closest('article,li,[class*=card],[class*=product],[class*=projekt]')?.innerText).slice(0,500),
+    url:e.href, text:clean(e.getAttribute('aria-label') || e.querySelector('img')?.alt || e.innerText || e.getAttribute('title')),
+    context:clean(e.closest('article,li,[class*=card],[class*=product],[class*=projekt],[class*=offer],[class*=item]')?.innerText).slice(0,500),
     image:!!e.querySelector('img'),
   }));
   const controls = [];
-  for (const e of document.querySelectorAll('summary,[role=tab],button,a[data-toggle=tab],a[data-bs-toggle=tab],a[class*=button],a[class*=btn],a[href*=koszyk],a[href*=zamow],a[href*=cart],select,input[type=radio],input[type=checkbox]')) {
+  for (const e of document.querySelectorAll('summary,[role=tab],button,a[data-toggle=tab],a[data-bs-toggle=tab],a[class*=button],a[class*=btn],a[href*=koszyk],a[href*=zamow],a[href*=cart],select,input[type=radio],input[type=checkbox],input[type=submit],input[type=button],input[type=image]')) {
     if (!visible(e) || e.closest('#CybotCookiebotDialog,#onetrust-banner-sdk,#onetrust-pc-sdk')) continue;
-    const label = clean(e.getAttribute('aria-label') || e.labels?.[0]?.innerText || e.innerText || e.getAttribute('title') || e.name);
+    const label = clean(e.getAttribute('aria-label') || e.labels?.[0]?.innerText || e.innerText || e.getAttribute('alt') || (e.tagName === 'INPUT' ? e.value : '') || e.getAttribute('title') || e.querySelector('img')?.alt || e.name);
     let kind = e.tagName === 'SUMMARY' ? 'expand' : e.getAttribute('role') === 'tab' || e.dataset.toggle === 'tab' || e.dataset.bsToggle === 'tab' ? 'tab' : 'unknown';
     if (e.tagName === 'SELECT') kind = 'select';
     if (e.tagName === 'INPUT') kind = e.type;
     if (/^(dodaj do koszyka|do koszyka|dodaj projekt do koszyka|add to cart|zamów (ten )?projekt|kup projekt|kup teraz)$/i.test(label)) kind = 'cart';
     if (/następn.*slajd|next slide/i.test(label)) kind = 'carousel';
     controls.push({selector:css(e), label, kind, name:e.name || '', checked:!!e.checked,
+      scope:e.closest('form[role=search],form[action*=szuk],form[action*=search],#ProjectSearch,#filter-form,[data-catalog-filter]') ? 'search' : 'offer',
       value:e.value || '', expanded:e.getAttribute('aria-expanded'),
       options:e.tagName === 'SELECT' ? [...e.options].filter(o => !o.disabled && o.value).map(o => ({value:o.value,label:clean(o.text)})) : []});
   }
@@ -72,7 +83,8 @@
     rendered_width:e.getBoundingClientRect().width, rendered_height:e.getBoundingClientRect().height,
     broken:!e.complete || e.naturalWidth === 0,
   }));
-  return {title:clean(document.title), h1:clean(document.querySelector('h1')?.innerText),
+  const primaryTitle=document.querySelector('h1.product_title,h1[itemprop=name]') || document.querySelector('main h1') || document.querySelector('article h1') || document.querySelector('h1');
+  return {url:location.href,title:clean(document.title), h1:clean(primaryTitle?.innerText),
     text:clean(document.body.innerText), blocks, prices, products, links, controls,
     sections:[...sections], headings, images, truncated:count>7000};
 }

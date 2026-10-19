@@ -13,12 +13,13 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
     retained = copy.deepcopy(after)
     for key in sorted(set(before.fields) | set(after.fields)):
         old, new = before.fields.get(key), after.fields.get(key)
-        if old and new and old.value == new.value and old.amount == new.amount and old.currency == new.currency:
+        if old and new and old.value == new.value:
             continue
         current = new or old
         assert current is not None
         missing_section = old is not None and new is None and old.section not in after.sections
-        uncertain = missing_section or after.quality != "ok"
+        method_changed = before.renderer != after.renderer
+        uncertain = missing_section or after.quality != "ok" or before.quality != "ok" or method_changed
         if old and new is None and uncertain:
             retained.fields[key] = old
         change = Change(
@@ -33,6 +34,8 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
             scenario=after.scenario,
             note="Nie odnaleziono poprzedniej sekcji; wymaga oceny, nie potwierdzono usunięcia." if missing_section else "",
         )
+        if method_changed:
+            change.note += " Zmieniono wersję przeglądarki lub reguły odczytu; różnica wymaga potwierdzenia w źródle."
         if old and new and old.amount is not None and new.amount is not None and old.currency == new.currency:
             try:
                 old_amount, new_amount = Decimal(old.amount), Decimal(new.amount)

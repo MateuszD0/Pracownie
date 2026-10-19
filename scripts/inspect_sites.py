@@ -26,13 +26,15 @@ def inspect(site):
         result["title"] = soup.title.get_text(" ", strip=True) if soup.title else ""
         links = []
         for anchor in soup.select("a[href]"):
+            if anchor.find_parent(["nav", "footer"]):
+                continue
             context = anchor.find_parent(["article", "li"])
             if context is None:
-                context = anchor.find_parent(class_=re.compile("card|product|projekt", re.I))
+                context = anchor.find_parent(class_=re.compile("card|product|projekt|offer|item", re.I))
             links.append({"url": urljoin(str(response.url), anchor.get("href", "")),
                           "text": anchor.get_text(" ", strip=True) or (anchor.find("img").get("alt", "") if anchor.find("img") else ""),
                           "context": context.get_text(" ", strip=True)[:500] if context else "", "image": bool(anchor.find("img"))})
-        result["candidates"] = [item for _, item in project_candidates(site, {"links": links})][:5]
+        result["candidates"] = [item for _, item in project_candidates(site, {"links": links, "url": str(response.url)})][:20]
         result["ranking_urls"] = list(dict.fromkeys(link["url"] for link in links if re.search(r"bestseller|najpopular|najlepiej sprzed", link["text"], re.I)))[:5]
         result["resource_hosts"] = sorted({urlsplit(urljoin(str(response.url), e.get("src") or e.get("href", ""))).hostname for e in soup.select("script[src],link[rel=stylesheet],img[src]")} - {None})
     except Exception as exc:

@@ -31,7 +31,7 @@ Pierwszy poprawny skan tworzy punkt odniesienia. Obrazy „przed” pojawią si�
 
 **Limity i koszt**
 
-Używane są standardowe runnery Ubuntu, jedna maszyna i ograniczona współbieżność przeglądarki. Skan ma budżet 30 minut, a cały job 45 minut; raport wyraźnie pokazuje domeny pominięte z powodu czasu. Codzienna praca nie wymaga płatnego API.
+Używane są standardowe runnery Ubuntu, jedna maszyna i ograniczona współbieżność przeglądarki. Skan ma budżet 60 minut, a cały job 75 minut; raport wyraźnie pokazuje domeny pominięte z powodu czasu. Zapas zwiększono po pełnym pomiarze 26 min 22 s, aby uwzględnić porównania obrazów w kolejnych dniach. Codzienna praca nie wymaga płatnego API.
 
 Standardowe runnery publicznego repozytorium są bezpłatne zgodnie z aktualnymi zasadami GitHuba. Przy prywatnym GitHub Free należy uwzględnić 2000 minut miesięcznie współdzielonych z innymi workflow. Zmierz pełny przebieg przed przyjęciem, że zmieści się w limicie. Równoległe joby sumują zużycie minut; ten projekt używa jednego joba skanującego.
 

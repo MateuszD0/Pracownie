@@ -28,7 +28,7 @@ def parser() -> argparse.ArgumentParser:
     run.add_argument("--domains", help="Lista domen oddzielona przecinkami")
     run.add_argument("--concurrency", type=int, default=3)
     run.add_argument("--domain-timeout", type=float, default=150)
-    run.add_argument("--budget-seconds", type=float, default=1800)
+    run.add_argument("--budget-seconds", type=float, default=3600)
     run.add_argument("--navigation-timeout", type=int, default=25000)
     run.add_argument("--settle-ms", type=int, default=500)
     run.add_argument("--max-scenarios", type=int, default=30)

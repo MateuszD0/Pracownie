@@ -16,7 +16,7 @@ Archiwa sprawdzono niezależnie: 515 plików pierwszego pełnego skanu i 572 pli
 
 **Harmonogram i koszt**
 
-Skan rozpoczyna się codziennie o 06:17 Europe/Warsaw, także w weekend. Celem jest gotowy raport przed 08:00. GitHub nie gwarantuje punktualnego startu harmonogramu. Pierwszy pełny przebieg zmieścił się w budżecie 30 minut skanowania; instalacja i publikacja zwiększają czas całego joba. Raport zapisuje godziny odczytów, a wydanie i podsumowanie Actions podają godzinę publikacji.
+Skan rozpoczyna się codziennie o 06:17 Europe/Warsaw, także w weekend. Celem jest gotowy raport przed 08:00. GitHub nie gwarantuje punktualnego startu harmonogramu. Pełny przebieg zmieścił się w pierwotnym budżecie 30 minut skanowania. Po pomiarze zwiększono zapas do 60 minut skanu i 75 minut całego joba, uwzględniając porównania obrazów w kolejnych dniach. Instalacja i publikacja zwiększają czas całego joba. Raport zapisuje godziny odczytów, a wydanie i podsumowanie Actions podają godzinę publikacji.
 
 Standardowy runner publicznego repozytorium nie zużywa limitu 2000 minut dla prywatnych repozytoriów GitHub Free. Archiwum 180 dni korzysta z Releases. Krótkie artefakty awarii przechowywane są przez trzy dni. Pliki graficzne nie trafiają do historii Git.
 

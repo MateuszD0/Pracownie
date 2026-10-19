@@ -29,7 +29,7 @@ class RunOptions:
     day: str = ""
     concurrency: int = 3
     domain_timeout: float = 150
-    budget_seconds: float = 1800
+    budget_seconds: float = 3600
     max_scenarios: int = 30
     retries: int = 1
     browser_executable: str | None = None

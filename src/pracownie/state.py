@@ -78,6 +78,13 @@ class StateStore:
             data[section] = {
                 key: value for key, value in data[section].items() if local_day(datetime.fromisoformat(value["observed_at"])) > cutoff
             }
+            for snapshot in data[section].values():
+                # A missing section may retain an older field inside a newer snapshot.
+                # Such fields must expire by their own observation date as well.
+                snapshot["fields"] = {
+                    key: value for key, value in snapshot["fields"].items()
+                    if local_day(datetime.fromisoformat(value.get("observed_at") or snapshot["observed_at"])) > cutoff
+                }
         return data
 
     def image(self, source: Path) -> str:

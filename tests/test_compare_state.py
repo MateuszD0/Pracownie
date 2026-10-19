@@ -138,6 +138,20 @@ def test_retention_and_archive_traversal(tmp_path):
     assert not (tmp_path / "escape.txt").exists()
 
 
+def test_retained_field_expires_even_inside_recent_snapshot(tmp_path):
+    store = StateStore(tmp_path / "state")
+    data = seed(store)
+    item = data["snapshots"]["test.pl/projekt/base"]
+    item["observed_at"] = "2027-04-16T06:00:00+00:00"
+    item["fields"]["recent"] = {**item["fields"]["price"], "observed_at": item["observed_at"]}
+    data["day"] = "2027-04-16"
+    store.commit(data)
+    updated = store.begin("2027-04-17")
+    assert updated["snapshots"]
+    assert "price" not in updated["snapshots"]["test.pl/projekt/base"]["fields"]
+    assert "recent" in updated["snapshots"]["test.pl/projekt/base"]["fields"]
+
+
 def test_atomic_failure_and_lock(tmp_path, monkeypatch):
     import pracownie.state as module
     path = tmp_path / "state.json"

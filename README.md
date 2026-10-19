@@ -4,6 +4,8 @@ Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pra
 
 Pełne wymagania: [plan wdrożenia](PLAN_WDROZENIA_MONITORINGU.md). Faktyczna dostępność domen: [inspekcja HTTP](docs/INSPEKCJA_DOMEN.md). Status walidacji: [wdrożenie](docs/WDROZENIE.md).
 
+[Spis raportów dziennych](RAPORTY.md) · [Wybrane karty i źródła wyboru](docs/KARTY_PROJEKTOW.md).
+
 Format wyniku pokazuje [syntetyczny przykład TXT](examples/raport-przykladowy.txt). Jest wygenerowany przez właściwy moduł raportów z fikcyjnych danych, bez skanowania rzeczywistej pracowni.
 
 **Uruchomienie w GitHub Actions**

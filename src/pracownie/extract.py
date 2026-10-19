@@ -35,6 +35,10 @@ def amount(value: str) -> str | None:
         return None
 
 
+def currency_code(value: str) -> str:
+    return {"zł": "PLN", "€": "EUR", "$": "USD"}.get(value.casefold(), value.upper())
+
+
 def category(text: str) -> str | None:
     lowered = text.lower()
     for name, pattern in CATEGORIES:
@@ -71,13 +75,15 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
     for entry in payload.get("prices", []):
         for match in MONEY.finditer(entry["text"]):
             label = normalize(entry.get("context") or entry["text"], ignore_patterns)
-            role = "poprzednia" if re.search(r"DEL|^S\b|old|regular|previous", entry.get("type", ""), re.I) else "aktualna"
+            role = "poprzednia" if re.search(r"DEL|^S\b|old|regular|previous|line-through", entry.get("type", ""), re.I) else "widoczna"
+            if "najniższa" in label.casefold():
+                role = "najniższa z 30 dni"
             stable_label = MONEY.sub("[cena]", label)
             identifier = f"cena:{slug(stable_label)}:{role}"
             price_keys[identifier] = price_keys.get(identifier, 0) + 1
             if price_keys[identifier] > 1:
                 identifier += f":{price_keys[identifier]}"
-            currency = {"zł": "PLN", "€": "EUR", "$": "USD"}.get(match[2], match[2].upper())
+            currency = currency_code(match[2])
             fields[identifier] = Field(
                 label=f"Cena {role}: {stable_label}", value=match[0], category="ceny", amount=amount(match[1]),
                 currency=currency, section="oferta", observed_at=observed_at,

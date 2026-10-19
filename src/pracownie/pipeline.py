@@ -202,7 +202,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         async with asyncio.timeout(min(options.domain_timeout, remaining)):
                             await process_site(site)
                     except TimeoutError:
-                        results.append(Result(site.domain, "zakres", "limit-czasu", "partial", site.home_url, error="Przekroczono czas domeny; pozostały zakres nie został sprawdzony."))
+                        phase = scanner.phases.get(site.domain, "nieustalony etap")
+                        results.append(Result(site.domain, "zakres", "limit-czasu", "partial", site.home_url, error=f"Przekroczono czas domeny ({phase}); pozostały zakres nie został sprawdzony."))
                     except Exception as exc:
                         results.append(Result(site.domain, "zakres", "blad", "error", site.home_url, error=str(exc).splitlines()[0][:600]))
                     print(f"Sprawdzono {site.domain}", flush=True)

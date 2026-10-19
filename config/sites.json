@@ -227,7 +227,10 @@
         "http_status": 200,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
       },
-      "product_url_pattern": "/projekt/[^/?#]+/?$"
+      "product_url_pattern": "/projekt/[^/?#]+/?$",
+      "ignore_resource_hosts": [
+        "adsearch.adkontekst.pl"
+      ]
     },
     {
       "domain": "dom-projekt.pl",

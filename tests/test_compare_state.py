@@ -56,6 +56,15 @@ def test_variants_are_separate():
     assert len(fields) == 2
 
 
+def test_crossed_price_and_uppercase_currency():
+    fields, _ = extract_fields({"prices": [
+        {"text": "6900 zł", "context": "Cena regularna 6900 zł", "type": "SPAN line-through"},
+        {"text": "5520 ZŁ", "context": "Cena projektu 5520 ZŁ", "type": "SPAN"},
+    ]}, "2026-10-19T06:00:00+00:00")
+    assert {f.currency for f in fields.values()} == {"PLN"}
+    assert any("poprzednia" in f.label for f in fields.values())
+
+
 def seed(store, day="2026-10-18"):
     path = store.root / "test.png"
     Image.new("RGB", (100, 100), "white").save(path)

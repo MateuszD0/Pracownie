@@ -10,7 +10,7 @@ import pytest
 
 @pytest.fixture
 def sample_site():
-    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False)
+    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
@@ -39,7 +39,7 @@ def sample_site():
                     <label for="wersja">Wersja dokumentacji</label><select id="wersja" name="wersja"><option value="pdf">PDF</option><option value="paper">Papier</option></select></details>
                     <button role="tab" id="tab" onclick="document.getElementById('warunki').hidden=false">Warunki zakupu</button>
                     <div id="warunki" hidden><p>Darmowa konsultacja i raty bez prowizji</p></div>
-                    <button id="cart" onclick="location.href='/cart'">Dodaj do koszyka</button>
+                    <a id="cart" class="btn" href="/cart">Dodaj do koszyka</a>
                     <script type="application/ld+json">{structured}</script>'''
             elif self.path == "/cart":
                 body = f'''<h1>Koszyk</h1><h2>Oferta</h2><p>Projekt domu Dom Testowy</p><p class="price">{state.price} zł</p><p>Dostawa 0 zł. Dostępne płatności kartą i raty.</p><button id="order" onclick="fetch('/submitted')">Zamawiam i płacę</button>'''
@@ -50,6 +50,8 @@ def sample_site():
                 body = f'''<h1>Pracownia testowa</h1><h2>{state.banner}</h2><p>Bezpłatna dostawa projektów i nowa oferta promocyjna.</p>
                     <article><strong>Bestseller</strong><a href="/projekt-domu-testowy">Dom Testowy</a><span>4590 zł</span></article>
                     <p>Pomagamy wybrać projekt domu. Konsultacje dostępne przed zakupem.</p>'''
+            if state.cookies:
+                body += '''<div id="CybotCookiebotDialog" role="dialog">Pliki cookies<button onclick="document.getElementById('CybotCookiebotDialog').remove()">Odmowa</button><button role="tab">Szczegóły</button></div>'''
             html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title><style>body{{font:18px sans-serif;margin:30px}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")

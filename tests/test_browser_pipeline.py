@@ -61,6 +61,15 @@ async def test_guard_against_order_submission(sample_site, executable, tmp_path)
     assert not sample_site.submitted
 
 
+@pytest.mark.browser
+async def test_cookie_refusal_is_applied_and_excluded(sample_site, executable, tmp_path):
+    sample_site.cookies = True
+    async with BrowserScanner(executable, settle_ms=10) as scanner:
+        capture = await scanner.capture(site_config(sample_site), "glowna", sample_site.url, Scenario("podstawowy", "Start"), tmp_path / "cookie.png")
+    assert not any("cookies" in warning for warning in capture.snapshot.warnings)
+    assert not any("Cookiebot" in c["selector"] for c in capture.controls)
+
+
 def test_scenarios_have_stable_ids_when_option_price_changes():
     payload = {"controls": [{"kind": "select", "label": "Pakiet 4590 zł", "selector": "#pakiet", "name": "pakiet", "value": "base", "options": [{"value": "plus", "label": "Plus 4790 zł"}]}]}
     first, _ = infer_scenarios(payload, "projekt")

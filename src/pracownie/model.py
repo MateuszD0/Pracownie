@@ -139,6 +139,7 @@ class Site:
     discovery_links: list[str] = field(default_factory=list)
     field_selectors: list[dict] = field(default_factory=list)
     product_url_pattern: str | None = None
+    ignore_resource_hosts: list[str] = field(default_factory=list)
     inspection: str = "pending"
 
     @classmethod

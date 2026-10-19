@@ -10,11 +10,11 @@ from urllib.parse import urlsplit
 
 from playwright.async_api import Browser, Page, async_playwright
 
-from .extract import MONEY, amount, canonical_url, extract_fields, validate_payload
+from .extract import MONEY, amount, canonical_url, currency_code, extract_fields, validate_payload
 from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
-COOKIE_NAMES = re.compile(r"^(odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
+COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit", re.I)
 
 
@@ -84,7 +84,7 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
     if len(scenarios) > limit:
         warnings.append(f"Wykryto {len(scenarios)} scenariuszy, limit wynosi {limit}; pokrycie częściowe.")
         scenarios = scenarios[:limit]
-    if any(c["kind"] in {"select", "radio", "checkbox"} for c in controls):
+    if any(c["kind"] in {"select", "radio", "checkbox"} and not UNSAFE_OPTIONS.search(c["label"] + " " + c.get("name", "")) for c in controls):
         warnings.append("Sprawdzane opcje pojedynczo; kombinacje i zależności wymagają zatwierdzonego adaptera.")
     return scenarios, list(dict.fromkeys(warnings))
 
@@ -149,6 +149,7 @@ class BrowserScanner:
         self.navigation_timeout = navigation_timeout
         self.settle_ms = settle_ms
         self.browser: Browser | None = None
+        self.phases: dict[str, str] = {}
 
     async def __aenter__(self):
         self.manager = await async_playwright().start()
@@ -201,6 +202,7 @@ class BrowserScanner:
         page.on("requestfailed", lambda request: failed_hosts.add(urlsplit(request.url).hostname) if request.resource_type in {"image", "stylesheet"} else None)
         warnings = []
         try:
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: nawigacja"
             response = await page.goto(url, wait_until="domcontentloaded", timeout=self.navigation_timeout)
             if response and (response.status == 429 or response.status >= 500):
                 raise TransientFetchError(f"Przejściowy błąd HTTP {response.status}")
@@ -208,6 +210,7 @@ class BrowserScanner:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
             if not allowed_url(site, page.url):
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: cookies i przewijanie"
             await self.cookies(page)
             await self.settle(page)
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
@@ -216,6 +219,7 @@ class BrowserScanner:
                 if await element.is_visible() and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
                     warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
             for action in scenario.actions:
+                self.phases[site.domain] = f"{page_kind}/{scenario.id}: interakcja {action['action']}"
                 selector = action.get("selector", "")
                 locator = page.locator(selector)
                 if action["action"] == "click":
@@ -245,25 +249,31 @@ class BrowserScanner:
                     raise ValueError("Interakcja przekierowała poza skonfigurowane domeny")
                 if action.get("cart"):
                     warnings.append("Automatyczna próba koszyka; formularze i dalsze etapy wymagają scenariusza adaptera.")
-            for selector in [*site.required.get(page_kind, []), *scenario.required]:
+            is_cart = any(a.get("cart") for a in scenario.actions)
+            page_required = [] if is_cart else site.required.get(page_kind, [])
+            for selector in [*page_required, *scenario.required]:
                 if not await page.locator(selector).count() or not await page.locator(selector).first.is_visible():
                     raise ValueError(f"Nie odnaleziono wymaganego elementu: {selector}")
             await page.add_style_tag(content="*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} [data-monitor-ignore]{visibility:hidden!important}")
             for selector in site.masks:
                 await page.locator(selector).evaluate_all("es => es.forEach(e => e.style.visibility='hidden')")
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: odczyt DOM"
             payload = await page.evaluate(EXTRACT)
             validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
             if payload.get("truncated"):
                 warnings.append("Limit elementów DOM; odczyt częściowy.")
             if await page.evaluate("document.body.scrollHeight") > 24000:
                 warnings.append("Strona dłuższa niż 24000 px; zrzut i przewijanie ograniczone.")
-            if failed_hosts:
-                warnings.append("Niezaładowane obrazy/style z hostów: " + ", ".join(sorted(str(h) for h in failed_hosts)))
-            if any(image["broken"] and image["width"] == 0 for image in payload.get("images", [])):
+            relevant_failed = failed_hosts - set(site.ignore_resource_hosts)
+            if relevant_failed:
+                warnings.append("Niezaładowane obrazy/style z hostów: " + ", ".join(sorted(str(h) for h in relevant_failed)))
+            if any(image["broken"] and image["rendered_width"] >= 80 and image["rendered_height"] >= 50 and urlsplit(image["src"]).hostname not in site.ignore_resource_hosts for image in payload.get("images", [])):
                 warnings.append("Wykryto niezaładowane obrazy; porównanie wizualne może być niepełne.")
             timestamp = now_iso()
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             for rule in site.field_selectors:
+                if is_cart and not rule.get("include_cart", False):
+                    continue
                 if rule.get("page", "projekt") != page_kind:
                     continue
                 element = page.locator(rule["selector"]).first
@@ -279,13 +289,14 @@ class BrowserScanner:
                 currency = rule.get("currency")
                 number = amount(match[1]) if match else amount(value) if currency else None
                 if match:
-                    currency = {"zł": "PLN", "€": "EUR", "$": "USD"}.get(match[2], match[2].upper())
+                    currency = currency_code(match[2])
                 section = rule.get("section", "oferta")
                 sections.append(section)
                 fields["adapter:" + rule["key"]] = Field(rule.get("label", rule["key"]), value, rule.get("category", "ceny"), section, number, currency, timestamp)
             if not fields:
                 warnings.append("Nie rozpoznano informacji sprzedażowych; adapter wymaga inspekcji.")
             destination.parent.mkdir(parents=True, exist_ok=True)
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: zrzut ekranu"
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             snapshot = Snapshot(

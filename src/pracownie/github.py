@@ -51,11 +51,11 @@ class GitHubStore:
 
     def preflight(self) -> dict:
         data = self.request("GET", self.prefix).json()
-        if data.get("permissions", {}).get("push") is False:
-            raise RuntimeError("Token ma odczyt repozytorium, ale brak uprawnienia zapisu")
         if data.get("archived"):
             raise RuntimeError("Repozytorium jest zarchiwizowane")
-        return {"repository": self.repo, "private": data.get("private"), "default_branch": data.get("default_branch")}
+        # Scoped installation/Actions tokens may report push:false despite contents:write.
+        # Repository metadata does not prove or disprove permission to publish Releases.
+        return {"repository": self.repo, "private": data.get("private"), "default_branch": data.get("default_branch"), "reported_git_push": data.get("permissions", {}).get("push")}
 
     def pages(self, url: str) -> list:
         output = []

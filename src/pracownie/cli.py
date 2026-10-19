@@ -119,6 +119,9 @@ def execute(args) -> int:
                 record = remote.pull(store)
                 if record is None and store.read()["snapshots"]:
                     raise ValueError("Brak zdalnego stanu, a katalog lokalny zawiera historię; użyj czystego katalogu do pierwszego uruchomienia GitHub")
+                # This reversible, owned empty release verifies the actual write capability.
+                # No baseline pointer is created before a successful scan/report transaction.
+                remote.release(f"{namespace}-state-v1", create=True)
             outcome = asyncio.run(run_scan(sites, store, args.output, options))
             metadata = outcome["metadata"]
             day = metadata["day"]
@@ -128,6 +131,8 @@ def execute(args) -> int:
             covered = coverage(outcome["results"], [s.domain for s in sites])
             counts = {status: sum(item["status"] == status for item in covered.values()) for status in ["complete", "partial", "error"]}
             print(json.dumps({"coverage": counts, "elapsed_seconds": metadata["elapsed_seconds"], "snapshot_bytes": metadata["snapshot_bytes"]}, ensure_ascii=False))
+            if (counts["partial"] or counts["error"]) and os.environ.get("GITHUB_ACTIONS") == "true":
+                print(f"::warning title=Niepełny zakres::Częściowo sprawdzone domeny: {counts['partial']}; błędy: {counts['error']}. Zobacz raport i pokrycie.json.")
             if remote:
                 published = remote.publish(store, args.output, day, archive, metadata["run_id"])
                 print(json.dumps(published, ensure_ascii=False))

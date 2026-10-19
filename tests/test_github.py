@@ -133,3 +133,15 @@ def test_unauthorized_upload_host_is_rejected(tmp_path):
     path.write_text("not secret")
     with pytest.raises(ValueError, match="host"):
         remote.upload({"upload_url": "https://outside.example/upload"}, "data.txt", path)
+
+
+def test_git_push_metadata_does_not_block_contents_api():
+    fake = FakeGitHub()
+    original = fake.request
+    def respond(request):
+        if request.url.path == "/repos/test/monitor":
+            return httpx.Response(200, json={"private": False, "permissions": {"push": False}, "default_branch": "main"})
+        return original(request)
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
+    assert remote.preflight()["reported_git_push"] is False
+    assert remote.release("monitor-state-v1", create=True)["id"] == 1

@@ -17,6 +17,8 @@ STATUS = {
     "unavailable": "niedostępna funkcja",
 }
 CATEGORY = {"ceny": "CENY", "promocje": "PROMOCJE", "dodatki": "DODATKI", "pakiety": "PAKIETY", "warunki": "WARUNKI", "funkcje": "FUNKCJONALNOŚCI", "parametry": "PARAMETRY", "komunikacja": "KOMUNIKACJA", "obraz": "OBRAZ"}
+COVERAGE_STATUS = {"complete": "pełny", "partial": "częściowy", "error": "błąd"}
+CHANGE_STATUS = {"added": "dodano", "removed": "usunięto", "changed": "zmieniono", "review": "wymaga oceny"}
 
 
 def display_time(value: str | None) -> str:
@@ -71,7 +73,7 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
     lines.extend(list(dict.fromkeys(highlights))[:30] or ["Brak potwierdzonych zmian w najważniejszych kategoriach."])
     lines.extend(["", "SZCZEGÓŁY WEDŁUG DOMEN", ""])
     for domain in domains:
-        lines.extend(["=" * 72, f"DOMENA: {domain} | zakres: {covered[domain]['status']}"])
+        lines.extend(["=" * 72, f"DOMENA: {domain} | zakres: {COVERAGE_STATUS[covered[domain]['status']]}"])
         selection = selections.get(domain)
         if selection:
             lines.extend([f"PROJEKT: {selection.get('name', '')}", f"WYBÓR: {selection.get('basis', '')}", f"ŹRÓDŁO WYBORU: {selection.get('source', '')}"])
@@ -86,7 +88,7 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
             for change in result.changes:
                 lines.extend([
                     f"  [{CATEGORY.get(change.category, change.category)}] {change.label}",
-                    f"  OCENA: {change.kind}",
+                    f"  OCENA: {CHANGE_STATUS.get(change.kind, change.kind)}",
                     f"  PORÓWNANIE: {display_time(change.before_at)} → {display_time(change.after_at)}",
                     f"  PRZED: {change.before if change.before is not None else '(brak)'}",
                     f"  PO: {change.after if change.after is not None else '(nie odnaleziono)'}",

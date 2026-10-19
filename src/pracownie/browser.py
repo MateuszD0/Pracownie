@@ -230,6 +230,32 @@ class BrowserScanner:
                     if await refusal.nth(index).is_visible():
                         await refusal.nth(index).click(timeout=2500)
                         return
+                advanced = page.get_by_role("dialog").filter(has_text=re.compile("Ustawienia Zaawansowane", re.I)).first
+                if await advanced.count():
+                    # This CMP has no reject-all button. Set the actual controls
+                    # to refusal, including objection to legitimate interests.
+                    state = await advanced.evaluate("""dialog => {
+                      const controls=[...dialog.querySelectorAll('input[type=checkbox],[role=switch]')];
+                      const label=e => e.labels?.[0]?.innerText || e.closest('label')?.innerText || e.getAttribute('aria-label') || '';
+                      const target=e => /sprzeciw/i.test(label(e));
+                      const checked=e => e.matches('input') ? e.checked : e.getAttribute('aria-checked') === 'true';
+                      for (const e of controls.sort((a,b) => Number(target(b))-Number(target(a)))) {
+                        if (/niezbęd|koniecz|necessary|essential/i.test(label(e))) continue;
+                        if (checked(e)!==target(e)) e.click();
+                      }
+                      return controls.length;
+                    }""")
+                    await page.wait_for_timeout(150)
+                    confirmed = await advanced.evaluate("""dialog => [...dialog.querySelectorAll('input[type=checkbox],[role=switch]')].every(e => {
+                      const label=e.labels?.[0]?.innerText || e.closest('label')?.innerText || e.getAttribute('aria-label') || '';
+                      if (/niezbęd|koniecz|necessary|essential/i.test(label)) return true;
+                      const checked=e.matches('input') ? e.checked : e.getAttribute('aria-checked') === 'true';
+                      return checked === /sprzeciw/i.test(label);
+                    })""")
+                    save = advanced.get_by_role("button", name=re.compile("^Zapisz$", re.I))
+                    if state > 1 and confirmed and await save.count():
+                        await save.click(timeout=2500)
+                        await page.wait_for_timeout(250)
 
     async def disable_motion(self, page: Page, warnings: list[str]):
         try:

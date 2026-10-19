@@ -55,8 +55,11 @@ def sample_site():
                 body += '''<div id="CybotCookiebotDialog" role="dialog">Pliki cookies<button onclick="document.getElementById('CybotCookiebotDialog').remove()">Odmowa</button><button role="tab">Szczegóły</button></div>'''
             if state.wp_cookies:
                 body += '''<div role="dialog" aria-label="Plansza informacyjna WP" id="wp-dialog">Cenimy Twoją prywatność. Pliki cookies.
-                <a href="#" onclick="document.getElementById('refuse-wp').hidden=false">Ustawienia zaawansowane</a>
-                <button id="refuse-wp" hidden onclick="document.getElementById('wp-dialog').remove()">Nie wyrażam zgody</button>
+                <a href="#" onclick="document.getElementById('settings-wp').hidden=false;this.remove()">Ustawienia zaawansowane</a>
+                <div id="settings-wp" hidden><h2>Ustawienia Zaawansowane</h2>
+                <label><input type="checkbox" id="advertising-wp" checked>Spersonalizowane reklamy</label>
+                <label><input type="checkbox" id="objection-wp">Wyrażam sprzeciw dla przetwarzania danych</label>
+                <button onclick="if(document.getElementById('advertising-wp').checked || !document.getElementById('objection-wp').checked)fetch('/submitted');else document.getElementById('wp-dialog').remove()">Zapisz</button></div>
                 <button onclick="fetch('/submitted')">Akceptuję i przechodzę do serwisu</button></div>'''
             if state.duplicate_cart:
                 body += '<div><a id="cart" class="btn" href="/cart">Dodaj do koszyka</a></div>'

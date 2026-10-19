@@ -95,7 +95,7 @@
         "http_inspected_at": "2026-10-19T19:00:59.107946+00:00",
         "http_status": 200,
         "note": "Konkretna karta zweryfikowana w HTTP; interakcje są raportowane osobno.",
-        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu.",
+        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny.",
         "basis": "Projekt wyróżniony na stronie głównej; brak publicznego rankingu sprzedaży.",
         "source": "https://www.archdesign.pl",
         "http_verified_at": "2026-10-19"
@@ -831,7 +831,7 @@
         "basis": "Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży.",
         "source": "https://mtmstyl.com.pl",
         "http_verified_at": "2026-10-19",
-        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu."
+        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny."
       },
       "project_name": "Malutki 12"
     },
@@ -873,7 +873,7 @@
         "http_inspected_at": "2026-10-19T19:01:08.373601+00:00",
         "http_status": 403,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
-        "tls_alias_note": "Użyto publicznego hosta www z poprawnym TLS. W pierwotnym skanie host bez www zwracał błąd certyfikatu."
+        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny."
       }
     },
     {

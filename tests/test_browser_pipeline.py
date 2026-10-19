@@ -101,6 +101,18 @@ def test_visual_difference_and_no_difference(tmp_path):
     assert (tmp_path / "diff.png").is_file()
 
 
+def test_small_banner_change_on_long_page(tmp_path):
+    from PIL import ImageDraw
+    first, second = tmp_path / "before.png", tmp_path / "after.png"
+    image = Image.new("RGB", (800, 12000), "white")
+    image.save(first)
+    ImageDraw.Draw(image).rectangle((100, 100, 120, 115), fill="black")
+    image.save(second)
+    result = image_difference(first, second, tmp_path / "diff.png")
+    assert result.ratio < 0.001
+    assert result.changed
+
+
 def test_registry_and_workflow_contract():
     import yaml
 

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import hashlib
 import json
 import re
@@ -207,6 +208,43 @@ class GitHubStore:
                 if not dry_run:
                     self.request("DELETE", f"{self.prefix}/releases/{release['id']}")
         return removed
+
+    def update_index(self) -> str:
+        """Publish useful daily navigation, also keeping repository activity current."""
+        filename = "RAPORTY.md" if self.namespace == "monitor" else "RAPORTY-" + self.namespace.upper() + ".md"
+        pattern = re.compile(re.escape(self.namespace) + r"-report-(\d{4}-\d{2}-\d{2})$")
+        rows = []
+        for release in self.pages(f"{self.prefix}/releases"):
+            match = pattern.fullmatch(release["tag_name"])
+            body = release.get("body") or ""
+            if not match or OWNER_MARKER not in body:
+                continue
+            text = re.search(r"\[Raport TXT\]\((https://[^)]+)\)", body)
+            archive = re.search(r"\[Pełne archiwum ZIP\]\((https://[^)]+)\)", body)
+            if not text or not archive:
+                continue
+            allowed = f"https://github.com/{self.repo}/releases/download/"
+            if not text[1].startswith(allowed) or not archive[1].startswith(allowed):
+                raise ValueError("Nieoczekiwany adres plików w indeksie raportów")
+            rows.append((match[1], text[1], archive[1], release["html_url"]))
+        lines = [OWNER_MARKER, "", "**Raporty monitoringu**", "", "Plik generowany automatycznie. Notatki przechowuj osobno. TXT zawiera opis zmian, ZIP również zrzuty i dane porównań.", "", "| Dzień | Raport | Archiwum | Szczegóły |", "| --- | --- | --- | --- |"]
+        lines.extend(f"| {day} | [TXT]({text}) | [ZIP]({archive}) | [Wydanie]({url}) |" for day, text, archive, url in sorted(rows, reverse=True))
+        content = ("\n".join(lines) + "\n").encode()
+        endpoint = f"{self.prefix}/contents/{filename}"
+        existing = self.client.get(endpoint)
+        payload = {"message": "Update daily monitoring report index", "content": base64.b64encode(content).decode()}
+        if existing.status_code == 200:
+            data = existing.json()
+            previous = base64.b64decode(data["content"])
+            if OWNER_MARKER.encode() not in previous:
+                raise ValueError(f"Plik {filename} nie należy do monitora; nie nadpisano go")
+            if previous == content:
+                return data["html_url"]
+            payload["sha"] = data["sha"]
+        elif existing.status_code != 404:
+            raise RuntimeError(f"Nie można odczytać indeksu raportów: HTTP {existing.status_code}")
+        result = self.request("PUT", endpoint, json=payload).json()
+        return result["content"]["html_url"]
 
 
 def sha256_bytes(value: bytes) -> str:

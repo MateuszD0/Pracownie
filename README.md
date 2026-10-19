@@ -19,6 +19,8 @@ Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Re
 
 W Releases znajdziesz „Raport YYYY-MM-DD” z TXT i ZIP. ZIP zawiera folder raporty, plik dnia i podfolder dnia z dowodami. Pliki kontrolki.json pomagają dopracować adaptery. Zmiany są też dostępne maszynowo w zmiany.json, a zakres odczytu w pokrycie.json.
 
+Plik RAPORTY.md w repozytorium jest automatycznym spisem dni z odnośnikami do TXT i ZIP. Pilotaż ma osobny indeks. Aktualizacja tego użytecznego spisu tworzy normalną aktywność repozytorium; sam publiczny harmonogram bez aktywności może zostać wyłączony przez GitHuba po 60 dniach. Indeks jest generowany, więc własne notatki zapisuj osobno.
+
 Pierwszy poprawny skan tworzy punkt odniesienia. Obrazy „przed” pojawią się dopiero w porównaniach z rzeczywiście zapisanym wcześniejszym stanem. Ponowne uruchomienie tego samego dnia porównuje do stanu sprzed tego dnia. Skany zakończone błędem nie zastępują poprawnej historii.
 
 **Limity i koszt**

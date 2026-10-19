@@ -33,7 +33,19 @@ def image_difference(before: Path, after: Path, output: Path, threshold: float =
         histogram = difference.histogram()
         ratio = histogram[255] / (width * height)
         bbox = difference.getbbox()
-        changed = ratio >= threshold and bbox is not None
+        # A small coupon/date inside a banner must not disappear in a long page's average.
+        regional_change = False
+        if bbox and ratio < threshold:
+            for top in range(0, height, 32):
+                for left in range(0, width, 32):
+                    tile = difference.crop((left, top, min(left + 32, width), min(top + 32, height)))
+                    pixels = tile.histogram()[255]
+                    if pixels >= 12 and pixels / (tile.width * tile.height) >= 0.015:
+                        regional_change = True
+                        break
+                if regional_change:
+                    break
+        changed = (ratio >= threshold or regional_change) and bbox is not None
         if changed:
             canvas = Image.new("RGB", (width * 2 + 8, height + 32), "#eeeeee")
             canvas.paste(a, (0, 32))

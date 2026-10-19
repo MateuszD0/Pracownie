@@ -17,9 +17,17 @@ class FakeGitHub:
         self.next_id = 1
         self.fail_commit = False
         self.deleted = []
+        self.repo_files = {}
 
     def request(self, request):
         path, method = request.url.path, request.method
+        if "/contents/" in path:
+            name = path.rsplit("/", 1)[-1]
+            if method == "GET":
+                return httpx.Response(200 if name in self.repo_files else 404, json=self.repo_files.get(name, {}))
+            payload = json.loads(request.content)
+            self.repo_files[name] = {"content": payload["content"], "sha": "example-sha", "html_url": "https://github.com/test/monitor/blob/main/" + name}
+            return httpx.Response(201, json={"content": self.repo_files[name]})
         if path == "/repos/test/monitor" and method == "GET":
             return httpx.Response(200, json={"private": True, "permissions": {"push": True}, "default_branch": "main"})
         if path.startswith("/repos/test/monitor/releases/tags/"):
@@ -53,7 +61,8 @@ class FakeGitHub:
             content = request.read()
             number = self.next_id
             self.next_id += 1
-            asset = {"id": number, "name": name, "release_id": release_id, "size": len(content), "digest": "sha256:" + hashlib.sha256(content).hexdigest(), "browser_download_url": f"https://github.com/file/{number}"}
+            tag = self.releases[release_id]["tag_name"]
+            asset = {"id": number, "name": name, "release_id": release_id, "size": len(content), "digest": "sha256:" + hashlib.sha256(content).hexdigest(), "browser_download_url": f"https://github.com/test/monitor/releases/download/{tag}/{name}"}
             self.assets[number] = asset
             self.contents[number] = content
             return httpx.Response(201, json=asset)
@@ -145,3 +154,21 @@ def test_git_push_metadata_does_not_block_contents_api():
     remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
     assert remote.preflight()["reported_git_push"] is False
     assert remote.release("monitor-state-v1", create=True)["id"] == 1
+
+
+def test_daily_index_preserves_unrelated_user_file(tmp_path):
+    import base64
+    fake = FakeGitHub()
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(fake.request)))
+    fake.repo_files["RAPORTY.md"] = {"content": base64.b64encode(b"User notes").decode(), "sha": "old"}
+    with pytest.raises(ValueError, match="nie należy"):
+        remote.update_index()
+    del fake.repo_files["RAPORTY.md"]
+    store = StateStore(tmp_path / "local")
+    output = tmp_path / "reports"
+    output.mkdir()
+    archive = prepare(store, output, "2026-10-19", "2026-10-19T060000-a")
+    remote.publish(store, output, "2026-10-19", archive, "2026-10-19T060000-a")
+    remote.update_index()
+    content = base64.b64decode(fake.repo_files["RAPORTY.md"]["content"]).decode()
+    assert "2026-10-19" in content and "[TXT]" in content and "[ZIP]" in content

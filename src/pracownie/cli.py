@@ -137,10 +137,12 @@ def execute(args) -> int:
                 published = remote.publish(store, args.output, day, archive, metadata["run_id"])
                 print(json.dumps(published, ensure_ascii=False))
                 remote.cleanup(day, dry_run=False)
+                index_url = remote.update_index()
+                print("Spis raportów: " + index_url)
                 summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
                 if summary_path:
                     with Path(summary_path).open("a") as stream:
-                        stream.write(f"### Raport {day}\n\n[Wyniki]({published['report_url']})\n\nPokrycie: {counts}\n\nPublikacja: {published['published_at']}\n")
+                        stream.write(f"### Raport {day}\n\n[Wyniki]({published['report_url']}) · [Spis raportów]({index_url})\n\nPokrycie: {counts}\n\nPublikacja: {published['published_at']}\n")
             # All errors fail the job after saving diagnostics; partial coverage is explicitly reported.
             if counts["error"] == len(sites):
                 return 2

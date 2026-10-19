@@ -149,6 +149,17 @@ def test_scenarios_have_stable_ids_when_option_price_changes():
     assert first[0].id == second[0].id
 
 
+def test_project_permission_addon_is_separate_from_privacy_and_checkout_controls():
+    controls = [
+        {"kind": "checkbox", "label": "Zgoda na zmiany w projekcie 100 zł", "selector": "#addon", "name": "permission"},
+        {"kind": "checkbox", "label": "Wyrażam sprzeciw wobec przetwarzania danych osobowych", "selector": "#privacy", "name": "objection"},
+        {"kind": "checkbox", "label": "Zgoda na newsletter", "selector": "#newsletter", "name": "newsletter"},
+        {"kind": "select", "label": "Kraj", "selector": "#country", "name": "billing_country", "options": [{"value": "PL", "label": "Polska"}]},
+    ]
+    scenarios, _ = infer_scenarios({"controls": controls}, "projekt")
+    assert [a["selector"] for s in scenarios for a in s.actions] == ["#addon"]
+
+
 def test_project_ranking_is_deterministic():
     site = Site("test.pl", "https://test.pl")
     payload = {"links": [

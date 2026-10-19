@@ -25,7 +25,7 @@ from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
 COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
-UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
+UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
 
 class TransientFetchError(RuntimeError):

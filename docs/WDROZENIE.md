@@ -10,9 +10,9 @@ Repozytorium jest publiczne. Produkcyjną automatyzację uruchamia GitHub Action
 | --- | --- |
 | [Pełny, pierwszy skan 65 domen](https://github.com/MateuszD0/Pracownie/actions/runs/39311240448) | Publikacja TXT, ZIP i trwałego stanu zakończona. Skan: 1491,9 s; ZIP: 247,6 MB; stan: 104,3 MB. 55 domen odczytanych częściowo, 10 bez udanego odczytu. |
 | [Ponowny pilotaż na świeżym runnerze](https://github.com/MateuszD0/Pracownie/actions/runs/39313438127) | Poprzedni stan i wybór projektów odtworzone z Releases. Pięć domen odczytanych częściowo, w tym karta Extradom. Skan: 133,6 s; ZIP: 14,2 MB. |
-| [Pełna walidacja po korektach](https://github.com/MateuszD0/Pracownie/actions/runs/39321629811) | Uruchomiona z ponownym odczytem wszystkich domen. Wynik zostanie dopisany po weryfikacji archiwum. |
+| [Pełna walidacja po korektach](https://github.com/MateuszD0/Pracownie/actions/runs/39321629811) | Zakończona publikacją. Wszystkie 65 domen podjęte, bez pominięć z powodu budżetu. Skan: 1581,8 s (26 min 22 s); ZIP: 275,8 MB; stan: 200,4 MB. 57 domen częściowo odczytanych, 8 bez udanego odczytu. |
 
-Archiwum pierwszego pełnego skanu sprawdzono niezależnie: 515 plików zgodnych z sumami SHA-256 manifestu. W pierwszym wyborze wykryto osiem kategorii, poradników lub dodatków zamiast kart. Konfiguracja zawiera jawne korekty wyłącznie tych początkowych błędów; nie porównuje się ich z nową kartą jako zmiany oferty. Poprawnie wybrane projekty pozostają stałe. 57 adresów konkretnych kart ustalono w konfiguracji; ich podstawy wyboru są jawne. Ekspozycja lub ranking popularności nie stanowią dowodu liczby sprzedaży.
+Archiwa sprawdzono niezależnie: 515 plików pierwszego pełnego skanu i 572 pliki po korektach zgodne z sumami SHA-256 manifestów. Odtworzony stan zawiera 466 poprawnych scenariuszy i 55 zamrożonych kart. [Macierz odczytów wszystkich domen](POKRYCIE_DOMEN.md) wskazuje konkretne braki. W pierwszym wyborze wykryto osiem kategorii, poradników lub dodatków zamiast kart. Konfiguracja zawiera jawne korekty wyłącznie tych początkowych błędów; nie porównuje się ich z nową kartą jako zmiany oferty. Poprawnie wybrane projekty pozostają stałe. 57 adresów konkretnych kart ustalono w konfiguracji; ich podstawy wyboru są jawne. Ekspozycja lub ranking popularności nie stanowią dowodu liczby sprzedaży.
 
 **Harmonogram i koszt**
 
@@ -21,6 +21,8 @@ Skan rozpoczyna się codziennie o 06:17 Europe/Warsaw, także w weekend. Celem j
 Standardowy runner publicznego repozytorium nie zużywa limitu 2000 minut dla prywatnych repozytoriów GitHub Free. Archiwum 180 dni korzysta z Releases. Krótkie artefakty awarii przechowywane są przez trzy dni. Pliki graficzne nie trafiają do historii Git.
 
 **Co zostało sprawdzone**
+
+[45 testów na GitHub Actions](https://github.com/MateuszD0/Pracownie/actions/runs/39322225999) zakończonych sukcesem dla wersji b475a4a. Kolejne korekty są sprawdzane przez ten sam workflow CI.
 
 - Rzeczywisty Chromium na kontrolowanych stronach: obniżka ceny 4590 → 4290 PLN, dodatki, rozwijane sekcje, zakładki, warianty, koszyk, cookies, ukryte kontrolki i powtarzające się identyfikatory DOM.
 - Zachowanie poprawnego stanu po awarii HTTP, stały wybór karty, korekta początkowej kategorii bez fałszywej różnicy, powtórzenie dnia i wznowienie bez zbędnych odczytów.
@@ -33,7 +35,7 @@ Przykład liczbowej obniżki pochodzi z kontrolowanego testu. Nie jest informacj
 
 Pierwszy dzień tworzy punkt odniesienia. Nie ma historycznych zrzutów sprzed uruchomienia. Rzeczywiste porównania dzień do dnia będą dostępne po kolejnych codziennych odczytach. Obserwacja stabilności przez 2–3 dni pozostaje do wykonania; testy powtórzeń w jednym dniu jej nie zastępują.
 
-Automatyczne scenariusze mają limit czasu i liczby interakcji. Zależności konfiguratorów, wszystkie kombinacje wariantów, dalsze kroki koszyka oraz niestandardowe kontrolki wymagają adapterów. Każda domena ma nadal inspection:pending, dopóki nie zostanie potwierdzony jej pełny zakres. Sam HTTP 200 ani znalezienie karty nie oznaczają pełnego sprawdzenia. Błędy 403, niedostępne strony, pozostałe panele cookies, zasoby i nieodtworzone scenariusze są wykazane w raporcie.
+Automatyczne scenariusze mają limit czasu i liczby interakcji. Zależności konfiguratorów, wszystkie kombinacje wariantów, dalsze kroki koszyka oraz niestandardowe kontrolki wymagają adapterów. Każda domena ma nadal inspection:pending, dopóki nie zostanie potwierdzony jej pełny zakres. Sam HTTP 200 ani znalezienie karty nie oznaczają pełnego sprawdzenia. Bez udanego odczytu pozostały: archdesign.pl, archido.pl, domdlaciebie.com.pl, dompp.pl, domydlanas.pl, lk-projekt.pl, mtmstyl.com.pl i nowoczesne-projektydomow.pl. Błędy obejmują 403, niepoprawny certyfikat nazwy hosta, pusty dokument i timeout. Archdom wymaga ustalenia poprawnej karty, a karta HB Studio zwróciła HTTP 429. Pozostałe panele cookies, brakujące zasoby i nieodtworzone scenariusze są wykazane w raporcie.
 
 Lokalne Chromium tego środowiska nie ufa certyfikatowi proxy przy dostępie do rzeczywistych stron. Produkcyjne skany wykonuje GitHub Actions, gdzie ten problem nie występuje. TLS pozostaje włączony. Projekt konfiguracji środowiska Codex zawiera instalację zależności, instrukcję startową i listę hostów; zapis projektu ustawień nie oznacza jego opublikowania w interfejsie środowiska.
 

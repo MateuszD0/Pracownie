@@ -12,7 +12,10 @@ from dataclasses import dataclass
 from datetime import date, timedelta
 from pathlib import Path
 
-from .browser import BrowserScanner, Capture, infer_scenarios
+from playwright.async_api import Error as BrowserError
+from playwright.async_api import TimeoutError as BrowserTimeout
+
+from .browser import BrowserScanner, Capture, TransientFetchError, infer_scenarios
 from .compare import compare
 from .images import image_difference, ocr_context
 from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
@@ -53,7 +56,12 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         return await scanner.capture(site, kind, url, scenario, dest)
                     except Exception as exc:
                         # Permanent denials and invalid content do not improve with retries.
-                        if attempt == options.retries or isinstance(exc, ValueError):
+                        retryable = isinstance(exc, (TransientFetchError, BrowserTimeout)) or (
+                            isinstance(exc, BrowserError) and any(code in str(exc) for code in (
+                                "ERR_CONNECTION_RESET", "ERR_CONNECTION_CLOSED", "ERR_TIMED_OUT", "ERR_NETWORK_CHANGED",
+                            ))
+                        )
+                        if attempt == options.retries or not retryable:
                             raise
                         await asyncio.sleep(min(2 ** attempt, 4))
 
@@ -203,6 +211,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
         results.sort(key=lambda result: (result.domain, result.page, result.scenario))
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})
+        metadata["evidence_bytes"] = sum(p.stat().st_size for p in (staging / day).rglob("*.png"))
         write_outputs(staging, day, results, metadata, state["selections"], [site.domain for site in sites])
         install_outputs(staging, output, day, slug(run_id))
         store.commit(state)

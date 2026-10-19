@@ -18,6 +18,10 @@ COOKIE_NAMES = re.compile(r"^(odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędn
 UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit", re.I)
 
 
+class TransientFetchError(RuntimeError):
+    """A temporary origin failure that can be retried with backoff."""
+
+
 def allowed_url(site: Site, url: str) -> bool:
     parsed = urlsplit(url)
     host = parsed.hostname or ""
@@ -198,6 +202,8 @@ class BrowserScanner:
         warnings = []
         try:
             response = await page.goto(url, wait_until="domcontentloaded", timeout=self.navigation_timeout)
+            if response and (response.status == 429 or response.status >= 500):
+                raise TransientFetchError(f"Przejściowy błąd HTTP {response.status}")
             if response is None or response.status >= 400:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
             if not allowed_url(site, page.url):

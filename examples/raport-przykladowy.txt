@@ -1,0 +1,49 @@
+DANE SYNTETYCZNE — TO PRZYKŁAD FORMATU, NIE SKAN PRAWDZIWEJ PRACOWNI.
+Zrzuty w rzeczywistym raporcie pochodzą z dwóch odczytów; ten przykład ich nie zawiera.
+
+MONITORING PRACOWNI — 2026-10-19
+Rozpoczęcie: 2026-10-19 06:17:00 CEST
+Zakończenie skanowania: 2026-10-19 06:23:00 CEST
+Raport: kompletny
+Domeny: 1; w pełni: 1; częściowo: 0; błędy: 0
+Liczba różnic i obserwacji wymagających oceny: 2
+Czas przebiegu: 360.0 s (bez instalacji i publikacji GitHub)
+Obrazy w archiwum dnia: 0 B; bieżące obrazy stanu: 0 B.
+Cel gotowości: 08:00 Europe/Warsaw. Skan zakończono przed celem; publikacja może zakończyć się później.
+Porównanie: ostatni poprawny odczyt danego scenariusza sprzed dnia raportu.
+UWAGA: brak zmian dotyczy wyłącznie poprawnie odczytanego zakresu. Skan raz dziennie nie wykrywa zmian pomiędzy skanami.
+
+NAJWAŻNIEJSZE ZMIANY
+
+przyklad.example: Cena projektu: 4590 PLN → 4290 PLN; spadek o 300.00 (-6.54%).
+przyklad.example: Kosztorys — szczegóły poniżej.
+
+SZCZEGÓŁY WEDŁUG DOMEN
+
+========================================================================
+DOMENA: przyklad.example | zakres: pełny
+PROJEKT: Dom Przykładowy
+WYBÓR: Przykład formatu, fikcyjny projekt
+ŹRÓDŁO WYBORU: https://przyklad.example/projekt/dom-a
+
+STRONA: projekt | SCENARIUSZ: podstawowy
+STATUS: zmiany
+ADRES: https://przyklad.example/projekt/dom-a
+ODCZYT: 2026-10-19 06:23:00 CEST
+  [CENY] Cena projektu
+  OCENA: zmieniono
+  PORÓWNANIE: 2026-10-18 06:25:00 CEST → 2026-10-19 06:23:00 CEST
+  PRZED: 4590 PLN
+  PO: 4290 PLN
+  RÓŻNICA CENY: -300.00; procentowo: -6.54%
+  [DODATKI] Kosztorys
+  OCENA: zmieniono
+  PORÓWNANIE: 2026-10-18 06:25:00 CEST → 2026-10-19 06:23:00 CEST
+  PRZED: Dodatek za 150 zł
+  PO: Dodano do pakietu bez dopłaty
+
+POPRAWNIE SPRAWDZONE SCENARIUSZE BEZ ZMIAN
+Brak.
+
+BŁĘDY I NIEPEŁNY ZAKRES
+Brak.

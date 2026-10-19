@@ -54,6 +54,7 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
         f"Domeny: {len(domains)}; w pełni: {counts['complete']}; częściowo: {counts['partial']}; błędy: {counts['error']}",
         f"Liczba różnic i obserwacji wymagających oceny: {total_changes}",
         f"Czas przebiegu: {metadata['elapsed_seconds']:.1f} s (bez instalacji i publikacji GitHub)",
+        f"Obrazy w archiwum dnia: {metadata.get('evidence_bytes', 0)} B; bieżące obrazy stanu: {metadata.get('snapshot_bytes', 0)} B.",
         "Cel gotowości: 08:00 Europe/Warsaw. " + ("Skan zakończono po celu." if end > deadline else "Skan zakończono przed celem; publikacja może zakończyć się później."),
         "Porównanie: ostatni poprawny odczyt danego scenariusza sprzed dnia raportu.",
         "UWAGA: brak zmian dotyczy wyłącznie poprawnie odczytanego zakresu. Skan raz dziennie nie wykrywa zmian pomiędzy skanami.",

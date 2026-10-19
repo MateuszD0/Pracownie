@@ -11,6 +11,7 @@ Repozytorium jest publiczne. Produkcyjną automatyzację uruchamia GitHub Action
 | [Pełny, pierwszy skan 65 domen](https://github.com/MateuszD0/Pracownie/actions/runs/39311240448) | Publikacja TXT, ZIP i trwałego stanu zakończona. Skan: 1491,9 s; ZIP: 247,6 MB; stan: 104,3 MB. 55 domen odczytanych częściowo, 10 bez udanego odczytu. |
 | [Ponowny pilotaż na świeżym runnerze](https://github.com/MateuszD0/Pracownie/actions/runs/39313438127) | Poprzedni stan i wybór projektów odtworzone z Releases. Pięć domen odczytanych częściowo, w tym karta Extradom. Skan: 133,6 s; ZIP: 14,2 MB. |
 | [Pełna walidacja po korektach](https://github.com/MateuszD0/Pracownie/actions/runs/39321629811) | Zakończona publikacją. Wszystkie 65 domen podjęte, bez pominięć z powodu budżetu. Skan: 1581,8 s (26 min 22 s); ZIP: 275,8 MB; stan: 200,4 MB. 57 domen częściowo odczytanych, 8 bez udanego odczytu. |
+| [Pilotaż poprawki panelu cookies WP](https://github.com/MateuszD0/Pracownie/actions/runs/39325931312) | Zakończony publikacją; skan 194,4 s, 47 plików zgodnych z manifestem. Panel cookies Extradom został zamknięty przez zapis odmowy; karta i zrzut nie są nim zasłonięte. Pozostałe ograniczenia kontrolek i zasobów są nadal raportowane. |
 
 Archiwa sprawdzono niezależnie: 515 plików pierwszego pełnego skanu i 572 pliki po korektach zgodne z sumami SHA-256 manifestów. Odtworzony stan zawiera 466 poprawnych scenariuszy i 55 zamrożonych kart. [Macierz odczytów wszystkich domen](POKRYCIE_DOMEN.md) wskazuje konkretne braki. W pierwszym wyborze wykryto osiem kategorii, poradników lub dodatków zamiast kart. Konfiguracja zawiera jawne korekty wyłącznie tych początkowych błędów; nie porównuje się ich z nową kartą jako zmiany oferty. Poprawnie wybrane projekty pozostają stałe. 57 adresów konkretnych kart ustalono w konfiguracji; ich podstawy wyboru są jawne. Ekspozycja lub ranking popularności nie stanowią dowodu liczby sprzedaży.
 
@@ -22,7 +23,7 @@ Standardowy runner publicznego repozytorium nie zużywa limitu 2000 minut dla pr
 
 **Co zostało sprawdzone**
 
-[45 testów na GitHub Actions](https://github.com/MateuszD0/Pracownie/actions/runs/39322225999) zakończonych sukcesem dla wersji b475a4a. Kolejne korekty są sprawdzane przez ten sam workflow CI.
+[46 testów na GitHub Actions](https://github.com/MateuszD0/Pracownie/actions/runs/39326381727) i lint zakończone sukcesem dla wersji 1c9085c, obejmującej końcową poprawkę cookies, rozróżnienie zgód na zmiany w projekcie od prywatności oraz większy zapas czasu skanowania.
 
 - Rzeczywisty Chromium na kontrolowanych stronach: obniżka ceny 4590 → 4290 PLN, dodatki, rozwijane sekcje, zakładki, warianty, koszyk, cookies, ukryte kontrolki i powtarzające się identyfikatory DOM.
 - Zachowanie poprawnego stanu po awarii HTTP, stały wybór karty, korekta początkowej kategorii bez fałszywej różnicy, powtórzenie dnia i wznowienie bez zbędnych odczytów.

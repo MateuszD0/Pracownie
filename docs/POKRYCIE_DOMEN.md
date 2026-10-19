@@ -6,6 +6,8 @@ Wszystkie 65 domen zostało podjętych; żadnej nie pominięto z powodu globalne
 
 Odczyt bazowy nie oznacza potwierdzenia wszystkich funkcji, cen, kombinacji ani kolejnych etapów koszyka. Adaptery mają nadal status wymagający pełnej inspekcji. Poniżej podano stan stron bazowych; szczegóły każdego scenariusza i ograniczenia zasobów są w TXT oraz pokrycie.json.
 
+Po tym pełnym przebiegu [oddzielny pilotaż](https://github.com/MateuszD0/Pracownie/actions/runs/39325931312) potwierdził poprawkę panelu cookies Extradom: odmowa jest zapisywana, a karta widoczna bez zasłonięcia. Niestandardowe kontrolki i konfigurator nadal wymagają dopracowania adaptera. Pilotaż ma osobne archiwum i stan; nie zmienia historycznego raportu pełnego przebiegu.
+
 | Domena | Strona główna | Karta projektu | Błędy / brak zakresu |
 | --- | --- | --- | --- |
 | 1001studio.pl | odczytano | odczyt częściowy | Locator.click: Timeout 7000ms exceeded.; Przekroczono czas domeny (projekt/cart-fade097b961c: interakcja click); pozostały zakres nie został sprawdzony. |

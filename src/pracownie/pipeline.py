@@ -223,6 +223,12 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
         if not directory.is_dir() or not (directory / "manifest.json").is_file():
             continue
         try:
+            owner = json.loads((directory / "manifest.json").read_text()).get("owner")
+        except (OSError, ValueError):
+            continue
+        if owner != "pracownie-monitor:v1":
+            continue
+        try:
             parsed = date.fromisoformat(directory.name).isoformat()
         except ValueError:
             continue

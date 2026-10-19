@@ -1,7 +1,7 @@
 import copy
 import json
 import zipfile
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 from decimal import Decimal
 
 import pytest
@@ -127,3 +127,39 @@ def test_warsaw_dst_and_weekend():
     assert local_day(datetime(2026, 3, 28, 23, 30, tzinfo=UTC)) == "2026-03-29"
     assert local_day(datetime(2026, 10, 24, 22, 30, tzinfo=UTC)) == "2026-10-25"
     assert datetime.fromisoformat("2026-10-25").weekday() == 6
+
+
+def test_retention_uses_warsaw_calendar_day(tmp_path):
+    store = StateStore(tmp_path)
+    data = seed(store, "2026-10-19")
+    data["snapshots"]["test.pl/projekt/base"]["observed_at"] = "2026-10-18T22:30:00+00:00"
+    store.commit(data)
+    day = (date(2026, 10, 19) + timedelta(days=179)).isoformat()
+    assert store.begin(day)["snapshots"]
+
+
+def test_output_does_not_replace_user_folder(tmp_path):
+    from pracownie.report import install_outputs
+    staging, output = tmp_path / "staging", tmp_path / "output"
+    (staging / "2026-10-19").mkdir(parents=True)
+    (staging / "2026-10-19.txt").write_text("generated")
+    (output / "2026-10-19").mkdir(parents=True)
+    (output / "2026-10-19" / "user.txt").write_text("preserve")
+    with pytest.raises(ValueError, match="osobny"):
+        install_outputs(staging, output, "2026-10-19", "test")
+    assert (output / "2026-10-19" / "user.txt").read_text() == "preserve"
+
+
+def test_output_preserves_notes_added_to_generated_report(tmp_path):
+    from pracownie.report import install_outputs, write_outputs
+    day = "2026-10-19"
+    first, second, output = tmp_path / "first", tmp_path / "second", tmp_path / "output"
+    metadata = {"run_id": "test", "started_at": day + "T04:00:00+00:00", "finished_at": day + "T04:01:00+00:00", "elapsed_seconds": 60}
+    write_outputs(first, day, [], metadata, {}, [])
+    install_outputs(first, output, day, "one")
+    notes = output / day / "notatki.txt"
+    notes.write_text("Notatki użytkownika")
+    write_outputs(second, day, [], metadata, {}, [])
+    with pytest.raises(ValueError, match="użytkownika"):
+        install_outputs(second, output, day, "two")
+    assert notes.read_text() == "Notatki użytkownika"

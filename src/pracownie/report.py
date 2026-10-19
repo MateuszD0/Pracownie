@@ -119,7 +119,7 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     report = staging / f"{day}.txt"
     atomic_write(report, render_report(day, results, metadata, selections, domains).encode())
     files = [report, *sorted(p for p in directory.rglob("*") if p.is_file())]
-    manifest = {"schema": 1, "run_id": metadata["run_id"], "day": day, "files": {
+    manifest = {"schema": 1, "owner": "pracownie-monitor:v1", "run_id": metadata["run_id"], "day": day, "files": {
         p.relative_to(staging).as_posix(): {"sha256": digest(p), "bytes": p.stat().st_size} for p in files
     }}
     atomic_write(directory / "manifest.json", json_bytes(manifest))
@@ -139,7 +139,16 @@ def install_outputs(staging: Path, destination: Path, day: str, run_id: str):
     previous = destination / f".previous-{run_id}"
     current = destination / day
     if current.exists():
+        manifest_path = current / "manifest.json"
+        if not manifest_path.is_file() or json.loads(manifest_path.read_text()).get("owner") != "pracownie-monitor:v1":
+            raise ValueError("Istniejący folder dnia nie jest oznaczony jako wynik monitora; wybierz osobny --output")
+        verify_outputs(destination, day)
+        owned_files = set(json.loads(manifest_path.read_text())["files"]) | {f"{day}/manifest.json"}
+        if any(p.relative_to(destination).as_posix() not in owned_files for p in current.rglob("*") if p.is_file()):
+            raise ValueError("Folder raportu zawiera dodane pliki użytkownika; nie zastąpiono go")
         current.rename(previous)
+    elif (destination / f"{day}.txt").exists():
+        raise ValueError("Plik TXT dnia już istnieje bez własnego manifestu; nie nadpisano go")
     try:
         (staging / day).rename(current)
         atomic_write(destination / f"{day}.txt", (staging / f"{day}.txt").read_bytes())

@@ -8,10 +8,10 @@ import shutil
 import tempfile
 import zipfile
 from contextlib import contextmanager
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
-from .model import SCHEMA, Snapshot, digest, json_bytes, safe_path
+from .model import SCHEMA, Snapshot, digest, json_bytes, local_day, safe_path
 
 
 def atomic_write(path: Path, content: bytes) -> None:
@@ -76,7 +76,7 @@ class StateStore:
         cutoff = (date.fromisoformat(day) - timedelta(days=retention)).isoformat()
         for section in ("snapshots", "anchor"):
             data[section] = {
-                key: value for key, value in data[section].items() if value["observed_at"][:10] > cutoff
+                key: value for key, value in data[section].items() if local_day(datetime.fromisoformat(value["observed_at"])) > cutoff
             }
         return data
 

@@ -14,7 +14,7 @@ from .extract import MONEY, amount, canonical_url, extract_fields, validate_payl
 from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
-COOKIE_NAMES = re.compile(r"^(odrzuć wszystkie|odrzuć|tylko niezbędne|nie zgadzam się|reject all|reject|necessary only|deny)$", re.I)
+COOKIE_NAMES = re.compile(r"^(odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit", re.I)
 
 
@@ -106,6 +106,11 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
         if not (detail or price and link.get("image")):
             continue
         strong_detail = bool(re.search(r"^/projekt/[^/]+/?$|^/projekt-domu-[^/]+/?$", path))
+        if not strong_detail and not site.product_url_pattern:
+            card_signal = bool(price or re.search(r"powierzch|\d\s*m[²2]", context))
+            named_image = link.get("image") and bool(link.get("text")) and not re.match(r"^(projekty|domy)\b", link["text"], re.I)
+            if not card_signal and not named_image:
+                continue
         confidence_penalty = 0 if strong_detail else 1000 if price and link.get("image") else 3000
         rank = 4
         basis = "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży."
@@ -199,6 +204,11 @@ class BrowserScanner:
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
             await self.cookies(page)
             await self.settle(page)
+            cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
+            for index in range(await cookie_dialog.count()):
+                element = cookie_dialog.nth(index)
+                if await element.is_visible() and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
+                    warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
             for action in scenario.actions:
                 selector = action.get("selector", "")
                 locator = page.locator(selector)
@@ -295,7 +305,7 @@ class BrowserScanner:
             try:
                 listing = await self.capture(site, "glowna", url, Scenario("ranking", "Ranking"), directory / f"ranking-{index}.png")
                 for _, candidate in project_candidates(site, listing.payload):
-                    candidate.update(source=url, basis="Pierwszy poprawny projekt z sekcji bestsellerów/najpopularniejszych; brak dostępu do liczby sprzedaży.")
+                    candidate.update(source=url, basis=f"Pierwszy poprawny projekt z sekcji: {listing.snapshot.title}. Ranking/ekspozycja nie potwierdza liczby sprzedaży.")
                     ranked_candidates.append((0, candidate))
             except Exception as exc:
                 warnings.append("Nie udało się sprawdzić rankingu: " + type(exc).__name__)

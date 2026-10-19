@@ -7,6 +7,8 @@ import os
 import sys
 from pathlib import Path
 
+import httpx
+
 from .github import GitHubStore
 from .model import load_sites, local_day
 from .pipeline import RunOptions, run_scan
@@ -147,8 +149,12 @@ def main():
     args = parser().parse_args()
     try:
         code = execute(args)
-    except (ValueError, RuntimeError, OSError) as exc:
-        print("BŁĄD: " + str(exc), file=sys.stderr)
+    except (ValueError, RuntimeError, OSError, httpx.HTTPError) as exc:
+        message = str(exc)
+        print("BŁĄD: " + message, file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            escaped = message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+            print("::error title=Pracownie Monitor::" + escaped, file=sys.stderr)
         code = 1
     raise SystemExit(code)
 

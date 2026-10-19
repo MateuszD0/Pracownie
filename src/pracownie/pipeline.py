@@ -80,7 +80,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     visual = await asyncio.to_thread(image_difference, store.root / before.image, capture.screenshot, difference_path)
                 elif before:
                     changes.append(Change("review", "obraz", "Zmiana wersji przeglądarki lub sposobu renderowania", before.renderer, snapshot.renderer, before.observed_at, snapshot.observed_at, snapshot.url, snapshot.scenario, note="Porównanie wizualne pominięto; porównanie danych zachowano."))
-                if before and visual and visual.changed and not changes:
+                if before and visual and visual.changed:
                     text, note = "", "Zmiana obrazu wymaga oceny; może wynikać również ze zmiany układu."
                     if options.ocr:
                         text, ocr_note = await asyncio.to_thread(ocr_context, capture.screenshot, folder / "fragment-ocr.png", visual.bbox)

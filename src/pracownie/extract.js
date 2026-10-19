@@ -49,7 +49,7 @@
   for (const e of document.querySelectorAll('script[type="application/ld+json"]')) {
     try { walk(JSON.parse(e.textContent)); } catch { /* malformed structured data is optional */ }
   }
-  const links = [...document.querySelectorAll('a[href]')].filter(visible).slice(0,2000).map(e => ({
+  const links = [...document.querySelectorAll('a[href]')].filter(e => visible(e) && !e.closest('nav,[role=navigation],footer')).slice(0,2000).map(e => ({
     url:e.href, text:clean(e.innerText || e.getAttribute('aria-label') || e.querySelector('img')?.alt),
     context:clean(e.closest('article,li,[class*=card],[class*=product],[class*=projekt]')?.innerText).slice(0,500),
     image:!!e.querySelector('img'),

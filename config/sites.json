@@ -181,7 +181,9 @@
         ".grecaptcha-badge"
       ],
       "allowed_hosts": [],
-      "discovery_links": [],
+      "discovery_links": [
+        "https://www.archipelag.pl/projekty-domow/top-100-hity-naszej-kolekcji"
+      ],
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:00.212213+00:00",
         "http_status": 200,
@@ -217,12 +219,15 @@
         ".grecaptcha-badge"
       ],
       "allowed_hosts": [],
-      "discovery_links": [],
+      "discovery_links": [
+        "https://www.dobredomy.pl/projekty/polecane_projekty/"
+      ],
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:01.135289+00:00",
         "http_status": 200,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+      },
+      "product_url_pattern": "/projekt/[^/?#]+/?$"
     },
     {
       "domain": "dom-projekt.pl",
@@ -314,7 +319,8 @@
         "http_inspected_at": "2026-10-19T19:01:02.303507+00:00",
         "http_status": 200,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+      },
+      "product_url_pattern": "/projekt/[^/?#]+/?$"
     },
     {
       "domain": "dompasja.pl",
@@ -460,7 +466,8 @@
         "http_inspected_at": "2026-10-19T19:01:04.933414+00:00",
         "http_status": 200,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+      },
+      "product_url_pattern": "/projekt-domu-[^/?#]+/?$"
     },
     {
       "domain": "galeriadomow.pl",
@@ -624,7 +631,8 @@
         "http_inspected_at": "2026-10-19T19:01:07.034610+00:00",
         "http_status": 200,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+      },
+      "product_url_pattern": "/projekt/[^/?#]+/?$"
     },
     {
       "domain": "lk-projekt.pl",

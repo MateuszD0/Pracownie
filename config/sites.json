@@ -1,0 +1,1192 @@
+{
+  "schema": 1,
+  "pilot": [
+    "archipelag.pl",
+    "dobredomy.pl",
+    "domoweklimaty.pl",
+    "extradom.pl",
+    "lipinscy.pl"
+  ],
+  "sites": [
+    {
+      "domain": "1001studio.pl",
+      "home_url": "https://1001studio.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.106470+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "alexanderstudio.pl",
+      "home_url": "https://alexanderstudio.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.107036+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archand.pl",
+      "home_url": "https://archand.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.107558+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archdesign.pl",
+      "home_url": "https://archdesign.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.107946+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archdom.pl",
+      "home_url": "https://archdom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.108355+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archeton.pl",
+      "home_url": "https://archeton.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.108666+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archetyp.pl",
+      "home_url": "https://archetyp.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.109217+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archi-projekt.com.pl",
+      "home_url": "https://archi-projekt.com.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:00:59.109627+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archido.pl",
+      "home_url": "https://archido.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:00.113074+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archipelag.pl",
+      "home_url": "https://archipelag.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:00.212213+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "archstodola.pl",
+      "home_url": "https://archstodola.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:00.590307+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "dobredomy.pl",
+      "home_url": "https://dobredomy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:01.135289+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "dom-projekt.pl",
+      "home_url": "https://dom-projekt.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:01.280089+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domdlaciebie.com.pl",
+      "home_url": "https://domdlaciebie.com.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:01.631766+00:00",
+        "http_status": 503,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domenadom.pl",
+      "home_url": "https://domenadom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:01.903472+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "dominanta.pl",
+      "home_url": "https://dominanta.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:02.147869+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domoweklimaty.pl",
+      "home_url": "https://domoweklimaty.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [
+        "https://www.domoweklimaty.pl/projekty-domow-najpopularniejsze-projekty-2024/"
+      ],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:02.303507+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "dompasja.pl",
+      "home_url": "https://dompasja.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:02.690180+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "dompp.pl",
+      "home_url": "https://dompp.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:02.801443+00:00",
+        "http_status": "error",
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domydlanas.pl",
+      "home_url": "https://domydlanas.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:03.180671+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domywstylu.pl",
+      "home_url": "https://domywstylu.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:03.483373+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "domyzweranda.pl",
+      "home_url": "https://domyzweranda.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:03.535978+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "e-domy.pl",
+      "home_url": "https://e-domy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:04.126411+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "eg-domy.pl",
+      "home_url": "https://eg-domy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:04.222230+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "extradom.pl",
+      "home_url": "https://extradom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [
+        "https://www.extradom.pl/porady/artykul-extraprojekt-najpopularniejsze-projekty-domow-2026"
+      ],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:04.933414+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "galeriadomow.pl",
+      "home_url": "https://galeriadomow.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:05.017474+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "hbstudio.pl",
+      "home_url": "https://hbstudio.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:05.455626+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "hexagreen.pl",
+      "home_url": "https://hexagreen.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:05.496151+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "housecollection.pl",
+      "home_url": "https://housecollection.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [
+        "https://housecollection.pl/blog/post/41-5-projektow-ktore-sa-najpopularniejsze-wsrod-naszych-klientow-na-poczatku-2022-roku.html"
+      ],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:05.943220+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "kbprojekt.pl",
+      "home_url": "https://kbprojekt.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:06.123702+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "klimatdrewna.pl",
+      "home_url": "https://klimatdrewna.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:06.541365+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "kreatywnedomy.pl",
+      "home_url": "https://kreatywnedomy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:06.833463+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "kreodom.pl",
+      "home_url": "https://kreodom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:06.959959+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "lipinscy.pl",
+      "home_url": "https://lipinscy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:07.034610+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "lk-projekt.pl",
+      "home_url": "https://lk-projekt.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:07.449682+00:00",
+        "http_status": 403,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "moj-dom-projekty.pl",
+      "home_url": "https://moj-dom-projekty.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:07.676656+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "mtmstyl.com.pl",
+      "home_url": "https://mtmstyl.com.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:07.841299+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "myhome.eco",
+      "home_url": "https://myhome.eco",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:07.880315+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "nowoczesne-projektydomow.pl",
+      "home_url": "https://nowoczesne-projektydomow.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:08.373601+00:00",
+        "http_status": 403,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "ototwojdom.pl",
+      "home_url": "https://ototwojdom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:08.834975+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "penthus.pl",
+      "home_url": "https://penthus.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:09.013546+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "pioroarchitekci.pl",
+      "home_url": "https://pioroarchitekci.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:09.119998+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "planujdom.pl",
+      "home_url": "https://planujdom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:09.182843+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "pollio.pl",
+      "home_url": "https://pollio.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:09.597523+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "polskiedomki.pl",
+      "home_url": "https://polskiedomki.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:09.647423+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "postawdom24.pl",
+      "home_url": "https://postawdom24.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:10.228136+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "praktyczneprojekty.pl",
+      "home_url": "https://praktyczneprojekty.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [
+        "https://praktyczneprojekty.pl/p10g___797m2.html"
+      ],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:10.489948+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "pro-arte.pl",
+      "home_url": "https://pro-arte.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:10.811296+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "profesjonalne-projekty-domow.pl",
+      "home_url": "https://profesjonalne-projekty-domow.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:10.821955+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektdomudo100m2.pl",
+      "home_url": "https://projektdomudo100m2.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [
+        "https://www.projektdomudo100m2.pl/dom-parterowy-100m2/"
+      ],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:11.910958+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektstodola.pl",
+      "home_url": "https://projektstodola.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:11.971515+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektydomow.redcart.pl",
+      "home_url": "https://projektydomow.redcart.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:12.636149+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektygebala.com",
+      "home_url": "https://projektygebala.com",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:12.924713+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektyka.pl",
+      "home_url": "https://projektyka.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:13.030904+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektyszkieletowe.pl",
+      "home_url": "https://projektyszkieletowe.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:13.256970+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "projektyzwizja.pl",
+      "home_url": "https://projektyzwizja.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:13.741862+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "sej-pro.pl",
+      "home_url": "https://sej-pro.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:13.866281+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "skahus.pl",
+      "home_url": "https://skahus.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:14.089490+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "slonecznedomy.pl",
+      "home_url": "https://slonecznedomy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:14.107075+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "sprytnaoaza.pl",
+      "home_url": "https://sprytnaoaza.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:15.130263+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "studioatrium.pl",
+      "home_url": "https://studioatrium.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:15.826242+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "studiokrajobrazy.pl",
+      "home_url": "https://studiokrajobrazy.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:15.876714+00:00",
+        "http_status": 503,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "teaprojekt.pl",
+      "home_url": "https://teaprojekt.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:16.056601+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "uarchitekta.pl",
+      "home_url": "https://uarchitekta.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:16.229285+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    },
+    {
+      "domain": "zbudujsamdom.pl",
+      "home_url": "https://zbudujsamdom.pl",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "http_inspected_at": "2026-10-19T19:01:16.263833+00:00",
+        "http_status": 200,
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
+      }
+    }
+  ]
+}

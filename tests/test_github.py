@@ -1,0 +1,135 @@
+import hashlib
+import json
+
+import httpx
+import pytest
+
+from pracownie.github import OWNER_MARKER, GitHubStore
+from pracownie.report import bundle_report, write_outputs
+from pracownie.state import StateStore
+
+
+class FakeGitHub:
+    def __init__(self):
+        self.releases = {}
+        self.assets = {}
+        self.contents = {}
+        self.next_id = 1
+        self.fail_commit = False
+        self.deleted = []
+
+    def request(self, request):
+        path, method = request.url.path, request.method
+        if path == "/repos/test/monitor" and method == "GET":
+            return httpx.Response(200, json={"private": True, "permissions": {"push": True}, "default_branch": "main"})
+        if path.startswith("/repos/test/monitor/releases/tags/"):
+            tag = path.rsplit("/", 1)[-1]
+            release = next((r for r in self.releases.values() if r["tag_name"] == tag), None)
+            return httpx.Response(200 if release else 404, json=release or {})
+        if path == "/repos/test/monitor/releases":
+            if method == "GET":
+                return httpx.Response(200, json=list(self.releases.values()))
+            data = json.loads(request.content)
+            number = self.next_id
+            self.next_id += 1
+            release = dict(data, id=number, html_url=f"https://github.com/test/monitor/releases/tag/{data['tag_name']}", upload_url=f"https://uploads.github.com/repos/test/monitor/releases/{number}/assets{{?name}}")
+            self.releases[number] = release
+            return httpx.Response(201, json=release)
+        if "/releases/assets/" in path:
+            number = int(path.rsplit("/", 1)[-1])
+            if method == "GET":
+                return httpx.Response(200, content=self.contents[number])
+            self.deleted.append(self.assets[number]["name"])
+            del self.assets[number]
+            del self.contents[number]
+            return httpx.Response(204)
+        if path.endswith("/assets"):
+            release_id = int(path.split("/")[-2])
+            if method == "GET":
+                return httpx.Response(200, json=[a for a in self.assets.values() if a["release_id"] == release_id])
+            name = request.url.params["name"]
+            if self.fail_commit and name.startswith("commit-"):
+                return httpx.Response(500, json={"message": "interrupted"})
+            content = request.read()
+            number = self.next_id
+            self.next_id += 1
+            asset = {"id": number, "name": name, "release_id": release_id, "size": len(content), "digest": "sha256:" + hashlib.sha256(content).hexdigest(), "browser_download_url": f"https://github.com/file/{number}"}
+            self.assets[number] = asset
+            self.contents[number] = content
+            return httpx.Response(201, json=asset)
+        if "/releases/" in path:
+            release_id = int(path.rsplit("/", 1)[-1])
+            if method == "PATCH":
+                self.releases[release_id].update(json.loads(request.content))
+                return httpx.Response(200, json=self.releases[release_id])
+            if method == "DELETE":
+                del self.releases[release_id]
+                return httpx.Response(204)
+        return httpx.Response(404, json={"path": path})
+
+
+def prepare(store, output, day, run_id):
+    data = store.begin(day)
+    data["selections"]["test.pl"] = {"url": "https://test.pl/projekt", "name": run_id}
+    store.commit(data)
+    metadata = {"run_id": run_id, "started_at": day + "T05:00:00+00:00", "finished_at": day + "T05:01:00+00:00", "elapsed_seconds": 60}
+    write_outputs(output, day, [], metadata, {}, [])
+    archive = output / f"{day}.zip"
+    bundle_report(output, day, archive)
+    return archive
+
+
+def test_persistence_and_interrupted_commit(tmp_path):
+    fake = FakeGitHub()
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(fake.request)))
+    store = StateStore(tmp_path / "local")
+    output = tmp_path / "reports"
+    output.mkdir()
+    archive = prepare(store, output, "2026-10-19", "2026-10-19T060000-a")
+    remote.publish(store, output, "2026-10-19", archive, "2026-10-19T060000-a")
+    fresh = StateStore(tmp_path / "fresh")
+    remote.pull(fresh)
+    assert fresh.read() == store.read()
+    archive = prepare(store, output, "2026-10-20", "2026-10-20T060000-b")
+    fake.fail_commit = True
+    with pytest.raises(RuntimeError):
+        remote.publish(store, output, "2026-10-20", archive, "2026-10-20T060000-b")
+    another = StateStore(tmp_path / "another")
+    remote.pull(another)
+    assert another.read()["day"] == "2026-10-19"
+    fake.fail_commit = False
+    remote.publish(store, output, "2026-10-20", archive, "2026-10-20T070000-c")
+    remote.pull(another)
+    assert another.read()["day"] == "2026-10-20"
+    assert len([a for a in fake.assets.values() if a["name"].startswith("commit-")]) == 2
+
+
+def test_retention_never_deletes_other_releases():
+    fake = FakeGitHub()
+    fake.releases = {
+        1: {"id": 1, "tag_name": "monitor-report-2025-01-01", "body": OWNER_MARKER},
+        2: {"id": 2, "tag_name": "v1.0.0", "body": "user release"},
+        3: {"id": 3, "tag_name": "monitor-report-2025-01-02", "body": "not ours"},
+        4: {"id": 4, "tag_name": "monitor-pilot-report-2025-01-03", "body": OWNER_MARKER},
+    }
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(fake.request)))
+    assert remote.cleanup("2026-10-19") == ["monitor-report-2025-01-01"]
+    assert 1 in fake.releases
+    remote.cleanup("2026-10-19", dry_run=False)
+    assert set(fake.releases) == {2, 3, 4}
+
+
+def test_ownership_collision_blocks_write():
+    fake = FakeGitHub()
+    fake.releases[1] = {"id": 1, "tag_name": "monitor-state-v1", "body": "user release"}
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(fake.request)))
+    with pytest.raises(ValueError, match="nie należy"):
+        remote.release("monitor-state-v1", create=True)
+
+
+def test_unauthorized_upload_host_is_rejected(tmp_path):
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client())
+    path = tmp_path / "data.txt"
+    path.write_text("not secret")
+    with pytest.raises(ValueError, match="host"):
+        remote.upload({"upload_url": "https://outside.example/upload"}, "data.txt", path)

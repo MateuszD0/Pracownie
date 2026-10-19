@@ -182,7 +182,18 @@ class BrowserScanner:
         await page.wait_for_timeout(self.settle_ms)
 
     async def cookies(self, page: Page):
-        for frame in page.frames:
+        frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
+        for frame in frames:
+            # Known CMP selectors avoid traversing the accessibility tree of advertisement frames.
+            for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button"):
+                button = frame.locator(selector).first
+                if await button.count() and await button.is_visible():
+                    try:
+                        await button.click(timeout=2500)
+                    except Exception:
+                        # A recognized refusal control may be covered by the CMP's animation.
+                        await button.evaluate("e => e.click()")
+                    return
             buttons = frame.get_by_role("button", name=COOKIE_NAMES)
             for index in range(min(await buttons.count(), 3)):
                 button = buttons.nth(index)
@@ -210,8 +221,10 @@ class BrowserScanner:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
             if not allowed_url(site, page.url):
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
-            self.phases[site.domain] = f"{page_kind}/{scenario.id}: cookies i przewijanie"
+            await page.add_style_tag(content="html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important}")
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: obsługa cookies"
             await self.cookies(page)
+            self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
             await self.settle(page)
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
             for index in range(await cookie_dialog.count()):

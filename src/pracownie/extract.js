@@ -2,15 +2,15 @@
   const visible = e => !!(e.getClientRects().length && getComputedStyle(e).visibility !== 'hidden');
   const clean = s => (s || '').replace(/\s+/g, ' ').trim();
   const css = e => {
-    if (e.id) return '#' + CSS.escape(e.id);
+    if (e.id && document.querySelectorAll('#' + CSS.escape(e.id)).length === 1) return '#' + CSS.escape(e.id);
     const parts = [];
-    while (e && e !== document.body && parts.length < 7) {
+    while (e && e !== document.body) {
       const siblings = e.parentElement ? [...e.parentElement.children].filter(x => x.tagName === e.tagName) : [];
       parts.unshift(e.tagName.toLowerCase() + ':nth-of-type(' + (siblings.indexOf(e) + 1) + ')');
       e = e.parentElement;
-      if (e && e.id) { parts.unshift('#' + CSS.escape(e.id)); break; }
+      if (e && e.id && document.querySelectorAll('#' + CSS.escape(e.id)).length === 1) { parts.unshift('#' + CSS.escape(e.id)); break; }
     }
-    return parts.join(' > ');
+    return (parts[0]?.startsWith('#') ? '' : 'body > ') + parts.join(' > ');
   };
   const blocks = [], sections = new Set(['oferta']), headings = [];
   let heading = 'oferta', count = 0;

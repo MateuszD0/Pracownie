@@ -148,7 +148,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                             identity = "nested-" + hashlib.sha256(json.dumps(actions, sort_keys=True).encode()).hexdigest()[:12]
                             queue.append(Scenario(identity, scenario.label + " / " + child.label, actions, page=kind))
                     except Exception as exc:
-                        results.append(Result(site.domain, kind, scenario.id, "error", url, error=str(exc).splitlines()[0][:600]))
+                        results.append(Result(site.domain, kind, scenario.id, "error", url, error=str(exc)[:2200]))
                 prior = {key.split("/", 2)[-1] for key in state["anchor"] if key.startswith(f"{site.domain}/{kind}/") and not key.endswith("/podstawowy")}
                 for missing in sorted(prior - completed):
                     warnings.append(f"Poprzedni scenariusz nie został poprawnie odtworzony: {missing}; nie potwierdzono usunięcia funkcji.")

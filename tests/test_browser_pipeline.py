@@ -70,6 +70,20 @@ async def test_cookie_refusal_is_applied_and_excluded(sample_site, executable, t
     assert not any("Cookiebot" in c["selector"] for c in capture.controls)
 
 
+@pytest.mark.browser
+async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executable, tmp_path):
+    sample_site.duplicate_cart = True
+    site = site_config(sample_site)
+    async with BrowserScanner(executable, settle_ms=10) as scanner:
+        base = await scanner.capture(site, "projekt", sample_site.url + "/projekt-domu-testowy", Scenario("podstawowy", "Base"), tmp_path / "base.png")
+        scenarios, _ = infer_scenarios(base.payload, "projekt")
+        cart = [s for s in scenarios if any(a.get("cart") for a in s.actions)]
+        assert len(cart) == 2
+        for index, scenario in enumerate(cart):
+            captured = await scanner.capture(site, "projekt", sample_site.url + "/projekt-domu-testowy", scenario, tmp_path / f"cart-{index}.png")
+            assert captured.snapshot.url.endswith("/cart")
+
+
 def test_scenarios_have_stable_ids_when_option_price_changes():
     payload = {"controls": [{"kind": "select", "label": "Pakiet 4590 zł", "selector": "#pakiet", "name": "pakiet", "value": "base", "options": [{"value": "plus", "label": "Plus 4790 zł"}]}]}
     first, _ = infer_scenarios(payload, "projekt")

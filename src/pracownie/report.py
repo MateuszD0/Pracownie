@@ -71,12 +71,17 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
         for change in result.changes:
             if change.category not in {"ceny", "promocje", "dodatki", "pakiety"}:
                 continue
+            prefix = "DO OCENY: " if change.kind == "review" else ""
             if change.delta is not None:
                 delta = float(change.delta)
-                direction = "spadek" if delta < 0 else "wzrost"
-                highlights.append(f"{result.domain}: {change.label}: {change.before} → {change.after}; {direction} o {abs(delta):.2f} ({change.percent or '—'}%).")
+                if delta == 0:
+                    detail = "bez zmiany wartości kwoty"
+                else:
+                    direction = "spadek" if delta < 0 else "wzrost"
+                    detail = f"{direction} o {abs(delta):.2f} ({change.percent or '—'}%)"
+                highlights.append(f"{prefix}{result.domain}: {change.label}: {change.before} → {change.after}; {detail}.")
             else:
-                highlights.append(f"{result.domain}: {change.label} — szczegóły poniżej.")
+                highlights.append(f"{prefix}{result.domain}: {change.label} — szczegóły poniżej.")
     lines.extend(list(dict.fromkeys(highlights))[:30] or ["Brak potwierdzonych zmian w najważniejszych kategoriach."])
     lines.extend(["", "SZCZEGÓŁY WEDŁUG DOMEN", ""])
     for domain in domains:

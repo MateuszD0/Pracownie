@@ -66,6 +66,18 @@ def test_changed_extractor_requires_review_and_ignores_derived_only_change():
     assert compare(before, after)[0] == []
 
 
+def test_uncertain_price_change_is_labeled_in_report_highlights():
+    from pracownie.model import Result
+    from pracownie.report import render_report
+    before, after = snapshot(), snapshot("4290.00")
+    after.quality = "partial"
+    changes, _ = compare(before, after)
+    report = render_report("2026-10-19", [Result("test.pl", "projekt", "base", "review", after.url, changes)], {"started_at": "2026-10-19T04:00:00+00:00", "finished_at": "2026-10-19T04:01:00+00:00", "elapsed_seconds": 60}, {}, ["test.pl"])
+    highlights = report.split("NAJWAŻNIEJSZE ZMIANY")[1].split("SZCZEGÓŁY WEDŁUG DOMEN")[0]
+    assert "DO OCENY: test.pl" in highlights
+    assert "spadek o 300.00" in highlights
+
+
 def test_variants_are_separate():
     fields, _ = extract_fields({"products": [{"name": "Dom", "offers": [
         {"name": "PDF", "price": "4590", "priceCurrency": "PLN"},

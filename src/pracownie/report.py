@@ -64,7 +64,7 @@ def render_diagnostics(day: str, results: list[Result], metadata: dict, selectio
         "", "NAJWAŻNIEJSZE ZMIANY", "",
     ]
     if metadata.get("reused_domains"):
-        lines.insert(10, f"Tryb naprawczy: wykorzystano poprawne odczyty {len(metadata['reused_domains'])} domen z tego samego dnia; przy wpisach podano ich rzeczywiste godziny.")
+        lines.insert(10, f"Tryb naprawczy: zachowano wcześniejsze wyniki {len(metadata['reused_domains'])} domen z tego samego dnia wraz z ich ewentualnymi błędami; przy wpisach podano rzeczywiste godziny odczytu.")
     for correction in metadata.get("selection_corrections", []):
         lines.insert(10, f"Korekta początkowego wyboru ({correction['domain']}): {correction['reason']} Punkt odniesienia karty utworzono ponownie.")
     highlights = []

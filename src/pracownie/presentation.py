@@ -212,6 +212,10 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     continue
                 if change.category not in SALES or change.field_key.endswith(":priceValidUntil"):
                     continue
+                if change.category == "ceny" and "pierwotna cena" in change.label.casefold() and "aktualna cena" in change.label.casefold():
+                    # A parent block repeats regular/current amounts and their
+                    # accessible labels. Use individual prices and the quote.
+                    continue
                 if NOISE.search((change.before or "") + " " + (change.after or "")):
                     continue
                 if "reguły odczytu" in change.note:

@@ -77,9 +77,10 @@ def view():
     offer = primary_offer(snap(fields))
     previous = {**offer, "amount": "4590.00", "low": "4590.00", "high": "4590.00"}
     duplicate = Change("changed", "ceny", "Cena", "4590 PLN", "4290 PLN", AT, AT, "https://test.pl/dom", "podstawowy", delta="-300.00")
+    mixed = Change("changed", "ceny", "Cena widoczna: Pierwotna cena i aktualna cena", "946 PLN", "1000 PLN", AT, AT, "https://test.pl/dom", "podstawowy", delta="54.00")
     migration = Change("review", "funkcje", "Kontrolki", None, "Nowe reguły", AT, AT, "https://test.pl/dom", "podstawowy", note="Zmieniono reguły odczytu")
     results = [Result("test.pl", "glowna", "podstawowy", "unchanged", "https://test.pl", observed_at=AT),
-               Result("test.pl", "projekt", "podstawowy", "changed", "https://test.pl/dom", [duplicate, migration], observed_at=AT, offer=offer, before_offer=previous),
+               Result("test.pl", "projekt", "podstawowy", "changed", "https://test.pl/dom", [duplicate, mixed, migration], observed_at=AT, offer=offer, before_offer=previous),
                Result("test.pl", "projekt", "opcja", "unavailable", "https://test.pl/dom", error="Timeout: INTERNAL TRACE")]
     return build_view("2026-10-20", results, {"finished_at": AT}, {"test.pl": {"name": "Dom A", "url": "https://test.pl/dom"}}, ["test.pl"])
 

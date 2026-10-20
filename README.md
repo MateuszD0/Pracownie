@@ -6,6 +6,8 @@ Pełne wymagania: [plan wdrożenia](PLAN_WDROZENIA_MONITORINGU.md). Faktyczna do
 
 [Spis raportów dziennych](RAPORTY.md) · [Wybrane karty i źródła wyboru](docs/KARTY_PROJEKTOW.md).
 
+[Jak czytać ceny, różnice i brakujące dane](docs/ODCZYT_I_RAPORT.md).
+
 Pierwsze pełne uruchomienia są opisane w [macierzy rzeczywistych odczytów](docs/POKRYCIE_DOMEN.md). Nie wszystkie domeny i interakcje są obecnie dostępne; raport wskazuje te braki jawnie.
 
 Format wyniku pokazuje [syntetyczny przykład TXT](examples/raport-przykladowy.txt). Jest wygenerowany przez właściwy moduł raportów z fikcyjnych danych, bez skanowania rzeczywistej pracowni.

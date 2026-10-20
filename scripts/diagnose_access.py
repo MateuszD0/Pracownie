@@ -37,7 +37,7 @@ async def inspect(sites):
                 if site.project_url:
                     urls.append(site.project_url)
                 urls.extend(site.discovery_links)
-                for url in urls:
+                for url in dict.fromkeys(urls):
                     page = await context.new_page()
                     check = {"requested_url": url}
                     try:

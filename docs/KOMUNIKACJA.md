@@ -21,7 +21,7 @@ Reguły komunikacji mają osobną tożsamość od adapterów cen. Wymagana jest 
 
 ## Uczciwa historia
 
-Skan 19 października 2026 nie zawierał pełnej surowej historii komunikacji. Oryginalne, datowane fragmenty `tekst:*` mogą potwierdzić zgodność tych samych tekstów; nie wystarczają do ustalenia, że cała strona nie zmieniła komunikacji, ani do uznania nowo odczytanego banera za nową kampanię. Dashboard oznacza takie porównania jako częściowe. Starszy parser cen nie ogranicza niezależnego kontraktu komunikacji, ale brakującego materiału źródłowego nie można odtworzyć z dzisiejszej witryny.
+Skan 19 października 2026 nie zawierał pełnej surowej historii komunikacji. Oryginalne, datowane fragmenty `tekst:*` mogą potwierdzić zgodność tych samych tekstów; nie wystarczają do ustalenia, że cała strona nie zmieniła komunikacji, ani do uznania nowo odczytanego banera za nową kampanię. Dashboard oznacza takie porównania jako częściowe. Identyczny, zweryfikowany skrót SHA-256 obrazów z obu dni pozwala dodatkowo pokazać „Zrzut bez różnic”. Dotyczy to wyłącznie uchwyconego, ewentualnie maskowanego widoku, w granicach wysokości zrzutu; nie ustala stanu wszystkich slajdów, zakładek ani komunikacji poza kadrem. Starszy parser cen nie ogranicza niezależnego kontraktu komunikacji, ale brakującego materiału źródłowego nie można odtworzyć z dzisiejszej witryny.
 
 Pierwszy poprawny zapis rozszerzonego zakresu tworzy nową bazę. Dwa kolejne dni z takim zapisem umożliwiają pełne porównanie tego zakresu. Naprawczy skan tego samego dnia zachowuje poprzedni dzień jako bazę. Przebudowa formatu korzysta z oryginalnych plików o zgodnych datach i tożsamościach, nie odwiedza stron w przeszłości.
 

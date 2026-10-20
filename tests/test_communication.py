@@ -85,6 +85,24 @@ def test_unknown_legacy_parser_can_establish_shared_texts_but_not_new_promotions
     assert status['status'] == 'partial' and not status['comparable'] and not changes
 
 
+def test_identical_verified_legacy_images_establish_only_an_unchanged_captured_view():
+    old = capture(BEFORE, [])
+    new = capture(AFTER, [('hero', 'heading', 'Oferta')])
+    old.document = {}
+    old.image = new.image = 'images/' + 'a' * 64 + '.png'
+    status, changes = measure(old, new)
+    assert status['same_visible_image'] and not status['comparable'] and not changes
+    result = Result('test.pl', 'glowna', 'podstawowy', 'review', new.url, observed_at=AFTER, compared_at=BEFORE, data_quality='ok', communication=status)
+    page = build_view('2026-10-21', [result], {'finished_at': AFTER}, {}, ['test.pl'])['rows'][0]['pages'][0]
+    assert page['communication']['label'] == 'Zrzut bez różnic · zakres częściowy'
+    assert not page['communication']['daily']
+    old.quality = 'partial'
+    assert not measure(old, new)[0]['same_visible_image']
+    old.quality = 'ok'
+    new.image = 'images/' + 'b' * 64 + '.png'
+    assert not measure(old, new)[0]['same_visible_image']
+
+
 def test_format_rebuild_uses_original_sources_is_idempotent_and_rejects_other_dates(tmp_path):
     old = capture(BEFORE, [('hero', 'heading', 'Rabat 10%')])
     new = capture(AFTER, [('hero', 'heading', 'Rabat 20%')])

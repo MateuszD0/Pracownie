@@ -84,7 +84,8 @@ def render_quality_summary(view: dict) -> str:
         fresh = sum(bool(p.get('current_read')) for p in scoped)
         content += f'<p><strong>{complete}/{total}</strong> {label}: pełne porównanie<br><span class="small">Fragmenty: {partial}/{total} · odczyt dzisiaj: {fresh}/{total}</span></p>'
     ready = sum(bool(p.get('current_read')) and bool(p.get('communication', {}).get('ready')) for p in pages)
-    return content + f'<p><strong>{ready}/{total * 2}</strong> Nowa baza komunikacji<br><span class="small">Strony gotowe do kolejnego porównania</span></p></div>'
+    equal = sum(bool(p.get('current_read')) and bool(p.get('daily')) and bool(p.get('communication', {}).get('same_visible_image')) for p in pages)
+    return content + f'<p><strong>{ready}/{total * 2}</strong> Nowa baza komunikacji<br><span class="small">Strony gotowe do kolejnego porównania</span></p></div><p class="small">Identyczne zrzuty z obu dni: {equal} stron. Potwierdzają tylko brak różnic w uchwyconym widoku, z uwzględnieniem masek i limitu wysokości.</p>'
 
 
 def render_communication_table(view: dict) -> str:

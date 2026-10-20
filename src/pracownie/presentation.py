@@ -207,6 +207,8 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         communication.update(status="gap", label=f"Luka {gap} dni · brak porównania z wczoraj")
     elif communication.get("comparable") and gap == 1:
         communication["label"] = f"Zmiany komunikacji: {communication['changes']}" if communication["changes"] else "Bez zmian w zapisanej komunikacji"
+    elif communication.get("same_visible_image") and gap == 1:
+        communication["label"] = "Zrzut bez różnic · zakres częściowy"
     elif communication.get("status") == "partial" and communication.get("shared_unchanged"):
         communication["label"] = f"Częściowe · {communication['shared_unchanged']} zgodnych tekstów"
     elif communication.get("status") == "partial":

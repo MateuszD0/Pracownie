@@ -80,7 +80,7 @@ function executive(selected){
  $('management-scope').textContent='Wybrano '+total+' z '+c.domains+' pracowni · '+report.comparison.before_day+' → '+report.day+'. Wskaźniki i eksport zmian uwzględniają filtry; zakres pomiaru obejmuje wybrane strony.';
  const cell=(value,label,detail)=>'<p><strong>'+value+'</strong> '+label+'<br><span class="small">'+detail+'</span></p>';
  let quality='';for(const [kind,label] of [['glowna','Strony główne'],['projekt','Karty projektów']]){if(pageFilter!=='all'&&pageFilter!==kind)continue;quality+=cell(complete.filter(p=>p.page===kind).length+'/'+total,label+': pełne porównanie','Fragmenty: '+partial.filter(p=>p.page===kind).length+'/'+total+' · odczyt dzisiaj: '+pages.filter(p=>p.page===kind&&p.current_read).length+'/'+total);}
- $('quality-summary').innerHTML='<div class="quality-grid">'+quality+cell(pages.filter(p=>p.current_read&&p.communication.ready).length+'/'+pages.length,'Nowa baza komunikacji','Strony gotowe do kolejnego porównania')+'</div>';
+ $('quality-summary').innerHTML='<div class="quality-grid">'+quality+cell(pages.filter(p=>p.current_read&&p.communication.ready).length+'/'+pages.length,'Nowa baza komunikacji','Strony gotowe do kolejnego porównania')+'</div><p class="small">Identyczne zrzuty z obu dni: '+pages.filter(p=>p.current_read&&p.daily&&p.communication.same_visible_image).length+' stron. Potwierdzają tylko brak różnic w uchwyconym widoku, z uwzględnieniem masek i limitu wysokości.</p>';
  for(const button of document.querySelectorAll('[data-watch]')){const on=watched.has(button.dataset.watch);button.setAttribute('aria-pressed',String(on));button.textContent=on?'★ Obserwujesz':'☆ Obserwuj';}
 }
 

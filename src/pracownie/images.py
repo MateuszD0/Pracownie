@@ -68,7 +68,7 @@ def visual_text(paths: dict[str, Path]) -> dict:
     for key in ("fragment_przed", "fragment_po"):
         try:
             result = subprocess.run(["tesseract", str(paths[key]), "stdout", "-l", language, "tsv"], capture_output=True, text=True, timeout=3)
-            rows = [r for r in csv.DictReader(io.StringIO(result.stdout), delimiter="\t") if r.get("text", "").strip()]
+            rows = [r for r in csv.DictReader(io.StringIO(result.stdout), delimiter="\t", quoting=csv.QUOTE_NONE) if r.get("text", "").strip()]
             confidence = sum(float(r["conf"]) for r in rows) / max(1, len(rows))
             if result.returncode or len(rows) < 3 or confidence < 85:
                 return {}
@@ -158,7 +158,7 @@ def ocr_context(image_path: Path, destination: Path, bbox: tuple | None = None) 
         )
         if result.returncode:
             return "", "OCR nie powiodło się; wymaga oceny."
-        rows = [r for r in csv.DictReader(io.StringIO(result.stdout), delimiter="\t") if r.get("text", "").strip()]
+        rows = [r for r in csv.DictReader(io.StringIO(result.stdout), delimiter="\t", quoting=csv.QUOTE_NONE) if r.get("text", "").strip()]
         text = " ".join(row["text"] for row in rows)[:1500]
         confidence = sum(float(r["conf"]) for r in rows) / max(1, len(rows))
         return text, f"OCR: średnia pewność {confidence:.0f}/100; odczyt wymaga oceny."

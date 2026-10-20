@@ -38,6 +38,28 @@ def test_reviewed_addition_of_general_text_does_not_disable_existing_sales_field
     assert all(c.kind == "review" for c in compare(old, new)[0])
 
 
+def test_source_text_fragment_targets_changed_line_instead_of_unchanged_copy():
+    old, new = shot(), shot(AFTER)
+    old.fields["promo"].value = "Stałe warunki\nRabat 10%"
+    new.fields["promo"].value = "Stałe warunki\nRabat 20%"
+    new.document = {"payload": {"blocks": [{"text": text} for text in new.fields["promo"].value.splitlines()]}}
+    change = compare(old, new)[0][0]
+    assert change.url.endswith("#:~:text=Rabat%2020%25")
+
+
+def test_ocr_literal_quotes_do_not_merge_distinct_tsv_rows(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+
+    from pracownie.images import visual_text
+
+    monkeypatch.setattr("pracownie.images.ocr_language", lambda: "pol")
+    header = "conf\ttext\n"
+    texts = iter([header + '95\t"Rabat\n95\tna\n95\tprojekt\n', header + '95\t"Dodatek\n95\tw\n95\tcenie\n'])
+    monkeypatch.setattr("pracownie.images.subprocess.run", lambda *a, **kw: SimpleNamespace(stdout=next(texts), returncode=0))
+    context = visual_text({"fragment_przed": tmp_path / "old.png", "fragment_po": tmp_path / "new.png"})
+    assert context["before"] == '"Rabat na projekt' and context["after"] == '"Dodatek w cenie'
+
+
 def test_archived_raw_captures_can_be_replayed_without_relabelling_their_dates():
     old, new = shot(), shot(AFTER)
     for s, text, contract in [(old, "Rabat 10%", "previous:abc"), (new, "Rabat 20%", "sales-v2:abc")]:

@@ -30,6 +30,10 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
         uncertain = missing_section or after.quality != "ok" or before.quality != "ok" or method_changed and not authoritative_pair
         if old and new is None and uncertain:
             retained.fields[key] = old
+        destination_text = new.value if new else None
+        if old and new:
+            previous_lines = set(old.value.splitlines())
+            destination_text = "\n".join(line for line in new.value.splitlines() if line not in previous_lines) or new.value
         change = Change(
             kind="review" if uncertain else ("added" if old is None else "removed" if new is None else "changed"),
             category=current.category,
@@ -38,7 +42,7 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
             after=new.value if new else None,
             before_at=(old.observed_at or before.observed_at) if old else before.observed_at,
             after_at=after.observed_at,
-            url=location_url(after, current.section, new.value if new else None),
+            url=location_url(after, current.section, destination_text),
             scenario=after.scenario,
             note="Nie odnaleziono poprzedniej sekcji; wymaga oceny, nie potwierdzono usunięcia." if missing_section else "",
             field_key=key,

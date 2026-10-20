@@ -442,9 +442,9 @@ def render_text(view: dict) -> str:
         "",
     ]
     journal = view.get("journal", [])
-    table = ["DZIENNA TABELA ZMIAN", "Dzień | Pracownia | Strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło"]
+    table = ["DZIENNA TABELA ZMIAN", "Dzień | Pracownia | Strona | Kontekst / wariant | Rodzaj | Co się zmieniło | Było | Jest | Źródło"]
     for item in journal:
-        table.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["day", "domain", "page", "type", "description", "before", "after", "source"]))
+        table.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["day", "domain", "page", "context", "type", "description", "before", "after", "source"]))
     lines[1:1] = table + [""]
     events = [(r, e) for r in view["rows"] for e in r["events"]]
     if not events:
@@ -607,7 +607,7 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
         "",
         "| Pracownia / strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło / dowód |",
         "| --- | --- | --- | --- | --- | --- |",
-        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt'), esc(item['type']), esc(item['description']) + (f" · luka {item['gap_days']} dni" if not item['daily'] else ''), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in view.get('journal', [])],
+        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt') + (' · ' + esc(item['context']) if item.get('context') else ''), esc(item['type']), esc(item['description']) + (f" · luka {item['gap_days']} dni" if not item['daily'] else ''), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in view.get('journal', [])],
         "",
         f"### {assessment(view)['title']}",
         "",

@@ -57,6 +57,7 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "domain": row["domain"],
                 "page": event["page"],
                 "project": row["name"] if event["page"] == "projekt" else "",
+                "context": event.get("variant") or event.get("context", ""),
                 "category": category,
                 "type": LABELS.get(category, category),
                 "description": description,
@@ -216,6 +217,7 @@ def render_journal_html(view: dict) -> str:
             + page
             + '<br><span class="small">'
             + esc(item["project"])
+            + ("<br>" + esc(item.get("context", "")) if item.get("context") and item["context"] != page else "")
             + "</span></td><td>"
             + esc(item["type"])
             + "</td><td>"
@@ -255,6 +257,7 @@ def render_journal_csv(view: dict) -> str:
             "Pracownia",
             "Strona",
             "Projekt",
+            "Kontekst / wariant",
             "Rodzaj",
             "Co się zmieniło",
             "Było",
@@ -274,6 +277,7 @@ def render_journal_csv(view: dict) -> str:
                 "domain",
                 "page",
                 "project",
+                "context",
                 "type",
                 "description",
                 "before",

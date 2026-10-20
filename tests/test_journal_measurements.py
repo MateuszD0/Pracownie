@@ -132,6 +132,17 @@ def test_daily_table_separates_offer_and_visual_facts_and_excludes_uncertain_rea
     assert "https://test.pl/dom#promocja" in str(soup.select_one('#journal'))
 
 
+def test_change_in_an_interactive_variant_keeps_context_in_table_and_csv():
+    view = journal_view()
+    view["rows"][0]["events"][0]["variant"] = "Pakiet dokumentacji: Rozszerzony"
+    from pracownie.journal import build_journal
+
+    view["journal"] = build_journal(view["day"], view["rows"])
+    assert "Pakiet dokumentacji: Rozszerzony" in BeautifulSoup(render_html(view), "html.parser").select_one('#journal').get_text()
+    rows = list(csv.DictReader(io.StringIO(render_journal_csv(view).lstrip("\ufeff")), delimiter=";"))
+    assert rows[0]["Kontekst / wariant"] == "Pakiet dokumentacji: Rozszerzony"
+
+
 @pytest.mark.browser
 async def test_change_table_filters_and_native_proof_links(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

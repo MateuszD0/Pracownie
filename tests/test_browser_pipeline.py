@@ -50,6 +50,15 @@ async def test_functional_baseline_change_same_day_and_failure(sample_site, exec
     assert any("Promocja zimowa" in e["after"] for e in pages["glowna"]["events"])
     assert any(e["delta"] == "-300.00" for e in pages["projekt"]["events"])
     assert any("gratis" in e["after"] for e in pages["projekt"]["events"])
+    assert all(item["daily"] for item in view["journal"])
+    assert any(item["category"] == "ceny" and "4 290" in item["after"] for item in view["journal"])
+    assert any("Promocja zimowa" in item["after"] for item in view["journal"])
+    assert any("gratis" in item["after"] for item in view["journal"])
+    base_capture = json.loads((output / "2026-10-19/test.pl/projekt/podstawowy/odczyt.json").read_text())
+    assert base_capture["contract"].startswith("sales-v2:")
+    assert base_capture["document"]["raw_schema"] == "visible-v2"
+    assert base_capture["document"]["observed_at"] == base_capture["observed_at"]
+    assert base_capture["document"]["visual"]["elements"]
     for page in pages.values():
         assert all(Path(output / page["evidence"][key]).is_file() for key in ["przed", "po"])
     text = (output / "2026-10-19.txt").read_text()
@@ -114,16 +123,21 @@ async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executa
 
 
 @pytest.mark.browser
-async def test_visual_monitoring_without_recognized_sales_text(sample_site, executable, tmp_path):
+async def test_visual_monitoring_without_recognized_sales_text(sample_site, executable, tmp_path, monkeypatch):
     sample_site.no_sales = True
     site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
+    monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-18T06:00:00+00:00")
     await run_scan([site], store, output, options(executable, "2026-10-18"))
     assert store.read()["snapshots"]["test.pl/glowna/podstawowy"]["quality"] == "ok"
     sample_site.background = "#ccddff"
+    monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-19T06:00:00+00:00")
     outcome = await run_scan([site], store, output, options(executable, "2026-10-19"))
     changes = [change for result in outcome["results"] for change in result.changes]
     assert changes and all(change.kind == "visual" for change in changes)
     assert all(change.evidence.get("przed") and change.evidence.get("po") for change in changes)
+    view = json.loads((output / "2026-10-19/oferty.json").read_text())
+    assert view["journal"] and all(item["category"] == "obraz" and item["daily"] for item in view["journal"])
+    assert any("Kolor tła" in item["description"] and "rgb(204, 221, 255)" in item["after"] for item in view["journal"])
 
 
 @pytest.mark.browser

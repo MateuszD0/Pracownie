@@ -34,7 +34,7 @@ def capture_day(value: str | None) -> str:
 def build_journal(day: str, rows: list[dict]) -> list[dict]:
     output = []
 
-    def add(row, event, category, description, before, after, source, evidence, basis):
+    def add(row, event, category, description, before, after, source, evidence, basis, specific=True):
         # Older last-good captures are useful evidence, but cannot be labelled
         # as a change between yesterday and today.
         before_at, after_at = event.get("before_at"), event.get("after_at")
@@ -70,6 +70,10 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "after_at": after_at,
                 "gap_days": gap,
                 "daily": gap == 1,
+                "specific": specific,
+                "delta": event.get("delta"),
+                "percent": event.get("percent"),
+                "selected_price": category == "ceny" and event.get("label") == "Cena projektu" and not event.get("variant") and event["page"] == "projekt",
             }
         )
 
@@ -130,6 +134,7 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                     visual["evidence"],
                     details.get("basis", "Porównanie zrzutów; nie ustala zmiany ceny ani promocji")
                     + (" Tekst pomocniczy: OCR." if ocr else ""),
+                    specific=False,
                 )
     return sorted(
         output, key=lambda r: (not r["daily"], r["category"] == "obraz", r["domain"], r["page"], r["id"])
@@ -149,10 +154,19 @@ def relative_proof(day: str, path: str) -> str:
     )
 
 
-def render_journal_html(view: dict) -> str:
+def render_journal_html(view: dict, *, rows: list[dict] | None = None, secondary: bool = False) -> str:
     esc = html.escape
-    rows = view.get("journal") or build_journal(view["day"], view["rows"])
-    head = '<section id="journal" class="box"><h2>Dzienna tabela zmian</h2><p class="small">Cena, promocja i dodatki są oddzielone od zmian wyglądu. Każdy wpis wskazuje źródło i daty rzeczywistych odczytów.</p><div class="table-box"><table class="journal-table"><thead><tr><th>Dzień / pracownia</th><th>Strona</th><th>Rodzaj</th><th>Co się zmieniło</th><th>Było</th><th>Jest</th><th>Źródło i dowód</th></tr></thead><tbody>'
+
+    def value(text):
+        text = str(text)
+        if len(text) <= 480:
+            return esc(text)
+        return esc(text[:220]) + '…<details class="long-value"><summary>Pełna treść (' + str(len(text)) + ' znaków)</summary><div>' + esc(text) + '</div></details>'
+
+    rows = rows if rows is not None else view.get("journal") or build_journal(view["day"], view["rows"])
+    section_id = "secondary-journal" if secondary else "journal"
+    title = "Pozostałe porównania i różnice obrazu" if secondary else "Najważniejsze zmiany dzień do dnia"
+    head = '<section id="' + section_id + '" class="box"><h2>' + title + '</h2><p class="small">' + ("Sam obraz nie ustala zmiany promocji ani przebudowy strony; różny slajd lub niedoładowanie też może zmienić zrzut. Porównania po luce mają własne daty." if secondary else "Najpierw ceny, promocje, dodatki i warunki zakupu. Dalej treść i konkretnie opisane zmiany wyglądu. Każdy wpis ma źródło i daty odczytów.") + '</p><div class="table-box" tabindex="0" role="region" aria-label="' + title + '"><table class="journal-table"><thead><tr><th>Pracownia</th><th>Strona</th><th>Rodzaj / priorytet</th><th>Co się zmieniło</th><th>Było</th><th>Jest</th><th>Źródło i dowód</th></tr></thead><tbody>'
     body = []
     proof_blocks = {}
     for item in rows:
@@ -186,7 +200,7 @@ def render_journal_html(view: dict) -> str:
                     + label
                     + "</figcaption></a></figure>"
                 )
-        proof_id = "dowod-" + hashlib.sha256(repr(sorted(item["evidence"].items())).encode()).hexdigest()[:14]
+        proof_id = ("archiwum-" if secondary else "dowod-") + hashlib.sha256(repr(sorted(item["evidence"].items())).encode()).hexdigest()[:14]
         if proofs:
             proof_blocks[proof_id] = (
                 '<details class="journal-proof"><summary>'
@@ -210,8 +224,7 @@ def render_journal_html(view: dict) -> str:
             + '" data-category="'
             + item["category"]
             + '"><td>'
-            + esc(item["day"])
-            + "<br><strong>"
+            + "<strong>"
             + esc(item["domain"])
             + "</strong></td><td>"
             + page
@@ -220,6 +233,7 @@ def render_journal_html(view: dict) -> str:
             + ("<br>" + esc(item.get("context", "")) if item.get("context") and item["context"] != page else "")
             + "</span></td><td>"
             + esc(item["type"])
+            + ('<br><span class="badge">Wysoki</span>' if not secondary and item["category"] in {"ceny", "promocje", "dodatki", "pakiety"} else '')
             + "</td><td>"
             + esc(item["description"])
             + '<p class="small">'
@@ -227,9 +241,9 @@ def render_journal_html(view: dict) -> str:
             + '</p><span class="small">'
             + esc(item["basis"])
             + '</span></td><td class="journal-value">'
-            + esc(str(item["before"]))
+            + value(item["before"])
             + '</td><td class="journal-value">'
-            + esc(str(item["after"]))
+            + value(item["after"])
             + '</td><td><a href="'
             + esc(safe_source(item["source"]), quote=True)
             + '" target="_blank" rel="noopener">Zobacz na stronie</a>'
@@ -240,10 +254,10 @@ def render_journal_html(view: dict) -> str:
         head
         + (
             "".join(body)
-            or '<tr><td colspan="7">Brak ustalonych zmian w porównanym zakresie. Ceny bez zmian i brakujące odczyty są pokazane osobno.</td></tr>'
+            or '<tr><td colspan="7">Brak potwierdzonych zmian w tym zakresie. Przy niepełnych danych nie oznacza to braku zmian na wszystkich stronach.</td></tr>'
         )
         + "</tbody></table></div>"
-        + '<p id="journal-empty" class="empty" hidden>Brak ustalonych zmian dla wybranego filtru. Porównania cen i zakres odczytu są poniżej tabeli.</p>'
+        + '<p id="' + section_id + '-empty" class="empty" hidden>Brak ustalonych zmian dla wybranego filtru. Zakres danych i przyczyny braków są pokazane osobno.</p>'
         + "".join(proof_blocks.values())
         + "</section>"
     )

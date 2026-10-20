@@ -1,10 +1,14 @@
 from __future__ import annotations
 
+import asyncio
 import hashlib
 import json
 import os
 import re
+import time
 from dataclasses import asdict, dataclass, field
+from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from importlib.resources import files
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -33,6 +37,20 @@ UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeci
 
 class TransientFetchError(RuntimeError):
     """A temporary origin failure that can be retried with backoff."""
+
+    def __init__(self, message: str, retry_after: float = 0):
+        super().__init__(message)
+        self.retry_after = retry_after
+
+
+def retry_after_seconds(value: str | None) -> float:
+    try:
+        return max(0, float(value or "0"))
+    except ValueError:
+        try:
+            return max(0, (parsedate_to_datetime(value).astimezone(UTC) - datetime.now(UTC)).total_seconds())
+        except (ValueError, TypeError, OverflowError):
+            return 0
 
 
 class UnusableControl(ValueError):
@@ -192,6 +210,8 @@ class BrowserScanner:
         self.settle_ms = settle_ms
         self.browser: Browser | None = None
         self.phases: dict[str, str] = {}
+        self.next_read: dict[str, float] = {}
+        self.rate_limited: dict[str, float] = {}
 
     async def __aenter__(self):
         self.manager = await async_playwright().start()
@@ -286,7 +306,9 @@ class BrowserScanner:
                         # A recognized refusal control may be covered by the CMP's animation.
                         await button.evaluate("e => e.click()")
                     return
-            buttons = frame.get_by_role("button", name=COOKIE_NAMES)
+            # Some CMPs implement their refusal action as an anchor rather
+            # than a button (e.g. the visible "Tylko niezbędne" control).
+            buttons = frame.get_by_role("button", name=COOKIE_NAMES).or_(frame.get_by_role("link", name=COOKIE_NAMES))
             for index in range(min(await buttons.count(), 3)):
                 button = buttons.nth(index)
                 if await button.is_visible():
@@ -348,6 +370,15 @@ class BrowserScanner:
         if not allowed_url(site, url):
             raise ValueError("Adres poza skonfigurowanymi domenami; wymagany jawny allowed_hosts")
         assert self.browser is not None
+        remaining = self.rate_limited.get(site.domain, 0) - time.monotonic()
+        if remaining > 0:
+            raise TransientFetchError(f"Witryna ogranicza odczyt (429); ponowienie najwcześniej za {remaining:.0f} s", remaining)
+        # A domain is visited sequentially, but fresh contexts otherwise hit
+        # homepage, card and variants immediately one after another.
+        pause = self.next_read.get(site.domain, 0) - time.monotonic()
+        if pause > 0:
+            await asyncio.sleep(pause)
+        self.next_read[site.domain] = time.monotonic() + 2
         proxy = None if urlsplit(url).hostname in {"localhost", "127.0.0.1", "::1"} else proxy_settings()
         context = await self.browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy)
         page = await context.new_page()
@@ -363,11 +394,29 @@ class BrowserScanner:
         page.on("requestfailed", failed_request)
         warnings = []
         data_ready = True
+        response = None
+
+        def navigation_response(received):
+            nonlocal response
+            if received.request.is_navigation_request() and received.request.frame == page.main_frame:
+                response = received
+
+        page.on("response", navigation_response)
         try:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: nawigacja"
-            response = await page.goto(url, wait_until="domcontentloaded", timeout=self.navigation_timeout)
+            try:
+                response = await page.goto(url, wait_until="domcontentloaded", timeout=self.navigation_timeout)
+            except BrowserError:
+                # Chromium can reject an empty HTTP error document before
+                # goto returns. Its response headers still govern retries.
+                if response is None or response.status < 400:
+                    raise
             if response and (response.status == 429 or response.status >= 500):
-                raise TransientFetchError(f"Przejściowy błąd HTTP {response.status}")
+                delay = retry_after_seconds(response.headers.get("retry-after"))
+                if response.status == 429:
+                    delay = max(5, delay)
+                    self.rate_limited[site.domain] = time.monotonic() + delay
+                raise TransientFetchError(f"Przejściowy błąd HTTP {response.status}", delay)
             if response is None or response.status >= 400:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
             if not allowed_url(site, page.url):
@@ -390,7 +439,11 @@ class BrowserScanner:
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
             for index in range(await cookie_dialog.count()):
                 element = cookie_dialog.nth(index)
-                if await element.is_visible() and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
+                # Playwright's is_visible also matches transparent/offscreen
+                # preference panels. Only a rendered panel in the viewport
+                # can obscure the offer at this point.
+                rendered = await element.evaluate("e => {const r=e.getBoundingClientRect(),s=getComputedStyle(e);return Number(s.opacity)>0 && r.bottom>0 && r.top<innerHeight && r.right>0 && r.left<innerWidth}")
+                if await element.is_visible() and rendered and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
                     warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
                     data_ready = False
             for action in scenario.actions:
@@ -447,6 +500,7 @@ class BrowserScanner:
             timestamp = now_iso()
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
+            consent = await page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]').evaluate_all("""elements => elements.filter(e=>/cookies|ciastecz|plik.*cookie/i.test(e.innerText||'')).slice(0,6).map(e=>({id:e.id,role:e.getAttribute('role'),text:(e.innerText||'').slice(0,1600),opacity:getComputedStyle(e).opacity,rect:[e.getBoundingClientRect().x,e.getBoundingClientRect().y,e.getBoundingClientRect().width,e.getBoundingClientRect().height],controls:[...e.querySelectorAll('button,a,[role=button]')].slice(0,20).map(b=>({tag:b.tagName,id:b.id,classes:b.className,label:(b.innerText||b.getAttribute('aria-label')||'').slice(0,180),onclick:(b.getAttribute('onclick')||'').slice(0,300)}))}))""")
             visual_document["anchors"] = {slug(k): v for k, v in visual_document["anchors"].items()}
             for rule in site.field_selectors:
                 if is_cart and not rule.get("include_cart", False):
@@ -482,7 +536,7 @@ class BrowserScanner:
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             adapter = hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
-            document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document}
+            document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             if len(json.dumps(document).encode()) > 2_000_000:
                 document = {"visual": visual_document}
                 warnings.append("Dane źródłowe przekroczyły limit archiwum; zachowano pola i obraz bez możliwości ponownego przeliczenia tego odczytu.")

@@ -75,7 +75,7 @@ def test_structured_price_with_stable_identity_survives_browser_handler_update()
 def view():
     fields, _ = extract_fields({"products": [{"name": "Dom A", "offers": {"price": 4290, "priceCurrency": "PLN"}}]}, AT)
     offer = primary_offer(snap(fields))
-    previous = {**offer, "amount": "4590.00", "low": "4590.00", "high": "4590.00"}
+    previous = {**offer, "amount": "4590.00", "low": "4590.00", "high": "4590.00", "observed_at": "2026-10-19T06:00:00+00:00"}
     duplicate = Change("changed", "ceny", "Cena", "4590 PLN", "4290 PLN", AT, AT, "https://test.pl/dom", "podstawowy", delta="-300.00")
     mixed = Change("changed", "ceny", "Cena widoczna: Pierwotna cena i aktualna cena", "946 PLN", "1000 PLN", AT, AT, "https://test.pl/dom", "podstawowy", delta="54.00")
     migration = Change("review", "funkcje", "Kontrolki", None, "Nowe reguły", AT, AT, "https://test.pl/dom", "podstawowy", note="Zmieniono reguły odczytu")
@@ -204,6 +204,7 @@ async def test_html_search_filter_dialog_and_embedded_content(executable, tmp_pa
         errors = []
         page.on("pageerror", lambda error: errors.append(str(error)))
         await page.set_content(target.read_text())
+        await page.locator('#all-prices > summary').click()
         await page.locator('[data-filter="price"]').click()
         assert await page.locator("#rows tr").count() == 1
         await page.locator("#search").fill("nieistnieje")

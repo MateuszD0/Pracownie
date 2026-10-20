@@ -100,6 +100,8 @@ async def test_connected_scans_show_observations_and_open_their_own_evidence(exe
         errors = []
         page.on("pageerror", lambda e: errors.append(str(e)))
         await page.set_content(document)
+        assert not await page.locator('#observations .event').is_visible()
+        await page.locator('#diagnostic-observations > summary').click()
         assert 'Rabat 10%' in await page.locator('#observations').inner_text()
         assert 'Rabat 20%' in await page.locator('#observations').inner_text()
         assert 'niezweryfikowany odczyt' in await page.locator('#observations').inner_text()
@@ -204,6 +206,8 @@ async def test_report_renders_both_pages_with_and_without_javascript(executable)
             page.on("pageerror", lambda error, errors=errors: errors.append(str(error)))
             await page.set_content(document)
             assert await page.locator(".daily-page").count() == 2
+            assert not await page.locator('.daily-page').first.is_visible()
+            await page.locator('.day-domain > summary').click()
             assert "Rabat 10%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
             assert "Rabat 20%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
             assert "Kosztorys gratis" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
@@ -230,7 +234,8 @@ def test_review_comparisons_are_saved_in_html_and_open_without_scripts():
     assert soup.select_one('#observations del').text == '10%'
     assert soup.select_one('#observations ins').text == '20%'
     assert soup.select_one('#observations img')
-    assert not soup.select('details.reviews:not([open]), details.page-proofs:not([open])')
+    assert soup.select('details.page-proofs:not([open])')
+    assert soup.select('#diagnostic-observations:not([open]), .day-domain:not([open])')
 
 
 @pytest.mark.browser
@@ -252,6 +257,7 @@ async def test_portable_comparison_displays_text_and_images_without_scripts_or_s
         network = []
         page.on('request', lambda request: network.append(request.url))
         await page.set_content(standalone.read_text())
+        await page.locator('#diagnostic-observations > summary').click()
         assert await page.locator('#observations .event').is_visible()
         assert 'Rabat 10%' in await page.locator('#observations').inner_text()
         assert 'Rabat 20%' in await page.locator('#observations').inner_text()

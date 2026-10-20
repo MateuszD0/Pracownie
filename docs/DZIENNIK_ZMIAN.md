@@ -1,6 +1,6 @@
 # Dzienna tabela zmian
 
-Wynikiem jest lista zmian, z kolumnami: dzień, pracownia, strona główna lub stała karta projektu, rodzaj zmiany, co się zmieniło, było, jest, źródło i dowód przed/po. Tabela jest w HTML, opisie wydania GitHub, TXT i `dziennik-zmian.csv`. Dotychczasowy `oferty.csv` pozostaje zestawieniem cen.
+Wynikiem jest lista zmian, z kolumnami: dzień, pracownia, strona główna lub stała karta projektu, rodzaj zmiany, co się zmieniło, było, jest, źródło i dowód przed/po. Dashboard HTML, opis wydania GitHub i TXT zaczynają się od podsumowania zarządczego i konkretnych zmian dzień do dnia. `dziennik-zmian.csv` zachowuje pełną listę, w tym pomocnicze różnice obrazu i porównania po luce. Przycisk eksportu w interaktywnym HTML pobiera tylko widoczne wiersze priorytetowej tabeli. Dotychczasowy `oferty.csv` pozostaje zestawieniem cen.
 
 ## Wybór rozwiązania
 
@@ -41,3 +41,13 @@ Commit wdrożeniowy na `main` z oznaczeniem `[scan]` może uruchomić taki skan 
 Oznaczenie `[scan] [repair:domena.pl,druga.pl]` uruchamia naprawę wskazanych domen w istniejącym raporcie tego samego dnia. Pozostałe dane i ich rzeczywiste daty zostają zachowane. Lista jest sprawdzana przez konfigurację monitora. Skan i przebudowa uruchomione po testach używają dokładnie sprawdzonego commita.
 
 Skan i przebudowa mają wspólną blokadę zapisu stanu. Opcjonalna publikacja Pages ma oddzielną blokadę i nie wstrzymuje kolejnych skanów.
+
+## Dashboard zarządczy
+
+- Trzy KPI liczą **pracownie**, raz w danej kategorii: obniżka ceny tego samego wybranego projektu i wariantu, zmiana promocji, zmiana dodatków lub pakietów. Zakres ogranicza się do par odczytów z wczoraj i dnia raportu.
+- Dane są częściowe, dopóki nie ma wiarygodnego porównania wszystkich cen. Bieżący odczyt, zapisane pary stron i porównywalne ceny mają osobne liczniki. Stary poprawny odczyt nie zwiększa licznika dzisiejszych odczytów.
+- W tabeli głównej najpierw są ceny, promocje, dodatki i warunki. Sam zmieniony zrzut, bez rozpoznanego faktu dotyczącego elementu strony, pozostaje w rozwijanym archiwum. Nie ustala przebudowy strony ani nowej promocji.
+- Pracownie z problemami pozostają w tabeli dostępności. Przy każdej podano oddzielnie stronę główną, kartę, cenę i konkretną przyczynę braku wyniku. Szczegóły, niepewne odczyty i duże obrazy są domyślnie zwinięte.
+- Filtry domeny, rodzaju i strony ograniczają główną tabelę, KPI oraz eksport widocznych wierszy. Pokrycie danych opisuje wybrane pracownie/strony, niezależnie od kategorii zmiany. Lista obserwowanych jest preferencją lokalną w przeglądarce; nie zmienia zakresu codziennego skanu.
+- Historia dni prowadzi do rzeczywistych raportów w `RAPORTY.md`. Nie generujemy wykresów 7/30 dni ani zer za brakujące odczyty bez odpowiedniej historii.
+- Odpowiedź 429 wstrzymuje następne próby danej domeny zgodnie z `Retry-After` (liczba sekund lub data HTTP). Długie przerwy nie są skracane, aby zmieścić skan. Odpowiedzi 403 pozostają jawnym brakiem dostępu.

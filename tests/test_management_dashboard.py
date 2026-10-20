@@ -1,0 +1,136 @@
+import csv
+import io
+from datetime import UTC, datetime, timedelta
+from email.utils import format_datetime
+
+import pytest
+from bs4 import BeautifulSoup
+
+from pracownie.browser import BrowserScanner, TransientFetchError, retry_after_seconds
+from pracownie.model import Change, Result, Scenario, Site
+from pracownie.presentation import build_view, render_html, render_markdown
+
+BEFORE = "2026-10-19T06:00:00+00:00"
+AFTER = "2026-10-20T06:00:00+00:00"
+
+
+def management_view():
+    entries = []
+    for page in ["glowna", "projekt"]:
+        changes = [Change("changed", "promocje", "Promocja", "Rabat 10%", "Rabat 20%", BEFORE, AFTER, "https://test.pl/#oferta", "podstawowy")]
+        if page == "projekt":
+            changes += [Change("changed", "dodatki", "Kosztorys", "150 zł", "gratis", BEFORE, AFTER, "https://test.pl/dom", "podstawowy")]
+        changes += [Change("visual", "obraz", "Obraz", None, None, BEFORE, AFTER, "https://test.pl/", "podstawowy", details={"description": "Zmienił się obraz strony: górna część strony"})]
+        result = Result("test.pl", page, "podstawowy", "changed", "https://test.pl/", changes, observed_at=AFTER, compared_at=BEFORE, data_quality="ok")
+        if page == "projekt":
+            quote = {"kind": "price", "currency": "PLN", "quality": "ok", "field_key": "adapter:cena", "source": "adapter", "role": "current"}
+            result.offer = {**quote, "amount": "4500", "observed_at": AFTER}
+            result.before_offer = {**quote, "amount": "5000", "observed_at": BEFORE}
+        entries.append(result)
+    entries += [Result("blocked.pl", p, "podstawowy", "error", "https://blocked.pl", error="Odpowiedź HTTP 403") for p in ["glowna", "projekt"]]
+    return build_view("2026-10-20", entries, {"finished_at": AFTER}, {}, ["test.pl", "blocked.pl"])
+
+
+def test_management_counts_firms_once_and_does_not_promote_pixel_noise_or_missing_data():
+    view = management_view()
+    data = view["management"]
+    assert data["metrics"]["price_cuts"] == data["metrics"]["promotions"] == data["metrics"]["extras"] == 1
+    assert len(data["items"]) == 4 and len(data["secondary"]) == 2
+    assert data["items"][0]["selected_price"] and data["items"][0]["delta"] == "-500.00"
+    soup = BeautifulSoup(render_html(view), "html.parser")
+    assert "1/2" in soup.select_one('#executive').text
+    assert len(soup.select('#journal [data-journal-domain]')) == 4
+    assert len(soup.select('#secondary-journal [data-journal-domain]')) == 2
+    assert '403' in soup.select_one('#availability').text
+    assert not soup.select('#secondary[open], #diagnostic-observations[open], .day-domain[open]')
+    assert 'Zmienił się obraz' not in render_markdown(view).split('<details>')[0]
+    assert not [s for s in soup.select('[id]') if len(soup.select('[id="'+s['id']+'"]')) > 1]
+
+
+def test_management_excludes_gaps_and_stale_captures_from_daily_kpis():
+    entries = [Result("test.pl", "projekt", "podstawowy", "changed", "https://test.pl/dom", [Change("changed", "promocje", "Promocja", "10%", "20%", "2026-10-17T06:00:00+00:00", AFTER, "https://test.pl/dom", "podstawowy")], observed_at=BEFORE, compared_at="2026-10-17T06:00:00+00:00", data_quality="ok")]
+    view = build_view("2026-10-20", entries, {"finished_at": AFTER}, {}, ["test.pl"])
+    assert view["management"]["metrics"]["promotions"] == 0
+    assert not view["management"]["items"]
+    assert len(view["management"]["secondary"]) == 1
+    assert view["counts"]["project"] == 0 and not view["rows"][0]["pages"][1]["daily"]
+
+
+def test_retry_after_supports_origin_seconds_and_dates_without_early_retry():
+    assert retry_after_seconds("90") == 90
+    assert retry_after_seconds("-5") == 0
+    assert retry_after_seconds("invalid") == 0
+    delay = retry_after_seconds(format_datetime(datetime.now(UTC) + timedelta(seconds=60)))
+    assert 58 <= delay <= 60
+
+
+@pytest.mark.browser
+async def test_management_filters_export_watchlist_and_mobile_layout(executable):
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(viewport={"width": 390, "height": 844})
+        page = await context.new_page()
+        errors = []
+        page.on("pageerror", lambda e: errors.append(str(e)))
+        await page.set_content(render_html(management_view()))
+        assert await page.locator('#metric-price_cuts').inner_text() == '1'
+        assert await page.locator('#executive').is_visible()
+        assert not await page.locator('#secondary-journal').is_visible()
+        await page.locator('#page-filter').select_option('glowna')
+        assert await page.locator('#metric-price_cuts').inner_text() == '0'
+        assert await page.locator('#metric-promotions').inner_text() == '1'
+        assert await page.locator('#journal tr[data-journal-domain]:visible').count() == 1
+        async with page.expect_download() as download_event:
+            await page.locator('#export-visible').click()
+        download = await download_event.value
+        rows = list(csv.DictReader(io.StringIO((await download.path()).read_text(encoding='utf-8-sig')), delimiter=';'))
+        assert len(rows) == 1 and rows[0]['Strona'] == 'glowna'
+        await page.locator('#availability > summary').click()
+        await page.locator('[data-watch="test.pl"]').click()
+        await page.locator('#watch-only').check()
+        assert not await page.locator('[data-availability-domain="blocked.pl"]').is_visible()
+        await page.locator('#search').fill('brak')
+        assert 'Brak pracowni' in await page.locator('#summary-title').inner_text()
+        assert await page.locator('#metric-promotions').inner_text() == '0'
+        await page.locator('#reset-filters').click()
+        assert await page.locator('#metric-price_cuts').inner_text() == '1'
+        assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+        assert not errors
+        await context.close()
+
+
+@pytest.mark.browser
+async def test_refusal_link_is_used(executable):
+    # Exercise the real scanner with local public HTML, including the CMP
+    # semantics that its former button-only handler missed.
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('<div role="dialog">Cookies <a href="#" onclick="this.parentElement.remove();return false">Tylko niezbędne</a></div>')
+        await scanner.cookies(page)
+        assert await page.locator('[role=dialog]').count() == 0
+        await page.close()
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize(('style', 'quality'), [('opacity:0', 'ok'), ('position:fixed;left:-10000px', 'ok'), ('position:fixed;top:20px;opacity:1', 'partial')])
+async def test_only_a_rendered_cookie_panel_degrades_offer_quality(executable, sample_site, tmp_path, style, quality):
+    sample_site.cookie_panel = '<div role="dialog" style="' + style + '">Pliki cookies <button>Ustawienia</button></div>'
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        site = Site("test.pl", sample_site.url, sample_site.url + '/projekt-domu-testowy')
+        capture = await scanner.capture(site, 'projekt', site.project_url, Scenario('podstawowy', 'Karta'), tmp_path / 'shot.png')
+        assert capture.snapshot.quality == quality
+        assert 'consent' in capture.snapshot.document
+
+
+@pytest.mark.browser
+async def test_origin_rate_limit_stops_subsequent_domain_reads(executable, sample_site, tmp_path):
+    sample_site.rate_limited = True
+    site = Site("test.pl", sample_site.url, sample_site.url + '/projekt-domu-testowy')
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        with pytest.raises(TransientFetchError) as first:
+            await scanner.capture(site, 'projekt', site.project_url, Scenario('podstawowy', 'Karta'), tmp_path / 'shot.png')
+        assert first.value.retry_after == 90
+        requests = sample_site.requests
+        with pytest.raises(TransientFetchError) as next_read:
+            await scanner.capture(site, 'glowna', site.home_url, Scenario('podstawowy', 'Główna'), tmp_path / 'home.png')
+        assert next_read.value.retry_after > 85
+        assert sample_site.requests == requests

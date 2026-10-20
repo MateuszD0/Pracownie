@@ -113,9 +113,10 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                                 "ERR_CONNECTION_RESET", "ERR_CONNECTION_CLOSED", "ERR_TIMED_OUT", "ERR_NETWORK_CHANGED",
                             ))
                         )
-                        if attempt == options.retries or not retryable:
+                        delay = max(min(2 ** attempt, 4), getattr(exc, "retry_after", 0))
+                        if attempt == options.retries or not retryable or delay > 30:
                             raise
-                        await asyncio.sleep(min(2 ** attempt, 4))
+                        await asyncio.sleep(delay + 0.05)
 
             async def record(capture: Capture):
                 snapshot = capture.snapshot

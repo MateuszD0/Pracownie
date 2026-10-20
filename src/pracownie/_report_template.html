@@ -8,31 +8,43 @@
 .day-domain{margin-top:16px}.day-domain>h3{margin-bottom:0}.daily-pages{display:grid;grid-template-columns:1fr 1fr;gap:22px}.daily-page{min-width:0;padding-top:16px}.daily-page h3{font-size:15px}.daily-event{border-top:1px solid var(--line);padding:14px 0}.daily-event p{margin:5px 0}.daily-event .value{font-size:13px;white-space:pre-wrap}.daily-event .value small{white-space:normal}.reviews summary,.page-proofs summary{cursor:pointer;color:var(--teal);font-size:13px;padding:12px 0}.reviews{margin:8px 0;background:var(--amberbg);border-radius:7px;padding:0 12px}[hidden]{display:none!important}select{border:1px solid var(--line);border-radius:7px;padding:8px;background:white;color:var(--ink)}@media(max-width:760px){.daily-pages{grid-template-columns:1fr}.values{grid-template-columns:1fr}.daily-page+.daily-page{border-top:1px solid var(--line)}}
 .scan-comparison{margin:24px 0}.paired-prices{min-width:620px}.scan-comparison p{margin:10px 0 18px}.scan-comparison h3{margin-top:22px}.event header{flex-wrap:wrap}.event .badge{white-space:normal}
 del{background:#fce1de;color:#8c3029;text-decoration-color:#a24d45}ins{background:#d9f0e0;color:#18543a;text-decoration:none}.event .proofs{margin-bottom:0}.event .small{overflow-wrap:anywhere}
+
+.management-stats{grid-template-columns:repeat(3,minmax(0,1fr));margin:18px 0}.management-stats .stat:first-child{background:var(--paper);border-color:var(--line);color:var(--ink)}.management-stats .stat:first-child span{color:var(--muted)}.executive{border-left:4px solid var(--amber);margin-top:22px}.executive p{margin:10px 0 0}.quality-overview{margin-bottom:22px}.quality-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.quality-grid strong{display:block;font-size:25px;font-variant-numeric:tabular-nums}.quality-grid p{font-size:13px;margin:16px 0 6px}.disclosure{margin:16px 0}.disclosure>summary,.day-domain>summary{cursor:pointer;padding:16px 0;display:list-item}.disclosure>summary .small,.day-domain>summary .small{display:block;margin:4px 0 0 18px}.disclosure[open]>summary,.day-domain[open]>summary{border-bottom:1px solid var(--line);margin-bottom:16px}.availability-table{min-width:900px}.availability-table td{vertical-align:top}.quality-reasons{margin:0 0 10px;padding-left:16px;max-width:420px}.watch-button{font-size:12px;border:1px solid var(--line);border-radius:6px;background:white;color:var(--teal);padding:6px 9px;margin-top:8px}.watch-button[aria-pressed=true]{background:var(--soft)}.journal-table{font-size:13px}.journal-table th,.journal-table td{padding:14px}.journal-table th:nth-child(1){width:13%}.journal-table th:nth-child(2){width:12%}.journal-table th:nth-child(3){width:9%}.journal-table th:nth-child(7){width:12%}.journal-proof .proofs img,.page-proofs .proofs img{height:auto;max-height:750px;object-fit:contain}.day-domain{padding-top:0;padding-bottom:0}.intro .stamp{white-space:normal;min-width:170px;max-width:240px}.filter-reset{background:white;border:1px solid var(--line);border-radius:6px;padding:7px 10px;color:var(--teal)}
+@media(max-width:760px){.management-stats{grid-template-columns:1fr}.management-stats .stat{display:grid;grid-template-columns:1fr auto;column-gap:12px}.management-stats .stat strong{grid-column:2;grid-row:1/3}.management-stats .stat span{grid-column:1}.quality-grid{grid-template-columns:1fr;gap:0}.quality-grid p{display:flex;align-items:baseline;gap:10px;margin:8px 0}.quality-grid strong{min-width:88px}.intro .stamp{max-width:none}.section-head{align-items:start}.section-head .detail-button{max-width:150px}}
 </style>
 </head>
 <body>
-<header><div class="bar"><div class="brand">Pracownie<span>Obserwator ofert</span></div><nav class="links" aria-label="Pliki raportu"><a href="../__REPORT_DAY__.txt">Pobierz TXT</a><a href="dziennik-zmian.csv">Tabela zmian CSV</a><a href="oferty.csv">Ceny CSV</a><a href="diagnostyka.txt">Diagnostyka</a><a href="https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md" target="_blank" rel="noopener">Historia dni</a></nav></div></header>
+<header><div class="bar"><div class="brand">Pracownie<span>Obserwator ofert</span></div><nav class="links" aria-label="Pliki raportu"><a href="../__REPORT_DAY__.txt">Pobierz TXT</a><a href="dziennik-zmian.csv">Pełny dziennik CSV</a><a href="oferty.csv">Ceny CSV</a><a href="diagnostyka.txt">Diagnostyka</a><a href="https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md" target="_blank" rel="noopener">Historia dni</a></nav></div></header>
 <style>.journal-table{min-width:1100px;table-layout:fixed}.journal-table td{vertical-align:top;overflow-wrap:anywhere;white-space:normal}.journal-value{white-space:pre-wrap!important;font-size:13px}.journal-proof{margin:14px 0}.journal-proof summary{cursor:pointer;padding:10px 0}.journal-proof .proofs{margin:10px 0}.journal-proof .proofs img{height:auto;object-fit:contain}.journal-table th:nth-child(4){width:22%}.journal-table th:nth-child(5),.journal-table th:nth-child(6){width:18%}</style>
 <main>
-<div class="intro"><div><p class="eyebrow">Codzienny monitoring pracowni</p><h1 id="title">__STATIC_TITLE__</h1><p>Co zmieniło się na stronie głównej i wybranej karcie projektu. Każda strona ma własne daty porównania, różnice tekstu i zrzuty przed / po.</p></div><div class="stamp" id="stamp">__STATIC_STAMP__</div></div>
+<div class="intro"><div><p class="eyebrow">Codzienny monitoring pracowni</p><h1 id="title">__STATIC_TITLE__</h1><p>Ceny, promocje i dodatki konkurencji — konkretne zmiany, źródła i porównanie przed / po. Strony główne i stałe karty projektów.</p></div><div class="stamp" id="stamp">__STATIC_STAMP__</div></div>
 <div class="filters"><div class="filter-buttons" id="filters" role="group" aria-label="Filtr domen"></div><label class="search"><span class="small">Szukaj</span><input id="search" type="search" placeholder="Domena lub nazwa projektu" aria-label="Wyszukaj domenę lub projekt"></label></div>
-<div class="filters"><label>Rodzaj zmiany <select id="journal-category" aria-label="Rodzaj zmiany"><option value="all">Wszystkie zmiany</option><option value="sales">Ceny i promocje</option><option value="extras">Dodatki i pakiety</option><option value="obraz">Wygląd strony</option></select></label><label>Strona <select id="page-filter" aria-label="Rodzaj strony"><option value="all">Obie strony</option><option value="glowna">Strony główne</option><option value="projekt">Karty projektów</option></select></label></div>
+<div class="filters"><button class="filter-reset" id="reset-filters">Wyczyść filtry</button><label><input type="checkbox" id="watch-only"> Tylko obserwowane</label><label>Rodzaj zmiany <select id="journal-category" aria-label="Rodzaj zmiany"><option value="all">Wszystkie zmiany</option><option value="sales">Ceny i promocje</option><option value="extras">Dodatki i pakiety</option><option value="obraz">Wygląd strony</option><option value="other">Treść, funkcje i warunki</option></select></label><label>Strona <select id="page-filter" aria-label="Rodzaj strony"><option value="all">Obie strony</option><option value="glowna">Strony główne</option><option value="projekt">Karty projektów</option></select></label></div>
+__STATIC_MANAGEMENT__
+<div class="section-head"><span class="small">Tabela jest sortowana według znaczenia zmiany. Brakujące dane nie trafiają do KPI.</span><button class="detail-button" id="export-visible">Pobierz widoczne zmiany CSV</button></div>
 __STATIC_JOURNAL__
-__STATIC_ASSESSMENT__
-<div class="stats" id="stats">__STATIC_STATS__</div>
+__STATIC_AVAILABILITY__
+<details class="disclosure" id="secondary"><summary><strong>Archiwum porównań i samych różnic obrazu</strong><span class="small">__SECONDARY_COUNT__ wpisów · poza podsumowaniem zarządczym</span></summary>
+__STATIC_SECONDARY__
+</details>
+<details class="disclosure" id="comparison-archive"><summary><strong>Porównane ceny i materiały z obu dni</strong><span class="small">Rzeczywiste daty odczytów</span></summary>
 __STATIC_COMPARISON__
+</details>
+<details class="disclosure" id="diagnostic-observations"><summary><strong>Diagnostyka i niejednoznaczne odczyty</strong><span class="small">Nie są potwierdzonymi zmianami ofert</span></summary>
+__STATIC_ASSESSMENT__
 <div class="section-head"><h2>Pozostałe niezweryfikowane różnice odczytu</h2><span class="small" id="observations-count"></span></div>
-<p class="small">Problemy zmienionych reguł odczytu i samych metadanych pozostają w szczegółach technicznych. System nie traktuje ich jako ustalonych zmian ofert.</p>
-<div class="events" id="observations">__STATIC_OBSERVATIONS__</div><p class="empty" id="observations-empty" hidden>Brak dodatkowych ustaleń dla wybranego zakresu. Dostępność danych opisano przy każdej stronie.</p>
-<div class="section-head"><h2>Co zmieniło się w ofertach</h2><span class="small" id="events-count"></span></div>
-<div class="events" id="events">__STATIC_EVENTS__</div>
-<div class="section-head"><h2>Szczegóły odczytów · obie strony</h2></div>
-<p class="small">Dla każdej pracowni zapisujemy osobno stronę główną i stałą kartę projektu. „Nie ustalono zmian” oznacza brak wiarygodnego wyniku, a nie brak zmian na stronie. Niejednoznaczne odczyty są problemem do naprawy po stronie monitora.</p>
-<div id="daily">__STATIC_DAILY__</div><noscript><p class="visual-note">Wyświetlono pełne porównanie bez JavaScript. Wyszukiwanie i filtry wymagają włączenia skryptów.</p></noscript>
+<div class="events" id="observations">__STATIC_OBSERVATIONS__</div><p class="empty" id="observations-empty" hidden>Brak dodatkowych ustaleń dla wybranego zakresu.</p>
+</details>
+<details class="disclosure" id="offer-details"><summary><strong>Szczegóły potwierdzonych zmian ofert</strong><span class="small" id="events-count"></span></summary><div class="events" id="events">__STATIC_EVENTS__</div></details>
+<div class="section-head"><h2>Szczegóły pracowni i zapisane dowody</h2></div>
+<p class="small">Rozwiń wybraną pracownię, aby zobaczyć osobno obie strony, warianty i zrzuty. Odczyty starsze niż wczoraj mają oznaczoną lukę.</p>
+<div id="daily">__STATIC_DAILY__</div><noscript><p class="visual-note">To pełny zapis raportu bez JavaScript. Sekcje i zrzuty można rozwinąć; wyszukiwanie i filtry działają w interaktywnym raporcie HTML z ZIP.</p></noscript>
+<details class="disclosure" id="all-prices"><summary><strong>Wszystkie odczytane ceny i brakujące strony</strong></summary>
 <div class="section-head"><h2>Pracownie i ceny projektów</h2><span class="small" id="rows-count" aria-live="polite"></span></div>
 <div class="table-box"><table><thead><tr><th>Pracownia / wybrany projekt</th><th class="price">Poprzedni odczyt</th><th class="price">Dzisiaj</th><th>Porównanie</th><th>Odczyt stron</th><th>Dowody</th></tr></thead><tbody id="rows"></tbody></table></div>
 <div class="table-footer"><span>„—” oznacza brak porównywalnej ceny. Nie oznacza 0 zł.</span><span>* Odczyt częściowy — niepewna cena. Zakres cen oznacza kilka wariantów.</span></div>
 <div class="section-head"><h2>Gdzie brakuje danych</h2><span class="small" id="missing-count"></span></div><div class="attention" id="missing"></div>
+</details>
 <div class="notes"><p><strong>Jak czytać wynik:</strong> potwierdzone zmiany ofert są oddzielone od zmian wyglądu. Sam zmieniony obraz nie jest dowodem nowej promocji.</p><p>Opcje, konfiguratory i koszyk mogą mieć częściowe pokrycie. „Szczegóły” pokazują ograniczenia konkretnej pracowni, źródła i zrzuty przed/po. Pełne komunikaty techniczne są w osobnej diagnostyce.</p><p>Brak danych lub nowy sposób odczytu nie oznaczają braku zmian. Skan raz dziennie nie obejmuje zdarzeń pomiędzy odczytami.</p></div>
 <footer class="foot"><span>Pracownie · raport dzienny</span><span id="finished"></span></footer>
 </main>
@@ -49,29 +61,55 @@ const time=value=>value?new Intl.DateTimeFormat('pl-PL',{day:'2-digit',month:'2-
 const signed=r=>r.delta===null || r.delta===undefined?'':Number(r.delta)<0?'Spadek '+Math.abs(Number(r.delta)).toFixed(2).replace('.',',')+' ('+(r.percent??'—')+'%)':Number(r.delta)>0?'Wzrost '+Number(r.delta).toFixed(2).replace('.',',')+' ('+(r.percent??'—')+'%)':'Cena bez zmian';
 const label=r=>r.delta!==null && Number(r.delta)!==0?signed(r):r.status_label;
 $('title').textContent='Zmiany na stronach · '+new Intl.DateTimeFormat('pl-PL',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Warsaw'}).format(new Date(report.day+'T12:00:00Z'));
-$('stamp').textContent='Odczyt zakończony '+time(report.metadata.finished_at);
+const captureTimes=report.rows.flatMap(r=>r.pages.map(p=>p.observed_at)).filter(Boolean).sort();$('stamp').textContent=captureTimes.length?'Dane z odczytów '+time(captureTimes[0])+' – '+time(captureTimes.at(-1))+' · czas polski':'Brak bieżących odczytów';
 $('finished').textContent='Godziny w strefie Europe/Warsaw';
-let filter='all',query='',pageFilter='all',journalCategory='all';
-const filterItems=[['all','Wszystkie',c.domains],['changed','Zmiany ofert',c.changed],['price','Zmiany cen',report.rows.filter(r=>r.delta!==null && Number(r.delta)!==0).length],['visual','Zmiany wyglądu',report.rows.filter(r=>r.visuals.some(v=>!v.unreliable)).length],['review','Diagnostyka',report.rows.filter(r=>r.status==='review').length],['missing','Brak odczytu',c.missing]];
-function rows(){return report.rows.filter(r=>(!query || (r.domain+' '+r.name).toLocaleLowerCase('pl').includes(query)) && (filter==='all'||filter==='price'&&r.delta!==null&&Number(r.delta)!==0||filter==='visual'&&r.visuals.some(v=>!v.unreliable)||filter==='review'&&r.status==='review'||filter==='changed'&&r.events.length||filter==='missing'&&(!r.home_read||!r.project_read)));}
+let filter='all',query='',pageFilter='all',journalCategory='all',watchOnly=false;
+let watched=new Set();try{watched=new Set(JSON.parse(localStorage.getItem('pracownie:watchlist')||'[]').filter(d=>report.rows.some(r=>r.domain===d)));}catch{}
+const categoryMatch=e=>journalCategory==='all'||journalCategory===e.category||journalCategory==='sales'&&['ceny','promocje'].includes(e.category)||journalCategory==='extras'&&['dodatki','pakiety'].includes(e.category)||journalCategory==='other'&&!['ceny','promocje','dodatki','pakiety','obraz'].includes(e.category);
+const visibleItem=(e,domains)=>domains.has(e.domain)&&(pageFilter==='all'||e.page===pageFilter)&&categoryMatch(e);
+function executive(selected){
+ const domains=new Set(selected.map(r=>r.domain)),items=report.management.items.filter(e=>visibleItem(e,domains)),sales=items.filter(e=>e.category!=='obraz');
+ const distinct=items=>new Set(items.map(e=>e.domain)).size;
+ $('metric-price_cuts').textContent=distinct(items.filter(e=>e.selected_price&&Number(e.delta)<0));
+ $('metric-promotions').textContent=distinct(items.filter(e=>e.category==='promocje'));
+ $('metric-extras').textContent=distinct(items.filter(e=>['dodatki','pakiety'].includes(e.category)));
+ const pairs=report.comparison.price_domains.filter(d=>domains.has(d)),pages=selected.flatMap(r=>r.pages).filter(p=>pageFilter==='all'||p.page===pageFilter),fresh=pages.filter(p=>p.current_read),total=selected.length;
+ $('management-summary').textContent='Ustalono '+sales.length+' zmian ofert w '+distinct(sales)+' pracowniach w wybranym zakresie. '+(pageFilter==='glowna'?'Porównanie ceny wybranego projektu dotyczy karty projektu.':'Ceny porównano dla '+pairs.length+'/'+total+' pracowni. '+(pairs.length<total?'Dla '+(total-pairs.length)+' pracowni dzienna zmiana ceny pozostaje nieustalona.':'Wszystkie wybrane projekty mają porównywalną parę cen.'));
+ $('summary-title').textContent=total===0?'Brak pracowni w wybranym filtrze':pairs.length<total?'Wynik częściowy':'Porównanie dzienne';
+ $('management-scope').textContent='Wybrano '+total+' z '+c.domains+' pracowni · '+report.comparison.before_day+' → '+report.day+'. KPI liczą pracownie z potwierdzonymi zmianami dzień do dnia; filtry dotyczą także eksportu tabeli.';
+ const cell=(value,label)=>'<p><strong>'+value+'</strong> '+label+'</p>';
+ $('quality-summary').innerHTML='<div class="quality-grid">'+(pageFilter!=='projekt'?cell(fresh.filter(p=>p.page==='glowna').length+'/'+total,'Strony główne odczytane'):'')+(pageFilter!=='glowna'?cell(fresh.filter(p=>p.page==='projekt').length+'/'+total,'Karty projektów odczytane')+cell(pairs.length+'/'+total,'Ceny porównane z wczoraj'):'')+'</div><p class="small">Odczyty częściowe: '+fresh.filter(p=>!['ok','visual'].includes(p.data_quality)).length+' stron. Pary odczytów z obu dni: '+pages.filter(p=>p.daily).length+'/'+pages.length+' stron — ich treść może wymagać zgodnych reguł odczytu.</p>';
+ for(const button of document.querySelectorAll('[data-watch]')){const on=watched.has(button.dataset.watch);button.setAttribute('aria-pressed',String(on));button.textContent=on?'★ Obserwujesz':'☆ Obserwuj';}
+}
+
+const filterItems=[['all','Wszystkie'],['changed','Zmiany ofert'],['price','Zmiany cen'],['visual','Różnice wyglądu'],['review','Ograniczone dane'],['missing','Brak odczytu']];
+function baseRows(){return report.rows.filter(r=>(!watchOnly||watched.has(r.domain))&&(!query||(r.domain+' '+r.name).toLocaleLowerCase('pl').includes(query)));}
+function matches(r,kind){
+ const items=report.management.items.filter(e=>e.domain===r.domain&&(pageFilter==='all'||e.page===pageFilter)&&categoryMatch(e));
+ const pages=r.pages.filter(p=>pageFilter==='all'||p.page===pageFilter);
+ return kind==='all'||kind==='changed'&&items.some(e=>e.category!=='obraz')||kind==='price'&&items.some(e=>e.selected_price&&Number(e.delta)!==0)||kind==='visual'&&report.journal.some(e=>e.domain===r.domain&&e.category==='obraz'&&(pageFilter==='all'||e.page===pageFilter)&&categoryMatch(e))||kind==='review'&&pages.some(p=>p.status==='review')||kind==='missing'&&pages.some(p=>!p.current_read);
+}
+function rows(){return baseRows().filter(r=>matches(r,filter));}
 function badge(row){return '<span class="badge '+esc(row.status)+'">'+esc(label(row))+'</span>';}
 function render(){
- if(!$('filters').children.length)$('filters').innerHTML=filterItems.map(([id,name,count])=>'<button data-filter="'+id+'">'+name+' '+count+'</button>').join('');
+ $('filters').innerHTML=filterItems.map(([id,name])=>'<button data-filter="'+id+'">'+name+' '+baseRows().filter(r=>matches(r,id)).length+'</button>').join('');
  for(const button of $('filters').children)button.setAttribute('aria-pressed',String(filter===button.dataset.filter));
- const selected=rows();$('rows-count').textContent=selected.length+' z '+c.domains+' domen';
+ const selected=rows();executive(selected);$('rows-count').textContent=selected.length+' z '+c.domains+' domen';
  $('rows').innerHTML=selected.map(r=>'<tr><td><a class="name" href="'+esc(source(r.url))+'" target="_blank" rel="noopener">'+esc(r.domain)+'</a><span class="project-name" title="'+esc(r.name)+'">'+esc(r.name)+'</span></td><td class="price previous" title="'+esc(time(r.previous.observed_at))+'">'+esc(r.previous_text)+'</td><td class="price current">'+esc(r.current_text)+'</td><td>'+badge(r)+'</td><td class="read-flags"><span class="'+(r.home_read?'ok':'bad')+'">'+(r.home_read?'✓':'—')+' Strona główna</span><span class="'+(r.project_read?'ok':'bad')+'">'+(r.project_read?'✓':'—')+' Karta projektu</span></td><td><button class="detail-button" data-open="'+esc(r.domain)+'" aria-label="Szczegóły i dowody '+esc(r.domain)+'">Szczegóły</button></td></tr>').join('') || '<tr><td colspan="6">Brak domen spełniających filtr.</td></tr>';
  const visibleDomains=new Set(selected.map(r=>r.domain));for(const block of document.querySelectorAll('.day-domain'))block.hidden=!visibleDomains.has(block.dataset.domain);
- for(const row of document.querySelectorAll('[data-journal-domain]')){const category=row.dataset.category;row.hidden=!visibleDomains.has(row.dataset.journalDomain)||(pageFilter!=='all'&&row.dataset.page!==pageFilter)||(journalCategory!=='all'&&!(journalCategory===category||journalCategory==='sales'&&['ceny','promocje'].includes(category)||journalCategory==='extras'&&['dodatki','pakiety'].includes(category)));}
- const journalRows=[...document.querySelectorAll('[data-journal-domain]')];$('journal-empty').hidden=!journalRows.length||journalRows.some(row=>!row.hidden);
+ for(const row of document.querySelectorAll('[data-journal-domain]'))row.hidden=!visibleItem({domain:row.dataset.journalDomain,page:row.dataset.page,category:row.dataset.category},visibleDomains);
+ for(const id of ['journal','secondary-journal']){const entries=[...$(id).querySelectorAll('[data-journal-domain]')];$(id+'-empty').hidden=!entries.length||entries.some(row=>!row.hidden);}
+ for(const row of document.querySelectorAll('[data-availability-domain]'))row.hidden=!visibleDomains.has(row.dataset.availabilityDomain);
+ for(const block of document.querySelectorAll('.journal-proof')){const target=block.querySelector('[id]');const link=target&&[...document.querySelectorAll('a[href="#'+target.id+'"]')].some(a=>!a.closest('tr')?.hidden);block.hidden=!link;}
  for(const tr of document.querySelectorAll('[data-price-domain]'))tr.hidden=!visibleDomains.has(tr.dataset.priceDomain);
  for(const block of document.querySelectorAll('.daily-page'))block.hidden=pageFilter!=='all'&&block.dataset.page!==pageFilter;
- const events=selected.flatMap(r=>r.events.map((e,i)=>[r,e,i])).filter(([,e])=>pageFilter==='all'||e.page===pageFilter);$('events-count').textContent=events.length+' potwierdzonych zmian';
- for(const card of document.querySelectorAll('#events .event'))card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter);
- const reviews=selected.flatMap(r=>r.reviews.map((e,i)=>[r,e,i])).filter(([,e])=>!e.technical&&(pageFilter==='all'||e.page===pageFilter));
- let shown=0;for(const card of document.querySelectorAll('#observations .event')){card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter);if(!card.hidden)shown++;}
+ const events=selected.flatMap(r=>r.events.map((e,i)=>[r,e,i])).filter(([,e])=>(pageFilter==='all'||e.page===pageFilter)&&categoryMatch(e));$('events-count').textContent=events.length+' potwierdzonych zmian';
+ for(const card of document.querySelectorAll('#events .event'))card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter)||!categoryMatch({category:card.dataset.category});
+ const reviews=selected.flatMap(r=>r.reviews.map((e,i)=>[r,e,i])).filter(([,e])=>!e.technical&&(pageFilter==='all'||e.page===pageFilter)&&categoryMatch(e));
+ let shown=0;for(const card of document.querySelectorAll('#observations .event')){card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter)||!categoryMatch({category:card.dataset.category});if(!card.hidden)shown++;}
  $('observations-count').textContent='Przykłady: '+shown+' z '+reviews.length+' obserwacji. Pełne porównania są w pracowniach poniżej.';
  $('observations-empty').hidden=shown>0;
- const missing=selected.filter(r=>!r.home_read||!r.project_read);$('missing-count').textContent=missing.length+' domen';
+ const missing=selected.filter(r=>r.pages.some(p=>(pageFilter==='all'||p.page===pageFilter)&&!p.current_read));$('missing-count').textContent=missing.length+' domen';
  $('missing').innerHTML=missing.map(r=>'<div class="attention-item"><strong>'+esc(r.domain)+'</strong><p>'+esc(r.issues.slice(0,2).join(' ')||'Nie uzyskano obu odczytów bazowych.')+'</p><button class="detail-button" data-open="'+esc(r.domain)+'">Pokaż zakres</button></div>').join('') || '<div class="empty">W tym widoku nie ma brakujących stron bazowych.</div>';
 }
 function figures(evidence,beforeAt,afterAt){return '<div class="proofs">'+[['przed','Poprzedni odczyt',beforeAt],['po','Bieżący odczyt',afterAt]].map(([key,name,at])=>{const path=proof(evidence[key]);return path?'<figure><a href="'+esc(path)+'" target="_blank" rel="noopener"><img src="'+esc(path)+'" alt="'+name+' — zrzut strony"><figcaption><strong>'+name+'</strong> · '+esc(time(at))+'<br>Otwórz pełny zrzut</figcaption></a></figure>':'';}).join('')+'</div>';}
@@ -91,10 +129,13 @@ function openDetails(domain,eventIndex,kind){
  content+='<p class="small">Dodatkowe konfiguratory i zależne kombinacje opcji mogą wymagać adaptera. <a href="diagnostyka.txt">Pełna diagnostyka</a></p>';
  $('detail-content').innerHTML=content;$('details').showModal();$('close').focus();
 }
-document.addEventListener('click',e=>{const f=e.target.closest('[data-filter]');if(f){filter=f.dataset.filter;render();return;}const open=e.target.closest('[data-open]');if(open)openDetails(open.dataset.open,open.dataset.event,open.dataset.kind);});
+document.addEventListener('click',e=>{const f=e.target.closest('[data-filter]');if(f){filter=f.dataset.filter;render();return;}const watch=e.target.closest('[data-watch]');if(watch){const d=watch.dataset.watch;watched.has(d)?watched.delete(d):watched.add(d);try{localStorage.setItem('pracownie:watchlist',JSON.stringify([...watched]));}catch{}render();return;}const open=e.target.closest('[data-open]');if(open)openDetails(open.dataset.open,open.dataset.event,open.dataset.kind);});
 $('search').addEventListener('input',e=>{query=e.target.value.toLocaleLowerCase('pl').trim();render();});$('close').addEventListener('click',()=>$('details').close());$('details').addEventListener('click',e=>{if(e.target===$('details'))$('details').close();});
 $('page-filter').addEventListener('change',e=>{pageFilter=e.target.value;render();});
 $('journal-category').addEventListener('change',e=>{journalCategory=e.target.value;render();});
+$('watch-only').addEventListener('change',e=>{watchOnly=e.target.checked;render();});
+$('reset-filters').addEventListener('click',()=>{filter='all';query='';pageFilter='all';journalCategory='all';watchOnly=false;$('search').value='';$('page-filter').value='all';$('journal-category').value='all';$('watch-only').checked=false;render();});
+$('export-visible').addEventListener('click',()=>{const domains=new Set(rows().map(r=>r.domain)),items=report.management.items.filter(e=>visibleItem(e,domains));const quote=v=>'"'+String(v??'').replace(/^[=+@\-\t\r]/,"'$&").replace(/"/g,'""')+'"';const data=[['Dzień','Pracownia','Strona','Projekt / wariant','Rodzaj','Co się zmieniło','Było','Jest','Źródło','Odczyt przed','Odczyt po'],...items.map(e=>[e.day,e.domain,e.page,[e.project,e.context].filter(Boolean).join(' · '),e.type,e.description,e.before,e.after,e.source,e.before_at,e.after_at])].map(row=>row.map(quote).join(';')).join('\r\n');const url=URL.createObjectURL(new Blob(['\ufeff'+data],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='zmiany-'+report.day+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
 render();
 } catch(error) { console.error('Raport: wyświetlono wersję statyczną.',error); }
 </script>

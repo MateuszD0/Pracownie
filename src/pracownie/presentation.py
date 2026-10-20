@@ -16,6 +16,7 @@ from urllib.parse import urlsplit
 
 from .extract import MONEY, amount, money_text, normalize
 from .journal import build_journal, render_journal_html
+from .management import build_management, render_availability, render_management
 from .model import WARSAW, Result
 from .offers import price_delta
 
@@ -186,7 +187,8 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
     migrations = sum("reguły odczytu" in c.note for r in entries if r.page == page for c in r.changes)
     before_at = base.compared_at if base else None
     gap = (date.fromisoformat(day) - datetime.fromisoformat(before_at).astimezone(WARSAW).date()).days if before_at else None
-    if not base or not base.observed_at:
+    current_read = bool(base and base.observed_at and datetime.fromisoformat(base.observed_at).astimezone(WARSAW).date().isoformat() == day)
+    if not current_read:
         status, label = "missing", "Brak bieżącego odczytu"
     elif events:
         status, label = "changed", f"Zmiany: {len(events)}"
@@ -206,7 +208,10 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         "page": page, "label": "Strona główna" if page == "glowna" else "Karta projektu",
         "url": base.url if base else "", "status": status, "status_label": label,
         "observed_at": base.observed_at if base else None, "compared_at": before_at,
-        "gap_days": gap, "daily": gap == 1,
+        "gap_days": gap, "daily": gap == 1 and current_read,
+        "current_read": current_read, "data_quality": base.data_quality if base else "unknown",
+        "error_text": issue_text(base.error) if base and base.error else "",
+        "quality_notes": [issue_text(w) for w in base.warnings] if base else [],
         "events": events, "reviews": reviews, "visuals": visuals,
         "evidence": base.evidence if base else {}, "extraction_changes": migrations,
     }
@@ -246,8 +251,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "domain": domain,
             "name": selected.get("name") or domain,
             "url": selected.get("url") or (project.url if project else ""),
-            "home_read": bool(home and home.observed_at),
-            "project_read": bool(project and project.observed_at),
+            "home_read": bool(home and home.observed_at and datetime.fromisoformat(home.observed_at).astimezone(WARSAW).date().isoformat() == day),
+            "project_read": bool(project and project.observed_at and datetime.fromisoformat(project.observed_at).astimezone(WARSAW).date().isoformat() == day),
             "current": current,
             "previous": previous,
             "current_text": money(current),
@@ -389,7 +394,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             row["status"], row["status_label"] = "unchanged", "Bez zmian w odczytanym zakresie"
         rows.append(row)
     journal = build_journal(day, rows)
-    return {
+    view = {
         "day": day,
         "metadata": metadata,
         "rows": rows,
@@ -412,6 +417,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         },
         "categories": dict(Counter(e["category"] for r in rows for e in r["events"])),
     }
+    view["management"] = build_management(view)
+    return view
 
 
 def _delta_text(row: dict) -> str:
@@ -441,11 +448,14 @@ def render_text(view: dict) -> str:
         "NAJWAŻNIEJSZE ZMIANY",
         "",
     ]
-    journal = view.get("journal", [])
+    management = build_management(view)
+    journal = management["items"]
     table = ["DZIENNA TABELA ZMIAN", "Dzień | Pracownia | Strona | Kontekst / wariant | Rodzaj | Co się zmieniło | Było | Jest | Źródło"]
     for item in journal:
         table.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["day", "domain", "page", "context", "type", "description", "before", "after", "source"]))
-    lines[1:1] = table + [""]
+    if not journal:
+        table.append("Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. Zobacz kompletność danych powyżej.")
+    lines.extend(table + [""])
     events = [(r, e) for r in view["rows"] for e in r["events"]]
     if not events:
         lines.append("Brak potwierdzonych zmian sprzedażowych w poprawnie porównanym zakresie.")
@@ -457,6 +467,10 @@ def render_text(view: dict) -> str:
                 f"  Źródło: {event['source']}",
             ]
         )
+    if management["secondary"]:
+        lines.extend(["", "ARCHIWUM RÓŻNIC OBRAZU I PORÓWNAŃ PO LUCE", "Sam zmieniony zrzut nie ustala nowej promocji ani przebudowy witryny."])
+        for item in management["secondary"]:
+            lines.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["domain", "page", "description", "before_at", "after_at", "source"]))
     reviews = [(r, e) for r in view["rows"] for e in r["reviews"] if not technical_reason(e)]
     if reviews:
         lines.extend(["", "NIEZWERYFIKOWANE RÓŻNICE ODCZYTU", ""])
@@ -588,6 +602,7 @@ def render_csv(view: dict) -> str:
 def render_markdown(view: dict, images: dict | None = None) -> str:
     c = view["counts"]
     pair = view["comparison"]
+    management = build_management(view)
 
     def esc(v):
         value = str(v).replace("\\", "\\\\").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
@@ -601,13 +616,20 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     lines = [
         f"## Oferty pracowni · {view['day']}",
         "",
-        "### Dzienna tabela zmian",
+        "### Wynik zarządczy",
+        "",
+        f"**Obniżki cen wybranych projektów: {management['metrics']['price_cuts']} pracowni · zmiany promocji: {management['metrics']['promotions']} pracowni · zmiany dodatków i pakietów: {management['metrics']['extras']} pracowni.** Tylko potwierdzone zmiany dzień do dnia; każda pracownia jest liczona raz w danym KPI.",
+        "",
+        f"Odczytano {c['home']}/{c['domains']} stron głównych i {c['project']}/{c['domains']} kart. **Ceny porównano dla {len(pair['price_domains'])}/{c['domains']} pracowni.** Brak porównania nie oznacza braku zmian.",
+        "",
+        "### Najważniejsze zmiany dzień do dnia",
         "",
         "Zmiany ofert oraz zmiany wyglądu mają osobne oznaczenia. Zmiana zrzutu nie potwierdza nowej ceny ani promocji. Błędy odczytu pozostają w diagnostyce.",
         "",
         "| Pracownia / strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło / dowód |",
         "| --- | --- | --- | --- | --- | --- |",
-        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt') + (' · ' + esc(item['context']) if item.get('context') else ''), esc(item['type']), esc(item['description']) + (f" · luka {item['gap_days']} dni" if not item['daily'] else ''), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in view.get('journal', [])],
+        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt') + (' · ' + esc(item['context']) if item.get('context') else ''), esc(item['type']), esc(item['description']), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in management['items']],
+        *([] if management['items'] else ["| Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. | | | | | |"]),
         "",
         f"### {assessment(view)['title']}",
         "",
@@ -688,11 +710,23 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
             "</details>",
         ]
     )
+    if management["secondary"]:
+        lines.extend(["", "<details><summary>Archiwum różnic obrazu i porównań po luce (" + str(len(management["secondary"])) + ")</summary>", "", "Sama różnica zrzutu nie ustala nowej promocji ani przebudowy strony. Pełne wpisy, daty, źródła i dowody są w raporcie HTML oraz pełnym dzienniku CSV.", "", "| Pracownia / strona | Obserwacja | Daty odczytów | Źródło / dowód |", "| --- | --- | --- | --- |"])
+        for item in management["secondary"]:
+            link = "[Strona](" + item["source"] + ")"
+            proof = item["evidence"].get("zmieniony_obszar")
+            if images and proof in images:
+                link += " · [Zaznaczony fragment](" + images[proof] + ")"
+            lines.append("| " + esc(item["domain"] + " · " + item["page"]) + " | " + esc(item["description"]) + " | " + esc(when(item["before_at"], True) + " → " + when(item["after_at"], True)) + " | " + link + " |")
+        lines.extend(["", "</details>", ""])
     return "\n".join(lines) + "\n"
 
 
 def render_html(view: dict) -> str:
+    # Recompute after enrichment too; archived views can predate this schema.
+    view = {**view, "management": build_management(view)}
     template = files("pracownie").joinpath("_report_template.html").read_text()
+    observed = sorted(p["observed_at"] for r in view["rows"] for p in r["pages"] if p["observed_at"])
     payload = (
         json.dumps(view, ensure_ascii=False)
         .replace("<", "\\u003c")
@@ -709,10 +743,14 @@ def render_html(view: dict) -> str:
         "__STATIC_OBSERVATIONS__": render_observations_html(view),
         "__STATIC_STATS__": render_stats_html(view),
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
-        "__STATIC_JOURNAL__": render_journal_html(view),
+        "__STATIC_JOURNAL__": render_journal_html(view, rows=view["management"]["items"]),
+        "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
+        "__STATIC_MANAGEMENT__": render_management(view),
+        "__STATIC_AVAILABILITY__": render_availability(view),
+        "__SECONDARY_COUNT__": str(len(view["management"]["secondary"])),
         "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Nie ustalono potwierdzonych zmian sprzedażowych. Niepełny zakres porównania jest opisany w wyniku powyżej.</p>',
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
-        "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
+        "__STATIC_STAMP__": ("Dane z odczytów " + html.escape(when(observed[0])) + " – " + html.escape(when(observed[-1])) + " · czas polski") if observed else "Brak bieżących odczytów",
     }
     # One pass: source text containing a placeholder is data, never a template.
     return re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
@@ -752,7 +790,7 @@ def render_event_html(view: dict, row: dict, event: dict, index: int, images: bo
     esc = html.escape
     before, after = highlighted_values(event["before"], event["after"])
     tag = "review" if event["review"] else "event"
-    output = '<article class="event" data-domain="' + esc(row["domain"], quote=True) + '" data-page="' + event["page"] + '"><header><h3>' + esc(row["domain"]) + '</h3><span class="badge ' + tag + '">' + esc(event["label"]) + (' · niezweryfikowany odczyt' if event["review"] else ' · potwierdzono') + '</span></header>'
+    output = '<article class="event" data-domain="' + esc(row["domain"], quote=True) + '" data-page="' + event["page"] + '" data-category="' + esc(event["category"], quote=True) + '"><header><h3>' + esc(row["domain"]) + '</h3><span class="badge ' + tag + '">' + esc(event["label"]) + (' · niezweryfikowany odczyt' if event["review"] else ' · potwierdzono') + '</span></header>'
     output += '<p class="context">' + esc(event["context"]) + '</p><div class="values"><div class="value"><small>Przed · ' + esc(when(event["before_at"])) + '</small>' + before + '</div><div class="value after"><small>Po · ' + esc(when(event["after_at"])) + '</small>' + after + '</div></div>'
     if event.get("note"):
         output += '<p class="small">' + esc(event["note"]) + '</p>'
@@ -842,12 +880,12 @@ def render_daily_html(view: dict) -> str:
                 if path:
                     images.append('<figure><a href="' + esc(path) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(path) + '" alt="' + label + ' — ' + esc(row["domain"] + ' · ' + page["label"]) + '"><figcaption>' + label + ' · ' + esc(when(at)) + '</figcaption></a></figure>')
             if images:
-                part += '<details class="page-proofs" open><summary>Zrzuty przed / po</summary><div class="proofs">' + ''.join(images) + '</div></details>'
+                part += '<details class="page-proofs"><summary>Zrzuty przed / po</summary><div class="proofs">' + ''.join(images) + '</div></details>'
             if page["extraction_changes"]:
                 part += '<p class="small">Zmiana reguł odczytu: nowe lub niedopasowane pola pozostają w diagnostyce; nie potwierdzają zmiany na stronie.</p>'
             pages.append(part + '</section>')
         issues = '<ul class="small">' + ''.join('<li>' + esc(issue) + '</li>' for issue in row["issues"]) + '</ul>' if row["issues"] else ''
-        blocks.append('<article class="day-domain box" data-domain="' + esc(row["domain"]) + '"><h3>' + esc(row["domain"]) + '</h3><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div>' + issues + '</article>')
+        blocks.append('<details class="day-domain box" data-domain="' + esc(row["domain"]) + '"><summary><strong>' + esc(row["domain"]) + '</strong><span class="small">' + esc(row["status_label"]) + '</span></summary><div id="pracownia-' + esc(row["domain"]) + '"><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div>' + issues + '</div></details>')
     return ''.join(blocks) or '<p class="empty">Brak odczytów w tym raporcie.</p>'
 
 

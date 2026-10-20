@@ -10,7 +10,7 @@ import pytest
 
 @pytest.fixture
 def sample_site():
-    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, wp_settings_delay=0, duplicate_cart=False, no_sales=False, background="white", requests=0)
+    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, wp_settings_delay=0, duplicate_cart=False, no_sales=False, background="white", requests=0, cookie_panel="", rate_limited=False)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
@@ -20,6 +20,11 @@ def sample_site():
             state.requests += 1
             if self.path == "/favicon.ico":
                 self.send_response(204)
+                self.end_headers()
+                return
+            if self.path.startswith("/projekt") and state.rate_limited:
+                self.send_response(429)
+                self.send_header("Retry-After", "90")
                 self.end_headers()
                 return
             if self.path.startswith("/projekt") and state.unavailable:
@@ -76,6 +81,7 @@ def sample_site():
                 body += '<div><a id="cart" class="btn" href="/cart">Dodaj do koszyka</a></div>'
             if state.no_sales:
                 body = '<h1>Pracownia testowa</h1><p>Witamy na naszej stronie internetowej. Zapraszamy do oglądania zdjęć i poznania naszej historii.</p>'
+            body += state.cookie_panel
             html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title><style>body{{font:18px sans-serif;margin:30px;background:{state.background}}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")

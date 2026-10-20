@@ -3,17 +3,75 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import copy
+import io
 import json
 import os
 import shutil
 from pathlib import Path
+from urllib.parse import unquote
 
+from bs4 import BeautifulSoup
 from PIL import Image
 
 from .model import digest, safe_path
 from .presentation import render_html
 from .report import verify_outputs
+
+
+def export_standalone(document: Path, destination: Path, downloads: dict | None = None, archive_url: str = "") -> None:
+    """A portable comparison: real HTML content and embedded screenshot previews."""
+    soup = BeautifulSoup(document.read_text(), "html.parser")
+    dates = soup.select_one('#comparison-title')
+    if dates:
+        soup.title.string = 'Porównanie skanów · ' + dates.get_text()
+        soup.select_one('#title').string = 'Porównanie skanów · ' + dates.get_text()
+    for node in soup.select('script, dialog, button, select, .filters, noscript'):
+        node.decompose()
+    cache = {}
+    for picture in soup.select('img[src]'):
+        relative = unquote(picture['src'])
+        if relative not in cache:
+            path = safe_path(document.parent, relative)
+            with Image.open(path) as original:
+                image = original.convert('RGB')
+                image = image.crop((0, 0, image.width, min(image.height, 1800)))
+                image.thumbnail((320, 450))
+                stream = io.BytesIO()
+                image.save(stream, format='JPEG', quality=40, optimize=True)
+                cache[relative] = 'data:image/jpeg;base64,' + base64.b64encode(stream.getvalue()).decode('ascii')
+        picture['src'] = cache[relative]
+        if picture.parent.name == 'a':
+            picture.parent.unwrap()
+    for caption in soup.select('figcaption'):
+        caption.append(' · Podgląd początku strony')
+    for link in soup.select('a[href]'):
+        href = link['href']
+        if href.startswith(('#', 'https://', 'http://')):
+            continue
+        target = (downloads or {}).get(Path(href).name)
+        if target:
+            link['href'] = target
+        else:
+            link.unwrap()
+    notice = soup.new_tag('p', attrs={'class': 'visual-note', 'id': 'standalone-notice'})
+    notice.string = 'Wszystkie porównania tekstu są zapisane w tym pliku. Podglądy zrzutów są wbudowane; pełne obrazy są w archiwum raportu.'
+    if archive_url:
+        link = soup.new_tag('a', href=archive_url)
+        link.string = ' Pobierz pełne zrzuty.'
+        notice.append(link)
+    soup.main.insert(0, notice)
+    # The enhanced offers table is redundant with the fully rendered page
+    # sections when scripts are disabled. Never show an empty table as data.
+    empty_rows = soup.select_one('#rows')
+    if empty_rows and not empty_rows.select('tr'):
+        table_box = empty_rows.find_parent(class_='table-box')
+        heading = table_box.find_previous_sibling(class_='section-head')
+        if heading:
+            heading.decompose()
+        table_box.decompose()
+    destination.write_text(str(soup))
 
 
 def prepare_web(source: Path, day: str, destination: Path) -> dict:
@@ -59,6 +117,7 @@ def prepare_web(source: Path, day: str, destination: Path) -> dict:
 
     visit(view)
     (directory / "index.html").write_text(render_html(view))
+    export_standalone(directory / "index.html", destination / f"porownanie-{day}.html")
     for filename in ["oferty.csv", "diagnostyka.txt"]:
         shutil.copy2(source / day / filename, directory / filename)
     shutil.copy2(source / f"{day}.txt", destination / f"{day}.txt")

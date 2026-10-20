@@ -10,6 +10,7 @@ import re
 from collections import Counter
 from datetime import date, datetime, timedelta
 from decimal import Decimal
+from difflib import SequenceMatcher
 from importlib.resources import files
 from urllib.parse import urlsplit
 
@@ -637,11 +638,67 @@ def render_html(view: dict) -> str:
         "__REPORT_DAY__": html.escape(view["day"]),
         "__STATIC_DAILY__": render_daily_html(view),
         "__STATIC_COMPARISON__": render_scan_html(view),
+        "__STATIC_OBSERVATIONS__": render_observations_html(view),
+        "__STATIC_STATS__": render_stats_html(view),
+        "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Brak potwierdzonych zmian sprzedażowych. Obserwacje poniżej wymagają oceny; liczba porównanych stron nie oznacza liczby zmian.</p>',
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
         "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
     }
     # One pass: source text containing a placeholder is data, never a template.
     return re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
+
+
+def render_stats_html(view: dict) -> str:
+    pair = view["comparison"]
+    stats = [("Strony porównane", pair["paired_pages"], "liczba par odczytów, nie zmian"), ("Obserwacje do oceny", pair["review_events"], "różnice zapisu wymagające potwierdzenia"), ("Zrzuty przed / po", pair["screenshot_pairs"], "par obrazów z obu dni"), ("Potwierdzone zmiany ofert", view["counts"]["events"], "zweryfikowane różnice sprzedażowe")]
+    return ''.join('<div class="stat"><span>' + html.escape(name) + '</span><strong>' + str(value) + '</strong><span>' + html.escape(note) + '</span></div>' for name, value, note in stats)
+
+
+def proof_path(day: str, path: str) -> str:
+    from pathlib import PurePosixPath
+    from urllib.parse import quote
+    parts = PurePosixPath(path).parts
+    if not parts or parts[0] != day or ".." in parts:
+        return ""
+    return "/".join(quote(p, safe="") for p in parts[1:])
+
+
+def highlighted_values(before: str, after: str) -> tuple[str, str]:
+    first, second = re.findall(r"\s+|\S+", before), re.findall(r"\s+|\S+", after)
+    old, new = [], []
+    for op, a, b, c, d in SequenceMatcher(None, first, second, autojunk=False).get_opcodes():
+        left, right = html.escape(''.join(first[a:b])), html.escape(''.join(second[c:d]))
+        old.append('<del>' + left + '</del>' if op in {"delete", "replace"} else left)
+        new.append('<ins>' + right + '</ins>' if op in {"insert", "replace"} else right)
+    return ''.join(old), ''.join(new)
+
+
+def render_event_html(view: dict, row: dict, event: dict, index: int, images: bool = False) -> str:
+    esc = html.escape
+    before, after = highlighted_values(event["before"], event["after"])
+    tag = "review" if event["review"] else "event"
+    output = '<article class="event" data-domain="' + esc(row["domain"], quote=True) + '" data-page="' + event["page"] + '"><header><h3>' + esc(row["domain"]) + '</h3><span class="badge ' + tag + '">' + esc(event["label"]) + (' · do oceny' if event["review"] else ' · potwierdzono') + '</span></header>'
+    output += '<p class="context">' + esc(event["context"]) + '</p><div class="values"><div class="value"><small>Przed · ' + esc(when(event["before_at"])) + '</small>' + before + '</div><div class="value after"><small>Po · ' + esc(when(event["after_at"])) + '</small>' + after + '</div></div>'
+    if event.get("note"):
+        output += '<p class="small">' + esc(event["note"]) + '</p>'
+    if images:
+        output += '<div class="proofs">'
+        for key, label, at in [("przed", "Przed", event["before_at"]), ("po", "Po", event["after_at"])]:
+            path = proof_path(view["day"], event["evidence"].get(key, ""))
+            if path:
+                output += '<figure><a href="' + esc(path, quote=True) + '" target="_blank" rel="noopener"><img src="' + esc(path, quote=True) + '" loading="lazy" alt="' + label + ' — ' + esc(row["domain"], quote=True) + '"><figcaption>' + label + ' · ' + esc(when(at)) + '</figcaption></a></figure>'
+        output += '</div>'
+    output += '<footer><a href="' + esc(safe_url(event["source"]), quote=True) + '" target="_blank" rel="noopener">Strona źródłowa</a><button class="detail-button" data-open="' + esc(row["domain"], quote=True) + '" data-kind="' + tag + '" data-event="' + str(index) + '">Pełne szczegóły</button></footer></article>'
+    return output
+
+
+def render_observations_html(view: dict) -> str:
+    examples = []
+    for page in ["glowna", "projekt"]:
+        candidates = [(row, event, i) for row in view["rows"] for i, event in enumerate(row["reviews"]) if event["page"] == page]
+        candidates.sort(key=lambda item: not bool(item[1].get("before_full") and item[1].get("after_full")))
+        examples.extend(candidates[:3])
+    return ''.join(render_event_html(view, row, event, i, images=True) for row, event, i in examples) or '<p class="empty">Brak niepewnych różnic tekstowych. Daty, ceny i dostępne zrzuty obu dni są widoczne w sekcjach pracowni.</p>'
 
 
 def render_scan_html(view: dict) -> str:
@@ -702,14 +759,14 @@ def render_daily_html(view: dict) -> str:
                 part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
             part += ''.join(event_html(e) for e in page["events"])
             if page["reviews"]:
-                part += '<details class="reviews"><summary>Różnice do potwierdzenia (' + str(len(page["reviews"])) + ')</summary>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
+                part += '<details class="reviews" open><summary>Różnice do potwierdzenia (' + str(len(page["reviews"])) + ')</summary>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
             images = []
             for key, label, at in [("przed", "Przed", page["compared_at"]), ("po", "Po", page["observed_at"])]:
                 path = proof(page["evidence"].get(key, ""))
                 if path:
                     images.append('<figure><a href="' + esc(path) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(path) + '" alt="' + label + ' — ' + esc(row["domain"] + ' · ' + page["label"]) + '"><figcaption>' + label + ' · ' + esc(when(at)) + '</figcaption></a></figure>')
             if images:
-                part += '<details class="page-proofs"><summary>Zrzuty przed / po</summary><div class="proofs">' + ''.join(images) + '</div></details>'
+                part += '<details class="page-proofs" open><summary>Zrzuty przed / po</summary><div class="proofs">' + ''.join(images) + '</div></details>'
             if page["extraction_changes"]:
                 part += '<p class="small">Zmiana reguł odczytu: nowe lub niedopasowane pola pozostają w diagnostyce; nie potwierdzają zmiany na stronie.</p>'
             pages.append(part + '</section>')

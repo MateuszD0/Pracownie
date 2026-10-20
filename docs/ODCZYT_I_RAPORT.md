@@ -1,6 +1,6 @@
 # Czytanie raportu ofert
 
-Otwórz dzień w [spisie raportów](../RAPORTY.md). Wydanie GitHub zawiera podsumowanie obu stron i tabelę cen. Do filtrowania i oglądania dowodów wybierz **Raport HTML ze zrzutami**, rozpakuj `*-widok.zip` i otwórz `YYYY-MM-DD/index.html`. To gotowy raport, a nie szablon z kodu. Treść i rozwijane sekcje działają także przy wyłączonych skryptach. CSV jest przeznaczony do arkusza; TXT zawiera różnice obu stron według domen.
+Otwórz dzień w [spisie raportów](../RAPORTY.md). **Porównanie HTML — jeden plik** zawiera od razu teksty przed/po oraz wbudowane podglądy obrazów. Działa bez JavaScript i osobnych zasobów. Usunięty tekst ma czerwone tło, dodany — zielone. Podglądy obrazów pokazują początek witryny, a pełne zrzuty są w **Raporcie HTML ze zrzutami**: rozpakuj `*-widok.zip` i otwórz `YYYY-MM-DD/index.html`. Tam działają wyszukiwanie i filtry; treści porównań i obrazy są domyślnie rozwinięte i pozostają widoczne po wyłączeniu skryptów. CSV jest przeznaczony do arkusza; TXT zawiera różnice obu stron według domen.
 
 ## Co oznaczają liczby
 

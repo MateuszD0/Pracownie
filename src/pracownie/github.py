@@ -157,13 +157,20 @@ class GitHubStore:
         text_asset = self.upload(report_release, f"{day}-{stamp}.txt", output / f"{day}.txt")
         csv_asset = self.upload(report_release, f"{day}-{stamp}-oferty.csv", output / day / "oferty.csv")
         diagnostic_asset = self.upload(report_release, f"{day}-{stamp}-diagnostyka.txt", output / day / "diagnostyka.txt")
-        from .web import prepare_web
+        from .web import export_standalone, prepare_web
         with tempfile.TemporaryDirectory() as temporary:
             web_root = Path(temporary)
             prepare_web(output, day, web_root / "web")
             import shutil
             web_archive = Path(shutil.make_archive(str(web_root / "widok"), "zip", web_root / "web"))
             html_asset = self.upload(report_release, f"{day}-{stamp}-widok.zip", web_archive)
+            standalone = web_root / "web" / f"porownanie-{day}.html"
+            export_standalone(web_root / "web" / day / "index.html", standalone, {
+                f"{day}.txt": text_asset["browser_download_url"],
+                "oferty.csv": csv_asset["browser_download_url"],
+                "diagnostyka.txt": diagnostic_asset["browser_download_url"],
+            }, html_asset["browser_download_url"])
+            standalone_asset = self.upload(report_release, f"{day}-{stamp}-porownanie.html", standalone)
         view = json.loads((output / day / "oferty.json").read_text())
         previews = {}
         preview_assets = []
@@ -187,14 +194,14 @@ class GitHubStore:
             state_asset = self.upload(state_release, state_name, root / "state.zip")
             record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
                       "committed_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
-                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], diagnostic_asset["id"], html_asset["id"], *preview_assets, zip_asset["id"]],
-                      "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "zip": zip_asset["id"]}}
+                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
+                      "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}
             # Both report files and state have been verified. Make the daily report visible first.
             summary = render_markdown(view, previews)
             published_at = now_iso()
             self.request("PATCH", f"{self.prefix}/releases/{report_release['id']}", json={
                 "name": f"Raport {day}", "prerelease": False, "make_latest": "false",
-                "body": OWNER_MARKER + f"\n\n[Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Raport HTML ze zrzutami]({html_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\nPobierz **Raport HTML ze zrzutami**, rozpakuj i otwórz **index.html** w folderze dnia. Gotowy raport pokazuje osobno zmiany strony głównej i karty projektu.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
+                "body": OWNER_MARKER + f"\n\n[Porównanie HTML — jeden plik]({standalone_asset['browser_download_url']}) · [Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Raport HTML ze zrzutami]({html_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\n**Porównanie HTML — jeden plik** zawiera widoczne od razu teksty przed/po i wbudowane podglądy obrazów; działa bez skryptów i rozpakowywania archiwum. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
             })
             (root / "commit.json").write_bytes(json_bytes(record))
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
@@ -249,14 +256,15 @@ class GitHubStore:
             archive = re.search(r"\[Pełne archiwum ZIP\]\((https://[^)]+)\)", body)
             csv_link = re.search(r"\[Ceny CSV\]\((https://[^)]+)\)", body)
             html_link = re.search(r"\[Raport HTML ze zrzutami\]\((https://[^)]+)\)", body)
+            portable = re.search(r"\[Porównanie HTML — jeden plik\]\((https://[^)]+)\)", body)
             if not text or not archive:
                 continue
             allowed = f"https://github.com/{self.repo}/releases/download/"
-            if any(link and not link[1].startswith(allowed) for link in [text, archive, csv_link, html_link]):
+            if any(link and not link[1].startswith(allowed) for link in [text, archive, csv_link, html_link, portable]):
                 raise ValueError("Nieoczekiwany adres plików w indeksie raportów")
-            rows.append((match[1], text[1], archive[1], release["html_url"], csv_link[1] if csv_link else None, html_link[1] if html_link else archive[1]))
-        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "Każdy raport pokazuje osobno zmiany strony głównej i karty projektu wraz z datami porównania. Pobierz HTML i zrzuty, rozpakuj i otwórz index.html w folderze dnia. CSV służy do pracy w arkuszu. Pełne archiwum jest dostępne na stronie wydania. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Ceny | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
-        lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | [Pobierz widok]({html_url}) |" for day, text, archive, url, csv_url, html_url in sorted(rows, reverse=True))
+            rows.append((match[1], text[1], archive[1], release["html_url"], csv_link[1] if csv_link else None, html_link[1] if html_link else archive[1], portable[1] if portable else None))
+        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "HTML w jednym pliku pokazuje od razu teksty przed/po oraz wbudowane podglądy zrzutów, bez skryptów i rozpakowywania. ZIP zawiera pełne obrazy i interaktywny raport. Każdy raport pokazuje osobno stronę główną i kartę projektu wraz z datami. CSV służy do pracy w arkuszu. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Ceny | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
+        lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | " + (f"[HTML]({portable}) · " if portable else "") + f"[ZIP]({html_url}) |" for day, text, archive, url, csv_url, html_url, portable in sorted(rows, reverse=True))
         content = ("\n".join(lines) + "\n").encode()
         endpoint = f"{self.prefix}/contents/{filename}"
         existing = self.client.get(endpoint)

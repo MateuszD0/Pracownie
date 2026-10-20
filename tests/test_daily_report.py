@@ -1,6 +1,7 @@
 import json
 
 import pytest
+from bs4 import BeautifulSoup
 from PIL import Image
 
 from pracownie.browser import BrowserScanner
@@ -8,7 +9,7 @@ from pracownie.extract import extract_fields
 from pracownie.model import Change, Result
 from pracownie.presentation import build_view, render_html, render_text, scan_comparison
 from pracownie.report import verify_outputs, write_outputs
-from pracownie.web import prepare_web
+from pracownie.web import export_standalone, prepare_web
 
 DAY = "2026-10-20"
 BEFORE = "2026-10-19T06:00:00+00:00"
@@ -102,7 +103,7 @@ async def test_connected_scans_show_observations_and_open_their_own_evidence(exe
         assert 'Rabat 20%' in await page.locator('dialog').inner_text()
         await page.locator('#close').click()
         await page.locator('#page-filter').select_option('projekt')
-        assert not await page.locator('#observations .event').count()
+        assert not await page.locator('#observations .event:visible').count()
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         assert not errors
         await context.close()
@@ -129,6 +130,9 @@ def test_web_uses_verified_images_and_does_not_modify_archive(tmp_path):
     assert "__REPORT_DATA__" not in (target / DAY / "index.html").read_text()
     assert 'src="screenshots/' in (target / DAY / "index.html").read_text()
     assert (target / f"{DAY}.txt").is_file()
+    standalone = BeautifulSoup((target / f"porownanie-{DAY}.html").read_text(), "html.parser")
+    assert not standalone.select('script, button, select')
+    assert standalone.select('img') and all(i['src'].startswith('data:image/jpeg;base64,') for i in standalone.select('img'))
     verify_outputs(source, DAY)
     view = json.loads((source / DAY / "oferty.json").read_text())
     view["rows"][0]["evidence"]["po"] = "../../unowned.png"
@@ -152,17 +156,62 @@ async def test_report_renders_both_pages_with_and_without_javascript(executable)
             page.on("pageerror", lambda error, errors=errors: errors.append(str(error)))
             await page.set_content(document)
             assert await page.locator(".daily-page").count() == 2
-            assert "Rabat 10%" in await page.locator('[data-page="glowna"]').inner_text()
-            assert "Rabat 20%" in await page.locator('[data-page="glowna"]').inner_text()
-            assert "Kosztorys gratis" in await page.locator('[data-page="projekt"]').inner_text()
-            assert "4 290,00 zł" in await page.locator('[data-page="projekt"]').inner_text()
+            assert "Rabat 10%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
+            assert "Rabat 20%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
+            assert "Kosztorys gratis" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
+            assert "4 290,00 zł" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
             assert not await page.locator('.day-domain img[src="x"]').count()
             if scripts:
                 await page.locator("#page-filter").select_option("glowna")
-                assert not await page.locator('[data-page="projekt"]').is_visible()
+                assert not await page.locator('.daily-page[data-page="projekt"]').is_visible()
                 await page.locator("#search").fill("brak-domeny")
                 assert not await page.locator(".day-domain").is_visible()
                 assert not await page.evaluate("Boolean(window.injected)")
                 assert await page.evaluate("document.documentElement.scrollWidth <= innerWidth")
             assert not errors
             await context.close()
+
+
+def test_review_comparisons_are_saved_in_html_and_open_without_scripts():
+    entries = daily_results()
+    entries[0].changes[0].kind = "review"
+    report = make_view(entries)
+    soup = BeautifulSoup(render_html(report), 'html.parser')
+    assert 'Rabat 10%' in soup.select_one('#observations').get_text()
+    assert 'Rabat 20%' in soup.select_one('#observations').get_text()
+    assert soup.select_one('#observations del').text == '10%'
+    assert soup.select_one('#observations ins').text == '20%'
+    assert soup.select_one('#observations img')
+    assert not soup.select('details.reviews:not([open]), details.page-proofs:not([open])')
+
+
+@pytest.mark.browser
+async def test_portable_comparison_displays_text_and_images_without_scripts_or_side_files(executable, tmp_path):
+    entries = daily_results()
+    entries[0].changes[0].kind = "review"
+    for entry in entries:
+        for relative in entry.evidence.values():
+            path = tmp_path / relative.removeprefix(DAY + '/')
+            path.parent.mkdir(parents=True, exist_ok=True)
+            Image.new('RGB', (80, 100), 'white').save(path)
+    document = tmp_path / 'index.html'
+    document.write_text(render_html(make_view(entries)))
+    standalone = tmp_path / 'portable.html'
+    export_standalone(document, standalone, archive_url='https://example.com/report.zip')
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(java_script_enabled=False, viewport={'width': 390, 'height': 844})
+        page = await context.new_page()
+        network = []
+        page.on('request', lambda request: network.append(request.url))
+        await page.set_content(standalone.read_text())
+        assert await page.locator('#observations .event').is_visible()
+        assert 'Rabat 10%' in await page.locator('#observations').inner_text()
+        assert 'Rabat 20%' in await page.locator('#observations').inner_text()
+        assert await page.locator('#observations del').is_visible()
+        assert await page.locator('#observations ins').is_visible()
+        assert not await page.locator('script, button').count()
+        await page.locator('#observations img').last.scroll_into_view_if_needed()
+        await page.wait_for_function("[...document.querySelectorAll('#observations img')].every(i=>i.complete&&i.naturalWidth>0)")
+        assert not network
+        assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+        await context.close()

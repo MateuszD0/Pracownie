@@ -154,6 +154,10 @@ async def test_change_table_filters_and_native_proof_links(executable):
                 await page.locator('#journal-category').select_option('obraz')
                 assert await page.locator('#journal tr[data-category="obraz"]').is_visible()
                 assert not await page.locator('#journal tr[data-category="promocje"]').is_visible()
+                await page.locator('#journal-category').select_option('extras')
+                assert await page.locator('#journal-empty').is_visible()
+                await page.locator('#journal-category').select_option('all')
+                assert not await page.locator('#journal-empty').is_visible()
             await page.locator('#journal a[href^="#dowod-"]').last.click()
             assert await page.locator('#journal .journal-proof').get_attribute('open') is not None
             assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')

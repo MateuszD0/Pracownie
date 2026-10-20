@@ -243,6 +243,7 @@ def render_journal_html(view: dict) -> str:
             or '<tr><td colspan="7">Brak ustalonych zmian w porównanym zakresie. Ceny bez zmian i brakujące odczyty są pokazane osobno.</td></tr>'
         )
         + "</tbody></table></div>"
+        + '<p id="journal-empty" class="empty" hidden>Brak ustalonych zmian dla wybranego filtru. Porównania cen i zakres odczytu są poniżej tabeli.</p>'
         + "".join(proof_blocks.values())
         + "</section>"
     )

@@ -117,6 +117,26 @@ def test_selective_repair_preserves_other_domains_errors(tmp_path):
     assert results[0].observed_at is None
 
 
+def test_failed_retry_preserves_verified_same_day_data_and_actual_error(tmp_path):
+    from pracownie.model import Site
+    from pracownie.pipeline import preserve_same_day_reads
+    folder = "2026-10-20/test.pl/projekt/podstawowy"
+    (tmp_path / "old" / folder).mkdir(parents=True)
+    (tmp_path / "old" / folder / "po.png").write_bytes(b"previous evidence")
+    previous = Result("test.pl", "projekt", "podstawowy", "unchanged", "https://test.pl/dom", observed_at=AT, data_quality="ok")
+    failure = Result("test.pl", "projekt", "podstawowy", "error", previous.url, error="HTTP 503")
+    rows = [failure]
+    retained = preserve_same_day_reads(rows, [previous], {"snapshots": {"test.pl/projekt/podstawowy": {"observed_at": AT}}}, [Site("test.pl", "https://test.pl")], tmp_path / "old", tmp_path / "new", "2026-10-20")
+    assert retained[0]["observed_at"] == AT
+    assert len(rows) == 2 and rows[1].observed_at == AT
+    assert failure.error == "HTTP 503" and failure.scenario == "ponowienie-podstawowego"
+    assert (tmp_path / "new" / folder / "po.png").read_bytes() == b"previous evidence"
+    previous.observed_at = "2026-10-19T06:00:00+00:00"
+    older = [Result("test.pl", "projekt", "podstawowy", "error", previous.url, error="HTTP 503")]
+    assert preserve_same_day_reads(older, [previous], {"snapshots": {"test.pl/projekt/podstawowy": {"observed_at": previous.observed_at}}}, [Site("test.pl", "https://test.pl")], tmp_path / "old", tmp_path / "new", "2026-10-20") == []
+    assert len(older) == 1 and older[0].scenario == "podstawowy"
+
+
 @pytest.mark.browser
 async def test_visible_woo_price_hidden_radio_and_related_products(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

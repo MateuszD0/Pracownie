@@ -42,6 +42,33 @@ class RunOptions:
     repair_domains: list[str] | None = None
 
 
+def preserve_same_day_reads(results: list[Result], previous: list[Result], state: dict, sites: list[Site], output: Path, staging: Path, day: str) -> list[dict]:
+    """A failed retry does not erase a verified observation from this day."""
+    prior = {(r.domain, r.page): r for r in previous if r.scenario == "podstawowy"}
+    configured = {s.domain: s for s in sites}
+    retained = []
+    for failed in list(results):
+        if failed.scenario != "podstawowy" or not failed.error or failed.observed_at:
+            continue
+        old = prior.get((failed.domain, failed.page))
+        if not old or not old.observed_at or old.error or old.data_quality != "ok":
+            continue
+        if local_day(datetime.fromisoformat(old.observed_at)) != day:
+            continue
+        snapshot = state["snapshots"].get(f"{old.domain}/{old.page}/podstawowy", {})
+        if snapshot.get("observed_at") != old.observed_at or old.offer.get("field_key") in configured[old.domain].unreliable_price_keys:
+            continue
+        folder = Path(day) / slug(old.domain) / old.page / "podstawowy"
+        if not (output / folder).is_dir():
+            continue
+        shutil.copytree(output / folder, staging / folder, dirs_exist_ok=True)
+        failed.scenario = "ponowienie-podstawowego"
+        failed.scenario_label = "Nieudane ponowienie odczytu podstawowego"
+        results.append(copy.deepcopy(old))
+        retained.append({"domain": old.domain, "page": old.page, "observed_at": old.observed_at, "retry_error": failed.error})
+    return retained
+
+
 async def run_scan(sites: list[Site], store: StateStore, output: Path, options: RunOptions) -> dict:
     started = time.monotonic()
     day = options.day or local_day()
@@ -53,8 +80,13 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
     base_elapsed: dict[str, float] = {}
     sites_by_domain = {site.domain: site for site in sites}
     reused, previous_metadata = set(), {}
+    previous_results: list[Result] = []
     if options.resume:
         reused, results, previous_metadata = resume_data(output, day, sites, store.read(), options.repair_domains)
+        if previous_metadata:
+            for raw in json.loads((output / day / "zmiany.json").read_text())["results"]:
+                raw["changes"] = [Change(**change) for change in raw["changes"]]
+                previous_results.append(Result(**raw))
     if options.repair_domains and not previous_metadata:
         raise ValueError("Naprawa wybranych domen wymaga zatwierdzonego raportu z tego samego dnia")
     metadata["repair_domains"] = options.repair_domains or []
@@ -272,6 +304,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
             await asyncio.gather(*(bounded(site) for site in sites if site.domain not in reused))
             metadata["base_reads_finished_at"] = now_iso()
             await asyncio.gather(*(bounded(site, detail=True) for site in sites if site.domain in pending))
+        metadata["retained_same_day_reads"] = preserve_same_day_reads(results, previous_results, state, sites, output, staging, day)
         results.sort(key=lambda result: (result.domain, result.page, result.scenario))
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})

@@ -59,6 +59,8 @@ def when(value: str | None, short: bool = False) -> str:
 
 
 def issue_text(value: str) -> str:
+    if "ERR_CONNECTION_REFUSED" in value:
+        return "Serwer odmówił połączenia."
     if "ERR_CERT" in value or "SSL" in value:
         return "Witryna ma nieprawidłowy certyfikat dla tego adresu."
     if "403" in value:
@@ -248,7 +250,10 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     continue
                 keys.add(key)
                 row["reviews" if event["review"] else "events"].append(event)
-        failed_options = [r for r in entries if r.scenario != "podstawowy" and r.error]
+        for retry in [r for r in entries if r.scenario == "ponowienie-podstawowego" and r.error]:
+            original = home if retry.page == "glowna" else project
+            row["issues"].append(("Strona główna" if retry.page == "glowna" else "Karta projektu") + ": ponowienie nie powiodło się (" + issue_text(retry.error) + "). Zachowano poprawny odczyt z " + when(original.observed_at if original else None) + ".")
+        failed_options = [r for r in entries if r.scenario not in {"podstawowy", "ponowienie-podstawowego"} and r.error]
         if failed_options:
             row["issues"].append(
                 f"Dodatkowe interakcje: {len(failed_options)} nieukończonych prób; szczegóły w diagnostyce."

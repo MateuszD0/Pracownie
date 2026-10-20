@@ -8,11 +8,11 @@ on:
 permissions:
   contents: write
   pages: read
-concurrency:
-  group: pracownie-monitor
-  cancel-in-progress: false
 jobs:
   rebuild:
+    concurrency:
+      group: pracownie-monitor
+      cancel-in-progress: false
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event.workflow_run.conclusion == 'success' &&
@@ -55,6 +55,9 @@ jobs:
           path: .monitor/pages
           retention-days: 1
   pages:
+    concurrency:
+      group: pracownie-pages
+      cancel-in-progress: false
     needs: rebuild
     if: needs.rebuild.outputs.pages_enabled == 'true'
     runs-on: ubuntu-24.04

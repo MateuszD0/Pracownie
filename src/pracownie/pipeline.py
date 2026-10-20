@@ -18,8 +18,9 @@ from playwright.async_api import TimeoutError as BrowserTimeout
 from .browser import BrowserScanner, Capture, TransientFetchError, UnusableControl, infer_scenarios
 from .compare import compare
 from .extract import is_listing_title, page_identity
-from .images import image_difference, ocr_context
+from .images import image_difference, ocr_context, visual_evidence
 from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
+from .observations import visual_description
 from .offers import primary_offer
 from .report import install_outputs, resume_data, write_outputs
 from .state import StateStore
@@ -124,6 +125,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 changes, retained = compare(before, snapshot)
                 folder = staging / day / slug(snapshot.domain) / snapshot.page / slug(snapshot.scenario)
                 folder.mkdir(parents=True, exist_ok=True)
+                (folder / "odczyt.json").write_bytes(json_bytes(snapshot.to_dict()))
                 if snapshot.scenario == "podstawowy":
                     (folder / "kontrolki.json").write_bytes(json_bytes({
                         "title": snapshot.title, "url": snapshot.url,
@@ -147,7 +149,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     if options.ocr:
                         text, ocr_note = await asyncio.to_thread(ocr_context, capture.screenshot, folder / "fragment-ocr.png", visual.bbox)
                         note += " " + ocr_note
-                    changes.append(Change("review", "obraz", "Zmiana wyglądu lub treści graficznej", None, text or "Patrz obrazy przed/po", before.observed_at, snapshot.observed_at, snapshot.url, snapshot.scenario, note=note))
+                    details = visual_description(before, snapshot, visual)
+                    changes.append(Change("visual", "obraz", details["description"], None, text or details["position"], before.observed_at, snapshot.observed_at, snapshot.url, snapshot.scenario, note=details["basis"], details=details))
                 if changes or before is None or snapshot.scenario == "podstawowy":
                     shutil.copy2(capture.screenshot, after_path)
                     evidence["po"] = after_path.relative_to(staging).as_posix()
@@ -156,6 +159,9 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         evidence["przed"] = before_path.relative_to(staging).as_posix()
                     if difference_path.exists():
                         evidence["roznice"] = difference_path.relative_to(staging).as_posix()
+                    if before and visual and visual.changed and snapshot.scenario == "podstawowy":
+                        crops = await asyncio.to_thread(visual_evidence, store.root / before.image, capture.screenshot, folder, visual)
+                        evidence.update({k: p.relative_to(staging).as_posix() for k, p in crops.items()})
                     if (folder / "fragment-ocr.png").exists():
                         evidence["fragment_ocr"] = (folder / "fragment-ocr.png").relative_to(staging).as_posix()
                 elif difference_path.exists():

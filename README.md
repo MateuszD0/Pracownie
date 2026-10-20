@@ -1,5 +1,7 @@
 **Pracownie Monitor**
 
+Główny wynik to **dzienna tabela zmian**: pracownia, strona, rodzaj, co się zmieniło, było → jest, link do źródła i zaznaczony fragment przed/po. Ceny/promocje, dodatki oraz wygląd mają osobne oznaczenia i filtry. Tę samą listę można pobrać jako `dziennik-zmian.csv`. [Opis rozwiązania i zasad porównania](docs/DZIENNIK_ZMIAN.md).
+
 Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pracowni. Raport pokazuje konkretne zmiany sprzedażowe i tabelę cen: poprzedni odczyt → dzisiaj. Osobno oznacza zmiany obrazu, obserwacje do potwierdzenia i brakujące dane.
 
 Raport zaczyna się od wniosków i zakresu, któremu można ufać. Liczba zapisanych par stron lub zrzutów nie oznacza liczby ustalonych zmian. Problemy zmienionego sposobu odczytu i samych metadanych pozostają w szczegółach technicznych; ich wyjaśnienie jest zadaniem monitora. Użytkownik nie ma potwierdzać błędów narzędzia.

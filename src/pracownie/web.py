@@ -95,7 +95,7 @@ def prepare_web(source: Path, day: str, destination: Path) -> dict:
             for key, item in value.items():
                 if key == "evidence":
                     for name, path in list(item.items()):
-                        if name not in {"przed", "po"}:
+                        if name not in {"przed", "po", "fragment_przed", "fragment_po", "zmieniony_obszar"}:
                             del item[name]
                             continue
                         if path not in manifest["files"] or not path.startswith(day + "/"):
@@ -118,7 +118,7 @@ def prepare_web(source: Path, day: str, destination: Path) -> dict:
     visit(view)
     (directory / "index.html").write_text(render_html(view))
     export_standalone(directory / "index.html", destination / f"porownanie-{day}.html")
-    for filename in ["oferty.csv", "diagnostyka.txt"]:
+    for filename in ["oferty.csv", "diagnostyka.txt", "dziennik-zmian.csv"]:
         shutil.copy2(source / day / filename, directory / filename)
     shutil.copy2(source / f"{day}.txt", destination / f"{day}.txt")
     (destination / ".nojekyll").touch()

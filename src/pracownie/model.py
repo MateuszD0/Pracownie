@@ -74,6 +74,8 @@ class Snapshot:
     renderer: str
     warnings: list[str] = field(default_factory=list)
     quality: str = "ok"
+    contract: str = ""
+    document: dict = field(default_factory=dict)
 
     @property
     def key(self) -> str:
@@ -105,6 +107,7 @@ class Change:
     evidence: dict[str, str] = field(default_factory=dict)
     note: str = ""
     field_key: str = ""
+    details: dict = field(default_factory=dict)
 
 
 @dataclass

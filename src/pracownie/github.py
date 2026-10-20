@@ -156,6 +156,7 @@ class GitHubStore:
         assert report_release is not None
         text_asset = self.upload(report_release, f"{day}-{stamp}.txt", output / f"{day}.txt")
         csv_asset = self.upload(report_release, f"{day}-{stamp}-oferty.csv", output / day / "oferty.csv")
+        journal_asset = self.upload(report_release, f"{day}-{stamp}-dziennik-zmian.csv", output / day / "dziennik-zmian.csv")
         diagnostic_asset = self.upload(report_release, f"{day}-{stamp}-diagnostyka.txt", output / day / "diagnostyka.txt")
         from .web import export_standalone, prepare_web
         with tempfile.TemporaryDirectory() as temporary:
@@ -168,22 +169,22 @@ class GitHubStore:
             export_standalone(web_root / "web" / day / "index.html", standalone, {
                 f"{day}.txt": text_asset["browser_download_url"],
                 "oferty.csv": csv_asset["browser_download_url"],
+                "dziennik-zmian.csv": journal_asset["browser_download_url"],
                 "diagnostyka.txt": diagnostic_asset["browser_download_url"],
             }, html_asset["browser_download_url"])
             standalone_asset = self.upload(report_release, f"{day}-{stamp}-porownanie.html", standalone)
         view = json.loads((output / day / "oferty.json").read_text())
         previews = {}
         preview_assets = []
-        for row in view["rows"]:
-            for event in row["events"]:
-                path = event["evidence"].get("roznice") or event["evidence"].get("po")
-                if not path or path in previews or len(previews) >= 6:
-                    continue
-                # Only owned, verified report files can be published as previews.
-                from .model import safe_path
-                preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}.png", safe_path(output, path))
-                previews[path] = preview["browser_download_url"]
-                preview_assets.append(preview["id"])
+        proof_candidates = [e for e in view.get("journal", []) if e["category"] == "obraz"] + [e for r in view["rows"] for e in r["events"]][:6]
+        for event in proof_candidates:
+            path = event["evidence"].get("zmieniony_obszar") or event["evidence"].get("roznice") or event["evidence"].get("po")
+            if not path or path in previews:
+                continue
+            from .model import safe_path
+            preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}.png", safe_path(output, path))
+            previews[path] = preview["browser_download_url"]
+            preview_assets.append(preview["id"])
         zip_asset = self.upload(report_release, f"{day}-{stamp}.zip", report_archive)
         state_release = self.release(f"{self.namespace}-state-v1", create=True)
         assert state_release is not None
@@ -194,14 +195,14 @@ class GitHubStore:
             state_asset = self.upload(state_release, state_name, root / "state.zip")
             record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
                       "committed_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
-                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
-                      "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}
+                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], journal_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
+                      "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "journal_csv": journal_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}
             # Both report files and state have been verified. Make the daily report visible first.
             summary = render_markdown(view, previews)
             published_at = now_iso()
             self.request("PATCH", f"{self.prefix}/releases/{report_release['id']}", json={
                 "name": f"Raport {day}", "prerelease": False, "make_latest": "false",
-                "body": OWNER_MARKER + f"\n\n[Porównanie HTML — jeden plik]({standalone_asset['browser_download_url']}) · [Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Raport HTML ze zrzutami]({html_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\n**Porównanie HTML — jeden plik** zawiera widoczne od razu teksty przed/po i wbudowane podglądy obrazów; działa bez skryptów i rozpakowywania archiwum. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
+                "body": OWNER_MARKER + f"\n\n[Porównanie HTML — jeden plik]({standalone_asset['browser_download_url']}) · [Tabela zmian CSV]({journal_asset['browser_download_url']}) · [Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Raport HTML ze zrzutami]({html_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\n**Porównanie HTML — jeden plik** zawiera widoczne od razu teksty przed/po i wbudowane podglądy obrazów; działa bez skryptów i rozpakowywania archiwum. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
             })
             (root / "commit.json").write_bytes(json_bytes(record))
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
@@ -254,7 +255,7 @@ class GitHubStore:
                 continue
             text = re.search(r"\[Raport TXT\]\((https://[^)]+)\)", body)
             archive = re.search(r"\[Pełne archiwum ZIP\]\((https://[^)]+)\)", body)
-            csv_link = re.search(r"\[Ceny CSV\]\((https://[^)]+)\)", body)
+            csv_link = re.search(r"\[Tabela zmian CSV\]\((https://[^)]+)\)", body) or re.search(r"\[Ceny CSV\]\((https://[^)]+)\)", body)
             html_link = re.search(r"\[Raport HTML ze zrzutami\]\((https://[^)]+)\)", body)
             portable = re.search(r"\[Porównanie HTML — jeden plik\]\((https://[^)]+)\)", body)
             if not text or not archive:
@@ -263,7 +264,7 @@ class GitHubStore:
             if any(link and not link[1].startswith(allowed) for link in [text, archive, csv_link, html_link, portable]):
                 raise ValueError("Nieoczekiwany adres plików w indeksie raportów")
             rows.append((match[1], text[1], archive[1], release["html_url"], csv_link[1] if csv_link else None, html_link[1] if html_link else archive[1], portable[1] if portable else None))
-        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "HTML w jednym pliku pokazuje od razu teksty przed/po oraz wbudowane podglądy zrzutów, bez skryptów i rozpakowywania. ZIP zawiera pełne obrazy i interaktywny raport. Każdy raport pokazuje osobno stronę główną i kartę projektu wraz z datami. CSV służy do pracy w arkuszu. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Ceny | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
+        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "Raport zaczyna się od dziennej tabeli zmian cen, promocji, dodatków i wyglądu, z linkiem do źródła oraz dowodami przed/po. CSV zawiera tę samą listę zmian; w starszych raportach może zawierać tylko ceny. ZIP zachowuje pełne obrazy. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Tabela CSV | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
         lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | " + (f"[HTML]({portable}) · " if portable else "") + f"[ZIP]({html_url}) |" for day, text, archive, url, csv_url, html_url, portable in sorted(rows, reverse=True))
         content = ("\n".join(lines) + "\n").encode()
         endpoint = f"{self.prefix}/contents/{filename}"

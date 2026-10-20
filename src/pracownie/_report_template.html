@@ -11,9 +11,13 @@ del{background:#fce1de;color:#8c3029;text-decoration-color:#a24d45}ins{backgroun
 </style>
 </head>
 <body>
-<header><div class="bar"><div class="brand">Pracownie<span>Obserwator ofert</span></div><nav class="links" aria-label="Pliki raportu"><a href="../__REPORT_DAY__.txt">Pobierz TXT</a><a href="oferty.csv">Otwórz CSV</a><a href="diagnostyka.txt">Diagnostyka</a><a href="https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md" target="_blank" rel="noopener">Historia dni</a></nav></div></header>
+<header><div class="bar"><div class="brand">Pracownie<span>Obserwator ofert</span></div><nav class="links" aria-label="Pliki raportu"><a href="../__REPORT_DAY__.txt">Pobierz TXT</a><a href="dziennik-zmian.csv">Tabela zmian CSV</a><a href="oferty.csv">Ceny CSV</a><a href="diagnostyka.txt">Diagnostyka</a><a href="https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md" target="_blank" rel="noopener">Historia dni</a></nav></div></header>
+<style>.journal-table{min-width:1100px;table-layout:fixed}.journal-table td{vertical-align:top;overflow-wrap:anywhere;white-space:normal}.journal-value{white-space:pre-wrap!important;font-size:13px}.journal-proof{margin:14px 0}.journal-proof summary{cursor:pointer;padding:10px 0}.journal-proof .proofs{margin:10px 0}.journal-table th:nth-child(4){width:22%}.journal-table th:nth-child(5),.journal-table th:nth-child(6){width:18%}</style>
 <main>
 <div class="intro"><div><p class="eyebrow">Codzienny monitoring pracowni</p><h1 id="title">__STATIC_TITLE__</h1><p>Co zmieniło się na stronie głównej i wybranej karcie projektu. Każda strona ma własne daty porównania, różnice tekstu i zrzuty przed / po.</p></div><div class="stamp" id="stamp">__STATIC_STAMP__</div></div>
+<div class="filters"><div class="filter-buttons" id="filters" role="group" aria-label="Filtr domen"></div><label class="search"><span class="small">Szukaj</span><input id="search" type="search" placeholder="Domena lub nazwa projektu" aria-label="Wyszukaj domenę lub projekt"></label></div>
+<div class="filters"><label>Rodzaj zmiany <select id="journal-category" aria-label="Rodzaj zmiany"><option value="all">Wszystkie zmiany</option><option value="sales">Ceny i promocje</option><option value="extras">Dodatki i pakiety</option><option value="obraz">Wygląd strony</option></select></label><label>Strona <select id="page-filter" aria-label="Rodzaj strony"><option value="all">Obie strony</option><option value="glowna">Strony główne</option><option value="projekt">Karty projektów</option></select></label></div>
+__STATIC_JOURNAL__
 __STATIC_ASSESSMENT__
 <div class="stats" id="stats">__STATIC_STATS__</div>
 __STATIC_COMPARISON__
@@ -22,8 +26,7 @@ __STATIC_COMPARISON__
 <div class="events" id="observations">__STATIC_OBSERVATIONS__</div><p class="empty" id="observations-empty" hidden>Brak dodatkowych ustaleń dla wybranego zakresu. Dostępność danych opisano przy każdej stronie.</p>
 <div class="section-head"><h2>Co zmieniło się w ofertach</h2><span class="small" id="events-count"></span></div>
 <div class="events" id="events">__STATIC_EVENTS__</div>
-<div class="section-head"><h2>Zmiany dzień do dnia · obie strony</h2><label class="small">Pokaż <select id="page-filter" aria-label="Rodzaj strony"><option value="all">Obie strony</option><option value="glowna">Strony główne</option><option value="projekt">Karty projektów</option></select></label></div>
-<div class="filters"><div class="filter-buttons" id="filters" role="group" aria-label="Filtr domen"></div><label class="search"><span class="small">Szukaj</span><input id="search" type="search" placeholder="Domena lub nazwa projektu" aria-label="Wyszukaj domenę lub projekt"></label></div>
+<div class="section-head"><h2>Szczegóły odczytów · obie strony</h2></div>
 <p class="small">Dla każdej pracowni zapisujemy osobno stronę główną i stałą kartę projektu. „Nie ustalono zmian” oznacza brak wiarygodnego wyniku, a nie brak zmian na stronie. Niejednoznaczne odczyty są problemem do naprawy po stronie monitora.</p>
 <div id="daily">__STATIC_DAILY__</div><noscript><p class="visual-note">Wyświetlono pełne porównanie bez JavaScript. Wyszukiwanie i filtry wymagają włączenia skryptów.</p></noscript>
 <div class="section-head"><h2>Pracownie i ceny projektów</h2><span class="small" id="rows-count" aria-live="polite"></span></div>
@@ -48,9 +51,9 @@ const label=r=>r.delta!==null && Number(r.delta)!==0?signed(r):r.status_label;
 $('title').textContent='Zmiany na stronach · '+new Intl.DateTimeFormat('pl-PL',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Warsaw'}).format(new Date(report.day+'T12:00:00Z'));
 $('stamp').textContent='Odczyt zakończony '+time(report.metadata.finished_at);
 $('finished').textContent='Godziny w strefie Europe/Warsaw';
-let filter='all',query='',pageFilter='all';
-const filterItems=[['all','Wszystkie',c.domains],['changed','Zmiany ofert',c.changed],['price','Zmiany cen',report.rows.filter(r=>r.delta!==null && Number(r.delta)!==0).length],['review','Do oceny',report.rows.filter(r=>r.status==='review'||r.status==='visual').length],['missing','Brak odczytu',c.missing]];
-function rows(){return report.rows.filter(r=>(!query || (r.domain+' '+r.name).toLocaleLowerCase('pl').includes(query)) && (filter==='all'||filter==='price'&&r.delta!==null&&Number(r.delta)!==0||filter==='review'&&['review','visual'].includes(r.status)||filter==='changed'&&r.events.length||filter==='missing'&&(!r.home_read||!r.project_read)));}
+let filter='all',query='',pageFilter='all',journalCategory='all';
+const filterItems=[['all','Wszystkie',c.domains],['changed','Zmiany ofert',c.changed],['price','Zmiany cen',report.rows.filter(r=>r.delta!==null && Number(r.delta)!==0).length],['visual','Zmiany wyglądu',report.rows.filter(r=>r.visuals.some(v=>!v.unreliable)).length],['review','Diagnostyka',report.rows.filter(r=>r.status==='review').length],['missing','Brak odczytu',c.missing]];
+function rows(){return report.rows.filter(r=>(!query || (r.domain+' '+r.name).toLocaleLowerCase('pl').includes(query)) && (filter==='all'||filter==='price'&&r.delta!==null&&Number(r.delta)!==0||filter==='visual'&&r.visuals.some(v=>!v.unreliable)||filter==='review'&&r.status==='review'||filter==='changed'&&r.events.length||filter==='missing'&&(!r.home_read||!r.project_read)));}
 function badge(row){return '<span class="badge '+esc(row.status)+'">'+esc(label(row))+'</span>';}
 function render(){
  if(!$('filters').children.length)$('filters').innerHTML=filterItems.map(([id,name,count])=>'<button data-filter="'+id+'">'+name+' '+count+'</button>').join('');
@@ -58,6 +61,7 @@ function render(){
  const selected=rows();$('rows-count').textContent=selected.length+' z '+c.domains+' domen';
  $('rows').innerHTML=selected.map(r=>'<tr><td><a class="name" href="'+esc(source(r.url))+'" target="_blank" rel="noopener">'+esc(r.domain)+'</a><span class="project-name" title="'+esc(r.name)+'">'+esc(r.name)+'</span></td><td class="price previous" title="'+esc(time(r.previous.observed_at))+'">'+esc(r.previous_text)+'</td><td class="price current">'+esc(r.current_text)+'</td><td>'+badge(r)+'</td><td class="read-flags"><span class="'+(r.home_read?'ok':'bad')+'">'+(r.home_read?'✓':'—')+' Strona główna</span><span class="'+(r.project_read?'ok':'bad')+'">'+(r.project_read?'✓':'—')+' Karta projektu</span></td><td><button class="detail-button" data-open="'+esc(r.domain)+'" aria-label="Szczegóły i dowody '+esc(r.domain)+'">Szczegóły</button></td></tr>').join('') || '<tr><td colspan="6">Brak domen spełniających filtr.</td></tr>';
  const visibleDomains=new Set(selected.map(r=>r.domain));for(const block of document.querySelectorAll('.day-domain'))block.hidden=!visibleDomains.has(block.dataset.domain);
+ for(const row of document.querySelectorAll('[data-journal-domain]')){const category=row.dataset.category;row.hidden=!visibleDomains.has(row.dataset.journalDomain)||(pageFilter!=='all'&&row.dataset.page!==pageFilter)||(journalCategory!=='all'&&!(journalCategory===category||journalCategory==='sales'&&['ceny','promocje'].includes(category)||journalCategory==='extras'&&['dodatki','pakiety'].includes(category)));}
  for(const tr of document.querySelectorAll('[data-price-domain]'))tr.hidden=!visibleDomains.has(tr.dataset.priceDomain);
  for(const block of document.querySelectorAll('.daily-page'))block.hidden=pageFilter!=='all'&&block.dataset.page!==pageFilter;
  const events=selected.flatMap(r=>r.events.map((e,i)=>[r,e,i])).filter(([,e])=>pageFilter==='all'||e.page===pageFilter);$('events-count').textContent=events.length+' potwierdzonych zmian';
@@ -89,6 +93,7 @@ function openDetails(domain,eventIndex,kind){
 document.addEventListener('click',e=>{const f=e.target.closest('[data-filter]');if(f){filter=f.dataset.filter;render();return;}const open=e.target.closest('[data-open]');if(open)openDetails(open.dataset.open,open.dataset.event,open.dataset.kind);});
 $('search').addEventListener('input',e=>{query=e.target.value.toLocaleLowerCase('pl').trim();render();});$('close').addEventListener('click',()=>$('details').close());$('details').addEventListener('click',e=>{if(e.target===$('details'))$('details').close();});
 $('page-filter').addEventListener('change',e=>{pageFilter=e.target.value;render();});
+$('journal-category').addEventListener('change',e=>{journalCategory=e.target.value;render();});
 render();
 } catch(error) { console.error('Raport: wyświetlono wersję statyczną.',error); }
 </script>

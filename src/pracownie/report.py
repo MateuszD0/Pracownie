@@ -10,6 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 from .extract import is_listing_title
+from .journal import render_journal_csv
 from .model import WARSAW, Change, Result, Site, digest, json_bytes, safe_path
 from .presentation import build_view, render_csv, render_html, render_markdown, render_text
 from .state import atomic_write
@@ -138,6 +139,7 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     atomic_write(directory / "index.html", render_html(view).encode())
     atomic_write(directory / "oferty.json", json_bytes(view))
     atomic_write(directory / "oferty.csv", render_csv(view).encode())
+    atomic_write(directory / "dziennik-zmian.csv", render_journal_csv(view).encode())
     atomic_write(directory / "podsumowanie.md", render_markdown(view).encode())
     atomic_write(directory / "diagnostyka.txt", render_diagnostics(day, results, metadata, selections, domains).encode())
     files = [report, *sorted(p for p in directory.rglob("*") if p.is_file() and p != directory / "manifest.json")]

@@ -22,9 +22,11 @@ from .extract import (
     page_identity,
     validate_payload,
 )
-from .model import Field, Scenario, Site, Snapshot, now_iso
+from .model import Field, Scenario, Site, Snapshot, now_iso, slug
+from .observations import CONTRACT
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
+VISUALS = files("pracownie").joinpath("visuals.js").read_text()
 COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:(?:zaakceptuj|akceptuj|zezwól na) )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
@@ -444,6 +446,8 @@ class BrowserScanner:
                 warnings.append("Wykryto niezaładowane obrazy; porównanie wizualne może być niepełne.")
             timestamp = now_iso()
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
+            visual_document = await page.evaluate(VISUALS)
+            visual_document["anchors"] = {slug(k): v for k, v in visual_document["anchors"].items()}
             for rule in site.field_selectors:
                 if is_cart and not rule.get("include_cart", False):
                     continue
@@ -476,11 +480,18 @@ class BrowserScanner:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: zrzut ekranu"
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
+            adapter = hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
+            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
+            document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document}
+            if len(json.dumps(document).encode()) > 2_000_000:
+                document = {"visual": visual_document}
+                warnings.append("Dane źródłowe przekroczyły limit archiwum; zachowano pola i obraz bez możliwości ponownego przeliczenia tego odczytu.")
             snapshot = Snapshot(
                 domain=site.domain, page=page_kind, scenario=scenario.id, url=canonical_url(page.url),
                 observed_at=timestamp, title=payload.get("h1") or payload["title"], fields=fields,
-                sections=sections, image="", renderer=self.renderer + "|extractor=" + self.extractor + "-" + hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12], warnings=warnings,
+                sections=sections, image="", renderer=self.renderer + "|extractor=" + self.extractor + "-" + adapter, warnings=warnings,
                 quality="partial" if not data_ready else "ok" if fields else "visual",
+                contract=CONTRACT + ":" + adapter, document=document,
             )
             return Capture(snapshot, payload, destination, payload.get("controls", []))
         finally:

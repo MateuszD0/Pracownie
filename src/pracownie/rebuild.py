@@ -11,12 +11,48 @@ from pathlib import Path
 
 from .compare import compare
 from .github import GitHubStore
-from .images import image_difference
-from .model import Change, Result, Site, Snapshot, json_bytes, load_sites, local_day, now_iso, slug
+from .images import image_difference, visual_evidence, visual_text
+from .model import Change, Result, Site, Snapshot, json_bytes, load_sites, local_day, now_iso, safe_path, slug
+from .observations import visual_description
 from .offers import primary_offer
 from .pipeline import preserve_same_day_reads
 from .report import bundle_report, restore_report, verify_outputs, write_outputs
 from .state import StateStore
+
+
+def enrich_visual_results(results: list[Result], output: Path, store: StateStore | None = None) -> None:
+    """Describe actual archived image differences, without inventing site changes."""
+    state = store.read() if store else {}
+    for result in results:
+        visuals = [c for c in result.changes if c.category == "obraz"]
+        if not visuals or result.scenario != "podstawowy" or not all(result.evidence.get(k) for k in ["przed", "po"]):
+            continue
+        before = safe_path(output, result.evidence["przed"])
+        after = safe_path(output, result.evidence["po"])
+        difference = image_difference(before, after, after.parent / "roznice.png")
+        if not difference.changed:
+            continue
+        crops = visual_evidence(before, after, after.parent, difference)
+        result.evidence.update({k: p.relative_to(output).as_posix() for k, p in crops.items()})
+        old = Snapshot(result.domain, result.page, result.scenario, result.url, result.compared_at or "", "", {}, [], "", "")
+        new = Snapshot(result.domain, result.page, result.scenario, result.url, result.observed_at or "", "", {}, [], "", "")
+        for name, candidate, at in [("anchor",old,result.compared_at),("snapshots",new,result.observed_at)]:
+            raw = state.get(name,{}).get(f"{result.domain}/{result.page}/{result.scenario}")
+            if raw and raw.get("observed_at") == at:
+                candidate.quality = raw.get("quality","unknown")
+                candidate.warnings = raw.get("warnings",[])
+                candidate.document = raw.get("document",{})
+        details = next((c.details for c in visuals if c.details.get("facts")), None) or visual_description(old, new, difference)
+        ocr = {} if details.get("facts") else visual_text(crops)
+        if ocr:
+            details["ocr"] = ocr
+            details["description"] = "Zmieniła się zawartość obrazu: " + details.get("area", "zaznaczony obszar")
+        for change in visuals:
+            change.kind = "visual"
+            change.label = details["description"]
+            change.details = details
+            change.evidence = dict(result.evidence)
+            change.note = details["basis"]
 
 
 def recover_from_snapshots(results: list[Result], store: StateStore, output: Path, day: str, sites: list[Site]) -> list[dict]:
@@ -94,6 +130,7 @@ def main():
             metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()
             metadata["run_id"] = now_iso().replace(":", "").replace("+", "-") + "-format-" + uuid.uuid4().hex[:8]
+            enrich_visual_results(results, output, store)
             results.sort(key=lambda r: (r.domain, r.page, r.scenario))
             write_outputs(output, day, results, metadata, selections, domains)
             verify_outputs(output, day)

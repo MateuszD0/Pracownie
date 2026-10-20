@@ -122,7 +122,7 @@ async def test_visual_monitoring_without_recognized_sales_text(sample_site, exec
     sample_site.background = "#ccddff"
     outcome = await run_scan([site], store, output, options(executable, "2026-10-19"))
     changes = [change for result in outcome["results"] for change in result.changes]
-    assert changes and all(change.kind == "review" for change in changes)
+    assert changes and all(change.kind == "visual" for change in changes)
     assert all(change.evidence.get("przed") and change.evidence.get("po") for change in changes)
 
 
@@ -232,5 +232,5 @@ def test_registry_and_workflow_contract():
     assert events["schedule"][0] == {"cron": "17 6 * * *", "timezone": "Europe/Warsaw"}
     assert workflow["permissions"] == {"contents": "write", "pages": "read"}
     assert workflow["jobs"]["pages"]["permissions"] == {"contents": "read", "pages": "write", "id-token": "write"}
-    assert not workflow["concurrency"]["cancel-in-progress"]
+    assert not workflow["jobs"]["scan"]["concurrency"]["cancel-in-progress"]
     assert json.loads((root / "config/sites.json").read_text())["schema"] == 1

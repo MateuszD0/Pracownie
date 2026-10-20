@@ -15,6 +15,7 @@ from importlib.resources import files
 from urllib.parse import urlsplit
 
 from .extract import MONEY, amount, money_text, normalize
+from .journal import build_journal, render_journal_html
 from .model import WARSAW, Result
 from .offers import price_delta
 
@@ -165,6 +166,7 @@ def _event(change, result: Result) -> dict:
         "delta": change.delta,
         "percent": change.percent,
         "review": change.kind == "review",
+        "kind": change.kind,
         "source": change.url,
         "before_at": change.before_at,
         "after_at": change.after_at,
@@ -302,6 +304,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                                 "source": result.url,
                                 "before_at": change.before_at or result.compared_at,
                                 "after_at": change.after_at or result.observed_at,
+                                "details": change.details,
+                                "unreliable": change.details.get("unreliable",False) or result.data_quality not in {"ok", "visual"} or any(re.search(r"niezaładowane|widoczny panel cookies", warning, re.I) for warning in result.warnings) or bool(re.search(r"cookies|ciastecz|prywatno|consent",str(change.details.get("ocr",{})),re.I)),
                             }
                         )
                     continue
@@ -384,11 +388,13 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         else:
             row["status"], row["status_label"] = "unchanged", "Bez zmian w odczytanym zakresie"
         rows.append(row)
+    journal = build_journal(day, rows)
     return {
         "day": day,
         "metadata": metadata,
         "rows": rows,
         "comparison": scan_comparison(day, rows),
+        "journal": journal,
         "counts": {
             "domains": len(rows),
             "home": sum(r["home_read"] for r in rows),
@@ -401,6 +407,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "visual": sum(bool(r["visuals"]) for r in rows),
             "missing": sum(not r["home_read"] or not r["project_read"] for r in rows),
             "daily_pages": sum(p["daily"] and bool(p["observed_at"]) for r in rows for p in r["pages"]),
+            "journal": len(journal),
+            "visual_changes": sum(e["category"] == "obraz" for e in journal),
         },
         "categories": dict(Counter(e["category"] for r in rows for e in r["events"])),
     }
@@ -433,6 +441,11 @@ def render_text(view: dict) -> str:
         "NAJWAŻNIEJSZE ZMIANY",
         "",
     ]
+    journal = view.get("journal", [])
+    table = ["DZIENNA TABELA ZMIAN", "Dzień | Pracownia | Strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło"]
+    for item in journal:
+        table.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["day", "domain", "page", "type", "description", "before", "after", "source"]))
+    lines[1:1] = table + [""]
     events = [(r, e) for r in view["rows"] for e in r["events"]]
     if not events:
         lines.append("Brak potwierdzonych zmian sprzedażowych w poprawnie porównanym zakresie.")
@@ -588,6 +601,14 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     lines = [
         f"## Oferty pracowni · {view['day']}",
         "",
+        "### Dzienna tabela zmian",
+        "",
+        "Zmiany ofert oraz zmiany wyglądu mają osobne oznaczenia. Zmiana zrzutu nie potwierdza nowej ceny ani promocji. Błędy odczytu pozostają w diagnostyce.",
+        "",
+        "| Pracownia / strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło / dowód |",
+        "| --- | --- | --- | --- | --- | --- |",
+        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt'), esc(item['type']), esc(item['description']) + (f" · luka {item['gap_days']} dni" if not item['daily'] else ''), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in view.get('journal', [])],
+        "",
         f"### {assessment(view)['title']}",
         "",
         "\n\n".join(assessment(view)["lines"]),
@@ -688,6 +709,7 @@ def render_html(view: dict) -> str:
         "__STATIC_OBSERVATIONS__": render_observations_html(view),
         "__STATIC_STATS__": render_stats_html(view),
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
+        "__STATIC_JOURNAL__": render_journal_html(view),
         "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Nie ustalono potwierdzonych zmian sprzedażowych. Niepełny zakres porównania jest opisany w wyniku powyżej.</p>',
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
         "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
@@ -698,7 +720,7 @@ def render_html(view: dict) -> str:
 
 def render_stats_html(view: dict) -> str:
     result = assessment(view)
-    stats = [("Potwierdzone zmiany ofert", view["counts"]["events"], "ustalenia w sprawdzonym zakresie"), ("Wiarygodne porównania cen", result["prices"], "pracowni z porównywalną ceną z obu dni"), ("Cena bez zmian", result["unchanged"], "pracowni w porównanym zakresie"), ("Nie ustalono zmiany ceny", result["uncompared"], "pracowni bez wiarygodnego porównania")]
+    stats = [("Potwierdzone zmiany ofert", view["counts"]["events"], "ceny, promocje, dodatki i treść"), ("Zmiany wyglądu", view["counts"].get("visual_changes",0), "osobne wpisy z porównaniem obrazów"), ("Cena bez zmian", result["unchanged"], "pracowni w porównanym zakresie"), ("Brak porównania ceny", result["uncompared"], "pracowni bez wiarygodnego porównania")]
     return ''.join('<div class="stat"><span>' + html.escape(name) + '</span><strong>' + str(value) + '</strong><span>' + html.escape(note) + '</span></div>' for name, value, note in stats)
 
 

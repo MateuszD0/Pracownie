@@ -18,6 +18,68 @@ class VisualDiff:
     bbox: tuple | None
 
 
+def visual_evidence(before: Path, after: Path, directory: Path, difference: VisualDiff) -> dict[str, Path]:
+    """Crop the measured changed area, keeping the actual captures unchanged."""
+    if not difference.bbox:
+        return {}
+    x0, y0, x1, y1 = difference.bbox
+    # A tall layout change needs a readable first changed region, not a tiny
+    # thumbnail of the entire document. Full screenshots remain available.
+    y0 = max(0, y0 - 32)
+    y1 = min(y1 + 32, y0 + 1000)
+    paths = {}
+    crops = []
+    with Image.open(before) as first, Image.open(after) as second:
+        comparison_width = min(800, max(first.width, second.width))
+    for label, source in [("fragment_przed", before), ("fragment_po", after)]:
+        with Image.open(source) as original:
+            scale = original.width / comparison_width
+            box = (max(0, int((x0 - 24) * scale)), int(y0 * scale), min(original.width, int((x1 + 24) * scale)), min(original.height, int(y1 * scale)))
+            if box[3] <= box[1]:
+                # A removed lower section has no corresponding current area.
+                crop = Image.new("RGB", (max(1, box[2] - box[0]), 100), "white")
+            else:
+                crop = original.convert("RGB").crop(box)
+            crop.thumbnail((800, 1000))
+            path = directory / (label + ".png")
+            crop.save(path)
+            paths[label] = path
+            crops.append(crop)
+    canvas = Image.new("RGB", (sum(c.width for c in crops) + 12, max(c.height for c in crops) + 28), "#eeeeee")
+    offset = 0
+    draw = ImageDraw.Draw(canvas)
+    for label, crop in zip(["PRZED", "PO"], crops, strict=True):
+        draw.text((offset + 6, 6), label, fill="black")
+        canvas.paste(crop, (offset, 28))
+        draw.rectangle((offset, 28, offset + crop.width - 1, 27 + crop.height), outline="red", width=3)
+        offset += crop.width + 12
+    proof = directory / "zmieniony-obszar.png"
+    canvas.save(proof)
+    paths["zmieniony_obszar"] = proof
+    return paths
+
+
+def visual_text(paths: dict[str, Path]) -> dict:
+    """Optional bounded OCR context; never creates a price/promotion signal."""
+    language = ocr_language()
+    if not language:
+        return {}
+    texts = []
+    for key in ("fragment_przed", "fragment_po"):
+        try:
+            result = subprocess.run(["tesseract", str(paths[key]), "stdout", "-l", language, "tsv"], capture_output=True, text=True, timeout=3)
+            rows = [r for r in csv.DictReader(io.StringIO(result.stdout), delimiter="\t") if r.get("text", "").strip()]
+            confidence = sum(float(r["conf"]) for r in rows) / max(1, len(rows))
+            if result.returncode or len(rows) < 3 or confidence < 85:
+                return {}
+            texts.append(" ".join(r["text"] for r in rows)[:500])
+        except (OSError, subprocess.TimeoutExpired, KeyError, ValueError):
+            return {}
+    if texts[0] == texts[1]:
+        return {}
+    return {"before": texts[0], "after": texts[1], "basis": "Pomocniczy odczyt tekstu z obrazu (OCR); miarodajnym dowodem jest załączony fragment zrzutu."}
+
+
 def image_difference(before: Path, after: Path, output: Path, threshold: float = 0.008) -> VisualDiff:
     with Image.open(before) as first, Image.open(after) as second:
         first, second = first.convert("RGB"), second.convert("RGB")

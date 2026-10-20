@@ -42,3 +42,16 @@ def test_automatic_report_rebuild_requires_successful_main_push_tests():
     assert "conclusion == 'success'" in gate
     assert "event == 'push'" in gate
     assert "head_repository.full_name == github.repository" in gate
+
+
+def test_opt_in_baseline_scan_is_test_gated_and_pages_cannot_lock_report_writers():
+    monitor = workflow("monitor.yml")
+    gate = monitor["jobs"]["scan"]["if"]
+    assert "conclusion == 'success'" in gate and "event == 'push'" in gate
+    assert "head_repository.full_name == github.repository" in gate
+    assert "contains(github.event.workflow_run.head_commit.message, '[scan]')" in gate
+    for name, job in [("monitor.yml", "scan"), ("rebuild-report.yml", "rebuild")]:
+        config = workflow(name)
+        assert "concurrency" not in config
+        assert config["jobs"][job]["concurrency"]["group"] == "pracownie-monitor"
+        assert config["jobs"]["pages"]["concurrency"]["group"] == "pracownie-pages"

@@ -296,7 +296,12 @@ class BrowserScanner:
             settings = wp_dialog.get_by_text("Ustawienia zaawansowane", exact=True)
             if await settings.count():
                 await settings.first.click(timeout=2500)
-                await page.wait_for_timeout(250)
+                # The settings can be rendered asynchronously. A fixed pause
+                # can leave an empty panel and silently skip refusal.
+                ready = page.get_by_role("button", name=COOKIE_NAMES).or_(
+                    page.get_by_role("dialog").get_by_role("button", name=re.compile("^Zapisz$", re.I))
+                )
+                await ready.first.wait_for(state="visible", timeout=3500)
                 refusal = page.get_by_role("button", name=COOKIE_NAMES)
                 for index in range(min(await refusal.count(), 3)):
                     if await refusal.nth(index).is_visible():
@@ -304,9 +309,10 @@ class BrowserScanner:
                         return
                 advanced = page.get_by_role("dialog").filter(has_text=re.compile("Ustawienia Zaawansowane", re.I)).first
                 if await advanced.count():
+                    await advanced.locator('input[type=checkbox],[role=switch]').nth(1).wait_for(state="attached", timeout=2500)
                     # This CMP has no reject-all button. Set the actual controls
                     # to refusal, including objection to legitimate interests.
-                    state = await advanced.evaluate("""dialog => {
+                    await advanced.evaluate("""dialog => {
                       const controls=[...dialog.querySelectorAll('input[type=checkbox],[role=switch]')];
                       const label=e => e.labels?.[0]?.innerText || e.closest('label')?.innerText || e.getAttribute('aria-label') || '';
                       const target=e => /sprzeciw/i.test(label(e));
@@ -315,19 +321,20 @@ class BrowserScanner:
                         if (/niezbęd|koniecz|necessary|essential/i.test(label(e))) continue;
                         if (checked(e)!==target(e)) e.click();
                       }
-                      return controls.length;
                     }""")
-                    await page.wait_for_timeout(150)
-                    confirmed = await advanced.evaluate("""dialog => [...dialog.querySelectorAll('input[type=checkbox],[role=switch]')].every(e => {
+                    await page.wait_for_function("""dialog => {
+                      const controls = [...dialog.querySelectorAll('input[type=checkbox],[role=switch]')];
+                      return controls.length > 1 && controls.every(e => {
                       const label=e.labels?.[0]?.innerText || e.closest('label')?.innerText || e.getAttribute('aria-label') || '';
                       if (/niezbęd|koniecz|necessary|essential/i.test(label)) return true;
                       const checked=e.matches('input') ? e.checked : e.getAttribute('aria-checked') === 'true';
                       return checked === /sprzeciw/i.test(label);
-                    })""")
+                      });
+                    }""", arg=await advanced.element_handle(), timeout=2500)
                     save = advanced.get_by_role("button", name=re.compile("^Zapisz$", re.I))
-                    if state > 1 and confirmed and await save.count():
+                    if await save.count():
                         await save.click(timeout=2500)
-                        await page.wait_for_timeout(250)
+                        await advanced.wait_for(state="hidden", timeout=2500)
 
     async def disable_motion(self, page: Page, warnings: list[str]):
         try:

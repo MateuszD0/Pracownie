@@ -10,7 +10,7 @@ import pytest
 
 @pytest.fixture
 def sample_site():
-    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, duplicate_cart=False, no_sales=False, background="white", requests=0)
+    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, wp_settings_delay=0, duplicate_cart=False, no_sales=False, background="white", requests=0)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
@@ -61,6 +61,17 @@ def sample_site():
                 <label><input type="checkbox" id="objection-wp">Wyrażam sprzeciw dla przetwarzania danych</label>
                 <button onclick="if(document.getElementById('advertising-wp').checked || !document.getElementById('objection-wp').checked)fetch('/submitted');else document.getElementById('wp-dialog').remove()">Zapisz</button></div>
                 <button onclick="fetch('/submitted')">Akceptuję i przechodzę do serwisu</button></div>'''
+                if state.wp_settings_delay:
+                    body += f'''<script>
+                    const settingsWP = document.getElementById('settings-wp');
+                    const delayedSettings = settingsWP.innerHTML;
+                    settingsWP.innerHTML = '';
+                    document.querySelector('#wp-dialog a').onclick = function () {{
+                      setTimeout(() => {{ settingsWP.innerHTML = delayedSettings; settingsWP.hidden = false; }}, {state.wp_settings_delay});
+                      this.remove();
+                      return false;
+                    }};
+                    </script>'''
             if state.duplicate_cart:
                 body += '<div><a id="cart" class="btn" href="/cart">Dodaj do koszyka</a></div>'
             if state.no_sales:

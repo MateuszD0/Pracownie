@@ -86,11 +86,13 @@ async def test_cookie_refusal_is_applied_and_excluded(sample_site, executable, t
 
 
 @pytest.mark.browser
-async def test_wp_cookie_settings_lead_to_refusal(sample_site, executable, tmp_path):
+@pytest.mark.parametrize("settings_delay", [0, 650])
+async def test_wp_cookie_settings_lead_to_refusal(sample_site, executable, tmp_path, settings_delay):
     sample_site.wp_cookies = True
+    sample_site.wp_settings_delay = settings_delay
     async with BrowserScanner(executable, settle_ms=10) as scanner:
         captured = await scanner.capture(site_config(sample_site), "glowna", sample_site.url, Scenario("podstawowy", "Start"), tmp_path / "cookie.png")
-    assert not any("cookies" in warning for warning in captured.snapshot.warnings)
+    assert not any("cookies" in warning for warning in captured.snapshot.warnings), captured.snapshot.warnings
     assert not sample_site.submitted
 
 
@@ -128,8 +130,11 @@ async def test_visual_monitoring_without_recognized_sales_text(sample_site, exec
 async def test_resume_uses_valid_same_day_reads_without_requests(sample_site, executable, tmp_path):
     site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
     settings = options(executable, "2026-10-19")
+    # Exercise reuse of both pages and interactions within a small scan.
+    settings.max_scenarios = 2
     first = await run_scan([site], store, output, settings)
     assert not [r.error for r in first["results"] if r.error]
+    assert any(r.scenario != "podstawowy" and r.observed_at for r in first["results"])
     requests = sample_site.requests
     sample_site.unavailable = True
     settings.resume = True
@@ -225,6 +230,7 @@ def test_registry_and_workflow_contract():
     # PyYAML's YAML 1.1 recognizes the key 'on' as boolean true.
     events = workflow.get("on", workflow.get(True))
     assert events["schedule"][0] == {"cron": "17 6 * * *", "timezone": "Europe/Warsaw"}
-    assert workflow["permissions"] == {"contents": "write", "pages": "write", "id-token": "write"}
+    assert workflow["permissions"] == {"contents": "write", "pages": "read"}
+    assert workflow["jobs"]["pages"]["permissions"] == {"contents": "read", "pages": "write", "id-token": "write"}
     assert not workflow["concurrency"]["cancel-in-progress"]
     assert json.loads((root / "config/sites.json").read_text())["schema"] == 1

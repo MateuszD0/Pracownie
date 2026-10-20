@@ -2,6 +2,8 @@
 
 Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pracowni. Raport pokazuje konkretne zmiany sprzedażowe i tabelę cen: poprzedni odczyt → dzisiaj. Osobno oznacza zmiany obrazu, obserwacje do potwierdzenia i brakujące dane.
 
+Wspólne repozytorium kodu i automatyzacji to [MateuszD0/Pracownie](https://github.com/MateuszD0/Pracownie), gałąź `main`. Środowisko chmurowe Codex korzysta z checkoutu `/workspace/Pracownie`. Raporty oraz trwały stan są przechowywane w Releases tego samego repozytorium; lokalne katalogi robocze nie są osobnym wdrożeniem.
+
 Pełne wymagania: [plan wdrożenia](PLAN_WDROZENIA_MONITORINGU.md). Faktyczna dostępność domen: [inspekcja HTTP](docs/INSPEKCJA_DOMEN.md). Status walidacji: [wdrożenie](docs/WDROZENIE.md).
 
 [Spis raportów dziennych](RAPORTY.md) · [Wybrane karty i źródła wyboru](docs/KARTY_PROJEKTOW.md).
@@ -27,6 +29,8 @@ Pole `repair_domains` pozwala naprawić wskazane domeny bez ponownego skanowania
 
 Workflow „Odśwież układ raportu bez skanowania” przebudowuje ostatni zatwierdzony raport z zachowanych danych i obrazów. Pozwala zmienić format oraz odzyskać poprawny odczyt z tego samego dnia po nieudanym ponowieniu. Zachowuje daty obserwacji i błędy; nie odwiedza ponownie witryn.
 
+Po wysłaniu kodu na `main` i udanych testach GitHub automatycznie uruchamia tę przebudowę. Aktualizuje pliki raportu w Releases oraz spis dni. Zmiana kodu nie jest nowym skanem: daty danych nadal odpowiadają rzeczywistym wizytom na stronach. Testy z pull requestów nie uruchamiają publikacji.
+
 Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Releases. Nie dodawaj osobistego tokenu do kodu. Workflow nie zmienia widoczności repozytorium. W publicznym repozytorium opublikowane raporty również są publiczne.
 
 Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumowanie i tabelę cen bez pobierania archiwum. Dostępne są krótki TXT, CSV do arkusza, osobna diagnostyka i ZIP ze zrzutami.
@@ -38,6 +42,8 @@ Pierwszy ekran pokazuje daty połączonych skanów, liczbę stron odczytanych w 
 Widok zawiera lżejsze zrzuty JPEG. Pełne archiwum zachowuje oryginalne PNG, obrazy różnic i dane: `raporty/YYYY-MM-DD/index.html`, `oferty.csv`, `oferty.json`, `podsumowanie.md`, `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Plik `_report_template.html` w kodzie jest wyłącznie szablonem; otwieraj wygenerowany `index.html`.
 
 Opcjonalny stały adres WWW wymaga jednorazowego ustawienia **Settings → Pages → Build and deployment → Source: GitHub Actions** przez właściciela repozytorium. Po włączeniu kolejne pełne skany i przebudowy raportu automatycznie publikują najnowszy dzień w Pages. Historia 180 dni pozostaje w Releases; Pages przechowuje bieżący widok. Wyłączone Pages nie blokuje skanów ani publikacji HTML w wydaniach.
+
+Publikacja Pages jest osobnym zadaniem po zapisaniu raportu. Ewentualne zatwierdzenie środowiska `github-pages` lub awaria publikacji strony nie wstrzymuje skanu ani zapisu wyników w Releases.
 
 Cena projektu jest wybierana z konkretnego pola zakupu lub danych produktu. Cena regularna, najniższa z 30 dni, dodatki i koszt budowy nie są ceną aktualną. Kwoty netto i ceny za lokal mają odpowiednie oznaczenia; zakresy wariantów nie są przedstawiane jako pojedyncza cena. Różnica kwot wymaga tego samego źródła pola, waluty, podatku i jednostki. Zmiana parsera ustanawia nowy odczyt dla zmienionych pól i nie jest sama w sobie zmianą oferty.
 

@@ -1,13 +1,14 @@
-**Stan wdrożenia: 19 października 2026**
+**Stan wdrożenia: 20 października 2026**
 
-Repozytorium jest publiczne. Produkcyjną automatyzację uruchamia GitHub Actions na standardowym runnerze Ubuntu. Nie potrzeba osobistego tokenu ani płatnego API. Raporty są publiczne, tak jak repozytorium.
+Jedynym repozytorium kodu, workflow i opublikowanych raportów jest publiczne [MateuszD0/Pracownie](https://github.com/MateuszD0/Pracownie), gałąź `main`. Checkout środowiska Codex to `/workspace/Pracownie`. Produkcyjną automatyzację uruchamia GitHub Actions na standardowym runnerze Ubuntu. Nie potrzeba osobistego tokenu ani płatnego API. Raporty są publiczne, tak jak repozytorium.
 
-[Spis raportów](../RAPORTY.md) · [Produkcja: raport dnia](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-19) · [Uruchomienia](https://github.com/MateuszD0/Pracownie/actions/workflows/monitor.yml)
+[Spis raportów](../RAPORTY.md) · [Produkcja: raport dnia](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-20) · [Uruchomienia](https://github.com/MateuszD0/Pracownie/actions/workflows/monitor.yml)
 
 **Potwierdzone uruchomienia**
 
 | Przebieg | Wynik i pomiar |
 | --- | --- |
+| [Skan harmonogramu z 20 października](https://github.com/MateuszD0/Pracownie/actions/runs/39400837148) | Publikacja zakończona sukcesem. Raport: 61/65 stron głównych, 60/65 kart, 58 cen. Połączono 103 strony z odczytem 19–20 października, w tym 100 par zrzutów. Siedem porównywalnych par cen bez zmiany. 125 obserwacji wymaga oceny; nie są potwierdzonymi zmianami sprzedażowymi. |
 | [Pełny, pierwszy skan 65 domen](https://github.com/MateuszD0/Pracownie/actions/runs/39311240448) | Publikacja TXT, ZIP i trwałego stanu zakończona. Skan: 1491,9 s; ZIP: 247,6 MB; stan: 104,3 MB. 55 domen odczytanych częściowo, 10 bez udanego odczytu. |
 | [Ponowny pilotaż na świeżym runnerze](https://github.com/MateuszD0/Pracownie/actions/runs/39313438127) | Poprzedni stan i wybór projektów odtworzone z Releases. Pięć domen odczytanych częściowo, w tym karta Extradom. Skan: 133,6 s; ZIP: 14,2 MB. |
 | [Pełna walidacja po korektach](https://github.com/MateuszD0/Pracownie/actions/runs/39321629811) | Zakończona publikacją. Wszystkie 65 domen podjęte, bez pominięć z powodu budżetu. Skan: 1581,8 s (26 min 22 s); ZIP: 275,8 MB; stan: 200,4 MB. 57 domen częściowo odczytanych, 8 bez udanego odczytu. |
@@ -23,23 +24,27 @@ Standardowy runner publicznego repozytorium nie zużywa limitu 2000 minut dla pr
 
 **Co zostało sprawdzone**
 
-[46 testów na GitHub Actions](https://github.com/MateuszD0/Pracownie/actions/runs/39326381727) i lint zakończone sukcesem dla wersji 1c9085c, obejmującej końcową poprawkę cookies, rozróżnienie zgód na zmiany w projekcie od prywatności oraz większy zapas czasu skanowania.
+[Pełne testy na GitHub Actions dla działającego raportu HTML](https://github.com/MateuszD0/Pracownie/actions/runs/39398206531) i lint zakończone sukcesem dla wersji 677adda. Po kolejnych poprawkach bieżący wynik jest dostępny w [workflow Testy](https://github.com/MateuszD0/Pracownie/actions/workflows/tests.yml).
 
 - Rzeczywisty Chromium na kontrolowanych stronach: obniżka ceny 4590 → 4290 PLN, dodatki, rozwijane sekcje, zakładki, warianty, koszyk, cookies, ukryte kontrolki i powtarzające się identyfikatory DOM.
 - Zachowanie poprawnego stanu po awarii HTTP, stały wybór karty, korekta początkowej kategorii bez fałszywej różnicy, powtórzenie dnia i wznowienie bez zbędnych odczytów.
 - Bezpieczny zapis lokalny, sumy kontrolne archiwów, odtworzenie na nowym runnerze, transakcja publikacji, retencja 180 dni i ochrona plików użytkownika.
 - Lokalna zmiana banera na długiej stronie, wizualny punkt odniesienia bez rozpoznanego tekstu i niepewny OCR oznaczany do oceny.
+- Porównania strony głównej i karty z oddzielnymi datami, zachowanie różnic po ponowieniu dnia, rzeczywiste przerwy w historii oraz raport działający bez JavaScript. Plik HTML z Releases zawiera teksty przed/po i wbudowane podglądy; pełne zrzuty są w ZIP.
+- Opóźnione ładowanie ustawień cookies: skaner czeka na kontrolki, potwierdza odmowę i zamknięcie panelu. Publikacja plików raportu jest niezależna od zatwierdzenia opcjonalnego środowiska Pages.
 
 Przykład liczbowej obniżki pochodzi z kontrolowanego testu. Nie jest informacją o zmianie ceny którejkolwiek rzeczywistej pracowni.
 
 **Granice potwierdzonego zakresu**
 
-Pierwszy dzień tworzy punkt odniesienia. Nie ma historycznych zrzutów sprzed uruchomienia. Rzeczywiste porównania dzień do dnia będą dostępne po kolejnych codziennych odczytach. Obserwacja stabilności przez 2–3 dni pozostaje do wykonania; testy powtórzeń w jednym dniu jej nie zastępują.
+Raport zawiera rzeczywiste odczyty 19 i 20 października. Pierwszy poprawny odczyt każdej strony nadal tworzy jej punkt odniesienia; nie ma zrzutów sprzed uruchomienia. Zmiany parsera ograniczyły porównywalność części pól między tymi dniami, więc takie obserwacje są oznaczone do oceny. Nie potwierdzono zmian sprzedażowych w porównywalnym zakresie. Potrzebne są kolejne dni pracy bez zmiany reguł odczytu, aby ocenić stabilność alarmów i terminowość; testy syntetyczne jej nie zastępują.
 
-Automatyczne scenariusze mają limit czasu i liczby interakcji. Zależności konfiguratorów, wszystkie kombinacje wariantów, dalsze kroki koszyka oraz niestandardowe kontrolki wymagają adapterów. Każda domena ma nadal inspection:pending, dopóki nie zostanie potwierdzony jej pełny zakres. Sam HTTP 200 ani znalezienie karty nie oznaczają pełnego sprawdzenia. Bez udanego odczytu pozostały: archdesign.pl, archido.pl, domdlaciebie.com.pl, dompp.pl, domydlanas.pl, lk-projekt.pl, mtmstyl.com.pl i nowoczesne-projektydomow.pl. Błędy obejmują 403, niepoprawny certyfikat nazwy hosta, pusty dokument i timeout. Archdom wymaga ustalenia poprawnej karty, a karta HB Studio zwróciła HTTP 429. Pozostałe panele cookies, brakujące zasoby i nieodtworzone scenariusze są wykazane w raporcie.
+Automatyczne scenariusze mają limit czasu i liczby interakcji. Zależności konfiguratorów, wszystkie kombinacje wariantów, dalsze kroki koszyka oraz niestandardowe kontrolki wymagają adapterów. Każda domena ma nadal inspection:pending, dopóki nie zostanie potwierdzony jej pełny zakres. Sam HTTP 200 ani znalezienie karty nie oznaczają pełnego sprawdzenia. W raporcie z 20 października brakuje podstawowych odczytów pięciu domen: archido.pl, domydlanas.pl i lk-projekt.pl (403), dompp.pl (timeout) oraz karty hbstudio.pl (429). Pozostałe panele cookies, brakujące zasoby i nieodtworzone scenariusze są wykazane oddzielnie w diagnostyce.
 
 Lokalne Chromium tego środowiska nie ufa certyfikatowi proxy przy dostępie do rzeczywistych stron. Produkcyjne skany wykonuje GitHub Actions, gdzie ten problem nie występuje. TLS pozostaje włączony. Projekt konfiguracji środowiska Codex zawiera instalację zależności, instrukcję startową i listę hostów; zapis projektu ustawień nie oznacza jego opublikowania w interfejsie środowiska.
 
 **Utrzymanie**
 
 Najpierw czytaj podsumowanie TXT i pokrycie.json, następnie dowody konkretnej domeny. Zielony job potwierdza zapis raportu, a nie pełność wszystkich odczytów. Polecenia ręcznego ponowienia, trybu naprawczego, adapterów, retencji i zatrzymania automatyzacji opisuje [README](../README.md). Do niezależnej kontroli pobranego ZIP służy scripts/audit_report.py.
+
+Po udanych testach kodu wysłanego na `main` automatyczna przebudowa publikuje ostatni zatwierdzony raport w nowym formacie. Nie zmienia dat odczytów i nie uruchamia dodatkowego skanu. Codzienny workflow nadal odwiedza wszystkie domeny. Pages jest osobnym zadaniem po zapisie raportu do Releases, więc ustawienia zatwierdzania Pages nie blokują skanowania. Stały adres WWW wymaga włączenia Pages przez właściciela; aktualny HTML można zawsze pobrać ze spisu raportów.

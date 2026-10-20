@@ -19,7 +19,7 @@ from .browser import BrowserScanner, Capture, TransientFetchError, UnusableContr
 from .compare import compare
 from .extract import is_listing_title, page_identity
 from .images import image_difference, ocr_context, visual_evidence, visual_text
-from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
+from .model import Change, Result, Scenario, Site, digest, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
 from .report import install_outputs, resume_data, write_outputs
@@ -52,21 +52,38 @@ def preserve_same_day_reads(results: list[Result], previous: list[Result], state
         if failed.scenario != "podstawowy" or not failed.error or failed.observed_at:
             continue
         old = prior.get((failed.domain, failed.page))
-        if not old or not old.observed_at or old.error or old.data_quality != "ok":
+        if not old or not old.observed_at or old.error or old.data_quality not in {"ok", "partial", "visual"}:
             continue
         if local_day(datetime.fromisoformat(old.observed_at)) != day:
             continue
         snapshot = state["snapshots"].get(f"{old.domain}/{old.page}/podstawowy", {})
-        if snapshot.get("observed_at") != old.observed_at or old.offer.get("field_key") in configured[old.domain].unreliable_price_keys:
+        if old.offer.get("field_key") in configured[old.domain].unreliable_price_keys:
             continue
         folder = Path(day) / slug(old.domain) / old.page / "podstawowy"
         if not (output / folder).is_dir():
             continue
+        if old.data_quality == "ok":
+            if snapshot.get("observed_at") != old.observed_at:
+                continue
+        else:
+            # Keep a documented partial observation for display, never in the
+            # trusted baseline. Its quality and original date remain intact.
+            source = output / folder / "odczyt.json"
+            try:
+                manifest = json.loads((output / day / "manifest.json").read_text())
+                record = manifest["files"][(folder / "odczyt.json").as_posix()]
+                archived = json.loads(source.read_text())
+                if manifest.get("owner") != "pracownie-monitor:v1" or digest(source) != record["sha256"]:
+                    continue
+                if any(archived.get(k) != v for k, v in {"domain": old.domain, "page": old.page, "scenario": "podstawowy", "observed_at": old.observed_at, "quality": old.data_quality}.items()):
+                    continue
+            except (OSError, KeyError, ValueError):
+                continue
         shutil.copytree(output / folder, staging / folder, dirs_exist_ok=True)
         failed.scenario = "ponowienie-podstawowego"
         failed.scenario_label = "Nieudane ponowienie odczytu podstawowego"
         results.append(copy.deepcopy(old))
-        retained.append({"domain": old.domain, "page": old.page, "observed_at": old.observed_at, "retry_error": failed.error})
+        retained.append({"domain": old.domain, "page": old.page, "observed_at": old.observed_at, "quality": old.data_quality, "retry_error": failed.error})
     return retained
 
 
@@ -306,6 +323,10 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                                 await process_site(site)
                     except TimeoutError:
                         phase = scanner.phases.get(site.domain, "nieustalony etap")
+                        if not detail:
+                            for page, url in [("glowna", site.home_url), ("projekt", state["selections"].get(site.domain, {}).get("url") or site.project_url or site.home_url)]:
+                                if not any(r.domain == site.domain and r.page == page and r.scenario == "podstawowy" for r in results):
+                                    results.append(Result(site.domain, page, "podstawowy", "error", url, error=f"Przekroczono czas domeny ({phase}); odczyt strony nieukończony."))
                         results.append(Result(site.domain, "zakres", "limit-czasu", "partial", site.home_url, error=f"Przekroczono czas domeny ({phase}); pozostały zakres nie został sprawdzony."))
                     except Exception as exc:
                         results.append(Result(site.domain, "zakres", "blad", "error", site.home_url, error=str(exc).splitlines()[0][:600]))

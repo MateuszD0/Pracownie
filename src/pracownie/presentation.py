@@ -92,6 +92,8 @@ def when(value: str | None, short: bool = False) -> str:
 
 
 def issue_text(value: str) -> str:
+    if not value:
+        return ""
     if "ERR_CONNECTION_REFUSED" in value:
         return "Serwer odmówił połączenia."
     if "ERR_CERT" in value or "SSL" in value:
@@ -104,6 +106,10 @@ def issue_text(value: str) -> str:
         return "Nie ustalono poprawnej karty projektu."
     if "pust" in value.lower() or "dokumentu HTML" in value or "null" in value:
         return "Witryna nie zwróciła czytelnej treści strony."
+    if "Wyczerpano czas skanu" in value:
+        return "Nie ukończono odczytu domeny przed końcem skanu."
+    if "czas domeny" in value and ("/podstawowy" in value or "odczyt strony" in value):
+        return "Nie ukończono odczytu strony w limicie czasu domeny."
     if "czas domeny" in value or "Wyczerpano czas" in value:
         return "Nie ukończono dodatkowych interakcji w limicie czasu."
     if "Timeout" in value or "TIMED_OUT" in value:
@@ -210,7 +216,7 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         "observed_at": base.observed_at if base else None, "compared_at": before_at,
         "gap_days": gap, "daily": gap == 1 and current_read,
         "current_read": current_read, "data_quality": base.data_quality if base else "unknown",
-        "error_text": issue_text(base.error) if base and base.error else "",
+        "error_text": issue_text(base.error) if base and base.error else issue_text(next((r.error for r in entries if r.page == "zakres" and r.error), "")) if not current_read else "",
         "quality_notes": [issue_text(w) for w in base.warnings] if base else [],
         "events": events, "reviews": reviews, "visuals": visuals,
         "evidence": base.evidence if base else {}, "extraction_changes": migrations,
@@ -361,7 +367,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                 row["reviews" if event["review"] else "events"].append(event)
         for retry in [r for r in entries if r.scenario == "ponowienie-podstawowego" and r.error]:
             original = home if retry.page == "glowna" else project
-            row["issues"].append(("Strona główna" if retry.page == "glowna" else "Karta projektu") + ": ponowienie nie powiodło się (" + issue_text(retry.error) + "). Zachowano poprawny odczyt z " + when(original.observed_at if original else None) + ".")
+            row["issues"].append(("Strona główna" if retry.page == "glowna" else "Karta projektu") + ": ponowienie nie powiodło się (" + issue_text(retry.error) + "). Zachowano " + ("częściowy" if original and original.data_quality != "ok" else "poprawny") + " odczyt z " + when(original.observed_at if original else None) + ".")
         failed_options = [r for r in entries if r.scenario not in {"podstawowy", "ponowienie-podstawowego"} and r.error]
         if failed_options:
             row["issues"].append(
@@ -373,7 +379,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             if r.page == "zakres" and r.error or r.scenario == "pokrycie-interakcji" and r.warnings
         ]
         if limited and not failed_options:
-            row["issues"].append("Dodatkowe interakcje sprawdzone częściowo; szczegóły w diagnostyce.")
+            row["issues"].append("Nie ukończono odczytów podstawowych w limicie domeny; zachowano dostępne materiały." if any("/podstawowy" in (r.error or "") for r in limited) else "Dodatkowe interakcje sprawdzone częściowo; szczegóły w diagnostyce.")
         if project and project.observed_at and project.data_quality == "partial":
             row["issues"].append("Karta odczytana częściowo; cena nie służy do ustalania zmiany oferty.")
         row["issues"] = list(dict.fromkeys(row["issues"]))

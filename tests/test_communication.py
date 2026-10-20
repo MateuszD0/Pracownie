@@ -167,3 +167,19 @@ def test_rotation_of_existing_banner_assets_does_not_create_a_redesign_finding(b
             item['background_image'] = 'url("' + item.pop('src') + '")'
     details = visual_description(old, new, SimpleNamespace(bbox=[0,0,800,200], ratio=.1))
     assert not details['facts']
+
+
+@pytest.mark.browser
+async def test_search_heading_is_not_allowed_to_hide_the_project_offer(executable):
+    # Source structure observed in Praktyczne Projekty: a search H2 contains
+    # "Inne projekty", preceding the main H1 and the entire project description.
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('''<header><div id="imHeader_imHTMLObject_04"><h2>Szukaj projektu B01 B11 Inne projekty</h2></div></header>
+        <main><header><h1>B11 Projekt czworaków</h1></header><p>Komfort i prywatność czterech rodzin</p><p>Kosztorys w cenie projektu</p><a href="/kontakt">Zapytaj architekta</a></main>''')
+        broken = await page.evaluate(COMMUNICATION, 'projekt')
+        assert not broken['items']
+        fixed = await page.evaluate(COMMUNICATION, {'page': 'projekt', 'ignore_selectors': ['#imHeader_imHTMLObject_04']})
+        assert {'B11 Projekt czworaków', 'Komfort i prywatność czterech rodzin', 'Kosztorys w cenie projektu', 'Zapytaj architekta'} <= {i['text'] for i in fixed['items']}
+        assert not any('Szukaj projektu' in i['text'] for i in fixed['items'])
+        await page.close()

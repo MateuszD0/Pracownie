@@ -26,3 +26,7 @@ Skan 19 października 2026 nie zawierał pełnej surowej historii komunikacji. O
 Pierwszy poprawny zapis rozszerzonego zakresu tworzy nową bazę. Dwa kolejne dni z takim zapisem umożliwiają pełne porównanie tego zakresu. Naprawczy skan tego samego dnia zachowuje poprzedni dzień jako bazę. Przebudowa formatu korzysta z oryginalnych plików o zgodnych datach i tożsamościach, nie odwiedza stron w przeszłości.
 
 Harmonogram pozostaje codzienny, również w weekend: 06:17 Europe/Warsaw, z celem gotowości raportu przed 08:00. Blokady domen i opóźnienia GitHub Actions są widoczne w wyniku. Historia pozostaje przechowywana przez 180 dni.
+
+## Reguły konkretnych stron
+
+`communication_ignore_selectors` pomija wskazany fragment DOM w kolektorze komunikacji oraz przy wyznaczaniu sekcji rekomendacji. Reguła jest częścią tożsamości pomiaru tylko w skonfigurowanej domenie, więc nie resetuje bazy pozostałych pracowni. Dla Praktyczne Projekty wyklucza `#imHeader_imHTMLObject_04`: nagłówek wyszukiwarki zawierał „Inne projekty” i błędnie obejmował wykluczeniem całą dalszą kartę. Reguła zachowuje właściwy nagłówek projektu, jego opis i ofertę.

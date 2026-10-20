@@ -513,9 +513,12 @@ class BrowserScanner:
             timestamp = now_iso()
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
-            communication = await page.evaluate(COMMUNICATION, page_kind)
+            communication = await page.evaluate(COMMUNICATION, {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors})
             communication["observed_at"] = timestamp
-            communication["adapter"] = hashlib.sha256(json.dumps({"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
+            communication_rules = {"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
+            if site.communication_ignore_selectors:
+                communication_rules["ignore_selectors"] = site.communication_ignore_selectors
+            communication["adapter"] = hashlib.sha256(json.dumps(communication_rules, sort_keys=True).encode()).hexdigest()[:12]
             consent = await page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]').evaluate_all("""elements => elements.filter(e=>/cookies|ciastecz|plik.*cookie/i.test(e.innerText||'')).slice(0,6).map(e=>({id:e.id,role:e.getAttribute('role'),text:(e.innerText||'').slice(0,1600),opacity:getComputedStyle(e).opacity,rect:[e.getBoundingClientRect().x,e.getBoundingClientRect().y,e.getBoundingClientRect().width,e.getBoundingClientRect().height],controls:[...e.querySelectorAll('button,a,[role=button]')].slice(0,20).map(b=>({tag:b.tagName,id:b.id,classes:b.className,label:(b.innerText||b.getAttribute('aria-label')||'').slice(0,180),onclick:(b.getAttribute('onclick')||'').slice(0,300)}))}))""")
             visual_document["anchors"] = {slug(k): v for k, v in visual_document["anchors"].items()}
             for rule in site.field_selectors:

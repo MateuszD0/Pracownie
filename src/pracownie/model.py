@@ -158,6 +158,7 @@ class Site:
     product_url_pattern: str | None = None
     ignore_resource_hosts: list[str] = field(default_factory=list)
     inspection: str = "pending"
+    communication_ignore_selectors: list[str] = field(default_factory=list)
 
     @classmethod
     def from_dict(cls, data: dict) -> Site:

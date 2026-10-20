@@ -1416,6 +1416,9 @@
           "optional": true,
           "unit": "lokal"
         }
+      ],
+      "communication_ignore_selectors": [
+        "#imHeader_imHTMLObject_04"
       ]
     },
     {

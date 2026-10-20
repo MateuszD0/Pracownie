@@ -1,7 +1,9 @@
 // A separate, versioned measurement: price adapters never invalidate this copy.
-(pageKind = 'glowna') => {
+(input = 'glowna') => {
+  const pageKind=typeof input==='string'?input:input.page;
+  const ignored=typeof input==='string'?[]:input.ignore_selectors||[];
   const clean = s => (s || '').replace(/\s+/g,' ').trim();
-  const omit = 'nav,footer,[role=navigation],script,style,noscript,.screen-reader-text,.sr-only,.visually-hidden,[id*=cookie i],[id*=consent i],[class*=cookie i],form[role=search],[class*=search-form],.related,.upsells,.cross-sells,[class*=related-products],[class*=similar-project],[class*=recommended-products]';
+  const omit = 'nav,footer,[role=navigation],script,style,noscript,.screen-reader-text,.sr-only,.visually-hidden,[id*=cookie i],[id*=consent i],[class*=cookie i],form[role=search],[class*=search-form],.related,.upsells,.cross-sells,[class*=related-products],[class*=similar-project],[class*=recommended-products]'+(ignored.length?','+ignored.join(','):'');
   const rotator = '.swiper,.swiper-container,.swiper-wrapper,.slick-slider,.owl-carousel,.carousel,[aria-roledescription=carousel],[class*=slider],[class*=rotator]';
   const slide = '.swiper-slide,.slick-slide,.owl-item,.carousel-item,[aria-roledescription=slide]';
   const shown = e => !!e.getClientRects().length && (!e.checkVisibility || e.checkVisibility({visibilityProperty:true,opacityProperty:true}));
@@ -10,6 +12,7 @@
     const headings=[...document.querySelectorAll('h2,h3,h4')];
     for(let i=0;i<headings.length;i++) {
       const h=headings[i];if(!/podobne projekty|polecane projekty|inne projekty|zobacz również|zobacz także|warianty projektu/i.test(h.textContent))continue;
+      if(ignored.length && h.closest(ignored.join(',')))continue;
       const range=document.createRange();range.setStartBefore(h);
       const next=headings.slice(i+1).find(n=>Number(n.tagName[1])<=Number(h.tagName[1]));
       if(next)range.setEndBefore(next);else range.setEndAfter(document.body.lastChild);related.push(range);

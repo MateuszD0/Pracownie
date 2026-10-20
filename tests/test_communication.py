@@ -143,7 +143,8 @@ async def test_collector_captures_header_campaign_cta_hidden_slides_and_open_int
         await page.close()
 
 
-def test_rotation_of_existing_banner_assets_does_not_create_a_redesign_finding():
+@pytest.mark.parametrize('background', [False, True])
+def test_rotation_of_existing_banner_assets_does_not_create_a_redesign_finding(background):
     from types import SimpleNamespace
     old = capture(BEFORE, [])
     new = capture(AFTER, [])
@@ -151,5 +152,9 @@ def test_rotation_of_existing_banner_assets_does_not_create_a_redesign_finding()
         shot.document['communication']['items'] = [{'role': 'image', 'asset': 'https://test.pl/a.jpg'}, {'role': 'image', 'asset': 'https://test.pl/b.jpg'}]
     old.document['visual'] = {'schema': 1, 'elements': [{'key': '#hero', 'src': 'https://test.pl/a.jpg', 'label': 'Rabat'}]}
     new.document['visual'] = {'schema': 1, 'elements': [{'key': '#hero', 'src': 'https://test.pl/b.jpg', 'label': 'Gratis'}]}
+    if background:
+        for snapshot in (old, new):
+            item = snapshot.document['visual']['elements'][0]
+            item['background_image'] = 'url("' + item.pop('src') + '")'
     details = visual_description(old, new, SimpleNamespace(bbox=[0,0,800,200], ratio=.1))
     assert not details['facts']

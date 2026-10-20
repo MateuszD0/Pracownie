@@ -89,7 +89,10 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         second = {e["key"]: e for e in new.get("elements", [])}
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
-            if a.get("src") != b.get("src") and a.get("src") in stable_assets and b.get("src") in stable_assets:
+            old_backgrounds = set(re.findall(r'url\(["\']?([^"\')]+)["\']?\)', a.get("background_image", "")))
+            new_backgrounds = set(re.findall(r'url\(["\']?([^"\')]+)["\']?\)', b.get("background_image", "")))
+            rotating_background = old_backgrounds and new_backgrounds and old_backgrounds != new_backgrounds and old_backgrounds | new_backgrounds <= stable_assets
+            if (a.get("src") != b.get("src") and a.get("src") in stable_assets and b.get("src") in stable_assets) or rotating_background:
                 rotation = True
                 continue
             label = b.get("label") or a.get("label") or "element strony"
@@ -147,7 +150,7 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
             for key in sorted(keys):
                 item = mapping[key]
                 other = first if not removed else second
-                if item.get("src") and item["src"] not in {e.get("src") for e in other.values()}:
+                if item.get("src") and item["src"] not in stable_assets and item["src"] not in {e.get("src") for e in other.values()}:
                     facts.append(
                         {
                             "what": ("Usunięta" if removed else "Dodana")

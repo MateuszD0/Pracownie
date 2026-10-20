@@ -42,6 +42,8 @@ def test_explicit_gross_price_takes_precedence_over_net_and_addons():
     offer = primary_offer(snap(fields))
     assert offer["amount"] == "1450.00"
     assert money(offer) == "1 450,00 zł brutto"
+    only_schema = snap({"oferta:dom:price": fields["oferta:dom:price"]})
+    assert primary_offer(only_schema, ["oferta:dom:price"]) == {}
 
 
 def test_aggregate_price_is_range_and_not_a_single_discount():
@@ -50,6 +52,14 @@ def test_aggregate_price_is_range_and_not_a_single_discount():
     assert offer["kind"] == "range"
     assert money(offer) == "12 500,00–13 750,00 zł"
     assert price_delta(offer, offer) == (None, None)
+
+
+def test_partial_exact_price_is_provisional_and_never_a_confirmed_delta():
+    fields = {"adapter:cena": Field("Cena projektu", "1450 zł", "ceny", amount="1450.00", currency="PLN", source="adapter", role="current", primary=True)}
+    provisional = primary_offer(replace(snap(fields), quality="partial"))
+    assert provisional["amount"] == "1450.00"
+    assert money(provisional) == "1 450,00 zł *"
+    assert price_delta({**provisional, "amount": "1600.00", "quality": "ok"}, provisional) == (None, None)
 
 
 def test_structured_price_with_stable_identity_survives_browser_handler_update():
@@ -91,6 +101,19 @@ def test_report_can_be_reformatted_without_invalidating_its_manifest(tmp_path):
         verify_outputs(tmp_path, "2026-10-20")
 
 
+def test_selective_repair_preserves_other_domains_errors(tmp_path):
+    from pracownie.model import Site
+    from pracownie.report import resume_data, write_outputs
+    sites = [Site(d, "https://" + d) for d in ["a.pl", "b.pl"]]
+    metadata = {"run_id": "prior-read", "started_at": AT, "finished_at": AT, "elapsed_seconds": 0}
+    rows = [Result(s.domain, "glowna", "podstawowy", "error", s.home_url, error="HTTP 403") for s in sites]
+    write_outputs(tmp_path, "2026-10-20", rows, metadata, {}, [s.domain for s in sites])
+    reused, results, _ = resume_data(tmp_path, "2026-10-20", sites, {"day": "2026-10-20"}, ["b.pl"])
+    assert reused == {"a.pl"}
+    assert len(results) == 1 and results[0].error == "HTTP 403"
+    assert results[0].observed_at is None
+
+
 @pytest.mark.browser
 async def test_visible_woo_price_hidden_radio_and_related_products(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:
@@ -108,6 +131,22 @@ async def test_visible_woo_price_hidden_radio_and_related_products(executable):
         scenarios, _ = infer_scenarios(payload, "projekt")
         await scanner.operate(page, scenarios[0].actions[0])
         assert await page.locator("#extra").is_checked()
+
+
+@pytest.mark.browser
+async def test_necessary_only_shoper_consent_and_sticky_header(executable):
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page(viewport={"width": 1280, "height": 900})
+        await page.set_content('''<div role="dialog">Dbamy o Twoją prywatność. Pliki cookies.
+          <button onclick="window.submitted=true">Zaakceptuj wszystkie</button>
+          <button onclick="this.parentNode.remove()">Zaakceptuj tylko niezbędne</button></div>''')
+        await scanner.cookies(page)
+        assert not await page.locator('div[role=dialog]').count()
+        assert not await page.evaluate("Boolean(window.submitted)")
+        await page.set_content('''<style>body{margin:0;height:3000px}header{position:fixed;top:0;height:200px;width:100%;background:white;z-index:9}button{margin-top:1200px}</style><header>Stały nagłówek</header><button id="tab" onclick="window.clicked=true">Warunki</button>''')
+        await page.evaluate("scrollTo(0,1180)")
+        await scanner.operate(page, {"action": "click", "selector": "#tab"})
+        assert await page.evaluate("window.clicked")
 
 
 @pytest.mark.browser

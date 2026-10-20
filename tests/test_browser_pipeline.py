@@ -173,6 +173,9 @@ def test_project_ranking_is_deterministic():
     candidates = project_candidates(site, payload)
     assert candidates[0][1]["url"].endswith("-b")
     assert len(candidates) == 2
+    catalog = project_candidates(site, {"url": "https://test.pl/katalog", "links": [payload["links"][0]]})
+    assert catalog[0][1]["source"] == "https://test.pl/katalog"
+    assert "katalogu" in catalog[0][1]["basis"]
 
 
 def test_visual_difference_and_no_difference(tmp_path):

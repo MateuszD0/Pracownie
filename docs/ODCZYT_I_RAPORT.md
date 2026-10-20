@@ -11,6 +11,8 @@ Otwórz dzień w [spisie raportów](../RAPORTY.md). Wydanie GitHub zawiera podsu
 
 „—” oznacza brak danych. Cena 0 zł, brak zmian i brak odczytu to różne sytuacje.
 
+Gwiazdka przy cenie oznacza odczyt dokładnego pola projektu przy częściowym załadowaniu strony. Kwota wymaga potwierdzenia; nie służy do potwierdzania wzrostu ani spadku ceny.
+
 ## Która cena trafia do tabeli
 
 Pierwszeństwo ma sprawdzone pole zakupu przypisane do domeny, następnie metadane ceny produktu i dopasowane dane JSON-LD. Widoczne ceny są używane przy jednoznacznym przypisaniu do karty. Kilka wariantów może dać zakres; system nie wybiera najtańszej liczby ze wszystkich elementów strony.

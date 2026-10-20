@@ -25,7 +25,7 @@ from .extract import (
 from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
-COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:akceptuj |zezwól na )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
+COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:(?:zaakceptuj|akceptuj|zezwól na) )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
 
@@ -69,6 +69,11 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
     for control in controls:
         kind, label, selector = control["kind"], control["label"], control["selector"]
         if control.get("scope", "offer") != "offer" or not label or UNSAFE_OPTIONS.search(label + " " + control.get("name", "")):
+            continue
+        if re.fullmatch(r"firma|osoba (?:prawna|fizyczna)|wyślij kopię do mnie|PayPal.*", label, re.I):
+            continue
+        if kind in {"checkbox", "radio"} and label.lower() in {"on", "off", "tak", "nie", "true", "false"}:
+            warnings.append("Opcja bez jednoznacznej etykiety wymaga adaptera: " + label)
             continue
         # Homepage catalog/navigation tabs are not product offer interactions.
         if page == "glowna" and kind != "carousel" and not relevant.search(label):
@@ -151,14 +156,15 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
                 continue
         confidence_penalty = 0 if strong_detail else 1000 if price and link.get("image") else 3000
         rank = 4
-        basis = "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży."
+        source = payload.get("url") or site.home_url
+        basis = "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży." if page_identity(source) == page_identity(site.home_url) else "Projekt z publicznego katalogu; brak potwierdzonego rankingu sprzedaży."
         if re.search(r"bestseller|najlepiej sprzed|najczęściej kupow|najchętniej wybier", context):
             rank, basis = 1, "Oznaczenie bestseller w kontekście karty/linku."
         elif re.search(r"najpopular|wybór klientów", context):
             rank, basis = 2, "Sekcja najpopularniejszych projektów."
         score = rank * 10000 + confidence_penalty + position
         candidates.append((score, {"url": url, "name": link.get("text") or urlsplit(url).path,
-                                   "basis": basis, "source": site.home_url,
+                                   "basis": basis, "source": source,
                                    "context": link.get("context", "")[:500], "selected_at": now_iso()}))
     seen = set()
     result = []
@@ -243,6 +249,7 @@ class BrowserScanner:
             text = (await locator.inner_text()).strip() or await locator.get_attribute("value") or await locator.get_attribute("alt") or ""
             if re.search(r"zamawiam.*płac|potwierdź zamówienie|złóż zamówienie|place order|pay now|wyślij zapytanie", text, re.I):
                 raise ValueError("Scenariusz próbuje wysłać zamówienie lub zapytanie; działanie poza zakresem")
+            await locator.evaluate("e => e.scrollIntoView({block:'center',inline:'center',behavior:'instant'})")
             await locator.click(timeout=3500)
         elif action["action"] == "select":
             await locator.select_option(action["value"], timeout=3500)
@@ -250,7 +257,9 @@ class BrowserScanner:
             if not await locator.is_checked():
                 label_selector = action.get("label_selector")
                 if label_selector and await page.locator(label_selector).is_visible():
-                    await page.locator(label_selector).click(timeout=3500)
+                    target = page.locator(label_selector)
+                    await target.evaluate("e => e.scrollIntoView({block:'center',inline:'center',behavior:'instant'})")
+                    await target.click(timeout=3500)
                 else:
                     await locator.check(timeout=3500)
                 if not await locator.is_checked():
@@ -266,7 +275,7 @@ class BrowserScanner:
         frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
         for frame in frames:
             # Known CMP selectors avoid traversing the accessibility tree of advertisement frames.
-            for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button"):
+            for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button", "#cn-close-notice"):
                 button = frame.locator(selector).first
                 if await button.count() and await button.is_visible():
                     try:
@@ -363,11 +372,12 @@ class BrowserScanner:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
             await self.settle(page)
             # Consent managers often appear asynchronously, after DOMContentLoaded.
+            await page.wait_for_timeout(self.settle_ms)
             try:
                 await self.cookies(page)
             except BrowserError:
                 warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
-            await page.wait_for_timeout(self.settle_ms)
+            await page.wait_for_timeout(250)
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
             for index in range(await cookie_dialog.count()):
                 element = cookie_dialog.nth(index)
@@ -445,6 +455,9 @@ class BrowserScanner:
                 match = MONEY.search(money_text(value))
                 currency = rule.get("currency")
                 number = amount(match[1]) if match else amount(value) if currency else None
+                if rule.get("pattern"):
+                    selected = re.search(rule["pattern"], value)
+                    number = amount(selected[1]) if selected else None
                 if match:
                     currency = currency_code(match[2])
                 section = rule.get("section", "oferta")

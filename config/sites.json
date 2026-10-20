@@ -66,7 +66,18 @@
         "source": "https://alexanderstudio.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Carmen Magdalena A"
+      "project_name": "Carmen Magdalena A",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".single-price-wrapper .price ins bdi",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archand.pl",
@@ -88,7 +99,18 @@
         "source": "https://archand.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Perfetto 3 modern"
+      "project_name": "Perfetto 3 modern",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".summary p.price ins bdi",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archdesign.pl",
@@ -111,7 +133,18 @@
         "source": "https://www.archdesign.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "DN 051"
+      "project_name": "DN 051",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "td.tlr:has-text(\"zł\")",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archdom.pl",
@@ -225,7 +258,18 @@
         "source": "https://archi-projekt.com.pl",
         "browser_verified_at": "2026-10-19T19:33:53.204499+00:00"
       },
-      "project_name": "APS 343 POROTHERM"
+      "project_name": "APS 343 POROTHERM",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "[id^=\"product-\"] p.price ins bdi",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archido.pl",
@@ -359,9 +403,24 @@
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
         "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży.",
         "source": "https://dom-projekt.pl",
-        "browser_verified_at": "2026-10-19T19:34:39.085378+00:00"
+        "browser_verified_at": "2026-10-19T19:34:39.085378+00:00",
+        "price_note": "20.10.2026: JSON-LD podaje oszczędność 200 zł jako cenę produktu; cenę projektu odczytujemy z buy > price (5280 zł w dniu inspekcji)."
       },
-      "project_name": "gryfice 31 pcr"
+      "project_name": "gryfice 31 pcr",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "buy > price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ],
+      "unreliable_price_keys": [
+        "oferta:dom-projekt-1840:price"
+      ]
     },
     {
       "domain": "domdlaciebie.com.pl",
@@ -381,7 +440,18 @@
         "http_inspected_at": "2026-10-19T19:01:01.631766+00:00",
         "http_status": 503,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+      },
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "#sec-wiz-projektu .cena",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "domenadom.pl",
@@ -442,7 +512,19 @@
         "source": "https://dominanta.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Lolek II N"
+      "project_name": "Lolek II N",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".projekt_cena > span:last-child",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true,
+          "pattern": "(\\d[\\d ]*)"
+        }
+      ]
     },
     {
       "domain": "domoweklimaty.pl",
@@ -792,7 +874,18 @@
         "source": "https://housecollection.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Dom w Toskanii"
+      "project_name": "Dom w Toskanii",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".product-prince-box .current-price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "kbprojekt.pl",
@@ -1019,7 +1112,18 @@
         "http_verified_at": "2026-10-19",
         "tls_alias_note": "20.10.2026: publiczna witryna odpowiada poprawnie pod HTTP (potwierdzone w Chromium na GitHub Actions). Używany jawny adres HTTP; weryfikacja certyfikatów HTTPS pozostaje włączona."
       },
-      "project_name": "Malutki 12"
+      "project_name": "Malutki 12",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".price-wrap > .price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "myhome.eco",
@@ -1620,7 +1724,7 @@
         {
           "key": "cena-projektu",
           "label": "Cena projektu",
-          "selector": "span.price",
+          "selector": "#product td:has(> .label:has-text(\"Cena projektu\")) > .price-label",
           "currency": "PLN",
           "role": "current",
           "primary": true,
@@ -1790,7 +1894,7 @@
         {
           "key": "cena-projektu",
           "label": "Cena projektu",
-          "selector": ".summary .price ins .amount",
+          "selector": "[id^=\"product-\"] p.price ins bdi",
           "currency": "PLN",
           "role": "current",
           "primary": true,

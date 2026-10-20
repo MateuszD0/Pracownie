@@ -36,6 +36,7 @@ def parser() -> argparse.ArgumentParser:
     run.add_argument("--browser-executable")
     run.add_argument("--no-ocr", action="store_true")
     run.add_argument("--resume", action="store_true", help="Wykorzystaj poprawne odczyty z tego samego dnia i napraw pozostałe")
+    run.add_argument("--repair-domains", help="Przy --resume powtórz tylko wskazane domeny, zachowując pozostałe wyniki i ich błędy")
     run.add_argument("--github", action="store_true", help="Pobierz stan i zapisz wyniki w GitHub Releases")
     run.add_argument("--repository", default=os.environ.get("GITHUB_REPOSITORY", "MateuszD0/Pracownie"))
     run.add_argument("--namespace", default="monitor")
@@ -104,6 +105,9 @@ def execute(args) -> int:
             raise ValueError("Podzbiór domen wymaga osobnego --namespace, aby nie nadpisać pełnego raportu")
     if not sites:
         raise ValueError("Wybrano zero domen")
+    repair_domains = args.repair_domains.split(",") if args.repair_domains else None
+    if repair_domains and (not args.resume or set(repair_domains) - {s.domain for s in sites}):
+        raise ValueError("--repair-domains wymaga --resume i domen należących do pełnego zakresu")
     if not 1 <= args.concurrency <= 8 or args.domain_timeout <= 0 or args.budget_seconds <= 0 or args.max_scenarios < 1 or args.retries < 0:
         raise ValueError("Niepoprawne limity skanu")
     options = RunOptions(
@@ -111,6 +115,7 @@ def execute(args) -> int:
         budget_seconds=args.budget_seconds, max_scenarios=args.max_scenarios,
         retries=args.retries, browser_executable=args.browser_executable,
         navigation_timeout=args.navigation_timeout, settle_ms=args.settle_ms, ocr=not args.no_ocr, resume=args.resume,
+        repair_domains=repair_domains,
     )
     store = StateStore(args.state_dir)
     remote = None

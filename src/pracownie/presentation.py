@@ -41,6 +41,8 @@ def money(offer: dict) -> str:
 
     currency = "zł" if offer.get("currency") == "PLN" else offer.get("currency", "")
     suffix = (" netto + VAT" if offer.get("tax") == "net" else " brutto" if offer.get("tax") == "gross" else "") + (" / lokal" if offer.get("unit") == "lokal" else "")
+    if offer.get("quality") == "partial":
+        suffix += " *"
     if offer.get("kind") == "range":
         return f"{number(offer['low'])}–{number(offer['high'])} {currency}{suffix}"
     return f"{number(offer['amount'])} {currency}{suffix}"
@@ -368,6 +370,7 @@ def render_text(view: dict) -> str:
             "",
             "JAK CZYTAĆ RAPORT",
             "Cena poprzednio pochodzi z ostatniego poprawnego odczytu sprzed dnia raportu. Brak danych nie oznacza ceny 0 zł ani braku zmian.",
+            "* Cena z dokładnego pola projektu przy częściowym odczycie strony; wymaga potwierdzenia. Nie wyliczamy z niej zmiany ceny.",
             "W ZIP otwórz folder dnia i index.html: tabela ma wyszukiwanie, filtry oraz zrzuty przed/po. oferty.csv zawiera ceny do arkusza.",
             "Surowe komunikaty przeglądarki i pełny zakres interakcji: diagnostyka.txt oraz pokrycie.json. Wszystkie obserwacje: zmiany.json.",
         ]
@@ -465,6 +468,7 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
             "### Ceny wybranych projektów",
             "",
             "Cena poprzednio oznacza ostatni poprawny odczyt sprzed dnia raportu. „—” oznacza brak porównywalnej ceny, a nie zero.",
+            "Gwiazdka przy cenie oznacza częściowy odczyt strony; kwota wymaga potwierdzenia i nie służy do potwierdzania wzrostu lub spadku.",
             "",
             "| Pracownia / projekt | Poprzednio | Dzisiaj | Wynik |",
             "| --- | ---: | ---: | --- |",

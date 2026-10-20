@@ -13,19 +13,23 @@ def _name(value: str) -> str:
     return re.sub(r"[^\w]", "", value).casefold()
 
 
-def primary_offer(snapshot: Snapshot | None) -> dict:
-    if snapshot is None or snapshot.quality != "ok":
+def primary_offer(snapshot: Snapshot | None, excluded_keys: list[str] | None = None) -> dict:
+    if snapshot is None or snapshot.quality not in {"ok", "partial"}:
         return {}
     rows = [
         (key, field)
         for key, field in snapshot.fields.items()
-        if field.category == "ceny" and field.amount is not None and field.currency
+        if field.category == "ceny" and field.amount is not None and field.currency and key not in (excluded_keys or [])
     ]
     explicit = [
         (key, field)
         for key, field in rows
         if field.primary and field.role == "current" and field.source == "adapter"
     ]
+    # A verified visible field remains informative when a stylesheet or a CMP
+    # fails. Show it provisionally; never confirm a delta from a partial read.
+    if snapshot.quality == "partial" and not explicit:
+        return {}
     structured = [(key, field) for key, field in rows if key.startswith("oferta:") and key.endswith(":price")]
     title = _name(snapshot.title)
     matched = [
@@ -66,6 +70,7 @@ def primary_offer(snapshot: Snapshot | None) -> dict:
         "observed_at": field.observed_at or snapshot.observed_at,
         "tax": field.tax or ("net" if re.search(r"\bnetto\b|\+\s*VAT", field.label + " " + field.value, re.I) else ""),
         "unit": field.unit,
+        "quality": snapshot.quality,
     }
 
 
@@ -78,6 +83,8 @@ def price_delta(before: dict, after: dict) -> tuple[str | None, str | None]:
         or before.get("currency") != after.get("currency")
         or before.get("tax", "") != after.get("tax", "")
         or before.get("unit", "") != after.get("unit", "")
+        or before.get("quality", "ok") != "ok"
+        or after.get("quality", "ok") != "ok"
     ):
         return None, None
     # The selected product and variant must retain their identity.

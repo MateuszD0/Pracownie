@@ -39,6 +39,7 @@ class RunOptions:
     retention_days: int = 180
     ocr: bool = True
     resume: bool = False
+    repair_domains: list[str] | None = None
 
 
 async def run_scan(sites: list[Site], store: StateStore, output: Path, options: RunOptions) -> dict:
@@ -50,9 +51,13 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
     results: list[Result] = []
     pending: dict[str, tuple] = {}
     base_elapsed: dict[str, float] = {}
+    sites_by_domain = {site.domain: site for site in sites}
     reused, previous_metadata = set(), {}
     if options.resume:
-        reused, results, previous_metadata = resume_data(output, day, sites, store.read())
+        reused, results, previous_metadata = resume_data(output, day, sites, store.read(), options.repair_domains)
+    if options.repair_domains and not previous_metadata:
+        raise ValueError("Naprawa wybranych domen wymaga zatwierdzonego raportu z tego samego dnia")
+    metadata["repair_domains"] = options.repair_domains or []
     metadata["reused_domains"] = sorted(reused)
     metadata["resumed_from"] = previous_metadata.get("run_id")
     semaphore = asyncio.Semaphore(options.concurrency)
@@ -81,6 +86,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
 
             async def record(capture: Capture):
                 snapshot = capture.snapshot
+                excluded_prices = sites_by_domain[snapshot.domain].unreliable_price_keys
                 before = store.previous(state, snapshot.key)
                 snapshot.image = store.image(capture.screenshot)
                 changes, retained = compare(before, snapshot)
@@ -129,8 +135,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     status = "partial"
                 results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, result_warnings, observed_at=snapshot.observed_at, evidence=evidence,
                                       data_quality=snapshot.quality, scenario_label=capture.payload.get("scenario_label", snapshot.scenario),
-                                      offer=primary_offer(snapshot) if snapshot.page == "projekt" else {},
-                                      before_offer=primary_offer(before) if snapshot.page == "projekt" else {},
+                                      offer=primary_offer(snapshot, excluded_prices) if snapshot.page == "projekt" else {},
+                                      before_offer=primary_offer(before, excluded_prices) if snapshot.page == "projekt" else {},
                                       compared_at=before.observed_at if before else None, variant=capture.payload.get("variant", "")))
                 if snapshot.quality == "ok" or snapshot.quality == "visual" and (before is None or not before.fields):
                     state["snapshots"][snapshot.key] = retained.to_dict()
@@ -226,7 +232,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         await record(project)
                     except Exception as exc:
                         previous = store.previous(state, f"{site.domain}/projekt/podstawowy")
-                        results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600], before_offer=primary_offer(previous), compared_at=previous.observed_at if previous else None))
+                        results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600], before_offer=primary_offer(previous, site.unreliable_price_keys), compared_at=previous.observed_at if previous else None))
                         project = None
                 else:
                     results.append(Result(site.domain, "projekt", "podstawowy", "unavailable", site.home_url, error="Nie ustalono karty projektu. Nie zastąpiono jej losowym adresem."))

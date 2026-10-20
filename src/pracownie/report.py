@@ -231,7 +231,7 @@ def restore_report(archive_path: Path, destination: Path, day: str, expected_run
         install_outputs(staging, destination, day, "restore")
 
 
-def resume_data(root: Path, day: str, sites: list[Site], state: dict) -> tuple[set[str], list[Result], dict]:
+def resume_data(root: Path, day: str, sites: list[Site], state: dict, repair_domains: list[str] | None = None) -> tuple[set[str], list[Result], dict]:
     path = root / day / "zmiany.json"
     if state.get("day") != day or not path.is_file():
         return set(), [], {}
@@ -246,6 +246,13 @@ def resume_data(root: Path, day: str, sites: list[Site], state: dict) -> tuple[s
         results.append(Result(**entry))
     if {r.domain for r in results} != {s.domain for s in sites}:
         raise ValueError("Istniejący raport ma inny zakres domen; wybierz osobny --output")
+    if repair_domains:
+        if set(repair_domains) - {s.domain for s in sites}:
+            raise ValueError("Nieznane domeny do naprawy")
+        retained = {s.domain for s in sites} - set(repair_domains)
+        # Preserve earlier observations AND their errors verbatim. They are not
+        # relabeled as successful just because another domain is repaired.
+        return retained, [r for r in results if r.domain in retained], data["metadata"]
     completed = set()
     for site in sites:
         if is_listing_title(state["selections"].get(site.domain, {}).get("name", "")):

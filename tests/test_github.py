@@ -172,3 +172,68 @@ def test_daily_index_preserves_unrelated_user_file(tmp_path):
     remote.update_index()
     content = base64.b64decode(fake.repo_files["RAPORTY.md"]["content"]).decode()
     assert "2026-10-19" in content and "[TXT]" in content and "-widok.zip" in content
+
+
+@pytest.mark.parametrize("failure", ["reset", "short"])
+def test_interrupted_download_restarts_and_installs_only_verified_archive(tmp_path, monkeypatch, failure):
+    monkeypatch.setattr("pracownie.github.time.sleep", lambda _: None)
+    destination = tmp_path / "history.zip"
+    destination.write_bytes(b"previous verified history")
+    payload = b"complete new archive"
+    attempts = 0
+
+    class Interrupted(httpx.SyncByteStream):
+        def __iter__(self):
+            yield b"part"
+            raise OSError(104, "Connection reset by peer")
+
+    def respond(request):
+        nonlocal attempts
+        attempts += 1
+        assert destination.read_bytes() == b"previous verified history"
+        if attempts == 1:
+            return httpx.Response(200, stream=Interrupted()) if failure == "reset" else httpx.Response(200, content=b"part")
+        return httpx.Response(200, content=payload)
+
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
+    remote.download({"id": 1, "size": len(payload)}, destination, hashlib.sha256(payload).hexdigest())
+    assert attempts == 2 and destination.read_bytes() == payload
+    assert not list(tmp_path.glob('.github-download-*'))
+
+
+def test_failed_transfer_or_checksum_cannot_replace_history(tmp_path, monkeypatch):
+    monkeypatch.setattr("pracownie.github.time.sleep", lambda _: None)
+    destination = tmp_path / "history.zip"
+    destination.write_bytes(b"verified history")
+    calls = 0
+
+    def reset(request):
+        nonlocal calls
+        calls += 1
+        raise httpx.ConnectError("reset")
+
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(reset)))
+    with pytest.raises(RuntimeError, match="po 3 próbach"):
+        remote.download({"id": 1}, destination)
+    assert calls == 3 and destination.read_bytes() == b"verified history"
+    remote.client = httpx.Client(transport=httpx.MockTransport(lambda request: httpx.Response(200, content=b"invalid")))
+    with pytest.raises(ValueError, match="suma kontrolna"):
+        remote.download({"id": 1, "size": 7}, destination, hashlib.sha256(b"valid").hexdigest())
+    assert destination.read_bytes() == b"verified history" and not list(tmp_path.glob('.github-download-*'))
+
+
+def test_only_get_is_retried_after_a_transport_failure(monkeypatch):
+    monkeypatch.setattr("pracownie.github.time.sleep", lambda _: None)
+    calls = []
+
+    def respond(request):
+        calls.append(request.method)
+        if len(calls) < 3 or request.method != "GET":
+            raise httpx.ConnectError("reset")
+        return httpx.Response(200, json={})
+
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
+    assert remote.request("GET", remote.prefix).status_code == 200 and len(calls) == 3
+    with pytest.raises(httpx.ConnectError):
+        remote.request("POST", remote.prefix)
+    assert calls == ["GET", "GET", "GET", "POST"]

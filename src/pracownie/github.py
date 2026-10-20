@@ -41,13 +41,20 @@ class GitHubStore:
         if self.owns_client:
             self.client.close()
 
-    def request(self, method: str, url: str, **kwargs) -> httpx.Response:
+    def request(self, method: str, url: str, *, accepted_statuses: tuple[int, ...] = (), **kwargs) -> httpx.Response:
         for attempt in range(3):
-            response = self.client.request(method, url, **kwargs)
+            try:
+                response = self.client.request(method, url, **kwargs)
+            except (httpx.TransportError, OSError):
+                # Only reads are safe to repeat after an uncertain response.
+                if method != "GET" or attempt == 2:
+                    raise
+                time.sleep(2 ** attempt)
+                continue
             if method == "GET" and (response.status_code in {429, 502, 503, 504}) and attempt < 2:
                 time.sleep(min(float(response.headers.get("retry-after", 2 ** attempt)), 10))
                 continue
-            if response.status_code >= 400:
+            if response.status_code >= 400 and response.status_code not in accepted_statuses:
                 raise RuntimeError(f"GitHub HTTP {response.status_code}: {method} {urlsplit(url).path}; sprawdź dostęp i uprawnienia.")
             return response
         raise RuntimeError("Wyczerpano ponowienia GitHub")
@@ -73,7 +80,7 @@ class GitHubStore:
             page += 1
 
     def release(self, tag: str, create: bool = False) -> dict | None:
-        response = self.client.get(f"{self.prefix}/releases/tags/{tag}")
+        response = self.request("GET", f"{self.prefix}/releases/tags/{tag}", accepted_statuses=(404,))
         if response.status_code == 404 and create:
             return self.request("POST", f"{self.prefix}/releases", json={
                 "tag_name": tag, "name": tag, "body": OWNER_MARKER, "draft": False,
@@ -94,19 +101,35 @@ class GitHubStore:
     def download(self, asset: dict, destination: Path, expected_hash: str | None = None):
         destination.parent.mkdir(parents=True, exist_ok=True)
         url = f"{self.prefix}/releases/assets/{asset['id']}"
-        total = 0
-        with self.client.stream("GET", url, headers={"Accept": "application/octet-stream"}) as response:
-            if response.status_code >= 400:
-                raise RuntimeError(f"Nie udało się pobrać pliku GitHub: HTTP {response.status_code}")
-            with destination.open("wb") as stream:
-                for chunk in response.iter_bytes():
-                    total += len(chunk)
-                    if total > 1_500_000_000:
-                        raise ValueError("Plik GitHub przekracza limit pobierania")
-                    stream.write(chunk)
-        if expected_hash and digest(destination) != expected_hash:
-            destination.unlink(missing_ok=True)
-            raise ValueError("Niepoprawna suma kontrolna pliku GitHub")
+        with tempfile.NamedTemporaryFile(dir=destination.parent, prefix=".github-download-", delete=False) as temporary:
+            partial = Path(temporary.name)
+        try:
+            for attempt in range(3):
+                try:
+                    total = 0
+                    with self.client.stream("GET", url, headers={"Accept": "application/octet-stream"}) as response:
+                        if response.status_code in {502, 503, 504}:
+                            raise httpx.ReadError(f"Przejściowy błąd GitHub HTTP {response.status_code}")
+                        if response.status_code >= 400:
+                            raise RuntimeError(f"Nie udało się pobrać pliku GitHub: HTTP {response.status_code}")
+                        with partial.open("wb") as stream:
+                            for chunk in response.iter_bytes():
+                                total += len(chunk)
+                                if total > 1_500_000_000:
+                                    raise ValueError("Plik GitHub przekracza limit pobierania")
+                                stream.write(chunk)
+                    if asset.get("size") is not None and total != asset["size"]:
+                        raise httpx.ReadError("Niepełny transfer pliku GitHub")
+                    if expected_hash and digest(partial) != expected_hash:
+                        raise ValueError("Niepoprawna suma kontrolna pliku GitHub")
+                    partial.replace(destination)
+                    return
+                except (httpx.TransportError, OSError) as exc:
+                    if attempt == 2:
+                        raise RuntimeError("Pobieranie pliku GitHub przerwano po 3 próbach; historia wymaga poprawnego archiwum.") from exc
+                    time.sleep(2 ** attempt)
+        finally:
+            partial.unlink(missing_ok=True)
 
     def upload(self, release: dict, name: str, path: Path) -> dict:
         url = release["upload_url"].split("{")[0]
@@ -268,7 +291,7 @@ class GitHubStore:
         lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | " + (f"[HTML]({portable}) · " if portable else "") + f"[ZIP]({html_url}) |" for day, text, archive, url, csv_url, html_url, portable in sorted(rows, reverse=True))
         content = ("\n".join(lines) + "\n").encode()
         endpoint = f"{self.prefix}/contents/{filename}"
-        existing = self.client.get(endpoint)
+        existing = self.request("GET", endpoint, accepted_statuses=(404,))
         payload = {"message": "Update daily monitoring report index", "content": base64.b64encode(content).decode()}
         if existing.status_code == 200:
             data = existing.json()

@@ -148,7 +148,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         text, ocr_note = await asyncio.to_thread(ocr_context, capture.screenshot, folder / "fragment-ocr.png", visual.bbox)
                         note += " " + ocr_note
                     changes.append(Change("review", "obraz", "Zmiana wyglądu lub treści graficznej", None, text or "Patrz obrazy przed/po", before.observed_at, snapshot.observed_at, snapshot.url, snapshot.scenario, note=note))
-                if changes or before is None:
+                if changes or before is None or snapshot.scenario == "podstawowy":
                     shutil.copy2(capture.screenshot, after_path)
                     evidence["po"] = after_path.relative_to(staging).as_posix()
                     if before:

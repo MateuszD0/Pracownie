@@ -81,8 +81,8 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
         text = normalize(block["text"], ignore_patterns)
         if re.search(r"cookies|ciastecz|danych osobowych|sales intelligence|digitree|zarządzaj zgod", text, re.I):
             continue
-        group = category(text)
-        if not group or len(text) < 3:
+        group = category(text) or "tresc"
+        if len(text) < 3:
             continue
         section = slug(block.get("heading", "oferta"))
         grouped.setdefault((section, group), [])

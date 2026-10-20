@@ -3,12 +3,15 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
   group: pracownie-monitor
   cancel-in-progress: false
 jobs:
   rebuild:
     runs-on: ubuntu-24.04
+    environment: github-pages
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -26,3 +29,22 @@ jobs:
       - run: uv run python -m pracownie.rebuild --publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sprawdź dostępność opcjonalnego adresu WWW
+        id: pages
+        run: uv run python -m pracownie.web --check-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Przygotuj gotowy widok HTML i zrzuty
+        if: steps.pages.outputs.enabled == 'true'
+        run: uv run python -m pracownie.web --source .monitor/report-rebuild/raporty
+      - name: Zapisz stronę raportu
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: .monitor/pages
+          retention-days: 1
+      - name: Opublikuj działający raport w przeglądarce
+        if: steps.pages.outputs.enabled == 'true'
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

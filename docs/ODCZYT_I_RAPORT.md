@@ -1,6 +1,6 @@
 # Czytanie raportu ofert
 
-Otwórz dzień w [spisie raportów](../RAPORTY.md). Wydanie GitHub zawiera podsumowanie i tabelę cen. Do filtrowania i oglądania dowodów rozpakuj ZIP i otwórz `raporty/YYYY-MM-DD/index.html`. CSV jest przeznaczony do arkusza; TXT to krótki przegląd dnia.
+Otwórz dzień w [spisie raportów](../RAPORTY.md). Wydanie GitHub zawiera podsumowanie obu stron i tabelę cen. Do filtrowania i oglądania dowodów wybierz **Raport HTML ze zrzutami**, rozpakuj `*-widok.zip` i otwórz `YYYY-MM-DD/index.html`. To gotowy raport, a nie szablon z kodu. Treść i rozwijane sekcje działają także przy wyłączonych skryptach. CSV jest przeznaczony do arkusza; TXT zawiera różnice obu stron według domen.
 
 ## Co oznaczają liczby
 
@@ -25,11 +25,17 @@ CSV używa separatora `;`, przecinka dziesiętnego i kodowania UTF-8 z BOM. Zawi
 
 „Poprzednio” oznacza ostatni poprawny odczyt sprzed dnia raportu. Daty są dostępne w szczegółach oraz CSV. Przy awarii poprzedni poprawny stan pozostaje zachowany; nie staje się nowym odczytem dzisiejszym.
 
+Główna część HTML pokazuje osobno **stronę główną** i **kartę projektu** każdej pracowni, z rzeczywistymi datami i zmienionymi fragmentami. Porównanie z wczoraj ma odstęp jednego dnia w strefie Europe/Warsaw. Starsza baza jest wyraźnie oznaczona jako luka w historii. Brak aktualnego odczytu, pierwszy odczyt i brak zmian mają różne statusy. Opcje ujawnione po interakcji zachowują nazwę scenariusza oraz własne daty.
+
 Jeśli nie uda się ponowienie odczytu w tym samym dniu, raport zachowuje wcześniejszy poprawny odczyt z tego dnia wraz z jego rzeczywistą godziną. Pokazuje również błąd ponowienia. Funkcja nie przenosi wczorajszej ceny do kolumny dzisiejszej.
 
 Pierwszy poprawny skan zapisuje bazę. Zrzut „przed” pochodzi z rzeczywiście zachowanego poprzedniego skanu. Gdy zmieni się cena, tekst lub obraz, raport dołącza dowody przed/po. Sama różnica obrazu wymaga oceny: może być spowodowana reklamą, karuzelą lub układem strony.
 
 Zmiana sposobu odczytu nie stanowi dowodu zmiany oferty. Nowo odczytywane pola dostają punkt odniesienia; nie odtwarza się brakujących cen historycznych z dzisiejszej witryny. Stabilne ceny JSON-LD o tej samej tożsamości produktu mogą być porównane mimo zmiany obsługi przeglądarki.
+
+Różnice pól, które istnieją zarówno przed, jak i po zmianie reguł odczytu, pozostają widoczne w sekcji **Różnice do potwierdzenia** wraz z tekstem i przyczyną niepewności. Nowe lub znikające klucze parsera są w diagnostyce. Nie są automatycznie uznawane za zmiany na witrynie. Widoczna data promocji jest monitorowana; automatycznie zmieniana data `priceValidUntil` z metadanych wymaga potwierdzenia w widocznej ofercie.
+
+Monitorowane są ceny, promocje, dodatki, pakiety, warunki zakupu, funkcjonalności, parametry oraz pozostałe rozpoznane fragmenty widocznej treści. Nieoznaczone słowami sprzedażowymi teksty zapisuje się jako „Treść strony”. Pierwszy odczyt nowej kategorii tworzy bazę porównania.
 
 ## Ograniczenia odczytu
 

@@ -91,7 +91,7 @@ def main():
                 results.append(Result(**raw))
             metadata = data["metadata"]
             metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, load_sites(Path("config/sites.json")))
-            metadata["source_scan_run_id"] = metadata["run_id"]
+            metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()
             metadata["run_id"] = now_iso().replace(":", "").replace("+", "-") + "-format-" + uuid.uuid4().hex[:8]
             results.sort(key=lambda r: (r.domain, r.page, r.scenario))

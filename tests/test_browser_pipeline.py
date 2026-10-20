@@ -22,10 +22,11 @@ def options(executable, day):
 
 
 @pytest.mark.browser
-async def test_functional_baseline_change_same_day_and_failure(sample_site, executable, tmp_path):
+async def test_functional_baseline_change_same_day_and_failure(sample_site, executable, tmp_path, monkeypatch):
     site = site_config(sample_site)
     store = StateStore(tmp_path / "state")
     output = tmp_path / "raporty"
+    monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-18T06:00:00+00:00")
     first = await run_scan([site], store, output, options(executable, "2026-10-18"))
     assert not any(result.changes for result in first["results"])
     assert store.read()["selections"]["test.pl"]["url"].endswith("/projekt-domu-testowy")
@@ -34,12 +35,25 @@ async def test_functional_baseline_change_same_day_and_failure(sample_site, exec
     assert any("nested-" in key for key in store.read()["snapshots"])
     sample_site.price = 4290
     sample_site.bonus = "Kosztorys gratis"
+    sample_site.banner = "Promocja zimowa"
+    monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-19T06:00:00+00:00")
     second = await run_scan([site], store, output, options(executable, "2026-10-19"))
     price_changes = [change for result in second["results"] for change in result.changes if change.delta == "-300.00"]
     assert price_changes
     assert all(change.percent == "-6.54" for change in price_changes)
     assert all(Path(output / change.evidence["przed"]).is_file() for change in price_changes)
     assert all(Path(output / change.evidence["po"]).is_file() for change in price_changes)
+    view = json.loads((output / "2026-10-19" / "oferty.json").read_text())
+    pages = {p["page"]: p for p in view["rows"][0]["pages"]}
+    assert set(pages) == {"glowna", "projekt"}
+    assert all(p["daily"] and p["gap_days"] == 1 for p in pages.values())
+    assert any("Promocja zimowa" in e["after"] for e in pages["glowna"]["events"])
+    assert any(e["delta"] == "-300.00" for e in pages["projekt"]["events"])
+    assert any("gratis" in e["after"] for e in pages["projekt"]["events"])
+    for page in pages.values():
+        assert all(Path(output / page["evidence"][key]).is_file() for key in ["przed", "po"])
+    text = (output / "2026-10-19.txt").read_text()
+    assert "Strona główna: Zmiany:" in text and "Karta projektu: Zmiany:" in text
     verify_outputs(output, "2026-10-19")
     bundle_report(output, "2026-10-19", tmp_path / "report.zip")
     repeated = await run_scan([site], store, output, options(executable, "2026-10-19"))
@@ -102,7 +116,7 @@ async def test_visual_monitoring_without_recognized_sales_text(sample_site, exec
     sample_site.no_sales = True
     site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
     await run_scan([site], store, output, options(executable, "2026-10-18"))
-    assert store.read()["snapshots"]["test.pl/glowna/podstawowy"]["quality"] == "visual"
+    assert store.read()["snapshots"]["test.pl/glowna/podstawowy"]["quality"] == "ok"
     sample_site.background = "#ccddff"
     outcome = await run_scan([site], store, output, options(executable, "2026-10-19"))
     changes = [change for result in outcome["results"] for change in result.changes]
@@ -211,6 +225,6 @@ def test_registry_and_workflow_contract():
     # PyYAML's YAML 1.1 recognizes the key 'on' as boolean true.
     events = workflow.get("on", workflow.get(True))
     assert events["schedule"][0] == {"cron": "17 6 * * *", "timezone": "Europe/Warsaw"}
-    assert workflow["permissions"] == {"contents": "write"}
+    assert workflow["permissions"] == {"contents": "write", "pages": "write", "id-token": "write"}
     assert not workflow["concurrency"]["cancel-in-progress"]
     assert json.loads((root / "config/sites.json").read_text())["schema"] == 1

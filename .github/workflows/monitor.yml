@@ -23,6 +23,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pracownie-monitor
@@ -31,6 +33,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-24.04
+    environment: github-pages
     timeout-minutes: 75
     env:
       UV_FROZEN: 'true'
@@ -79,3 +82,22 @@ jobs:
             raporty/**/pokrycie.json
           if-no-files-found: ignore
           retention-days: 3
+
+      - name: Sprawdź dostępność opcjonalnego adresu WWW
+        id: pages
+        run: uv run python -m pracownie.web --check-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Przygotuj gotowy widok HTML i zrzuty
+        if: steps.pages.outputs.enabled == 'true' && (github.event_name == 'schedule' || inputs.scope == 'full')
+        run: uv run python -m pracownie.web --source raporty
+      - name: Zapisz stronę raportu
+        if: steps.pages.outputs.enabled == 'true' && (github.event_name == 'schedule' || inputs.scope == 'full')
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: .monitor/pages
+          retention-days: 1
+      - name: Opublikuj działający raport w przeglądarce
+        if: steps.pages.outputs.enabled == 'true' && (github.event_name == 'schedule' || inputs.scope == 'full')
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

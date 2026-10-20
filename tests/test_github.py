@@ -171,4 +171,4 @@ def test_daily_index_preserves_unrelated_user_file(tmp_path):
     remote.publish(store, output, "2026-10-19", archive, "2026-10-19T060000-a")
     remote.update_index()
     content = base64.b64decode(fake.repo_files["RAPORTY.md"]["content"]).decode()
-    assert "2026-10-19" in content and "[TXT]" in content and "[ZIP]" in content
+    assert "2026-10-19" in content and "[TXT]" in content and "-widok.zip" in content

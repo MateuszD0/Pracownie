@@ -8,7 +8,7 @@ import io
 import json
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import date, datetime
 from decimal import Decimal
 from importlib.resources import files
 from urllib.parse import urlsplit
@@ -17,7 +17,7 @@ from .extract import MONEY, amount, money_text, normalize
 from .model import WARSAW, Result
 from .offers import price_delta
 
-SALES = {"ceny", "promocje", "dodatki", "pakiety", "warunki", "funkcje", "komunikacja"}
+SALES = {"ceny", "promocje", "dodatki", "pakiety", "warunki", "funkcje", "parametry", "komunikacja", "tresc"}
 TITLES = {
     "ceny": "Cena",
     "promocje": "Promocja",
@@ -26,6 +26,8 @@ TITLES = {
     "warunki": "Warunki zakupu",
     "funkcje": "Funkcjonalność",
     "komunikacja": "Komunikat",
+    "parametry": "Parametry projektu",
+    "tresc": "Treść strony",
 }
 NOISE = re.compile(
     r"cookies|ciastecz|danych osobowych|sales intelligence|digitree|zarządzaj zgod|^\[licznik\]$", re.I
@@ -122,6 +124,8 @@ def _event(change, result: Result) -> dict:
         if result.page == "projekt"
         else "Strona główna"
     )
+    if result.scenario != "podstawowy":
+        context = ("Karta projektu" if result.page == "projekt" else "Strona główna") + " · " + context
     return {
         "category": change.category,
         "label": label,
@@ -138,6 +142,42 @@ def _event(change, result: Result) -> dict:
         "evidence": change.evidence or result.evidence,
         "role": role,
         "page": result.page,
+        "note": change.note.strip(),
+        "before_full": old,
+        "after_full": new,
+    }
+
+
+def page_comparison(day: str, page: str, base: Result | None, entries: list[Result], row: dict) -> dict:
+    events = [e for e in row["events"] if e["page"] == page]
+    reviews = [e for e in row["reviews"] if e["page"] == page]
+    visuals = [v for v in row["visuals"] if v["page"] == page]
+    migrations = sum("reguły odczytu" in c.note for r in entries if r.page == page for c in r.changes)
+    before_at = base.compared_at if base else None
+    gap = (date.fromisoformat(day) - datetime.fromisoformat(before_at).astimezone(WARSAW).date()).days if before_at else None
+    if not base or not base.observed_at:
+        status, label = "missing", "Brak bieżącego odczytu"
+    elif events:
+        status, label = "changed", f"Zmiany: {len(events)}"
+    elif reviews:
+        status, label = "review", f"Do potwierdzenia: {len(reviews)}"
+    elif not before_at:
+        status, label = "baseline", "Pierwszy odczyt — zapisano punkt odniesienia"
+    elif migrations:
+        status, label = "review", "Zmieniono reguły odczytu — porównanie ograniczone"
+    elif base.data_quality != "ok":
+        status, label = "review", "Odczyt częściowy — porównanie ograniczone"
+    elif visuals:
+        status, label = "visual", "Różnica obrazu do oceny"
+    else:
+        status, label = "unchanged", "Bez zmian w odczytanym zakresie"
+    return {
+        "page": page, "label": "Strona główna" if page == "glowna" else "Karta projektu",
+        "url": base.url if base else "", "status": status, "status_label": label,
+        "observed_at": base.observed_at if base else None, "compared_at": before_at,
+        "gap_days": gap, "daily": gap == 1,
+        "events": events, "reviews": reviews, "visuals": visuals,
+        "evidence": base.evidence if base else {}, "extraction_changes": migrations,
     }
 
 
@@ -151,6 +191,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         current = project.offer if project else {}
         previous = project.before_offer if project else {}
         delta, percent = price_delta(previous, current)
+        if project and any(c.kind == "review" and c.field_key == current.get("field_key") for c in project.changes):
+            delta, percent = None, None
         row = {
             "domain": domain,
             "name": selected.get("name") or domain,
@@ -190,6 +232,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     "evidence": project.evidence,
                     "role": "current",
                     "page": "projekt",
+                    "note": "", "before_full": money(previous), "after_full": money(current),
                 }
             )
         keys = set()
@@ -215,7 +258,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                             }
                         )
                     continue
-                if change.category not in SALES or change.field_key.endswith(":priceValidUntil"):
+                if change.category not in SALES:
                     continue
                 if change.category == "ceny" and "pierwotna cena" in change.label.casefold() and "aktualna cena" in change.label.casefold():
                     # A parent block repeats regular/current amounts and their
@@ -225,11 +268,17 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     continue
                 if "reguły odczytu" in change.note:
                     row["migration"] = True
-                    # Extraction changes are not changes in an architect's offer.
-                    continue
+                    # New/disappearing extraction keys cannot establish a site
+                    # change. Matched before/after values remain inspectable.
+                    if change.before is None or change.after is None:
+                        continue
                 if change.delta is not None and Decimal(change.delta) == 0:
                     continue
                 event = _event(change, result)
+                if change.field_key.endswith(":priceValidUntil"):
+                    event["review"] = True
+                    event["label"] = "Termin ceny w metadanych"
+                    event["note"] = "Termin w metadanych może być aktualizowany automatycznie; wymaga potwierdzenia w widocznej ofercie."
                 if event["before"] == event["after"]:
                     continue
                 if (
@@ -246,8 +295,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     result.variant,
                     change.category,
                     event["role"],
-                    _amount_key(change.before),
-                    _amount_key(change.after),
+                    _amount_key(change.before) if change.category == "ceny" else normalize(change.before or ""),
+                    _amount_key(change.after) if change.category == "ceny" else normalize(change.after or ""),
                 )
                 if key in keys:
                     continue
@@ -271,6 +320,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         if project and project.observed_at and project.data_quality == "partial":
             row["issues"].append("Karta odczytana częściowo; cena wymaga potwierdzenia.")
         row["issues"] = list(dict.fromkeys(row["issues"]))
+        row["pages"] = [page_comparison(day, page, base, entries, row) for page, base in [("glowna", home), ("projekt", project)]]
         if not row["home_read"] or not row["project_read"]:
             row["status"], row["status_label"] = "missing", "Brak pełnego odczytu stron"
         elif row["events"]:
@@ -279,7 +329,9 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             row["status"], row["status_label"] = "review", "Porównanie wymaga oceny"
         elif row["visuals"]:
             row["status"], row["status_label"] = "visual", "Obraz do oceny"
-        elif not project.compared_at or row["migration"] and delta is None:
+        elif any(p["status"] == "review" for p in row["pages"]):
+            row["status"], row["status_label"] = "review", "Porównanie ograniczone"
+        elif any(p["status"] == "baseline" for p in row["pages"]):
             row["status"], row["status_label"] = "baseline", "Pierwszy odczyt"
         else:
             row["status"], row["status_label"] = "unchanged", "Bez zmian w odczytanym zakresie"
@@ -299,6 +351,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "review": sum(bool(r["reviews"]) for r in rows),
             "visual": sum(bool(r["visuals"]) for r in rows),
             "missing": sum(not r["home_read"] or not r["project_read"] for r in rows),
+            "daily_pages": sum(p["daily"] and bool(p["observed_at"]) for r in rows for p in r["pages"]),
         },
         "categories": dict(Counter(e["category"] for r in rows for e in r["events"])),
     }
@@ -355,14 +408,28 @@ def render_text(view: dict) -> str:
         )
     lines.extend(["", "SZCZEGÓŁY WEDŁUG DOMEN", ""])
     for row in view["rows"]:
-        if not row["events"] and not row["reviews"] and not row["issues"] and not row["visuals"]:
-            continue
         lines.append(f"{row['domain']} — {row['status_label']}")
+        for page in row["pages"]:
+            lines.append(f"  {page['label']}: {page['status_label']}")
+            lines.append(f"    Porównanie: {when(page['compared_at'])} → {when(page['observed_at'])}")
+            if page["gap_days"] and page["gap_days"] > 1:
+                lines.append(f"    Luka {page['gap_days']} dni; to nie jest porównanie z wczoraj.")
+            for event in page["events"] + page["reviews"]:
+                lines.extend([
+                    f"    {'DO POTWIERDZENIA: ' if event['review'] else ''}{event['label']} ({event['context']})",
+                    f"      PRZED ({when(event['before_at'])}): {event.get('before_full') or event['before']}",
+                    f"      PO ({when(event['after_at'])}): {event.get('after_full') or event['after']}",
+                    f"      Źródło: {event['source']}",
+                ])
+                if event.get("note"):
+                    lines.append("      Ocena: " + event["note"])
+            if page["evidence"]:
+                lines.append("    Zrzuty: " + "; ".join(f"{name}: {path}" for name, path in page["evidence"].items() if name in {"przed", "po"}))
         for issue in row["issues"]:
             lines.append("  " + issue)
         if row["migration"]:
             lines.append(
-                "  Zmieniono reguły odczytu; różnice wynikające z tej zmiany nie są liczone jako zmiany oferty."
+                "  Zmieniono reguły odczytu; różnice dopasowanych pól pokazano do potwierdzenia. Nowe klucze odczytu są w diagnostyce."
             )
         for visual in row["visuals"]:
             lines.append(
@@ -479,6 +546,27 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     lines.extend(
         [
             "",
+            "### Porównanie strony głównej i karty projektu",
+            "",
+            f"Porównania z poprzednim dniem: {c['daily_pages']} stron. Poniżej każda strona ma własny zakres dat. Luka w odczytach nie jest oznaczana jako porównanie z wczoraj.",
+            "",
+            "| Pracownia | Strona główna | Karta projektu |",
+            "| --- | --- | --- |",
+        ]
+    )
+    for row in view["rows"]:
+        cells = [esc(row["domain"])]
+        for page in row["pages"]:
+            cells.append(esc(page["status_label"]) + " · " + when(page["compared_at"], True) + " → " + when(page["observed_at"], True))
+        lines.append("| " + " | ".join(cells) + " |")
+    reviews = [(r, e) for r in view["rows"] for e in r["reviews"]]
+    if reviews:
+        lines.extend(["", "### Różnice do potwierdzenia", "", "Te obserwacje nie są potwierdzonymi zmianami ofert. Pełna lista, daty i zrzuty są w widoku HTML i TXT.", ""])
+        for row, event in reviews[:12]:
+            lines.append(f"- **{esc(row['domain'])} · {esc(event['context'])} · {esc(event['label'])}**: {esc(event['before'])} → {esc(event['after'])}.")
+    lines.extend(
+        [
+            "",
             "### Ceny wybranych projektów",
             "",
             "Cena poprzednio oznacza ostatni poprawny odczyt sprzed dnia raportu. „—” oznacza brak porównywalnej ceny, a nie zero.",
@@ -511,14 +599,74 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
 
 
 def render_html(view: dict) -> str:
-    template = files("pracownie").joinpath("report.html").read_text()
+    template = files("pracownie").joinpath("_report_template.html").read_text()
     payload = (
         json.dumps(view, ensure_ascii=False)
         .replace("<", "\\u003c")
         .replace("\u2028", "\\u2028")
         .replace("\u2029", "\\u2029")
     )
-    return template.replace("__REPORT_DATA__", payload).replace("__REPORT_DAY__", html.escape(view["day"]))
+    # Core content is rendered on the server too. Sandboxed previews and
+    # browsers with scripts disabled must still display the complete report.
+    replacements = {
+        "__REPORT_DATA__": payload,
+        "__REPORT_DAY__": html.escape(view["day"]),
+        "__STATIC_DAILY__": render_daily_html(view),
+        "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
+        "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
+    }
+    # One pass: source text containing a placeholder is data, never a template.
+    return re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
+
+
+def render_daily_html(view: dict) -> str:
+    def esc(value):
+        return html.escape(str(value or ""), quote=True)
+
+    def proof(path):
+        from pathlib import PurePosixPath
+        from urllib.parse import quote
+        parts = PurePosixPath(path).parts
+        if not parts or parts[0] != view["day"] or ".." in parts:
+            return ""
+        return "/".join(quote(p, safe="") for p in parts[1:])
+
+    def event_html(event):
+        return (
+            '<article class="daily-event"><strong>' + ("Do potwierdzenia · " if event["review"] else "") + esc(event["label"]) + '</strong>'
+            + '<p class="small">' + esc(event["context"]) + '</p><div class="values"><div class="value"><small>Przed · '
+            + esc(when(event["before_at"])) + '</small>' + esc(event.get("before_full") or event["before"])
+            + '</div><div class="value after"><small>Po · ' + esc(when(event["after_at"])) + '</small>'
+            + esc(event.get("after_full") or event["after"]) + '</div></div>'
+            + ('<p class="small">' + esc(event.get("note")) + '</p>' if event.get("note") else "") + '</article>'
+        )
+
+    blocks = []
+    for row in view["rows"]:
+        pages = []
+        for page in row["pages"]:
+            link = safe_url(page["url"])
+            title = '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(page["label"]) + '</a>' if link else esc(page["label"])
+            part = '<section class="daily-page" data-page="' + page["page"] + '"><h3>' + title + '</h3>'
+            part += '<span class="badge ' + page["status"] + '">' + esc(page["status_label"]) + '</span>'
+            part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
+            if page["gap_days"] and page["gap_days"] > 1:
+                part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
+            part += ''.join(event_html(e) for e in page["events"])
+            if page["reviews"]:
+                part += '<details class="reviews"><summary>Różnice do potwierdzenia (' + str(len(page["reviews"])) + ')</summary>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
+            images = []
+            for key, label, at in [("przed", "Przed", page["compared_at"]), ("po", "Po", page["observed_at"])]:
+                path = proof(page["evidence"].get(key, ""))
+                if path:
+                    images.append('<figure><a href="' + esc(path) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(path) + '" alt="' + label + ' — ' + esc(row["domain"] + ' · ' + page["label"]) + '"><figcaption>' + label + ' · ' + esc(when(at)) + '</figcaption></a></figure>')
+            if images:
+                part += '<details class="page-proofs"><summary>Zrzuty przed / po</summary><div class="proofs">' + ''.join(images) + '</div></details>'
+            if page["extraction_changes"]:
+                part += '<p class="small">Zmiana reguł odczytu: nowe lub niedopasowane pola pozostają w diagnostyce; nie potwierdzają zmiany na stronie.</p>'
+            pages.append(part + '</section>')
+        blocks.append('<article class="day-domain box" data-domain="' + esc(row["domain"]) + '"><h3>' + esc(row["domain"]) + '</h3><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div></article>')
+    return ''.join(blocks) or '<p class="empty">Brak odczytów w tym raporcie.</p>'
 
 
 def safe_url(value: str) -> str:

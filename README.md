@@ -31,7 +31,11 @@ Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Re
 
 Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumowanie i tabelę cen bez pobierania archiwum. Dostępne są krótki TXT, CSV do arkusza, osobna diagnostyka i ZIP ze zrzutami.
 
-Po rozpakowaniu ZIP otwórz `raporty/YYYY-MM-DD/index.html`: raport ma wyszukiwanie domen/projektów, filtry zmian cen i brakujących odczytów oraz przycisk „Szczegóły” ze zrzutami przed/po. Działa lokalnie, bez serwera i zewnętrznych bibliotek. Folder dnia zawiera także `oferty.csv`, `oferty.json`, `podsumowanie.md`, surowe `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Błędy Playwright nie zaśmiecają podsumowania ofert.
+W wydaniu wybierz **Raport HTML ze zrzutami**, rozpakuj mniejsze archiwum `*-widok.zip` i otwórz `YYYY-MM-DD/index.html`. Raport pokazuje dwie osobne sekcje dla każdej domeny: stronę główną i wybraną kartę projektu. Każda zawiera status, daty poprzedniego i bieżącego odczytu, zmienione fragmenty tekstu oraz rozwijane zrzuty przed/po. Dostępne są wyszukiwanie i filtry rodzaju strony, zmian oraz braków. Treść raportu jest widoczna również bez JavaScript.
+
+Widok zawiera lżejsze zrzuty JPEG. Pełne archiwum zachowuje oryginalne PNG, obrazy różnic i dane: `raporty/YYYY-MM-DD/index.html`, `oferty.csv`, `oferty.json`, `podsumowanie.md`, `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Plik `_report_template.html` w kodzie jest wyłącznie szablonem; otwieraj wygenerowany `index.html`.
+
+Opcjonalny stały adres WWW wymaga jednorazowego ustawienia **Settings → Pages → Build and deployment → Source: GitHub Actions** przez właściciela repozytorium. Po włączeniu kolejne pełne skany i przebudowy raportu automatycznie publikują najnowszy dzień w Pages. Historia 180 dni pozostaje w Releases; Pages przechowuje bieżący widok. Wyłączone Pages nie blokuje skanów ani publikacji HTML w wydaniach.
 
 Cena projektu jest wybierana z konkretnego pola zakupu lub danych produktu. Cena regularna, najniższa z 30 dni, dodatki i koszt budowy nie są ceną aktualną. Kwoty netto i ceny za lokal mają odpowiednie oznaczenia; zakresy wariantów nie są przedstawiane jako pojedyncza cena. Różnica kwot wymaga tego samego źródła pola, waluty, podatku i jednostki. Zmiana parsera ustanawia nowy odczyt dla zmienionych pól i nie jest sama w sobie zmianą oferty.
 

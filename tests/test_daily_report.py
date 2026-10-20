@@ -130,7 +130,7 @@ def test_technical_uncertainty_is_owned_by_monitor_and_preserved_outside_busines
     entries[1].changes = [Change("review", "ceny", "Termin", "2026-10-20", "2026-10-21", BEFORE, AFTER, entries[1].url, "podstawowy", field_key="oferta:dom:priceValidUntil")]
     report = make_view(entries)
     conclusion = assessment(report)
-    assert conclusion["title"] == "Niepełna ocena zmian ofert"
+    assert conclusion["title"] == "Zakres porównania komunikacji"
     assert conclusion["unchanged"] == 0 and conclusion["uncompared"] == 1
     assert report["counts"]["events"] == 0
     soup = BeautifulSoup(render_html(report), "html.parser")
@@ -141,8 +141,8 @@ def test_technical_uncertainty_is_owned_by_monitor_and_preserved_outside_busines
     assert soup.select('details.reviews:not([open])')
     markdown = render_markdown(report)
     headline = markdown.split('<details>')[0]
-    assert 'Niepełna ocena zmian ofert' in headline
-    assert 'Wiarygodne porównanie ceny dzień do dnia: 0/1' in headline
+    assert 'Zakres porównania komunikacji' in headline
+    assert 'Pełne porównanie zapisanego zakresu: 0/2 stron' in headline
     assert 'Rabat 10%' not in headline
     assert 'Nie masz niczego potwierdzać' in render_text(report)
 
@@ -157,7 +157,8 @@ def test_price_conclusion_counts_only_comparable_prices_captured_on_both_days():
     report = make_view(entries)
     assert assessment(report)["prices"] == assessment(report)["unchanged"] == 1
     assert assessment(report)["uncompared"] == 0
-    assert '| test.pl | 3 500,00 zł | 3 500,00 zł | bez zmiany ceny |' in render_markdown(report).split('<details>')[0]
+    assert '| test.pl | 3 500,00 zł | 3 500,00 zł | bez zmiany ceny |' in render_markdown(report)
+    assert '3 500,00 zł' not in render_markdown(report).split('<details>')[0]
     entries[1].before_offer["observed_at"] = "2026-10-18T06:00:00+00:00"
     conclusion = assessment(make_view(entries))
     assert conclusion["prices"] == conclusion["unchanged"] == 0

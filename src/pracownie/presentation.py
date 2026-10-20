@@ -16,7 +16,13 @@ from urllib.parse import urlsplit
 
 from .extract import MONEY, amount, money_text, normalize
 from .journal import build_journal, render_journal_html
-from .management import build_management, render_availability, render_management
+from .management import (
+    build_management,
+    communication_summary,
+    render_availability,
+    render_communication_table,
+    render_management,
+)
 from .model import WARSAW, Result
 from .offers import price_delta
 
@@ -52,17 +58,13 @@ def assessment(view: dict) -> dict:
     reasons = Counter(technical_reason(e) for r in view["rows"] for e in r["reviews"])
     total = view["counts"]["domains"]
     unchanged = sum(Decimal(r["delta"]) == 0 for r in prices)
-    lines = [
-        f"Potwierdzone zmiany ofert: {view['counts']['events']}.",
-        f"Wiarygodne porównanie ceny dzień do dnia: {len(prices)}/{total} pracowni. Cena bez zmian: {unchanged}; spadki: {sum(Decimal(r['delta']) < 0 for r in prices)}; wzrosty: {sum(Decimal(r['delta']) > 0 for r in prices)}.",
-    ]
-    if len(prices) < total:
-        lines.append(f"Dla {total - len(prices)} pracowni nie można ustalić dziennej zmiany ceny. Brak wyniku nie oznacza braku zmian.")
+    lines = [communication_summary(view)]
+    lines.append("Ceny są miarą dodatkową i nie określają zakresu monitorowania komunikacji. Brak porównywalnego zapisu nie oznacza braku zmian.")
     if reasons["method"] or reasons["metadata"]:
         lines.append(f"Problemy danych: {reasons['method']} niejednoznacznych różnic po zmianie sposobu odczytu; {reasons['metadata']} różnic metadanych bez potwierdzenia w widocznej ofercie.")
         lines.append("Nie masz niczego potwierdzać. Te problemy wymagają naprawy po stronie monitora i nie są ustalonymi zmianami ofert.")
     limited = len(prices) < total or bool(sum(reasons.values())) or view["counts"]["missing"] > 0
-    return {"title": "Niepełna ocena zmian ofert" if limited else "Wynik w sprawdzonym zakresie", "lines": lines, "prices": len(prices), "unchanged": unchanged, "uncompared": total - len(prices)}
+    return {"title": "Zakres porównania komunikacji" if limited else "Wynik w sprawdzonym zakresie", "lines": lines, "prices": len(prices), "unchanged": unchanged, "uncompared": total - len(prices)}
 
 
 def money(offer: dict) -> str:
@@ -146,6 +148,8 @@ def _event(change, result: Result) -> dict:
         else "current"
     )
     label = TITLES.get(change.category, change.label)
+    if change.details.get("communication"):
+        label = change.label
     if change.category == "ceny":
         label = (
             "Cena regularna"
@@ -183,6 +187,7 @@ def _event(change, result: Result) -> dict:
         "note": "Zmieniono reguły odczytu lub przeglądarkę. Nie ustalono, czy różnica dotyczy oferty; problem wymaga naprawy po stronie monitora." if "reguły odczytu" in change.note else change.note.strip(),
         "before_full": old,
         "after_full": new,
+        "basis": change.details.get("basis", ""),
     }
 
 
@@ -194,6 +199,20 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
     before_at = base.compared_at if base else None
     gap = (date.fromisoformat(day) - datetime.fromisoformat(before_at).astimezone(WARSAW).date()).days if before_at else None
     current_read = bool(base and base.observed_at and datetime.fromisoformat(base.observed_at).astimezone(WARSAW).date().isoformat() == day)
+    communication = dict(base.communication) if base else {}
+    communication["daily"] = gap == 1 and current_read and bool(communication.get("comparable"))
+    if not current_read:
+        communication.update(status="missing", label="Brak odczytu", ready=False)
+    elif gap is not None and gap > 1:
+        communication.update(status="gap", label=f"Luka {gap} dni · brak porównania z wczoraj")
+    elif communication.get("comparable") and gap == 1:
+        communication["label"] = f"Zmiany komunikacji: {communication['changes']}" if communication["changes"] else "Bez zmian w zapisanej komunikacji"
+    elif communication.get("status") == "partial" and communication.get("shared_unchanged"):
+        communication["label"] = f"Częściowe · {communication['shared_unchanged']} zgodnych tekstów"
+    elif communication.get("status") == "partial":
+        communication["label"] = "Niepełny zakres porównania"
+    else:
+        communication["label"] = "Pierwszy zapis · brak porównywalnej bazy"
     if not current_read:
         status, label = "missing", "Brak bieżącego odczytu"
     elif events:
@@ -220,6 +239,7 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         "quality_notes": [issue_text(w) for w in base.warnings] if base else [],
         "events": events, "reviews": reviews, "visuals": visuals,
         "evidence": base.evidence if base else {}, "extraction_changes": migrations,
+        "communication": communication,
     }
 
 
@@ -304,6 +324,10 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     + issue_text(result.error)
                 )
             for change in result.changes:
+                if result.communication.get("comparable") and change.field_key.startswith("tekst:"):
+                    # Dedicated copy inventory replaces the older categorized
+                    # blocks, avoiding duplicate or parser-version alerts.
+                    continue
                 if change.category == "obraz":
                     if result.scenario == "podstawowy" and not any(
                         v["page"] == result.page for v in row["visuals"]
@@ -440,7 +464,7 @@ def render_text(view: dict) -> str:
     c = view["counts"]
     pair = view["comparison"]
     lines = [
-        f"OFERTY PRACOWNI — {view['day']}",
+        f"KOMUNIKACJA PRACOWNI — {view['day']}",
         assessment(view)["title"].upper(),
         *assessment(view)["lines"],
         "",
@@ -462,6 +486,10 @@ def render_text(view: dict) -> str:
     if not journal:
         table.append("Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. Zobacz kompletność danych powyżej.")
     lines.extend(table + [""])
+    lines.extend(["KOMUNIKACJA — WSZYSTKIE PRACOWNIE", "Pracownia | Strona główna | Karta projektu"])
+    for row in view["rows"]:
+        lines.append(" | ".join([row["domain"], *[p["communication"]["label"] + ("; nowa baza gotowa" if p["communication"].get("ready") and p["current_read"] else "") + "; " + p["url"] for p in row["pages"]]]))
+    lines.append("")
     events = [(r, e) for r in view["rows"] for e in r["events"]]
     if not events:
         lines.append("Brak potwierdzonych zmian sprzedażowych w poprawnie porównanym zakresie.")
@@ -620,13 +648,13 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     if not paired:
         price_lines = ["Brak wiarygodnych porównań cen z obu dni."]
     lines = [
-        f"## Oferty pracowni · {view['day']}",
+        f"## Komunikacja pracowni · {view['day']}",
         "",
         "### Wynik zarządczy",
         "",
-        f"**Obniżki cen wybranych projektów: {management['metrics']['price_cuts']} pracowni · zmiany promocji: {management['metrics']['promotions']} pracowni · zmiany dodatków i pakietów: {management['metrics']['extras']} pracowni.** Tylko potwierdzone zmiany dzień do dnia; każda pracownia jest liczona raz w danym KPI.",
+        f"**Zmiany komunikacji: {management['metrics']['communication']} pracowni · strony główne: {management['metrics']['home_changes']} · karty projektów: {management['metrics']['project_changes']}.** Tylko konkretne zmiany dzień do dnia; każda pracownia jest liczona raz w danym wskaźniku.",
         "",
-        f"Odczytano {c['home']}/{c['domains']} stron głównych i {c['project']}/{c['domains']} kart. **Ceny porównano dla {len(pair['price_domains'])}/{c['domains']} pracowni.** Brak porównania nie oznacza braku zmian.",
+        communication_summary(view),
         "",
         "### Najważniejsze zmiany dzień do dnia",
         "",
@@ -641,13 +669,19 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
         "",
         "\n\n".join(assessment(view)["lines"]),
         "",
-        *price_lines,
+        "### Dzienny przegląd wszystkich pracowni",
+        "",
+        "| Pracownia | Strona główna | Karta projektu | Źródła |",
+        "| --- | --- | --- | --- |",
+        *["| " + " | ".join([esc(r['domain']), *[esc(p['communication']['label']) + (' · nowa baza gotowa' if p['communication'].get('ready') and p['current_read'] else '') for p in r['pages']], ' · '.join('[' + ('Główna' if p['page']=='glowna' else 'Projekt') + '](' + p['url'] + ')' for p in r['pages'] if p['url'])]) + " |" for r in view['rows']],
+        "",
+        "<details><summary>Ceny projektów — informacje dodatkowe</summary>", "", *price_lines, "", "</details>",
         "",
         f"**Archiwum odczytów: {pair['before_day']} → {pair['after_day']}**. Zapisano {pair['paired_home']} par stron głównych i {pair['paired_project']} par kart projektów oraz {pair['screenshot_pairs']} par zrzutów. Są to zapisane materiały, nie liczba ustalonych zmian.",
         "",
         f"Odczytano **{c['home']}/{c['domains']} stron głównych** i **{c['project']}/{c['domains']} kart projektów**. Ustalono {c['prices']} cen; porównywalne pary cen: {c['price_pairs']}. **{c['events']} potwierdzonych zmian ofert** w {c['changed']} domenach.",
         "",
-        "### Zmiany ofert",
+        "<details><summary>Dodatkowe zmiany ofert i ceny</summary>",
         "",
     ]
     events = [(r, e) for r in view["rows"] for e in r["events"]]
@@ -662,6 +696,8 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
             lines.extend(["", f"![Zrzut porównawczy — {esc(row['domain'])}]({images[proof]})", ""])
     lines.extend(
         [
+            "",
+            "</details>",
             "",
             "<details><summary>Szczegóły odczytów, cen i ograniczeń monitora</summary>",
             "",
@@ -753,6 +789,7 @@ def render_html(view: dict) -> str:
         "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
         "__STATIC_MANAGEMENT__": render_management(view),
         "__STATIC_AVAILABILITY__": render_availability(view),
+        "__STATIC_COMMUNICATION__": render_communication_table(view),
         "__SECONDARY_COUNT__": str(len(view["management"]["secondary"])),
         "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Nie ustalono potwierdzonych zmian sprzedażowych. Niepełny zakres porównania jest opisany w wyniku powyżej.</p>',
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),

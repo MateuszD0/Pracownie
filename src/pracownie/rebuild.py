@@ -7,8 +7,10 @@ import json
 import os
 import shutil
 import uuid
+from datetime import datetime
 from pathlib import Path
 
+from .communication import measure
 from .compare import compare
 from .github import GitHubStore
 from .images import image_difference, visual_evidence, visual_text
@@ -18,6 +20,30 @@ from .offers import primary_offer
 from .pipeline import preserve_same_day_reads
 from .report import bundle_report, restore_report, verify_outputs, write_outputs
 from .state import StateStore
+
+
+def enrich_communication(results: list[Result], output: Path, state: dict) -> None:
+    """Use original timestamp-matched captures, never fetch a historical page."""
+    for result in results:
+        if not result.observed_at or result.scenario == "ponowienie-podstawowego":
+            continue
+        key = f"{result.domain}/{result.page}/{result.scenario}"
+        # Folder uses the report's Warsaw day, which can differ from UTC.
+        path = output / local_day(datetime.fromisoformat(result.observed_at)) / slug(result.domain) / result.page / slug(result.scenario) / "odczyt.json"
+        try:
+            raw = json.loads(path.read_text())
+        except (OSError, ValueError):
+            raw = state.get("snapshots", {}).get(key)
+        if not raw or raw.get("observed_at") != result.observed_at or (raw.get("domain"), raw.get("page"), raw.get("scenario")) != (result.domain, result.page, result.scenario):
+            continue
+        prior = state.get("anchor", {}).get(key)
+        before = Snapshot.from_dict(prior) if prior and prior.get("observed_at") == result.compared_at else None
+        result.communication, changes = measure(before, Snapshot.from_dict(raw))
+        # Rebuild is idempotent and keeps the original source evidence.
+        result.changes = [c for c in result.changes if not c.field_key.startswith("communication:")]
+        for change in changes:
+            change.evidence = dict(result.evidence)
+        result.changes.extend(changes)
 
 
 def repair_archived_quotes(results: list[Result], output: Path, day: str) -> list[dict]:
@@ -153,6 +179,7 @@ def main():
             metadata["report_rendered_at"] = now_iso()
             metadata["run_id"] = now_iso().replace(":", "").replace("+", "-") + "-format-" + uuid.uuid4().hex[:8]
             enrich_visual_results(results, output, store)
+            enrich_communication(results, output, store.read())
             results.sort(key=lambda r: (r.domain, r.page, r.scenario))
             write_outputs(output, day, results, metadata, selections, domains)
             verify_outputs(output, day)

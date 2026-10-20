@@ -44,10 +44,10 @@ Skan i przebudowa mają wspólną blokadę zapisu stanu. Opcjonalna publikacja P
 
 ## Dashboard zarządczy
 
-- Trzy KPI liczą **pracownie**, raz w danej kategorii: obniżka ceny tego samego wybranego projektu i wariantu, zmiana promocji, zmiana dodatków lub pakietów. Zakres ogranicza się do par odczytów z wczoraj i dnia raportu.
-- Dane są częściowe, dopóki nie ma wiarygodnego porównania wszystkich cen. Bieżący odczyt, zapisane pary stron i porównywalne ceny mają osobne liczniki. Stary poprawny odczyt nie zwiększa licznika dzisiejszych odczytów.
-- W tabeli głównej najpierw są ceny, promocje, dodatki i warunki. Sam zmieniony zrzut, bez rozpoznanego faktu dotyczącego elementu strony, pozostaje w rozwijanym archiwum. Nie ustala przebudowy strony ani nowej promocji.
-- Pracownie z problemami pozostają w tabeli dostępności. Przy każdej podano oddzielnie stronę główną, kartę, cenę i konkretną przyczynę braku wyniku. Szczegóły, niepewne odczyty i duże obrazy są domyślnie zwinięte.
+- Trzy główne wskaźniki liczą **pracownie** ze zmianą komunikacji: łącznie, na stronie głównej i na karcie projektu. Pracownia jest liczona raz w danym wskaźniku; zakres to pary z wczoraj i dnia raportu. Ceny są informacją dodatkową. [Zasady komunikacji](KOMUNIKACJA.md).
+- Zakres komunikacji ma niezależne liczniki dla obu stron: pełne porównanie zapisanego zakresu, zgodne fragmenty ze starszego skanu, dzisiejszy odczyt i gotowość nowej bazy. Porównywalne ceny nie ograniczają komunikacji. Stary poprawny odczyt nie zwiększa licznika dzisiejszych odczytów.
+- W tabeli głównej są komunikaty, nagłówki, promocje, dodatki, CTA i warunki; ceny są w szczegółach. Sam zmieniony zrzut, bez rozpoznanego faktu dotyczącego elementu strony, pozostaje w rozwijanym archiwum. Nie ustala przebudowy strony ani nowej promocji.
+- Wszystkie pracownie pozostają w widocznej tabeli komunikacji, osobno dla obu stron. Tabela dostępności wyjaśnia braki. Szczegóły, ceny, niepewne odczyty i duże obrazy są domyślnie zwinięte.
 - Filtry domeny, rodzaju i strony ograniczają główną tabelę, KPI oraz eksport widocznych wierszy. Pokrycie danych opisuje wybrane pracownie/strony, niezależnie od kategorii zmiany. Lista obserwowanych jest preferencją lokalną w przeglądarce; nie zmienia zakresu codziennego skanu.
 - Historia dni prowadzi do rzeczywistych raportów w `RAPORTY.md`. Nie generujemy wykresów 7/30 dni ani zer za brakujące odczyty bez odpowiedniej historii.
 - Odpowiedź 429 wstrzymuje następne próby danej domeny zgodnie z `Retry-After` (liczba sekund lub data HTTP). Długie przerwy nie są skracane, aby zmieścić skan. Odpowiedzi 403 pozostają jawnym brakiem dostępu.

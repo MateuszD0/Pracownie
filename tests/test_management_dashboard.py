@@ -38,12 +38,13 @@ def test_management_counts_firms_once_and_does_not_promote_pixel_noise_or_missin
     view = management_view()
     data = view["management"]
     assert data["metrics"]["price_cuts"] == data["metrics"]["promotions"] == data["metrics"]["extras"] == 1
-    assert len(data["items"]) == 4 and len(data["secondary"]) == 2
-    assert data["items"][0]["selected_price"] and data["items"][0]["delta"] == "-500.00"
+    assert len(data["items"]) == 3 and len(data["secondary"]) == 3
+    assert data["metrics"]["communication"] == data["metrics"]["home_changes"] == data["metrics"]["project_changes"] == 1
+    assert any(e["selected_price"] and e["delta"] == "-500.00" for e in data["secondary"])
     soup = BeautifulSoup(render_html(view), "html.parser")
-    assert "1/2" in soup.select_one('#executive').text
-    assert len(soup.select('#journal [data-journal-domain]')) == 4
-    assert len(soup.select('#secondary-journal [data-journal-domain]')) == 2
+    assert "0/4" in soup.select_one('#executive').text
+    assert len(soup.select('#journal [data-journal-domain]')) == 3
+    assert len(soup.select('#secondary-journal [data-journal-domain]')) == 3
     assert '403' in soup.select_one('#availability').text
     assert not soup.select('#secondary[open], #diagnostic-observations[open], .day-domain[open]')
     assert 'Zmienił się obraz' not in render_markdown(view).split('<details>')[0]
@@ -75,16 +76,18 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         errors = []
         page.on("pageerror", lambda e: errors.append(str(e)))
         await page.set_content(render_html(management_view()))
-        assert await page.locator('#metric-price_cuts').inner_text() == '1'
+        assert await page.locator('#metric-communication').inner_text() == '1'
         assert await page.locator('#executive').is_visible()
         assert not await page.locator('#secondary-journal').is_visible()
         await page.locator('[data-filter="price"]').click()
         assert await page.locator('[data-filter="price"]').evaluate('e=>e===document.activeElement')
         await page.locator('[data-filter="all"]').click()
         await page.locator('#page-filter').select_option('glowna')
-        assert await page.locator('#metric-price_cuts').inner_text() == '0'
-        assert await page.locator('#metric-promotions').inner_text() == '1'
+        assert await page.locator('#metric-project_changes').inner_text() == '—'
+        assert await page.locator('#metric-home_changes').inner_text() == '1'
         assert await page.locator('#journal tr[data-journal-domain]:visible').count() == 1
+        assert await page.locator('[data-communication-page=projekt]:visible').count() == 0
+        assert await page.locator('[data-communication-domain]:visible').count() == 2
         async with page.expect_download() as download_event:
             await page.locator('#export-visible').click()
         download = await download_event.value
@@ -96,9 +99,9 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         assert not await page.locator('[data-availability-domain="blocked.pl"]').is_visible()
         await page.locator('#search').fill('brak')
         assert 'Brak pracowni' in await page.locator('#summary-title').inner_text()
-        assert await page.locator('#metric-promotions').inner_text() == '0'
+        assert await page.locator('#metric-home_changes').inner_text() == '—'
         await page.locator('#reset-filters').click()
-        assert await page.locator('#metric-price_cuts').inner_text() == '1'
+        assert await page.locator('#metric-communication').inner_text() == '1'
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         assert not errors
         await context.close()

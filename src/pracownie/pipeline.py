@@ -16,6 +16,7 @@ from playwright.async_api import Error as BrowserError
 from playwright.async_api import TimeoutError as BrowserTimeout
 
 from .browser import BrowserScanner, Capture, TransientFetchError, UnusableControl, infer_scenarios
+from .communication import measure
 from .compare import compare
 from .extract import is_listing_title, page_identity
 from .images import image_difference, ocr_context, visual_evidence, visual_text
@@ -141,6 +142,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 before = store.previous(state, snapshot.key)
                 snapshot.image = store.image(capture.screenshot)
                 changes, retained = compare(before, snapshot, excluded_prices)
+                communication, copy_changes = measure(before, snapshot)
+                changes.extend(copy_changes)
                 folder = staging / day / slug(snapshot.domain) / snapshot.page / slug(snapshot.scenario)
                 folder.mkdir(parents=True, exist_ok=True)
                 (folder / "odczyt.json").write_bytes(json_bytes(snapshot.to_dict()))
@@ -198,7 +201,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                                       data_quality=snapshot.quality, scenario_label=capture.payload.get("scenario_label", snapshot.scenario),
                                       offer=primary_offer(snapshot, excluded_prices) if snapshot.page == "projekt" else {},
                                       before_offer=primary_offer(before, excluded_prices) if snapshot.page == "projekt" else {},
-                                      compared_at=before.observed_at if before else None, variant=capture.payload.get("variant", "")))
+                                      compared_at=before.observed_at if before else None, variant=capture.payload.get("variant", ""), communication=communication))
                 if snapshot.quality == "ok" or snapshot.quality == "visual" and (before is None or not before.fields):
                     state["snapshots"][snapshot.key] = retained.to_dict()
 

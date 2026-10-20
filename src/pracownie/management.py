@@ -1,119 +1,117 @@
-"""Executive decisions use confirmed daily facts, with explicit coverage."""
+"""Management view: communication first, with page-level measurement coverage."""
 
 from __future__ import annotations
 
 import html
-from collections import Counter
-from datetime import datetime
 from decimal import Decimal
 
 from .journal import capture_day
-from .model import WARSAW
 
 
 def build_management(view: dict) -> dict:
-    journal = view["journal"]
-    # A changed screenshot alone cannot explain a redesign. Keep the material
-    # available for inspection, without promoting it into an executive finding.
-    meaningful = [e for e in journal if e["daily"] and e.get("specific", e["category"] != "obraz")]
-    priority = {"ceny": 0, "promocje": 1, "dodatki": 2, "pakiety": 2, "warunki": 3,
-                "funkcje": 3, "parametry": 4, "komunikacja": 5, "tresc": 5, "obraz": 6}
-    meaningful.sort(key=lambda e: (priority.get(e["category"], 5), -abs(Decimal(e.get("delta") or "0")), e["domain"], e["id"]))
+    journal = view['journal']
+    meaningful = [e for e in journal if e['daily'] and e['category'] != 'ceny' and e.get('specific', e['category'] != 'obraz')]
+    priority = {'promocje': 0, 'komunikacja': 1, 'tresc': 1, 'dodatki': 2, 'pakiety': 2, 'warunki': 3, 'funkcje': 3, 'obraz': 4, 'parametry': 5}
+    meaningful.sort(key=lambda e: (priority.get(e['category'], 5), e['domain'], e['page'], e['id']))
     domains = []
-    for row in view["rows"]:
-        pages = row["pages"]
+    for row in view['rows']:
         problems = []
-        for page in pages:
-            prefix = page["label"] + ": "
-            if not page.get("current_read", bool(page["observed_at"]) and capture_day(page["observed_at"]) == view["day"]):
-                reason = page.get("error_text") or ("brak odczytu z dnia raportu" if page["observed_at"] else "brak odczytu")
-                problems.append(prefix + reason)
-            elif page.get("data_quality", "ok") not in {"ok", "visual"}:
-                problems.append(prefix + "odczyt częściowy" + (" — " + "; ".join(page.get("quality_notes", [])) if page.get("quality_notes") else ""))
-            elif page["reviews"] or page["extraction_changes"]:
-                problems.append(prefix + "niezgodne lub niejednoznaczne odczyty z obu dni")
-            elif not page["compared_at"]:
-                problems.append(prefix + "pierwszy odczyt; brak wcześniejszej bazy")
-            elif not page["daily"]:
-                problems.append(prefix + f"brak porównania z wczoraj (luka {page['gap_days']} dni)")
-        if row["domain"] not in view["comparison"]["price_domains"]:
-            if not row["current"]:
-                reason = "nie rozpoznano jednoznacznej ceny" if row["project_read"] else "brak bieżącego odczytu karty"
-            elif row["current"].get("quality") != "ok":
-                reason = "bieżąca kwota jest niepewna lub obejmuje warianty"
-            elif not row["previous"]:
-                reason = "brak wcześniejszej ceny tego samego pola i wariantu"
-            elif capture_day(row["previous"].get("observed_at")) != view["comparison"]["before_day"]:
-                reason = "brak ceny z wczoraj"
+        for page in row['pages']:
+            communication = page.get('communication', {})
+            if not page.get('current_read'):
+                reason = page.get('error_text') or 'brak odczytu z dnia raportu'
+            elif communication.get('daily'):
+                continue
+            elif page.get('data_quality', 'ok') not in {'ok', 'visual'}:
+                reason = 'odczyt częściowy' + (' — ' + '; '.join(page.get('quality_notes', [])) if page.get('quality_notes') else '')
             else:
-                reason = "ceny mają różne pola, warianty lub jakość odczytu"
-            problems.append("Cena: " + reason)
-        domains.append({"domain": row["domain"], "problems": problems,
-                        "interaction_issues": [i for i in row["issues"] if i.startswith("Dodatkowe interakcje")],
-                        "price_pair": row["domain"] in view["comparison"]["price_domains"]})
-    sales = [e for e in meaningful if e["category"] != "obraz"]
+                reason = communication.get('reason') or communication.get('label') or 'brak porównywalnej bazy komunikacji'
+            problems.append(page['label'] + ': ' + reason)
+        domains.append({'domain': row['domain'], 'problems': problems,
+                        'interaction_issues': [i for i in row['issues'] if i.startswith('Dodatkowe interakcje')],
+                        'price_pair': row['domain'] in view['comparison']['price_domains']})
+    all_daily = [e for e in journal if e['daily'] and e.get('specific', e['category'] != 'obraz')]
+    sales = [e for e in meaningful if e['category'] != 'obraz']
     return {
-        "items": meaningful,
-        "secondary": [e for e in journal if e not in meaningful],
-        "domains": domains,
-        "metrics": {
-            "price_cuts": len({e["domain"] for e in meaningful if e.get("selected_price") and Decimal(e.get("delta") or "0") < 0}),
-            "promotions": len({e["domain"] for e in meaningful if e["category"] == "promocje"}),
-            "extras": len({e["domain"] for e in meaningful if e["category"] in {"dodatki", "pakiety"}}),
-            "sales": len(sales), "changed_domains": len({e["domain"] for e in sales}),
-            "visual_facts": sum(e["category"] == "obraz" for e in meaningful),
+        'items': meaningful,
+        'secondary': [e for e in journal if e not in meaningful],
+        'domains': domains,
+        'metrics': {
+            'communication': len({e['domain'] for e in meaningful}),
+            'home_changes': len({e['domain'] for e in meaningful if e['page'] == 'glowna'}),
+            'project_changes': len({e['domain'] for e in meaningful if e['page'] == 'projekt'}),
+            'price_cuts': len({e['domain'] for e in all_daily if e.get('selected_price') and Decimal(e.get('delta') or '0') < 0}),
+            'promotions': len({e['domain'] for e in meaningful if e['category'] == 'promocje'}),
+            'extras': len({e['domain'] for e in meaningful if e['category'] in {'dodatki', 'pakiety'}}),
+            'sales': len(sales), 'changed_domains': len({e['domain'] for e in sales}),
+            'visual_facts': sum(e['category'] == 'obraz' for e in meaningful),
         },
     }
 
 
-def render_management(view: dict) -> str:
-    esc = html.escape
+def communication_summary(view: dict) -> str:
     data = build_management(view)
-    metrics = data["metrics"]
-    total = len(view["rows"])
-    pairs = len(view["comparison"]["price_domains"])
-    notes = (
-        f"Ustalono {metrics['sales']} zmian ofert w {metrics['changed_domains']} pracowniach. "
-        f"Ceny wybranych projektów porównano dla {pairs}/{total} pracowni. "
-        + (f"Dla {total - pairs} pracowni dzienna zmiana ceny pozostaje nieustalona." if pairs < total else "Wszystkie wybrane projekty mają porównywalną parę cen.")
-    )
-    content = '<section class="box executive" id="executive" aria-labelledby="summary-title"><p class="eyebrow">Wynik dnia</p><h2 id="summary-title">' + ("Wynik częściowy" if pairs < total else "Porównanie dzienne") + '</h2><p id="management-summary" aria-live="polite">' + esc(notes) + '</p>'
-    content += '<p class="small" id="management-scope">Zakres: wszystkie pracownie · ' + esc(view["comparison"]["before_day"]) + ' → ' + esc(view["day"]) + '. Liczymy tylko zmiany dzień do dnia; starsze porównania są w archiwum poniżej.</p></section>'
+    pages = [p for row in view['rows'] for p in row['pages']]
+    complete = sum(bool(p.get('communication', {}).get('daily')) for p in pages)
+    partial = sum(p.get('current_read', False) and p.get('daily', False) and not p.get('communication', {}).get('daily') and p.get('communication', {}).get('shared_unchanged', 0) > 0 for p in pages)
+    finding = ("Brakuje pełnej bazy do dziennej oceny komunikacji. " if not complete and not data['items'] else f"Ustalono {len(data['items'])} zmian komunikacji w {data['metrics']['communication']} pracowniach. ")
+    return (finding +
+            f'Pełne porównanie zapisanego zakresu: {complete}/{len(pages)} stron. '
+            f'Dla {partial} stron sprawdzono zgodność fragmentów ze starszego skanu; to porównanie częściowe.')
+
+
+def render_management(view: dict) -> str:
+    metrics = build_management(view)['metrics']
+    measured = any(p.get('communication', {}).get('daily') for r in view['rows'] for p in r['pages'])
+    content = '<section class="box executive" id="executive" aria-labelledby="summary-title"><h2 id="summary-title">Zmiany komunikacji</h2><p id="management-summary" aria-live="polite">' + html.escape(communication_summary(view)) + '</p>'
+    content += '<p class="small" id="management-scope">' + html.escape(view['comparison']['before_day']) + ' → ' + html.escape(view['day']) + '. Brak porównywalnego zapisu nie oznacza braku zmian. Ceny nie ograniczają porównania komunikatów.</p></section>'
     content += '<div class="stats management-stats" id="management-stats">'
-    for key, label, note in [("price_cuts", "Obniżki cen projektów", "pracowni · ten sam wybrany projekt i wariant"), ("promotions", "Zmiany promocji", "pracowni · nowe, zmienione lub zakończone promocje"), ("extras", "Zmiany dodatków i pakietów", "pracowni · gratisy, wyposażenie i dokumentacja")]:
-        content += '<div class="stat"><span>' + label + '</span><strong id="metric-' + key + '">' + str(metrics[key]) + '</strong><span>' + note + '</span></div>'
-    content += '</div><section class="box quality-overview" aria-labelledby="quality-title"><h2 id="quality-title">Na ile pełny jest ten wynik?</h2><div id="quality-summary">' + render_quality_summary(view) + '</div><p class="small">Odczyt strony i porównywalna cena to różne miary. „0” w KPI dotyczy wyłącznie potwierdzonych zmian w sprawdzonym zakresie. <a href="#availability">Sprawdź przyczyny braków i zakres każdej pracowni</a>.</p></section>'
+    for key, label, note in [('communication', 'Pracownie ze zmianą komunikacji', 'potwierdzone komunikaty lub opisane zmiany wyglądu'), ('home_changes', 'Zmiany na stronach głównych', 'pracowni · nagłówki, banery, CTA i treść'), ('project_changes', 'Zmiany na kartach projektów', 'pracowni · opis, argumenty oferty, dodatki i CTA')]:
+        value = str(metrics[key]) if measured or metrics[key] else '—'
+        content += '<div class="stat"><span>' + label + '</span><strong id="metric-' + key + '">' + value + '</strong><span>' + note + '</span></div>'
+    content += '</div><section class="box quality-overview" aria-labelledby="quality-title"><h2 id="quality-title">Zakres porównania komunikacji</h2><div id="quality-summary">' + render_quality_summary(view) + '</div><p class="small">Pełne = dwa zgodne zapisy monitorowanego zakresu z kolejnych dni. Fragmenty = zgodne teksty zachowane w starszym, węższym skanie; nagłówki i banery nie mają wtedy pełnej bazy. Nowa baza = dzisiejszy poprawny zapis gotowy do następnego porównania.</p></section>'
     return content
 
 
 def render_quality_summary(view: dict) -> str:
-    total = len(view["rows"])
-    pages = [p for row in view["rows"] for p in row["pages"]]
-    fresh = [p for p in pages if p.get("current_read", bool(p["observed_at"]) and capture_day(p["observed_at"]) == view["day"])]
-    partial = sum(p.get("data_quality", "ok") not in {"ok", "visual"} for p in fresh)
-    return (
-        '<div class="quality-grid">'
-        f'<p><strong>{sum(p["page"] == "glowna" for p in fresh)}/{total}</strong> Strony główne odczytane</p>'
-        f'<p><strong>{sum(p["page"] == "projekt" for p in fresh)}/{total}</strong> Karty projektów odczytane</p>'
-        f'<p><strong>{len(view["comparison"]["price_domains"])}/{total}</strong> Ceny porównane z wczoraj</p>'
-        '</div><p class="small">'
-        f'Odczyty częściowe: {partial} stron. Pary odczytów z obu dni: {view["comparison"]["paired_pages"]}/{total * 2} stron — ich treść może wymagać zgodnych reguł odczytu.</p>'
-    )
+    total = len(view['rows'])
+    pages = [p for row in view['rows'] for p in row['pages']]
+    content = '<div class="quality-grid">'
+    for page, label in [('glowna', 'Strony główne'), ('projekt', 'Karty projektów')]:
+        scoped = [p for p in pages if p['page'] == page]
+        complete = sum(bool(p.get('communication', {}).get('daily')) for p in scoped)
+        partial = sum(p.get('daily', False) and p.get('current_read', False) and not p.get('communication', {}).get('daily') and p.get('communication', {}).get('shared_unchanged', 0) > 0 for p in scoped)
+        fresh = sum(bool(p.get('current_read')) for p in scoped)
+        content += f'<p><strong>{complete}/{total}</strong> {label}: pełne porównanie<br><span class="small">Fragmenty: {partial}/{total} · odczyt dzisiaj: {fresh}/{total}</span></p>'
+    ready = sum(bool(p.get('current_read')) and bool(p.get('communication', {}).get('ready')) for p in pages)
+    return content + f'<p><strong>{ready}/{total * 2}</strong> Nowa baza komunikacji<br><span class="small">Strony gotowe do kolejnego porównania</span></p></div>'
+
+
+def render_communication_table(view: dict) -> str:
+    esc = html.escape
+    content = '<section id="communication-coverage" class="box"><h2>Dzienny przegląd wszystkich pracowni</h2><p class="small">Obie strony każdej pracowni: wynik porównania komunikatów, zakres oraz źródło. „Częściowe” nie oznacza „bez zmian”.</p><div class="table-box" tabindex="0" role="region" aria-label="Komunikacja we wszystkich pracowniach"><table class="communication-table"><thead><tr><th>Pracownia / stały projekt</th><th data-communication-header="glowna">Strona główna</th><th data-communication-header="projekt">Karta projektu</th><th>Zmiany i źródła</th></tr></thead><tbody>'
+    items = build_management(view)['items']
+    for row in sorted(view['rows'], key=lambda r: (not any(e['domain'] == r['domain'] for e in items), r['domain'])):
+        content += '<tr data-communication-domain="' + esc(row['domain'], quote=True) + '"><td><strong>' + esc(row['domain']) + '</strong><br><span class="small">' + esc(row['name']) + '</span></td>'
+        for page in row['pages']:
+            c = page.get('communication', {})
+            stamp = (capture_day(page['compared_at']) or 'brak bazy') + ' → ' + (capture_day(page['observed_at']) or 'brak odczytu')
+            content += '<td data-communication-page="' + page['page'] + '"><strong>' + esc(c.get('label', 'Brak porównania')) + '</strong><br><span class="small">' + esc(stamp) + ('<br>Nowa baza gotowa' if c.get('ready') and page.get('current_read') else '') + '</span></td>'
+        changes = [e for e in items if e['domain'] == row['domain']]
+        content += '<td>' + ''.join('<p data-communication-change-page="' + e['page'] + '" data-category="' + e['category'] + '"><a href="#' + e['id'] + '">' + esc(e['description']) + '</a></p>' for e in changes)
+        for p in row['pages']:
+            if p['url']:
+                content += '<a data-communication-source-page="' + p['page'] + '" href="' + esc(p['url'], quote=True) + '" target="_blank" rel="noopener">' + ('Główna' if p['page'] == 'glowna' else 'Projekt') + '</a> · '
+        content += '<a href="#pracownia-' + esc(row['domain'], quote=True) + '">Odczyty i zrzuty</a></td></tr>'
+    return content + '</tbody></table></div></section>'
 
 
 def render_availability(view: dict) -> str:
     esc = html.escape
-    rows = {row["domain"]: row for row in view["rows"]}
     data = build_management(view)
-    counts = Counter("missing" if not rows[d["domain"]]["home_read"] or not rows[d["domain"]]["project_read"] else "limited" if d["problems"] else "ready" for d in data["domains"])
-    content = '<details class="box disclosure" id="availability"><summary><strong>Dostępność danych i przyczyny braków</strong><span class="small">Brak odczytu: ' + str(counts["missing"]) + ' pracowni · pozostałe ograniczenia: ' + str(counts["limited"]) + '</span></summary><p class="small">Każda pracownia pozostaje na liście, także gdy blokuje skaner. Odmowa 403 wymaga dostępnego publicznego źródła lub uzgodnienia dostępu z witryną; kolejne dni nie są oznaczane jako „bez zmian”. Interakcje mogą mieć dodatkowe ograniczenia.</p><div class="table-box"><table class="availability-table"><thead><tr><th>Pracownia / projekt</th><th>Strona główna</th><th>Karta projektu</th><th>Cena dzień do dnia</th><th>Przyczyna / dalszy odczyt</th></tr></thead><tbody>'
-    for domain in sorted(data["domains"], key=lambda d: (not bool(d["problems"]), d["domain"])):
-        row = rows[domain["domain"]]
-        content += '<tr data-availability-domain="' + esc(row["domain"], quote=True) + '"><td><strong>' + esc(row["domain"]) + '</strong><br><span class="small">' + esc(row["name"]) + '</span><br><button class="watch-button" data-watch="' + esc(row["domain"], quote=True) + '" aria-pressed="false" aria-label="Obserwuj ' + esc(row["domain"], quote=True) + '">☆ Obserwuj</button></td>'
-        for p in row["pages"]:
-            fresh = p.get("current_read", bool(p["observed_at"]) and capture_day(p["observed_at"]) == view["day"])
-            label = "Brak odczytu" if not fresh else "Odczyt częściowy" if p.get("data_quality", "ok") not in {"ok", "visual"} else "Odczytano"
-            stamp = datetime.fromisoformat(p["observed_at"]).astimezone(WARSAW).strftime("%d.%m %H:%M") if p["observed_at"] else "—"
-            content += '<td>' + label + '<br><span class="small">' + stamp + '</span></td>'
-        content += '<td>' + ("Porównano" if domain["price_pair"] else "Nie ustalono") + '</td><td><ul class="quality-reasons">' + ''.join('<li>' + esc(p) + '</li>' for p in domain["problems"] + domain["interaction_issues"]) + '</ul><a href="#pracownia-' + esc(row["domain"], quote=True) + '">Szczegóły i zapisane dowody</a></td></tr>'
+    missing = sum(not r['home_read'] or not r['project_read'] for r in view['rows'])
+    content = '<details class="box disclosure" id="availability"><summary><strong>Dlaczego brakuje pełnego porównania?</strong><span class="small">Brak odczytu: ' + str(missing) + ' pracowni</span></summary><p class="small">Starsze, węższe skany nie zawierają pełnej historii komunikacji. Nowy zapis naprawia kolejne porównania; nie odtwarza brakujących treści z przeszłości. Blokada witryny ani błąd skanu nie oznaczają braku zmian.</p><div class="table-box"><table class="availability-table"><thead><tr><th>Pracownia</th><th>Przyczyna / zakres</th></tr></thead><tbody>'
+    for domain in sorted(data['domains'], key=lambda d: (not bool(d['problems']), d['domain'])):
+        d = esc(domain['domain'], quote=True)
+        content += '<tr data-availability-domain="' + d + '"><td><strong>' + d + '</strong><br><button class="watch-button" data-watch="' + d + '" aria-pressed="false" aria-label="Obserwuj ' + d + '">☆ Obserwuj</button></td><td><ul class="quality-reasons">' + ''.join('<li>' + esc(p) + '</li>' for p in domain['problems'] + domain['interaction_issues']) + '</ul><a href="#pracownia-' + d + '">Szczegóły i zapisane dowody</a></td></tr>'
     return content + '</tbody></table></div></details>'

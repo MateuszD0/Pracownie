@@ -79,11 +79,19 @@ def location_url(snapshot: Snapshot, section: str, value: str | None) -> str:
 def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
     old, new = before.document.get("visual", {}), after.document.get("visual", {})
     facts = []
+    carousel_assets = []
+    for snapshot in (before, after):
+        carousel_assets.append({i.get("asset") for i in snapshot.document.get("communication", {}).get("items", []) if i.get("role") == "image" and i.get("asset")})
+    stable_assets = carousel_assets[0] & carousel_assets[1]
+    rotation = False
     if old.get("schema") == new.get("schema") == 1:
         first = {e["key"]: e for e in old.get("elements", [])}
         second = {e["key"]: e for e in new.get("elements", [])}
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
+            if a.get("src") != b.get("src") and a.get("src") in stable_assets and b.get("src") in stable_assets:
+                rotation = True
+                continue
             label = b.get("label") or a.get("label") or "element strony"
             generic = {"", "baner", "treść strony", "nagłówek strony"}
             if a.get("src") and b.get("src") and all(e.get("label", "") not in generic for e in (a, b)) and a["label"] != b["label"]:
@@ -152,6 +160,8 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                     )
     # Prefer the changed visual assets and colors over repeated inherited
     # typography/layout facts, while retaining a bounded inspectable record.
+    if rotation:
+        facts = [f for f in facts if not f["what"].startswith("Układ lub rozmiar:")]
     facts.sort(key=lambda f: not any(word in f["what"].lower() for word in ["grafik", "tła"]))
     bbox = list(difference.bbox or [])
     if bbox:

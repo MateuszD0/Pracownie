@@ -31,6 +31,7 @@ from .observations import CONTRACT
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
 VISUALS = files("pracownie").joinpath("visuals.js").read_text()
+COMMUNICATION = files("pracownie").joinpath("communication.js").read_text()
 COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:(?:zaakceptuj|akceptuj|zezwól na) )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
@@ -512,6 +513,9 @@ class BrowserScanner:
             timestamp = now_iso()
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
+            communication = await page.evaluate(COMMUNICATION, page_kind)
+            communication["observed_at"] = timestamp
+            communication["adapter"] = hashlib.sha256(json.dumps({"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
             consent = await page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]').evaluate_all("""elements => elements.filter(e=>/cookies|ciastecz|plik.*cookie/i.test(e.innerText||'')).slice(0,6).map(e=>({id:e.id,role:e.getAttribute('role'),text:(e.innerText||'').slice(0,1600),opacity:getComputedStyle(e).opacity,rect:[e.getBoundingClientRect().x,e.getBoundingClientRect().y,e.getBoundingClientRect().width,e.getBoundingClientRect().height],controls:[...e.querySelectorAll('button,a,[role=button]')].slice(0,20).map(b=>({tag:b.tagName,id:b.id,classes:b.className,label:(b.innerText||b.getAttribute('aria-label')||'').slice(0,180),onclick:(b.getAttribute('onclick')||'').slice(0,300)}))}))""")
             visual_document["anchors"] = {slug(k): v for k, v in visual_document["anchors"].items()}
             for rule in site.field_selectors:
@@ -551,9 +555,10 @@ class BrowserScanner:
             adapter = hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
+            document["communication"] = communication
             if len(json.dumps(document).encode()) > 2_000_000:
-                document = {"visual": visual_document}
-                warnings.append("Dane źródłowe przekroczyły limit archiwum; zachowano pola i obraz bez możliwości ponownego przeliczenia tego odczytu.")
+                document = {"visual": visual_document, "communication": communication, "ignore_patterns": site.ignore_patterns}
+                warnings.append("Dane źródłowe przekroczyły limit archiwum; zachowano pola, obraz i osobny zapis komunikacji, bez możliwości ponownego przeliczenia pól cenowych.")
             snapshot = Snapshot(
                 domain=site.domain, page=page_kind, scenario=scenario.id, url=canonical_url(page.url),
                 observed_at=timestamp, title=payload.get("h1") or payload["title"], fields=fields,

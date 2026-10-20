@@ -128,6 +128,7 @@ class Result:
     before_offer: dict = field(default_factory=dict)
     compared_at: str | None = None
     variant: str = ""
+    communication: dict = field(default_factory=dict)
 
 
 @dataclass

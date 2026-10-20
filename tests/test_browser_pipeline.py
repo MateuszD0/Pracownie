@@ -47,6 +47,9 @@ async def test_functional_baseline_change_same_day_and_failure(sample_site, exec
     pages = {p["page"]: p for p in view["rows"][0]["pages"]}
     assert set(pages) == {"glowna", "projekt"}
     assert all(p["daily"] and p["gap_days"] == 1 for p in pages.values())
+    assert all(p["communication"]["daily"] for p in pages.values())
+    assert view["management"]["metrics"]["communication"] == 1
+    assert all(e["category"] != "ceny" for e in view["management"]["items"])
     assert any("Promocja zimowa" in e["after"] for e in pages["glowna"]["events"])
     assert any(e["delta"] == "-300.00" for e in pages["projekt"]["events"])
     assert any("gratis" in e["after"] for e in pages["projekt"]["events"])

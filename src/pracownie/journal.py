@@ -102,7 +102,7 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 event.get("after_full") or event["after"],
                 event["source"],
                 event["evidence"],
-                "Porównanie tego samego pola oferty",
+                event.get("basis") or "Porównanie tego samego pola oferty",
             )
         for visual in row["visuals"]:
             if visual.get("unreliable"):
@@ -166,7 +166,7 @@ def render_journal_html(view: dict, *, rows: list[dict] | None = None, secondary
     rows = rows if rows is not None else view.get("journal") or build_journal(view["day"], view["rows"])
     section_id = "secondary-journal" if secondary else "journal"
     title = "Pozostałe porównania i różnice obrazu" if secondary else "Najważniejsze zmiany dzień do dnia"
-    head = '<section id="' + section_id + '" class="box"><h2>' + title + '</h2><p class="small">' + ("Sam obraz nie ustala zmiany promocji ani przebudowy strony; różny slajd lub niedoładowanie też może zmienić zrzut. Porównania po luce mają własne daty." if secondary else "Najpierw ceny, promocje, dodatki i warunki zakupu. Dalej treść i konkretnie opisane zmiany wyglądu. Każdy wpis ma źródło i daty odczytów.") + '</p><div class="table-box" tabindex="0" role="region" aria-label="' + title + '"><table class="journal-table"><thead><tr><th>Pracownia</th><th>Strona</th><th>Rodzaj / priorytet</th><th>Co się zmieniło</th><th>Było</th><th>Jest</th><th>Źródło i dowód</th></tr></thead><tbody>'
+    head = '<section id="' + section_id + '" class="box"><h2>' + title + '</h2><p class="small">' + ("Ceny, same różnice obrazu i porównania po luce. Zmieniony zrzut sam nie ustala nowej kampanii ani przebudowy strony." if secondary else "Komunikaty, nagłówki, promocje, dodatki i opisane zmiany wyglądu. Każdy wpis ma treść przed / po, źródło i daty odczytów. Ceny są w szczegółach.") + '</p><div class="table-box" tabindex="0" role="region" aria-label="' + title + '"><table class="journal-table"><thead><tr><th>Pracownia</th><th>Strona</th><th>Rodzaj / priorytet</th><th>Co się zmieniło</th><th>Było</th><th>Jest</th><th>Źródło i dowód</th></tr></thead><tbody>'
     body = []
     proof_blocks = {}
     for item in rows:

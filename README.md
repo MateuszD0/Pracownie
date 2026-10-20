@@ -25,6 +25,8 @@ Ponowienie tego samego dnia domyślnie naprawia brakujące odczyty. Poprawne sce
 
 Pole `repair_domains` pozwala naprawić wskazane domeny bez ponownego skanowania pozostałych. Wymaga wyłączonego `rescan` i istniejącego raportu z tego samego dnia. Pozostałe wyniki zachowują swoje rzeczywiste godziny oraz wszystkie wcześniejsze błędy; pełny raport nadal obejmuje 65 domen. Lokalnie odpowiada temu `--resume --repair-domains domena.pl,druga.pl`.
 
+Workflow „Odśwież układ raportu bez skanowania” przebudowuje ostatni zatwierdzony raport z zachowanych danych i obrazów. Pozwala zmienić format oraz odzyskać poprawny odczyt z tego samego dnia po nieudanym ponowieniu. Zachowuje daty obserwacji i błędy; nie odwiedza ponownie witryn.
+
 Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Releases. Nie dodawaj osobistego tokenu do kodu. Workflow nie zmienia widoczności repozytorium. W publicznym repozytorium opublikowane raporty również są publiczne.
 
 Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumowanie i tabelę cen bez pobierania archiwum. Dostępne są krótki TXT, CSV do arkusza, osobna diagnostyka i ZIP ze zrzutami.

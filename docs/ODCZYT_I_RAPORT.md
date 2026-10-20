@@ -25,6 +25,8 @@ CSV używa separatora `;`, przecinka dziesiętnego i kodowania UTF-8 z BOM. Zawi
 
 „Poprzednio” oznacza ostatni poprawny odczyt sprzed dnia raportu. Daty są dostępne w szczegółach oraz CSV. Przy awarii poprzedni poprawny stan pozostaje zachowany; nie staje się nowym odczytem dzisiejszym.
 
+Jeśli nie uda się ponowienie odczytu w tym samym dniu, raport zachowuje wcześniejszy poprawny odczyt z tego dnia wraz z jego rzeczywistą godziną. Pokazuje również błąd ponowienia. Funkcja nie przenosi wczorajszej ceny do kolumny dzisiejszej.
+
 Pierwszy poprawny skan zapisuje bazę. Zrzut „przed” pochodzi z rzeczywiście zachowanego poprzedniego skanu. Gdy zmieni się cena, tekst lub obraz, raport dołącza dowody przed/po. Sama różnica obrazu wymaga oceny: może być spowodowana reklamą, karuzelą lub układem strony.
 
 Zmiana sposobu odczytu nie stanowi dowodu zmiany oferty. Nowo odczytywane pola dostają punkt odniesienia; nie odtwarza się brakujących cen historycznych z dzisiejszej witryny. Stabilne ceny JSON-LD o tej samej tożsamości produktu mogą być porównane mimo zmiany obsługi przeglądarki.

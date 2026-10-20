@@ -36,6 +36,7 @@ async def inspect(sites):
                     urls.append("http://" + urlsplit(site.home_url).netloc)
                 if site.project_url:
                     urls.append(site.project_url)
+                urls.extend(site.discovery_links)
                 for url in urls:
                     page = await context.new_page()
                     check = {"requested_url": url}

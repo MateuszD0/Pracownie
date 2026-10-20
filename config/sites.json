@@ -28,7 +28,18 @@
         "source": "https://1001studio.pl",
         "browser_verified_at": "2026-10-19T19:31:30.958846+00:00"
       },
-      "project_name": "Projekt domu BOLONIA – bliźniak (dla jednego segmentu)"
+      "project_name": "Projekt domu BOLONIA – bliźniak (dla jednego segmentu)",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".product-summary p.product-page-price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "alexanderstudio.pl",
@@ -81,8 +92,8 @@
     },
     {
       "domain": "archdesign.pl",
-      "home_url": "https://www.archdesign.pl",
-      "project_url": "https://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120",
+      "home_url": "http://www.archdesign.pl",
+      "project_url": "http://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -95,7 +106,7 @@
         "http_inspected_at": "2026-10-19T19:00:59.107946+00:00",
         "http_status": 200,
         "note": "Konkretna karta zweryfikowana w HTTP; interakcje są raportowane osobno.",
-        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny.",
+        "tls_alias_note": "20.10.2026: publiczna witryna odpowiada poprawnie pod HTTP (potwierdzone w Chromium na GitHub Actions). Używany jawny adres HTTP; weryfikacja certyfikatów HTTPS pozostaje włączona.",
         "basis": "Projekt wyróżniony na stronie głównej; brak publicznego rankingu sprzedaży.",
         "source": "https://www.archdesign.pl",
         "http_verified_at": "2026-10-19"
@@ -113,7 +124,9 @@
         ".grecaptcha-badge"
       ],
       "allowed_hosts": [],
-      "discovery_links": [],
+      "discovery_links": [
+        "https://archdom.pl/projekty-domow/"
+      ],
       "selection": {
         "http_inspected_at": "2026-10-19T19:00:59.108355+00:00",
         "http_status": 200,
@@ -123,8 +136,7 @@
           "selected_day": "2026-10-19",
           "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
         }
-      },
-      "product_url_pattern": "/(?:produkt|product)/[^/]+/?$"
+      }
     },
     {
       "domain": "archeton.pl",
@@ -146,7 +158,18 @@
         "source": "https://archeton.pl/najczesciej-kupowane",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Celia Mini"
+      "project_name": "Celia Mini",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".current-price-value",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archetyp.pl",
@@ -168,7 +191,18 @@
         "source": "https://archetyp.pl",
         "browser_verified_at": "2026-10-19T19:33:23.686857+00:00"
       },
-      "project_name": "Lifi- projekt domu"
+      "project_name": "Lifi- projekt domu",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "p.price.p2",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archi-projekt.com.pl",
@@ -232,7 +266,18 @@
         "source": "https://www.archipelag.pl/projekty-domow/top-100-hity-naszej-kolekcji",
         "browser_verified_at": "2026-10-19T19:34:03.735846+00:00"
       },
-      "project_name": "Alison III G2"
+      "project_name": "Alison III G2",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".project_price .price_number",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "archstodola.pl",
@@ -282,7 +327,18 @@
       "ignore_resource_hosts": [
         "adsearch.adkontekst.pl"
       ],
-      "project_name": "Projekt domu Jantar VII"
+      "project_name": "Projekt domu Jantar VII",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "p.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "dom-projekt.pl",
@@ -345,7 +401,18 @@
         "http_verified_at": "2026-10-19"
       },
       "project_name": "Domena 169 A1",
-      "product_url_pattern": "/p/[^/]+-i\\d+/?$"
+      "product_url_pattern": "/p/[^/]+-i\\d+/?$",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".h3-price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "dominanta.pl",
@@ -397,7 +464,18 @@
         "browser_verified_at": "2026-10-19T19:35:50.261086+00:00"
       },
       "product_url_pattern": "/projekt/[^/?#]+/?$",
-      "project_name": "PROJEKT DOMU AKORD 14 T"
+      "project_name": "PROJEKT DOMU AKORD 14 T",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "h2.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "dompasja.pl",
@@ -419,12 +497,23 @@
         "source": "https://dompasja.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Dompasja 61B"
+      "project_name": "Dompasja 61B",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "#product-price-118",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "dompp.pl",
       "home_url": "https://dompp.pl",
-      "project_url": null,
+      "project_url": "https://dompp.pl/projekty-domow/house-x21/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -436,8 +525,11 @@
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:02.801443+00:00",
         "http_status": "error",
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonego publicznego rankingu sprzedaży.",
+        "source": "https://dompp.pl"
+      },
+      "project_name": "House X21"
     },
     {
       "domain": "domydlanas.pl",
@@ -465,7 +557,8 @@
       "scenarios": [],
       "required": {},
       "masks": [
-        ".grecaptcha-badge"
+        ".grecaptcha-badge",
+        "#clockdiv"
       ],
       "allowed_hosts": [],
       "discovery_links": [],
@@ -477,7 +570,18 @@
         "source": "https://domywstylu.pl",
         "browser_verified_at": "2026-10-19T19:36:27.456012+00:00"
       },
-      "project_name": "MALUTKI 12 – projekt domu z poddaszem, 107 m²"
+      "project_name": "MALUTKI 12 – projekt domu z poddaszem, 107 m²",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".price-wrap > .price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "domyzweranda.pl",
@@ -521,7 +625,18 @@
         "source": "https://e-domy.pl",
         "browser_verified_at": "2026-10-19T19:37:16.821108+00:00"
       },
-      "project_name": "E-268a Dom parterowy na planie kwadratu"
+      "project_name": "E-268a Dom parterowy na planie kwadratu",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".item__price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "eg-domy.pl",
@@ -634,7 +749,18 @@
         "source": "https://hexagreen.pl",
         "browser_verified_at": "2026-10-19T19:39:12.785940+00:00"
       },
-      "project_name": "HG 01 Premium"
+      "project_name": "HG 01 Premium",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".single-product-hero__purchase .price-wrapper",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "housecollection.pl",
@@ -685,7 +811,18 @@
         "source": "https://kbprojekt.pl",
         "browser_verified_at": "2026-10-19T19:40:43.731531+00:00"
       },
-      "project_name": "Ragon"
+      "project_name": "Ragon",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".js__product-price-gross .product-price__base-price .price__value",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "klimatdrewna.pl",
@@ -707,7 +844,19 @@
         "source": "https://klimatdrewna.pl",
         "browser_verified_at": "2026-10-19T19:41:15.776238+00:00"
       },
-      "project_name": "„Ranek”"
+      "project_name": "„Ranek”",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu netto + VAT",
+          "selector": ".projekt-cena",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true,
+          "tax": "net"
+        }
+      ]
     },
     {
       "domain": "kreatywnedomy.pl",
@@ -729,7 +878,18 @@
         "source": "https://kreatywnedomy.pl",
         "browser_verified_at": "2026-10-19T19:42:23.916314+00:00"
       },
-      "project_name": "KD_2402M"
+      "project_name": "KD_2402M",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".summary p.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "kreodom.pl",
@@ -751,7 +911,18 @@
         "source": "https://kreodom.pl",
         "browser_verified_at": "2026-10-19T19:43:12.862470+00:00"
       },
-      "project_name": "PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706"
+      "project_name": "PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".price-box [itemprop=price]",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "lipinscy.pl",
@@ -774,7 +945,18 @@
         "browser_verified_at": "2026-10-19T19:43:14.819286+00:00"
       },
       "product_url_pattern": "/projekt/[^/?#]+/?$",
-      "project_name": "ANNECY 357,32m²"
+      "project_name": "ANNECY 357,32m²",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".price-value",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "lk-projekt.pl",
@@ -814,8 +996,8 @@
     },
     {
       "domain": "mtmstyl.com.pl",
-      "home_url": "https://www.mtmstyl.com.pl",
-      "project_url": "https://www.mtmstyl.com.pl/projekt-domu-malutki_12.php",
+      "home_url": "http://www.mtmstyl.com.pl",
+      "project_url": "http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -831,7 +1013,7 @@
         "basis": "Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży.",
         "source": "https://mtmstyl.com.pl",
         "http_verified_at": "2026-10-19",
-        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny."
+        "tls_alias_note": "20.10.2026: publiczna witryna odpowiada poprawnie pod HTTP (potwierdzone w Chromium na GitHub Actions). Używany jawny adres HTTP; weryfikacja certyfikatów HTTPS pozostaje włączona."
       },
       "project_name": "Malutki 12"
     },
@@ -859,8 +1041,8 @@
     },
     {
       "domain": "nowoczesne-projektydomow.pl",
-      "home_url": "https://www.nowoczesne-projektydomow.pl",
-      "project_url": null,
+      "home_url": "http://www.nowoczesne-projektydomow.pl",
+      "project_url": "http://www.nowoczesne-projektydomow.pl/projekty,10,0,223",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -873,8 +1055,11 @@
         "http_inspected_at": "2026-10-19T19:01:08.373601+00:00",
         "http_status": 403,
         "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
-        "tls_alias_note": "Wariant www odpowiadał w HTTP środowiska Codex, lecz Chromium na GitHub Actions 19.10.2026 nadal zwracał ERR_CERT_COMMON_NAME_INVALID. TLS nie jest wyłączany; oba odczyty wymagają poprawnego certyfikatu po stronie witryny."
-      }
+        "tls_alias_note": "20.10.2026: publiczna witryna odpowiada poprawnie pod HTTP (potwierdzone w Chromium na GitHub Actions). Używany jawny adres HTTP; weryfikacja certyfikatów HTTPS pozostaje włączona.",
+        "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonego publicznego rankingu sprzedaży.",
+        "source": "http://www.nowoczesne-projektydomow.pl"
+      },
+      "project_name": "B640"
     },
     {
       "domain": "ototwojdom.pl",
@@ -896,7 +1081,18 @@
         "source": "https://ototwojdom.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "OTO70 Piętrowy — schody w korytarzu"
+      "project_name": "OTO70 Piętrowy — schody w korytarzu",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".promotion-price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "penthus.pl",
@@ -940,7 +1136,19 @@
         "source": "https://pioroarchitekci.pl",
         "browser_verified_at": "2026-10-19T19:45:59.806076+00:00"
       },
-      "project_name": "PióroArchitekci - 10"
+      "project_name": "PióroArchitekci - 10",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "[itemprop=offers] [itemprop=price][content]",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true,
+          "attribute": "content"
+        }
+      ]
     },
     {
       "domain": "planujdom.pl",
@@ -1006,7 +1214,18 @@
         "source": "https://polskiedomki.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "LK&1322"
+      "project_name": "LK&1322",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "span.cena",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "postawdom24.pl",
@@ -1028,7 +1247,18 @@
         "source": "https://postawdom24.pl",
         "browser_verified_at": "2026-10-19T19:47:26.758014+00:00"
       },
-      "project_name": "Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2"
+      "project_name": "Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".js__product-price-gross .product-price__base-price .price__value",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "praktyczneprojekty.pl",
@@ -1053,7 +1283,19 @@
         "http_verified_at": "2026-10-19"
       },
       "project_name": "B11 — 75 m²/lokal",
-      "product_url_pattern": "/[a-z]\\d+[^/]*\\.html$"
+      "product_url_pattern": "/[a-z]\\d+[^/]*\\.html$",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu za lokal",
+          "selector": ".imTARight span.cf3:has(b)",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true,
+          "unit": "lokal"
+        }
+      ]
     },
     {
       "domain": "pro-arte.pl",
@@ -1075,7 +1317,18 @@
         "source": "https://pro-arte.pl",
         "browser_verified_at": "2026-10-19T19:47:37.752768+00:00"
       },
-      "project_name": "TRYPOLIS 7 szkielet drewniany"
+      "project_name": "TRYPOLIS 7 szkielet drewniany",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".price-box span.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "profesjonalne-projekty-domow.pl",
@@ -1126,7 +1379,18 @@
         "source": "https://www.projektdomudo100m2.pl/dom-parterowy-100m2/",
         "browser_verified_at": "2026-10-19T19:48:53.747951+00:00"
       },
-      "project_name": "Projekt domu parterowego 100 m² – dach czterospadowy"
+      "project_name": "Projekt domu parterowego 100 m² – dach czterospadowy",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".brm100c-price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "projektstodola.pl",
@@ -1334,7 +1598,18 @@
         "source": "https://slonecznedomy.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Sava B"
+      "project_name": "Sava B",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "span.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "sprytnaoaza.pl",
@@ -1383,7 +1658,18 @@
         "source": "https://studioatrium.pl",
         "http_verified_at": "2026-10-19"
       },
-      "project_name": "Rodrigo SZ"
+      "project_name": "Rodrigo SZ",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": "p.price",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "studiokrajobrazy.pl",
@@ -1449,7 +1735,18 @@
         "source": "https://uarchitekta.pl",
         "browser_verified_at": "2026-10-19T19:53:35.817185+00:00"
       },
-      "project_name": "Projekt domu z poddaszem i garażem dwustanowiskowym uA441"
+      "project_name": "Projekt domu z poddaszem i garażem dwustanowiskowym uA441",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".aligned h2",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "zbudujsamdom.pl",
@@ -1471,7 +1768,18 @@
         "source": "https://zbudujsamdom.pl",
         "browser_verified_at": "2026-10-19T19:53:53.415080+00:00"
       },
-      "project_name": "Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO"
+      "project_name": "Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu",
+          "selector": ".summary .price ins .amount",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "optional": true
+        }
+      ]
     }
   ]
 }

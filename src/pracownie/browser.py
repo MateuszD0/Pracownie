@@ -523,6 +523,8 @@ class BrowserScanner:
                 if rule.get("pattern"):
                     selected = re.search(rule["pattern"], value)
                     number = amount(selected[1]) if selected else None
+                    if number is None and not rule.get("optional", False):
+                        raise ValueError(f"Pole {rule['key']} nie odpowiada wzorcowi ceny; nie nadpisano punktu odniesienia")
                 if match:
                     currency = currency_code(match[2])
                 section = rule.get("section", "oferta")

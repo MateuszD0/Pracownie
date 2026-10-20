@@ -1,13 +1,16 @@
 import csv
 import io
+import json
 from datetime import UTC, datetime, timedelta
 from email.utils import format_datetime
+from pathlib import Path
 
 import pytest
 from bs4 import BeautifulSoup
 
 from pracownie.browser import BrowserScanner, TransientFetchError, retry_after_seconds
 from pracownie.model import Change, Result, Scenario, Site
+from pracownie.offers import primary_offer
 from pracownie.presentation import build_view, render_html, render_markdown
 
 BEFORE = "2026-10-19T06:00:00+00:00"
@@ -75,6 +78,9 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         assert await page.locator('#metric-price_cuts').inner_text() == '1'
         assert await page.locator('#executive').is_visible()
         assert not await page.locator('#secondary-journal').is_visible()
+        await page.locator('[data-filter="price"]').click()
+        assert await page.locator('[data-filter="price"]').evaluate('e=>e===document.activeElement')
+        await page.locator('[data-filter="all"]').click()
         await page.locator('#page-filter').select_option('glowna')
         assert await page.locator('#metric-price_cuts').inner_text() == '0'
         assert await page.locator('#metric-promotions').inner_text() == '1'
@@ -134,3 +140,17 @@ async def test_origin_rate_limit_stops_subsequent_domain_reads(executable, sampl
             await scanner.capture(site, 'glowna', site.home_url, Scenario('podstawowy', 'Główna'), tmp_path / 'home.png')
         assert next_read.value.retry_after > 85
         assert sample_site.requests == requests
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize(('domain', 'text', 'expected', 'tax'), [('projektyka.pl', '5649,-', '5649.00', ''), ('projektyszkieletowe.pl', '4899 zł ZAMAWIAM (w tym 23% VAT)', '4899.00', 'gross')])
+async def test_nonstandard_project_prices_use_verified_field_instead_of_other_amounts(executable, sample_site, tmp_path, domain, text, expected, tax):
+    sites = json.loads(Path('config/sites.json').read_text())['sites']
+    rule = next(s for s in sites if s['domain'] == domain)['field_selectors'][0]
+    sample_site.cookie_panel = '<div id="quoted">' + text + '</div><footer>Kapitał zakładowy: 187 200 zł</footer>'
+    site = Site('test.pl', sample_site.url, sample_site.url + '/projekt-domu-testowy', field_selectors=[{**rule, 'selector': '#quoted'}])
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        captured = await scanner.capture(site, 'projekt', site.project_url, Scenario('podstawowy', 'Karta'), tmp_path / 'shot.png')
+    quote = primary_offer(captured.snapshot)
+    assert quote['amount'] == expected and quote['currency'] == 'PLN'
+    assert quote['tax'] == tax and quote['field_key'] == 'adapter:cena-projektu'

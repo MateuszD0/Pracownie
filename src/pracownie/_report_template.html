@@ -92,8 +92,8 @@ function matches(r,kind){
 function rows(){return baseRows().filter(r=>matches(r,filter));}
 function badge(row){return '<span class="badge '+esc(row.status)+'">'+esc(label(row))+'</span>';}
 function render(){
- $('filters').innerHTML=filterItems.map(([id,name])=>'<button data-filter="'+id+'">'+name+' '+baseRows().filter(r=>matches(r,id)).length+'</button>').join('');
- for(const button of $('filters').children)button.setAttribute('aria-pressed',String(filter===button.dataset.filter));
+ if(!$('filters').children.length)$('filters').innerHTML=filterItems.map(([id])=>'<button data-filter="'+id+'"></button>').join('');
+ for(const button of $('filters').children){const id=button.dataset.filter;button.setAttribute('aria-pressed',String(filter===id));button.textContent=filterItems.find(item=>item[0]===id)[1]+' '+baseRows().filter(r=>matches(r,id)).length;}
  const selected=rows();executive(selected);$('rows-count').textContent=selected.length+' z '+c.domains+' domen';
  $('rows').innerHTML=selected.map(r=>'<tr><td><a class="name" href="'+esc(source(r.url))+'" target="_blank" rel="noopener">'+esc(r.domain)+'</a><span class="project-name" title="'+esc(r.name)+'">'+esc(r.name)+'</span></td><td class="price previous" title="'+esc(time(r.previous.observed_at))+'">'+esc(r.previous_text)+'</td><td class="price current">'+esc(r.current_text)+'</td><td>'+badge(r)+'</td><td class="read-flags"><span class="'+(r.home_read?'ok':'bad')+'">'+(r.home_read?'✓':'—')+' Strona główna</span><span class="'+(r.project_read?'ok':'bad')+'">'+(r.project_read?'✓':'—')+' Karta projektu</span></td><td><button class="detail-button" data-open="'+esc(r.domain)+'" aria-label="Szczegóły i dowody '+esc(r.domain)+'">Szczegóły</button></td></tr>').join('') || '<tr><td colspan="6">Brak domen spełniających filtr.</td></tr>';
  const visibleDomains=new Set(selected.map(r=>r.domain));for(const block of document.querySelectorAll('.day-domain'))block.hidden=!visibleDomains.has(block.dataset.domain);

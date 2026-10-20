@@ -20,6 +20,26 @@ from .report import bundle_report, restore_report, verify_outputs, write_outputs
 from .state import StateStore
 
 
+def repair_archived_quotes(results: list[Result], output: Path, day: str) -> list[dict]:
+    """Correct the reviewed header parsing error from its original field text."""
+    corrected = []
+    for result in results:
+        if result.domain != "projektyszkieletowe.pl" or result.page != "projekt" or result.offer.get("field_key") != "adapter:cena-projektu":
+            continue
+        path = output / day / slug(result.domain) / result.page / slug(result.scenario) / "odczyt.json"
+        try:
+            raw = json.loads(path.read_text())
+            if raw.get("observed_at") != result.observed_at or raw.get("domain") != result.domain or raw.get("page") != result.page or raw.get("scenario") != result.scenario:
+                raise ValueError("Niezgodna tożsamość źródła")
+            quote = primary_offer(Snapshot.from_dict(raw))
+        except (OSError, KeyError, ValueError):
+            quote = {}
+        if result.offer != quote:
+            corrected.append({"domain": result.domain, "scenario": result.scenario, "observed_at": result.observed_at, "before": result.offer.get("amount"), "after": quote.get("amount"), "basis": "Korekta parsera z oryginalnej treści zapisanego pola; nie jest zmianą oferty"})
+            result.offer = quote
+    return corrected
+
+
 def enrich_visual_results(results: list[Result], output: Path, store: StateStore | None = None) -> None:
     """Describe actual archived image differences, without inventing site changes."""
     output = output.resolve()
@@ -127,6 +147,7 @@ def main():
                 raw["changes"] = [Change(**change) for change in raw["changes"]]
                 results.append(Result(**raw))
             metadata = data["metadata"]
+            metadata["source_price_corrections"] = metadata.get("source_price_corrections", []) + repair_archived_quotes(results, output, day)
             metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, load_sites(Path("config/sites.json")))
             metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()

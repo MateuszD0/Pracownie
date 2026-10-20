@@ -7,6 +7,7 @@ from pracownie.model import Field, Result, Site, Snapshot
 from pracownie.offers import primary_offer
 from pracownie.pipeline import RunOptions, preserve_same_day_reads, run_scan
 from pracownie.presentation import build_view
+from pracownie.rebuild import repair_archived_quotes
 from pracownie.report import write_outputs
 from pracownie.state import StateStore
 
@@ -73,3 +74,24 @@ def test_legacy_timeout_without_page_row_has_an_explanation_in_dashboard():
     view = build_view(DAY, [result], {'finished_at': AFTER}, {}, ['test.pl'])
     assert all('odczytu strony' in p['error_text'] for p in view['rows'][0]['pages'])
     assert all('interakcji' not in p['error_text'] for p in view['rows'][0]['pages'])
+
+
+def test_reviewed_price_correction_uses_actual_archived_text_and_cannot_create_a_fake_cut(tmp_path):
+    from pracownie.offers import price_delta
+
+    field = Field('Cena brutto', 'DOM—B55 pow. użytkowa 121,30 m2 \n4899 zł\nZAMAWIAM\n(w tym 23% VAT)', 'ceny', amount='24899.00', currency='PLN', source='adapter', primary=True, role='current', tax='gross')
+    shot = Snapshot('projektyszkieletowe.pl', 'projekt', 'podstawowy', 'https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html', AFTER, 'DOM—B55', {'adapter:cena-projektu': field}, ['oferta'], '', 'test')
+    quote = primary_offer(shot)
+    assert quote['amount'] == '4899.00' and field.amount == '24899.00'
+    assert quote['observed_at'] == AFTER and quote['tax'] == 'gross'
+    folder = tmp_path / DAY / shot.domain / 'projekt' / 'podstawowy'
+    folder.mkdir(parents=True)
+    (folder / 'odczyt.json').write_text(json.dumps(shot.to_dict()))
+    result = Result(shot.domain, shot.page, shot.scenario, 'baseline', shot.url, observed_at=AFTER, data_quality='ok', offer={**quote, 'amount': '24899.00'})
+    corrections = repair_archived_quotes([result], tmp_path, DAY)
+    assert len(corrections) == 1 and corrections[0]['before'] == '24899.00' and corrections[0]['after'] == '4899.00'
+    assert result.offer['amount'] == '4899.00' and result.observed_at == AFTER
+    assert price_delta(primary_offer(shot), result.offer) == ('0.00', '0.00')
+    (folder / 'odczyt.json').unlink()
+    repair_archived_quotes([result], tmp_path, DAY)
+    assert result.offer == {}

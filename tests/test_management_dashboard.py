@@ -143,7 +143,7 @@ async def test_origin_rate_limit_stops_subsequent_domain_reads(executable, sampl
 
 
 @pytest.mark.browser
-@pytest.mark.parametrize(('domain', 'text', 'expected', 'tax'), [('projektyka.pl', '5649,-', '5649.00', ''), ('projektyszkieletowe.pl', '4899 zł ZAMAWIAM (w tym 23% VAT)', '4899.00', 'gross')])
+@pytest.mark.parametrize(('domain', 'text', 'expected', 'tax'), [('projektyka.pl', '5649,-', '5649.00', ''), ('projektyszkieletowe.pl', 'DOM—B55 pow. użytkowa 121,30 m2 \n4899 zł\nZAMAWIAM\n(w tym 23% VAT)', '4899.00', 'gross')])
 async def test_nonstandard_project_prices_use_verified_field_instead_of_other_amounts(executable, sample_site, tmp_path, domain, text, expected, tax):
     sites = json.loads(Path('config/sites.json').read_text())['sites']
     rule = next(s for s in sites if s['domain'] == domain)['field_selectors'][0]

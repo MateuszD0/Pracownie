@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from decimal import Decimal
 
+from .extract import MONEY, amount, currency_code, money_text
 from .model import Snapshot
 
 
@@ -21,6 +23,19 @@ def primary_offer(snapshot: Snapshot | None, excluded_keys: list[str] | None = N
         for key, field in snapshot.fields.items()
         if field.category == "ceny" and field.amount is not None and field.currency and key not in (excluded_keys or [])
     ]
+    if snapshot.domain == "projektyszkieletowe.pl" and snapshot.page == "projekt":
+        repaired = []
+        for key, field in rows:
+            if key == "adapter:cena-projektu" and field.source == "adapter":
+                # The former broad header pattern joined the unit's "2" in
+                # "m2" to the price on the next line. The archived field text
+                # contains one explicit currency amount; validate against it.
+                values = {(amount(m[1]), currency_code(m[2])) for m in MONEY.finditer(money_text(field.value))}
+                if len(values) != 1 or next(iter(values))[1] != field.currency:
+                    continue
+                field = replace(field, amount=next(iter(values))[0])
+            repaired.append((key, field))
+        rows = repaired
     explicit = [
         (key, field)
         for key, field in rows

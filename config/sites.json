@@ -1637,9 +1637,8 @@
         {
           "key": "cena-projektu",
           "label": "Cena projektu brutto",
-          "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1)",
+          "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
           "currency": "PLN",
-          "pattern": "([0-9][0-9\\s.,]*)\\s*zł",
           "role": "current",
           "primary": true,
           "tax": "gross"

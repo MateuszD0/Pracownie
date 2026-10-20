@@ -34,6 +34,16 @@ def test_primary_project_price_is_not_the_cheapest_addon():
     assert price_delta(offer, {**offer, "tax": "gross", "amount": "6150.00"}) == (None, None)
 
 
+def test_explicit_gross_price_takes_precedence_over_net_and_addons():
+    fields = {
+        "oferta:dom:price": Field("Dom A — cena", "1178.86 PLN", "ceny", amount="1178.86", currency="PLN", source="jsonld", role="current"),
+        "adapter:cena": Field("Cena projektu brutto", "1450 zł", "ceny", amount="1450.00", currency="PLN", source="adapter", role="current", primary=True, tax="gross"),
+    }
+    offer = primary_offer(snap(fields))
+    assert offer["amount"] == "1450.00"
+    assert money(offer) == "1 450,00 zł brutto"
+
+
 def test_aggregate_price_is_range_and_not_a_single_discount():
     fields, _ = extract_fields({"page": "projekt", "products": [{"name": "Dom A", "offers": {"lowPrice": 12500, "highPrice": 13750, "priceCurrency": "PLN"}}]}, AT)
     offer = primary_offer(snap(fields))

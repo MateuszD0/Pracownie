@@ -40,7 +40,7 @@ def money(offer: dict) -> str:
         return f"{Decimal(value):,.2f}".replace(",", " ").replace(".", ",")
 
     currency = "zł" if offer.get("currency") == "PLN" else offer.get("currency", "")
-    suffix = (" netto + VAT" if offer.get("tax") == "net" else "") + (" / lokal" if offer.get("unit") == "lokal" else "")
+    suffix = (" netto + VAT" if offer.get("tax") == "net" else " brutto" if offer.get("tax") == "gross" else "") + (" / lokal" if offer.get("unit") == "lokal" else "")
     if offer.get("kind") == "range":
         return f"{number(offer['low'])}–{number(offer['high'])} {currency}{suffix}"
     return f"{number(offer['amount'])} {currency}{suffix}"
@@ -391,6 +391,12 @@ def render_csv(view: dict) -> str:
             "Karta odczytana",
             "Status",
             "Adres projektu",
+            "Cena od dzisiaj",
+            "Cena do dzisiaj",
+            "Podatek",
+            "Jednostka ceny",
+            "Poprzedni odczyt ceny",
+            "Bieżący odczyt ceny",
         ]
     )
 
@@ -398,21 +404,30 @@ def render_csv(view: dict) -> str:
         value = str(value or "")
         return "'" + value if value.startswith(("=", "+", "-", "@", "\t", "\r")) else value
 
+    def number(value):
+        return str(value).replace(".", ",") if value is not None else ""
+
     for r in view["rows"]:
         writer.writerow(
             [
                 view["day"],
                 r["domain"],
                 safe(r["name"]),
-                r["previous"].get("amount", ""),
-                r["current"].get("amount", ""),
+                number(r["previous"].get("amount")),
+                number(r["current"].get("amount")),
                 r["current"].get("currency", ""),
-                r["delta"] or "",
-                r["percent"] or "",
+                number(r["delta"]),
+                number(r["percent"]),
                 "tak" if r["home_read"] else "nie",
                 "tak" if r["project_read"] else "nie",
                 r["status_label"],
                 safe(r["url"]),
+                number(r["current"].get("low")),
+                number(r["current"].get("high")),
+                "netto + VAT" if r["current"].get("tax") == "net" else "brutto" if r["current"].get("tax") == "gross" else "nieoznaczony",
+                r["current"].get("unit") or "projekt",
+                r["previous"].get("observed_at", ""),
+                r["current"].get("observed_at", ""),
             ]
         )
     return "\ufeff" + stream.getvalue()
@@ -422,7 +437,8 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     c = view["counts"]
 
     def esc(v):
-        return str(v).replace("|", "\\|").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
+        value = str(v).replace("\\", "\\\\").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
+        return re.sub(r"([\[\]|*_`])", r"\\\1", value)
 
     lines = [
         f"## Oferty pracowni · {view['day']}",

@@ -823,7 +823,8 @@
           "currency": "PLN",
           "role": "current",
           "primary": true,
-          "optional": true
+          "optional": true,
+          "tax": "gross"
         }
       ]
     },
@@ -1259,7 +1260,8 @@
           "currency": "PLN",
           "role": "current",
           "primary": true,
-          "optional": true
+          "optional": true,
+          "tax": "gross"
         }
       ]
     },

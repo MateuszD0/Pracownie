@@ -1063,7 +1063,19 @@
         "basis": "Projekt wyróżniony na stronie głównej; brak potwierdzonego publicznego rankingu sprzedaży.",
         "source": "http://www.nowoczesne-projektydomow.pl"
       },
-      "project_name": "B640"
+      "project_name": "B640",
+      "field_selectors": [
+        {
+          "key": "cena-projektu",
+          "label": "Cena projektu netto + VAT",
+          "selector": "td.cena_akt",
+          "currency": "PLN",
+          "role": "current",
+          "primary": true,
+          "tax": "net",
+          "optional": true
+        }
+      ]
     },
     {
       "domain": "ototwojdom.pl",

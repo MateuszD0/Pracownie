@@ -140,7 +140,7 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     atomic_write(directory / "oferty.csv", render_csv(view).encode())
     atomic_write(directory / "podsumowanie.md", render_markdown(view).encode())
     atomic_write(directory / "diagnostyka.txt", render_diagnostics(day, results, metadata, selections, domains).encode())
-    files = [report, *sorted(p for p in directory.rglob("*") if p.is_file())]
+    files = [report, *sorted(p for p in directory.rglob("*") if p.is_file() and p != directory / "manifest.json")]
     manifest = {"schema": 1, "owner": "pracownie-monitor:v1", "run_id": metadata["run_id"], "day": day, "files": {
         p.relative_to(staging).as_posix(): {"sha256": digest(p), "bytes": p.stat().st_size} for p in files
     }}

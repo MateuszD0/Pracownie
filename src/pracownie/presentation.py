@@ -261,11 +261,11 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             row["status"], row["status_label"] = "missing", "Brak pełnego odczytu stron"
         elif row["events"]:
             row["status"], row["status_label"] = "changed", "Zmiana oferty"
-        elif row["reviews"] or row["migration"]:
+        elif row["reviews"]:
             row["status"], row["status_label"] = "review", "Porównanie wymaga oceny"
         elif row["visuals"]:
             row["status"], row["status_label"] = "visual", "Obraz do oceny"
-        elif not project.compared_at:
+        elif not project.compared_at or row["migration"] and delta is None:
             row["status"], row["status_label"] = "baseline", "Pierwszy odczyt"
         else:
             row["status"], row["status_label"] = "unchanged", "Bez zmian w odczytanym zakresie"
@@ -279,6 +279,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "home": sum(r["home_read"] for r in rows),
             "project": sum(r["project_read"] for r in rows),
             "prices": sum(bool(r["current"]) for r in rows),
+            "price_pairs": sum(r["delta"] is not None for r in rows),
             "changed": sum(bool(r["events"]) for r in rows),
             "events": sum(len(r["events"]) for r in rows),
             "review": sum(bool(r["reviews"]) for r in rows),
@@ -305,7 +306,7 @@ def render_text(view: dict) -> str:
         f"Raport gotowy: {when(view['metadata']['finished_at'])} (czas polski)",
         "",
         f"Odczyt: {c['home']}/{c['domains']} stron głównych; {c['project']}/{c['domains']} kart projektów.",
-        f"Ceny ustalone: {c['prices']}. Potwierdzone zmiany ofert: {c['events']} w {c['changed']} domenach.",
+        f"Ceny ustalone: {c['prices']}; porównywalne pary cen: {c['price_pairs']}. Potwierdzone zmiany ofert: {c['events']} w {c['changed']} domenach.",
         f"Brak pełnego odczytu stron: {c['missing']} domen. Obrazy do oceny: {c['visual']} domen.",
         "",
         "NAJWAŻNIEJSZE ZMIANY",
@@ -443,7 +444,7 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     lines = [
         f"## Oferty pracowni · {view['day']}",
         "",
-        f"Odczytano **{c['home']}/{c['domains']} stron głównych** i **{c['project']}/{c['domains']} kart projektów**. Ustalono {c['prices']} cen. **{c['events']} potwierdzonych zmian ofert** w {c['changed']} domenach.",
+        f"Odczytano **{c['home']}/{c['domains']} stron głównych** i **{c['project']}/{c['domains']} kart projektów**. Ustalono {c['prices']} cen; porównywalne pary cen: {c['price_pairs']}. **{c['events']} potwierdzonych zmian ofert** w {c['changed']} domenach.",
         "",
         "### Zmiany ofert",
         "",

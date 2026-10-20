@@ -64,7 +64,7 @@ def primary_offer(snapshot: Snapshot | None) -> dict:
         "field_key": key,
         "source": field.source or "jsonld",
         "observed_at": field.observed_at or snapshot.observed_at,
-        "tax": field.tax,
+        "tax": field.tax or ("net" if re.search(r"\bnetto\b|\+\s*VAT", field.label + " " + field.value, re.I) else ""),
         "unit": field.unit,
     }
 

@@ -83,6 +83,14 @@ def test_report_deduplicates_prices_and_separates_browser_diagnostics():
     assert "Dzień;Domena;Projekt" in render_csv(report)
 
 
+def test_report_can_be_reformatted_without_invalidating_its_manifest(tmp_path):
+    from pracownie.report import verify_outputs, write_outputs
+    metadata = {"run_id": "same-read", "started_at": AT, "finished_at": AT, "elapsed_seconds": 0}
+    for _ in range(2):
+        write_outputs(tmp_path, "2026-10-20", [], metadata, {}, [])
+        verify_outputs(tmp_path, "2026-10-20")
+
+
 @pytest.mark.browser
 async def test_visible_woo_price_hidden_radio_and_related_products(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

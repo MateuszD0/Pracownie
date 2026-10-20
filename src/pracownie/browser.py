@@ -436,14 +436,26 @@ class BrowserScanner:
             except BrowserError:
                 warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
             await page.wait_for_timeout(250)
-            cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
+            cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]:not(#cookiescript_badge)')
             for index in range(await cookie_dialog.count()):
                 element = cookie_dialog.nth(index)
+                if not await element.count() or not await element.is_visible():
+                    continue
                 # Playwright's is_visible also matches transparent/offscreen
                 # preference panels. Only a rendered panel in the viewport
                 # can obscure the offer at this point.
                 rendered = await element.evaluate("e => {const r=e.getBoundingClientRect(),s=getComputedStyle(e);return Number(s.opacity)>0 && r.bottom>0 && r.top<innerHeight && r.right>0 && r.left<innerWidth}")
                 if await element.is_visible() and rendered and re.search(r"cookies|ciastecz|plik.*cookie", await element.inner_text(), re.I):
+                    # A CMP can arrive after the two initial passes or finish
+                    # closing asynchronously. Retry the real refusal control
+                    # before deciding the capture is obscured.
+                    try:
+                        await self.cookies(page)
+                        await element.wait_for(state="hidden", timeout=1500)
+                    except BrowserError:
+                        pass
+                    if not await element.count() or not await element.is_visible():
+                        continue
                     warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
                     data_ready = False
             for action in scenario.actions:

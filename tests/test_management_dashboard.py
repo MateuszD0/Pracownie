@@ -154,3 +154,19 @@ async def test_nonstandard_project_prices_use_verified_field_instead_of_other_am
     quote = primary_offer(captured.snapshot)
     assert quote['amount'] == expected and quote['currency'] == 'PLN'
     assert quote['tax'] == tax and quote['field_key'] == 'adapter:cena-projektu'
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize('panel', [
+    '<div id="cookiescript_badge" role="dialog" style="position:fixed;bottom:10px;width:31px;height:31px">Cookies</div>',
+    '<script>setTimeout(()=>{const d=document.createElement("div");d.id="cookie-notice";d.style="position:fixed;inset:0;background:white;z-index:1000";d.setAttribute("role","dialog");d.innerHTML=\'Cookies <button id="cn-close-notice" onclick="this.parentElement.remove()">Nie wyrażam zgody</button>\';document.body.append(d)},150)</script>',
+])
+async def test_cookie_badge_and_late_refusal_do_not_invalidate_public_offer(executable, sample_site, tmp_path, panel):
+    sample_site.cookie_panel = panel
+    site = Site('test.pl', sample_site.url, sample_site.url + '/projekt-domu-testowy')
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        capture = await scanner.capture(site, 'projekt', site.project_url, Scenario('podstawowy', 'Karta'), tmp_path / 'shot.png')
+    assert capture.snapshot.quality == 'ok'
+    assert not any('Widoczny panel cookies' in w for w in capture.snapshot.warnings)
+    if 'cookiescript_badge' not in panel:
+        assert not capture.snapshot.document['consent']

@@ -650,6 +650,8 @@ def render_daily_html(view: dict) -> str:
             part = '<section class="daily-page" data-page="' + page["page"] + '"><h3>' + title + '</h3>'
             part += '<span class="badge ' + page["status"] + '">' + esc(page["status_label"]) + '</span>'
             part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
+            if page["page"] == "projekt":
+                part += '<div class="values"><div class="value"><small>Cena poprzednio</small>' + esc(row["previous_text"]) + '</div><div class="value after"><small>Cena dzisiaj</small>' + esc(row["current_text"]) + '</div></div>'
             if page["gap_days"] and page["gap_days"] > 1:
                 part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
             part += ''.join(event_html(e) for e in page["events"])
@@ -665,7 +667,8 @@ def render_daily_html(view: dict) -> str:
             if page["extraction_changes"]:
                 part += '<p class="small">Zmiana reguł odczytu: nowe lub niedopasowane pola pozostają w diagnostyce; nie potwierdzają zmiany na stronie.</p>'
             pages.append(part + '</section>')
-        blocks.append('<article class="day-domain box" data-domain="' + esc(row["domain"]) + '"><h3>' + esc(row["domain"]) + '</h3><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div></article>')
+        issues = '<ul class="small">' + ''.join('<li>' + esc(issue) + '</li>' for issue in row["issues"]) + '</ul>' if row["issues"] else ''
+        blocks.append('<article class="day-domain box" data-domain="' + esc(row["domain"]) + '"><h3>' + esc(row["domain"]) + '</h3><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div>' + issues + '</article>')
     return ''.join(blocks) or '<p class="empty">Brak odczytów w tym raporcie.</p>'
 
 

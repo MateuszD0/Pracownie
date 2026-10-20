@@ -93,6 +93,8 @@ def test_web_uses_verified_images_and_does_not_modify_archive(tmp_path):
 async def test_report_renders_both_pages_with_and_without_javascript(executable):
     report = make_view(daily_results())
     report["rows"][0]["name"] = '</script><img src=x onerror="window.injected=true">'
+    report["rows"][0]["previous_text"] = "4 590,00 zł"
+    report["rows"][0]["current_text"] = "4 290,00 zł"
     document = render_html(report)
     async with BrowserScanner(executable, settle_ms=0) as scanner:
         for scripts in [False, True]:
@@ -105,6 +107,7 @@ async def test_report_renders_both_pages_with_and_without_javascript(executable)
             assert "Rabat 10%" in await page.locator('[data-page="glowna"]').inner_text()
             assert "Rabat 20%" in await page.locator('[data-page="glowna"]').inner_text()
             assert "Kosztorys gratis" in await page.locator('[data-page="projekt"]').inner_text()
+            assert "4 290,00 zł" in await page.locator('[data-page="projekt"]').inner_text()
             assert not await page.locator('.day-domain img[src="x"]').count()
             if scripts:
                 await page.locator("#page-filter").select_option("glowna")

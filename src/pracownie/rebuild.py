@@ -35,6 +35,7 @@ def recover_from_snapshots(results: list[Result], store: StateStore, output: Pat
         snapshot = Snapshot.from_dict(raw)
         if snapshot.quality != "ok" or local_day(datetime.fromisoformat(snapshot.observed_at)) != day:
             continue
+        snapshot.fields = {key: field for key, field in snapshot.fields.items() if (field.observed_at or snapshot.observed_at) == snapshot.observed_at}
         excluded = configured[snapshot.domain].unreliable_price_keys
         # Do not restore a quote from a publisher field known to be incorrect.
         if excluded and not any(key.startswith("adapter:") for key in snapshot.fields):

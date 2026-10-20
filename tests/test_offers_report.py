@@ -137,6 +137,27 @@ def test_failed_retry_preserves_verified_same_day_data_and_actual_error(tmp_path
     assert len(older) == 1 and older[0].scenario == "podstawowy"
 
 
+def test_rebuild_recovers_captured_quote_without_reusing_stale_fields(tmp_path):
+    from PIL import Image
+
+    from pracownie.model import Site
+    from pracownie.rebuild import recover_from_snapshots
+    from pracownie.state import StateStore
+    store = StateStore(tmp_path / "state")
+    image = tmp_path / "capture.png"
+    Image.new("RGB", (40, 40), "white").save(image)
+    snapshot = snap({"adapter:price": Field("Cena", "1450 PLN", "ceny", amount="1450.00", currency="PLN", source="adapter", role="current", primary=True, observed_at=AT), "adapter:stale": Field("Dawna cena", "1900 PLN", "ceny", amount="1900.00", currency="PLN", source="adapter", role="current", primary=True, observed_at="2026-10-19T06:00:00+00:00")})
+    snapshot.image = store.image(image)
+    state = store.begin("2026-10-20")
+    state["snapshots"][snapshot.key] = snapshot.to_dict()
+    store.commit(state)
+    results = [Result("test.pl", "projekt", "podstawowy", "error", snapshot.url, error="HTTP 503")]
+    retained = recover_from_snapshots(results, store, tmp_path / "output", "2026-10-20", [Site("test.pl", "https://test.pl")])
+    assert len(retained) == 1
+    assert results[1].offer["amount"] == "1450.00"
+    assert results[1].observed_at == AT and results[0].error == "HTTP 503"
+
+
 @pytest.mark.browser
 async def test_visible_woo_price_hidden_radio_and_related_products(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

@@ -1,6 +1,6 @@
 **Pracownie Monitor**
 
-Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pracowni. Narzędzie porównuje ceny, promocje, pakiety, dodatki, warunki zakupu, kontrolki sprzedażowe i wygląd stron. Wyniki po polsku trafiają do TXT oraz archiwum ze zrzutami przed/po.
+Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pracowni. Raport pokazuje konkretne zmiany sprzedażowe i tabelę cen: poprzedni odczyt → dzisiaj. Osobno oznacza zmiany obrazu, obserwacje do potwierdzenia i brakujące dane.
 
 Pełne wymagania: [plan wdrożenia](PLAN_WDROZENIA_MONITORINGU.md). Faktyczna dostępność domen: [inspekcja HTTP](docs/INSPEKCJA_DOMEN.md). Status walidacji: [wdrożenie](docs/WDROZENIE.md).
 
@@ -23,7 +23,11 @@ Ponowienie tego samego dnia domyślnie naprawia brakujące odczyty. Poprawne sce
 
 Wbudowany GITHUB_TOKEN z uprawnieniem contents:write wystarcza do zapisywania Releases. Nie dodawaj osobistego tokenu do kodu. Workflow nie zmienia widoczności repozytorium. W publicznym repozytorium opublikowane raporty również są publiczne.
 
-W Releases znajdziesz „Raport YYYY-MM-DD” z TXT i ZIP. ZIP zawiera folder raporty, plik dnia i podfolder dnia z dowodami. Pliki kontrolki.json pomagają dopracować adaptery. Zmiany są też dostępne maszynowo w zmiany.json, a zakres odczytu w pokrycie.json.
+Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumowanie i tabelę cen bez pobierania archiwum. Dostępne są krótki TXT, CSV do arkusza, osobna diagnostyka i ZIP ze zrzutami.
+
+Po rozpakowaniu ZIP otwórz `raporty/YYYY-MM-DD/index.html`: raport ma wyszukiwanie domen/projektów, filtry zmian cen i brakujących odczytów oraz przycisk „Szczegóły” ze zrzutami przed/po. Działa lokalnie, bez serwera i zewnętrznych bibliotek. Folder dnia zawiera także `oferty.csv`, `oferty.json`, `podsumowanie.md`, surowe `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Błędy Playwright nie zaśmiecają podsumowania ofert.
+
+Cena projektu jest wybierana z konkretnego pola zakupu lub danych produktu. Cena regularna, najniższa z 30 dni, dodatki i koszt budowy nie są ceną aktualną. Kwoty netto i ceny za lokal mają odpowiednie oznaczenia; zakresy wariantów nie są przedstawiane jako pojedyncza cena. Różnica kwot wymaga tego samego źródła pola, waluty, podatku i jednostki. Zmiana parsera ustanawia nowy odczyt dla zmienionych pól i nie jest sama w sobie zmianą oferty.
 
 Plik RAPORTY.md w repozytorium jest automatycznym spisem dni z odnośnikami do TXT i ZIP. Pilotaż ma osobny indeks. Aktualizacja tego użytecznego spisu tworzy normalną aktywność repozytorium; sam publiczny harmonogram bez aktywności może zostać wyłączony przez GitHuba po 60 dniach. Indeks jest generowany, więc własne notatki zapisuj osobno.
 

@@ -7,7 +7,12 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from .model import Field, slug
 
-MONEY = re.compile(r"(?<![\w.,])(\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?:[,.]\d{1,2})?|\d+(?:[,.]\d{1,2})?)\s*(zł|PLN|EUR|€|USD|\$)(?!\w)", re.I)
+MONEY = re.compile(r"(?<![\w.,])(\d{1,3}(?:[ \u00a0\u202f.]\d{3})+(?:[,.]\s*\d{1,2})?|\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\d+(?:[,.]\s*\d{1,2})?)\s*(zł|PLN|EUR|€|USD|\$)(?!\w)", re.I)
+
+
+def money_text(value: str) -> str:
+    # WooCommerce can put the currency before the amount ("zł 499.00").
+    return re.sub(r"(zł|PLN|EUR|€|USD|\$)\s*(\d+(?:[ \u00a0\u202f.,]\d+)*)(?!\w)", r"\2 \1", value, flags=re.I)
 CATEGORIES = [
     ("promocje", r"promoc|rabat|gratis|kod\s|wyprzeda|najniższ|najniższ|oszczęd|przecen|bestseller"),
     ("dodatki", r"kosztorys|adaptac|konsultac|instalac|dodatk|zgod[ayę]\sna\szmian|bezpłat|za darmo"),
@@ -22,13 +27,18 @@ CATEGORIES = [
 def normalize(text: str, ignore_patterns: list[str] | None = None) -> str:
     text = re.sub(r"\s+", " ", text.replace("\xa0", " ").replace("\u202f", " ")).strip()
     text = re.sub(r"\b\d{1,2}:\d{2}:\d{2}\b", "[licznik]", text)
+    text = re.sub(r"\b\d+\s*(?:dni|days)\s*\[licznik\]", "[licznik]", text, flags=re.I)
     for pattern in ignore_patterns or []:
         text = re.sub(pattern, "[pominięto]", text)
     return text
 
 
 def amount(value: str) -> str | None:
-    text = re.sub(r"\s", "", value).replace(",", ".")
+    text = re.sub(r"\s", "", value)
+    if "." in text and "," in text:
+        text = text.replace(".", "").replace(",", ".") if text.rfind(",") > text.rfind(".") else text.replace(",", "")
+    else:
+        text = text.replace(",", ".")
     try:
         return str(Decimal(text).quantize(Decimal("0.01")))
     except InvalidOperation:
@@ -44,7 +54,7 @@ def category(text: str) -> str | None:
     for name, pattern in CATEGORIES:
         if re.search(pattern, lowered):
             return name
-    return "ceny" if MONEY.search(text) else None
+    return "ceny" if MONEY.search(money_text(text)) else None
 
 
 def canonical_url(url: str) -> str:
@@ -69,6 +79,8 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
     grouped: dict[tuple[str, str], list[str]] = {}
     for block in payload.get("blocks", []):
         text = normalize(block["text"], ignore_patterns)
+        if re.search(r"cookies|ciastecz|danych osobowych|sales intelligence|digitree|zarządzaj zgod", text, re.I):
+            continue
         group = category(text)
         if not group or len(text) < 3:
             continue
@@ -83,10 +95,10 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
         )
     price_keys: dict[str, int] = {}
     for entry in payload.get("prices", []):
-        for match in MONEY.finditer(entry["text"]):
-            label = normalize(entry.get("context") or entry["text"], ignore_patterns)
+        for match in MONEY.finditer(money_text(entry["text"])):
+            label = normalize(money_text(entry.get("context") or entry["text"]), ignore_patterns)
             role = "poprzednia" if re.search(r"DEL|^S\b|old|regular|previous|line-through", entry.get("type", ""), re.I) else "widoczna"
-            if "najniższa" in label.casefold():
+            if "najniższa" in label.casefold() and len(MONEY.findall(label)) == 1:
                 role = "najniższa z 30 dni"
             stable_label = MONEY.sub("[cena]", label)
             identifier = f"cena:{slug(stable_label)}:{role}"
@@ -97,6 +109,8 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
             fields[identifier] = Field(
                 label=f"Cena {role}: {stable_label}", value=match[0], category="ceny", amount=amount(match[1]),
                 currency=currency, section="oferta", observed_at=observed_at,
+                source="dom", role="regular" if role == "poprzednia" else "lowest30" if role == "najniższa z 30 dni" else "current",
+                primary=bool(entry.get("primary")),
             )
     for product in payload.get("products", []):
         offers = product.get("offers", [])
@@ -116,13 +130,20 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
                     fields[f"oferta:{identity}:{key}"] = Field(
                         label=f"{label} — {description}", value=f"{raw} {currency}".strip(), category="ceny",
                         amount=amount(raw), currency=currency or None, observed_at=observed_at,
+                        source="jsonld", role={"price": "current", "lowPrice": "range_low", "highPrice": "range_high"}[key],
+                        primary=payload.get("page") == "projekt" or len(payload.get("products", [])) == 1,
                     )
             for key in ("availability", "priceValidUntil", "shippingDetails", "hasMerchantReturnPolicy"):
                 if offer.get(key):
                     fields[f"oferta:{identity}:{key}"] = Field(
                         label=f"{label} — {key}", value=str(offer[key]), category="warunki", observed_at=observed_at,
                     )
+    meta = payload.get("meta_price")
+    if meta and amount(str(meta.get("amount", ""))) is not None and meta.get("currency"):
+        fields["meta:product-price"] = Field("Cena projektu", f"{meta['amount']} {meta['currency']}", "ceny", amount=amount(str(meta['amount'])), currency=currency_code(meta['currency']), observed_at=observed_at, source="meta", role="current", primary=True)
     for control in payload.get("controls", []):
+        if control.get("scope", "offer") != "offer":
+            continue
         label = normalize(control["label"], ignore_patterns)
         if not label or control["kind"] == "unknown" and not category(label):
             continue

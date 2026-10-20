@@ -15,11 +15,17 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
         old, new = before.fields.get(key), after.fields.get(key)
         if old and new and old.value == new.value:
             continue
+        if old and new and old.amount is not None and new.amount is not None and old.currency == new.currency and Decimal(old.amount) == Decimal(new.amount):
+            continue
         current = new or old
         assert current is not None
         missing_section = old is not None and new is None and old.section not in after.sections
         method_changed = before.renderer != after.renderer
-        uncertain = missing_section or after.quality != "ok" or before.quality != "ok" or method_changed
+        # A browser/cookie-handler update does not alter a direct JSON-LD price
+        # with the same product/offer identity. Text and inferred DOM mappings
+        # still require review when their extraction rules change.
+        authoritative_pair = old is not None and new is not None and key.startswith("oferta:") and key.endswith((":price", ":lowPrice", ":highPrice")) and old.amount is not None and new.amount is not None
+        uncertain = missing_section or after.quality != "ok" or before.quality != "ok" or method_changed and not authoritative_pair
         if old and new is None and uncertain:
             retained.fields[key] = old
         change = Change(
@@ -33,8 +39,9 @@ def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Sna
             url=after.url,
             scenario=after.scenario,
             note="Nie odnaleziono poprzedniej sekcji; wymaga oceny, nie potwierdzono usunięcia." if missing_section else "",
+            field_key=key,
         )
-        if method_changed:
+        if method_changed and not authoritative_pair:
             change.note += " Zmieniono wersję przeglądarki lub reguły odczytu; różnica wymaga potwierdzenia w źródle."
         if old and new and old.amount is not None and new.amount is not None and old.currency == new.currency:
             try:

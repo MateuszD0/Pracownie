@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import mimetypes
 import re
 import tempfile
 import time
@@ -13,6 +14,7 @@ from urllib.parse import urlsplit
 import httpx
 
 from .model import digest, json_bytes, now_iso, slug
+from .presentation import render_markdown
 from .state import StateStore
 
 OWNER_MARKER = "<!-- pracownie-monitor:v1 -->"
@@ -114,7 +116,7 @@ class GitHubStore:
             raise ValueError("Przekroczono limit 2 GiB pojedynczego pliku; wymagany podział archiwum")
         with path.open("rb") as stream:
             response = self.request("POST", url, params={"name": name}, content=stream,
-                                    headers={"Content-Type": "application/octet-stream", "Content-Length": str(path.stat().st_size)})
+                                    headers={"Content-Type": mimetypes.guess_type(path.name)[0] or "application/octet-stream", "Content-Length": str(path.stat().st_size)})
         asset = response.json()
         expected = digest(path)
         if asset.get("size") != path.stat().st_size:
@@ -153,6 +155,21 @@ class GitHubStore:
         report_release = self.release(f"{self.namespace}-report-{day}", create=True)
         assert report_release is not None
         text_asset = self.upload(report_release, f"{day}-{stamp}.txt", output / f"{day}.txt")
+        csv_asset = self.upload(report_release, f"{day}-{stamp}-oferty.csv", output / day / "oferty.csv")
+        diagnostic_asset = self.upload(report_release, f"{day}-{stamp}-diagnostyka.txt", output / day / "diagnostyka.txt")
+        view = json.loads((output / day / "oferty.json").read_text())
+        previews = {}
+        preview_assets = []
+        for row in view["rows"]:
+            for event in row["events"]:
+                path = event["evidence"].get("roznice") or event["evidence"].get("po")
+                if not path or path in previews or len(previews) >= 6:
+                    continue
+                # Only owned, verified report files can be published as previews.
+                from .model import safe_path
+                preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}.png", safe_path(output, path))
+                previews[path] = preview["browser_download_url"]
+                preview_assets.append(preview["id"])
         zip_asset = self.upload(report_release, f"{day}-{stamp}.zip", report_archive)
         state_release = self.release(f"{self.namespace}-state-v1", create=True)
         assert state_release is not None
@@ -163,20 +180,22 @@ class GitHubStore:
             state_asset = self.upload(state_release, state_name, root / "state.zip")
             record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
                       "committed_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
-                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], zip_asset["id"]]}
+                      "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], diagnostic_asset["id"], *preview_assets, zip_asset["id"]],
+                      "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "diagnostics": diagnostic_asset["id"], "zip": zip_asset["id"]}}
             # Both report files and state have been verified. Make the daily report visible first.
-            excerpt = (output / f"{day}.txt").read_text().split("SZCZEGÓŁY WEDŁUG DOMEN")[0][:5000]
+            summary = render_markdown(view, previews)
             published_at = now_iso()
             self.request("PATCH", f"{self.prefix}/releases/{report_release['id']}", json={
                 "name": f"Raport {day}", "prerelease": False, "make_latest": "false",
-                "body": OWNER_MARKER + f"\n\nAktualizacja: {published_at}\n\n[Raport TXT]({text_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']})\n\n```text\n" + excerpt.replace("```", "'''") + "\n```",
+                "body": OWNER_MARKER + f"\n\n[Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\nW ZIP otwórz folder dnia i **index.html**, aby filtrować pracownie i oglądać zrzuty przed/po.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
             })
             (root / "commit.json").write_bytes(json_bytes(record))
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
             # A commit manifest uploaded last is the only pointer used by subsequent runners.
             self._collect_state(state_release)
+        keep_reports = set(record["report_assets"])
         for asset in self.assets(report_release):
-            if asset["id"] not in {text_asset["id"], zip_asset["id"]} and asset["name"].startswith(day + "-"):
+            if asset["id"] not in keep_reports and asset["name"].startswith(day + "-"):
                 self.request("DELETE", f"{self.prefix}/releases/assets/{asset['id']}")
         return {"report_url": report_release["html_url"], "state_asset_id": state_asset["id"], "published_at": published_at}
 
@@ -221,14 +240,15 @@ class GitHubStore:
                 continue
             text = re.search(r"\[Raport TXT\]\((https://[^)]+)\)", body)
             archive = re.search(r"\[Pełne archiwum ZIP\]\((https://[^)]+)\)", body)
+            csv_link = re.search(r"\[Ceny CSV\]\((https://[^)]+)\)", body)
             if not text or not archive:
                 continue
             allowed = f"https://github.com/{self.repo}/releases/download/"
             if not text[1].startswith(allowed) or not archive[1].startswith(allowed):
                 raise ValueError("Nieoczekiwany adres plików w indeksie raportów")
-            rows.append((match[1], text[1], archive[1], release["html_url"]))
-        lines = [OWNER_MARKER, "", "**Raporty monitoringu**", "", "Plik generowany automatycznie. Notatki przechowuj osobno. TXT zawiera opis zmian, ZIP również zrzuty i dane porównań.", "", "| Dzień | Raport | Archiwum | Szczegóły |", "| --- | --- | --- | --- |"]
-        lines.extend(f"| {day} | [TXT]({text}) | [ZIP]({archive}) | [Wydanie]({url}) |" for day, text, archive, url in sorted(rows, reverse=True))
+            rows.append((match[1], text[1], archive[1], release["html_url"], csv_link[1] if csv_link else None))
+        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "Otwórz raport, aby zobaczyć zmiany ofert i tabelę cen. CSV służy do pracy w arkuszu. ZIP zawiera raport HTML z wyszukiwaniem i zrzutami przed/po. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Ceny | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
+        lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | [ZIP]({archive}) |" for day, text, archive, url, csv_url in sorted(rows, reverse=True))
         content = ("\n".join(lines) + "\n").encode()
         endpoint = f"{self.prefix}/contents/{filename}"
         existing = self.client.get(endpoint)

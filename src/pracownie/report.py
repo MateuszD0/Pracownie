@@ -11,6 +11,7 @@ from pathlib import Path
 
 from .extract import is_listing_title
 from .model import WARSAW, Change, Result, Site, digest, json_bytes, safe_path
+from .presentation import build_view, render_csv, render_html, render_markdown, render_text
 from .state import atomic_write
 
 STATUS = {
@@ -42,7 +43,7 @@ def coverage(results: list[Result], domains: list[str]) -> dict:
     return output
 
 
-def render_report(day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> str:
+def render_diagnostics(day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> str:
     covered = coverage(results, domains)
     counts = Counter(item["status"] for item in covered.values())
     total_changes = sum(len(r.changes) for r in results)
@@ -121,6 +122,10 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
     return "\n".join(lines) + "\n"
 
 
+def render_report(day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> str:
+    return render_text(build_view(day, results, metadata, selections, domains))
+
+
 def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> Path:
     directory = staging / day
     directory.mkdir(parents=True, exist_ok=True)
@@ -128,7 +133,13 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     atomic_write(directory / "pokrycie.json", json_bytes(coverage(results, domains)))
     atomic_write(directory / "wybrane-projekty.json", json_bytes(selections))
     report = staging / f"{day}.txt"
-    atomic_write(report, render_report(day, results, metadata, selections, domains).encode())
+    view = build_view(day, results, metadata, selections, domains)
+    atomic_write(report, render_text(view).encode())
+    atomic_write(directory / "index.html", render_html(view).encode())
+    atomic_write(directory / "oferty.json", json_bytes(view))
+    atomic_write(directory / "oferty.csv", render_csv(view).encode())
+    atomic_write(directory / "podsumowanie.md", render_markdown(view).encode())
+    atomic_write(directory / "diagnostyka.txt", render_diagnostics(day, results, metadata, selections, domains).encode())
     files = [report, *sorted(p for p in directory.rglob("*") if p.is_file())]
     manifest = {"schema": 1, "owner": "pracownie-monitor:v1", "run_id": metadata["run_id"], "day": day, "files": {
         p.relative_to(staging).as_posix(): {"sha256": digest(p), "bytes": p.stat().st_size} for p in files
@@ -243,6 +254,9 @@ def resume_data(root: Path, day: str, sites: list[Site], state: dict) -> tuple[s
         if any(r.error for r in rows):
             continue
         observed = [r for r in rows if r.observed_at]
+        if any(r.data_quality == "unknown" for r in observed):
+            # Old reports did not preserve typed quotes for the offers table.
+            continue
         pages = {r.page for r in observed if r.scenario == "podstawowy"}
         if not {"glowna", "projekt"} <= pages:
             continue

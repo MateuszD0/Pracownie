@@ -15,11 +15,12 @@ from pathlib import Path
 from playwright.async_api import Error as BrowserError
 from playwright.async_api import TimeoutError as BrowserTimeout
 
-from .browser import BrowserScanner, Capture, TransientFetchError, infer_scenarios
+from .browser import BrowserScanner, Capture, TransientFetchError, UnusableControl, infer_scenarios
 from .compare import compare
-from .extract import is_listing_title
+from .extract import is_listing_title, page_identity
 from .images import image_difference, ocr_context
 from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
+from .offers import primary_offer
 from .report import install_outputs, resume_data, write_outputs
 from .state import StateStore
 
@@ -47,6 +48,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
     metadata = {"run_id": run_id, "day": day, "started_at": now_iso(), "domains": len(sites)}
     state = store.begin(day, options.retention_days)
     results: list[Result] = []
+    pending: dict[str, tuple] = {}
+    base_elapsed: dict[str, float] = {}
     reused, previous_metadata = set(), {}
     if options.resume:
         reused, results, previous_metadata = resume_data(output, day, sites, store.read())
@@ -88,6 +91,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         "title": snapshot.title, "url": snapshot.url,
                         "controls": capture.payload.get("controls", []),
                         "headings": capture.payload.get("headings", []),
+                        "prices": capture.payload.get("prices", []),
                         "warnings": snapshot.warnings,
                     }))
                 evidence = {}
@@ -123,7 +127,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 status = "baseline" if before is None else "review" if changes and all(c.kind == "review" for c in changes) else "changed" if changes else "unchanged"
                 if result_warnings:
                     status = "partial"
-                results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, result_warnings, observed_at=snapshot.observed_at, evidence=evidence))
+                results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, result_warnings, observed_at=snapshot.observed_at, evidence=evidence,
+                                      data_quality=snapshot.quality, scenario_label=capture.payload.get("scenario_label", snapshot.scenario),
+                                      offer=primary_offer(snapshot) if snapshot.page == "projekt" else {},
+                                      before_offer=primary_offer(before) if snapshot.page == "projekt" else {},
+                                      compared_at=before.observed_at if before else None, variant=capture.payload.get("variant", "")))
                 if snapshot.quality == "ok" or snapshot.quality == "visual" and (before is None or not before.fields):
                     state["snapshots"][snapshot.key] = retained.to_dict()
 
@@ -135,6 +143,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 action_seen = {json.dumps(s.actions[-1], sort_keys=True) for s in queue if s.actions}
                 completed = set()
                 count = 0
+                consecutive_failures = 0
                 while queue:
                     scenario = queue.pop(0)
                     signature = str(scenario.actions)
@@ -148,6 +157,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     try:
                         captured = await capture_retry(site, kind, url, scenario, work / f"{kind}-{slug(scenario.id)}.png")
                         await record(captured)
+                        consecutive_failures = 0
                         completed.add(scenario.id)
                         nested, nested_warnings = infer_scenarios(captured.payload, kind, options.max_scenarios)
                         warnings.extend(nested_warnings)
@@ -157,12 +167,19 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                             action_key = json.dumps(child.actions[-1], sort_keys=True)
                             if action_key in action_seen:
                                 continue
+                            if sum(bool(a.get("inferred")) for a in scenario.actions) >= 2:
+                                warnings.append("Dalsze zależne opcje wymagają jawnego scenariusza adaptera.")
+                                continue
                             action_seen.add(action_key)
                             actions = scenario.actions + child.actions
                             identity = "nested-" + hashlib.sha256(json.dumps(actions, sort_keys=True).encode()).hexdigest()[:12]
                             queue.append(Scenario(identity, scenario.label + " / " + child.label, actions, page=kind))
                     except Exception as exc:
-                        results.append(Result(site.domain, kind, scenario.id, "error", url, error=str(exc)[:2200]))
+                        consecutive_failures += 1
+                        results.append(Result(site.domain, kind, scenario.id, "unavailable" if isinstance(exc, UnusableControl) else "error", url, error=str(exc)[:2200], scenario_label=scenario.label))
+                        if consecutive_failures >= 3:
+                            warnings.append(f"Przerwano interakcje po 3 kolejnych nieudanych próbach; {len(queue)} pozostałych scenariuszy nie odczytano.")
+                            break
                 prior = {key.split("/", 2)[-1] for key in state["anchor"] if key.startswith(f"{site.domain}/{kind}/") and not key.endswith("/podstawowy")}
                 for missing in sorted(prior - completed):
                     warnings.append(f"Poprzedni scenariusz nie został poprawnie odtworzony: {missing}; nie potwierdzono usunięcia funkcji.")
@@ -189,6 +206,9 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     selection = None
                 project = None
                 if site.project_url:
+                    if selection and selection["url"] != site.project_url and page_identity(selection["url"]) == page_identity(site.project_url):
+                        metadata.setdefault("source_address_updates", []).append({"domain": site.domain, "before": selection["url"], "after": site.project_url})
+                        selection = {**selection, "url": site.project_url}
                     if selection and selection["url"] != site.project_url:
                         raise ValueError("Konfiguracja zmienia zapamiętany projekt. Wymagana jawna migracja punktu odniesienia.")
                     selection = selection or {"url": site.project_url, "name": site.project_name or site.project_url, "basis": site.selection.get("basis", "Jawny wybór w konfiguracji"), "source": site.selection.get("source", site.home_url), "selected_at": now_iso()}
@@ -205,34 +225,47 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         state["selections"][site.domain] = selection
                         await record(project)
                     except Exception as exc:
-                        results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600]))
+                        previous = store.previous(state, f"{site.domain}/projekt/podstawowy")
+                        results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600], before_offer=primary_offer(previous), compared_at=previous.observed_at if previous else None))
                         project = None
                 else:
                     results.append(Result(site.domain, "projekt", "podstawowy", "unavailable", site.home_url, error="Nie ustalono karty projektu. Nie zastąpiono jej losowym adresem."))
-                if home:
-                    await interactions(site, "glowna", site.home_url, home, work)
-                if project and selection:
-                    await interactions(site, "projekt", selection["url"], project, work)
+                pending[site.domain] = (site, home, project, selection, work)
                 if site.inspection != "verified":
                     results.append(Result(site.domain, "zakres", "inspekcja-adaptera", "partial", site.home_url, warnings=["Adapter nie ma potwierdzonej inspekcji tej domeny. Automatyczny odczyt nie oznacza pełnego pokrycia wszystkich interakcji."]))
 
-            async def bounded(site: Site):
+            async def bounded(site: Site, detail: bool = False):
                 async with semaphore:
                     remaining = options.budget_seconds - (time.monotonic() - started)
                     if remaining <= 0:
                         results.append(Result(site.domain, "zakres", "limit-czasu", "error", site.home_url, error="Wyczerpano czas skanu; domena niesprawdzona."))
                         return
+                    elapsed = time.monotonic()
                     try:
-                        async with asyncio.timeout(min(options.domain_timeout, remaining)):
-                            await process_site(site)
+                        timeout = options.domain_timeout - base_elapsed.get(site.domain, 0) if detail else options.domain_timeout
+                        if timeout <= 0:
+                            return
+                        async with asyncio.timeout(min(timeout, remaining)):
+                            if detail:
+                                _, home, project, selection, work = pending[site.domain]
+                                if project and selection:
+                                    await interactions(site, "projekt", selection["url"], project, work)
+                                if home:
+                                    await interactions(site, "glowna", site.home_url, home, work)
+                            else:
+                                await process_site(site)
                     except TimeoutError:
                         phase = scanner.phases.get(site.domain, "nieustalony etap")
                         results.append(Result(site.domain, "zakres", "limit-czasu", "partial", site.home_url, error=f"Przekroczono czas domeny ({phase}); pozostały zakres nie został sprawdzony."))
                     except Exception as exc:
                         results.append(Result(site.domain, "zakres", "blad", "error", site.home_url, error=str(exc).splitlines()[0][:600]))
-                    print(f"Sprawdzono {site.domain}", flush=True)
+                    if not detail:
+                        base_elapsed[site.domain] = time.monotonic() - elapsed
+                    print(f"{'Interakcje' if detail else 'Odczyt bazowy'}: {site.domain}", flush=True)
 
             await asyncio.gather(*(bounded(site) for site in sites if site.domain not in reused))
+            metadata["base_reads_finished_at"] = now_iso()
+            await asyncio.gather(*(bounded(site, detail=True) for site in sites if site.domain in pending))
         results.sort(key=lambda result: (result.domain, result.page, result.scenario))
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})

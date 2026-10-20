@@ -53,6 +53,11 @@ class Field:
     amount: str | None = None
     currency: str | None = None
     observed_at: str = ""
+    source: str = ""
+    role: str = ""
+    primary: bool = False
+    tax: str = ""
+    unit: str = ""
 
 
 @dataclass
@@ -99,6 +104,7 @@ class Change:
     percent: str | None = None
     evidence: dict[str, str] = field(default_factory=dict)
     note: str = ""
+    field_key: str = ""
 
 
 @dataclass
@@ -113,6 +119,12 @@ class Result:
     error: str | None = None
     observed_at: str | None = None
     evidence: dict[str, str] = field(default_factory=dict)
+    data_quality: str = "unknown"
+    scenario_label: str = ""
+    offer: dict = field(default_factory=dict)
+    before_offer: dict = field(default_factory=dict)
+    compared_at: str | None = None
+    variant: str = ""
 
 
 @dataclass

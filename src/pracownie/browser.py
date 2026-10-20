@@ -18,18 +18,23 @@ from .extract import (
     canonical_url,
     currency_code,
     extract_fields,
+    money_text,
     page_identity,
     validate_payload,
 )
 from .model import Field, Scenario, Site, Snapshot, now_iso
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
-COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| opcjonalne)?|tylko niezbędne|tylko konieczne|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
+COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:akceptuj |zezwól na )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
 
 class TransientFetchError(RuntimeError):
     """A temporary origin failure that can be retried with backoff."""
+
+
+class UnusableControl(ValueError):
+    """An inferred control cannot currently be operated; never fabricate a read."""
 
 
 def allowed_url(site: Site, url: str) -> bool:
@@ -57,48 +62,60 @@ def proxy_settings() -> dict | None:
 
 def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Scenario], list[str]]:
     scenarios, warnings = [], []
-    controls = payload.get("controls", [])
     known_ids = set()
+    cart_seen = False
+    relevant = re.compile(r"ofert|promoc|rabat|gratis|pakiet|dodatk|dokument|kosztorys|instalac|wariant|wersj|lustrzan|rzuty|technicz|warunki|dostaw|płatno|opis|budow|energo", re.I)
+    controls = payload.get("controls", [])
     for control in controls:
         kind, label, selector = control["kind"], control["label"], control["selector"]
-        if control.get("scope") == "search":
+        if control.get("scope", "offer") != "offer" or not label or UNSAFE_OPTIONS.search(label + " " + control.get("name", "")):
             continue
-        if UNSAFE_OPTIONS.search(label + " " + control.get("name", "")):
+        # Homepage catalog/navigation tabs are not product offer interactions.
+        if page == "glowna" and kind != "carousel" and not relevant.search(label):
             continue
         actions = []
+        target = {"selector": selector, "label": label, "inferred": True}
+        if control.get("label_selector"):
+            target["label_selector"] = control["label_selector"]
         if kind in {"expand", "tab"}:
-            actions = [{"action": "click", "selector": selector}]
+            if control.get("expanded") == "true":
+                continue
+            actions = [{"action": "click", **target}]
         elif kind == "select" and page == "projekt":
             for option in control.get("options", []):
                 if option["value"] == control.get("value"):
                     continue
                 identity = "opcja-" + hashlib.sha256(f"{control.get('name') or selector}:{option['value']}".encode()).hexdigest()[:12]
                 if identity not in known_ids:
-                    scenarios.append(Scenario(identity, f"{label}: {option['label']}", [
-                        {"action": "select", "selector": selector, "value": option["value"]}
-                    ], page=page))
+                    scenarios.append(Scenario(identity, f"{label}: {option['label']}", [{"action": "select", **target, "value": option["value"]}], page=page))
                     known_ids.add(identity)
         elif kind in {"radio", "checkbox"} and page == "projekt":
             if not control.get("checked"):
-                actions = [{"action": "check", "selector": selector}]
-        elif kind == "cart" and page == "projekt":
-            actions = [{"action": "click", "selector": selector, "cart": True}]
+                actions = [{"action": "check", **target}]
+        elif kind == "cart" and page == "projekt" and not cart_seen:
+            cart_seen = True
+            actions = [{"action": "click", **target, "cart": True}]
         elif kind == "carousel":
-            warnings.append("Wykryto karuzelę: automatycznie sprawdzono pierwszy kolejny slajd; pozostałe wymagają scenariuszy adaptera.")
-            actions = [{"action": "click", "selector": selector}]
+            if any(s.id.startswith("carousel-") for s in scenarios):
+                continue
+            warnings.append("Karuzela: sprawdzono pierwszy kolejny slajd; pełna lista wymaga adaptera.")
+            actions = [{"action": "click", **target}]
         elif kind == "unknown" and re.search(r"konfigur|kalkulator|personaliz|dopasuj|pakiet|dodatk", label, re.I):
-            warnings.append(f"Niezweryfikowana kontrolka sprzedażowa: {label[:100]}")
+            warnings.append(f"Kontrolka wymagająca adaptera: {label[:100]}")
         if actions:
             stable_value = control.get("value", "") if kind in {"radio", "checkbox"} else ""
-            identity = kind + "-" + hashlib.sha256(f"{control.get('name') or selector.removeprefix('body > ')}:{stable_value}".encode()).hexdigest()[:12]
+            identity = kind + "-" + hashlib.sha256(f"{control.get('name') or control.get('href') or selector.removeprefix('body > ')}:{stable_value}".encode()).hexdigest()[:12]
             if identity not in known_ids:
                 scenarios.append(Scenario(identity, label, actions, page=page))
                 known_ids.add(identity)
-    if len(scenarios) > limit:
-        warnings.append(f"Wykryto {len(scenarios)} scenariuszy, limit wynosi {limit}; pokrycie częściowe.")
-        scenarios = scenarios[:limit]
-    if any(c["kind"] in {"select", "radio", "checkbox"} and c.get("scope") != "search" and not UNSAFE_OPTIONS.search(c["label"] + " " + c.get("name", "")) for c in controls):
-        warnings.append("Sprawdzane opcje pojedynczo; kombinacje i zależności wymagają zatwierdzonego adaptera.")
+    effective_limit = min(limit, 3) if page == "glowna" else limit
+    if len(scenarios) > effective_limit:
+        warnings.append(f"Wykryto {len(scenarios)} interakcji; sprawdzono maksymalnie {effective_limit}. Pozostały zakres wymaga adaptera.")
+        scenarios = scenarios[:effective_limit]
+    if any(c["kind"] in {"select", "radio", "checkbox"} and c.get("scope", "offer") == "offer" and not UNSAFE_OPTIONS.search(c["label"] + " " + c.get("name", "")) for c in controls):
+        warnings.append("Opcje sprawdzane pojedynczo; kombinacje zależnych wariantów wymagają adaptera.")
+    # Inspect sale content/options before entering a cart.
+    scenarios.sort(key=lambda s: any(a.get("cart") for a in s.actions))
     return scenarios, list(dict.fromkeys(warnings))
 
 
@@ -178,7 +195,7 @@ class BrowserScanner:
             await self.manager.stop()
             raise
         self.renderer = f"chromium-{self.browser.version}-playwright-1.56.0-v1-1280x900"
-        self.extractor = hashlib.sha256((EXTRACT + files("pracownie").joinpath("extract.py").read_text() + files("pracownie").joinpath("browser.py").read_text()).encode()).hexdigest()[:16]
+        self.extractor = hashlib.sha256((EXTRACT + files("pracownie").joinpath("extract.py").read_text()).encode()).hexdigest()[:16]
         return self
 
     async def __aexit__(self, *args):
@@ -187,17 +204,63 @@ class BrowserScanner:
         await self.manager.stop()
 
     async def settle(self, page: Page):
+        for attempt in range(2):
+            try:
+                await self._settle(page)
+                return
+            except BrowserError as exc:
+                if attempt or not re.search(r"context was destroyed|Cannot find context|frame was detached", str(exc), re.I):
+                    raise
+
+    async def _settle(self, page: Page):
+        await page.wait_for_load_state("domcontentloaded", timeout=self.navigation_timeout)
+        try:
+            await page.locator("body").wait_for(state="attached", timeout=5000)
+        except BrowserError as exc:
+            raise ValueError("Witryna nie zwróciła dokumentu HTML z treścią") from exc
         await page.wait_for_timeout(self.settle_ms)
         try:
             await page.evaluate("() => Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 2500))])")
         except Exception:
             pass
         # Bounded scrolling: record a warning if the document exceeds the capture limit.
-        for offset in range(0, min(await page.evaluate("document.body.scrollHeight"), 24000), 800):
+        for offset in range(0, min(await page.evaluate("document.body?.scrollHeight || 0"), 24000), 1000):
             await page.evaluate("y => window.scrollTo(0,y)", offset)
             await page.wait_for_timeout(35)
         await page.evaluate("window.scrollTo(0,0)")
         await page.wait_for_timeout(self.settle_ms)
+
+    async def operate(self, page: Page, action: dict):
+        selector = action.get("selector", "")
+        locator = page.locator(selector)
+        label = action.get("label", selector)
+        if action["action"] in {"click", "select", "check", "fill"}:
+            if await locator.count() != 1:
+                raise UnusableControl(f"Kontrolka nie ma jednoznacznego celu: {label}")
+            if not await locator.is_enabled():
+                raise UnusableControl(f"Kontrolka jest nieaktywna: {label}")
+        if action["action"] == "click":
+            text = (await locator.inner_text()).strip() or await locator.get_attribute("value") or await locator.get_attribute("alt") or ""
+            if re.search(r"zamawiam.*płac|potwierdź zamówienie|złóż zamówienie|place order|pay now|wyślij zapytanie", text, re.I):
+                raise ValueError("Scenariusz próbuje wysłać zamówienie lub zapytanie; działanie poza zakresem")
+            await locator.click(timeout=3500)
+        elif action["action"] == "select":
+            await locator.select_option(action["value"], timeout=3500)
+        elif action["action"] == "check":
+            if not await locator.is_checked():
+                label_selector = action.get("label_selector")
+                if label_selector and await page.locator(label_selector).is_visible():
+                    await page.locator(label_selector).click(timeout=3500)
+                else:
+                    await locator.check(timeout=3500)
+                if not await locator.is_checked():
+                    raise UnusableControl(f"Nie potwierdzono wyboru opcji: {label}")
+        elif action["action"] == "fill":
+            await locator.fill(str(action["value"]), timeout=3500)
+        elif action["action"] == "wait_for":
+            await locator.wait_for(state="visible")
+        else:
+            raise ValueError(f"Nieobsługiwane działanie: {action['action']}")
 
     async def cookies(self, page: Page):
         frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
@@ -293,11 +356,17 @@ class BrowserScanner:
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
             await self.disable_motion(page, warnings)
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: obsługa cookies"
-            await self.cookies(page)
+            try:
+                await self.cookies(page)
+            except BrowserError:
+                warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
             await self.settle(page)
             # Consent managers often appear asynchronously, after DOMContentLoaded.
-            await self.cookies(page)
+            try:
+                await self.cookies(page)
+            except BrowserError:
+                warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
             await page.wait_for_timeout(self.settle_ms)
             cookie_dialog = page.locator('#onetrust-banner-sdk, #CybotCookiebotDialog, #CookiebotDialog, [role="dialog"]')
             for index in range(await cookie_dialog.count()):
@@ -307,22 +376,7 @@ class BrowserScanner:
                     data_ready = False
             for action in scenario.actions:
                 self.phases[site.domain] = f"{page_kind}/{scenario.id}: interakcja {action['action']}"
-                selector = action.get("selector", "")
-                locator = page.locator(selector)
-                if action["action"] == "click":
-                    text = (await locator.inner_text()).strip() or await locator.get_attribute("value") or await locator.get_attribute("alt") or ""
-                    if re.search(r"zamawiam.*płac|potwierdź zamówienie|złóż zamówienie|place order|pay now|wyślij zapytanie", text, re.I):
-                        raise ValueError("Scenariusz próbuje wysłać zamówienie lub zapytanie; działanie poza zakresem")
-                    await locator.click()
-                elif action["action"] == "select":
-                    await locator.select_option(action["value"])
-                elif action["action"] == "check":
-                    await locator.check()
-                elif action["action"] == "fill":
-                    await locator.fill(str(action["value"]))
-                elif action["action"] == "wait_for":
-                    await locator.wait_for(state="visible")
-                elif action["action"] == "goto":
+                if action["action"] == "goto":
                     target = action["url"]
                     if not allowed_url(site, target):
                         raise ValueError("Scenariusz prowadzi poza skonfigurowane domeny")
@@ -330,7 +384,12 @@ class BrowserScanner:
                     if not action_response or action_response.status >= 400:
                         raise ValueError("Nie udało się odczytać strony scenariusza")
                 else:
-                    raise ValueError(f"Nieobsługiwane działanie: {action['action']}")
+                    try:
+                        await self.operate(page, action)
+                    except BrowserError as exc:
+                        if action.get("inferred"):
+                            raise UnusableControl(f"Nie udało się obsłużyć kontrolki: {action.get('label', action.get('selector', ''))}. {str(exc).splitlines()[0]}") from exc
+                        raise
                 await self.settle(page)
                 if not allowed_url(site, page.url):
                     raise ValueError("Interakcja przekierowała poza skonfigurowane domeny")
@@ -345,12 +404,19 @@ class BrowserScanner:
             for selector in site.masks:
                 await page.locator(selector).evaluate_all("es => es.forEach(e => e.style.visibility='hidden')")
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: odczyt DOM"
-            payload = await page.evaluate(EXTRACT)
+            is_cart = any(a.get("cart") for a in scenario.actions)
+            for rule in site.field_selectors:
+                if rule.get("page", "projekt") != page_kind or rule.get("optional") or rule.get("attribute") or is_cart and not rule.get("include_cart"):
+                    continue
+                await page.locator(rule["selector"]).filter(visible=True).first.wait_for(state="visible", timeout=5000)
+            payload = await page.evaluate(EXTRACT, page_kind)
+            payload["scenario_label"] = scenario.label
+            payload["variant"] = scenario.label if any(a.get("action") in {"select", "check"} for a in scenario.actions) else ""
             validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
             if payload.get("truncated"):
                 warnings.append("Limit elementów DOM; odczyt częściowy.")
                 data_ready = False
-            if await page.evaluate("document.body.scrollHeight") > 24000:
+            if await page.evaluate("document.body?.scrollHeight || 0") > 24000:
                 warnings.append("Strona dłuższa niż 24000 px; zrzut i przewijanie ograniczone.")
             relevant_failed = failed_hosts - set(site.ignore_resource_hosts)
             if failed_styles - set(site.ignore_resource_hosts):
@@ -366,7 +432,8 @@ class BrowserScanner:
                     continue
                 if rule.get("page", "projekt") != page_kind:
                     continue
-                element = page.locator(rule["selector"]).first
+                candidates = page.locator(rule["selector"])
+                element = candidates.first if rule.get("attribute") else candidates.filter(visible=True).first
                 if not await element.count():
                     if rule.get("optional", False):
                         continue
@@ -375,14 +442,14 @@ class BrowserScanner:
                 value = (value or "").strip()
                 if not value and not rule.get("optional", False):
                     raise ValueError(f"Puste wymagane pole: {rule['key']}")
-                match = MONEY.search(value)
+                match = MONEY.search(money_text(value))
                 currency = rule.get("currency")
                 number = amount(match[1]) if match else amount(value) if currency else None
                 if match:
                     currency = currency_code(match[2])
                 section = rule.get("section", "oferta")
                 sections.append(section)
-                fields["adapter:" + rule["key"]] = Field(rule.get("label", rule["key"]), value, rule.get("category", "ceny"), section, number, currency, timestamp)
+                fields["adapter:" + rule["key"]] = Field(rule.get("label", rule["key"]), value, rule.get("category", "ceny"), section, number, currency, timestamp, source="adapter", role=rule.get("role", "current"), primary=rule.get("primary", rule.get("category", "ceny") == "ceny"), tax=rule.get("tax", ""), unit=rule.get("unit", ""))
             if not fields:
                 warnings.append("Nie rozpoznano informacji sprzedażowych; adapter wymaga inspekcji.")
             destination.parent.mkdir(parents=True, exist_ok=True)

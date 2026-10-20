@@ -88,8 +88,11 @@ async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executa
         base = await scanner.capture(site, "projekt", sample_site.url + "/projekt-domu-testowy", Scenario("podstawowy", "Base"), tmp_path / "base.png")
         scenarios, _ = infer_scenarios(base.payload, "projekt")
         cart = [s for s in scenarios if any(a.get("cart") for a in s.actions)]
-        assert len(cart) == 2
-        for index, scenario in enumerate(cart):
+        assert len(cart) == 1  # Duplicate buttons must not repeat the same purchase flow.
+        controls = [c for c in base.controls if c["kind"] == "cart"]
+        assert len(controls) == 2 and len({c["selector"] for c in controls}) == 2
+        for index, control in enumerate(controls):
+            scenario = Scenario(f"cart-{index}", "Koszyk", [{"action": "click", "selector": control["selector"], "cart": True}])
             captured = await scanner.capture(site, "projekt", sample_site.url + "/projekt-domu-testowy", scenario, tmp_path / f"cart-{index}.png")
             assert captured.snapshot.url.endswith("/cart")
 

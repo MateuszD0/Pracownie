@@ -126,7 +126,7 @@ def execute(args) -> int:
                 # No baseline pointer is created before a successful scan/report transaction.
                 remote.release(f"{namespace}-state-v1", create=True)
                 if args.resume and record and record["day"] == (args.day or local_day()):
-                    asset_id = record["report_assets"][-1]
+                    asset_id = record.get("report_files", {}).get("zip", record["report_assets"][-1])
                     asset = remote.request("GET", f"{remote.prefix}/releases/assets/{asset_id}").json()
                     incoming = store.root / "incoming-report.zip"
                     expected = asset.get("digest", "").removeprefix("sha256:") or None
@@ -154,8 +154,9 @@ def execute(args) -> int:
                 print("Spis raportów: " + index_url)
                 summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
                 if summary_path:
+                    report_counts = json.loads((args.output / day / "oferty.json").read_text())["counts"]
                     with Path(summary_path).open("a") as stream:
-                        stream.write(f"### Raport {day}\n\n[Wyniki]({published['report_url']}) · [Spis raportów]({index_url})\n\nPokrycie: {counts}\n\nPublikacja: {published['published_at']}\n")
+                        stream.write(f"### Raport ofert {day}\n\n[Otwórz czytelny raport]({published['report_url']}) · [Spis dni]({index_url})\n\nStrony główne: {report_counts['home']}/{report_counts['domains']}; karty: {report_counts['project']}/{report_counts['domains']}; ceny: {report_counts['prices']}. Potwierdzone zmiany ofert: {report_counts['events']}.\n\nPublikacja: {published['published_at']}\n")
             # All errors fail the job after saving diagnostics; partial coverage is explicitly reported.
             if counts["error"] == len(sites):
                 return 2

@@ -401,6 +401,7 @@ def render_csv(view: dict) -> str:
             "Jednostka ceny",
             "Poprzedni odczyt ceny",
             "Bieżący odczyt ceny",
+            "Ocena odczytu ceny",
         ]
     )
 
@@ -432,6 +433,7 @@ def render_csv(view: dict) -> str:
                 r["current"].get("unit") or "projekt",
                 r["previous"].get("observed_at", ""),
                 r["current"].get("observed_at", ""),
+                "do potwierdzenia" if r["current"].get("quality") == "partial" else "poprawny odczyt" if r["current"] else "brak ceny",
             ]
         )
     return "\ufeff" + stream.getvalue()

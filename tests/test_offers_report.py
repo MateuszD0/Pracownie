@@ -60,6 +60,8 @@ def test_partial_exact_price_is_provisional_and_never_a_confirmed_delta():
     assert provisional["amount"] == "1450.00"
     assert money(provisional) == "1 450,00 zł *"
     assert price_delta({**provisional, "amount": "1600.00", "quality": "ok"}, provisional) == (None, None)
+    report = build_view("2026-10-20", [Result("test.pl", "projekt", "podstawowy", "partial", "https://test.pl/dom", observed_at=AT, offer=provisional, data_quality="partial")], {"finished_at": AT}, {}, ["test.pl"])
+    assert "do potwierdzenia" in render_csv(report)
 
 
 def test_structured_price_with_stable_identity_survives_browser_handler_update():

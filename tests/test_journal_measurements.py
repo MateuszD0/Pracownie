@@ -1,5 +1,6 @@
 import csv
 import io
+from pathlib import Path
 
 import pytest
 from bs4 import BeautifulSoup
@@ -12,6 +13,7 @@ from pracownie.journal import render_journal_csv
 from pracownie.model import Change, Field, Result, Snapshot
 from pracownie.observations import visual_description
 from pracownie.presentation import build_view, render_html
+from pracownie.rebuild import enrich_visual_results
 
 BEFORE = "2026-10-20T06:00:00+00:00"
 AFTER = "2026-10-21T06:00:00+00:00"
@@ -67,6 +69,23 @@ def test_real_pixel_change_gets_a_crop_and_specific_style_and_asset_facts(tmp_pa
     details = visual_description(old, new, diff)
     assert any("grafiki" in f["what"] for f in details["facts"])
     assert any("Kolor tła" in f["what"] for f in details["facts"])
+
+
+def test_archived_visual_enrichment_accepts_relative_report_directory(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr("pracownie.rebuild.visual_text", lambda _: {})
+    root = Path("reports")
+    folder = root / "2026-10-21/test.pl/projekt/podstawowy"
+    folder.mkdir(parents=True)
+    image = Image.new("RGB", (200, 300), "white")
+    image.save(folder / "przed.png")
+    ImageDraw.Draw(image).rectangle((30, 40, 130, 90), fill="red")
+    image.save(folder / "po.png")
+    evidence = {key: (folder / (key + ".png")).relative_to(root).as_posix() for key in ("przed", "po")}
+    result = Result("test.pl", "projekt", "podstawowy", "review", "https://test.pl/dom", [Change("review", "obraz", "Wygląd", None, "", BEFORE, AFTER, "https://test.pl/dom", "podstawowy")], observed_at=AFTER, compared_at=BEFORE, evidence=evidence)
+    enrich_visual_results([result], root)
+    assert result.changes[0].kind == "visual"
+    assert (root / result.evidence["zmieniony_obszar"]).is_file()
 
 
 def journal_view():

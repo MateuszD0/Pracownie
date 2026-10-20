@@ -22,6 +22,7 @@ from .state import StateStore
 
 def enrich_visual_results(results: list[Result], output: Path, store: StateStore | None = None) -> None:
     """Describe actual archived image differences, without inventing site changes."""
+    output = output.resolve()
     state = store.read() if store else {}
     for result in results:
         visuals = [c for c in result.changes if c.category == "obraz"]

@@ -45,7 +45,7 @@ def export_standalone(document: Path, destination: Path, downloads: dict | None 
         if picture.parent.name == 'a':
             picture.parent.unwrap()
     for caption in soup.select('figcaption'):
-        caption.append(' · Podgląd początku strony')
+        caption.append(' · Podgląd zapisanego zrzutu')
     for link in soup.select('a[href]'):
         href = link['href']
         if href.startswith(('#', 'https://', 'http://')):

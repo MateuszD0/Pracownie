@@ -18,7 +18,7 @@ from playwright.async_api import TimeoutError as BrowserTimeout
 from .browser import BrowserScanner, Capture, TransientFetchError, UnusableControl, infer_scenarios
 from .compare import compare
 from .extract import is_listing_title, page_identity
-from .images import image_difference, ocr_context, visual_evidence
+from .images import image_difference, ocr_context, visual_evidence, visual_text
 from .model import Change, Result, Scenario, Site, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
@@ -146,7 +146,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     result_warnings.append("Zmieniono wersję przeglądarki; porównanie obrazu pominięto, a dane porównano ostrożnie.")
                 if before and visual and visual.changed:
                     text, note = "", "Zmiana obrazu wymaga oceny; może wynikać również ze zmiany układu."
-                    if options.ocr:
+                    if options.ocr and snapshot.scenario != "podstawowy":
                         text, ocr_note = await asyncio.to_thread(ocr_context, capture.screenshot, folder / "fragment-ocr.png", visual.bbox)
                         note += " " + ocr_note
                     details = visual_description(before, snapshot, visual)
@@ -162,6 +162,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     if before and visual and visual.changed and snapshot.scenario == "podstawowy":
                         crops = await asyncio.to_thread(visual_evidence, store.root / before.image, capture.screenshot, folder, visual)
                         evidence.update({k: p.relative_to(staging).as_posix() for k, p in crops.items()})
+                        if options.ocr and not details.get("facts") and not details.get("unreliable"):
+                            ocr = await asyncio.to_thread(visual_text, crops)
+                            if ocr:
+                                details["ocr"] = ocr
+                                details["description"] = "Zmieniła się zawartość obrazu: " + details.get("area", "zaznaczony obszar")
                     if (folder / "fragment-ocr.png").exists():
                         evidence["fragment_ocr"] = (folder / "fragment-ocr.png").relative_to(staging).as_posix()
                 elif difference_path.exists():

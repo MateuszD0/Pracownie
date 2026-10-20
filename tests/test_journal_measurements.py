@@ -110,6 +110,17 @@ def test_archived_visual_enrichment_accepts_relative_report_directory(tmp_path, 
     assert (root / result.evidence["zmieniony_obszar"]).is_file()
 
 
+def test_banner_description_compares_actual_labels_when_asset_url_is_reused():
+    from pracownie.images import VisualDiff
+
+    old, new = shot(), shot(AFTER)
+    element = {"key": "#hero", "src": "https://test.pl/banner.jpg", "label": "Rabat 10%"}
+    old.document = {"visual": {"schema": 1, "elements": [element]}}
+    new.document = {"visual": {"schema": 1, "elements": [{**element, "label": "Rabat 20%"}]}}
+    facts = visual_description(old, new, VisualDiff(True, 0.1, (0, 0, 100, 100)))["facts"]
+    assert facts == [{"what": "Opis grafiki", "before": "Rabat 10%", "after": "Rabat 20%", "url": new.url}]
+
+
 def journal_view():
     changes = [Change("changed", "promocje", "Promocja", "Rabat 10%", "Rabat 20%", BEFORE, AFTER, "https://test.pl/dom#promocja", "podstawowy")]
     visual = Change("visual", "obraz", "Zmiana banera", None, "", BEFORE, AFTER, "https://test.pl/dom", "podstawowy", details={"description": "Kolor tła banera", "facts": [{"what": "Kolor tła: baner", "before": "biały", "after": "czerwony", "url": "https://test.pl/dom#hero"}]})

@@ -123,7 +123,8 @@ async def test_duplicate_dom_ids_have_unambiguous_selectors(sample_site, executa
 
 
 @pytest.mark.browser
-async def test_visual_monitoring_without_recognized_sales_text(sample_site, executable, tmp_path, monkeypatch):
+@pytest.mark.parametrize("ocr_fallback", [False, True])
+async def test_visual_monitoring_without_recognized_sales_text(sample_site, executable, tmp_path, monkeypatch, ocr_fallback):
     sample_site.no_sales = True
     site, store, output = site_config(sample_site), StateStore(tmp_path / "state"), tmp_path / "reports"
     monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-18T06:00:00+00:00")
@@ -131,13 +132,26 @@ async def test_visual_monitoring_without_recognized_sales_text(sample_site, exec
     assert store.read()["snapshots"]["test.pl/glowna/podstawowy"]["quality"] == "ok"
     sample_site.background = "#ccddff"
     monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-19T06:00:00+00:00")
-    outcome = await run_scan([site], store, output, options(executable, "2026-10-19"))
+    settings = options(executable, "2026-10-19")
+    if ocr_fallback:
+        from pracownie.observations import visual_description
+
+        # Simulate changed raster content with unchanged DOM properties. OCR
+        # stays visual evidence even when the recognized text contains prices.
+        monkeypatch.setattr("pracownie.pipeline.visual_description", lambda *a: {**visual_description(*a), "facts": []})
+        monkeypatch.setattr("pracownie.pipeline.visual_text", lambda _: {"before": "Cena projektu 4590 zł", "after": "Cena projektu 4290 zł"})
+        settings.ocr = True
+    outcome = await run_scan([site], store, output, settings)
     changes = [change for result in outcome["results"] for change in result.changes]
     assert changes and all(change.kind == "visual" for change in changes)
     assert all(change.evidence.get("przed") and change.evidence.get("po") for change in changes)
     view = json.loads((output / "2026-10-19/oferty.json").read_text())
     assert view["journal"] and all(item["category"] == "obraz" and item["daily"] for item in view["journal"])
-    assert any("Kolor tła" in item["description"] and "rgb(204, 221, 255)" in item["after"] for item in view["journal"])
+    if ocr_fallback:
+        assert any(item["before"] == "Cena projektu 4590 zł" and item["after"] == "Cena projektu 4290 zł" for item in view["journal"])
+        assert view["counts"]["events"] == 0
+    else:
+        assert any("Kolor tła" in item["description"] and "rgb(204, 221, 255)" in item["after"] for item in view["journal"])
 
 
 @pytest.mark.browser

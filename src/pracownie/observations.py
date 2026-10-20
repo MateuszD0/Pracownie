@@ -85,6 +85,14 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
             label = b.get("label") or a.get("label") or "element strony"
+            generic = {"", "baner", "treść strony", "nagłówek strony"}
+            if a.get("src") and b.get("src") and all(e.get("label", "") not in generic for e in (a, b)) and a["label"] != b["label"]:
+                facts.append({
+                    "what": "Opis grafiki",
+                    "before": a.get("label") or "brak opisu",
+                    "after": b.get("label") or "brak opisu",
+                    "url": b.get("url") or after.url,
+                })
             for prop, description in [
                 ("src", "Źródło grafiki"),
                 ("background_image", "Grafika w tle"),

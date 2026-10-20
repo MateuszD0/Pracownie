@@ -7,7 +7,14 @@ from PIL import Image
 from pracownie.browser import BrowserScanner
 from pracownie.extract import extract_fields
 from pracownie.model import Change, Result
-from pracownie.presentation import build_view, render_html, render_text, scan_comparison
+from pracownie.presentation import (
+    assessment,
+    build_view,
+    render_html,
+    render_markdown,
+    render_text,
+    scan_comparison,
+)
 from pracownie.report import verify_outputs, write_outputs
 from pracownie.web import export_standalone, prepare_web
 
@@ -81,7 +88,7 @@ def test_matched_changes_survive_parser_migration_and_distinct_promos_share_an_a
 async def test_connected_scans_show_observations_and_open_their_own_evidence(executable):
     entries = daily_results()
     entries[0].changes[0].kind = "review"
-    entries[0].changes[0].note = "Zmieniono reguły odczytu"
+    entries[0].changes[0].note = "Niepełny odczyt sekcji"
     entries[0].changes[0].evidence = {"przed": DAY + "/option-before.png", "po": DAY + "/option-after.png"}
     report = make_view(entries)
     document = render_html(report)
@@ -95,7 +102,7 @@ async def test_connected_scans_show_observations_and_open_their_own_evidence(exe
         await page.set_content(document)
         assert 'Rabat 10%' in await page.locator('#observations').inner_text()
         assert 'Rabat 20%' in await page.locator('#observations').inner_text()
-        assert 'do oceny' in await page.locator('#observations').inner_text()
+        assert 'niezweryfikowany odczyt' in await page.locator('#observations').inner_text()
         # Review cards must open the review's images, not an unrelated confirmed event.
         await page.locator('#observations [data-open]').click()
         assert await page.locator('dialog').is_visible()
@@ -112,6 +119,47 @@ async def test_connected_scans_show_observations_and_open_their_own_evidence(exe
 def test_uncategorized_visible_copy_is_monitored():
     fields, _ = extract_fields({"blocks": [{"heading": "Witamy", "text": "Buduj razem z nami"}]}, AFTER)
     assert fields["tekst:witamy:tresc"].value == "Buduj razem z nami"
+
+
+def test_technical_uncertainty_is_owned_by_monitor_and_preserved_outside_business_findings():
+    entries = daily_results()
+    entries[0].changes[0].kind = "review"
+    entries[0].changes[0].note = "Zmieniono reguły odczytu"
+    entries[1].changes = [Change("review", "ceny", "Termin", "2026-10-20", "2026-10-21", BEFORE, AFTER, entries[1].url, "podstawowy", field_key="oferta:dom:priceValidUntil")]
+    report = make_view(entries)
+    conclusion = assessment(report)
+    assert conclusion["title"] == "Niepełna ocena zmian ofert"
+    assert conclusion["unchanged"] == 0 and conclusion["uncompared"] == 1
+    assert report["counts"]["events"] == 0
+    soup = BeautifulSoup(render_html(report), "html.parser")
+    assert "Nie masz niczego potwierdzać" in soup.select_one('#assessment').get_text()
+    assert not soup.select('#observations .event')
+    # Preserve the source evidence, but do not promote technical noise to findings.
+    assert 'Rabat 10%' in soup.select_one('details.reviews').get_text()
+    assert soup.select('details.reviews:not([open])')
+    markdown = render_markdown(report)
+    headline = markdown.split('<details>')[0]
+    assert 'Niepełna ocena zmian ofert' in headline
+    assert 'Wiarygodne porównanie ceny dzień do dnia: 0/1' in headline
+    assert 'Rabat 10%' not in headline
+    assert 'Nie masz niczego potwierdzać' in render_text(report)
+
+
+def test_price_conclusion_counts_only_comparable_prices_captured_on_both_days():
+    entries = daily_results()
+    for entry in entries:
+        entry.changes = []
+    quote = {"kind": "price", "amount": "3500.00", "currency": "PLN", "field_key": "oferta:dom:price", "quality": "ok"}
+    entries[1].offer = {**quote, "observed_at": AFTER}
+    entries[1].before_offer = {**quote, "observed_at": BEFORE}
+    report = make_view(entries)
+    assert assessment(report)["prices"] == assessment(report)["unchanged"] == 1
+    assert assessment(report)["uncompared"] == 0
+    assert '| test.pl | 3 500,00 zł | 3 500,00 zł | bez zmiany ceny |' in render_markdown(report).split('<details>')[0]
+    entries[1].before_offer["observed_at"] = "2026-10-18T06:00:00+00:00"
+    conclusion = assessment(make_view(entries))
+    assert conclusion["prices"] == conclusion["unchanged"] == 0
+    assert conclusion["uncompared"] == 1
 
 
 def test_web_uses_verified_images_and_does_not_modify_archive(tmp_path):

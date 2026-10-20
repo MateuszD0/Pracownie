@@ -4,6 +4,8 @@ Jedynym repozytorium kodu, workflow i opublikowanych raportów jest publiczne [M
 
 [Spis raportów](../RAPORTY.md) · [Produkcja: raport dnia](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-20) · [Uruchomienia](https://github.com/MateuszD0/Pracownie/actions/workflows/monitor.yml)
 
+**Zakres wiarygodnych wniosków z 20 października:** siedem porównywalnych cen pozostało bez zmian. Dla pozostałych 58 pracowni nie ustalono dziennej zmiany ceny. Spośród 125 niejednoznacznych obserwacji 121 jest obciążonych zmianą sposobu odczytu, a cztery dotyczą samych metadanych terminu ceny. Nie stanowią ustalonej listy zmian ofert ani zadań do potwierdzenia przez użytkownika. Pełny monitoring zmian sprzedażowych pozostaje niepotwierdzony; sukces publikacji i testów tego nie zastępuje.
+
 **Potwierdzone uruchomienia**
 
 | Przebieg | Wynik i pomiar |

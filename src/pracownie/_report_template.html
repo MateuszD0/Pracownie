@@ -14,20 +14,21 @@ del{background:#fce1de;color:#8c3029;text-decoration-color:#a24d45}ins{backgroun
 <header><div class="bar"><div class="brand">Pracownie<span>Obserwator ofert</span></div><nav class="links" aria-label="Pliki raportu"><a href="../__REPORT_DAY__.txt">Pobierz TXT</a><a href="oferty.csv">Otwórz CSV</a><a href="diagnostyka.txt">Diagnostyka</a><a href="https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md" target="_blank" rel="noopener">Historia dni</a></nav></div></header>
 <main>
 <div class="intro"><div><p class="eyebrow">Codzienny monitoring pracowni</p><h1 id="title">__STATIC_TITLE__</h1><p>Co zmieniło się na stronie głównej i wybranej karcie projektu. Każda strona ma własne daty porównania, różnice tekstu i zrzuty przed / po.</p></div><div class="stamp" id="stamp">__STATIC_STAMP__</div></div>
+__STATIC_ASSESSMENT__
 <div class="stats" id="stats">__STATIC_STATS__</div>
-<div class="section-head"><h2>Porównania przed / po</h2><span class="small" id="observations-count"></span></div>
-<p class="small">Poniżej przykłady różnic zapisanych między skanami. Wymagają potwierdzenia z powodu niepełnego odczytu, zmiany reguł lub brakującej sekcji. Każda obserwacja ma własne daty, źródło i obrazy.</p>
-<div class="events" id="observations">__STATIC_OBSERVATIONS__</div><p class="empty" id="observations-empty" hidden>Wybrane domeny mają pełne porównania w sekcjach pracowni poniżej.</p>
 __STATIC_COMPARISON__
+<div class="section-head"><h2>Pozostałe niezweryfikowane różnice odczytu</h2><span class="small" id="observations-count"></span></div>
+<p class="small">Problemy zmienionych reguł odczytu i samych metadanych pozostają w szczegółach technicznych. System nie traktuje ich jako ustalonych zmian ofert.</p>
+<div class="events" id="observations">__STATIC_OBSERVATIONS__</div><p class="empty" id="observations-empty" hidden>Brak dodatkowych ustaleń dla wybranego zakresu. Dostępność danych opisano przy każdej stronie.</p>
 <div class="section-head"><h2>Co zmieniło się w ofertach</h2><span class="small" id="events-count"></span></div>
 <div class="events" id="events">__STATIC_EVENTS__</div>
 <div class="section-head"><h2>Zmiany dzień do dnia · obie strony</h2><label class="small">Pokaż <select id="page-filter" aria-label="Rodzaj strony"><option value="all">Obie strony</option><option value="glowna">Strony główne</option><option value="projekt">Karty projektów</option></select></label></div>
 <div class="filters"><div class="filter-buttons" id="filters" role="group" aria-label="Filtr domen"></div><label class="search"><span class="small">Szukaj</span><input id="search" type="search" placeholder="Domena lub nazwa projektu" aria-label="Wyszukaj domenę lub projekt"></label></div>
-<p class="small">Dla każdej pracowni sprawdzamy osobno stronę główną i stałą kartę projektu. „Do potwierdzenia” oznacza, że różnica może wynikać ze sposobu odczytu. Wtedy pokazujemy tekst i dowody, bez potwierdzania zmiany oferty.</p>
+<p class="small">Dla każdej pracowni zapisujemy osobno stronę główną i stałą kartę projektu. „Nie ustalono zmian” oznacza brak wiarygodnego wyniku, a nie brak zmian na stronie. Niejednoznaczne odczyty są problemem do naprawy po stronie monitora.</p>
 <div id="daily">__STATIC_DAILY__</div><noscript><p class="visual-note">Wyświetlono pełne porównanie bez JavaScript. Wyszukiwanie i filtry wymagają włączenia skryptów.</p></noscript>
 <div class="section-head"><h2>Pracownie i ceny projektów</h2><span class="small" id="rows-count" aria-live="polite"></span></div>
 <div class="table-box"><table><thead><tr><th>Pracownia / wybrany projekt</th><th class="price">Poprzedni odczyt</th><th class="price">Dzisiaj</th><th>Porównanie</th><th>Odczyt stron</th><th>Dowody</th></tr></thead><tbody id="rows"></tbody></table></div>
-<div class="table-footer"><span>„—” oznacza brak porównywalnej ceny. Nie oznacza 0 zł.</span><span>* Odczyt częściowy — cena do potwierdzenia. Zakres cen oznacza kilka wariantów.</span></div>
+<div class="table-footer"><span>„—” oznacza brak porównywalnej ceny. Nie oznacza 0 zł.</span><span>* Odczyt częściowy — niepewna cena. Zakres cen oznacza kilka wariantów.</span></div>
 <div class="section-head"><h2>Gdzie brakuje danych</h2><span class="small" id="missing-count"></span></div><div class="attention" id="missing"></div>
 <div class="notes"><p><strong>Jak czytać wynik:</strong> potwierdzone zmiany ofert są oddzielone od zmian wyglądu. Sam zmieniony obraz nie jest dowodem nowej promocji.</p><p>Opcje, konfiguratory i koszyk mogą mieć częściowe pokrycie. „Szczegóły” pokazują ograniczenia konkretnej pracowni, źródła i zrzuty przed/po. Pełne komunikaty techniczne są w osobnej diagnostyce.</p><p>Brak danych lub nowy sposób odczytu nie oznaczają braku zmian. Skan raz dziennie nie obejmuje zdarzeń pomiędzy odczytami.</p></div>
 <footer class="foot"><span>Pracownie · raport dzienny</span><span id="finished"></span></footer>
@@ -61,7 +62,7 @@ function render(){
  for(const block of document.querySelectorAll('.daily-page'))block.hidden=pageFilter!=='all'&&block.dataset.page!==pageFilter;
  const events=selected.flatMap(r=>r.events.map((e,i)=>[r,e,i])).filter(([,e])=>pageFilter==='all'||e.page===pageFilter);$('events-count').textContent=events.length+' potwierdzonych zmian';
  for(const card of document.querySelectorAll('#events .event'))card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter);
- const reviews=selected.flatMap(r=>r.reviews.map((e,i)=>[r,e,i])).filter(([,e])=>pageFilter==='all'||e.page===pageFilter);
+ const reviews=selected.flatMap(r=>r.reviews.map((e,i)=>[r,e,i])).filter(([,e])=>!e.technical&&(pageFilter==='all'||e.page===pageFilter));
  let shown=0;for(const card of document.querySelectorAll('#observations .event')){card.hidden=!visibleDomains.has(card.dataset.domain)||(pageFilter!=='all'&&card.dataset.page!==pageFilter);if(!card.hidden)shown++;}
  $('observations-count').textContent='Przykłady: '+shown+' z '+reviews.length+' obserwacji. Pełne porównania są w pracowniach poniżej.';
  $('observations-empty').hidden=shown>0;
@@ -77,11 +78,11 @@ function openDetails(domain,eventIndex,kind){
  if(event)content+='<h3>'+esc(event.label)+'</h3><p>'+esc(event.before)+' → <strong>'+esc(event.after)+'</strong></p>';
  if(event)content+=figures(event.evidence,event.before_at,event.after_at);
  if(row.events.length)content+='<h3>Potwierdzone zmiany</h3><ul>'+row.events.map(e=>'<li><strong>'+esc(e.label)+'</strong>: '+esc(e.before)+' → '+esc(e.after)+' <span class="small">('+esc(e.context)+')</span></li>').join('')+'</ul>';
- if(row.reviews.length)content+='<h3>Do potwierdzenia</h3><ul>'+row.reviews.map(e=>'<li><strong>'+esc(e.context)+' · '+esc(e.label)+'</strong>: '+esc(e.before)+' → '+esc(e.after)+'<br><span class="small">'+esc(time(e.before_at))+' → '+esc(time(e.after_at))+' · '+esc(e.note)+'</span></li>').join('')+'</ul>';
+ if(row.reviews.length)content+='<h3>Niejednoznaczne zapisy odczytu</h3><p>Materiały do naprawy działania monitora; nie są zadaniami dla użytkownika.</p><ul>'+row.reviews.map(e=>'<li><strong>'+esc(e.context)+' · '+esc(e.label)+'</strong>: '+esc(e.before)+' → '+esc(e.after)+'<br><span class="small">'+esc(time(e.before_at))+' → '+esc(time(e.after_at))+' · '+esc(e.note)+'</span></li>').join('')+'</ul>';
  content+='<h3>Porównanie obu stron</h3>'+row.pages.map(p=>'<div class="box"><strong>'+esc(p.label)+'</strong> · '+esc(p.status_label)+'<p class="small">'+esc(time(p.compared_at))+' → '+esc(time(p.observed_at))+(p.gap_days>1?' · Luka '+p.gap_days+' dni':'')+'</p>'+figures(p.evidence,p.compared_at,p.observed_at)+'</div>').join('');
  if(row.visuals.length)content+='<div class="visual-note">Wykryto różnicę wyglądu. To wskazówka do oceny, nie potwierdzenie zmiany oferty.</div>'+row.visuals.map(v=>'<h3 style="margin-top:18px">'+(v.page==='glowna'?'Strona główna':'Karta projektu')+' · zmiana obrazu</h3>'+figures(v.evidence,v.before_at,v.after_at)).join('');
  if(row.issues.length)content+='<h3>Ograniczenia odczytu</h3><ul>'+row.issues.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>';
- if(row.migration)content+='<p class="visual-note">Zmieniono reguły odczytu. Różnice dopasowanych pól pokazujemy do potwierdzenia; nowe klucze są w diagnostyce.</p>';
+ if(row.migration)content+='<p class="visual-note">Zmieniono reguły odczytu. Nie ustalono, czy niejednoznaczne różnice dotyczą oferty. Naprawa jest zadaniem monitora.</p>';
  content+='<p class="small">Dodatkowe konfiguratory i zależne kombinacje opcji mogą wymagać adaptera. <a href="diagnostyka.txt">Pełna diagnostyka</a></p>';
  $('detail-content').innerHTML=content;$('details').showModal();$('close').focus();
 }

@@ -35,6 +35,34 @@ NOISE = re.compile(
 )
 
 
+def technical_reason(event: dict) -> str:
+    if "reguły odczytu" in event.get("note", ""):
+        return "method"
+    if event.get("label") == "Termin ceny w metadanych":
+        return "metadata"
+    return ""
+
+
+def assessment(view: dict) -> dict:
+    """Business conclusions, bounded by genuinely comparable observations."""
+    domains = set(view["comparison"]["price_domains"])
+    prices = [r for r in view["rows"] if r["domain"] in domains]
+    reasons = Counter(technical_reason(e) for r in view["rows"] for e in r["reviews"])
+    total = view["counts"]["domains"]
+    unchanged = sum(Decimal(r["delta"]) == 0 for r in prices)
+    lines = [
+        f"Potwierdzone zmiany ofert: {view['counts']['events']}.",
+        f"Wiarygodne porównanie ceny dzień do dnia: {len(prices)}/{total} pracowni. Cena bez zmian: {unchanged}; spadki: {sum(Decimal(r['delta']) < 0 for r in prices)}; wzrosty: {sum(Decimal(r['delta']) > 0 for r in prices)}.",
+    ]
+    if len(prices) < total:
+        lines.append(f"Dla {total - len(prices)} pracowni nie można ustalić dziennej zmiany ceny. Brak wyniku nie oznacza braku zmian.")
+    if reasons["method"] or reasons["metadata"]:
+        lines.append(f"Problemy danych: {reasons['method']} niejednoznacznych różnic po zmianie sposobu odczytu; {reasons['metadata']} różnic metadanych bez potwierdzenia w widocznej ofercie.")
+        lines.append("Nie masz niczego potwierdzać. Te problemy wymagają naprawy po stronie monitora i nie są ustalonymi zmianami ofert.")
+    limited = len(prices) < total or bool(sum(reasons.values())) or view["counts"]["missing"] > 0
+    return {"title": "Niepełna ocena zmian ofert" if limited else "Wynik w sprawdzonym zakresie", "lines": lines, "prices": len(prices), "unchanged": unchanged, "uncompared": total - len(prices)}
+
+
 def money(offer: dict) -> str:
     if not offer:
         return "—"
@@ -143,7 +171,7 @@ def _event(change, result: Result) -> dict:
         "evidence": change.evidence or result.evidence,
         "role": role,
         "page": result.page,
-        "note": change.note.strip(),
+        "note": "Zmieniono reguły odczytu lub przeglądarkę. Nie ustalono, czy różnica dotyczy oferty; problem wymaga naprawy po stronie monitora." if "reguły odczytu" in change.note else change.note.strip(),
         "before_full": old,
         "after_full": new,
     }
@@ -161,7 +189,7 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
     elif events:
         status, label = "changed", f"Zmiany: {len(events)}"
     elif reviews:
-        status, label = "review", f"Do potwierdzenia: {len(reviews)}"
+        status, label = "review", f"Nie ustalono zmian: {len(reviews)} niejednoznacznych różnic odczytu"
     elif not before_at:
         status, label = "baseline", "Pierwszy odczyt — zapisano punkt odniesienia"
     elif migrations:
@@ -297,7 +325,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                 if change.field_key.endswith(":priceValidUntil"):
                     event["review"] = True
                     event["label"] = "Termin ceny w metadanych"
-                    event["note"] = "Termin w metadanych może być aktualizowany automatycznie; wymaga potwierdzenia w widocznej ofercie."
+                    event["note"] = "Termin w metadanych może być aktualizowany automatycznie. Nie ustalono zmiany terminu w widocznej ofercie."
                 if event["before"] == event["after"]:
                     continue
                 if (
@@ -320,6 +348,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                 if key in keys:
                     continue
                 keys.add(key)
+                event["technical"] = technical_reason(event)
                 row["reviews" if event["review"] else "events"].append(event)
         for retry in [r for r in entries if r.scenario == "ponowienie-podstawowego" and r.error]:
             original = home if retry.page == "glowna" else project
@@ -337,7 +366,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         if limited and not failed_options:
             row["issues"].append("Dodatkowe interakcje sprawdzone częściowo; szczegóły w diagnostyce.")
         if project and project.observed_at and project.data_quality == "partial":
-            row["issues"].append("Karta odczytana częściowo; cena wymaga potwierdzenia.")
+            row["issues"].append("Karta odczytana częściowo; cena nie służy do ustalania zmiany oferty.")
         row["issues"] = list(dict.fromkeys(row["issues"]))
         row["pages"] = [page_comparison(day, page, base, entries, row) for page, base in [("glowna", home), ("projekt", project)]]
         if not row["home_read"] or not row["project_read"]:
@@ -345,7 +374,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         elif row["events"]:
             row["status"], row["status_label"] = "changed", "Zmiana oferty"
         elif row["reviews"]:
-            row["status"], row["status_label"] = "review", "Porównanie wymaga oceny"
+            row["status"], row["status_label"] = "review", "Nie ustalono zmian — odczyt niejednoznaczny"
         elif row["visuals"]:
             row["status"], row["status_label"] = "visual", "Obraz do oceny"
         elif any(p["status"] == "review" for p in row["pages"]):
@@ -391,7 +420,10 @@ def render_text(view: dict) -> str:
     pair = view["comparison"]
     lines = [
         f"OFERTY PRACOWNI — {view['day']}",
-        f"Raport gotowy: {when(view['metadata']['finished_at'])} (czas polski)",
+        assessment(view)["title"].upper(),
+        *assessment(view)["lines"],
+        "",
+        f"Zakończenie odczytu: {when(view['metadata']['finished_at'])} (czas polski)",
         f"Podłączone skany: {pair['before_day']} → {pair['after_day']}. Pary odczytów: {pair['paired_home']} stron głównych + {pair['paired_project']} kart; pary zrzutów: {pair['screenshot_pairs']}.",
         "",
         f"Odczyt: {c['home']}/{c['domains']} stron głównych; {c['project']}/{c['domains']} kart projektów.",
@@ -412,15 +444,15 @@ def render_text(view: dict) -> str:
                 f"  Źródło: {event['source']}",
             ]
         )
-    reviews = [(r, e) for r in view["rows"] for e in r["reviews"]]
+    reviews = [(r, e) for r in view["rows"] for e in r["reviews"] if not technical_reason(e)]
     if reviews:
-        lines.extend(["", "OBSERWACJE DO POTWIERDZENIA", ""])
+        lines.extend(["", "NIEZWERYFIKOWANE RÓŻNICE ODCZYTU", ""])
         for row, event in reviews[:15]:
             description = f"{event['before']} → {event['after']}"
             if event["delta"]:
                 direction = "spadek" if Decimal(event["delta"]) < 0 else "wzrost"
                 description += f"; {direction} o {abs(Decimal(event['delta'])):.2f}"
-            lines.append(f"DO OCENY: {row['domain']} — {event['label']}: {description}")
+            lines.append(f"NIE USTALONO ZMIANY OFERTY: {row['domain']} — {event['label']}: {description}")
         if len(reviews) > 15:
             lines.append(f"Pozostałe {len(reviews) - 15} obserwacji: raport HTML i dane JSON.")
     lines.extend(["", "CENY PROJEKTÓW — POPRZEDNI ODCZYT → DZISIAJ", ""])
@@ -438,7 +470,7 @@ def render_text(view: dict) -> str:
                 lines.append(f"    Luka {page['gap_days']} dni; to nie jest porównanie z wczoraj.")
             for event in page["events"] + page["reviews"]:
                 lines.extend([
-                    f"    {'DO POTWIERDZENIA: ' if event['review'] else ''}{event['label']} ({event['context']})",
+                    f"    {'NIEZWERYFIKOWANY ODCZYT: ' if event['review'] else ''}{event['label']} ({event['context']})",
                     f"      PRZED ({when(event['before_at'])}): {event.get('before_full') or event['before']}",
                     f"      PO ({when(event['after_at'])}): {event.get('after_full') or event['after']}",
                     f"      Źródło: {event['source']}",
@@ -451,7 +483,7 @@ def render_text(view: dict) -> str:
             lines.append("  " + issue)
         if row["migration"]:
             lines.append(
-                "  Zmieniono reguły odczytu; różnice dopasowanych pól pokazano do potwierdzenia. Nowe klucze odczytu są w diagnostyce."
+                "  Zmieniono reguły odczytu; nie ustalono zmian oferty. Niejednoznaczne zapisy zachowano do naprawy monitora."
             )
         for visual in row["visuals"]:
             lines.append(
@@ -471,7 +503,7 @@ def render_text(view: dict) -> str:
             "",
             "JAK CZYTAĆ RAPORT",
             "Cena poprzednio pochodzi z ostatniego poprawnego odczytu sprzed dnia raportu. Brak danych nie oznacza ceny 0 zł ani braku zmian.",
-            "* Cena z dokładnego pola projektu przy częściowym odczycie strony; wymaga potwierdzenia. Nie wyliczamy z niej zmiany ceny.",
+            "* Cena z dokładnego pola projektu przy częściowym odczycie strony. Odczyt niepewny; nie wyliczamy z niego zmiany ceny.",
             "W ZIP otwórz folder dnia i index.html: tabela ma wyszukiwanie, filtry oraz zrzuty przed/po. oferty.csv zawiera ceny do arkusza.",
             "Surowe komunikaty przeglądarki i pełny zakres interakcji: diagnostyka.txt oraz pokrycie.json. Wszystkie obserwacje: zmiany.json.",
         ]
@@ -534,7 +566,7 @@ def render_csv(view: dict) -> str:
                 r["current"].get("unit") or "projekt",
                 r["previous"].get("observed_at", ""),
                 r["current"].get("observed_at", ""),
-                "do potwierdzenia" if r["current"].get("quality") == "partial" else "poprawny odczyt" if r["current"] else "brak ceny",
+                "odczyt niepewny" if r["current"].get("quality") == "partial" else "poprawny odczyt" if r["current"] else "brak ceny",
             ]
         )
     return "\ufeff" + stream.getvalue()
@@ -548,10 +580,21 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
         value = str(v).replace("\\", "\\\\").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
         return re.sub(r"([\[\]|*_`])", r"\\\1", value)
 
+    paired = [r for r in view["rows"] if r["domain"] in pair["price_domains"]]
+    price_lines = ["### Ceny, które udało się wiarygodnie porównać", "", "| Pracownia | Poprzedni dzień | Dzień raportu | Wynik |", "| --- | ---: | ---: | --- |"]
+    price_lines.extend(f"| {esc(r['domain'])} | {r['previous_text']} | {r['current_text']} | {esc(_delta_text(r))} |" for r in paired)
+    if not paired:
+        price_lines = ["Brak wiarygodnych porównań cen z obu dni."]
     lines = [
         f"## Oferty pracowni · {view['day']}",
         "",
-        f"**Podłączone skany: {pair['before_day']} → {pair['after_day']}**. Zestawiono {pair['paired_home']} stron głównych i {pair['paired_project']} kart projektów. Dostępne pary zrzutów: {pair['screenshot_pairs']}. Obserwacje do sprawdzenia: {pair['review_events']}; wymagają oceny i nie są potwierdzonymi zmianami ofert.",
+        f"### {assessment(view)['title']}",
+        "",
+        "\n\n".join(assessment(view)["lines"]),
+        "",
+        *price_lines,
+        "",
+        f"**Archiwum odczytów: {pair['before_day']} → {pair['after_day']}**. Zapisano {pair['paired_home']} par stron głównych i {pair['paired_project']} par kart projektów oraz {pair['screenshot_pairs']} par zrzutów. Są to zapisane materiały, nie liczba ustalonych zmian.",
         "",
         f"Odczytano **{c['home']}/{c['domains']} stron głównych** i **{c['project']}/{c['domains']} kart projektów**. Ustalono {c['prices']} cen; porównywalne pary cen: {c['price_pairs']}. **{c['events']} potwierdzonych zmian ofert** w {c['changed']} domenach.",
         "",
@@ -571,6 +614,8 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     lines.extend(
         [
             "",
+            "<details><summary>Szczegóły odczytów, cen i ograniczeń monitora</summary>",
+            "",
             "### Porównanie strony głównej i karty projektu",
             "",
             f"Porównania z poprzednim dniem: {c['daily_pages']} stron. Poniżej każda strona ma własny zakres dat. Luka w odczytach nie jest oznaczana jako porównanie z wczoraj.",
@@ -584,9 +629,9 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
         for page in row["pages"]:
             cells.append(esc(page["status_label"]) + " · " + when(page["compared_at"], True) + " → " + when(page["observed_at"], True))
         lines.append("| " + " | ".join(cells) + " |")
-    reviews = [(r, e) for r in view["rows"] for e in r["reviews"]]
+    reviews = [(r, e) for r in view["rows"] for e in r["reviews"] if not technical_reason(e)]
     if reviews:
-        lines.extend(["", "### Różnice do potwierdzenia", "", "Te obserwacje nie są potwierdzonymi zmianami ofert. Pełna lista, daty i zrzuty są w widoku HTML i TXT.", ""])
+        lines.extend(["", "### Niejednoznaczne różnice odczytu", "", "Nie ustalono, czy te różnice oznaczają zmianę oferty. Szczegóły zachowano do weryfikacji działania monitora.", ""])
         for row, event in reviews[:12]:
             lines.append(f"- **{esc(row['domain'])} · {esc(event['context'])} · {esc(event['label'])}**: {esc(event['before'])} → {esc(event['after'])}.")
     lines.extend(
@@ -595,7 +640,7 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
             "### Ceny wybranych projektów",
             "",
             "Cena poprzednio oznacza ostatni poprawny odczyt sprzed dnia raportu. „—” oznacza brak porównywalnej ceny, a nie zero.",
-            "Gwiazdka przy cenie oznacza częściowy odczyt strony; kwota wymaga potwierdzenia i nie służy do potwierdzania wzrostu lub spadku.",
+            "Gwiazdka przy cenie oznacza częściowy odczyt strony; kwota jest niepewna i nie służy do ustalania wzrostu lub spadku.",
             "",
             "| Pracownia / projekt | Poprzednio | Dzisiaj | Wynik |",
             "| --- | ---: | ---: | --- |",
@@ -618,6 +663,8 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
             f"Obrazy do oceny: {c['visual']} domen. Dodatkowe konfiguratory i warianty mogą mieć częściowe pokrycie. Szczegóły, wyszukiwanie i zrzuty przed/po są w raporcie HTML w ZIP; techniczne komunikaty w diagnostyce.",
             "",
             f"Koniec odczytu: {when(view['metadata']['finished_at'])} czasu polskiego.",
+            "",
+            "</details>",
         ]
     )
     return "\n".join(lines) + "\n"
@@ -640,7 +687,8 @@ def render_html(view: dict) -> str:
         "__STATIC_COMPARISON__": render_scan_html(view),
         "__STATIC_OBSERVATIONS__": render_observations_html(view),
         "__STATIC_STATS__": render_stats_html(view),
-        "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Brak potwierdzonych zmian sprzedażowych. Obserwacje poniżej wymagają oceny; liczba porównanych stron nie oznacza liczby zmian.</p>',
+        "__STATIC_ASSESSMENT__": render_assessment_html(view),
+        "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Nie ustalono potwierdzonych zmian sprzedażowych. Niepełny zakres porównania jest opisany w wyniku powyżej.</p>',
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
         "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
     }
@@ -649,9 +697,14 @@ def render_html(view: dict) -> str:
 
 
 def render_stats_html(view: dict) -> str:
-    pair = view["comparison"]
-    stats = [("Strony porównane", pair["paired_pages"], "liczba par odczytów, nie zmian"), ("Obserwacje do oceny", pair["review_events"], "różnice zapisu wymagające potwierdzenia"), ("Zrzuty przed / po", pair["screenshot_pairs"], "par obrazów z obu dni"), ("Potwierdzone zmiany ofert", view["counts"]["events"], "zweryfikowane różnice sprzedażowe")]
+    result = assessment(view)
+    stats = [("Potwierdzone zmiany ofert", view["counts"]["events"], "ustalenia w sprawdzonym zakresie"), ("Wiarygodne porównania cen", result["prices"], "pracowni z porównywalną ceną z obu dni"), ("Cena bez zmian", result["unchanged"], "pracowni w porównanym zakresie"), ("Nie ustalono zmiany ceny", result["uncompared"], "pracowni bez wiarygodnego porównania")]
     return ''.join('<div class="stat"><span>' + html.escape(name) + '</span><strong>' + str(value) + '</strong><span>' + html.escape(note) + '</span></div>' for name, value, note in stats)
+
+
+def render_assessment_html(view: dict) -> str:
+    result = assessment(view)
+    return '<section class="box" id="assessment"><h2>' + html.escape(result["title"]) + '</h2>' + ''.join('<p>' + html.escape(line) + '</p>' for line in result["lines"]) + '</section>'
 
 
 def proof_path(day: str, path: str) -> str:
@@ -677,7 +730,7 @@ def render_event_html(view: dict, row: dict, event: dict, index: int, images: bo
     esc = html.escape
     before, after = highlighted_values(event["before"], event["after"])
     tag = "review" if event["review"] else "event"
-    output = '<article class="event" data-domain="' + esc(row["domain"], quote=True) + '" data-page="' + event["page"] + '"><header><h3>' + esc(row["domain"]) + '</h3><span class="badge ' + tag + '">' + esc(event["label"]) + (' · do oceny' if event["review"] else ' · potwierdzono') + '</span></header>'
+    output = '<article class="event" data-domain="' + esc(row["domain"], quote=True) + '" data-page="' + event["page"] + '"><header><h3>' + esc(row["domain"]) + '</h3><span class="badge ' + tag + '">' + esc(event["label"]) + (' · niezweryfikowany odczyt' if event["review"] else ' · potwierdzono') + '</span></header>'
     output += '<p class="context">' + esc(event["context"]) + '</p><div class="values"><div class="value"><small>Przed · ' + esc(when(event["before_at"])) + '</small>' + before + '</div><div class="value after"><small>Po · ' + esc(when(event["after_at"])) + '</small>' + after + '</div></div>'
     if event.get("note"):
         output += '<p class="small">' + esc(event["note"]) + '</p>'
@@ -695,10 +748,10 @@ def render_event_html(view: dict, row: dict, event: dict, index: int, images: bo
 def render_observations_html(view: dict) -> str:
     examples = []
     for page in ["glowna", "projekt"]:
-        candidates = [(row, event, i) for row in view["rows"] for i, event in enumerate(row["reviews"]) if event["page"] == page]
+        candidates = [(row, event, i) for row in view["rows"] for i, event in enumerate(row["reviews"]) if event["page"] == page and not technical_reason(event)]
         candidates.sort(key=lambda item: not bool(item[1].get("before_full") and item[1].get("after_full")))
         examples.extend(candidates[:3])
-    return ''.join(render_event_html(view, row, event, i, images=True) for row, event, i in examples) or '<p class="empty">Brak niepewnych różnic tekstowych. Daty, ceny i dostępne zrzuty obu dni są widoczne w sekcjach pracowni.</p>'
+    return ''.join(render_event_html(view, row, event, i, images=True) for row, event, i in examples) or '<p class="empty">Brak dodatkowych ustaleń. Niejednoznaczne zapisy techniczne zachowano w szczegółach odczytów; nie są zadaniami do potwierdzenia.</p>'
 
 
 def render_scan_html(view: dict) -> str:
@@ -706,10 +759,10 @@ def render_scan_html(view: dict) -> str:
     comparison = view["comparison"]
     before = date.fromisoformat(comparison["before_day"]).strftime("%d.%m.%Y")
     after = date.fromisoformat(comparison["after_day"]).strftime("%d.%m.%Y")
-    content = '<section class="box scan-comparison" aria-labelledby="comparison-title"><p class="eyebrow">Podłączone skany</p>'
+    content = '<section class="box scan-comparison" aria-labelledby="comparison-title"><p class="eyebrow">Archiwum odczytów</p>'
     content += f'<h2 id="comparison-title">{before} → {after}</h2>'
     content += f'<p>{comparison["paired_home"]} stron głównych i {comparison["paired_project"]} kart projektów ma odczyt z obu dni. Dla {comparison["screenshot_pairs"]} par są oba zrzuty ekranu.</p>'
-    content += '<p class="small">Porównujemy rzeczywiście zapisane odczyty. Brak wcześniejszego odczytu jest oznaczony w domenie. Różnice związane ze zmianą reguł odczytu wymagają potwierdzenia.</p>'
+    content += '<p class="small">Liczby dotyczą zapisanych materiałów. Nie oznaczają liczby ustalonych zmian. Zmiana sposobu odczytu ogranicza wnioski; jej naprawa jest zadaniem monitora.</p>'
     prices = [r for r in view["rows"] if r["domain"] in comparison["price_domains"]]
     if prices:
         content += '<h3>Ceny odczytane w obu dniach</h3><div class="table-box"><table class="paired-prices"><thead><tr><th>Pracownia</th><th>' + before + '</th><th>' + after + '</th><th>Wynik</th></tr></thead><tbody>'
@@ -736,7 +789,7 @@ def render_daily_html(view: dict) -> str:
 
     def event_html(event):
         return (
-            '<article class="daily-event"><strong>' + ("Do potwierdzenia · " if event["review"] else "") + esc(event["label"]) + '</strong>'
+            '<article class="daily-event"><strong>' + ("Niezweryfikowany odczyt · " if event["review"] else "") + esc(event["label"]) + '</strong>'
             + '<p class="small">' + esc(event["context"]) + '</p><div class="values"><div class="value"><small>Przed · '
             + esc(when(event["before_at"])) + '</small>' + esc(event.get("before_full") or event["before"])
             + '</div><div class="value after"><small>Po · ' + esc(when(event["after_at"])) + '</small>'
@@ -759,7 +812,8 @@ def render_daily_html(view: dict) -> str:
                 part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
             part += ''.join(event_html(e) for e in page["events"])
             if page["reviews"]:
-                part += '<details class="reviews" open><summary>Różnice do potwierdzenia (' + str(len(page["reviews"])) + ')</summary>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
+                technical = all(technical_reason(e) for e in page["reviews"])
+                part += '<details class="reviews"' + ('' if technical else ' open') + '><summary>Niejednoznaczne zapisy odczytu (' + str(len(page["reviews"])) + ')</summary><p class="small">Materiały do weryfikacji działania monitora. Nie są potwierdzonymi zmianami ofert ani zadaniami dla użytkownika.</p>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
             images = []
             for key, label, at in [("przed", "Przed", page["compared_at"]), ("po", "Po", page["observed_at"])]:
                 path = proof(page["evidence"].get(key, ""))

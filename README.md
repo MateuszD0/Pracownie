@@ -2,6 +2,8 @@
 
 Codzienny monitoring strony głównej i jednej stałej karty projektu dla 65 pracowni. Raport pokazuje konkretne zmiany sprzedażowe i tabelę cen: poprzedni odczyt → dzisiaj. Osobno oznacza zmiany obrazu, obserwacje do potwierdzenia i brakujące dane.
 
+Raport zaczyna się od wniosków i zakresu, któremu można ufać. Liczba zapisanych par stron lub zrzutów nie oznacza liczby ustalonych zmian. Problemy zmienionego sposobu odczytu i samych metadanych pozostają w szczegółach technicznych; ich wyjaśnienie jest zadaniem monitora. Użytkownik nie ma potwierdzać błędów narzędzia.
+
 Wspólne repozytorium kodu i automatyzacji to [MateuszD0/Pracownie](https://github.com/MateuszD0/Pracownie), gałąź `main`. Środowisko chmurowe Codex korzysta z checkoutu `/workspace/Pracownie`. Raporty oraz trwały stan są przechowywane w Releases tego samego repozytorium; lokalne katalogi robocze nie są osobnym wdrożeniem.
 
 Pełne wymagania: [plan wdrożenia](PLAN_WDROZENIA_MONITORINGU.md). Faktyczna dostępność domen: [inspekcja HTTP](docs/INSPEKCJA_DOMEN.md). Status walidacji: [wdrożenie](docs/WDROZENIE.md).
@@ -37,7 +39,7 @@ Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumo
 
 W wydaniu wybierz **Porównanie HTML — jeden plik**. Teksty przed/po, podświetlone różnice i wbudowane podglądy obrazów są widoczne bez skryptów i osobnych plików. Podglądy pokazują początek strony; pełne zrzuty są w **Raporcie HTML ze zrzutami** (`*-widok.zip`). Po rozpakowaniu ZIP otwórz `YYYY-MM-DD/index.html`, aby używać wyszukiwania, filtrów i pełnych obrazów. Każda domena ma osobne sekcje strony głównej i projektu z datami, statusem oraz tekstami przed/po. Różnice i zrzuty są domyślnie rozwinięte. Podstawowe porównania są zapisane w HTML, więc zablokowanie skryptów nie usuwa treści.
 
-Pierwszy ekran pokazuje daty połączonych skanów, liczbę stron odczytanych w obu dniach, dostępne pary zrzutów i tabelę cen o porównywalnym źródle. Przykłady różnic odczytu są widoczne od razu z oznaczeniem „do oceny”; przycisk otwiera obrazy i źródło konkretnej obserwacji. Licznik potwierdzonych zmian sprzedażowych jest osobny. Dla 19–20 października 2026 połączono 53 strony główne i 50 kart, ze 100 parami zrzutów. Daty i liczby kolejnych dni są wyliczane z rzeczywistych odczytów.
+Pierwszy ekran pokazuje zakres wiarygodnych wniosków, potwierdzone zmiany i konkretne porównania cen. Niepewne zapisy zachowujemy do weryfikacji działania monitora. Dla 19–20 października 2026 zapisano 53 pary stron głównych, 50 par kart i 100 par zrzutów, ale wiarygodne porównanie ceny jest dostępne tylko dla siedmiu pracowni. Te siedem cen nie zmieniło się; dla pozostałych 58 nie ustalono dziennej zmiany ceny. Raport z tych dni nie jest pełną oceną zmian ofert wszystkich 65 pracowni.
 
 Widok zawiera lżejsze zrzuty JPEG. Pełne archiwum zachowuje oryginalne PNG, obrazy różnic i dane: `raporty/YYYY-MM-DD/index.html`, `oferty.csv`, `oferty.json`, `podsumowanie.md`, `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Plik `_report_template.html` w kodzie jest wyłącznie szablonem; otwieraj wygenerowany `index.html`.
 

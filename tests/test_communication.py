@@ -54,6 +54,15 @@ def test_reordering_carousel_inventory_cookies_counters_and_price_alone_are_not_
     assert len(changes) == 1 and changes[0].kind == 'added'
 
 
+def test_architectural_privacy_is_offer_copy_while_consent_is_noise():
+    old = capture(BEFORE, [('description', 'text', 'Dom zapewnia prywatność i spokój'), ('privacy', 'text', 'Polityka prywatności')])
+    new = capture(AFTER, [('description', 'text', 'Prywatność sypialni oraz wygodny salon'), ('privacy', 'text', 'Ustawienia prywatności')])
+    status, changes = measure(old, new)
+    assert status['comparable'] and len(changes) == 1
+    assert changes[0].before == 'Dom zapewnia prywatność i spokój'
+    assert changes[0].after == 'Prywatność sypialni oraz wygodny salon'
+
+
 @pytest.mark.parametrize('problem', ['partial', 'different-url', 'different-copy-rules', 'truncated', 'wrong-time'])
 def test_incompatible_or_incomplete_captures_never_claim_campaign_changes(problem):
     old = capture(BEFORE, [('hero', 'heading', 'Rabat 10%')])

@@ -14,7 +14,7 @@ from .extract import MONEY, canonical_url, money_text, normalize
 from .model import Change, Snapshot
 
 CONTRACT = "communication-v1"
-NOISE = re.compile(r"cookies|ciastecz|prywatno|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
+NOISE = re.compile(r"cookies|ciastecz|polity[kc].{0,12}prywatno|ustawienia prywatno|privacy policy|privacy settings|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
 ROLES = {"heading": "Nagłówek", "banner": "Baner", "cta": "Wezwanie do działania", "text": "Treść", "image": "Źródło grafiki w zestawie banerów"}
 
 

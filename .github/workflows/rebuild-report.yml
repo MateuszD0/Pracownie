@@ -1,0 +1,28 @@
+name: Odśwież układ raportu bez skanowania
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pracownie-monitor
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff
+        with:
+          version: '0.12.23'
+          enable-cache: true
+      - run: uv sync --frozen
+      - run: uv run pytest -q -m 'not browser'
+      - run: uv run python -m pracownie.rebuild --publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,10 +1,10 @@
 <!-- pracownie-monitor:v1 -->
 
-**Raporty monitoringu**
+**Raporty monitoringu ofert**
 
-Plik generowany automatycznie. Notatki przechowuj osobno. TXT zawiera opis zmian, ZIP również zrzuty i dane porównań.
+Otwórz raport, aby zobaczyć zmiany ofert i tabelę cen. CSV służy do pracy w arkuszu. ZIP zawiera raport HTML z wyszukiwaniem i zrzutami przed/po. Notatki przechowuj osobno.
 
-| Dzień | Raport | Archiwum | Szczegóły |
-| --- | --- | --- | --- |
-| 2026-10-20 | [TXT](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-20/2026-10-20-2026-10-20t051624.546074-0000-ad839c10.txt) | [ZIP](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-20/2026-10-20-2026-10-20t051624.546074-0000-ad839c10.zip) | [Wydanie](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-20) |
-| 2026-10-19 | [TXT](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-19/2026-10-19-2026-10-19t204348.104689-0000-f28a0d18.txt) | [ZIP](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-19/2026-10-19-2026-10-19t204348.104689-0000-f28a0d18.zip) | [Wydanie](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-19) |
+| Dzień | Czytelny raport | Ceny | Opis TXT | HTML i zrzuty |
+| --- | --- | --- | --- | --- |
+| 2026-10-20 | [Otwórz raport](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-20) | [CSV](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-20/2026-10-20-2026-10-20t064809.255814-0000-b37a4e03-oferty.csv) | [TXT](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-20/2026-10-20-2026-10-20t064809.255814-0000-b37a4e03.txt) | [ZIP](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-20/2026-10-20-2026-10-20t064809.255814-0000-b37a4e03.zip) |
+| 2026-10-19 | [Otwórz raport](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-19) | — | [TXT](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-19/2026-10-19-2026-10-19t204348.104689-0000-f28a0d18.txt) | [ZIP](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-19/2026-10-19-2026-10-19t204348.104689-0000-f28a0d18.zip) |

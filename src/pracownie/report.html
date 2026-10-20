@@ -59,10 +59,10 @@ function openDetails(domain,eventIndex){
  $('detail-title').textContent=row.domain;$('detail-subtitle').textContent=row.name;
  let content='<div class="values"><div class="value"><small>Cena poprzednio</small>'+esc(row.previous_text)+'</div><div class="value after"><small>Cena dzisiaj</small>'+esc(row.current_text)+'</div></div><p class="small">'+esc(signed(row)||'Brak porównywalnej pary cen.')+' · Odczyt '+esc(time(row.observed_at))+'</p><p><a href="'+esc(source(event?.source||row.url))+'" target="_blank" rel="noopener">Otwórz stronę źródłową</a></p>';
  if(event)content+='<h3>'+esc(event.label)+'</h3><p>'+esc(event.before)+' → <strong>'+esc(event.after)+'</strong></p>';
- content+=figures(event?.evidence||row.evidence,event?.before_at||row.previous.observed_at,event?.after_at||row.observed_at);
+ content+=figures(event?.evidence||row.evidence,event?.before_at||row.compared_at||row.previous.observed_at,event?.after_at||row.observed_at);
  if(row.events.length)content+='<h3>Potwierdzone zmiany</h3><ul>'+row.events.map(e=>'<li><strong>'+esc(e.label)+'</strong>: '+esc(e.before)+' → '+esc(e.after)+' <span class="small">('+esc(e.context)+')</span></li>').join('')+'</ul>';
  if(row.reviews.length)content+='<h3>Do potwierdzenia</h3><ul>'+row.reviews.map(e=>'<li>'+esc(e.label)+': '+esc(e.before)+' → '+esc(e.after)+'</li>').join('')+'</ul>';
- if(row.visuals.length)content+='<div class="visual-note">Wykryto różnicę wyglądu. To wskazówka do oceny, nie potwierdzenie zmiany oferty.</div>'+row.visuals.map(v=>'<h3 style="margin-top:18px">'+(v.page==='glowna'?'Strona główna':'Karta projektu')+' · zmiana obrazu</h3>'+figures(v.evidence,row.previous.observed_at,row.observed_at)).join('');
+ if(row.visuals.length)content+='<div class="visual-note">Wykryto różnicę wyglądu. To wskazówka do oceny, nie potwierdzenie zmiany oferty.</div>'+row.visuals.map(v=>'<h3 style="margin-top:18px">'+(v.page==='glowna'?'Strona główna':'Karta projektu')+' · zmiana obrazu</h3>'+figures(v.evidence,v.before_at,v.after_at)).join('');
  if(row.issues.length)content+='<h3>Ograniczenia odczytu</h3><ul>'+row.issues.map(i=>'<li>'+esc(i)+'</li>').join('')+'</ul>';
  if(row.migration)content+='<p class="visual-note">Zmieniono reguły odczytu. Różnice wynikające z tej zmiany nie są traktowane jako zmiany oferty.</p>';
  content+='<p class="small">Dodatkowe konfiguratory i zależne kombinacje opcji mogą wymagać adaptera. <a href="diagnostyka.txt">Pełna diagnostyka</a></p>';

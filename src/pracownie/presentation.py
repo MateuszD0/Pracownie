@@ -168,6 +168,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "visuals": [],
             "issues": [],
             "observed_at": project.observed_at if project else None,
+            "compared_at": project.compared_at if project else None,
             "migration": False,
             "evidence": project.evidence if project else {},
         }
@@ -209,6 +210,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                                 "page": result.page,
                                 "evidence": change.evidence or result.evidence,
                                 "source": result.url,
+                                "before_at": change.before_at or result.compared_at,
+                                "after_at": change.after_at or result.observed_at,
                             }
                         )
                     continue

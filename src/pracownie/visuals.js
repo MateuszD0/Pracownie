@@ -13,7 +13,10 @@
   for(const e of document.querySelectorAll('body,h1,h2,h3,header,main,img,[class*=hero],[class*=banner]')){
     const r=e.getBoundingClientRect(),style=getComputedStyle(e);
     if(!e.getClientRects().length || style.visibility==='hidden' || style.display==='none' || r.width<5 || r.height<5 || r.right<=0 || r.left>=document.documentElement.clientWidth)continue;
-    if(e.closest('[id*=cookie i],[id*=consent i],[class*=cookie i],[role=dialog],footer'))continue;
+    const overlay=e.closest('[id*=cookie i],[id*=consent i],[class*=cookie i],[role=dialog],footer');
+    // WordPress plugins also put cookie state classes on the whole body.
+    // Those classes do not turn every page element into a consent overlay.
+    if(overlay && overlay!==document.body && overlay!==document.documentElement)continue;
     const heading=/^H[1-3]$/.test(e.tagName),image=e.tagName==='IMG';
     if(image && (r.width<200 || r.height<100 || !e.complete || !e.naturalWidth))continue;
     const anchor=e.closest('[id]')?.id || '';

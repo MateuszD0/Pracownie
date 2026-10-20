@@ -67,12 +67,26 @@ jobs:
           sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-pol
       - name: Testy przed skanem
         run: uv run pytest -q -m 'not browser'
+      - name: Zakres naprawy po wdrożeniu
+        id: deployment
+        if: github.event_name == 'workflow_run'
+        env:
+          DEPLOYMENT_MESSAGE: ${{ github.event.workflow_run.head_commit.message }}
+        run: |
+          python - <<'PY'
+          import os, re
+          from pathlib import Path
+          match = re.search(r'\[repair:([a-z0-9.,-]+)\]', os.environ['DEPLOYMENT_MESSAGE'])
+          if match:
+              with Path(os.environ['GITHUB_OUTPUT']).open('a') as output:
+                  output.write('repair_domains=' + match[1] + '\n')
+          PY
       - name: Skan, raport i trwały zapis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCAN_SCOPE: ${{ github.event_name == 'schedule' && 'full' || inputs.scope || 'full' }}
-          FORCE_RESCAN: ${{ github.event_name == 'workflow_run' && 'true' || inputs.rescan || 'false' }}
-          REPAIR_DOMAINS: ${{ inputs.repair_domains || '' }}
+          FORCE_RESCAN: ${{ github.event_name == 'workflow_run' && !steps.deployment.outputs.repair_domains && 'true' || inputs.rescan || 'false' }}
+          REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
         run: |
           scan_args=(--github --scope "$SCAN_SCOPE" --budget-seconds 3600)
           if [[ "$FORCE_RESCAN" != 'true' ]]; then

@@ -42,6 +42,7 @@ def test_automatic_report_rebuild_requires_successful_main_push_tests():
     assert "conclusion == 'success'" in gate
     assert "event == 'push'" in gate
     assert "head_repository.full_name == github.repository" in gate
+    assert "!contains(github.event.workflow_run.head_commit.message, '[scan]')" in gate
 
 
 def test_opt_in_baseline_scan_is_test_gated_and_pages_cannot_lock_report_writers():
@@ -55,3 +56,10 @@ def test_opt_in_baseline_scan_is_test_gated_and_pages_cannot_lock_report_writers
         assert "concurrency" not in config
         assert config["jobs"][job]["concurrency"]["group"] == "pracownie-monitor"
         assert config["jobs"]["pages"]["concurrency"]["group"] == "pracownie-pages"
+        checkout = next(s for s in config["jobs"][job]["steps"] if s.get("uses", "").startswith("actions/checkout@"))
+        assert checkout["with"]["ref"] == "${{ github.event.workflow_run.head_sha || github.sha }}"
+    scan = monitor["jobs"]["scan"]
+    deployment = next(s for s in scan["steps"] if s.get("id") == "deployment")
+    assert "repair_domains=" in deployment["run"] and "[repair:" in deployment["run"]
+    command = next(s for s in scan["steps"] if "REPAIR_DOMAINS" in s.get("env", {}))
+    assert "steps.deployment.outputs.repair_domains" in command["env"]["REPAIR_DOMAINS"]

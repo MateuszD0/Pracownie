@@ -38,4 +38,6 @@ Ręczny pełny skan z `rescan` w Actions zbiera nowy punkt odniesienia tego same
 
 Commit wdrożeniowy na `main` z oznaczeniem `[scan]` może uruchomić taki skan po sukcesie workflow `Testy`. Dotyczy wyłącznie zaufanego zdarzenia `push` tego repozytorium; pull requesty nie uruchamiają publikacji ani skanu. Zwykłe wdrożenia bez oznaczenia tylko przebudowują raport. Codzienny harmonogram pozostaje bez zmian.
 
+Oznaczenie `[scan] [repair:domena.pl,druga.pl]` uruchamia naprawę wskazanych domen w istniejącym raporcie tego samego dnia. Pozostałe dane i ich rzeczywiste daty zostają zachowane. Lista jest sprawdzana przez konfigurację monitora. Skan i przebudowa uruchomione po testach używają dokładnie sprawdzonego commita.
+
 Skan i przebudowa mają wspólną blokadę zapisu stanu. Opcjonalna publikacja Pages ma oddzielną blokadę i nie wstrzymuje kolejnych skanów.

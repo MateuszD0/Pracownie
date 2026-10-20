@@ -6,7 +6,7 @@ import pytest
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw
 
-from pracownie.browser import BrowserScanner
+from pracownie.browser import VISUALS, BrowserScanner
 from pracownie.compare import compare
 from pracownie.images import image_difference, visual_evidence
 from pracownie.journal import render_journal_csv
@@ -152,6 +152,17 @@ def test_change_in_an_interactive_variant_keeps_context_in_table_and_csv():
     assert "Pakiet dokumentacji: Rozszerzony" in BeautifulSoup(render_html(view), "html.parser").select_one('#journal').get_text()
     rows = list(csv.DictReader(io.StringIO(render_journal_csv(view).lstrip("\ufeff")), delimiter=";"))
     assert rows[0]["Kontekst / wariant"] == "Pakiet dokumentacji: Rozszerzony"
+
+
+@pytest.mark.browser
+async def test_cookie_state_class_on_body_does_not_hide_visual_metadata(executable):
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('<body class="cookies-accepted"><h1>Oferta projektów</h1><div id="cookie-consent"><h2>Zgoda cookies</h2></div></body>')
+        visual = await page.evaluate(VISUALS)
+        assert any(e["text"] == "Oferta projektów" for e in visual["elements"])
+        assert not any(e["text"] == "Zgoda cookies" for e in visual["elements"])
+        await page.close()
 
 
 @pytest.mark.browser

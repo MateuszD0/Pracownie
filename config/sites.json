@@ -136,7 +136,8 @@
           "selected_day": "2026-10-19",
           "reason": "Inspekcja pierwszego skanu wykazała kategorię, poradnik lub dodatek zamiast pojedynczego projektu; ustanowienie poprawnego początkowego punktu odniesienia."
         }
-      }
+      },
+      "product_url_pattern": "/produkt/[^/]+/?$"
     },
     {
       "domain": "archeton.pl",

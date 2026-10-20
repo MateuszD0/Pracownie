@@ -6,7 +6,7 @@ from PIL import Image
 from pracownie.browser import BrowserScanner
 from pracownie.extract import extract_fields
 from pracownie.model import Change, Result
-from pracownie.presentation import build_view, render_html, render_text
+from pracownie.presentation import build_view, render_html, render_text, scan_comparison
 from pracownie.report import verify_outputs, write_outputs
 from pracownie.web import prepare_web
 
@@ -42,12 +42,28 @@ def test_each_page_exposes_its_dates_differences_and_historical_gap():
     assert home["events"][0]["after"] == "Rabat 20%"
     assert card["events"][0]["after"] == "Kosztorys gratis"
     assert "Luka 4 dni" in render_text(report)
+    assert report["comparison"]["paired_pages"] == 1
+    assert report["comparison"]["paired_home"] == 0
+    assert report["comparison"]["paired_project"] == 1
+
+
+def test_scan_connection_counts_only_real_captures_from_both_days():
+    report = make_view(daily_results())
+    pair = report["comparison"]
+    assert pair["before_day"] == "2026-10-19" and pair["after_day"] == DAY
+    assert pair["paired_pages"] == 2 and pair["screenshot_pairs"] == 2
+    assert pair["paired_home"] == pair["paired_project"] == 1
+    # A stale capture or failed current read cannot masquerade as today's scan.
+    report["rows"][0]["pages"][0]["observed_at"] = BEFORE
+    report["rows"][0]["pages"][1]["observed_at"] = None
+    assert scan_comparison(DAY, report["rows"])["paired_pages"] == 0
 
 
 def test_matched_changes_survive_parser_migration_and_distinct_promos_share_an_amount():
     entries = daily_results()
     entries[0].changes[0].kind = "review"
     entries[0].changes[0].note = "Zmieniono reguły odczytu"
+    entries[0].changes[0].evidence = {"przed": DAY + "/option-before.png", "po": DAY + "/option-after.png"}
     entries[0].changes += [
         Change("review", "funkcje", "Nowe pole", None, "Nowy sposób odczytu", BEFORE, AFTER, entries[0].url, "podstawowy", note="Zmieniono reguły odczytu"),
         Change("changed", "promocje", "Transport", "Dostawa 150 zł", "Dostawa gratis", BEFORE, AFTER, entries[0].url, "podstawowy"),
@@ -58,6 +74,38 @@ def test_matched_changes_survive_parser_migration_and_distinct_promos_share_an_a
     assert row["reviews"][0]["after"] == "Rabat 20%"
     assert len(row["pages"][0]["events"]) == 2
     assert row["pages"][0]["extraction_changes"] == 2
+
+
+@pytest.mark.browser
+async def test_connected_scans_show_observations_and_open_their_own_evidence(executable):
+    entries = daily_results()
+    entries[0].changes[0].kind = "review"
+    entries[0].changes[0].note = "Zmieniono reguły odczytu"
+    entries[0].changes[0].evidence = {"przed": DAY + "/option-before.png", "po": DAY + "/option-after.png"}
+    report = make_view(entries)
+    document = render_html(report)
+    assert '19.10.2026 → 20.10.2026' in document
+    assert '1 stron głównych i 1 kart projektów' in document
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(viewport={"width": 390, "height": 844})
+        page = await context.new_page()
+        errors = []
+        page.on("pageerror", lambda e: errors.append(str(e)))
+        await page.set_content(document)
+        assert 'Rabat 10%' in await page.locator('#observations').inner_text()
+        assert 'Rabat 20%' in await page.locator('#observations').inner_text()
+        assert 'do oceny' in await page.locator('#observations').inner_text()
+        # Review cards must open the review's images, not an unrelated confirmed event.
+        await page.locator('#observations [data-open]').click()
+        assert await page.locator('dialog').is_visible()
+        assert await page.locator('dialog img[src="option-before.png"]').count() == 1
+        assert 'Rabat 20%' in await page.locator('dialog').inner_text()
+        await page.locator('#close').click()
+        await page.locator('#page-filter').select_option('projekt')
+        assert not await page.locator('#observations .event').count()
+        assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+        assert not errors
+        await context.close()
 
 
 def test_uncategorized_visible_copy_is_monitored():

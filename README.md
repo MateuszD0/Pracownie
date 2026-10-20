@@ -33,6 +33,8 @@ Otwórz dzień w [spisie raportów](RAPORTY.md). Strona wydania pokazuje podsumo
 
 W wydaniu wybierz **Raport HTML ze zrzutami**, rozpakuj mniejsze archiwum `*-widok.zip` i otwórz `YYYY-MM-DD/index.html`. Raport pokazuje dwie osobne sekcje dla każdej domeny: stronę główną i wybraną kartę projektu. Każda zawiera status, daty poprzedniego i bieżącego odczytu, zmienione fragmenty tekstu oraz rozwijane zrzuty przed/po. Dostępne są wyszukiwanie i filtry rodzaju strony, zmian oraz braków. Treść raportu jest widoczna również bez JavaScript.
 
+Pierwszy ekran pokazuje daty połączonych skanów, liczbę stron odczytanych w obu dniach, dostępne pary zrzutów i tabelę cen o porównywalnym źródle. Przykłady różnic odczytu są widoczne od razu z oznaczeniem „do oceny”; przycisk otwiera obrazy i źródło konkretnej obserwacji. Licznik potwierdzonych zmian sprzedażowych jest osobny. Dla 19–20 października 2026 połączono 53 strony główne i 50 kart, ze 100 parami zrzutów. Daty i liczby kolejnych dni są wyliczane z rzeczywistych odczytów.
+
 Widok zawiera lżejsze zrzuty JPEG. Pełne archiwum zachowuje oryginalne PNG, obrazy różnic i dane: `raporty/YYYY-MM-DD/index.html`, `oferty.csv`, `oferty.json`, `podsumowanie.md`, `zmiany.json`, `pokrycie.json` i `diagnostyka.txt`. Plik `_report_template.html` w kodzie jest wyłącznie szablonem; otwieraj wygenerowany `index.html`.
 
 Opcjonalny stały adres WWW wymaga jednorazowego ustawienia **Settings → Pages → Build and deployment → Source: GitHub Actions** przez właściciela repozytorium. Po włączeniu kolejne pełne skany i przebudowy raportu automatycznie publikują najnowszy dzień w Pages. Historia 180 dni pozostaje w Releases; Pages przechowuje bieżący widok. Wyłączone Pages nie blokuje skanów ani publikacji HTML w wydaniach.

@@ -8,7 +8,7 @@ import io
 import json
 import re
 from collections import Counter
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from decimal import Decimal
 from importlib.resources import files
 from urllib.parse import urlsplit
@@ -181,6 +181,24 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
     }
 
 
+def scan_comparison(day: str, rows: list[dict]) -> dict:
+    yesterday = (date.fromisoformat(day) - timedelta(days=1)).isoformat()
+
+    def observed_day(value):
+        return datetime.fromisoformat(value).astimezone(WARSAW).date().isoformat() if value else None
+
+    pairs = [p for r in rows for p in r["pages"] if observed_day(p["compared_at"]) == yesterday and observed_day(p["observed_at"]) == day]
+    return {
+        "before_day": yesterday, "after_day": day,
+        "paired_home": sum(p["page"] == "glowna" for p in pairs),
+        "paired_project": sum(p["page"] == "projekt" for p in pairs),
+        "paired_pages": len(pairs),
+        "screenshot_pairs": sum(all(p["evidence"].get(key) for key in ["przed", "po"]) for p in pairs),
+        "price_domains": [r["domain"] for r in rows if r["delta"] is not None and observed_day(r["previous"].get("observed_at")) == yesterday and observed_day(r["current"].get("observed_at")) == day],
+        "review_events": sum(len(r["reviews"]) for r in rows),
+    }
+
+
 def build_view(day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> dict:
     rows = []
     for domain in domains:
@@ -340,6 +358,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         "day": day,
         "metadata": metadata,
         "rows": rows,
+        "comparison": scan_comparison(day, rows),
         "counts": {
             "domains": len(rows),
             "home": sum(r["home_read"] for r in rows),
@@ -368,9 +387,11 @@ def _delta_text(row: dict) -> str:
 
 def render_text(view: dict) -> str:
     c = view["counts"]
+    pair = view["comparison"]
     lines = [
         f"OFERTY PRACOWNI — {view['day']}",
         f"Raport gotowy: {when(view['metadata']['finished_at'])} (czas polski)",
+        f"Podłączone skany: {pair['before_day']} → {pair['after_day']}. Pary odczytów: {pair['paired_home']} stron głównych + {pair['paired_project']} kart; pary zrzutów: {pair['screenshot_pairs']}.",
         "",
         f"Odczyt: {c['home']}/{c['domains']} stron głównych; {c['project']}/{c['domains']} kart projektów.",
         f"Ceny ustalone: {c['prices']}; porównywalne pary cen: {c['price_pairs']}. Potwierdzone zmiany ofert: {c['events']} w {c['changed']} domenach.",
@@ -520,6 +541,7 @@ def render_csv(view: dict) -> str:
 
 def render_markdown(view: dict, images: dict | None = None) -> str:
     c = view["counts"]
+    pair = view["comparison"]
 
     def esc(v):
         value = str(v).replace("\\", "\\\\").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
@@ -527,6 +549,8 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
 
     lines = [
         f"## Oferty pracowni · {view['day']}",
+        "",
+        f"**Podłączone skany: {pair['before_day']} → {pair['after_day']}**. Zestawiono {pair['paired_home']} stron głównych i {pair['paired_project']} kart projektów. Dostępne pary zrzutów: {pair['screenshot_pairs']}. Obserwacje do sprawdzenia: {pair['review_events']}; wymagają oceny i nie są potwierdzonymi zmianami ofert.",
         "",
         f"Odczytano **{c['home']}/{c['domains']} stron głównych** i **{c['project']}/{c['domains']} kart projektów**. Ustalono {c['prices']} cen; porównywalne pary cen: {c['price_pairs']}. **{c['events']} potwierdzonych zmian ofert** w {c['changed']} domenach.",
         "",
@@ -612,11 +636,33 @@ def render_html(view: dict) -> str:
         "__REPORT_DATA__": payload,
         "__REPORT_DAY__": html.escape(view["day"]),
         "__STATIC_DAILY__": render_daily_html(view),
+        "__STATIC_COMPARISON__": render_scan_html(view),
         "__STATIC_TITLE__": "Zmiany na stronach · " + html.escape(view["day"]),
         "__STATIC_STAMP__": "Odczyt zakończony " + html.escape(when(view["metadata"]["finished_at"])),
     }
     # One pass: source text containing a placeholder is data, never a template.
     return re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
+
+
+def render_scan_html(view: dict) -> str:
+    esc = html.escape
+    comparison = view["comparison"]
+    before = date.fromisoformat(comparison["before_day"]).strftime("%d.%m.%Y")
+    after = date.fromisoformat(comparison["after_day"]).strftime("%d.%m.%Y")
+    content = '<section class="box scan-comparison" aria-labelledby="comparison-title"><p class="eyebrow">Podłączone skany</p>'
+    content += f'<h2 id="comparison-title">{before} → {after}</h2>'
+    content += f'<p>{comparison["paired_home"]} stron głównych i {comparison["paired_project"]} kart projektów ma odczyt z obu dni. Dla {comparison["screenshot_pairs"]} par są oba zrzuty ekranu.</p>'
+    content += '<p class="small">Porównujemy rzeczywiście zapisane odczyty. Brak wcześniejszego odczytu jest oznaczony w domenie. Różnice związane ze zmianą reguł odczytu wymagają potwierdzenia.</p>'
+    prices = [r for r in view["rows"] if r["domain"] in comparison["price_domains"]]
+    if prices:
+        content += '<h3>Ceny odczytane w obu dniach</h3><div class="table-box"><table class="paired-prices"><thead><tr><th>Pracownia</th><th>' + before + '</th><th>' + after + '</th><th>Wynik</th></tr></thead><tbody>'
+        for row in prices:
+            content += '<tr data-price-domain="' + esc(row["domain"], quote=True) + '"><td>' + esc(row["domain"]) + '</td><td>' + esc(row["previous_text"]) + '</td><td>' + esc(row["current_text"]) + '</td><td>' + esc(_delta_text(row)) + '</td></tr>'
+        content += '</tbody></table></div>'
+    else:
+        content += '<p class="small">Brak porównywalnych cen z tych dwóch dni. Bieżące ceny są w sekcjach kart projektów.</p>'
+    content += '<p class="small">Pełne porównanie i obrazy: <a href="#daily">przejdź do pracowni</a>.</p></section>'
+    return content
 
 
 def render_daily_html(view: dict) -> str:

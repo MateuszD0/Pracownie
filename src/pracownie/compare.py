@@ -7,13 +7,15 @@ from .model import Change, Snapshot
 from .observations import location_url, replay_pair, signature
 
 
-def compare(before: Snapshot | None, after: Snapshot) -> tuple[list[Change], Snapshot]:
+def compare(before: Snapshot | None, after: Snapshot, excluded_keys: list[str] | None = None) -> tuple[list[Change], Snapshot]:
     if before is None:
         return [], after
     before, after = replay_pair(before, after)
     changes = []
     retained = copy.deepcopy(after)
     for key in sorted(set(before.fields) | set(after.fields)):
+        if key in (excluded_keys or []):
+            continue
         old, new = before.fields.get(key), after.fields.get(key)
         if old and new and old.value == new.value:
             continue

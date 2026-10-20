@@ -122,7 +122,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 excluded_prices = sites_by_domain[snapshot.domain].unreliable_price_keys
                 before = store.previous(state, snapshot.key)
                 snapshot.image = store.image(capture.screenshot)
-                changes, retained = compare(before, snapshot)
+                changes, retained = compare(before, snapshot, excluded_prices)
                 folder = staging / day / slug(snapshot.domain) / snapshot.page / slug(snapshot.scenario)
                 folder.mkdir(parents=True, exist_ok=True)
                 (folder / "odczyt.json").write_bytes(json_bytes(snapshot.to_dict()))

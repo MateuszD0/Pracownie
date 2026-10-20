@@ -78,7 +78,7 @@ def recover_from_snapshots(results: list[Result], store: StateStore, output: Pat
         if excluded and not any(key.startswith("adapter:") for key in snapshot.fields):
             continue
         before = store.previous(state, snapshot.key)
-        changes, _ = compare(before, snapshot)
+        changes, _ = compare(before, snapshot, excluded)
         folder = Path(day) / slug(snapshot.domain) / snapshot.page / "podstawowy"
         target = cache / folder
         target.mkdir(parents=True, exist_ok=True)

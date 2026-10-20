@@ -47,6 +47,19 @@ def test_source_text_fragment_targets_changed_line_instead_of_unchanged_copy():
     assert change.url.endswith("#:~:text=Rabat%2020%25")
 
 
+def test_known_savings_metadata_cannot_generate_a_project_price_alert():
+    old, new = shot(), shot(AFTER)
+    bad = "oferta:dom-projekt-1840:price"
+    for snapshot, savings in [(old, "200"), (new, "300")]:
+        snapshot.fields[bad] = Field("Błędna cena w JSON-LD", savings + " PLN", "ceny", amount=savings, currency="PLN")
+        snapshot.fields["adapter:cena-projektu"] = Field("Cena projektu", "5000 PLN", "ceny", amount="5000", currency="PLN")
+    assert compare(old, new, [bad])[0] == []
+    new.fields["adapter:cena-projektu"].value = "4500 PLN"
+    new.fields["adapter:cena-projektu"].amount = "4500"
+    changes = compare(old, new, [bad])[0]
+    assert len(changes) == 1 and changes[0].field_key == "adapter:cena-projektu" and changes[0].delta == "-500.00"
+
+
 def test_ocr_literal_quotes_do_not_merge_distinct_tsv_rows(tmp_path, monkeypatch):
     from types import SimpleNamespace
 

@@ -23,8 +23,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu SZPAK DR-S | Projekt domu MALUTKI DR-S | [Otwórz stronę](https://www.domywstylu.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu ALBIT | Projekt domu ARIEL | [Otwórz stronę](https://www.domywstylu.pl/#main) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu AWOKADO 2 | Projekt domu WERANDA 4 | [Otwórz stronę](https://www.domywstylu.pl/#main) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu ALBIT | Projekt domu ARIEL | [Otwórz stronę](https://www.domywstylu.pl/#main) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu ELKA 5 | Projekt domu PUSZEK | [Otwórz stronę](https://www.domywstylu.pl/#main) |
 
 ## Karta projektu
@@ -35,7 +35,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

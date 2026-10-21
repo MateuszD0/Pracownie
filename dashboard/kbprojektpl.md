@@ -40,7 +40,7 @@ Porównanie: 20.10.2026 21:56 → 21.10.2026 09:36 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

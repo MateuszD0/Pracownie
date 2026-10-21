@@ -22,8 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Przesunięcie: treść strony (45 px w górę) | 345 × 258 px; położenie: 449 px od lewej, 322 px od góry | 345 × 258 px; położenie: 449 px od lewej, 277 px od góry | [Otwórz stronę](https://myhome.eco/#fws_6ad8630a68ef6) |
 | Zmiany wyglądu · Dodana grafika: my home | brak | [Otwórz grafikę](https://milwicz-architekci.cfolks.pl/wp-content/uploads/2021/07/my-home-2.png) | [Otwórz stronę](https://myhome.eco/#text) |
+| Zmiany wyglądu · Przesunięcie: treść strony (45 px w górę) | 345 × 258 px; położenie: 449 px od lewej, 322 px od góry | 345 × 258 px; położenie: 449 px od lewej, 277 px od góry | [Otwórz stronę](https://myhome.eco/#fws_6ad8630a68ef6) |
 
 ## Karta projektu
 
@@ -33,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

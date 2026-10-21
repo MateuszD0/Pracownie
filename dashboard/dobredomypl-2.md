@@ -30,34 +30,34 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Domy nowoczesne | Projekt domu Emilia Mala II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Budowa domu systemem gospodarczym | Projekt domu Nala II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Karol IV | Projekt domu Hana Segment | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Ile kosztuje budowa domu | Działka rekreacyjna | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Projekt domu Gwiazdka II | Projekt domu Ambrozja II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekt domu Hawana III | Projekty domów z poddaszem | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekt domu Atlantyda Mala II | Projekt domu Atlantyda III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Gotowy projekt domu | Projekt domu Juliusz Maly III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Dunkan | Projekty domów parterowych tanie w budowie | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | brak | Projekt domu Atreusz Maly II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekt domu Ksenia II | Projekt domu Emily Segment | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Tuliusz | Projekt domu Ambrozja Nowa III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Projekt domu Juliusz Nowy III | Projekt domu Melisa II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Juliusz Nowy | Projekt domu Emilia II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekty domów energooszczędnych | Projekt domu Orchidea II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 | Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · KUP TERAZ | Projekty domów z płaskim dachem | brak | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Hana Segment | Projekty domów parterowych tanich w budowie | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Arseniusz II | Projekt domu Arseniusz | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekty domów parterowych bez garażu | Projekt domu Aleksander II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Atlanta Nowa III | Projekt domu Atena II nowa | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Orlando II | Projekt domu z płaskim dachem | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Antiope | Projekt domu Anteusz z wykuszem | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Faun II | Projekt domu Numeriusz II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekt domu Pallas II | Projekt domu Karolina II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekty domów bez garażu | Projektu domów | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Halimede | Projekt domu Atreusz III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Nowoczesne domy | Domy parterowe bez garażu | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Flawia Mala | Projekt domu Hektor | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Carmen II b | Współczynnik przenikania ciepła | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Projekt domu Tukan | Projekty domów parterowych z płaskim dachem | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Karolina IV | Projekt domu Karol III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Bianka | Projekty domów parterowych tanich w budowie | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Manuela | Projekt domu Lukrecja III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Ofelia Segment | Dom jednorodzinny parterowy | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Maksymilian II | Projekt domu Mila II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Ambrozja I nowa | Projekt domu Kordelia | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Dodaj do ulubionych | Projekt domu Tuliusz VII | Projekt domu G4 | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Juliusz Nowy II | Projekt domu Juliusz | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Projekt domu Agis IIIa | Projekt domu Amoniusz III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · KUP TERAZ | brak | Projekt domu Dariusz Maly | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Hermiona | Projekt domu Atlanta Nowa III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Domy jednorodzinne parterowe | Projekt domu Atlantyda Mala | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Kaspian III | Projekt domu Wega | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Juliusz Nowy II | Projekt domu Flora | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Hermiona II | Projekt domu Safona | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Bianka | Projekt domu Emily Blizniak | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · KUP TERAZ | Projekt domu Melite II | Projekt domu Anatolia II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Sloneczko I | Stan surowy otwarty | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-dowod-6.png)
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-dowod-6.webp)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · **2** · [3](dobredomypl-3.md) · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · [6](dobredomypl-6.md) · [7](dobredomypl-7.md) · [8](dobredomypl-8.md) · [9](dobredomypl-9.md) · [10](dobredomypl-10.md) · [11](dobredomypl-11.md) · [12](dobredomypl-12.md) · [13](dobredomypl-13.md) · [14](dobredomypl-14.md) · [15](dobredomypl-15.md) · [16](dobredomypl-16.md) · [17](dobredomypl-17.md) · [18](dobredomypl-18.md)
 

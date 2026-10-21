@@ -16,12 +16,12 @@ Promocje i rabaty: **1** pracowni · Dodatki i pakiety: **3** pracowni · Komuni
 
 | Pracownia / strona | Co się zmieniło | Było | Jest | Źródło |
 | --- | --- | --- | --- | --- |
-| [e-domy.pl](dashboard/e-domypl.md) · stały projekt | Promocje i rabaty · Usunięto: Funkcjonalność | P R O M O C J A (klienci indyw.) - Pakiet dodatków za 69zł (+69,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| [archdom.pl](dashboard/archdompl.md) · stały projekt | Dodatki i pakiety · Dodano: Treść | brak | Projekt domu Aksamitka występuje też w wersji EKO dodatkowo z ogrzewaniem podłogową oraz pompą ciepła: projekt domu Aksamitka EKO | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| [hbstudio.pl](dashboard/hbstudiopl.md) · główna | Dodatki i pakiety · Usunięto: Treść | 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto | brak | [Otwórz stronę](https://hbstudio.pl/) |
+| [e-domy.pl](dashboard/e-domypl.md) · stały projekt | Promocje i rabaty · Usunięto: Funkcjonalność | P R O M O C J A (klienci indyw.) - Tablica + dziennik budowy za 69zł (+69,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
+| [archdom.pl](dashboard/archdompl.md) · stały projekt | Dodatki i pakiety · Dodano: Treść | brak | Do projektu oferujemy różne warianty źródeł ciepła w zależności od dostępności na danym terenie inwestycji. Do projektu Można dobrać dodatkowe instalacje z szerokiej gamy pakietów dostępnych w naszej ofercie. | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
+| [hbstudio.pl](dashboard/hbstudiopl.md) · główna | Dodatki i pakiety · Treść | Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniżej przedstawiamy lis… | Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższym nie dysponujemy adresami zrealizowanych domów. | [Otwórz stronę](https://hbstudio.pl/#main) |
 | [dompasja.pl](dashboard/dompasjapl.md) · stały projekt | Warunki oferty · Dodano: Treść | brak | Zobacz zamówienie i stan wysyłki | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
-| [galeriadomow.pl](dashboard/galeriadomowpl.md) · stały projekt | Warunki oferty · Treść | wysyłka już jutro koszty dostawy: 0,00 zł | wysyłka już dzisiaj koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
-| [1001studio.pl](dashboard/1001studiopl.md) · główna | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów | Projekt domu Witek II · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_iinqmd00f1csif\_Zoom-300x300.jpg | Projekt domu uA299 · https://www.1001studio.pl/wp-content/uploads/2024/09/31719-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
+| [1001studio.pl](dashboard/1001studiopl.md) · główna | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów | Projekt domu Marisa G1 ENERGO · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_1rblokf0djo7er\_Zoom-300x300.jpg | Projekt domu Daniel VII G2 · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_pokbhfp0h484pi\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
+| [archstodola.pl](dashboard/archstodolapl.md) · stały projekt | Komunikacja sprzedażowa · Nagłówek | NASZA STODOŁA PARTEROWA Z GARAŻEM pow. użytkowa 117,9 m2 + pow.garażu 37,3 m2 | NASZA STODOŁA S pow. użytkowa 89,33 m2 | [Otwórz stronę](https://archstodola.pl/stodola-chalet-p-14.html#SrodekKolumna) |
 
 ## Grafika i wygląd
 
@@ -34,11 +34,11 @@ Wybrane przykłady; wszystkie obserwacje są w porównaniach poszczególnych pra
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
 | [1001studio.pl](dashboard/1001studiopl.md) · główna | Rozmiar: treść strony | Zrzuty i właściwość elementu |
-| [archetyp.pl](dashboard/archetyppl.md) · główna | Źródło grafiki: treść strony | Zrzuty i właściwość elementu |
-| [archipelag.pl](dashboard/archipelagpl.md) · główna | Opis grafiki | Zrzuty i właściwość elementu |
-| [domenadom.pl](dashboard/domenadompl.md) · główna | Opis grafiki | Zrzuty i właściwość elementu |
-| [e-domy.pl](dashboard/e-domypl.md) · główna | Przesunięcie: Część rysunkowa projektu architektoniczno-budowlanego (26 px w górę) | Zrzuty i właściwość elementu |
-| [galeriadomow.pl](dashboard/galeriadomowpl.md) · główna | Przesunięcie: Projekt domu - Dom przy Bukowej 36 (28 px w dół) | Zrzuty i właściwość elementu |
+| [archetyp.pl](dashboard/archetyppl.md) · główna | Położenie i rozmiar: treść strony (18 px w dół) | Zrzuty i właściwość elementu |
+| [archipelag.pl](dashboard/archipelagpl.md) · główna | Źródło grafiki: Domy21 | Zrzuty i właściwość elementu |
+| [domenadom.pl](dashboard/domenadompl.md) · główna | Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5 | Zrzuty i właściwość elementu |
+| [e-domy.pl](dashboard/e-domypl.md) · główna | Dodana grafika: treść strony | Zrzuty i właściwość elementu |
+| [hexagreen.pl](dashboard/hexagreenpl.md) · główna | Widoczny nagłówek: 138+ realizacji #domyHexaGreen | Zrzuty i właściwość elementu |
 
 ## Wszystkie pracownie
 
@@ -49,7 +49,7 @@ Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej k
 | [1001studio.pl](dashboard/1001studiopl.md) | 90 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [alexanderstudio.pl](dashboard/alexanderstudiopl.md) | Bez zmian w zapisanej komunikacji | 14 różnych zmian · obraz do obejrzenia |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | 60 różnych zmian |
-| [archetyp.pl](dashboard/archetyppl.md) | 20 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [archetyp.pl](dashboard/archetyppl.md) | 31 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [archipelag.pl](dashboard/archipelagpl.md) | 2 różnych zmian | 3 różnych zmian |
 | [archstodola.pl](dashboard/archstodolapl.md) | Bez zmian w zapisanej komunikacji | 15 różnych zmian |
 | [dobredomy.pl](dashboard/dobredomypl.md) | Bez zmian w zapisanej komunikacji | 449 różnych zmian · obraz do obejrzenia |
@@ -57,7 +57,7 @@ Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej k
 | [domenadom.pl](dashboard/domenadompl.md) | 2 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [dompasja.pl](dashboard/dompasjapl.md) | 1 różnych zmian · obraz do obejrzenia | 12 różnych zmian · obraz do obejrzenia |
 | [domywstylu.pl](dashboard/domywstylupl.md) | 4 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [e-domy.pl](dashboard/e-domypl.md) | 40 różnych zmian | 23 różnych zmian |
+| [e-domy.pl](dashboard/e-domypl.md) | 59 różnych zmian | 23 różnych zmian |
 | [extradom.pl](dashboard/extradompl.md) | 8 różnych zmian | 6 różnych zmian |
 | [galeriadomow.pl](dashboard/galeriadomowpl.md) | 1 różnych zmian | 1 różnych zmian |
 | [hbstudio.pl](dashboard/hbstudiopl.md) | 6 różnych zmian | Brak odczytu |

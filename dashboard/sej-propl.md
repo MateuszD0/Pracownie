@@ -22,8 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Dom na igielnianej · https://www.sej-pro.pl/wp-content/uploads/2022/05/realizacja3-465x310.jpg | Dom w skowronkach · https://www.sej-pro.pl/wp-content/uploads/2022/05/realizacja2-465x310.jpg | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Komunikacja sprzedażowa · Dodano: Źródło grafiki w zestawie banerów · Strona główna | brak | SEJ-PRO 015 ENERGO · https://www.sej-pro.pl/wp-content/uploads/2022/05/realizacja4-465x310.jpg | [Otwórz stronę](https://www.sej-pro.pl/#page) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Dom na igielnianej · https://www.sej-pro.pl/wp-content/uploads/2022/05/realizacja3-465x310.jpg | Dom w skowronkach · https://www.sej-pro.pl/wp-content/uploads/2022/05/realizacja2-465x310.jpg | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
 ## Karta projektu
 
@@ -35,7 +35,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Treść · Karta projektu | 02 dni 03 h 30 min 10 s | 01 dni 14 h 23 min 18 s | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

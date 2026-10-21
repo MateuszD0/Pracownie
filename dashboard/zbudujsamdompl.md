@@ -30,13 +30,13 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Czy pakiet jest dla osoby bez doświadczenia budowlanego? | 31 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Komunikacja sprzedażowa · Baner · Karta projektu | 10 osób przegląda ten projekt teraz | 23 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 25 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 17384 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 17725 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu | 10 osób przegląda ten projekt teraz | 23 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Czy pakiet jest dla osoby bez doświadczenia budowlanego? | 31 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Zmiany wyglądu · Dodana grafika: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | brak | [Otwórz grafikę](https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png) | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
+| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 17384 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 17725 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

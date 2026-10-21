@@ -22,8 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Opis grafiki | eccbc87e4b5ce2fe28308fd9f2a7baf3 | e4da3b7fbbce2345d7772b0674a318d5 | [Otwórz stronę](https://domenadom.pl/) |
 | Zmiany wyglądu · Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5 | [Otwórz grafikę](https://domenadom.pl/userfiles/ads/1760688923.jpg) | [Otwórz grafikę](https://domenadom.pl/userfiles/ads/1706010178.jpg) | [Otwórz stronę](https://domenadom.pl/) |
+| Zmiany wyglądu · Opis grafiki | eccbc87e4b5ce2fe28308fd9f2a7baf3 | e4da3b7fbbce2345d7772b0674a318d5 | [Otwórz stronę](https://domenadom.pl/) |
 
 ## Karta projektu
 
@@ -33,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

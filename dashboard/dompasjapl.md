@@ -41,17 +41,17 @@ Porównanie: 20.10.2026 21:55 → 21.10.2026 09:35 (czas polski). Różnica zrzu
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
 | Warunki oferty · Dodano: Treść · Karta projektu | brak | Zobacz zamówienie i stan wysyłki | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Mój koszyk | Mój koszyk 0 | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu | brak | UTWÓRZ KONTO | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu | brak | NIE PAMIĘTASZ HASŁA? | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 | Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu | brak | ZALOGUJ SIĘ | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#send2) |
+| Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu | Mój koszyk | Mój koszyk 0 | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
+| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu | brak | NIE PAMIĘTASZ HASŁA? | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
+| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu | brak | UTWÓRZ KONTO | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Stworzenie konta ma wiele korzyści: | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
 | Komunikacja sprzedażowa · Usunięto: Treść · Karta projektu · DODAJ DO KOSZYKA | Prosimy o określenie wymaganych opcji produktu. | brak | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
-| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu · DODAJ DO KOSZYKA | brak | To jest wymagane pole. | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#options%5B291%5D-error) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Zamawiaj szybciej | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
-| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Śledzenie historii zamówień | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Hasło | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Adres e-mail | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
+| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Śledzenie historii zamówień | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
+| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu · DODAJ DO KOSZYKA | brak | To jest wymagane pole. | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#options%5B291%5D-error) |
 
 ### Grafika i wygląd — różnica do obejrzenia
 
@@ -61,7 +61,7 @@ Porównanie: 20.10.2026 21:55 → 21.10.2026 09:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://dompasja.pl/dompasja-61b.html)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
 
 Strony porównania: **1**
 

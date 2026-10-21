@@ -1,0 +1,118 @@
+import copy
+import csv
+import io
+import json
+import os
+from pathlib import Path
+
+import pytest
+from bs4 import BeautifulSoup
+from test_management_dashboard import management_view
+
+from pracownie.browser import BrowserScanner
+from pracownie.management import build_management, business_highlights, group_changes
+from pracownie.presentation import render_html, render_markdown, render_text
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize("scripts", [False, True])
+async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, scripts):
+    view = json.loads(Path(os.environ['MONITOR_REVIEW_VIEW']).read_text()) if os.environ.get('MONITOR_REVIEW_VIEW') else management_view()
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(java_script_enabled=scripts, viewport={'width': 1440, 'height': 1000})
+        page = await context.new_page()
+        errors = []
+        page.on('pageerror', lambda error: errors.append(str(error)))
+        await page.set_content(render_html(view))
+        if scripts and (output := os.environ.get('MONITOR_REVIEW_SCREENSHOT')):
+            await page.screenshot(path=output, full_page=False)
+        assert await page.locator('#business-summary').count() == 1
+        assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('communication-coverage')) & Node.DOCUMENT_POSITION_FOLLOWING)")
+        assert await page.locator('#communication-coverage').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('daily')) & Node.DOCUMENT_POSITION_FOLLOWING)")
+        assert await page.locator('[data-business-domain]:visible').count() <= 6
+        assert len(await page.locator('[data-business-domain]:visible').evaluate_all('es=>[...new Set(es.map(e=>e.dataset.businessDomain))]')) == await page.locator('[data-business-domain]:visible').count()
+        assert await page.locator('[data-communication-domain]').count() == len(view['rows'])
+        link = page.locator('#business-highlights a[data-company-link]').first
+        if await link.count():
+            target = await link.get_attribute('href')
+            await link.click()
+            assert await page.locator(target).is_visible()
+            assert await page.locator('.day-domain[open]').count() >= 1
+        await page.set_viewport_size({'width': 390, 'height': 844})
+        assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+        if scripts and (output := os.environ.get('MONITOR_REVIEW_SCREENSHOT')):
+            await page.screenshot(path=str(Path(output).with_stem(Path(output).stem + '-mobile')), full_page=False)
+        assert not errors
+        await context.close()
+
+
+def test_repeated_interactions_are_grouped_per_firm_and_page_with_full_source_history():
+    view = management_view()
+    original = next(e for e in view['journal'] if e['page'] == 'glowna' and e['category'] == 'promocje')
+    original['scenario'] = 'podstawowy'
+    repeated = {**original, 'id': original['id'] + '-tab', 'scenario': 'tab', 'context': 'Zakładka z ofertą', 'after': 'Rabat  20%'}
+    view['journal'].append(repeated)
+    data = build_management(view)
+    group = next(e for e in data['items'] if e['page'] == 'glowna')
+    assert len(data['items']) == 3 and data['source_count'] == 4
+    assert group['scenario'] == 'podstawowy' and group['observation_count'] == 2
+    assert set(group['observation_ids']) == {original['id'], repeated['id']}
+    assert 'Zakładka z ofertą' in group['contexts']
+    # Identical values for differently named offers must remain separate.
+    assert len(group_changes([original, dict(original, id='another-offer', description='Inny dodatek')])) == 2
+    assert repeated['id'] not in {e['id'] for e in data['secondary']}
+    soup = BeautifulSoup(render_html(view), 'html.parser')
+    assert len(soup.select('#journal [data-journal-domain]')) == 4
+    assert len(soup.select('.firm-change')) == 3
+    assert '2 odczytach' in soup.select_one('.firm-change').text
+    assert len(soup.select('[id]')) == len({e['id'] for e in soup.select('[id]')})
+
+
+def test_highlights_prioritize_concrete_offers_and_keep_each_company_once():
+    original = copy.deepcopy(management_view()['management']['items'][0])
+    entries = [dict(original, id='a', category='dodatki', before='brak', after='Dodatkowy'),
+               dict(original, id='b', category='dodatki', before='brak', after='Do projektu domu dodano projekt pompy ciepła gratis')]
+    entries.extend(dict(original, id=f'p{i}', domain=f'{i}.pl') for i in range(10))
+    # The same offer in a second firm is a separate finding.
+    groups = group_changes(entries)
+    top = business_highlights(groups)
+    assert len(top) == len({e['domain'] for e in top}) == 6
+    assert not any(e['after'] == 'Dodatkowy' for e in top)
+    assert next(e for e in business_highlights(groups, 20) if e['domain'] == original['domain'])['id'] == 'b'
+    promotion = group_changes([dict(original, category='funkcje', before='Pakiet dodatków za 69 zł', after='PROMOCJA - Pakiet dodatków za 39 zł')])[0]
+    assert promotion['business_bucket'] == 'promotions'
+    assert promotion['category'] == 'funkcje'  # The original evidence remains intact.
+
+
+def test_daily_business_summary_is_present_in_all_report_formats():
+    view = management_view()
+    for report in [render_html(view), render_text(view), render_markdown(view)]:
+        assert 'Najważniejsze różnice biznesowe' in report or 'NAJWAŻNIEJSZE RÓŻNICE BIZNESOWE' in report
+        assert 'Rabat 10%' in report and 'Rabat 20%' in report
+        assert 'https://test.pl/#oferta' in report
+
+
+@pytest.mark.browser
+async def test_promotional_controls_follow_business_filters_and_csv(executable):
+    view = management_view()
+    home = next(e for e in view['journal'] if e['page'] == 'glowna' and e['category'] == 'promocje')
+    home.update(category='funkcje', before='Pakiet dodatków za 69 zł', after='PROMOCJA - Pakiet dodatków za 39 zł')
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(accept_downloads=True)
+        page = await context.new_page()
+        await page.set_content(render_html(view))
+        await page.locator('#page-filter').select_option('glowna')
+        await page.locator('#journal-category').select_option('sales')
+        assert await page.locator('#business-highlights [data-business-domain]').count() == 1
+        assert 'Pakiet dodatków' in await page.locator('#business-highlights').inner_text()
+        await page.locator('#business-highlights [data-company-link]').click()
+        assert await page.locator('.firm-change:visible').count() == 1
+        await page.locator('#full-journal > summary').click()
+        assert await page.locator('#journal [data-journal-domain]:visible').count() == 1
+        async with page.expect_download() as download_event:
+            await page.locator('#export-visible').click()
+        download = await download_event.value
+        rows = list(csv.DictReader(io.StringIO((await download.path()).read_text(encoding='utf-8-sig')), delimiter=';'))
+        assert len(rows) == 1 and rows[0]['Rodzaj'] == 'Promocje i rabaty'
+        assert rows[0]['Było'] == home['before'] and rows[0]['Jest'] == home['after']
+        await context.close()

@@ -58,6 +58,7 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "page": event["page"],
                 "project": row["name"] if event["page"] == "projekt" else "",
                 "context": event.get("variant") or event.get("context", ""),
+                "scenario": event.get("scenario", ""),
                 "category": category,
                 "type": LABELS.get(category, category),
                 "description": description,

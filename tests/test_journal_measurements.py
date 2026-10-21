@@ -185,6 +185,7 @@ async def test_change_table_filters_and_native_proof_links(executable):
             context = await scanner.browser.new_context(java_script_enabled=scripts, viewport={"width": 390, "height": 844})
             page = await context.new_page()
             await page.set_content(render_html(journal_view()))
+            await page.locator('#full-journal > summary').click()
             if scripts:
                 await page.locator('#journal-category').select_option('obraz')
                 assert await page.locator('#journal tr[data-category="obraz"]').is_visible()

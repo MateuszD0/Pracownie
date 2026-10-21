@@ -212,6 +212,7 @@ async def test_report_renders_both_pages_with_and_without_javascript(executable)
             assert "Rabat 10%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
             assert "Rabat 20%" in await page.locator('.daily-page[data-page="glowna"]').inner_text()
             assert "Kosztorys gratis" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
+            await page.locator('.daily-page[data-page="projekt"] .project-prices > summary').click()
             assert "4 290,00 zł" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
             assert not await page.locator('.day-domain img[src="x"]').count()
             if scripts:

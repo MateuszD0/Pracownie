@@ -5,7 +5,9 @@ Główne pytanie raportu: co zmieniło się od wczoraj w komunikatach na stronie
 ## Widok dzienny
 
 - Wskaźniki: pracownie ze zmianą komunikacji, ze zmianą na stronie głównej i ze zmianą na karcie. Pracownia jest liczona raz w danym wskaźniku; te zbiory mogą się pokrywać.
-- Tabela zmian: konkretna treść przed i po, rodzaj zmiany, obie daty, źródło oraz istniejące zrzuty. Zmiany kwot są w szczegółach.
+- Skrót na górze: do sześciu konkretnych różnic biznesowych, po jednej najważniejszej na pracownię, z treścią „Było / Jest” i źródłem. Priorytet: promocje, dodatki i pakiety, warunki, funkcjonalności, komunikacja, opisane zmiany wyglądu. Jednowyrazowe etykiety nawigacji pozostają w szczegółach.
+- Porównanie pracowni: osobno strona główna i jedna utrwalona karta projektu, treść przed i po, obie daty, źródło i zrzuty. Nowy bestseller na stronie głównej nie zmienia zapamiętanego projektu.
+- Powtarzający się komunikat o tym samym znaczeniu i treści w kilku scenariuszach jest jedną pozycją z listą kontekstów. Różne pracownie, strony i nazwane oferty są oddzielne. Wszystkie źródłowe wpisy pozostają w rozwijanym dzienniku i pełnym CSV. Ceny są w szczegółach.
 - Tabela wszystkich 65 pracowni: osobny wynik komunikacji dla obu stron, linki i gotowość nowej bazy. Błąd lub niepełna historia nie są wynikiem „bez zmian”.
 - Zakres: pełne porównania zapisanego zakresu, zgodne fragmenty ze starszego skanu, dzisiejsze odczyty oraz nowe bazy do następnego dnia. Te miary mają osobne mianowniki i nie są sumowane jako jednakowo wiarygodne porównania.
 

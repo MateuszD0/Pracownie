@@ -18,11 +18,16 @@ from .communication import COUNTDOWN
 from .extract import MONEY, amount, money_text, normalize
 from .journal import build_journal, render_journal_html
 from .management import (
+    brief,
     build_management,
+    business_highlights,
     communication_summary,
     render_availability,
+    render_business_change,
+    render_business_proofs,
     render_communication_table,
     render_management,
+    render_quality_panel,
 )
 from .model import WARSAW, Result
 from .offers import price_delta
@@ -185,6 +190,7 @@ def _event(change, result: Result) -> dict:
         "evidence": change.evidence or result.evidence,
         "role": role,
         "page": result.page,
+        "scenario": result.scenario,
         "note": "Zmieniono reguły odczytu lub przeglądarkę. Nie ustalono, czy różnica dotyczy oferty; problem wymaga naprawy po stronie monitora." if "reguły odczytu" in change.note else change.note.strip(),
         "before_full": old,
         "after_full": new,
@@ -315,6 +321,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     "evidence": project.evidence,
                     "role": "current",
                     "page": "projekt",
+                    "scenario": "podstawowy",
                     "note": "", "before_full": money(previous), "after_full": money(current),
                 }
             )
@@ -492,7 +499,12 @@ def render_text(view: dict) -> str:
         table.append(" | ".join(str(item[k]).replace("\n", " · ") for k in ["day", "domain", "page", "context", "type", "description", "before", "after", "source"]))
     if not journal:
         table.append("Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. Zobacz kompletność danych powyżej.")
-    lines.extend(table + [""])
+    lines.extend([communication_summary(view), ""])
+    lines.extend(f"{b['label']}: {b['domains']} pracowni ze zmianą" for b in management['business_buckets'])
+    lines.extend(["", "NAJWAŻNIEJSZE RÓŻNICE BIZNESOWE — SKRÓT", "Pracownia | Strona | Zmiana | Było | Jest | Źródło"])
+    for item in business_highlights(journal):
+        lines.append(" | ".join([item['domain'], 'Strona główna' if item['page'] == 'glowna' else 'Stała karta projektu', item['description'], brief(item['before'], 240), brief(item['after'], 240), item['source']]))
+    lines.extend(["", "Pełne porównania, treści i powtórzenia zachowano poniżej.", "", *table, ""])
     lines.extend(["KOMUNIKACJA — WSZYSTKIE PRACOWNIE", "Pracownia | Strona główna | Karta projektu"])
     for row in view["rows"]:
         lines.append(" | ".join([row["domain"], *[p["communication"]["label"] + ("; nowa baza gotowa" if p["communication"].get("ready") and p["current_read"] else "") + "; " + p["url"] for p in row["pages"]]]))
@@ -656,6 +668,13 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
     price_lines.extend(f"| {esc(r['domain'])} | {r['previous_text']} | {r['current_text']} | {esc(_delta_text(r))} |" for r in paired)
     if not paired:
         price_lines = ["Brak wiarygodnych porównań cen z obu dni."]
+    highlights = business_highlights(management['items'])
+    business_lines = ["### Najważniejsze różnice biznesowe — skrót", "", " · ".join(esc(b['label']) + ': **' + str(b['domains']) + '** pracowni' for b in management['business_buckets']), "", "| Pracownia / strona | Zmiana | Było | Jest | Źródło |", "| --- | --- | --- | --- | --- |"]
+    for item in highlights:
+        business_lines.append("| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page'] == 'glowna' else 'stały projekt'), esc(item['description']), esc(brief(item['before'])), esc(brief(item['after'])), '[Źródło](' + item['source'] + ')']) + " |")
+    if not highlights:
+        business_lines.append("| Nie ustalono konkretnych różnic biznesowych dzień do dnia. | | | | |")
+    business_lines.extend(["", f"Skrót: {len(highlights)} z {management['metrics']['communication']} pracowni ze zmianami. Każda pracownia: strona główna i ten sam zapamiętany projekt.", ""])
     lines = [
         f"## Komunikacja pracowni · {view['day']}",
         "",
@@ -665,6 +684,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
         "",
         communication_summary(view),
         "",
+        *business_lines,
         "### Najważniejsze zmiany dzień do dnia",
         "",
         "Zmiany ofert oraz zmiany wyglądu mają osobne oznaczenia. Zmiana zrzutu nie potwierdza nowej ceny ani promocji. Błędy odczytu pozostają w diagnostyce.",
@@ -789,6 +809,7 @@ def render_html(view: dict) -> str:
     )
     # Core content is rendered on the server too. Sandboxed previews and
     # browsers with scripts disabled must still display the complete report.
+    source_ids = set(view["management"]["source_ids"])
     replacements = {
         "__REPORT_DATA__": payload,
         "__REPORT_DAY__": html.escape(view["day"]),
@@ -797,10 +818,11 @@ def render_html(view: dict) -> str:
         "__STATIC_OBSERVATIONS__": render_observations_html(view),
         "__STATIC_STATS__": render_stats_html(view),
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
-        "__STATIC_JOURNAL__": render_journal_html(view, rows=view["management"]["items"]),
+        "__STATIC_JOURNAL__": render_journal_html(view, rows=[e for e in view['journal'] if e['id'] in source_ids]),
         "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
         "__STATIC_MANAGEMENT__": render_management(view),
         "__STATIC_AVAILABILITY__": render_availability(view),
+        "__STATIC_QUALITY__": render_quality_panel(view),
         "__STATIC_COMMUNICATION__": render_communication_table(view),
         "__SECONDARY_COUNT__": str(len(view["management"]["secondary"])),
         "__STATIC_EVENTS__": ''.join(render_event_html(view, row, event, i) for row in view["rows"] for i, event in enumerate(row["events"])) or '<p class="empty">Nie ustalono potwierdzonych zmian sprzedażowych. Niepełny zakres porównania jest opisany w wyniku powyżej.</p>',
@@ -912,23 +934,37 @@ def render_daily_html(view: dict) -> str:
             + ('<p class="small">' + esc(event.get("note")) + '</p>' if event.get("note") else "") + '</article>'
         )
 
+    items = build_management(view)['items']
+    changed = {item['domain'] for item in items}
     blocks = []
-    for row in view["rows"]:
+    for row in sorted(view["rows"], key=lambda r: (r['domain'] not in changed, r['domain'])):
         pages = []
+        domain_items = [item for item in items if item['domain'] == row['domain']]
         for page in row["pages"]:
+            page_items = [item for item in domain_items if item['page'] == page['page']]
             link = safe_url(page["url"])
             title = '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(page["label"]) + '</a>' if link else esc(page["label"])
             part = '<section class="daily-page" data-page="' + page["page"] + '"><h3>' + title + '</h3>'
-            part += '<span class="badge ' + page["status"] + '">' + esc(page["status_label"]) + '</span>'
+            copy_status = page['communication'].get('label', page['status_label'])
+            if page_items:
+                copy_status = f"Różne zmiany komunikacji: {len(page_items)}"
+            part += '<span class="badge ' + page["status"] + '" data-change-label data-fallback="' + esc(page['communication'].get('label', page['status_label'])) + '">' + esc(copy_status) + '</span>'
             part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
             if page["page"] == "projekt":
-                part += '<div class="values"><div class="value"><small>Cena poprzednio</small>' + esc(row["previous_text"]) + '</div><div class="value after"><small>Cena dzisiaj</small>' + esc(row["current_text"]) + '</div></div>'
+                part += '<p class="fixed-project"><strong>Ten sam projekt: ' + esc(row['name']) + '</strong></p>'
             if page["gap_days"] and page["gap_days"] > 1:
                 part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
-            part += ''.join(event_html(e) for e in page["events"])
+            part += ''.join(render_business_change(item) for item in page_items[:3])
+            if len(page_items) > 3:
+                part += '<details class="more-changes"><summary>Pozostałe różnice tej strony (' + str(len(page_items) - 3) + ')</summary>' + ''.join(render_business_change(item) for item in page_items[3:]) + '</details>'
+            if not page_items:
+                part += '<p class="small">' + ('Bez zmian komunikacji w porównanym zakresie.' if page['communication'].get('daily') else 'Nie ustalono zmian; zakres porównania opisano powyżej.') + '</p>'
+            part += render_business_proofs(view['day'], page_items)
+            if page['page'] == 'projekt':
+                price_events = [e for e in page['events'] if e['category'] == 'ceny']
+                part += '<details class="project-prices"><summary>Ceny — informacje dodatkowe</summary><div class="values"><div class="value"><small>Cena poprzednio</small>' + esc(row['previous_text']) + '</div><div class="value after"><small>Cena dzisiaj</small>' + esc(row['current_text']) + '</div></div>' + ''.join(event_html(e) for e in price_events) + '</details>'
             if page["reviews"]:
-                technical = all(technical_reason(e) for e in page["reviews"])
-                part += '<details class="reviews"' + ('' if technical else ' open') + '><summary>Niejednoznaczne zapisy odczytu (' + str(len(page["reviews"])) + ')</summary><p class="small">Materiały do weryfikacji działania monitora. Nie są potwierdzonymi zmianami ofert ani zadaniami dla użytkownika.</p>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
+                part += '<details class="reviews"><summary>Niejednoznaczne zapisy odczytu (' + str(len(page["reviews"])) + ')</summary><p class="small">Materiały do weryfikacji działania monitora. Nie są potwierdzonymi zmianami ofert ani zadaniami dla użytkownika.</p>' + ''.join(event_html(e) for e in page["reviews"]) + '</details>'
             images = []
             for key, label, at in [("przed", "Przed", page["compared_at"]), ("po", "Po", page["observed_at"])]:
                 path = proof(page["evidence"].get(key, ""))
@@ -940,7 +976,8 @@ def render_daily_html(view: dict) -> str:
                 part += '<p class="small">Zmiana reguł odczytu: nowe lub niedopasowane pola pozostają w diagnostyce; nie potwierdzają zmiany na stronie.</p>'
             pages.append(part + '</section>')
         issues = '<ul class="small">' + ''.join('<li>' + esc(issue) + '</li>' for issue in row["issues"]) + '</ul>' if row["issues"] else ''
-        blocks.append('<details class="day-domain box" data-domain="' + esc(row["domain"]) + '"><summary><strong>' + esc(row["domain"]) + '</strong><span class="small">' + esc(row["status_label"]) + '</span></summary><div id="pracownia-' + esc(row["domain"]) + '"><p class="small">' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div>' + issues + '</div></details>')
+        summary = ('Strona główna: ' + str(sum(e['page'] == 'glowna' for e in domain_items)) + ' · stały projekt: ' + str(sum(e['page'] == 'projekt' for e in domain_items))) if domain_items else 'Bez zmian komunikacji' if all(p['communication'].get('daily') for p in row['pages']) else 'Porównanie częściowe lub brak odczytu'
+        blocks.append('<details class="day-domain box" id="pracownia-' + esc(row['domain']) + '" data-domain="' + esc(row["domain"]) + '"><summary><strong>' + esc(row["domain"]) + '</strong><span class="small" data-company-counts>' + esc(summary) + '</span></summary><div><p class="small">Stała karta projektu: ' + esc(row["name"]) + '</p><div class="daily-pages">' + ''.join(pages) + '</div>' + issues + '</div></details>')
     return ''.join(blocks) or '<p class="empty">Brak odczytów w tym raporcie.</p>'
 
 

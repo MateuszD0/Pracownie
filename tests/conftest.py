@@ -10,7 +10,7 @@ import pytest
 
 @pytest.fixture
 def sample_site():
-    state = SimpleNamespace(price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, wp_settings_delay=0, duplicate_cart=False, no_sales=False, background="white", requests=0, cookie_panel="", rate_limited=False)
+    state = SimpleNamespace(featured_project="/projekt-domu-testowy", price=4590, bonus="Kosztorys za 150 zł", unavailable=False, banner="Promocja jesienna", submitted=False, cookies=False, wp_cookies=False, wp_settings_delay=0, duplicate_cart=False, no_sales=False, background="white", requests=0, cookie_panel="", rate_limited=False)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, *args):
@@ -54,7 +54,7 @@ def sample_site():
                 body = "Nigdy nie wywołuj tego adresu podczas skanu"
             else:
                 body = f'''<h1>Pracownia testowa</h1><h2>{state.banner}</h2><p>Bezpłatna dostawa projektów i nowa oferta promocyjna.</p>
-                    <article><strong>Bestseller</strong><a href="/projekt-domu-testowy">Dom Testowy</a><span>4590 zł</span></article>
+                    <article><strong>Bestseller</strong><a href="{state.featured_project}">Dom Testowy</a><span>4590 zł</span></article>
                     <p>Pomagamy wybrać projekt domu. Konsultacje dostępne przed zakupem.</p>'''
             if state.cookies:
                 body += '''<div id="CybotCookiebotDialog" role="dialog">Pliki cookies<button onclick="document.getElementById('CybotCookiebotDialog').remove()">Odmowa</button><button role="tab">Szczegóły</button></div>'''

@@ -33,11 +33,20 @@ async def test_functional_baseline_change_same_day_and_failure(sample_site, exec
     assert "bestseller" in store.read()["selections"]["test.pl"]["basis"].lower()
     assert len(store.read()["snapshots"]) >= 5
     assert any("nested-" in key for key in store.read()["snapshots"])
+    frozen_project = store.read()["selections"]["test.pl"]["url"]
+    sample_site.featured_project = "/projekt-domu-nowy-bestseller"
+
+    async def unexpected_discovery(*args, **kwargs):
+        raise AssertionError("Nie wolno ponownie wybierać projektu po zapisaniu wyboru")
+
+    monkeypatch.setattr(BrowserScanner, "discover_project", unexpected_discovery)
     sample_site.price = 4290
     sample_site.bonus = "Kosztorys gratis"
     sample_site.banner = "Promocja zimowa"
     monkeypatch.setattr("pracownie.browser.now_iso", lambda: "2026-10-19T06:00:00+00:00")
     second = await run_scan([site], store, output, options(executable, "2026-10-19"))
+    assert store.read()["selections"]["test.pl"]["url"] == frozen_project
+    assert all(r.url == frozen_project for r in second["results"] if r.page == "projekt" and r.scenario == "podstawowy")
     price_changes = [change for result in second["results"] for change in result.changes if change.delta == "-300.00"]
     assert price_changes
     assert all(change.percent == "-6.54" for change in price_changes)

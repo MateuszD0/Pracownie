@@ -85,7 +85,9 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         await page.locator('#page-filter').select_option('glowna')
         assert await page.locator('#metric-project_changes').inner_text() == '—'
         assert await page.locator('#metric-home_changes').inner_text() == '1'
+        await page.locator('#full-journal > summary').click()
         assert await page.locator('#journal tr[data-journal-domain]:visible').count() == 1
+        assert await page.locator('#business-highlights [data-business-domain]:visible').count() == 1
         assert await page.locator('[data-communication-page=projekt]:visible').count() == 0
         assert await page.locator('[data-communication-domain]:visible').count() == 2
         async with page.expect_download() as download_event:

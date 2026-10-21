@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from pracownie.browser import COMMUNICATION, BrowserScanner
 from pracownie.communication import CONTRACT, measure
-from pracownie.model import Field, Result, Snapshot
+from pracownie.model import Change, Field, Result, Snapshot
 from pracownie.observations import visual_description
 from pracownie.presentation import build_view, render_html
 from pracownie.rebuild import enrich_communication
@@ -82,6 +82,23 @@ def test_promotion_absolute_deadline_and_delivery_terms_remain_comparable():
     assert len(changes) == 1
     assert '31.10.2026' in changes[0].before and '07.11.2026' in changes[0].after
     assert 'w 3 dni' in changes[0].before and 'w 5 dni' in changes[0].after
+
+
+def test_legacy_field_timers_do_not_reappear_as_promotions_in_dashboard_or_csv():
+    from pracownie.journal import render_journal_csv
+
+    old = 'Rabat -15%. Do końca promocji: 02 dni02 godz.03 min.11 sek.'
+    new = 'Rabat -15%. Do końca promocji: 01 dni15 godz.19 min.23 sek.'
+    change = Change('changed', 'promocje', 'Promocje — oferta', old, new, BEFORE, AFTER, 'https://test.pl/', 'cart', field_key='tekst:oferta:promocje')
+    result = Result('test.pl', 'projekt', 'cart', 'changed', 'https://test.pl/', [change], observed_at=AFTER, compared_at=BEFORE, data_quality='ok')
+    view = build_view('2026-10-21', [result], {'finished_at': AFTER}, {}, ['test.pl'])
+    assert not view['journal'] and view['management']['metrics']['promotions'] == 0
+    assert 'Rabat -15%' not in render_journal_csv(view)
+    assert change.before == old and change.after == new  # Preserve source diagnostics.
+    change.after = new.replace('-15%', '-20%')
+    view = build_view('2026-10-21', [result], {'finished_at': AFTER}, {}, ['test.pl'])
+    assert len(view['journal']) == 1 and view['management']['metrics']['promotions'] == 1
+    assert '-20%' in render_journal_csv(view)
 
 
 @pytest.mark.parametrize('problem', ['partial', 'different-url', 'different-copy-rules', 'truncated', 'wrong-time'])

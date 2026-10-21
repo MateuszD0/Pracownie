@@ -17,6 +17,8 @@ Wyszukiwanie, obserwowane pracownie, filtr strony i rodzaju zmiany dotyczą tabe
 
 Reguły komunikacji mają osobną tożsamość od adapterów cen. Wymagana jest ta sama strona i scenariusz, zgodne reguły komunikacji, przeglądarka, rzeczywiste daty oraz dwa poprawne, nieucięte zapisy. Przeniesienie niezmienionego tekstu nie powoduje alertu. Zmiany samych kwot w zachowanym komunikacie trafiają do modułu cen. Nie używamy generatywnego API do zgadywania zmian.
 
+Tykanie liczników typu `02 dni01 godz.53 min.14 sek.` jest pomijane w porównaniu komunikacji i w starszych polach oferty. Sama zmiana odliczania nie tworzy alertu o promocji. Rabat, treść komunikatu, jawna data zakończenia i warunki dostawy nadal są porównywane. Oryginalne odczyty oraz diagnostyka zachowują zapisany licznik.
+
 „Pełne” oznacza cały monitorowany, zapisany zakres, nie gwarancję uchwycenia każdego elementu witryny. Nieznane komponenty rotatorów, personalizacja, grafika bez tekstu poza zapisanym zakresem i niezrealizowane kombinacje konfiguratorów pozostają ograniczeniem. Zrzuty są dodatkowym materiałem. Sama zmiana pikseli nie ustala nowej promocji ani redesignu.
 
 ## Uczciwa historia

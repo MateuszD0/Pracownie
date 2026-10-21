@@ -14,6 +14,7 @@ from difflib import SequenceMatcher
 from importlib.resources import files
 from urllib.parse import urlsplit
 
+from .communication import COUNTDOWN
 from .extract import MONEY, amount, money_text, normalize
 from .journal import build_journal, render_journal_html
 from .management import (
@@ -326,6 +327,10 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     + issue_text(result.error)
                 )
             for change in result.changes:
+                if change.before and change.after and COUNTDOWN.sub("[licznik]", change.before) == COUNTDOWN.sub("[licznik]", change.after):
+                    # Older categorized fields may still contain a timer even
+                    # when no full communication inventory was recorded.
+                    continue
                 if result.communication.get("comparable") and change.field_key.startswith("tekst:"):
                     # Dedicated copy inventory replaces the older categorized
                     # blocks, avoiding duplicate or parser-version alerts.

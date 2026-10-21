@@ -19,11 +19,54 @@ class FakeGitHub:
         self.fail_commit = False
         self.deleted = []
         self.repo_files = {}
+        self.git_head = "head-0"
+        self.git_trees = {}
+        self.git_commits = {}
+        self.git_blobs = {}
 
     def request(self, request):
         path, method = request.url.path, request.method
+        if '/git/' in path:
+            import base64
+            import copy
+            prefix = '/repos/test/monitor/git/'
+            part = path.removeprefix(prefix)
+            if part == 'ref/heads/main':
+                return httpx.Response(200, json={'object': {'sha': self.git_head}})
+            if part.startswith('commits/'):
+                return httpx.Response(200, json=self.git_commits.get(part.split('/')[-1], {'tree': {'sha': 'base-tree'}}))
+            if part.startswith('trees/'):
+                files = self.git_trees.get(part.split('/')[-1], self.repo_files)
+                entries = []
+                for name, data in files.items():
+                    value = base64.b64decode(data['content'])
+                    sha = hashlib.sha1(f'blob {len(value)}\0'.encode() + value, usedforsecurity=False).hexdigest()
+                    self.git_blobs[sha] = data['content']
+                    entries.append({'path': name, 'type': 'blob', 'mode': '100644', 'sha': sha})
+                return httpx.Response(200, json={'tree': entries, 'truncated': False})
+            if part.startswith('blobs/'):
+                return httpx.Response(200, json={'content': self.git_blobs[part.split('/')[-1]]})
+            if part == 'trees' and method == 'POST':
+                payload = json.loads(request.content)
+                files = copy.deepcopy(self.git_trees.get(payload['base_tree'], self.repo_files))
+                for entry in payload['tree']:
+                    files[entry['path']] = {'content': base64.b64encode(entry['content'].encode()).decode(), 'sha': 'example-sha', 'html_url': 'https://github.com/test/monitor/blob/main/' + entry['path']}
+                sha = f'tree-{len(self.git_trees) + 1}'
+                self.git_trees[sha] = files
+                return httpx.Response(201, json={'sha': sha})
+            if part == 'commits' and method == 'POST':
+                payload = json.loads(request.content)
+                sha = f'commit-{len(self.git_commits) + 1}'
+                self.git_commits[sha] = {'sha': sha, 'tree': {'sha': payload['tree']}, 'parents': payload['parents']}
+                return httpx.Response(201, json={'sha': sha})
+            if part == 'refs/heads/main' and method == 'PATCH':
+                payload = json.loads(request.content)
+                assert payload['force'] is False
+                self.git_head = payload['sha']
+                self.repo_files = copy.deepcopy(self.git_trees[self.git_commits[self.git_head]['tree']['sha']])
+                return httpx.Response(200, json={'object': {'sha': self.git_head}})
         if "/contents/" in path:
-            name = path.rsplit("/", 1)[-1]
+            name = path.split("/contents/", 1)[-1]
             if method == "GET":
                 return httpx.Response(200 if name in self.repo_files else 404, json=self.repo_files.get(name, {}))
             payload = json.loads(request.content)

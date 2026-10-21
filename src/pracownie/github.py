@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
-from .dashboard import render_dashboard
+from .dashboard import render_dashboard_documents
 from .model import digest, json_bytes, now_iso, slug
 from .presentation import render_markdown
 from .state import StateStore
@@ -372,9 +372,40 @@ class GitHubStore:
         return "DASHBOARD.md" if self.namespace == "monitor" else "DASHBOARD-" + self.namespace.upper() + ".md"
 
     def update_dashboard(self, view: dict, report_url: str, downloads: dict | None = None, previews: dict | None = None) -> str:
-        filename = self.dashboard_filename
-        content = (OWNER_MARKER + "\n\n" + render_dashboard(view, report_url, downloads, previews)).encode()
-        return self._update_owned_document(filename, content, "Update daily monitoring dashboard")
+        documents = {path: (OWNER_MARKER + "\n\n" + text).encode() for path, text in render_dashboard_documents(view, report_url, downloads, previews, self.dashboard_filename).items()}
+        self._update_dashboard_documents(documents)
+        return f"https://github.com/{self.repo}/blob/main/{self.dashboard_filename}"
+
+    def _update_dashboard_documents(self, documents: dict[str, bytes]) -> None:
+        """Write the overview and company pages in one non-forced Git commit."""
+        for _attempt in range(3):
+            parent = self.request("GET", f"{self.prefix}/git/ref/heads/main").json()["object"]["sha"]
+            commit = self.request("GET", f"{self.prefix}/git/commits/{parent}").json()
+            tree = self.request("GET", f"{self.prefix}/git/trees/{commit['tree']['sha']}", params={"recursive": "1"}).json()
+            if tree.get("truncated"):
+                raise ValueError("Niepełne drzewo repozytorium; nie zaktualizowano dashboardu")
+            entries = {item['path']: item for item in tree['tree']}
+            changes = []
+            for filename, content in documents.items():
+                expected = hashlib.sha1(f"blob {len(content)}\0".encode() + content, usedforsecurity=False).hexdigest()
+                existing = entries.get(filename)
+                if existing and existing['sha'] == expected:
+                    continue
+                if existing:
+                    if existing['type'] != 'blob':
+                        raise ValueError(f"Plik {filename} nie należy do monitora")
+                    blob = self.request("GET", f"{self.prefix}/git/blobs/{existing['sha']}").json()
+                    if OWNER_MARKER.encode() not in base64.b64decode(blob['content']):
+                        raise ValueError(f"Plik {filename} nie należy do monitora; nie nadpisano go")
+                changes.append({"path": filename, "mode": "100644", "type": "blob", "content": content.decode()})
+            if not changes:
+                return
+            created = self.request("POST", f"{self.prefix}/git/trees", json={"base_tree": commit['tree']['sha'], "tree": changes}).json()
+            updated = self.request("POST", f"{self.prefix}/git/commits", json={"message": "Update daily monitoring dashboard", "tree": created['sha'], "parents": [parent]}).json()
+            result = self.request("PATCH", f"{self.prefix}/git/refs/heads/main", json={"sha": updated['sha'], "force": False}, accepted_statuses=(409, 422))
+            if result.status_code < 400:
+                return
+        raise RuntimeError("Gałąź main zmieniła się podczas publikacji dashboardu; ponów aktualizację")
 
     def _update_owned_document(self, filename: str, content: bytes, message: str) -> str:
         endpoint = f"{self.prefix}/contents/{filename}"

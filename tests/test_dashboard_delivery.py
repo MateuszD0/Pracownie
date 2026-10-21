@@ -7,7 +7,7 @@ import pytest
 from test_github import FakeGitHub, prepare
 from test_management_dashboard import management_view
 
-from pracownie.dashboard import company_anchor, render_dashboard
+from pracownie.dashboard import company_anchor, render_dashboard, render_dashboard_documents
 from pracownie.github import OWNER_MARKER, GitHubStore
 from pracownie.state import StateStore
 
@@ -15,12 +15,15 @@ from pracownie.state import StateStore
 def test_readable_dashboard_has_all_firms_both_pages_and_business_changes():
     view = management_view()
     text = render_dashboard(view, 'https://github.com/test/monitor/releases/tag/monitor-report-2026-10-20')
-    assert text.index('## Najważniejsze różnice biznesowe') < text.index('## Wszystkie pracownie') < text.index('## Różnice według pracowni')
-    assert text.count('<details>') == text.count('</details>') == len(view['rows'])
-    assert text.count('#### Strona główna') == text.count('#### Karta projektu') == len(view['rows'])
+    assert text.index('## Najważniejsze różnice biznesowe') < text.index('## Wszystkie pracownie')
+    docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
+    assert len(docs) == 3
+    assert '[test.pl](dashboard/testpl.md)' in text
+    text = '\n'.join(docs.values())
+    assert text.count('## Strona główna') == text.count('## Karta projektu') == len(view['rows'])
     assert 'Rabat 10%' in text and 'Rabat 20%' in text and 'gratis' in text
     assert 'Brak odczytu' in text and '403' in text
-    assert '[test.pl](#testpl)' in text and '### test.pl' in text
+    assert '[test.pl](dashboard/testpl.md)' in text and '# test.pl' in text
     assert '19.10.2026' in text and '20.10.2026' in text
     assert 'Nie ustalono konkretnych zmian biznesowych' not in text
     assert 'https://test.pl/#oferta' in text
@@ -56,7 +59,7 @@ def test_dashboard_publication_preserves_user_files_and_retries_a_sha_conflict()
     writes = []
 
     def conflict_once(request):
-        if request.method == 'PUT' and request.url.path.endswith('/DASHBOARD.md'):
+        if request.method == 'PATCH' and request.url.path.endswith('/git/refs/heads/main'):
             writes.append(json.loads(request.content))
             if len(writes) == 1:
                 return httpx.Response(409, json={'message': 'sha conflict'})
@@ -64,7 +67,8 @@ def test_dashboard_publication_preserves_user_files_and_retries_a_sha_conflict()
 
     remote.client = httpx.Client(transport=httpx.MockTransport(conflict_once))
     remote.update_dashboard(management_view(), 'https://github.com/test/monitor/releases/tag/new-day')
-    assert len(writes) == 2 and writes[-1]['sha'] == 'example-sha'
+    assert len(writes) == 2 and writes[-1]['force'] is False
+    assert 'dashboard/testpl.md' in fake.repo_files and 'dashboard/blockedpl.md' in fake.repo_files
     pilot = GitHubStore('test/monitor', 'not-a-real-token', namespace='pilot', client=httpx.Client(transport=httpx.MockTransport(fake.request)))
     assert pilot.update_dashboard(management_view(), 'https://github.com/test/monitor/releases/tag/day').endswith('/DASHBOARD-PILOT.md')
 
@@ -74,7 +78,7 @@ def test_dashboard_failure_cannot_mark_the_daily_report_as_ready(tmp_path):
     original = fake.request
 
     def fail_dashboard(request):
-        if request.method == 'PUT' and request.url.path.endswith('/DASHBOARD.md'):
+        if request.method == 'POST' and request.url.path.endswith('/git/trees'):
             return httpx.Response(403, json={'message': 'dashboard write failed'})
         return original(request)
 
@@ -86,3 +90,17 @@ def test_dashboard_failure_cannot_mark_the_daily_report_as_ready(tmp_path):
     with pytest.raises(RuntimeError, match='dashboard write failed'):
         remote.publish(store, output, '2026-10-20', archive, '2026-10-20T060000-dashboard')
     assert remote.published_report('2026-10-20') is None
+
+
+def test_company_pagination_keeps_every_difference_and_avoids_false_unchanged_labels():
+    view = management_view()
+    original = copy.deepcopy(view['journal'][0])
+    view['journal'].extend(dict(original, id=f'item-{i}', description=f'Komunikat {i}') for i in range(70))
+    docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
+    company = [text for name, text in docs.items() if name.startswith('dashboard/testpl')]
+    assert len(company) == 3
+    for i in range(70):
+        assert sum(f'Komunikat {i} ·' in text for text in company) == 1
+    assert all('Ten sam projekt:' in text and '## Strona główna' in text and '## Karta projektu' in text for text in company)
+    assert all(len(text.encode()) < 64_000 for text in docs.values())
+    assert '[2](testpl-2.md)' in docs['dashboard/testpl.md']

@@ -184,6 +184,7 @@ def compact_evidence(root: Path, day: str, results: list) -> dict:
     from .model import safe_path
     from .state import atomic_write
 
+    root = root.resolve()
     references = [r.evidence for r in results] + [c.evidence for r in results for c in r.changes]
     paths = {p for refs in references for p in refs.values()}
     replacements, originals, saved = {}, 0, 0

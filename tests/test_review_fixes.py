@@ -104,7 +104,8 @@ def test_publication_deadline_timestamp_is_taken_after_commit_manifest(tmp_path,
     assert result['published_at'] == DAY + 'T06:00:01+00:00'
 
 
-def test_lossless_compression_dedup_and_mixed_history_restore(tmp_path):
+@pytest.mark.parametrize("relative_root", [False, True])
+def test_lossless_compression_dedup_and_mixed_history_restore(tmp_path, monkeypatch, relative_root):
     image = Image.new('RGB', (1000, 2000), 'white')
     ImageDraw.Draw(image).rectangle((50, 50, 800, 1000), fill='red')
     folder = tmp_path / 'report' / DAY / 'test.pl' / 'projekt' / 'podstawowy'
@@ -117,7 +118,9 @@ def test_lossless_compression_dedup_and_mixed_history_restore(tmp_path):
     assert Image.open(io.BytesIO(compressed)).convert('RGB').tobytes() == image.tobytes()
     result = Result('test.pl', 'projekt', 'podstawowy', 'unchanged', 'https://test.pl', evidence={
         'przed': before.relative_to(tmp_path / 'report').as_posix(), 'po': after.relative_to(tmp_path / 'report').as_posix()})
-    stats = compact_evidence(tmp_path / 'report', DAY, [result])
+    from pathlib import Path
+    monkeypatch.chdir(tmp_path)
+    stats = compact_evidence(Path("report") if relative_root else tmp_path / "report", DAY, [result])
     assert stats['saved_bytes'] > 0 and result.evidence['przed'] == result.evidence['po']
     stored = tmp_path / 'report' / result.evidence['po']
     source = tmp_path / 'original.png'

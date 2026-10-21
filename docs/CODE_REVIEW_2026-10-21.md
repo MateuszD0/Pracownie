@@ -56,6 +56,17 @@ Nie jest to obietnica identycznej redukcji całego archiwum: JSON, bardzo długi
 strony i podglądy mają inny udział. Diagnostyka zapisuje rzeczywisty rozmiar
 obrazów po kompresji; historia 180 dni pozostaje zachowana.
 
+Dodatkowa próba na pełnym produkcyjnym archiwum 21.10 (570 wyników):
+**418 277 190 → 230 900 750 B obrazów, oszczędność 44,8%**. Liczba fizycznych
+plików spadła z 706 do 575: 521 WebP i 54 PNG. Odwołania do identycznego
+„przed” i „po” nadal istnieją, ale wskazują wspólny plik. Przetwarzanie zajęło
+około 140 sekund lokalnie. To pomiar plików obrazów, nie całego ZIP-a.
+
+Pierwsza próba publikacji wykryła nieobsługiwaną względną ścieżkę katalogu.
+Naprawa normalizuje katalog do ścieżki bezwzględnej przed przeliczaniem odwołań;
+test regresyjny obejmuje oba warianty. Poprzedni opublikowany raport nie został
+zastąpiony niekompletnym wynikiem.
+
 Nie przepisywano wszystkich archiwów 180 dni. Bieżący raport zostanie
 przebudowany z oryginalnych odczytów, a nowe skany zapiszą mniejsze obrazy
 stanu. Zmiana formatu nie tworzy nowego odczytu strony ani fikcyjnej daty.

@@ -6,9 +6,10 @@ on:
     types: [completed]
     branches: [main]
   schedule:
-    # Missed runs can be recovered by a tested deployment marked [scan].
-    - cron: '17 6 * * *'
-      timezone: Europe/Warsaw
+    # UTC covers both Polish offsets; the locked gate applies Europe/Warsaw,
+    # skips the early winter slot and skips already committed daily reports.
+    - cron: '17 3,4 * * *' # Primary: 05:17 Europe/Warsaw
+    - cron: '7 4,5 * * *' # Recovery: 06:07 Europe/Warsaw
   workflow_dispatch:
     inputs:
       scope:
@@ -61,12 +62,21 @@ jobs:
           enable-cache: true
       - name: Zależności
         run: uv sync --frozen
+      - name: Sprawdź porę i gotowość dzisiejszego raportu
+        id: schedule
+        if: github.event_name == 'schedule'
+        run: uv run python -m pracownie.schedule
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
       - name: Chromium i OCR
+        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
         run: |
           uv run playwright install --with-deps chromium
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-pol
       - name: Testy przed skanem
+        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
         run: uv run pytest -q -m 'not browser'
       - name: Zakres naprawy po wdrożeniu
         id: deployment
@@ -83,13 +93,18 @@ jobs:
                   output.write('repair_domains=' + match[1] + '\n')
           PY
       - name: Skan, raport i trwały zapis
+        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCAN_SCOPE: ${{ github.event_name == 'schedule' && 'full' || inputs.scope || 'full' }}
           FORCE_RESCAN: ${{ github.event_name == 'workflow_run' && !steps.deployment.outputs.repair_domains && 'true' || inputs.rescan || 'false' }}
           REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
+          SCAN_DAY: ${{ steps.schedule.outputs.day }}
         run: |
           scan_args=(--github --scope "$SCAN_SCOPE" --budget-seconds 3600)
+          if [[ -n "$SCAN_DAY" ]]; then
+            scan_args+=(--day "$SCAN_DAY")
+          fi
           if [[ "$FORCE_RESCAN" != 'true' ]]; then
             scan_args+=(--resume)
           fi
@@ -110,6 +125,7 @@ jobs:
 
       - name: Sprawdź dostępność opcjonalnego adresu WWW
         id: pages
+        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
         run: uv run python -m pracownie.web --check-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,6 +2,8 @@ from pathlib import Path
 
 import yaml
 
+from pracownie.schedule import PRIMARY_CRON, RECOVERY_CRON
+
 WORKFLOWS = Path(__file__).resolve().parents[1] / ".github" / "workflows"
 
 
@@ -12,10 +14,30 @@ def workflow(name):
 
 def test_daily_scan_includes_weekends_and_uses_full_scope():
     config = workflow("monitor.yml")
-    assert config["on"]["schedule"] == [{"cron": "17 6 * * *", "timezone": "Europe/Warsaw"}]
+    assert config["on"]["schedule"] == [{"cron": PRIMARY_CRON}, {"cron": RECOVERY_CRON}]
+    assert all(slot["cron"].split()[2:] == ["*", "*", "*"] for slot in config["on"]["schedule"])
     scan = config["jobs"]["scan"]
     command = next(step for step in scan["steps"] if "SCAN_SCOPE" in step.get("env", {}))
     assert "github.event_name == 'schedule' && 'full'" in command["env"]["SCAN_SCOPE"]
+
+
+def test_schedule_checks_committed_freshness_under_writer_lock_before_browser_install():
+    config = workflow("monitor.yml")
+    scan = config["jobs"]["scan"]
+    assert scan["concurrency"] == {"group": "pracownie-monitor", "cancel-in-progress": "false"}
+    steps = scan["steps"]
+    gate = next(s for s in steps if s.get("id") == "schedule")
+    assert gate["if"] == "github.event_name == 'schedule'"
+    assert "pracownie.schedule" in gate["run"]
+    assert gate["env"]["SCHEDULE_EXPRESSION"] == "${{ github.event.schedule }}"
+    expensive = [s for s in steps if any(text in s.get("run", "") for text in ["playwright install", "pytest", "pracownie run", "--check-pages"])]
+    assert len(expensive) == 4
+    for step in expensive:
+        assert steps.index(gate) < steps.index(step)
+        assert step["if"] == "github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'"
+    command = next(s for s in steps if "SCAN_SCOPE" in s.get("env", {}))
+    assert command["env"]["SCAN_DAY"] == "${{ steps.schedule.outputs.day }}"
+    assert '--day "$SCAN_DAY"' in command["run"]
 
 
 def test_report_publication_does_not_wait_for_pages_environment_approval():

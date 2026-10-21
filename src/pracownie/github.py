@@ -173,6 +173,46 @@ class GitHubStore:
             store.restore(root / "state.zip", record["sha256"])
         return record
 
+    def published_report(self, day: str) -> dict | None:
+        """Check the committed daily publication without downloading state/screenshots.
+
+        A release alone can be an interrupted upload. Only the commit uploaded last
+        together with its existing report files is sufficient to skip a scheduled run.
+        Callers must hold the same writer lock as publish/rebuild.
+        """
+        date.fromisoformat(day)
+        release = self.release(f"{self.namespace}-state-v1")
+        if not release:
+            return None
+        assets = self.assets(release)
+        commits = sorted((a for a in assets if a["name"].startswith("commit-") and a["name"].endswith(".json")), key=lambda a: a["name"], reverse=True)
+        if not commits:
+            return None
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / "commit.json"
+            self.download(commits[0], path, (commits[0].get("digest") or "").removeprefix("sha256:") or None)
+            record = json.loads(path.read_text())
+        if record.get("schema") != 1 or record.get("owner") != "pracownie-monitor:v1":
+            raise ValueError("Niepoprawny manifest zatwierdzenia raportu")
+        recorded_day = record.get("day", "")
+        date.fromisoformat(recorded_day)
+        if recorded_day > day:
+            raise ValueError("Zdalny raport ma datę z przyszłości; nie cofnięto historii")
+        if recorded_day != day:
+            return None
+        state_asset = next((a for a in assets if a["name"] == record.get("asset")), None)
+        if not state_asset or not re.fullmatch(r"[0-9a-f]{64}", record.get("sha256", "")):
+            raise ValueError("Zatwierdzony raport nie ma poprawnego archiwum stanu")
+        report = self.release(f"{self.namespace}-report-{day}")
+        if not report or report["id"] != record.get("report_release_id"):
+            return None
+        files = record.get("report_files", {})
+        required = {"txt", "csv", "journal_csv", "diagnostics", "html_zip", "html", "zip"}
+        available = {a["id"] for a in self.assets(report) if a.get("size", 0) > 0}
+        if not required <= files.keys() or not set(files.values()) <= available:
+            return None
+        return record
+
     def publish(self, store: StateStore, output: Path, day: str, report_archive: Path, run_id: str) -> dict:
         stamp = slug(run_id)
         report_release = self.release(f"{self.namespace}-report-{day}", create=True)

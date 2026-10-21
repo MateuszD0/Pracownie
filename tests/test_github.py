@@ -96,6 +96,8 @@ def test_persistence_and_interrupted_commit(tmp_path):
     output.mkdir()
     archive = prepare(store, output, "2026-10-19", "2026-10-19T060000-a")
     remote.publish(store, output, "2026-10-19", archive, "2026-10-19T060000-a")
+    assert remote.published_report("2026-10-19")["day"] == "2026-10-19"
+    assert remote.published_report("2026-10-20") is None
     fresh = StateStore(tmp_path / "fresh")
     remote.pull(fresh)
     assert fresh.read() == store.read()
@@ -103,14 +105,45 @@ def test_persistence_and_interrupted_commit(tmp_path):
     fake.fail_commit = True
     with pytest.raises(RuntimeError):
         remote.publish(store, output, "2026-10-20", archive, "2026-10-20T060000-b")
+    # A release with all uploaded files but no final commit is not a daily success.
+    assert remote.published_report("2026-10-20") is None
     another = StateStore(tmp_path / "another")
     remote.pull(another)
     assert another.read()["day"] == "2026-10-19"
     fake.fail_commit = False
     remote.publish(store, output, "2026-10-20", archive, "2026-10-20T070000-c")
+    assert remote.published_report("2026-10-20")["run_id"] == "2026-10-20T070000-c"
     remote.pull(another)
     assert another.read()["day"] == "2026-10-20"
     assert len([a for a in fake.assets.values() if a["name"].startswith("commit-")]) == 2
+
+
+def test_daily_publication_gate_checks_files_without_downloading_archives(tmp_path):
+    fake = FakeGitHub()
+    requests = []
+
+    def respond(request):
+        requests.append((request.method, request.url.path))
+        return fake.request(request)
+
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
+    store = StateStore(tmp_path / "local")
+    output = tmp_path / "reports"
+    output.mkdir()
+    assert remote.published_report("2026-10-21") is None
+    archive = prepare(store, output, "2026-10-21", "2026-10-21T051700-a")
+    remote.publish(store, output, "2026-10-21", archive, "2026-10-21T051700-a")
+    requests.clear()
+    record = remote.published_report("2026-10-21")
+    assert record
+    assert all(method == "GET" for method, _ in requests)
+    downloads = [int(path.rsplit("/", 1)[-1]) for _, path in requests if "/releases/assets/" in path]
+    assert len(downloads) == 1 and fake.assets[downloads[0]]["name"].startswith("commit-")
+    # The commit alone cannot hide a missing user-facing HTML report.
+    del fake.assets[record["report_files"]["html"]]
+    assert remote.published_report("2026-10-21") is None
+    with pytest.raises(ValueError, match="przyszłości"):
+        remote.published_report("2026-10-20")
 
 
 def test_retention_never_deletes_other_releases():

@@ -260,7 +260,8 @@ def test_registry_and_workflow_contract():
     workflow = yaml.safe_load((root / ".github/workflows/monitor.yml").read_text())
     # PyYAML's YAML 1.1 recognizes the key 'on' as boolean true.
     events = workflow.get("on", workflow.get(True))
-    assert events["schedule"][0] == {"cron": "17 6 * * *", "timezone": "Europe/Warsaw"}
+    from pracownie.schedule import PRIMARY_CRON, RECOVERY_CRON
+    assert events["schedule"] == [{"cron": PRIMARY_CRON}, {"cron": RECOVERY_CRON}]
     assert workflow["permissions"] == {"contents": "write", "pages": "read"}
     assert workflow["jobs"]["pages"]["permissions"] == {"contents": "read", "pages": "write", "id-token": "write"}
     assert not workflow["jobs"]["scan"]["concurrency"]["cancel-in-progress"]

@@ -5,12 +5,13 @@ import asyncio
 import json
 import os
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import httpx
 
 from .github import GitHubStore
-from .model import load_sites, local_day
+from .model import WARSAW, load_sites, local_day
 from .pipeline import RunOptions, run_scan
 from .report import bundle_report, coverage, restore_report, verify_outputs
 from .state import StateStore
@@ -154,6 +155,11 @@ def execute(args) -> int:
             if remote:
                 published = remote.publish(store, args.output, day, archive, metadata["run_id"])
                 print(json.dumps(published, ensure_ascii=False))
+                deadline = datetime.fromisoformat(day + "T08:00:00").replace(tzinfo=WARSAW)
+                on_time = datetime.fromisoformat(published["published_at"]) <= deadline
+                timing = "Raport opublikowany przed 08:00 Europe/Warsaw." if on_time else "Raport opublikowany po celu 08:00 Europe/Warsaw."
+                if not on_time and os.environ.get("GITHUB_ACTIONS") == "true":
+                    print("::warning title=Termin publikacji::" + timing)
                 remote.cleanup(day, dry_run=False)
                 index_url = remote.update_index()
                 print("Spis raportów: " + index_url)
@@ -161,7 +167,7 @@ def execute(args) -> int:
                 if summary_path:
                     report_counts = json.loads((args.output / day / "oferty.json").read_text())["counts"]
                     with Path(summary_path).open("a") as stream:
-                        stream.write(f"### Raport ofert {day}\n\n[Otwórz czytelny raport]({published['report_url']}) · [Spis dni]({index_url})\n\nStrony główne: {report_counts['home']}/{report_counts['domains']}; karty: {report_counts['project']}/{report_counts['domains']}; ceny: {report_counts['prices']}. Potwierdzone zmiany ofert: {report_counts['events']}.\n\nPublikacja: {published['published_at']}\n")
+                        stream.write(f"### Raport ofert {day}\n\n[Otwórz czytelny raport]({published['report_url']}) · [Spis dni]({index_url})\n\nStrony główne: {report_counts['home']}/{report_counts['domains']}; karty: {report_counts['project']}/{report_counts['domains']}; ceny: {report_counts['prices']}. Potwierdzone zmiany ofert: {report_counts['events']}.\n\nPublikacja: {published['published_at']}. {timing}\n")
             # All errors fail the job after saving diagnostics; partial coverage is explicitly reported.
             if counts["error"] == len(sites):
                 return 2

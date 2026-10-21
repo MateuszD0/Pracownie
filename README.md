@@ -20,7 +20,11 @@ Format wyniku pokazuje [syntetyczny przykład TXT](examples/raport-przykladowy.t
 
 **Uruchomienie w GitHub Actions**
 
-Workflow „Codzienny monitoring pracowni” działa z domyślnej gałęzi codziennie o 06:17 Europe/Warsaw, również w weekendy. Docelowa gotowość raportu to 08:00. GitHub może opóźnić lub pominąć harmonogram; nie jest to gwarancja terminu.
+Workflow „Codzienny monitoring pracowni” ma start główny codziennie o **05:17 Europe/Warsaw** i próbę zapasową o **06:07**, również w weekendy. Cel to **opublikowany raport przed 08:00 czasu polskiego**, nie start skanu o ósmej. Próba zapasowa sprawdza zatwierdzony manifest i obecność plików dzisiejszego raportu. Jeżeli raport jest gotowy, pomija skan i instalację przeglądarki. Samo istnienie wydania po przerwanym przesyłaniu nie oznacza sukcesu.
+
+Cron używa UTC (`17 3,4 * * *` i `7 4,5 * * *`), a moduł `pracownie.schedule` stosuje `Europe/Warsaw`. Dzięki temu obie polskie godziny startu działają także po zmianie czasu. Dodatkowe wywołania wynikające z dwóch przesunięć UTC są pomijane przed właściwą porą albo po sprawdzeniu gotowego raportu; jeżeli raport nadal nie powstał, mogą podjąć kolejną próbę. Kontrola działa pod tą samą blokadą co skan i przebudowa raportu, więc oczekujące ponowienie widzi wynik poprzednika. Ręczne skany i naprawy pozostają dostępne niezależnie od tej kontroli.
+
+GitHub może opóźnić lub pominąć wywołania harmonogramu; wcześniejszy start i ponowienie dają zapas, ale nie gwarantują terminu. Opóźniony skan nadal rusza, zamiast tracić cały dzień. Podsumowanie Actions podaje rzeczywistą godzinę publikacji i ostrzega, jeśli przekroczono 08:00. Termin dotyczy raportu w Releases; opcjonalne Pages ma osobny etap publikacji.
 
 W zakładce Actions wybierz workflow i Run workflow:
 

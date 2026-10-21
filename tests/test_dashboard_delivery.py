@@ -1,6 +1,7 @@
 import base64
 import copy
 import json
+import re
 
 import httpx
 import pytest
@@ -104,3 +105,12 @@ def test_company_pagination_keeps_every_difference_and_avoids_false_unchanged_la
     assert all('Ten sam projekt:' in text and '## Strona główna' in text and '## Karta projektu' in text for text in company)
     assert all(len(text.encode()) < 64_000 for text in docs.values())
     assert '[2](testpl-2.md)' in docs['dashboard/testpl.md']
+
+
+def test_every_markdown_table_has_matching_header_and_separator_columns():
+    docs = render_dashboard_documents(management_view(), 'https://github.com/test/monitor/releases/tag/day')
+    for text in docs.values():
+        lines = text.splitlines()
+        for index, line in enumerate(lines):
+            if re.fullmatch(r'[| :\-]+', line) and '---' in line:
+                assert len(re.split(r'(?<!\\)\|', line)) == len(re.split(r'(?<!\\)\|', lines[index - 1]))

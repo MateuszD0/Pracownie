@@ -28,7 +28,7 @@ Promocje i rabaty: **1** pracowni · Dodatki i pakiety: **3** pracowni · Komuni
 Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.
 
 | Pracownia | Strona główna | Stała karta projektu |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | [1001studio.pl](dashboard/1001studiopl.md) | 82 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [alexanderstudio.pl](dashboard/alexanderstudiopl.md) | Bez zmian w zapisanej komunikacji | 14 różnych zmian |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | 60 różnych zmian |

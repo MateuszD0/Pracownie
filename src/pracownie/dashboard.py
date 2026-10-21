@@ -49,7 +49,7 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
         lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(item['business_type'] + ' · ' + item['description']), cell(brief(item['before'], 240)), cell(brief(item['after'], 240)), link('Otwórz stronę', item['source'])]) + ' |']
     if not business_highlights(data['items']):
         lines += ['| Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie. | | | | |']
-    lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- | --- |']
+    lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- |']
     ordered = sorted(view['rows'], key=lambda row: (not domains[row['domain']], row['domain']))
     documents = {}
     for row in ordered:

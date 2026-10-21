@@ -13,6 +13,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
+from .dashboard import render_dashboard
 from .model import digest, json_bytes, now_iso, slug
 from .presentation import render_markdown
 from .state import StateStore
@@ -24,8 +25,10 @@ RELEASE_BODY_BYTES = 60_000
 RELEASE_PREVIEWS = 6
 
 
-def release_body(view: dict, links: dict[str, str], images: dict, published_at: str) -> str:
+def release_body(view: dict, links: dict[str, str], images: dict, published_at: str, *, dashboard_url: str = "") -> str:
     header = OWNER_MARKER + "\n\n" + " · ".join(f"[{label}]({url})" for label, url in links.items())
+    if dashboard_url:
+        header += "\n\n[**Otwórz bieżący dashboard — czytaj w przeglądarce**](" + dashboard_url + ")"
     header += "\n\n**Porównanie HTML — jeden plik** zawiera teksty przed/po i podglądy obrazów; działa bez skryptów i rozpakowywania. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n"
     footer = f"\n\nPublikacja: {published_at}."
     summary = render_markdown(view, images, item_limit=20)
@@ -319,12 +322,13 @@ class GitHubStore:
                 "Raport HTML ze zrzutami": html_asset['browser_download_url'],
                 "Pełne archiwum ZIP": zip_asset['browser_download_url'],
                 "Diagnostyka": diagnostic_asset['browser_download_url'],
-            }, previews, published_at)
+            }, previews, published_at, dashboard_url=f"https://github.com/{self.repo}/blob/main/" + self.dashboard_filename)
             self.request("PATCH", f"{self.prefix}/releases/{report_release['id']}", json={
                 "name": f"Raport {day}", "prerelease": False, "make_latest": "false",
                 "body": body,
             })
             (root / "commit.json").write_bytes(json_bytes(record))
+            dashboard_url = self.update_dashboard(view, report_release["html_url"], {"html": standalone_asset["browser_download_url"]}, previews)
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
             # A commit manifest uploaded last is the only pointer used by subsequent runners.
             self._collect_state(state_release)
@@ -332,7 +336,7 @@ class GitHubStore:
         for asset in self.assets(report_release):
             if asset["id"] not in keep_reports and asset["name"].startswith(day + "-"):
                 self.request("DELETE", f"{self.prefix}/releases/assets/{asset['id']}")
-        return {"report_url": report_release["html_url"], "state_asset_id": state_asset["id"], "published_at": published_at}
+        return {"report_url": report_release["html_url"], "dashboard_url": dashboard_url, "state_asset_id": state_asset["id"], "published_at": published_at}
 
     def _collect_state(self, release: dict):
         assets = self.assets(release)
@@ -363,6 +367,33 @@ class GitHubStore:
                     self.request("DELETE", f"{self.prefix}/releases/{release['id']}")
         return removed
 
+    @property
+    def dashboard_filename(self) -> str:
+        return "DASHBOARD.md" if self.namespace == "monitor" else "DASHBOARD-" + self.namespace.upper() + ".md"
+
+    def update_dashboard(self, view: dict, report_url: str, downloads: dict | None = None, previews: dict | None = None) -> str:
+        filename = self.dashboard_filename
+        content = (OWNER_MARKER + "\n\n" + render_dashboard(view, report_url, downloads, previews)).encode()
+        return self._update_owned_document(filename, content, "Update daily monitoring dashboard")
+
+    def _update_owned_document(self, filename: str, content: bytes, message: str) -> str:
+        endpoint = f"{self.prefix}/contents/{filename}"
+        for _attempt in range(3):
+            existing = self.request("GET", endpoint, accepted_statuses=(404,))
+            payload = {"message": message, "content": base64.b64encode(content).decode()}
+            if existing.status_code == 200:
+                data = existing.json()
+                previous = base64.b64decode(data["content"])
+                if OWNER_MARKER.encode() not in previous:
+                    raise ValueError(f"Plik {filename} nie należy do monitora; nie nadpisano go")
+                if previous == content:
+                    return data["html_url"]
+                payload["sha"] = data["sha"]
+            result = self.request("PUT", endpoint, json=payload, accepted_statuses=(409,))
+            if result.status_code != 409:
+                return result.json()["content"]["html_url"]
+        raise RuntimeError(f"Plik {filename} zmienił się podczas publikacji; ponów aktualizację")
+
     def update_index(self) -> str:
         """Publish useful daily navigation, also keeping repository activity current."""
         filename = "RAPORTY.md" if self.namespace == "monitor" else "RAPORTY-" + self.namespace.upper() + ".md"
@@ -384,24 +415,10 @@ class GitHubStore:
             if any(link and not link[1].startswith(allowed) for link in [text, archive, csv_link, html_link, portable]):
                 raise ValueError("Nieoczekiwany adres plików w indeksie raportów")
             rows.append((match[1], text[1], archive[1], release["html_url"], csv_link[1] if csv_link else None, html_link[1] if html_link else archive[1], portable[1] if portable else None))
-        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", "Raport zaczyna się od podsumowania zarządczego, KPI i kompletności danych, a następnie pokazuje konkretne zmiany dzień do dnia z linkami i dowodami przed/po. Pełny dziennik CSV obejmuje również pomocnicze różnice obrazu i porównania po luce; w starszych raportach CSV może zawierać tylko ceny. ZIP zachowuje pełne obrazy i interaktywne filtry. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Pełny dziennik CSV | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
+        lines = [OWNER_MARKER, "", "**Raporty monitoringu ofert**", "", f"[Otwórz bieżący dashboard]({self.dashboard_filename}) — porównanie w przeglądarce, bez pobierania plików.", "", "Raport zaczyna się od podsumowania zarządczego, KPI i kompletności danych, a następnie pokazuje konkretne zmiany dzień do dnia z linkami i dowodami przed/po. Pełny dziennik CSV obejmuje również pomocnicze różnice obrazu i porównania po luce; w starszych raportach CSV może zawierać tylko ceny. ZIP zachowuje pełne obrazy i interaktywne filtry. Notatki przechowuj osobno.", "", "| Dzień | Czytelny raport | Pełny dziennik CSV | Opis TXT | HTML i zrzuty |", "| --- | --- | --- | --- | --- |"]
         lines.extend(f"| {day} | [Otwórz raport]({url}) | " + (f"[CSV]({csv_url})" if csv_url else "—") + f" | [TXT]({text}) | " + (f"[HTML]({portable}) · " if portable else "") + f"[ZIP]({html_url}) |" for day, text, archive, url, csv_url, html_url, portable in sorted(rows, reverse=True))
         content = ("\n".join(lines) + "\n").encode()
-        endpoint = f"{self.prefix}/contents/{filename}"
-        existing = self.request("GET", endpoint, accepted_statuses=(404,))
-        payload = {"message": "Update daily monitoring report index", "content": base64.b64encode(content).decode()}
-        if existing.status_code == 200:
-            data = existing.json()
-            previous = base64.b64decode(data["content"])
-            if OWNER_MARKER.encode() not in previous:
-                raise ValueError(f"Plik {filename} nie należy do monitora; nie nadpisano go")
-            if previous == content:
-                return data["html_url"]
-            payload["sha"] = data["sha"]
-        elif existing.status_code != 404:
-            raise RuntimeError(f"Nie można odczytać indeksu raportów: HTTP {existing.status_code}")
-        result = self.request("PUT", endpoint, json=payload).json()
-        return result["content"]["html_url"]
+        return self._update_owned_document(filename, content, "Update daily monitoring report index")
 
 
 def sha256_bytes(value: bytes) -> str:

@@ -1,5 +1,9 @@
 **Pracownie Monitor**
 
+## [Otwórz dashboard — czytaj tutaj](DASHBOARD.md)
+
+Dashboard otwiera się bezpośrednio w GitHubie, bez pobierania i rozpakowywania plików. Najpierw pokazuje najważniejsze zmiany biznesowe, dalej wszystkie pracownie i rozwijane porównania strony głównej oraz stałego projektu. Aktualizuje się po codziennym skanie. Pliki HTML, CSV, TXT i zrzuty są materiałami dodatkowymi.
+
 Główny wynik to **dashboard komunikacji 65 pracowni**: konkretne zmiany na stronie głównej oraz stałej karcie projektu. Nagłówki, banery, CTA, argumenty oferty, promocje, dodatki i opisane zmiany wyglądu mają tekst przed/po, źródło i zrzuty. Ceny są informacją dodatkową w rozwijanych szczegółach. Widoczna tabela obejmuje wszystkie pracownie, również z niepełnym porównaniem lub błędem. [Zasady pomiaru komunikacji](docs/KOMUNIKACJA.md).
 
 Trzy główne wskaźniki liczą pracownie ze zmianą komunikacji łącznie, na stronie głównej i na karcie projektu. Zakres porównania tych treści jest liczony niezależnie od cen. Wyszukiwanie i filtry obejmują wskaźniki, tabelę oraz eksport widocznych zmian; pełny CSV zawiera również ceny i pomocnicze obserwacje.

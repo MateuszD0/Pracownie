@@ -13,6 +13,14 @@ Główne pytanie raportu: co zmieniło się od wczoraj w komunikatach na stronie
 
 Wyszukiwanie, obserwowane pracownie, filtr strony i rodzaju zmiany dotyczą tabel oraz eksportu widocznych zmian. Wskaźniki zmian uwzględniają te filtry. Kompletność dotyczy wybranych stron, niezależnie od wybranej kategorii alertów. Pełny `dziennik-zmian.csv` zachowuje również dodatkowe informacje, w tym ceny, ogólne różnice obrazu i porównania po luce.
 
+## Grafika i wygląd
+
+Dashboard na GitHubie ma osobny skrót zmian graficznych. Porównanie każdej pracowni pokazuje także dzienne różnice zrzutów, których przyczyny nie udało się ustalić. Nie są one doliczane do potwierdzonych różnic biznesowych. Podglądy i pełne zrzuty przed / po pozostają w plikach raportu.
+
+Konkretną zmianę opisujemy osobnym wierszem: dodana lub usunięta grafika, wymieniony obraz, kolor tła lub tekstu, krój i rozmiar pisma, grubość tekstu, zaokrąglenie albo położenie i rozmiar elementu. Każdy wiersz ma wartości „Było / Jest” i źródło. Nowe właściwości przycisków i tekstu można porównać dopiero po dwóch odczytach, które faktycznie je zawierają; brak pola w starszym skanie nie oznacza zmiany.
+
+Obrazy są dopasowywane po adresie grafiki, a nie tylko po numerze elementu w DOM. Zmiana kolejności tych samych projektów lub aktywnego slajdu nie oznacza wymiany zdjęć ani uruchomienia kampanii. Jeśli zostaje jedynie różnica zrzutów, opis wskazuje nieustaloną przyczynę lub możliwą rotację. Taka obserwacja nie ustala, że zmieniono ofertę. Zachowane odczyty można ponownie porównać poprawionym algorytmem bez wykonywania nowego skanu.
+
 ## Zapis źródłowy
 
 `communication.js` zapisuje kontrakt `communication-v1` w `Snapshot.document.communication`: czas rzeczywistego odczytu, identyfikator reguł komunikacji oraz komunikaty ze wskazaniem roli, elementu i miejsca źródłowego. Są to nagłówki, treści oferty, CTA oraz komunikaty i grafiki w rozpoznanych rotatorach. Treści publicznych zakładek i rozwijanych sekcji są zbierane także w zapisanych scenariuszach interakcji. Nawigacja, stopka, zgody i zamknięte sekcje w scenariuszu podstawowym są pomijane. Rotator jest czytany jako zestaw slajdów, również nieaktywnych; obrócenie tego samego zestawu nie jest nową kampanią.

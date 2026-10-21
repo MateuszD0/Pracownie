@@ -89,8 +89,13 @@ def enrich_visual_results(results: list[Result], output: Path, store: StateStore
                 candidate.quality = raw.get("quality","unknown")
                 candidate.warnings = raw.get("warnings",[])
                 candidate.document = raw.get("document",{})
-        details = next((c.details for c in visuals if c.details.get("facts")), None) or visual_description(old, new, difference)
-        ocr = {} if details.get("facts") else visual_text(crops)
+        # Re-evaluate archived observations with the repaired asset matching;
+        # do not keep an old positional comparison as a confirmed design fact.
+        if all(s.document.get("visual", {}).get("schema") == 1 for s in (old, new)):
+            details = visual_description(old, new, difference)
+        else:
+            details = next((c.details for c in visuals if c.details.get("facts")), None) or visual_description(old, new, difference)
+        ocr = {} if details.get("facts") or details.get("rotation") else visual_text(crops)
         if ocr:
             details["ocr"] = ocr
             details["description"] = "Zmieniła się zawartość obrazu: " + details.get("area", "zaznaczony obszar")

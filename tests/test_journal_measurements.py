@@ -134,6 +134,66 @@ def test_banner_description_compares_actual_labels_when_asset_url_is_reused():
     assert facts == [{"what": "Opis grafiki", "before": "Rabat 10%", "after": "Rabat 20%", "url": new.url}]
 
 
+def test_reordered_project_images_are_matched_by_asset_instead_of_css_slot():
+    from pracownie.images import VisualDiff
+
+    old, new = shot(), shot(AFTER)
+    images = [{"key": f"#slot-{i}", "label": name, "src": f"https://test.pl/{i}.webp", "rect": [i * 300, 0, 300, 200]} for i, name in enumerate(["Dom przy Bukowej 40", "Dom przy Bukowej 27"])]
+    old.document = {"visual": {"schema": 1, "elements": images}}
+    new.document = {"visual": {"schema": 1, "elements": [{**image, "key": images[1 - i]["key"], "rect": images[1 - i]["rect"]} for i, image in enumerate(images)]}}
+    details = visual_description(old, new, VisualDiff(True, .1, (0, 0, 600, 200)))
+    assert not details['facts'] and details['rotation']
+    assert 'istniejących grafik' in details['description']
+    # A genuinely new project inserted ahead of old ones must still be found.
+    new.document['visual']['elements'] = [{**image, 'key': f'#slot-{i + 1}'} for i, image in enumerate(images)] + [{'key': '#slot-0', 'label': 'Nowy dom', 'src': 'https://test.pl/new.webp'}]
+    details = visual_description(old, new, VisualDiff(True, .1, (0, 0, 600, 200)))
+    assert len(details['facts']) == 1
+    assert details['facts'][0]['what'] == 'Dodana grafika: Nowy dom'
+    assert details['facts'][0]['after'] == 'https://test.pl/new.webp'
+
+
+def test_visual_style_changes_get_separate_readable_rows_with_their_own_sources():
+    from pracownie.images import VisualDiff
+
+    old, new = shot(), shot(AFTER)
+    element = {'key': '#cta', 'label': 'Zamów projekt', 'background': 'rgb(255, 255, 255)', 'font_size': '16px', 'url': 'https://test.pl/dom#cta'}
+    old.document = {'visual': {'schema': 1, 'elements': [element]}}
+    new.document = {'visual': {'schema': 1, 'elements': [{**element, 'background': 'rgb(0, 0, 0)', 'font_size': '20px'}]}}
+    details = visual_description(old, new, VisualDiff(True, .1, (0, 0, 600, 200)))
+    result = Result('test.pl', 'projekt', 'podstawowy', 'changed', new.url, [Change('visual', 'obraz', details['description'], None, None, BEFORE, AFTER, new.url, 'podstawowy', details=details)], observed_at=AFTER, compared_at=BEFORE, data_quality='ok')
+    journal = build_view('2026-10-21', [result], {}, {}, ['test.pl'])['journal']
+    assert len(journal) == 2 and len({item['id'] for item in journal}) == 2
+    color = next(item for item in journal if 'Kolor tła' in item['description'])
+    assert color['before'] == 'biały (#FFFFFF)' and color['after'] == 'czarny (#000000)'
+    size = next(item for item in journal if 'Rozmiar tekstu' in item['description'])
+    assert size['before'] == '16px' and size['after'] == '20px'
+    assert all(item['source'] == 'https://test.pl/dom#cta' for item in journal)
+
+
+def test_archive_rebuild_replaces_stale_positional_image_facts(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+
+    monkeypatch.setattr('pracownie.rebuild.visual_text', lambda _: {})
+    folder = tmp_path / '2026-10-21/test.pl/projekt/podstawowy'
+    folder.mkdir(parents=True)
+    image = Image.new('RGB', (200, 300), 'white')
+    image.save(folder / 'przed.png')
+    ImageDraw.Draw(image).rectangle((20, 40, 120, 100), fill='red')
+    image.save(folder / 'po.png')
+    old, new = shot(), shot(AFTER)
+    elements = [{'key': '#a', 'src': 'https://test.pl/a.webp'}, {'key': '#b', 'src': 'https://test.pl/b.webp'}]
+    old.document = {'visual': {'schema': 1, 'elements': elements}}
+    new.document = {'visual': {'schema': 1, 'elements': [{**elements[1], 'key': '#a'}, {**elements[0], 'key': '#b'}]}}
+    evidence = {key: (folder / (key + '.png')).relative_to(tmp_path).as_posix() for key in ('przed', 'po')}
+    stale = {'description': 'Rzekoma wymiana zdjęcia', 'facts': [{'what': 'Źródło grafiki', 'before': 'a.webp', 'after': 'b.webp', 'url': new.url}], 'basis': 'Stary odczyt'}
+    result = Result('test.pl', 'projekt', 'podstawowy', 'changed', new.url, [Change('visual', 'obraz', stale['description'], None, None, BEFORE, AFTER, new.url, 'podstawowy', details=stale)], observed_at=AFTER, compared_at=BEFORE, data_quality='ok', evidence=evidence)
+    store = SimpleNamespace(read=lambda: {'anchor': {old.key: old.to_dict()}, 'snapshots': {new.key: new.to_dict()}})
+    enrich_visual_results([result], tmp_path, store)
+    assert not result.changes[0].details['facts']
+    assert result.changes[0].details['rotation']
+    assert 'Rzekoma' not in result.changes[0].label
+
+
 def journal_view():
     changes = [Change("changed", "promocje", "Promocja", "Rabat 10%", "Rabat 20%", BEFORE, AFTER, "https://test.pl/dom#promocja", "podstawowy")]
     visual = Change("visual", "obraz", "Zmiana banera", None, "", BEFORE, AFTER, "https://test.pl/dom", "podstawowy", details={"description": "Kolor tła banera", "facts": [{"what": "Kolor tła: baner", "before": "biały", "after": "czerwony", "url": "https://test.pl/dom#hero"}]})
@@ -175,6 +235,20 @@ async def test_cookie_state_class_on_body_does_not_hide_visual_metadata(executab
         visual = await page.evaluate(VISUALS)
         assert any(e["text"] == "Oferta projektów" for e in visual["elements"])
         assert not any(e["text"] == "Zgoda cookies" for e in visual["elements"])
+        await page.close()
+
+
+@pytest.mark.browser
+async def test_visual_metadata_includes_sales_button_appearance(executable):
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('<a id="buy" class="btn" style="display:inline-block;background:#f00;font-size:20px;font-weight:700;border-radius:8px" href="/koszyk">Zamów projekt</a>')
+        visual = await page.evaluate(VISUALS)
+        button = next(e for e in visual['elements'] if e['key'] == '#buy')
+        assert button['label'] == 'Zamów projekt'
+        assert button['background'] == 'rgb(255, 0, 0)'
+        assert button['font_size'] == '20px' and button['font_weight'] == '700'
+        assert button['border_radius'] == '8px'
         await page.close()
 
 

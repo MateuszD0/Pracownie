@@ -111,17 +111,15 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
             details = visual.get("details", {})
             facts = details.get("facts", [])
             if facts:
-                add(
-                    row,
-                    visual,
-                    "obraz",
-                    details.get("description") or "; ".join(f["what"] for f in facts[:3]),
-                    "\n".join(f["what"] + ": " + f["before"] for f in facts),
-                    "\n".join(f["what"] + ": " + f["after"] for f in facts),
-                    facts[0]["url"],
-                    visual["evidence"],
-                    "Zmieniony obraz i odczyt właściwości widocznego elementu",
-                )
+                # One row per concrete property. A long concatenation hid all
+                # but the first image when the dashboard shortened the cell.
+                for fact in facts:
+                    add(
+                        row, visual, "obraz", fact["what"],
+                        fact["before"], fact["after"], fact["url"],
+                        visual["evidence"],
+                        "Różnica zrzutów i porównanie tej samej grafiki lub elementu strony",
+                    )
             else:
                 ocr = details.get("ocr", {})
                 add(

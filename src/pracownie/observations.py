@@ -13,6 +13,7 @@ from .model import Snapshot
 # Existing prices, promotions, extras, controls and their identities did not change.
 LEGACY_SALES = {"72356a749d038e0b", "dba81208d46a4f37"}
 CONTRACT = "sales-v2"
+VISUAL_CONTRACT = "visual-v2"
 
 
 def signature(snapshot: Snapshot, category: str) -> str:
@@ -76,25 +77,55 @@ def location_url(snapshot: Snapshot, section: str, value: str | None) -> str:
     return snapshot.url
 
 
+def style_value(prop: str, value: str) -> str:
+    if prop in {"background", "color"}:
+        channels = re.fullmatch(r"rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)", value)
+        if channels:
+            if channels[4] and float(channels[4]) == 0:
+                return "przezroczysty"
+            if not channels[4] or float(channels[4]) == 1:
+                color = "#" + "".join(f"{int(n):02X}" for n in channels.group(1, 2, 3))
+                name = {"#FFFFFF": "biały", "#000000": "czarny", "#FF0000": "czerwony"}.get(color)
+                return f"{name} ({color})" if name else color
+    if prop == "font_weight":
+        return {"400": "normalny (400)", "700": "pogrubiony (700)"}.get(value, value)
+    return value
+
+
 def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
     old, new = before.document.get("visual", {}), after.document.get("visual", {})
     facts = []
     carousel_assets = []
     for snapshot in (before, after):
         carousel_assets.append({i.get("asset") for i in snapshot.document.get("communication", {}).get("items", []) if i.get("role") == "image" and i.get("asset")})
-    stable_assets = carousel_assets[0] & carousel_assets[1]
+    # A positional CSS selector identifies a slot, not the project displayed in
+    # it. Match an existing image by its actual asset before comparing styles.
+    # This also works with older captures without a carousel inventory.
+    visible_assets = [{e.get("src") for e in doc.get("elements", []) if e.get("src")} for doc in (old, new)]
+    stable_assets = (carousel_assets[0] | visible_assets[0]) & (carousel_assets[1] | visible_assets[1])
     rotation = False
     if old.get("schema") == new.get("schema") == 1:
         first = {e["key"]: e for e in old.get("elements", [])}
         second = {e["key"]: e for e in new.get("elements", [])}
+        compared_assets = set()
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
+            moved_image = False
+            if a.get("src") and a.get("src") != b.get("src"):
+                matches = [e for e in second.values() if e.get("src") == a["src"]]
+                old_matches = [e for e in first.values() if e.get("src") == a["src"]]
+                if len(matches) == len(old_matches) == 1:
+                    b = matches[0]
+                    moved_image = rotation = True
             old_backgrounds = set(re.findall(r'url\(["\']?([^"\')]+)["\']?\)', a.get("background_image", "")))
             new_backgrounds = set(re.findall(r'url\(["\']?([^"\')]+)["\']?\)', b.get("background_image", "")))
             rotating_background = old_backgrounds and new_backgrounds and old_backgrounds != new_backgrounds and old_backgrounds | new_backgrounds <= stable_assets
-            if (a.get("src") != b.get("src") and a.get("src") in stable_assets and b.get("src") in stable_assets) or rotating_background:
+            if (a.get("src") and b.get("src") and a["src"] != b["src"] and (a["src"] in stable_assets or b["src"] in stable_assets)) or rotating_background:
                 rotation = True
                 continue
+            if bool(a.get("src")) != bool(b.get("src")):
+                continue
+            compared_assets.update(e["src"] for e in (a, b) if e.get("src"))
             label = b.get("label") or a.get("label") or "element strony"
             generic = {"", "baner", "treść strony", "nagłówek strony"}
             if a.get("src") and b.get("src") and all(e.get("label", "") not in generic for e in (a, b)) and a["label"] != b["label"]:
@@ -110,26 +141,37 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                 ("background", "Kolor tła"),
                 ("color", "Kolor tekstu"),
                 ("font", "Krój pisma"),
+                ("font_size", "Rozmiar tekstu"),
+                ("font_weight", "Grubość tekstu"),
+                ("border_radius", "Zaokrąglenie elementu"),
             ]:
                 if a.get(prop) != b.get(prop) and a.get(prop) and b.get(prop):
                     facts.append(
                         {
                             "what": description + ": " + label,
-                            "before": a[prop],
-                            "after": b[prop],
+                            "before": style_value(prop, a[prop]),
+                            "after": style_value(prop, b[prop]),
                             "url": b.get("url") or after.url,
                         }
                     )
             if (
-                a.get("rect")
+                not moved_image and a.get("rect")
                 and b.get("rect")
                 and any(abs(x - y) > 8 for x, y in zip(a["rect"], b["rect"], strict=True))
             ):
+                resized = any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in (2, 3))
+                moved = any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in (0, 1))
+                layout_label = "Położenie i rozmiar" if resized and moved else "Rozmiar" if resized else "Przesunięcie"
+                movements = []
+                for i, positive, negative in [(0, "w prawo", "w lewo"), (1, "w dół", "w górę")]:
+                    distance = b["rect"][i] - a["rect"][i]
+                    if abs(distance) > 8:
+                        movements.append(f"{abs(distance)} px {positive if distance > 0 else negative}")
                 facts.append(
                     {
-                        "what": "Układ lub rozmiar: " + label,
-                        "before": str(a["rect"]) + " px (x, y, szerokość, wysokość)",
-                        "after": str(b["rect"]) + " px (x, y, szerokość, wysokość)",
+                        "what": layout_label + ": " + label + (" (" + ", ".join(movements) + ")" if movements else ""),
+                        "before": f'{a["rect"][2]} × {a["rect"][3]} px; położenie: {a["rect"][0]} px od lewej, {a["rect"][1]} px od góry',
+                        "after": f'{b["rect"][2]} × {b["rect"][3]} px; położenie: {b["rect"][0]} px od lewej, {b["rect"][1]} px od góry',
                         "url": b.get("url") or after.url,
                     }
                 )
@@ -142,15 +184,16 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                         "url": b.get("url") or after.url,
                     }
                 )
-        # New/removed large images are concrete observations too.
-        for keys, mapping, removed in [
-            (second.keys() - first.keys(), second, False),
-            (first.keys() - second.keys(), first, True),
+        # Insertions can reuse an old CSS slot and shift all following slots.
+        # Detect missing/new assets independently of those positional keys.
+        for mapping, other_assets, removed in [
+            (second, visible_assets[0], False),
+            (first, visible_assets[1], True),
         ]:
-            for key in sorted(keys):
+            for key in sorted(mapping):
                 item = mapping[key]
-                other = first if not removed else second
-                if item.get("src") and item["src"] not in stable_assets and item["src"] not in {e.get("src") for e in other.values()}:
+                if item.get("src") and item["src"] not in stable_assets | other_assets | compared_assets:
+                    compared_assets.add(item["src"])
                     facts.append(
                         {
                             "what": ("Usunięta" if removed else "Dodana")
@@ -163,8 +206,6 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                     )
     # Prefer the changed visual assets and colors over repeated inherited
     # typography/layout facts, while retaining a bounded inspectable record.
-    if rotation:
-        facts = [f for f in facts if not f["what"].startswith("Układ lub rozmiar:")]
     facts.sort(key=lambda f: not any(word in f["what"].lower() for word in ["grafik", "tła"]))
     bbox = list(difference.bbox or [])
     if bbox:
@@ -181,12 +222,14 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         area = "obszar strony"
         position = "zaznaczony obszar strony"
     return {
+        "measurement": VISUAL_CONTRACT,
         "facts": facts[:20],
         "bbox": bbox,
         "ratio": difference.ratio,
         "position": position,
         "area": area,
-        "description": "; ".join(f["what"] for f in facts[:3]) or "Zmienił się obraz strony: " + area,
+        "description": "; ".join(f["what"] for f in facts[:3]) or ("Inna kolejność lub aktywny slajd istniejących grafik" if rotation else "Różnica zrzutów: " + area + " — przyczyna nieustalona"),
+        "rotation": rotation,
         "basis": "Porównanie obrazu; nie oznacza samo w sobie zmiany ceny ani promocji.",
         "unreliable": any(s.quality not in {"ok", "visual"} or any(re.search(r"niezaładowane|widoczny panel cookies",w,re.I) for w in s.warnings) for s in (before,after)),
     }

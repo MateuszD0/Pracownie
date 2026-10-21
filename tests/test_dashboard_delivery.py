@@ -114,3 +114,22 @@ def test_every_markdown_table_has_matching_header_and_separator_columns():
         for index, line in enumerate(lines):
             if re.fullmatch(r'[| :\-]+', line) and '---' in line:
                 assert len(re.split(r'(?<!\\)\|', line)) == len(re.split(r'(?<!\\)\|', lines[index - 1]))
+
+
+def test_screenshot_only_differences_remain_visible_without_becoming_business_facts():
+    view = management_view()
+    docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day', {'html': 'https://test.pl/report.html'})
+    assert '## Grafika i wygląd' in docs['DASHBOARD.md']
+    assert 'różnice obrazu bez jednoznacznego opisu: **1 pracowni**' in docs['DASHBOARD.md']
+    assert 'Różnica zrzutów; przyczyna niepotwierdzona' in docs['DASHBOARD.md']
+    company = docs['dashboard/testpl.md']
+    assert company.count('### Grafika i wygląd — różnica do obejrzenia') == 2
+    assert 'Zrzuty przed / po' in company
+    assert 'Zmienił się obraz strony' not in docs['DASHBOARD.md'].split('## Grafika i wygląd')[0]
+    # An older comparison must never masquerade as a daily graphic change.
+    for item in view['journal']:
+        if item['category'] == 'obraz':
+            item['daily'] = False
+    docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
+    assert 'różnice obrazu bez jednoznacznego opisu: **0 pracowni**' in docs['DASHBOARD.md']
+    assert 'różnica do obejrzenia' not in docs['dashboard/testpl.md']

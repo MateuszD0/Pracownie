@@ -28,12 +28,16 @@ def change_row(item: dict) -> str:
     label = item['business_type'] + ' · ' + item['description']
     if item.get('context'):
         label += ' · ' + item['context']
-    return '| ' + ' | '.join([cell(label), cell(brief(item['before'], 240)), cell(brief(item['after'], 240)), link('Otwórz stronę', item['source'])]) + ' |'
+    def value(text):
+        return link('Otwórz grafikę', text) if item['category'] == 'obraz' and re.fullmatch(r'https?://\S+', str(text)) else cell(brief(text, 240))
+
+    return '| ' + ' | '.join([cell(label), value(item['before']), value(item['after']), link('Otwórz stronę', item['source'])]) + ' |'
 
 
 def render_dashboard_documents(view: dict, report_url: str, downloads: dict | None = None, previews: dict | None = None, filename: str = 'DASHBOARD.md') -> dict[str, str]:
     downloads, previews = downloads or {}, previews or {}
     data = build_management(view)
+    visual_reviews = [item for item in view['journal'] if item['daily'] and item['category'] == 'obraz' and not item.get('specific')]
     folder = filename.removesuffix('.md').lower()
     domains = {row['domain']: [item for item in data['items'] if item['domain'] == row['domain']] for row in view['rows']}
     names = {row['domain']: company_anchor(row['domain']) for row in view['rows']}
@@ -49,6 +53,21 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
         lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(item['business_type'] + ' · ' + item['description']), cell(brief(item['before'], 240)), cell(brief(item['after'], 240)), link('Otwórz stronę', item['source'])]) + ' |']
     if not business_highlights(data['items']):
         lines += ['| Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie. | | | | |']
+    visual_facts = [item for item in data['items'] if item['category'] == 'obraz']
+    lines += ['', '## Grafika i wygląd', '', 'Banery i zdjęcia, kolory, typografia oraz układ elementów. Zmiana zrzutu bez ustalonej przyczyny jest sygnałem do obejrzenia, a nie potwierdzeniem przebudowy strony czy nowej kampanii.', '', f"Opisane zmiany: **{len({e['domain'] for e in visual_facts})} pracowni** · różnice obrazu bez jednoznacznego opisu: **{len({e['domain'] for e in visual_reviews})} pracowni**. Jedna pracownia może występować w obu grupach.", '']
+    visual_highlights, seen = [], set()
+    for item in visual_facts + visual_reviews:
+        if item['domain'] not in seen:
+            visual_highlights.append(item)
+            seen.add(item['domain'])
+        if len(visual_highlights) == 6:
+            break
+    if visual_highlights:
+        lines += ['Wybrane przykłady; wszystkie obserwacje są w porównaniach poszczególnych pracowni.', '', '| Pracownia / strona | Co wykryto | Podstawa |', '| --- | --- | --- |']
+        for item in visual_highlights:
+            lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(item['description']), 'Zrzuty i właściwość elementu' if item.get('specific') else 'Różnica zrzutów; przyczyna niepotwierdzona']) + ' |']
+    else:
+        lines += ['Brak wiarygodnych obserwacji zmian graficznych dzień do dnia w zapisanym zakresie.']
     lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- |']
     ordered = sorted(view['rows'], key=lambda row: (not domains[row['domain']], row['domain']))
     documents = {}
@@ -57,7 +76,9 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
         labels = []
         for page in row['pages']:
             changes = [item for item in items if item['page'] == page['page']]
-            labels += [cell(f'{len(changes)} różnych zmian' if changes else page.get('communication', {}).get('label', 'Brak porównania'))]
+            review = any(e['domain'] == row['domain'] and e['page'] == page['page'] for e in visual_reviews)
+            label = f'{len(changes)} różnych zmian' if changes else page.get('communication', {}).get('label', 'Brak porównania')
+            labels += [cell(label + (' · obraz do obejrzenia' if review else ''))]
         lines += [f"| [{cell(row['domain'])}]({folder}/{names[row['domain']]}.md) | " + ' | '.join(labels) + ' |']
         chunks = [items[i:i + 25] for i in range(0, len(items), 25)] or [[]]
         paths = [folder + '/' + names[row['domain']] + (f'-{i + 1}' if i else '') + '.md' for i in range(len(chunks))]
@@ -78,8 +99,13 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                     content += ['**' + cell(page.get('communication', {}).get('label', 'Brak porównania')) + '**', '']
                 if page.get('error_text'):
                     content += ['Powód braku odczytu: ' + cell(page['error_text']), '']
+                if index == 0:
+                    for item in visual_reviews:
+                        if item['domain'] == row['domain'] and item['page'] == page['page']:
+                            content += ['### Grafika i wygląd — różnica do obejrzenia', '', '**' + cell(item['description']) + '**', '', 'Porównanie: ' + when(item['before_at']) + ' → ' + when(item['after_at']) + ' (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.', '', link('Otwórz stronę', item['source']), '']
+                            content += [link('Podgląd zapisanej zmiany', url) for path, url in previews.items() if path in item['evidence'].values()]
             if downloads.get('html'):
-                content += [link('Pobierz pełne porównanie HTML ze zrzutami przed / po', downloads['html']), '']
+                content += [link('Zrzuty przed / po — pobierz pełne porównanie HTML', downloads['html']), '']
             content += ['Strony porównania: ' + navigation, '']
             documents[paths[index]] = '\n'.join(content) + '\n'
     documents[filename] = '\n'.join(lines) + '\n'

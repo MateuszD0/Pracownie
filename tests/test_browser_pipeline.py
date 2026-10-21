@@ -163,7 +163,7 @@ async def test_visual_monitoring_without_recognized_sales_text(sample_site, exec
         assert any(item["before"] == "Cena projektu 4590 zł" and item["after"] == "Cena projektu 4290 zł" for item in view["journal"])
         assert view["counts"]["events"] == 0
     else:
-        assert any("Kolor tła" in item["description"] and "rgb(204, 221, 255)" in item["after"] for item in view["journal"])
+        assert any("Kolor tła" in item["description"] and "#CCDDFF" in item["after"] for item in view["journal"])
 
 
 @pytest.mark.browser

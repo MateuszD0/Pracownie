@@ -183,7 +183,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     if before and visual and visual.changed and snapshot.scenario == "podstawowy":
                         crops = await asyncio.to_thread(visual_evidence, store.root / before.image, capture.screenshot, folder, visual)
                         evidence.update({k: p.relative_to(staging).as_posix() for k, p in crops.items()})
-                        if options.ocr and not details.get("facts") and not details.get("unreliable"):
+                        if options.ocr and not details.get("facts") and not details.get("rotation") and not details.get("unreliable"):
                             ocr = await asyncio.to_thread(visual_text, crops)
                             if ocr:
                                 details["ocr"] = ocr

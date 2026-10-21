@@ -27,6 +27,7 @@ async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, 
         if scripts and (output := os.environ.get('MONITOR_REVIEW_SCREENSHOT')):
             await page.screenshot(path=output, full_page=False)
         assert await page.locator('#business-summary').count() == 1
+        assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('executive')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('communication-coverage')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('#communication-coverage').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('daily')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('[data-business-domain]:visible').count() <= 6

@@ -126,8 +126,8 @@ def render_management(view: dict) -> str:
     for key, label, note in [('communication', 'Pracownie ze zmianą komunikacji', 'potwierdzone komunikaty lub opisane zmiany wyglądu'), ('home_changes', 'Zmiany na stronach głównych', 'pracowni · nagłówki, banery, CTA i treść'), ('project_changes', 'Zmiany na kartach projektów', 'pracowni · opis, argumenty oferty, dodatki i CTA')]:
         value = str(metrics[key]) if measured or metrics[key] else '—'
         content += '<div class="stat"><span>' + label + '</span><strong id="metric-' + key + '">' + value + '</strong><span>' + note + '</span></div>'
-    content += '</div>' + render_business_summary(view)
-    return content
+    content += '</div>'
+    return render_business_summary(view) + content
 
 
 def render_quality_panel(view: dict) -> str:
@@ -164,7 +164,7 @@ def render_business_summary(view: dict) -> str:
     esc = html.escape
     data = build_management(view)
     measured = any(p.get('communication', {}).get('daily') for r in view['rows'] for p in r['pages'])
-    content = '<section id="business-summary" class="box"><h2>Najważniejsze różnice biznesowe dzień do dnia</h2><div id="business-buckets" class="business-buckets">'
+    content = '<section id="business-summary" class="box"><h2>Najważniejsze różnice biznesowe dzień do dnia</h2><p class="small">Porównanie: ' + esc(view['comparison']['before_day']) + ' → ' + esc(view['day']) + '. Strona główna i ten sam projekt każdej pracowni.</p><div id="business-buckets" class="business-buckets">'
     for bucket in data['business_buckets']:
         number = str(bucket['domains']) if measured or bucket['domains'] else '—'
         content += '<div><strong data-business-metric="' + bucket['key'] + '">' + number + '</strong><span>' + bucket['label'] + '</span><small>pracowni ze zmianą</small></div>'

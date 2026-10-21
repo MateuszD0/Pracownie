@@ -635,10 +635,12 @@ def render_csv(view: dict) -> str:
     return "\ufeff" + stream.getvalue()
 
 
-def render_markdown(view: dict, images: dict | None = None) -> str:
+def render_markdown(view: dict, images: dict | None = None, item_limit: int | None = None) -> str:
     c = view["counts"]
     pair = view["comparison"]
     management = build_management(view)
+    main_items = management['items'] if item_limit is None else management['items'][:item_limit]
+    secondary_items = management['secondary'] if item_limit is None else management['secondary'][:item_limit]
 
     def esc(v):
         value = str(v).replace("\\", "\\\\").replace("\n", " ").replace("<", "&lt;").replace(">", "&gt;")
@@ -664,8 +666,9 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
         "",
         "| Pracownia / strona | Rodzaj | Co się zmieniło | Było | Jest | Źródło / dowód |",
         "| --- | --- | --- | --- | --- | --- |",
-        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt') + (' · ' + esc(item['context']) if item.get('context') else ''), esc(item['type']), esc(item['description']), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in management['items']],
+        *["| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page']=='glowna' else 'projekt') + (' · ' + esc(item['context']) if item.get('context') else ''), esc(item['type']), esc(item['description']), esc(str(item['before'])[:240] + ('…' if len(str(item['before']))>240 else '')), esc(str(item['after'])[:240] + ('…' if len(str(item['after']))>240 else '')), '[Strona]('+item['source']+')'+(' · [Zaznaczony fragment]('+images[item['evidence'].get('zmieniony_obszar')]+')' if images and item['evidence'].get('zmieniony_obszar') in images else '')]) + " |" for item in main_items],
         *([] if management['items'] else ["| Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. | | | | | |"]),
+        *(["", f"Pokazano {len(main_items)} z {len(management['items'])} zmian komunikacji. Wszystkie wpisy, teksty przed/po i dowody są w pełnym raporcie HTML i dzienniku CSV."] if len(main_items) < len(management['items']) else []),
         "",
         f"### {assessment(view)['title']}",
         "",
@@ -756,12 +759,14 @@ def render_markdown(view: dict, images: dict | None = None) -> str:
     )
     if management["secondary"]:
         lines.extend(["", "<details><summary>Archiwum różnic obrazu i porównań po luce (" + str(len(management["secondary"])) + ")</summary>", "", "Sama różnica zrzutu nie ustala nowej promocji ani przebudowy strony. Pełne wpisy, daty, źródła i dowody są w raporcie HTML oraz pełnym dzienniku CSV.", "", "| Pracownia / strona | Obserwacja | Daty odczytów | Źródło / dowód |", "| --- | --- | --- | --- |"])
-        for item in management["secondary"]:
+        for item in secondary_items:
             link = "[Strona](" + item["source"] + ")"
             proof = item["evidence"].get("zmieniony_obszar")
             if images and proof in images:
                 link += " · [Zaznaczony fragment](" + images[proof] + ")"
             lines.append("| " + esc(item["domain"] + " · " + item["page"]) + " | " + esc(item["description"]) + " | " + esc(when(item["before_at"], True) + " → " + when(item["after_at"], True)) + " | " + link + " |")
+        if len(secondary_items) < len(management['secondary']):
+            lines.extend(["", f"Pokazano {len(secondary_items)} z {len(management['secondary'])} dodatkowych obserwacji. Pełna lista jest w raporcie HTML i dzienniku CSV."])
         lines.extend(["", "</details>", ""])
     return "\n".join(lines) + "\n"
 

@@ -18,6 +18,37 @@ from .presentation import render_markdown
 from .state import StateStore
 
 OWNER_MARKER = "<!-- pracownie-monitor:v1 -->"
+# GitHub release bodies have a finite character limit. Use a smaller UTF-8 byte
+# budget, including all links/markup, so Polish text and escaped fields also fit.
+RELEASE_BODY_BYTES = 60_000
+RELEASE_PREVIEWS = 6
+
+
+def release_body(view: dict, links: dict[str, str], images: dict, published_at: str) -> str:
+    header = OWNER_MARKER + "\n\n" + " · ".join(f"[{label}]({url})" for label, url in links.items())
+    header += "\n\n**Porównanie HTML — jeden plik** zawiera teksty przed/po i podglądy obrazów; działa bez skryptów i rozpakowywania. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n"
+    footer = f"\n\nPublikacja: {published_at}."
+    summary = render_markdown(view, images, item_limit=20)
+    if len((header + summary + footer).encode()) <= RELEASE_BODY_BYTES:
+        return header + summary + footer
+    notice = "\n\nOpis wydania został skrócony do limitu GitHuba. Pełne porównania wszystkich pracowni są w plikach HTML, TXT i CSV pod linkami powyżej.\n"
+    # Keep whole Markdown rows/links and balance details when a pathological
+    # field or long URL exceeds the budget even with a limited number of events.
+    budget = RELEASE_BODY_BYTES - len((header + footer + notice).encode()) - 256
+    if budget < 0:
+        raise ValueError("Linki raportu przekraczają limit opisu wydania GitHub")
+    kept, used, opened = [], 0, 0
+    for line in summary.splitlines(keepends=True):
+        size = len(line.encode())
+        if used + size > budget:
+            break
+        kept.append(line)
+        used += size
+        opened += line.count("<details>") - line.count("</details>")
+    body = header + "".join(kept) + "\n</details>" * max(opened, 0) + notice + footer
+    if len(body.encode()) > RELEASE_BODY_BYTES:
+        raise ValueError("Przekroczono budżet opisu wydania GitHub")
+    return body
 
 
 class GitHubStore:
@@ -55,7 +86,23 @@ class GitHubStore:
                 time.sleep(min(float(response.headers.get("retry-after", 2 ** attempt)), 10))
                 continue
             if response.status_code >= 400 and response.status_code not in accepted_statuses:
-                raise RuntimeError(f"GitHub HTTP {response.status_code}: {method} {urlsplit(url).path}; sprawdź dostęp i uprawnienia.")
+                try:
+                    error = response.json()
+                except ValueError:
+                    error = {}
+                details = [str(error.get("message", ""))[:300]] if isinstance(error, dict) else []
+                errors = (error.get("errors") or []) if isinstance(error, dict) else []
+                if not isinstance(errors, list):
+                    errors = [errors]
+                for item in errors[:3]:
+                    if isinstance(item, dict):
+                        details.append(" ".join(str(item.get(key, ""))[:300] for key in ["resource", "field", "code", "message"]).strip())
+                    elif isinstance(item, str):
+                        details.append(item[:300])
+                if response.status_code in {401, 403}:
+                    details.append("sprawdź dostęp i uprawnienia")
+                explanation = "; ".join(" ".join(item.split()) for item in details if item)
+                raise RuntimeError(f"GitHub HTTP {response.status_code}: {method} {urlsplit(url).path}" + ("; " + explanation if explanation else ""))
             return response
         raise RuntimeError("Wyczerpano ponowienia GitHub")
 
@@ -239,8 +286,10 @@ class GitHubStore:
         view = json.loads((output / day / "oferty.json").read_text())
         previews = {}
         preview_assets = []
-        proof_candidates = [e for e in view.get("journal", []) if e["category"] == "obraz"] + [e for r in view["rows"] for e in r["events"]][:6]
+        proof_candidates = [e for e in view.get("journal", []) if e["category"] == "obraz"] + [e for r in view["rows"] for e in r["events"]]
         for event in proof_candidates:
+            if len(previews) >= RELEASE_PREVIEWS:
+                break
             path = event["evidence"].get("zmieniony_obszar") or event["evidence"].get("roznice") or event["evidence"].get("po")
             if not path or path in previews:
                 continue
@@ -261,11 +310,19 @@ class GitHubStore:
                       "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], journal_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
                       "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "journal_csv": journal_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}
             # Both report files and state have been verified. Make the daily report visible first.
-            summary = render_markdown(view, previews)
             published_at = now_iso()
+            body = release_body(view, {
+                "Porównanie HTML — jeden plik": standalone_asset['browser_download_url'],
+                "Tabela zmian CSV": journal_asset['browser_download_url'],
+                "Raport TXT": text_asset['browser_download_url'],
+                "Ceny CSV": csv_asset['browser_download_url'],
+                "Raport HTML ze zrzutami": html_asset['browser_download_url'],
+                "Pełne archiwum ZIP": zip_asset['browser_download_url'],
+                "Diagnostyka": diagnostic_asset['browser_download_url'],
+            }, previews, published_at)
             self.request("PATCH", f"{self.prefix}/releases/{report_release['id']}", json={
                 "name": f"Raport {day}", "prerelease": False, "make_latest": "false",
-                "body": OWNER_MARKER + f"\n\n[Porównanie HTML — jeden plik]({standalone_asset['browser_download_url']}) · [Tabela zmian CSV]({journal_asset['browser_download_url']}) · [Raport TXT]({text_asset['browser_download_url']}) · [Ceny CSV]({csv_asset['browser_download_url']}) · [Raport HTML ze zrzutami]({html_asset['browser_download_url']}) · [Pełne archiwum ZIP]({zip_asset['browser_download_url']}) · [Diagnostyka]({diagnostic_asset['browser_download_url']})\n\n**Porównanie HTML — jeden plik** zawiera widoczne od razu teksty przed/po i wbudowane podglądy obrazów; działa bez skryptów i rozpakowywania archiwum. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n" + summary + f"\n\nPublikacja: {published_at}.",
+                "body": body,
             })
             (root / "commit.json").write_bytes(json_bytes(record))
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")

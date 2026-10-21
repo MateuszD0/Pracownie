@@ -57,6 +57,8 @@ Cena projektu jest wybierana z konkretnego pola zakupu lub danych produktu. Cena
 
 Plik RAPORTY.md w repozytorium jest automatycznym spisem dni z odnośnikami do TXT i ZIP. Pilotaż ma osobny indeks. Aktualizacja tego użytecznego spisu tworzy normalną aktywność repozytorium; sam publiczny harmonogram bez aktywności może zostać wyłączony przez GitHuba po 60 dniach. Indeks jest generowany, więc własne notatki zapisuj osobno.
 
+Opis wydania w Releases zawiera skrót: do 20 zmian komunikacji i 20 dodatkowych obserwacji, przegląd pracowni oraz linki do wszystkich plików. Cały opis ma limit 60 000 bajtów UTF-8 i najwyżej sześć podglądów obrazów. Ogranicza to rozmiar strony wydania i zabezpiecza publikację przed limitem GitHuba; pełne HTML, TXT, CSV i archiwum zachowują wszystkie wpisy oraz zrzuty. Skrócenie opisu jest jawnie oznaczone.
+
 Pierwszy poprawny skan tworzy punkt odniesienia. Obrazy „przed” pojawią się dopiero w porównaniach z rzeczywiście zapisanym wcześniejszym stanem. Ponowne uruchomienie tego samego dnia porównuje do stanu sprzed tego dnia. Skany zakończone błędem nie zastępują poprawnej historii.
 
 **Limity i koszt**

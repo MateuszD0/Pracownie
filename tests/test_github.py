@@ -5,6 +5,7 @@ import httpx
 import pytest
 
 from pracownie.github import OWNER_MARKER, GitHubStore
+from pracownie.model import Change, Result
 from pracownie.report import bundle_report, write_outputs
 from pracownie.state import StateStore
 
@@ -69,7 +70,10 @@ class FakeGitHub:
         if "/releases/" in path:
             release_id = int(path.rsplit("/", 1)[-1])
             if method == "PATCH":
-                self.releases[release_id].update(json.loads(request.content))
+                payload = json.loads(request.content)
+                if len(payload.get("body", "")) > 125_000:
+                    return httpx.Response(422, json={"message": "Validation Failed", "errors": [{"resource": "Release", "field": "body", "code": "too_long", "message": "body is too long (maximum is 125000 characters)"}]})
+                self.releases[release_id].update(payload)
                 return httpx.Response(200, json=self.releases[release_id])
             if method == "DELETE":
                 del self.releases[release_id]
@@ -270,3 +274,77 @@ def test_only_get_is_retried_after_a_transport_failure(monkeypatch):
     with pytest.raises(httpx.ConnectError):
         remote.request("POST", remote.prefix)
     assert calls == ["GET", "GET", "GET", "POST"]
+
+
+def test_large_daily_report_publishes_bounded_summary_and_only_six_unique_previews(tmp_path):
+    from PIL import Image
+
+    from pracownie.github import RELEASE_BODY_BYTES
+    from pracownie.presentation import render_markdown
+
+    fake = FakeGitHub()
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(fake.request)))
+    store = StateStore(tmp_path / "local")
+    output = tmp_path / "reports"
+    day, run_id = "2026-10-21", "2026-10-21T051700-a"
+    prepare(store, output, day, run_id)
+    results, domains = [], []
+    for index in range(65):
+        domain = f"studio{index}.pl"
+        domains.append(domain)
+        proof = f"{day}/{domain}/po.png"
+        path = output / proof
+        path.parent.mkdir(parents=True, exist_ok=True)
+        Image.new("RGB", (10, 10), "white").save(path)
+        before, after = day.replace("21", "20") + "T05:20:00+00:00", day + "T05:20:00+00:00"
+        changes = [Change("changed", "komunikacja", "Baner", f"{n} Stara oferta. " + "Żółć i źródło " * 30, f"{n} Nowa oferta. " + "Bezpłatne dodatki " * 30, before, after, "https://" + domain, "podstawowy") for n in range(16)]
+        # More than six distinct visual events precede the ordinary sales events.
+        changes.append(Change("visual", "obraz", "Obraz", "Stara grafika", "Nowa grafika", before, after, "https://" + domain, "podstawowy"))
+        results.append(Result(domain, "glowna", "podstawowy", "changed", "https://" + domain, changes, observed_at=after, compared_at=before, data_quality="ok", evidence={"po": proof}))
+    write_outputs(output, day, results, {"run_id": run_id, "started_at": after, "finished_at": after, "elapsed_seconds": 60}, {}, domains)
+    view = json.loads((output / day / "oferty.json").read_text())
+    original = render_markdown(view)
+    assert len(original) > 125_000  # The exact failure mode of scan #35.
+    archive = output / "daily.zip"
+    bundle_report(output, day, archive)
+    remote.publish(store, output, day, archive, run_id)
+    record = remote.published_report(day)
+    assert record and record["run_id"] == run_id
+    body = remote.release(f"monitor-report-{day}")["body"]
+    assert len(body.encode()) <= RELEASE_BODY_BYTES
+    assert "Pokazano 20 z 1040 zmian komunikacji" in body
+    assert "Tabela zmian CSV" in body and "Porównanie HTML — jeden plik" in body
+    assert all(domain in body for domain in domains)
+    # Only the release landing page is shortened; files retain every event.
+    assert (output / day / "podsumowanie.md").read_text() == original
+    assert len(view["journal"]) == 65 * 17
+    assert len([a for a in fake.assets.values() if "-dowod-" in a["name"]]) == 6
+
+
+def test_release_byte_budget_keeps_full_links_rows_and_balanced_disclosures(monkeypatch):
+    from pracownie.github import RELEASE_BODY_BYTES, release_body
+
+    # Deliberately exceed the byte budget with a single escaped/unicode field.
+    source = "Nagłówek\n<details><summary>Rozwiń</summary>\n" + "| " + "Żółć" * 60_000 + " |\n</details>\n"
+    monkeypatch.setattr("pracownie.github.render_markdown", lambda *args, **kwargs: source)
+    body = release_body({}, {"Pełny raport": "https://example.test/report.html"}, {}, "2026-10-21T05:00:00+00:00")
+    assert len(body.encode()) <= RELEASE_BODY_BYTES
+    assert "[Pełny raport](https://example.test/report.html)" in body
+    assert "Opis wydania został skrócony" in body
+    assert body.count("<details>") == body.count("</details>") == 1
+    assert "| Ż" not in body  # Never cut an individual row/link in half.
+
+
+def test_github_validation_error_reports_body_limit_instead_of_permission_hint():
+    requests = []
+
+    def respond(request):
+        requests.append(request.method)
+        return httpx.Response(422, json={"message": "Validation Failed", "errors": [{"resource": "Release", "field": "body", "code": "too_long", "message": "body is too long (maximum is 125000 characters)"}]})
+
+    remote = GitHubStore("test/monitor", "not-a-real-token", client=httpx.Client(transport=httpx.MockTransport(respond)))
+    with pytest.raises(RuntimeError) as failure:
+        remote.request("PATCH", remote.prefix + "/releases/1", json={"body": "data"})
+    message = str(failure.value)
+    assert "HTTP 422" in message and "Release body too_long" in message and "125000" in message
+    assert "uprawnienia" not in message and requests == ["PATCH"]

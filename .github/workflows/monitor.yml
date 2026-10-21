@@ -6,6 +6,7 @@ on:
     types: [completed]
     branches: [main]
   schedule:
+    # Missed runs can be recovered by a tested deployment marked [scan].
     - cron: '17 6 * * *'
       timezone: Europe/Warsaw
   workflow_dispatch:

@@ -8,9 +8,9 @@
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-Różnice tej pracowni: **44**. Strona **1/2** · pokazano **25** wpisów.
+Różnice tej pracowni: **63**. Strona **1/3** · pokazano **25** wpisów.
 
-Strony porównania: **1** · [2](e-domypl-2.md)
+Strony porównania: **1** · [2](e-domypl-2.md) · [3](e-domypl-3.md)
 
 Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
 
@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Wentylacja mechaniczna + DGP (+649,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Odkurzacz centralny (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
-Strony porównania: **1** · [2](e-domypl-2.md)
+Strony porównania: **1** · [2](e-domypl-2.md) · [3](e-domypl-3.md)
 

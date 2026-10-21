@@ -22,6 +22,14 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 20.10.2026 21:56 → 21.10.2026 09:37 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://planujdom.pl/)
+
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
@@ -30,9 +38,9 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Źródło grafiki: treść strony | Źródło grafiki: treść strony: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQ5IiBoZWlnaHQ9Ijg1MiIgdmlld0JveD0iMCAwIDEzNDkgODUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ0cmFuc3BhcmV… | Źródło grafiki: treść strony: https://planujdom.pl/wp-content/uploads/2025/07/d.72-parter.jpg | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#rzuty) |
+| Zmiany wyglądu · Usunięta grafika: treść strony | data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQ5IiBoZWlnaHQ9Ijg1MiIgdmlld0JveD0iMCAwIDEzNDkgODUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ0cmFuc3BhcmVudCIvPjwvc3ZnPg== | brak | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

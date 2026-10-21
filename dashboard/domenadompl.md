@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Domena 169 A1](https://domenadom.pl/p/domena-169-a1-i532)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **2**. Strona **1/1** · pokazano **2** wpisów.
 
 Strony porównania: **1**
 
@@ -22,7 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Opis grafiki; Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5 | Opis grafiki: eccbc87e4b5ce2fe28308fd9f2a7baf3 Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5: https://domenadom.pl/userfiles/ads/1760688923.jpg | Opis grafiki: e4da3b7fbbce2345d7772b0674a318d5 Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5: https://domenadom.pl/userfiles/ads/1706010178.jpg | [Otwórz stronę](https://domenadom.pl/) |
+| Zmiany wyglądu · Opis grafiki | eccbc87e4b5ce2fe28308fd9f2a7baf3 | e4da3b7fbbce2345d7772b0674a318d5 | [Otwórz stronę](https://domenadom.pl/) |
+| Zmiany wyglądu · Źródło grafiki: e4da3b7fbbce2345d7772b0674a318d5 | [Otwórz grafikę](https://domenadom.pl/userfiles/ads/1760688923.jpg) | [Otwórz grafikę](https://domenadom.pl/userfiles/ads/1706010178.jpg) | [Otwórz stronę](https://domenadom.pl/) |
 
 ## Karta projektu
 
@@ -32,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [DOM MOD 1](https://myhome.eco/produkt/dom-mod-1/)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **2**. Strona **1/1** · pokazano **2** wpisów.
 
 Strony porównania: **1**
 
@@ -22,7 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Dodana grafika: my home; Układ lub rozmiar: treść strony | Dodana grafika: my home: brak Układ lub rozmiar: treść strony: \[449, 322, 345, 258\] px (x, y, szerokość, wysokość) | Dodana grafika: my home: https://milwicz-architekci.cfolks.pl/wp-content/uploads/2021/07/my-home-2.png Układ lub rozmiar: treść strony: \[449, 277, 345, 258\] px (x, y, szerokość, wysokość) | [Otwórz stronę](https://myhome.eco/#text) |
+| Zmiany wyglądu · Przesunięcie: treść strony (45 px w górę) | 345 × 258 px; położenie: 449 px od lewej, 322 px od góry | 345 × 258 px; położenie: 449 px od lewej, 277 px od góry | [Otwórz stronę](https://myhome.eco/#fws_6ad8630a68ef6) |
+| Zmiany wyglądu · Dodana grafika: my home | brak | [Otwórz grafikę](https://milwicz-architekci.cfolks.pl/wp-content/uploads/2021/07/my-home-2.png) | [Otwórz stronę](https://myhome.eco/#text) |
 
 ## Karta projektu
 
@@ -32,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

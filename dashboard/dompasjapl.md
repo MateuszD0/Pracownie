@@ -24,6 +24,14 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Zobacz teraz | [Otwórz stronę](https://dompasja.pl/#example1) |
 
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 20.10.2026 21:55 → 21.10.2026 09:35 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://dompasja.pl/)
+
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
@@ -45,7 +53,15 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Hasło | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Adres e-mail | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 20.10.2026 21:55 → 21.10.2026 09:35 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://dompasja.pl/dompasja-61b.html)
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

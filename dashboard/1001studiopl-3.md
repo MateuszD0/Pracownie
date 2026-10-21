@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-Różnice tej pracowni: **82**. Strona **3/4** · pokazano **25** wpisów.
+Różnice tej pracowni: **90**. Strona **3/4** · pokazano **25** wpisów.
 
 Strony porównania: [1](1001studiopl.md) · [2](1001studiopl-2.md) · **3** · [4](1001studiopl-4.md)
 
@@ -48,7 +48,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Witek II | Projekt domu uA235 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-2233-300x300.jpeg | https://www.1001studio.pl/wp-content/uploads/2024/05/homekoncept-95-a-l-zdjecie-2-3-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-1.png)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-dowod-1.png)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: [1](1001studiopl.md) · [2](1001studiopl-2.md) · **3** · [4](1001studiopl-4.md)
 

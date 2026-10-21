@@ -34,7 +34,7 @@ Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

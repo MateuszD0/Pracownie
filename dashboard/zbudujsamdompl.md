@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
-Różnice tej pracowni: **4**. Strona **1/1** · pokazano **4** wpisów.
+Różnice tej pracowni: **5**. Strona **1/1** · pokazano **5** wpisów.
 
 Strony porównania: **1**
 
@@ -33,9 +33,10 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Baner · Karta projektu · Czy pakiet jest dla osoby bez doświadczenia budowlanego? | 31 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Komunikacja sprzedażowa · Baner · Karta projektu | 10 osób przegląda ten projekt teraz | 23 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 25 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Zmiany wyglądu · Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów; Układ lub rozmiar: treść strony; Układ lub rozmiar: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/2026/09/budynek-gospodarczy-instrukcja-budowy-pdf-video-lista-materialow-1024x683.webp Układ l… | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png Układ lub rozmiar: treść strony: \[0, 0, 1280, 17725\] p… | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
+| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 17384 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 17725 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| Zmiany wyglądu · Dodana grafika: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | brak | [Otwórz grafikę](https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png) | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

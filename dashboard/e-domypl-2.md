@@ -8,9 +8,9 @@
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-Różnice tej pracowni: **44**. Strona **2/2** · pokazano **19** wpisów.
+Różnice tej pracowni: **63**. Strona **2/3** · pokazano **25** wpisów.
 
-Strony porównania: [1](e-domypl.md) · **2**
+Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md)
 
 Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
 
@@ -40,7 +40,13 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki18,2 m | Min. szer.działki21,8 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 | Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki25,4 m | Min. szer.działki22,7 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.e-domy.pl/cache/images/offer/9/4/3/9/9439\_cm\_958x588\_78\_16c244e39517c1e5.jpg | https://www.e-domy.pl/cache/images/offer/1/1/6/5/9/11659\_cm\_958x588\_78\_c940ec3829dddd36.jpg | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony; Źródło grafiki: treść strony; Źródło grafiki: treść strony | Źródło grafiki: treść strony: https://www.e-domy.pl/cache/images/offer/1/1/3/4/8/11348\_cm\_958x588\_78\_00693ceec3aa42db.jpg Źródło grafiki: treść strony: https://www.e-domy.pl/cache/images/offer/8/6/9/1/8691\_cm\_220x156\_78\_e22c686bc771d587.jp… | Źródło grafiki: treść strony: https://www.e-domy.pl/cache/images/offer/7/8/1/9/7819\_cm\_958x588\_78\_aa85e45da94cb0d7.jpg Źródło grafiki: treść strony: https://www.e-domy.pl/cache/images/offer/7/7/9/9/7799\_cm\_220x156\_78\_1de7d2b90d554be9.jpg Ź… | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Przesunięcie: Część rysunkowa projektu architektoniczno-budowlanego (26 px w górę) | 450 × 20 px; położenie: 302 px od lewej, 3680 px od góry | 450 × 20 px; położenie: 302 px od lewej, 3654 px od góry | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Przesunięcie: Jaki projekt budowlany domu jednorodzinnego wybrać? (26 px w górę) | 450 × 20 px; położenie: 302 px od lewej, 6955 px od góry | 450 × 20 px; położenie: 302 px od lewej, 6929 px od góry | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/3/1/3/1/3131_cm_220x156_78_54fda78aa8a09b4d.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/1/0/9/2/2/10922_cm_220x156_78_4219840f5b401ebe.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Przesunięcie: Projekt architektoniczno-budowlany (26 px w górę) | 450 × 20 px; położenie: 302 px od lewej, 2924 px od góry | 450 × 20 px; położenie: 302 px od lewej, 2898 px od góry | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Przesunięcie: Gotowe projekty domów – zalety (26 px w górę) | 450 × 20 px; położenie: 302 px od lewej, 5480 px od góry | 450 × 20 px; położenie: 302 px od lewej, 5454 px od góry | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Przesunięcie: Opisowa część projektu architektoniczno-budowlanego (26 px w górę) | 450 × 20 px; położenie: 302 px od lewej, 3024 px od góry | 450 × 20 px; położenie: 302 px od lewej, 2998 px od góry | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Zmiany wyglądu · Dodana grafika: treść strony | brak | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/6/1/6/1/6161_cm_220x156_78_5bf73bc6c6e6775d.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 
 ## Karta projektu
 
@@ -50,7 +56,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 Pozostałe strony tego porównania zawierają 23 różnic tej strony; użyj numerów stron powyżej.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
-Strony porównania: [1](e-domypl.md) · **2**
+Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md)
 

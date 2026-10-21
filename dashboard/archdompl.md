@@ -56,7 +56,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Praktyczne i energooszczędne rozwiązania funkcjonalne. | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
 | Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · Zamów projekt | brak | projekty domów bez garażu | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1** · [2](archdompl-2.md) · [3](archdompl-3.md)
 

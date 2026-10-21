@@ -12,7 +12,7 @@ Pełne porównanie komunikacji: **116/130 stron**. Brak odczytu lub częściowa 
 
 ## Najważniejsze różnice biznesowe
 
-Promocje i rabaty: **1** pracowni · Dodatki i pakiety: **3** pracowni · Komunikacja sprzedażowa: **24** pracowni · Warunki oferty: **2** pracowni · Funkcjonalności: **3** pracowni · Zmiany wyglądu: **13** pracowni
+Promocje i rabaty: **1** pracowni · Dodatki i pakiety: **3** pracowni · Komunikacja sprzedażowa: **24** pracowni · Warunki oferty: **2** pracowni · Funkcjonalności: **3** pracowni · Zmiany wyglądu: **12** pracowni
 
 | Pracownia / strona | Co się zmieniło | Było | Jest | Źródło |
 | --- | --- | --- | --- | --- |
@@ -23,49 +23,66 @@ Promocje i rabaty: **1** pracowni · Dodatki i pakiety: **3** pracowni · Komuni
 | [galeriadomow.pl](dashboard/galeriadomowpl.md) · stały projekt | Warunki oferty · Treść | wysyłka już jutro koszty dostawy: 0,00 zł | wysyłka już dzisiaj koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
 | [1001studio.pl](dashboard/1001studiopl.md) · główna | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów | Projekt domu Witek II · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_iinqmd00f1csif\_Zoom-300x300.jpg | Projekt domu uA299 · https://www.1001studio.pl/wp-content/uploads/2024/09/31719-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 
+## Grafika i wygląd
+
+Banery i zdjęcia, kolory, typografia oraz układ elementów. Zmiana zrzutu bez ustalonej przyczyny jest sygnałem do obejrzenia, a nie potwierdzeniem przebudowy strony czy nowej kampanii.
+
+Opisane zmiany: **12 pracowni** · różnice obrazu bez jednoznacznego opisu: **14 pracowni**. Jedna pracownia może występować w obu grupach.
+
+Wybrane przykłady; wszystkie obserwacje są w porównaniach poszczególnych pracowni.
+
+| Pracownia / strona | Co wykryto | Podstawa |
+| --- | --- | --- |
+| [1001studio.pl](dashboard/1001studiopl.md) · główna | Rozmiar: treść strony | Zrzuty i właściwość elementu |
+| [archetyp.pl](dashboard/archetyppl.md) · główna | Źródło grafiki: treść strony | Zrzuty i właściwość elementu |
+| [archipelag.pl](dashboard/archipelagpl.md) · główna | Opis grafiki | Zrzuty i właściwość elementu |
+| [domenadom.pl](dashboard/domenadompl.md) · główna | Opis grafiki | Zrzuty i właściwość elementu |
+| [e-domy.pl](dashboard/e-domypl.md) · główna | Przesunięcie: Część rysunkowa projektu architektoniczno-budowlanego (26 px w górę) | Zrzuty i właściwość elementu |
+| [galeriadomow.pl](dashboard/galeriadomowpl.md) · główna | Przesunięcie: Projekt domu - Dom przy Bukowej 36 (28 px w dół) | Zrzuty i właściwość elementu |
+
 ## Wszystkie pracownie
 
 Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.
 
 | Pracownia | Strona główna | Stała karta projektu |
 | --- | --- | --- |
-| [1001studio.pl](dashboard/1001studiopl.md) | 82 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md) | Bez zmian w zapisanej komunikacji | 14 różnych zmian |
+| [1001studio.pl](dashboard/1001studiopl.md) | 90 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md) | Bez zmian w zapisanej komunikacji | 14 różnych zmian · obraz do obejrzenia |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | 60 różnych zmian |
-| [archetyp.pl](dashboard/archetyppl.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [archipelag.pl](dashboard/archipelagpl.md) | 1 różnych zmian | 3 różnych zmian |
+| [archetyp.pl](dashboard/archetyppl.md) | 20 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [archipelag.pl](dashboard/archipelagpl.md) | 2 różnych zmian | 3 różnych zmian |
 | [archstodola.pl](dashboard/archstodolapl.md) | Bez zmian w zapisanej komunikacji | 15 różnych zmian |
-| [dobredomy.pl](dashboard/dobredomypl.md) | Bez zmian w zapisanej komunikacji | 449 różnych zmian |
-| [dom-projekt.pl](dashboard/dom-projektpl.md) | 36 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [domenadom.pl](dashboard/domenadompl.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [dompasja.pl](dashboard/dompasjapl.md) | 1 różnych zmian | 12 różnych zmian |
+| [dobredomy.pl](dashboard/dobredomypl.md) | Bez zmian w zapisanej komunikacji | 449 różnych zmian · obraz do obejrzenia |
+| [dom-projekt.pl](dashboard/dom-projektpl.md) | 35 różnych zmian · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
+| [domenadom.pl](dashboard/domenadompl.md) | 2 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [dompasja.pl](dashboard/dompasjapl.md) | 1 różnych zmian · obraz do obejrzenia | 12 różnych zmian · obraz do obejrzenia |
 | [domywstylu.pl](dashboard/domywstylupl.md) | 4 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [e-domy.pl](dashboard/e-domypl.md) | 21 różnych zmian | 23 różnych zmian |
+| [e-domy.pl](dashboard/e-domypl.md) | 40 różnych zmian | 23 różnych zmian |
 | [extradom.pl](dashboard/extradompl.md) | 8 różnych zmian | 6 różnych zmian |
 | [galeriadomow.pl](dashboard/galeriadomowpl.md) | 1 różnych zmian | 1 różnych zmian |
 | [hbstudio.pl](dashboard/hbstudiopl.md) | 6 różnych zmian | Brak odczytu |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | 2 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [kbprojekt.pl](dashboard/kbprojektpl.md) | Bez zmian w zapisanej komunikacji | 1 różnych zmian |
+| [kbprojekt.pl](dashboard/kbprojektpl.md) | Bez zmian w zapisanej komunikacji | 1 różnych zmian · obraz do obejrzenia |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) | Bez zmian w zapisanej komunikacji | 5 różnych zmian |
-| [mtmstyl.com.pl](dashboard/mtmstylcompl.md) | 4 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [myhome.eco](dashboard/myhomeeco.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [planujdom.pl](dashboard/planujdompl.md) | Bez zmian w zapisanej komunikacji | 1 różnych zmian |
-| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | 1 różnych zmian | 1 różnych zmian |
+| [mtmstyl.com.pl](dashboard/mtmstylcompl.md) | 4 różnych zmian | Bez zmian w zapisanej komunikacji · obraz do obejrzenia |
+| [myhome.eco](dashboard/myhomeeco.md) | 2 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [planujdom.pl](dashboard/planujdompl.md) | Bez zmian w zapisanej komunikacji · obraz do obejrzenia | 1 różnych zmian |
+| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md) | 1 różnych zmian · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
+| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | 1 różnych zmian · obraz do obejrzenia | 1 różnych zmian · obraz do obejrzenia |
 | [projektstodola.pl](dashboard/projektstodolapl.md) | Bez zmian w zapisanej komunikacji | 2 różnych zmian |
-| [projektyka.pl](dashboard/projektykapl.md) | 11 różnych zmian | Bez zmian w zapisanej komunikacji |
-| [projektyzwizja.pl](dashboard/projektyzwizjapl.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
+| [projektyka.pl](dashboard/projektykapl.md) | 18 różnych zmian | Bez zmian w zapisanej komunikacji · obraz do obejrzenia |
+| [projektyzwizja.pl](dashboard/projektyzwizjapl.md) | 2 różnych zmian | Bez zmian w zapisanej komunikacji · obraz do obejrzenia |
 | [sej-pro.pl](dashboard/sej-propl.md) | 2 różnych zmian | 1 różnych zmian |
 | [studioatrium.pl](dashboard/studioatriumpl.md) | 8 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [studiokrajobrazy.pl](dashboard/studiokrajobrazypl.md) | Bez zmian w zapisanej komunikacji | 4 różnych zmian |
 | [uarchitekta.pl](dashboard/uarchitektapl.md) | Bez zmian w zapisanej komunikacji | 1 różnych zmian |
-| [zbudujsamdom.pl](dashboard/zbudujsamdompl.md) | Bez zmian w zapisanej komunikacji | 4 różnych zmian |
-| [archand.pl](dashboard/archandpl.md) | Bez zmian w zapisanej komunikacji | Pierwszy zapis · brak porównywalnej bazy |
+| [zbudujsamdom.pl](dashboard/zbudujsamdompl.md) | Bez zmian w zapisanej komunikacji | 5 różnych zmian |
+| [archand.pl](dashboard/archandpl.md) | Bez zmian w zapisanej komunikacji · obraz do obejrzenia | Pierwszy zapis · brak porównywalnej bazy |
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archeton.pl](dashboard/archetonpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archi-projekt.com.pl](dashboard/archi-projektcompl.md) | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu | Brak odczytu |
-| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji · obraz do obejrzenia |
 | [dominanta.pl](dashboard/dominantapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domoweklimaty.pl](dashboard/domoweklimatypl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [dompp.pl](dashboard/dompppl.md) | Brak odczytu | Brak odczytu |
@@ -88,7 +105,7 @@ Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej k
 | [pro-arte.pl](dashboard/pro-artepl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [profesjonalne-projekty-domow.pl](dashboard/profesjonalne-projekty-domowpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [projektydomow.redcart.pl](dashboard/projektydomowredcartpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [projektygebala.com](dashboard/projektygebalacom.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [projektygebala.com](dashboard/projektygebalacom.md) | Bez zmian w zapisanej komunikacji · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [skahus.pl](dashboard/skahuspl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [slonecznedomy.pl](dashboard/slonecznedomypl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |

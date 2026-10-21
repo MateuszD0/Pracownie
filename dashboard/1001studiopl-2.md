@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-Różnice tej pracowni: **82**. Strona **2/4** · pokazano **25** wpisów.
+Różnice tej pracowni: **90**. Strona **2/4** · pokazano **25** wpisów.
 
 Strony porównania: [1](1001studiopl.md) · **2** · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 
@@ -48,7 +48,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Mini 4 G1 MODERN · https://www.1001studio.pl/wp-content/uploads/2026/06/view\_aktrj5v0i5jppn\_Zoom-300x300.jpg | Projekt domu EX 2 soft · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_uhujvm50g20ppi\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Koral · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-koral-wizualizacja-front\_1-300x300.jpg | Projekt domu Kujawiak · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-kujawiak-wizualizacja-front-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-1.png)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-dowod-1.png)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: [1](1001studiopl.md) · **2** · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 

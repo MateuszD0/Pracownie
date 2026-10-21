@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Idealny M3](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **2**. Strona **1/1** · pokazano **2** wpisów.
 
 Strony porównania: **1**
 
@@ -22,7 +22,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Źródło grafiki: treść strony; Źródło grafiki: treść strony; Źródło grafiki: treść strony | Źródło grafiki: treść strony: https://projektyzwizja.pl/instagram/17700/image-thumb\_\_17700\_\_instagram/18070690895460839.14578dd2.webp Źródło grafiki: treść strony: https://projektyzwizja.pl/instagram/17701/image-thumb\_\_17701\_\_instagram/181… | Źródło grafiki: treść strony: https://projektyzwizja.pl/instagram/18022/image-thumb\_\_18022\_\_instagram/17961703907997562.537410c0.webp Źródło grafiki: treść strony: https://projektyzwizja.pl/instagram/17700/image-thumb\_\_17700\_\_instagram/180… | [Otwórz stronę](https://projektyzwizja.pl/) |
+| Zmiany wyglądu · Usunięta grafika: treść strony | [Otwórz grafikę](https://projektyzwizja.pl/instagram/17704/image-thumb__17704__instagram/18438517321106711.22127d79.webp) | brak | [Otwórz stronę](https://projektyzwizja.pl/) |
+| Zmiany wyglądu · Dodana grafika: treść strony | brak | [Otwórz grafikę](https://projektyzwizja.pl/instagram/18022/image-thumb__18022__instagram/17961703907997562.537410c0.webp) | [Otwórz stronę](https://projektyzwizja.pl/) |
 
 ## Karta projektu
 
@@ -32,7 +33,15 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 20.10.2026 21:57 → 21.10.2026 09:38 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: **1**
 

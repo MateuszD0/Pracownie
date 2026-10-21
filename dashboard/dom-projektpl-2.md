@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [gryfice 31 pcr](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html)
 
-Różnice tej pracowni: **36**. Strona **2/2** · pokazano **11** wpisów.
+Różnice tej pracowni: **35**. Strona **2/2** · pokazano **10** wpisów.
 
 Strony porównania: [1](dom-projektpl.md) · **2**
 
@@ -32,7 +32,6 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | hebdów aa 70 dw 91m² | hebdów aa 70 89.64m² | [Otwórz stronę](https://www.dom-projekt.pl/) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | rydzów dw 9 122.73m² | gładyszów dws 79.16m² | [Otwórz stronę](https://www.dom-projekt.pl/) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | zawoja dw 17 68.35m² | polańczyk 5 dw 85.84m² | [Otwórz stronę](https://www.dom-projekt.pl/) |
-| Zmiany wyglądu · Źródło grafiki: treść strony; Źródło grafiki: treść strony; Źródło grafiki: treść strony | Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/velux.jpg Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/hormann.jpg Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/termonium.jpg | Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/hormann.jpg Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/termonium.jpg Źródło grafiki: treść strony: https://www.dom-projekt.pl/partner/velux.jpg | [Otwórz stronę](https://www.dom-projekt.pl/) |
 
 ## Karta projektu
 
@@ -42,7 +41,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t132756.241752-0000-format-bd9ff62b-porownanie.html)
 
 Strony porównania: [1](dom-projektpl.md) · **2**
 

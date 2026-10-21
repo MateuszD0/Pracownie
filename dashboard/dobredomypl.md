@@ -56,7 +56,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · PODOBNE PROJEKTY | Projekt domu Manuela | Projekt domu Lukrecja III | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 | Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Projekt domu Rademenes II | Projekt domu Hermiona II | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-6.png)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1** · [2](dobredomypl-2.md) · [3](dobredomypl-3.md) · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · [6](dobredomypl-6.md) · [7](dobredomypl-7.md) · [8](dobredomypl-8.md) · [9](dobredomypl-9.md) · [10](dobredomypl-10.md) · [11](dobredomypl-11.md) · [12](dobredomypl-12.md) · [13](dobredomypl-13.md) · [14](dobredomypl-14.md) · [15](dobredomypl-15.md) · [16](dobredomypl-16.md) · [17](dobredomypl-17.md) · [18](dobredomypl-18.md)
 

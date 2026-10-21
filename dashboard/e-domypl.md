@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Wentylacja mechaniczna + DGP (+649,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Odkurzacz centralny (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1** · [2](e-domypl-2.md)
 

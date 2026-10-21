@@ -35,7 +35,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 25 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Zmiany wyglądu · Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów; Układ lub rozmiar: treść strony; Układ lub rozmiar: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/2026/09/budynek-gospodarczy-instrukcja-budowy-pdf-video-lista-materialow-1024x683.webp Układ l… | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png Układ lub rozmiar: treść strony: \[0, 0, 1280, 17725\] p… | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1**
 

@@ -45,7 +45,8 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Treść · Karta projektu | 2 dni 2 : 4 : 43 | 1 dni 14 : 24 : 5 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 | Komunikacja sprzedażowa · Treść · Karta projektu · KUP PROJEKT | 2 dni 2 : 0 : 36 | 1 dni 14 : 19 : 47 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-2.png)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1**
 

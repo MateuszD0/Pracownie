@@ -34,7 +34,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Warunki oferty · Treść · Karta projektu | wysyłka już jutro koszty dostawy: 0,00 zł | wysyłka już dzisiaj koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1**
 

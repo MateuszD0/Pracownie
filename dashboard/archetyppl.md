@@ -24,6 +24,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Opis grafiki; Źródło grafiki: Projekt domu Arteo 4; Źródło grafiki: treść strony | Opis grafiki: Projekt domu Driada 2 Źródło grafiki: Projekt domu Arteo 4: https://archetyp.pl/wp-content/uploads/2016/07/driada\_2\_w1.jpg Źródło grafiki: treść strony: https://archetyp.pl/wp-content/uploads/2024/11/zuza\_2\_w2-800x500.jpg Źró… | Opis grafiki: Projekt domu Arteo 4 Źródło grafiki: Projekt domu Arteo 4: https://archetyp.pl/wp-content/uploads/2017/07/arteo\_4\_w1.jpg Źródło grafiki: treść strony: https://archetyp.pl/wp-content/uploads/2020/05/anaka\_w1.jpg Źródło grafiki… | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-4.png)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://archetyp.pl/projekt/lifi/)
@@ -32,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: **1**
 

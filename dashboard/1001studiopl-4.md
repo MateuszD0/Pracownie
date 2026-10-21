@@ -30,6 +30,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu EX 2 soft | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 | Zmiany wyglądu · Układ lub rozmiar: treść strony; Układ lub rozmiar: treść strony; Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU | Układ lub rozmiar: treść strony: \[0, 0, 1280, 5262\] px (x, y, szerokość, wysokość) Układ lub rozmiar: treść strony: \[0, 134, 1280, 4813\] px (x, y, szerokość, wysokość) Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU: \[385, 2787, 780, 32\] px… | Układ lub rozmiar: treść strony: \[0, 0, 1280, 5234\] px (x, y, szerokość, wysokość) Układ lub rozmiar: treść strony: \[0, 134, 1280, 4785\] px (x, y, szerokość, wysokość) Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU: \[385, 2758, 780, 32\] px… | [Otwórz stronę](https://www.1001studio.pl/) |
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-dowod-1.png)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -38,7 +39,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t124508.096287-0000-format-4ee931ff-porownanie.html)
 
 Strony porównania: [1](1001studiopl.md) · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · **4**
 

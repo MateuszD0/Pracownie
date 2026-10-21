@@ -195,6 +195,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu EX 2 soft | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
 | Zmiany wyglądu · Układ lub rozmiar: treść strony; Układ lub rozmiar: treść strony; Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU | Układ lub rozmiar: treść strony: \[0, 0, 1280, 5262\] px (x, y, szerokość, wysokość) Układ lub rozmiar: treść strony: \[0, 134, 1280, 4813\] px (x, y, szerokość, wysokość) Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU: \[385, 2787, 780, 32\] px… | Układ lub rozmiar: treść strony: \[0, 0, 1280, 5234\] px (x, y, szerokość, wysokość) Układ lub rozmiar: treść strony: \[0, 134, 1280, 4785\] px (x, y, szerokość, wysokość) Układ lub rozmiar: PROJEKTY DOMÓW WEDŁUG TYPU: \[385, 2758, 780, 32\] px… | [Otwórz stronę](https://www.1001studio.pl/) |
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-dowod-1.png)
 #### Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -203,7 +204,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -245,7 +246,8 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Treść · Karta projektu | 2 dni 2 : 4 : 43 | 1 dni 14 : 24 : 5 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 | Komunikacja sprzedażowa · Treść · Karta projektu · KUP PROJEKT | 2 dni 2 : 0 : 36 | 1 dni 14 : 19 : 47 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-dowod-2.png)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -333,7 +335,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu · Zamów projekt | brak | Projekt Aksamitka to gotowy projekt domu jednorodzinnego z kategorii : | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
 | Komunikacja sprzedażowa · Usunięto: Treść · Karta projektu · Zamów projekt | Na stanie | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -354,6 +356,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Opis grafiki; Źródło grafiki: Projekt domu Arteo 4; Źródło grafiki: treść strony | Opis grafiki: Projekt domu Driada 2 Źródło grafiki: Projekt domu Arteo 4: https://archetyp.pl/wp-content/uploads/2016/07/driada\_2\_w1.jpg Źródło grafiki: treść strony: https://archetyp.pl/wp-content/uploads/2024/11/zuza\_2\_w2-800x500.jpg Źró… | Opis grafiki: Projekt domu Arteo 4 Źródło grafiki: Projekt domu Arteo 4: https://archetyp.pl/wp-content/uploads/2017/07/arteo\_4\_w1.jpg Źródło grafiki: treść strony: https://archetyp.pl/wp-content/uploads/2020/05/anaka\_w1.jpg Źródło grafiki… | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-dowod-4.png)
 #### Karta projektu
 
 [Otwórz stronę źródłową](https://archetyp.pl/projekt/lifi/)
@@ -362,7 +365,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -383,6 +386,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Źródło grafiki: treść strony; Opis grafiki; Źródło grafiki: TERMO ORGANIKA | Źródło grafiki: treść strony: https://www.archipelag.pl/files/BannerBillboard/7qpcin90ae88ir/02\_SliderFull.jpg Opis grafiki: Fakro od 10.2026 Źródło grafiki: TERMO ORGANIKA: https://www.archipelag.pl/files/Avrt/p41qr5u0o79trp/p41qr5u0o79tr… | Źródło grafiki: treść strony: https://www.archipelag.pl/files/BannerBillboard/7qpcin90ae88ir/01\_SliderFull.jpg Opis grafiki: TERMO ORGANIKA Źródło grafiki: TERMO ORGANIKA: https://www.archipelag.pl/files/Avrt/nof68sd0n6tscb/nof68sd0n6tscb.… | [Otwórz stronę](https://www.archipelag.pl/#slider) |
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-dowod-5.png)
 #### Karta projektu
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
@@ -395,7 +399,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Usunięto: Źródło grafiki w zestawie banerów · Karta projektu | https://www.archipelag.pl/js/bxslider/images/controls.png | brak | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
 | Komunikacja sprzedażowa · Usunięto: Baner · Karta projektu | Next | brak | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -438,7 +442,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Dodano: Nagłówek · Panel klienta | brak | NASZA STODOŁA S pow. użytkowa 89,33 m2 | [Otwórz stronę](https://archstodola.pl/stodola-chalet-p-14.html#SrodekKolumna) |
 | Komunikacja sprzedażowa · Usunięto: Nagłówek · Kontakt | STODOŁA Z WIDOKIEM | brak | [Otwórz stronę](https://archstodola.pl/stodola-chalet-p-14.html) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -915,7 +919,8 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Wezwanie do działania · Karta projektu · DOSTĘPNE WERSJE | Domy tanie w budowie | Projekt domu Anato lII | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 | Komunikacja sprzedażowa · Dodano: Treść · Dodaj do ulubionych | brak | Chcesz otrzymywać powiadomienia o najlepszych ofertach? | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/#ue_push_dialog) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-dowod-6.png)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -979,7 +984,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1008,7 +1013,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1050,7 +1055,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Hasło | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Adres e-mail | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1082,7 +1087,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1155,7 +1160,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Wentylacja mechaniczna + DGP (+649,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | Aneks - Odkurzacz centralny (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1198,7 +1203,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | Komunikacja sprzedażowa · Treść · Karta projektu | 16 sek. | 30 sek. | [Otwórz stronę](https://www.extradom.pl/projekt-domu-tracja-2-WOE1114#hot-news) |
 | Komunikacja sprzedażowa · Treść · Karta projektu | 02 godz. | 38 godz. | [Otwórz stronę](https://www.extradom.pl/projekt-domu-tracja-2-WOE1114#hot-news) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1229,7 +1234,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 | --- | --- | --- | --- |
 | Warunki oferty · Treść · Karta projektu | wysyłka już jutro koszty dostawy: 0,00 zł | wysyłka już dzisiaj koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1265,7 +1270,7 @@ Kliknij nazwę pracowni w tabeli powyżej, a następnie rozwiń jej szczegóły.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1295,7 +1300,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1324,7 +1329,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Treść · Karta projektu · Dodaj do koszyka | Tak niską cenę gwarantujemy do 20 października 2026 | Tak niską cenę gwarantujemy do 31 października 2026 | [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1357,7 +1362,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | Komunikacja sprzedażowa · Usunięto: Treść · Zamów projekt / Nr katalogowy \* A-132 A-139 A-138 A-137 A-136 ABL-136 A-135 A-134 A-133 A-131 A-130 A-129 A-128 A-127 A-126 A-125 A-124 A-123 A-122 A-121 A-120 A-119 A-118 A-117 A-116 A-115 A-114 A-113 A-112 A-111 A-110 A-109 A-108 A-107 A-106 A-105 A-104 A-103 A-102 A-101 A-100 L-99 L-98 L-97 L-96 L-95 L-94 L-93 L-92 L-91 L-90 L-89 L-88 L-87 L-86 L-85 L-84 L-83 L-82 L-81 L-80 L-79 L-78 L-77 L-76 L-75 L-74 L-73 L-72 L-71 L-70 L-69 L-68 L-67 L-66 L-65 L-64 L-63 L-62 L-61 L-60 L-59 L-58 L-57 L-56 L-55 L-54 L-53 L-52 L-51 L-50 L-49 L-48 L-47 L-46 L-44 L-43 L-42 L-41 L-40 L-39 L-38 L-37 L-35 L-34 L-33 L-32 L-31 L-30 L-29 L-28 L-27 L-26 L-25 L-24 L-23 L-22 L-21 L-20 L-19 L-18 L-17 L-16 L-15 L-14 L-13 L-12 L-11 L-10 L-9 L-8 L-7 L-6 L-5 L-4 G-4 L-3 G-3 L-2 G-2 W-2 L-1 W-1 G-1 LEG-1 A-141 A-142 A-143 A-144 A-145 A-146 A-147 A-148 A-140 A-149 A-150 A-154 A-152 A-153 A-151: A-138 | Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników oraz analizować ruch na stronie. Kliknięcie przycisku „Akceptuj wszystkie” oznacza zgodę na wykorzyst… | brak | [Otwórz stronę](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 | Komunikacja sprzedażowa · Usunięto: Treść · Zamów projekt / Nr katalogowy \* A-132 A-139 A-138 A-137 A-136 ABL-136 A-135 A-134 A-133 A-131 A-130 A-129 A-128 A-127 A-126 A-125 A-124 A-123 A-122 A-121 A-120 A-119 A-118 A-117 A-116 A-115 A-114 A-113 A-112 A-111 A-110 A-109 A-108 A-107 A-106 A-105 A-104 A-103 A-102 A-101 A-100 L-99 L-98 L-97 L-96 L-95 L-94 L-93 L-92 L-91 L-90 L-89 L-88 L-87 L-86 L-85 L-84 L-83 L-82 L-81 L-80 L-79 L-78 L-77 L-76 L-75 L-74 L-73 L-72 L-71 L-70 L-69 L-68 L-67 L-66 L-65 L-64 L-63 L-62 L-61 L-60 L-59 L-58 L-57 L-56 L-55 L-54 L-53 L-52 L-51 L-50 L-49 L-48 L-47 L-46 L-44 L-43 L-42 L-41 L-40 L-39 L-38 L-37 L-35 L-34 L-33 L-32 L-31 L-30 L-29 L-28 L-27 L-26 L-25 L-24 L-23 L-22 L-21 L-20 L-19 L-18 L-17 L-16 L-15 L-14 L-13 L-12 L-11 L-10 L-9 L-8 L-7 L-6 L-5 L-4 G-4 L-3 G-3 L-2 G-2 W-2 L-1 W-1 G-1 LEG-1 A-141 A-142 A-143 A-144 A-145 A-146 A-147 A-148 A-140 A-149 A-150 A-154 A-152 A-153 A-151: A-138 | Cenimy prywatność użytkowników | brak | [Otwórz stronę](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1389,7 +1394,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1418,7 +1423,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1447,7 +1452,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Źródło grafiki: treść strony | Źródło grafiki: treść strony: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQ5IiBoZWlnaHQ9Ijg1MiIgdmlld0JveD0iMCAwIDEzNDkgODUyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ0cmFuc3BhcmV… | Źródło grafiki: treść strony: https://planujdom.pl/wp-content/uploads/2025/07/d.72-parter.jpg | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#rzuty) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1476,7 +1481,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1507,7 +1512,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | --- | --- | --- | --- |
 | Funkcjonalności · Dodano: Funkcjonalność · Karta projektu | brak | Open | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1537,7 +1542,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | Komunikacja sprzedażowa · Usunięto: Nagłówek · Wersja projektu: wersja lustrzane odbicie | RZUT WERSJA LUSTRZANE ODBICIE: | brak | [Otwórz stronę](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | Komunikacja sprzedażowa · Dodano: Nagłówek · Wersja projektu: wersja lustrzane odbicie | brak | RZUT WERSJA PODSTAWOWA: | [Otwórz stronę](https://projektstodola.pl/produkt/projekt-dwie-stodoly/#product-20787) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1576,7 +1581,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1605,7 +1610,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1637,7 +1642,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Treść · Karta projektu | 02 dni 03 h 30 min 10 s | 01 dni 14 h 23 min 18 s | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1673,7 +1678,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1705,7 +1710,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Karta projektu | Projekt Domu Dwulokalowego Bliźniaka Do 130m2 Z Garażem. Studio 72 2L - widok 1 · https://studiokrajobrazy.pl/media/projects/0/1342/regular-screen-projekt\_domu\_studio\_72\_2l\_wizualizacja\_6179490558f48.jpg?refresh=1792526276 | Projekt Domu Dwulokalowego Bliźniaka Do 130m2 Z Garażem. Studio 72 2L - widok 1 · https://studiokrajobrazy.pl/media/projects/0/1342/regular-screen-projekt\_domu\_studio\_72\_2l\_wizualizacja\_6179490558f48.jpg?refresh=1792568326 | [Otwórz stronę](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l#preview1) |
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · 8 095zł (wariant z garażem 1-st.) | Projekt Domu Dwulokalowego Bliźniaka Do 130m2 Z Garażem. Studio 72 2L - widok 1 · https://studiokrajobrazy.pl/media/projects/0/1342/regular-screen-projekt\_domu\_studio\_72\_2l\_wizualizacja\_6179490558f48.jpg?refresh=1792526888 | Projekt Domu Dwulokalowego Bliźniaka Do 130m2 Z Garażem. Studio 72 2L - widok 1 · https://studiokrajobrazy.pl/media/projects/0/1342/regular-screen-projekt\_domu\_studio\_72\_2l\_wizualizacja\_6179490558f48.jpg?refresh=1792568954 | [Otwórz stronę](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l#preview1) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1734,7 +1739,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Treść · Karta projektu | 13176 odsłon projektu | 13191 odsłon projektu | [Otwórz stronę](https://www.uarchitekta.pl/projekt/uA441,6969#pd-info) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1766,7 +1771,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 | Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 25 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 | Zmiany wyglądu · Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów; Układ lub rozmiar: treść strony; Układ lub rozmiar: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/2026/09/budynek-gospodarczy-instrukcja-budowy-pdf-video-lista-materialow-1024x683.webp Układ l… | Źródło grafiki: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów: https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png Układ lub rozmiar: treść strony: \[0, 0, 1280, 17725\] p… | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1793,7 +1798,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1820,7 +1825,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1847,7 +1852,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1874,7 +1879,7 @@ Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1905,7 +1910,7 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1932,7 +1937,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1959,7 +1964,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -1986,7 +1991,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2017,7 +2022,7 @@ Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2048,7 +2053,7 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2075,7 +2080,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2102,7 +2107,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2129,7 +2134,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2156,7 +2161,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2183,7 +2188,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2210,7 +2215,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2237,7 +2242,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2268,7 +2273,7 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2295,7 +2300,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2322,7 +2327,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2349,7 +2354,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2376,7 +2381,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2403,7 +2408,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2430,7 +2435,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2457,7 +2462,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2484,7 +2489,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2511,7 +2516,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2538,7 +2543,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2565,7 +2570,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2592,7 +2597,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2619,7 +2624,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2646,7 +2651,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2673,7 +2678,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 
@@ -2700,7 +2705,7 @@ Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t102739.962031-0000-format-41f22f49-porownanie.html)
+[Pobierz pełne porównanie HTML ze zrzutami przed / po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t123207.339364-0000-format-e2efa5f0-porownanie.html)
 
 </details>
 

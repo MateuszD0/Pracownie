@@ -213,7 +213,7 @@ def render_business_proofs(day: str, items: list[dict]) -> str:
             if path:
                 pictures.append('<figure><a href="' + html.escape(path, quote=True) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + html.escape(path, quote=True) + '" alt="' + label + ' — ' + html.escape(item['domain'], quote=True) + '"><figcaption>' + label + '</figcaption></a></figure>')
         if pictures:
-            parts.append('<details class="firm-proof" id="firma-dowod-' + key + '"><summary>Zrzuty: ' + html.escape(brief(item['description'], 70)) + '</summary><div class="proofs">' + ''.join(pictures) + '</div></details>')
+            parts.append('<details class="firm-proof"><summary>Zrzuty: ' + html.escape(brief(item['description'], 70)) + '</summary><div class="proofs" id="firma-dowod-' + key + '">' + ''.join(pictures) + '</div></details>')
     return ''.join(parts)
 
 

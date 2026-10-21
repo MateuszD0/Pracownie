@@ -18,6 +18,9 @@ from pracownie.presentation import render_html, render_markdown, render_text
 @pytest.mark.parametrize("scripts", [False, True])
 async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, scripts):
     view = json.loads(Path(os.environ['MONITOR_REVIEW_VIEW']).read_text()) if os.environ.get('MONITOR_REVIEW_VIEW') else management_view()
+    if not os.environ.get('MONITOR_REVIEW_VIEW'):
+        home = next(e for e in view['journal'] if e['page'] == 'glowna' and e['category'] == 'promocje')
+        home['evidence'] = {'przed': view['day'] + '/before.png', 'po': view['day'] + '/after.png'}
     async with BrowserScanner(executable, settle_ms=0) as scanner:
         context = await scanner.browser.new_context(java_script_enabled=scripts, viewport={'width': 1440, 'height': 1000})
         page = await context.new_page()
@@ -39,6 +42,11 @@ async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, 
             await link.click()
             assert await page.locator(target).is_visible()
             assert await page.locator('.day-domain[open]').count() >= 1
+            proof_link = page.locator(target + ' a[href^="#firma-dowod-"]')
+            if await proof_link.count():
+                await proof_link.click()
+                assert await page.locator('.firm-proof[open]').count() == 1
+                assert await page.locator('.firm-proof[open] img:visible').count() == 2
         await page.set_viewport_size({'width': 390, 'height': 844})
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         if scripts and (output := os.environ.get('MONITOR_REVIEW_SCREENSHOT')):

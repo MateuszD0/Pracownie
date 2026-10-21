@@ -130,6 +130,12 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
 def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> Path:
     directory = staging / day
     directory.mkdir(parents=True, exist_ok=True)
+    from .images import compact_evidence
+    from .readiness import base_readiness
+
+    metadata["image_compression"] = compact_evidence(staging, day, results)
+    metadata["evidence_bytes"] = sum(p.stat().st_size for p in directory.rglob("*") if p.suffix in {".png", ".webp"})
+    metadata["readiness"] = base_readiness(day, [asdict(r) for r in results], domains)
     atomic_write(directory / "zmiany.json", json_bytes({"schema": 1, "metadata": metadata, "results": [asdict(r) for r in results]}))
     atomic_write(directory / "pokrycie.json", json_bytes(coverage(results, domains)))
     atomic_write(directory / "wybrane-projekty.json", json_bytes(selections))
@@ -255,6 +261,8 @@ def resume_data(root: Path, day: str, sites: list[Site], state: dict, repair_dom
         # Preserve earlier observations AND their errors verbatim. They are not
         # relabeled as successful just because another domain is repaired.
         return retained, [r for r in results if r.domain in retained], data["metadata"]
+    if data["metadata"].get("scan_phase") == "base-checkpoint":
+        return set(), [], data["metadata"]
     completed = set()
     for site in sites:
         if is_listing_title(state["selections"].get(site.domain, {}).get("name", "")):

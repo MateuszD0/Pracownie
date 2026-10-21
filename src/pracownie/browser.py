@@ -204,6 +204,10 @@ class Capture:
     controls: list[dict] = field(default_factory=list)
 
 
+def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
+    return hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
+
+
 class BrowserScanner:
     def __init__(self, executable: str | None = None, navigation_timeout: int = 25000, settle_ms: int = 500):
         self.executable = executable or os.environ.get("MONITOR_BROWSER_EXECUTABLE")
@@ -555,7 +559,7 @@ class BrowserScanner:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: zrzut ekranu"
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
-            adapter = hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
+            adapter = adapter_signature(site, scenario, page_kind)
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document["communication"] = communication

@@ -142,6 +142,13 @@ def brief(value, limit=140) -> str:
 def highlight_eligible(item: dict) -> bool:
     """Keep isolated navigation labels out of the executive selection only."""
     texts = [str(item[k]).strip() for k in ('before', 'after') if str(item[k]).strip().casefold() not in {'', 'brak', '—'}]
+    normalized = [re.sub(r'\b(dzisiaj|dziś|jutro|wczoraj)\b', '<dzień>', text.casefold()) for text in texts]
+    if len(normalized) == 2 and normalized[0] == normalized[1]:
+        return False
+    if item['category'] == 'obraz' and item.get('description', '').startswith('Przesunięcie:'):
+        distances = [int(n) for n in re.findall(r'(\d+) px (?:w dół|w górę|w lewo|w prawo)', item['description'])]
+        if distances and max(distances) < 40:
+            return False
     if item['category'] in {'promocje', 'obraz'}:
         return bool(texts)
     if item['category'] in {'dodatki', 'pakiety'} and any(re.search(r'\d|\bgratis\b|w cenie|bezpłatn', text, re.I) for text in texts):

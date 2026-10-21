@@ -87,7 +87,7 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     same_browser = before.renderer.split("|extractor=")[0] == after.renderer.split("|extractor=")[0]
     # State image names are content-addressed and checked on restore. Equality
     # establishes only the captured, possibly masked viewport, never all slides.
-    output["same_visible_image"] = bool(same and same_browser and before.quality in {"ok", "visual"} and after.quality in {"ok", "visual"} and re.fullmatch(r"images/[a-f0-9]{64}\.png", before.image) and before.image == after.image)
+    output["same_visible_image"] = bool(same and same_browser and before.quality in {"ok", "visual"} and after.quality in {"ok", "visual"} and re.fullmatch(r"images/[a-f0-9]{64}\.(?:png|webp)", before.image) and before.image == after.image)
     old_adapter = before.document.get("communication", {}).get("adapter")
     new_adapter = after.document.get("communication", {}).get("adapter")
     same_adapter = bool(old_adapter) and old_adapter == new_adapter

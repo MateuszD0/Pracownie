@@ -33,8 +33,9 @@ def capture_day(value: str | None) -> str:
 
 def build_journal(day: str, rows: list[dict]) -> list[dict]:
     output = []
+    seen = set()
 
-    def add(row, event, category, description, before, after, source, evidence, basis, specific=True):
+    def add(row, event, category, description, before, after, source, evidence, basis, specific=True, element=""):
         # Older last-good captures are useful evidence, but cannot be labelled
         # as a change between yesterday and today.
         before_at, after_at = event.get("before_at"), event.get("after_at")
@@ -47,9 +48,12 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
             return
         identity = hashlib.sha256(
             repr(
-                (row["domain"], event["page"], category, description, before, after, before_at, after_at)
+                (row["domain"], event["page"], category, description, before, after, before_at, after_at, source, element, event.get("scenario"), event.get("variant"), event.get("field_key"))
             ).encode()
         ).hexdigest()[:14]
+        if identity in seen:
+            return
+        seen.add(identity)
         output.append(
             {
                 "id": "zmiana-" + identity,
@@ -118,7 +122,10 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                         row, visual, "obraz", fact["what"],
                         fact["before"], fact["after"], fact["url"],
                         visual["evidence"],
-                        "Różnica zrzutów i porównanie tej samej grafiki lub elementu strony",
+                        "Różnica zrzutów i porównanie tej samej grafiki lub elementu strony"
+                        + (". Zakres opisu grafiki jest ograniczony; pełny obraz w zrzutach." if details.get("scope_complete") is False else "")
+                        + (". Zmiana zakresu pomiaru: porównano tylko wspólne elementy." if details.get("scope_changed") else ""),
+                        element=fact.get("element", ""),
                     )
             else:
                 ocr = details.get("ocr", {})

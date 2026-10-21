@@ -131,7 +131,7 @@ def test_banner_description_compares_actual_labels_when_asset_url_is_reused():
     old.document = {"visual": {"schema": 1, "elements": [element]}}
     new.document = {"visual": {"schema": 1, "elements": [{**element, "label": "Rabat 20%"}]}}
     facts = visual_description(old, new, VisualDiff(True, 0.1, (0, 0, 100, 100)))["facts"]
-    assert facts == [{"what": "Opis grafiki", "before": "Rabat 10%", "after": "Rabat 20%", "url": new.url}]
+    assert facts == [{"what": "Opis grafiki", "before": "Rabat 10%", "after": "Rabat 20%", "url": new.url, "element": element["key"]}]
 
 
 def test_reordered_project_images_are_matched_by_asset_instead_of_css_slot():

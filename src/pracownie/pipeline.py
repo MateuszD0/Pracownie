@@ -15,12 +15,19 @@ from pathlib import Path
 from playwright.async_api import Error as BrowserError
 from playwright.async_api import TimeoutError as BrowserTimeout
 
-from .browser import BrowserScanner, Capture, TransientFetchError, UnusableControl, infer_scenarios
+from .browser import (
+    BrowserScanner,
+    Capture,
+    TransientFetchError,
+    UnusableControl,
+    adapter_signature,
+    infer_scenarios,
+)
 from .communication import measure
 from .compare import compare
 from .extract import is_listing_title, page_identity
 from .images import image_difference, ocr_context, visual_evidence, visual_text
-from .model import Change, Result, Scenario, Site, digest, json_bytes, local_day, now_iso, slug
+from .model import Change, Result, Scenario, Site, Snapshot, digest, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
 from .report import install_outputs, resume_data, write_outputs
@@ -256,12 +263,37 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 if warnings:
                     results.append(Result(site.domain, kind, "pokrycie-interakcji", "partial", url, warnings=list(dict.fromkeys(warnings))))
 
+            def reuse_base(site: Site, kind: str, url: str):
+                if not options.resume:
+                    return None
+                old = next((r for r in previous_results if r.domain == site.domain and r.page == kind
+                            and r.scenario == "podstawowy" and r.url == url and not r.error
+                            and r.data_quality == "ok" and r.observed_at
+                            and local_day(datetime.fromisoformat(r.observed_at)) == day), None)
+                folder = Path(day) / slug(site.domain) / kind / "podstawowy"
+                raw_path = output / folder / "odczyt.json"
+                if not old or not raw_path.is_file():
+                    return None
+                snapshot = Snapshot.from_dict(json.loads(raw_path.read_text()))
+                if (snapshot.observed_at != old.observed_at or not (store.root / snapshot.image).is_file()
+                    or snapshot.renderer.split("|extractor=")[0] != scanner.renderer
+                    or snapshot.document.get("adapter") != adapter_signature(site, Scenario("podstawowy", ""), kind)):
+                    return None
+                if old.offer.get("field_key") in site.unreliable_price_keys:
+                    return None
+                shutil.copytree(output / folder, staging / folder, dirs_exist_ok=True)
+                results.append(copy.deepcopy(old))
+                payload = snapshot.document.get("payload", {})
+                return Capture(snapshot, payload, store.root / snapshot.image, payload.get("controls", []))
+
             async def process_site(site: Site):
                 work = staging / ".work" / site.domain
                 work.mkdir(parents=True, exist_ok=True)
                 try:
-                    home = await capture_retry(site, "glowna", site.home_url, Scenario("podstawowy", "Strona główna"), work / "home.png")
-                    await record(home)
+                    home = reuse_base(site, "glowna", site.home_url)
+                    if home is None:
+                        home = await capture_retry(site, "glowna", site.home_url, Scenario("podstawowy", "Strona główna"), work / "home.png")
+                        await record(home)
                 except Exception as exc:
                     results.append(Result(site.domain, "glowna", "podstawowy", "error", site.home_url, error=str(exc).splitlines()[0][:600]))
                     home = None
@@ -288,12 +320,14 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         results.append(Result(site.domain, "projekt", "wybor", "partial", site.home_url, warnings=selection_warnings))
                 if selection:
                     try:
-                        project = project or await capture_retry(site, "projekt", selection["url"], Scenario("podstawowy", "Wariant podstawowy"), work / "projekt.png")
+                        cached = reuse_base(site, "projekt", selection["url"])
+                        project = project or cached or await capture_retry(site, "projekt", selection["url"], Scenario("podstawowy", "Wariant podstawowy"), work / "projekt.png")
                         # Selection is frozen only after a product page was successfully validated.
                         if site.project_name:
                             selection["name"] = site.project_name
                         state["selections"][site.domain] = selection
-                        await record(project)
+                        if cached is None:
+                            await record(project)
                     except Exception as exc:
                         previous = store.previous(state, f"{site.domain}/projekt/podstawowy")
                         results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600], before_offer=primary_offer(previous, site.unreliable_price_keys), compared_at=previous.observed_at if previous else None))
@@ -339,8 +373,25 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
 
             await asyncio.gather(*(bounded(site) for site in sites if site.domain not in reused))
             metadata["base_reads_finished_at"] = now_iso()
+            # Install a verified base checkpoint before expensive interactions.
+            # A normal exception can publish it; a killed runner leaves an artifact.
+            metadata["retained_same_day_reads"] = preserve_same_day_reads(results, previous_results, state, sites, output, staging, day)
+            checkpoint_metadata = dict(metadata, scan_phase="base-checkpoint", finished_at=now_iso(),
+                                       elapsed_seconds=round(time.monotonic() - started, 3))
+            with tempfile.TemporaryDirectory(dir=output) as checkpoint_dir:
+                checkpoint = Path(checkpoint_dir)
+                if (staging / day).exists():
+                    shutil.copytree(staging / day, checkpoint / day)
+                checkpoint_results = copy.deepcopy(results)
+                for site in sites:
+                    if site.domain in pending:
+                        checkpoint_results.append(Result(site.domain, "zakres", "checkpoint", "partial", site.home_url,
+                            warnings=["Zapisano odczyty podstawowe; interakcje nie zostały jeszcze ukończone."]))
+                write_outputs(checkpoint, day, checkpoint_results, checkpoint_metadata, state["selections"], [s.domain for s in sites])
+                install_outputs(checkpoint, output, day, slug(run_id) + "-base")
+            store.commit(state)
             await asyncio.gather(*(bounded(site, detail=True) for site in sites if site.domain in pending))
-        metadata["retained_same_day_reads"] = preserve_same_day_reads(results, previous_results, state, sites, output, staging, day)
+        metadata["scan_phase"] = "complete"
         results.sort(key=lambda result: (result.domain, result.page, result.scenario))
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})

@@ -30,7 +30,7 @@ def release_body(view: dict, links: dict[str, str], images: dict, published_at: 
     if dashboard_url:
         header += "\n\n[**Otwórz bieżący dashboard — czytaj w przeglądarce**](" + dashboard_url + ")"
     header += "\n\n**Porównanie HTML — jeden plik** zawiera teksty przed/po i podglądy obrazów; działa bez skryptów i rozpakowywania. Pełne zrzuty są w **Raporcie HTML ze zrzutami**.\n\n"
-    footer = f"\n\nPublikacja: {published_at}."
+    footer = f"\n\nRozpoczęcie publikacji: {published_at}."
     summary = render_markdown(view, images, item_limit=20)
     if len((header + summary + footer).encode()) <= RELEASE_BODY_BYTES:
         return header + summary + footer
@@ -297,7 +297,7 @@ class GitHubStore:
             if not path or path in previews:
                 continue
             from .model import safe_path
-            preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}.png", safe_path(output, path))
+            preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}{Path(path).suffix}", safe_path(output, path))
             previews[path] = preview["browser_download_url"]
             preview_assets.append(preview["id"])
         zip_asset = self.upload(report_release, f"{day}-{stamp}.zip", report_archive)
@@ -309,9 +309,16 @@ class GitHubStore:
             state_name = f"state-{stamp}.zip"
             state_asset = self.upload(state_release, state_name, root / "state.zip")
             record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
-                      "committed_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
+                      "publication_started_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
                       "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], journal_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
                       "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "journal_csv": journal_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}
+            from .readiness import base_readiness
+            raw = json.loads((output / day / "zmiany.json").read_text())
+            record["readiness"] = base_readiness(day, raw["results"], [row["domain"] for row in view["rows"]])
+            if raw["metadata"].get("scan_phase") == "base-checkpoint":
+                record["readiness"]["retry_domains"] = sorted({r["domain"] for r in raw["results"] if r["scenario"] == "checkpoint"}
+                    | set(record["readiness"]["retry_domains"]))
+                record["readiness"]["complete"] = False
             # Both report files and state have been verified. Make the daily report visible first.
             published_at = now_iso()
             body = release_body(view, {
@@ -330,6 +337,7 @@ class GitHubStore:
             (root / "commit.json").write_bytes(json_bytes(record))
             dashboard_url = self.update_dashboard(view, report_release["html_url"], {"html": standalone_asset["browser_download_url"]}, previews)
             self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
+            published_at = now_iso()
             # A commit manifest uploaded last is the only pointer used by subsequent runners.
             self._collect_state(state_release)
         keep_reports = set(record["report_assets"])

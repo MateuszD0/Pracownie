@@ -27,8 +27,12 @@ def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
     if local.time() < STARTS[expression]:
         return dict(result, reason="Wywołanie UTC przed polską porą startu; właściwy termin jest jeszcze przed nami.")
     record = remote.published_report(day)
+    if record and "readiness" not in record:
+        return dict(result, run_scan=True, reason="Starszy manifest nie potwierdza świeżych odczytów; sprawdzam brakujący zakres.")
+    if record and record.get("readiness", {}).get("retry_domains"):
+        return dict(result, run_scan=True, repair_domains=record["readiness"]["retry_domains"], reason="Ponawiam brakujące odczyty; zachowuję wyniki pozostałych pracowni.")
     if record:
-        return dict(result, reason="Dzisiejszy raport i jego pliki są już zatwierdzone w GitHub Releases.")
+        return dict(result, reason="Dzisiejszy raport jest zapisany; brak błędów zakwalifikowanych do automatycznego ponowienia. Trwałe blokady pozostają widoczne w raporcie.")
     return dict(result, run_scan=True, reason="Brak zatwierdzonego dzisiejszego raportu. Uruchamiam pełny skan.")
 
 
@@ -43,6 +47,8 @@ def main() -> None:
         if output := os.environ.get("GITHUB_OUTPUT"):
             with Path(output).open("a") as stream:
                 stream.write(f"run_scan={str(result['run_scan']).lower()}\nday={result['day']}\n")
+                if result.get("repair_domains"):
+                    stream.write("repair_domains=" + ",".join(result["repair_domains"]) + "\n")
         if summary := os.environ.get("GITHUB_STEP_SUMMARY"):
             with Path(summary).open("a") as stream:
                 stream.write(f"### Gotowość raportu na 08:00 Europe/Warsaw\n\n{message}\n")

@@ -14,7 +14,7 @@ class Publication:
 
     def published_report(self, day):
         self.calls.append(day)
-        return {"day": day} if self.published else None
+        return {"day": day, "readiness": {"retry_domains": []}} if self.published else None
 
 
 def invocations(day):

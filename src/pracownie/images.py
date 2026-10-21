@@ -164,3 +164,59 @@ def ocr_context(image_path: Path, destination: Path, bbox: tuple | None = None) 
         return text, f"OCR: średnia pewność {confidence:.0f}/100; odczyt wymaga oceny."
     except (OSError, subprocess.TimeoutExpired, ValueError):
         return "", "OCR niedostępne lub przekroczony czas; wymaga oceny."
+
+
+def lossless_image(source: Path) -> tuple[bytes, str]:
+    """Use WebP only when smaller; never resize or introduce lossy pixels."""
+    original = source.read_bytes()
+    with Image.open(source) as image:
+        extension = '.webp' if image.format == 'WEBP' else '.png'
+        if image.format == 'WEBP' or max(image.size) > 16383:
+            return original, extension
+        stream = io.BytesIO()
+        image.save(stream, format='WEBP', lossless=True, method=3, exact=True)
+        compressed = stream.getvalue()
+    return (compressed, '.webp') if len(compressed) < len(original) else (original, extension)
+
+
+def compact_evidence(root: Path, day: str, results: list) -> dict:
+    """Keep page-local paths for safe domain resume; reuse identical local images."""
+    from .model import safe_path
+    from .state import atomic_write
+
+    references = [r.evidence for r in results] + [c.evidence for r in results for c in r.changes]
+    paths = {p for refs in references for p in refs.values()}
+    replacements, originals, saved = {}, 0, 0
+    encoded, local_assets = {}, {}
+    for relative in sorted(paths):
+        path = safe_path(root, relative)
+        if not relative.startswith(day + '/') or path.suffix not in {'.png', '.webp'}:
+            continue
+        from .model import digest
+        fingerprint = digest(path)
+        if fingerprint in encoded:
+            cached = encoded[fingerprint]
+            content, extension = cached.read_bytes(), cached.suffix
+        else:
+            content, extension = lossless_image(path)
+        target = path.with_suffix(extension)
+        originals += path.stat().st_size
+        saved += path.stat().st_size - len(content)
+        if target != path:
+            atomic_write(target, content)
+            path.unlink()
+        encoded[fingerprint] = target
+        import hashlib
+        local_key = (target.parent, hashlib.sha256(content).hexdigest())
+        if local_key in local_assets and local_assets[local_key] != target:
+            saved += target.stat().st_size
+            target.unlink()
+            target = local_assets[local_key]
+            encoded[fingerprint] = target
+        else:
+            local_assets[local_key] = target
+        replacements[relative] = target.relative_to(root).as_posix()
+    for refs in references:
+        for name, relative in refs.items():
+            refs[name] = replacements.get(relative, relative)
+    return {'input_bytes': originals, 'saved_bytes': saved, 'format': 'lossless-webp-or-png'}

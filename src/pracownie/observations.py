@@ -13,7 +13,7 @@ from .model import Snapshot
 # Existing prices, promotions, extras, controls and their identities did not change.
 LEGACY_SALES = {"72356a749d038e0b", "dba81208d46a4f37"}
 CONTRACT = "sales-v2"
-VISUAL_CONTRACT = "visual-v2"
+VISUAL_CONTRACT = "visual-v3"
 
 
 def signature(snapshot: Snapshot, category: str) -> str:
@@ -92,6 +92,10 @@ def style_value(prop: str, value: str) -> str:
     return value
 
 
+def scope_complete(document: dict) -> bool:
+    return not document.get("truncated", len(document.get("elements", [])) >= 100)
+
+
 def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
     old, new = before.document.get("visual", {}), after.document.get("visual", {})
     facts = []
@@ -110,6 +114,7 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         compared_assets = set()
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
+            fact_start = len(facts)
             moved_image = False
             if a.get("src") and a.get("src") != b.get("src"):
                 matches = [e for e in second.values() if e.get("src") == a["src"]]
@@ -155,17 +160,17 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                         }
                     )
             if (
-                not moved_image and a.get("rect")
+                a.get("rect")
                 and b.get("rect")
-                and any(abs(x - y) > 8 for x, y in zip(a["rect"], b["rect"], strict=True))
+                and any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in ((2, 3) if moved_image else (0, 1, 2, 3)))
             ):
                 resized = any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in (2, 3))
-                moved = any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in (0, 1))
+                moved = not moved_image and any(abs(a["rect"][i] - b["rect"][i]) > 8 for i in (0, 1))
                 layout_label = "Położenie i rozmiar" if resized and moved else "Rozmiar" if resized else "Przesunięcie"
                 movements = []
                 for i, positive, negative in [(0, "w prawo", "w lewo"), (1, "w dół", "w górę")]:
                     distance = b["rect"][i] - a["rect"][i]
-                    if abs(distance) > 8:
+                    if not moved_image and abs(distance) > 8:
                         movements.append(f"{abs(distance)} px {positive if distance > 0 else negative}")
                 facts.append(
                     {
@@ -184,6 +189,8 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                         "url": b.get("url") or after.url,
                     }
                 )
+            for fact in facts[fact_start:]:
+                fact["element"] = key
         # Insertions can reuse an old CSS slot and shift all following slots.
         # Detect missing/new assets independently of those positional keys.
         for mapping, other_assets, removed in [
@@ -192,10 +199,12 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         ]:
             for key in sorted(mapping):
                 item = mapping[key]
-                if item.get("src") and item["src"] not in stable_assets | other_assets | compared_assets:
+                if (scope_complete(old) and scope_complete(new) and old.get("scope", "legacy") == new.get("scope", "legacy")
+                    and item.get("src") and item["src"] not in stable_assets | other_assets | compared_assets):
                     compared_assets.add(item["src"])
                     facts.append(
                         {
+                            "element": item["src"],
                             "what": ("Usunięta" if removed else "Dodana")
                             + " grafika: "
                             + item.get("label", ""),
@@ -223,7 +232,10 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
         position = "zaznaczony obszar strony"
     return {
         "measurement": VISUAL_CONTRACT,
-        "facts": facts[:20],
+        "facts": facts,
+        "fact_count": len(facts),
+        "scope_complete": scope_complete(old) and scope_complete(new),
+        "scope_changed": old.get("scope", "legacy") != new.get("scope", "legacy"),
         "bbox": bbox,
         "ratio": difference.ratio,
         "position": position,

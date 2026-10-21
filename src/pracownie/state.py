@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import copy
 import fcntl
+import hashlib
 import json
 import os
 import shutil
@@ -88,10 +89,13 @@ class StateStore:
         return data
 
     def image(self, source: Path) -> str:
-        relative = f"images/{digest(source)}.png"
+        from .images import lossless_image
+
+        content, extension = lossless_image(source)
+        relative = f"images/{hashlib.sha256(content).hexdigest()}{extension}"
         target = safe_path(self.root, relative)
         if not target.exists():
-            atomic_write(target, source.read_bytes())
+            atomic_write(target, content)
         return relative
 
     def commit(self, data: dict) -> None:
@@ -102,8 +106,8 @@ class StateStore:
 
     def collect(self, data: dict) -> None:
         keep = referenced_images(data)
-        for path in (self.root / "images").glob("*.png"):
-            if path.relative_to(self.root).as_posix() not in keep:
+        for path in (self.root / "images").glob("*.*"):
+            if path.suffix in {".png", ".webp"} and path.relative_to(self.root).as_posix() not in keep:
                 path.unlink()
 
     def export(self, destination: Path, data: dict | None = None) -> None:
@@ -139,7 +143,7 @@ class StateStore:
                 raise ValueError("Archiwum nie zawiera stanu")
             for relative in referenced_images(data):
                 source = safe_path(staging, relative)
-                if relative != f"images/{digest(source)}.png":
+                if source.suffix not in {".png", ".webp"} or relative != f"images/{digest(source)}{source.suffix}":
                     raise ValueError("Niepoprawna suma kontrolna obrazu")
                 atomic_write(safe_path(self.root, relative), source.read_bytes())
             self.commit(data)

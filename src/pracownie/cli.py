@@ -141,7 +141,18 @@ def execute(args) -> int:
                         restore_report(incoming, args.output, record["day"], record["run_id"])
                     finally:
                         incoming.unlink(missing_ok=True)
-            outcome = asyncio.run(run_scan(sites, store, args.output, options))
+            try:
+                outcome = asyncio.run(run_scan(sites, store, args.output, options))
+            except Exception:
+                checkpoint_day = args.day or local_day()
+                checkpoint_file = args.output / checkpoint_day / "zmiany.json"
+                if remote and checkpoint_file.is_file():
+                    checkpoint = json.loads(checkpoint_file.read_text())["metadata"]
+                    if checkpoint.get("scan_phase") == "base-checkpoint" and checkpoint["run_id"] != (record or {}).get("run_id"):
+                        archive = args.output / (checkpoint_day + "-checkpoint.zip")
+                        bundle_report(args.output, checkpoint_day, archive)
+                        remote.publish(store, args.output, checkpoint_day, archive, checkpoint["run_id"])
+                raise
             metadata = outcome["metadata"]
             day = metadata["day"]
             archive = args.output / f"{day}.zip"

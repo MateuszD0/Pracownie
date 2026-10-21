@@ -175,6 +175,7 @@ def _event(change, result: Result) -> dict:
         context = ("Karta projektu" if result.page == "projekt" else "Strona główna") + " · " + context
     return {
         "category": change.category,
+        "field_key": change.field_key,
         "label": label,
         "context": context,
         "variant": result.variant,
@@ -354,6 +355,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                                 "before_at": change.before_at or result.compared_at,
                                 "after_at": change.after_at or result.observed_at,
                                 "details": change.details,
+                                "scenario": result.scenario,
                                 "unreliable": change.details.get("unreliable",False) or result.data_quality not in {"ok", "visual"} or any(re.search(r"niezaładowane|widoczny panel cookies", warning, re.I) for warning in result.warnings) or bool(re.search(r"cookies|ciastecz|prywatno|consent",str(change.details.get("ocr",{})),re.I)),
                             }
                         )

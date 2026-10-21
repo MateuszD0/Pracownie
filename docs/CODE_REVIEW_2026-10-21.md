@@ -3,7 +3,62 @@
 Sprawdzona wersja `main`: `7a33a198f7c4b5b5aeac75bc5c4ea4a909f8fa6f`.
 Kod skanera i raportu: commit `455cafd`. Zakres: harmonogram, wznowienia,
 utrwalenie historii, porównania graficzne, publikacja i koszt przetwarzania.
-Poniższe pozycje są ustaleniami review i rekomendacjami do wdrożenia.
+Poniżej zachowano ustalenia pierwotnego review. Naprawy opisane w sekcji
+„Wdrożone poprawki” zastępują wcześniejszy opis zachowania kodu.
+
+## Wdrożone poprawki
+
+- Manifest publikacji zawiera liczbę świeżych stron podstawowych, brakujące
+  strony, trwałe blokady i domeny do ponowienia. Opublikowany raport z HTTP 503
+  nie blokuje próby zapasowej. HTTP 401/403/404/410 i nieustalony projekt pozostają
+  jawnymi brakami, bez automatycznego ponawiania w każdym terminie cron.
+  Starszy manifest bez informacji o jakości wymaga ponownego sprawdzenia.
+- Ponowienie zachowuje poprawne bazowe odczyty tego samego dnia, także gdy
+  druga strona danej pracowni wymaga naprawy. Nie przesuwa daty starego odczytu.
+- Przed interakcjami zapisuje się zweryfikowany checkpoint raportu i stanu.
+  Zwykła awaria dalszego przetwarzania publikuje go z oznaczeniem nieukończonych
+  interakcji. W razie przerwania runnera krok awaryjny próbuje zachować raport
+  i stan jako artefakt Actions na 3 dni; twarde zatrzymanie całej maszyny może
+  uniemożliwić także ten krok. Artefakt awaryjny wymaga ręcznego odzyskania.
+- Dopasowana po adresie grafika nadal ma porównywany rozmiar, nawet jeśli
+  przestawiono ją do innego miejsca. Rotacja nie ukrywa zmiany wymiarów.
+- Kolektor zapisuje zakres, limit, liczbę kwalifikujących się elementów i znacznik
+  ucięcia. Limit wynosi 1000; wszystkie zmierzone fakty pozostają w danych.
+  Niezgodny lub ucięty zakres nie tworzy pozornych dodanych/usuniętych grafik.
+- Wpisy dziennika uwzględniają element, scenariusz, źródło i daty. Dokładne
+  duplikaty są usuwane; grupowanie biznesowe pozostaje osobnym etapem.
+- Gotowość publikacji jest mierzona po zapisaniu dashboardu i manifestu.
+  Stopka wydania nazywa wcześniejszy czas rozpoczęciem publikacji.
+- Drobne przesunięcia poniżej 40 px i sama zamiana „jutro”/„dzisiaj” nie trafiają
+  do wyróżnionych zmian, pozostają w szczegółach.
+- Niezależny workflow sprawdza świeżość odczytów o 07:50 Europe/Warsaw.
+  Brak raportu albo niepełne dane oznaczają widoczny błąd Actions, również przy
+  trwałych blokadach. Nie wysyła dodatkowych wiadomości.
+- Zachowano podwójne sloty UTC dla czasu letniego/zimowego i opóźnionego crona.
+  Udany raport powoduje tani odczyt manifestu zamiast ponownego skanu; przed
+  właściwą godziną zimową slot nie odczytuje historii. Usunięcie zapasowych
+  slotów bez niezawodnego planisty strefowego zmniejszyłoby odporność.
+
+### Rozmiar zrzutów
+
+Nowe obrazy stanu i dowody raportu używają **bezstratnego WebP, jeśli jest
+mniejszy od PNG**. Nie zmieniamy rozdzielczości ani pikseli używanych do pomiaru.
+Bardzo wysokie obrazy, przekraczające limit WebP 16383 px, pozostają PNG.
+Stare PNG nadal są poprawnie odtwarzane i porównywane. Identyczne dowody
+„przed” i „po” w jednym scenariuszu współdzielą plik. Widok HTML ma już mniejsze
+podglądy JPEG; pełne bezstratne dowody pozostają w archiwum źródłowym.
+
+Pomiar na 12 rzeczywistych zrzutach podstawowych z archiwum 20.10, wybranych
+równomiernie według wielkości: **9 553 374 → 6 636 274 B, oszczędność 30,5%**.
+Sprawdzono identyczność pikseli każdego obrazu. Kompresja trwała 0,12–0,60 s
+na obraz w środowisku testowym. Osobna próbka 8 zrzutów dała 34,1% oszczędności.
+Nie jest to obietnica identycznej redukcji całego archiwum: JSON, bardzo długie
+strony i podglądy mają inny udział. Diagnostyka zapisuje rzeczywisty rozmiar
+obrazów po kompresji; historia 180 dni pozostaje zachowana.
+
+Nie przepisywano wszystkich archiwów 180 dni. Bieżący raport zostanie
+przebudowany z oryginalnych odczytów, a nowe skany zapiszą mniejsze obrazy
+stanu. Zmiana formatu nie tworzy nowego odczytu strony ani fikcyjnej daty.
 
 ## Najważniejsze ustalenia
 

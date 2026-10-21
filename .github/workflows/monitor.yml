@@ -98,7 +98,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SCAN_SCOPE: ${{ github.event_name == 'schedule' && 'full' || inputs.scope || 'full' }}
           FORCE_RESCAN: ${{ github.event_name == 'workflow_run' && !steps.deployment.outputs.repair_domains && 'true' || inputs.rescan || 'false' }}
-          REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
+          REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.schedule.outputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
           SCAN_DAY: ${{ steps.schedule.outputs.day }}
         run: |
           scan_args=(--github --scope "$SCAN_SCOPE" --budget-seconds 3600)
@@ -118,10 +118,12 @@ jobs:
         with:
           name: diagnostyka-${{ github.run_id }}
           path: |
-            raporty/**/*.txt
-            raporty/**/pokrycie.json
+            raporty/
+            .monitor/state.json
+            .monitor/images/
           if-no-files-found: ignore
           retention-days: 3
+          include-hidden-files: true
 
       - name: Sprawdź dostępność opcjonalnego adresu WWW
         id: pages

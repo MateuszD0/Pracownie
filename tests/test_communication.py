@@ -63,6 +63,27 @@ def test_architectural_privacy_is_offer_copy_while_consent_is_noise():
     assert changes[0].after == 'Prywatność sypialni oraz wygodny salon'
 
 
+def test_ticking_polish_promotion_timer_is_not_a_campaign_change():
+    before = 'WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: 02 dni02 godz.03 min.11 sek. Zobacz >'
+    after = 'WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: 01 dni15 godz.19 min.23 sek. Zobacz >'
+    old, new = capture(BEFORE, [('hero', 'banner', before)]), capture(AFTER, [('hero', 'banner', after)])
+    status, changes = measure(old, new)
+    assert status['comparable'] and status['status'] == 'unchanged' and not changes
+    assert new.document['communication']['items'][0]['text'] == after
+    new.document['communication']['items'][0]['text'] = after.replace('-15%', '-20%')
+    assert len(measure(old, new)[1]) == 1
+    assert '-20%' in measure(old, new)[1][0].after
+
+
+def test_promotion_absolute_deadline_and_delivery_terms_remain_comparable():
+    before = 'Promocja do 31.10.2026. Dostawa dokumentacji w 3 dni. 02 dni02 godz.03 min.11 sek.'
+    after = 'Promocja do 07.11.2026. Dostawa dokumentacji w 5 dni. 01 dni15 godz.19 min.23 sek.'
+    changes = measure(capture(BEFORE, [('hero', 'banner', before)]), capture(AFTER, [('hero', 'banner', after)]))[1]
+    assert len(changes) == 1
+    assert '31.10.2026' in changes[0].before and '07.11.2026' in changes[0].after
+    assert 'w 3 dni' in changes[0].before and 'w 5 dni' in changes[0].after
+
+
 @pytest.mark.parametrize('problem', ['partial', 'different-url', 'different-copy-rules', 'truncated', 'wrong-time'])
 def test_incompatible_or_incomplete_captures_never_claim_campaign_changes(problem):
     old = capture(BEFORE, [('hero', 'heading', 'Rabat 10%')])

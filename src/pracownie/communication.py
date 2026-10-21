@@ -16,10 +16,14 @@ from .model import Change, Snapshot
 CONTRACT = "communication-v1"
 NOISE = re.compile(r"cookies|ciastecz|polity[kc].{0,12}prywatno|ustawienia prywatno|privacy policy|privacy settings|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
 ROLES = {"heading": "Nagłówek", "banner": "Baner", "cta": "Wezwanie do działania", "text": "Treść", "image": "Źródło grafiki w zestawie banerów"}
+COUNTDOWN = re.compile(r"(?:\d+\s*(?:dni|dzień|days?)\s*)?\d+\s*godz\.?\s*\d+\s*min\.?\s*\d+\s*sek\.?", re.I)
 
 
 def clean(value: str, patterns: list[str] | None = None) -> str:
     value = normalize(value, patterns)
+    # DOM text often joins cells as "02 dni01 godz.53 min.14 sek.". Mask only
+    # the ticking duration, keeping discounts, copy and absolute end dates.
+    value = COUNTDOWN.sub("[licznik]", value)
     if MONEY.fullmatch(money_text(value)):
         return ""
     if NOISE.search(value) or not re.search(r"[a-ząćęłńóśźż]{3}", value, re.I):

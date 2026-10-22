@@ -199,3 +199,5 @@ Testy obejmują prawdziwą przeglądarkę na lokalnej stronie, ceny, gratisy, za
 Po uruchomieniu produkcyjnym potrzebna jest obserwacja 2–3 rzeczywistych dni, aby ocenić fałszywe alarmy i terminowość. Wyników tej obserwacji nie zastępują testy syntetyczne.
 
 Zapis podstawowych stron tworzy checkpoint przed interakcjami. Zwykła awaria dalszego przetwarzania pozwala opublikować wynik częściowy; awaryjny artefakt Actions z raportem i stanem jest przechowywany 3 dni. Szczegóły napraw i pomiar kompresji: [review](docs/CODE_REVIEW_2026-10-21.md).
+
+Codzienny e-mail z podsumowaniem i linkami wymaga konfiguracji dwóch sekretów Gmail. Instrukcja: [wysyłka e-mail](docs/EMAIL.md). Bez konfiguracji raport pozostaje dostępny w dashboardzie; system nie zgłasza wysłania wiadomości.

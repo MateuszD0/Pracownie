@@ -85,3 +85,19 @@ def test_opt_in_baseline_scan_is_test_gated_and_pages_cannot_lock_report_writers
     assert "repair_domains=" in deployment["run"] and "[repair:" in deployment["run"]
     command = next(s for s in scan["steps"] if "REPAIR_DOMAINS" in s.get("env", {}))
     assert "steps.deployment.outputs.repair_domains" in command["env"]["REPAIR_DOMAINS"]
+
+
+def test_email_is_post_publication_and_never_sends_without_private_credentials():
+    config = workflow('email.yml')
+    assert config['on']['workflow_run']['workflows'] == ['Codzienny monitoring pracowni']
+    assert config['on']['workflow_run']['types'] == ['completed']
+    job = config['jobs']['email']
+    assert "conclusion == 'success'" in job['if']
+    assert 'head_repository.full_name == github.repository' in job['if']
+    gate = job['steps'][0]
+    assert 'secrets.REPORT_EMAIL_TO' in gate['env']['REPORT_EMAIL_TO']
+    assert 'secrets.SMTP_PASSWORD' in gate['env']['SMTP_PASSWORD']
+    assert 'configured=false' in gate['run']
+    send = next(step for step in job['steps'] if step.get('name') == 'Wyślij porównanie')
+    assert send['if'] == "steps.config.outputs.configured == 'true'"
+    assert config['concurrency']['cancel-in-progress'] == 'false'

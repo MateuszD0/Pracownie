@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [hbstudio.pl](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -20,7 +18,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:36 → 22.10.2026 11:22 (czas polski).
 
-**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 <details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
@@ -45,7 +43,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

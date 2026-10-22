@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [Rodrigo SZ](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html)
 
-Różnice tej pracowni: **6**. Strona **1/1** · pokazano **6** wpisów.
+**6 zmian w zapisanym zakresie.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -22,16 +20,24 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Przesunięcie: WSPIERAMY POTRZEBUJĄCYCH (1761 px w dół) | 1240 × 43 px; położenie: 20 px od lewej, 16218 px od góry | 1240 × 43 px; położenie: 20 px od lewej, 17979 px od góry | [Otwórz stronę](https://www.studioatrium.pl/) |
-| Zmiany wyglądu · Przesunięcie: STUDIO ATRIUM - MARKA Z POMYSŁAMI (1631 px w dół) | 1240 × 43 px; położenie: 20 px od lewej, 15191 px od góry | 1240 × 43 px; położenie: 20 px od lewej, 16822 px od góry | [Otwórz stronę](https://www.studioatrium.pl/) |
-| Zmiany wyglądu · Przesunięcie: treść strony (921 px w dół) | 426 × 284 px; położenie: 426 px od lewej, 14234 px od góry | 426 × 284 px; położenie: 426 px od lewej, 15155 px od góry | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
-| Zmiany wyglądu · Przesunięcie: treść strony (780 px w dół) | 426 × 284 px; położenie: 0 px od lewej, 13949 px od góry | 426 × 284 px; położenie: 0 px od lewej, 14729 px od góry | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
-| Zmiany wyglądu · Przesunięcie: treść strony (1063 px w dół) | 426 × 284 px; położenie: 852 px od lewej, 14518 px od góry | 426 × 284 px; położenie: 852 px od lewej, 15581 px od góry | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
-| Zmiany wyglądu · Przesunięcie: JAK KUPOWAĆ? (1767 px w dół) | 1240 × 25 px; położenie: 20 px od lewej, 16723 px od góry | 1240 × 25 px; położenie: 20 px od lewej, 18490 px od góry | [Otwórz stronę](https://www.studioatrium.pl/) |
+| Zmiany wyglądu · Układ · WSPIERAMY POTRZEBUJĄCYCH | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1761 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
+| Zmiany wyglądu · Układ · STUDIO ATRIUM - MARKA Z POMYSŁAMI | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1631 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>921 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>780 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1063 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
+| Zmiany wyglądu · Układ · JAK KUPOWAĆ? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1767 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-10-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-10-po.jpg)
-**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-10-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-9-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.10.2026 09:38 | Po · 22.10.2026 08:39 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-9-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 <details><summary>Obserwacje pomocnicze (13) — nie są ustaloną zmianą oferty</summary>
 
@@ -57,7 +63,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

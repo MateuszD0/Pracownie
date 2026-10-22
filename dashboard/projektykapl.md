@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [Ka288](https://projektyka.pl/projekty/ka288)
 
-Różnice tej pracowni: **9**. Strona **1/1** · pokazano **9** wpisów.
+**9 zmian w zapisanym zakresie.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -22,19 +20,27 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Usunięto: Nagłówek · Strona główna | W PROMOCJI | brak | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | w atrakcyjnych cenach | [Otwórz stronę](https://projektyka.pl/#home) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | NOWOŚCI PROJEKTOWE | brak | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Strona główna | brak | PORADNIK PROJEKTYKI | [Otwórz stronę](https://projektyka.pl/#home) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | PARTEROWE | brak | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | AUTORSKIE PROJEKTY | brak | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | SZKIELET DREWNIANY | brak | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Strona główna | brak | GARAŻE | [Otwórz stronę](https://projektyka.pl/#home) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | WSZYSTKIE | brak | [Otwórz stronę](https://projektyka.pl/) |
+| Promocje i rabaty · Nagłówek | <strong>W PROMOCJI</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>w atrakcyjnych cenach</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>NOWOŚCI PROJEKTOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>PORADNIK PROJEKTYKI</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>PARTEROWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>AUTORSKIE PROJEKTY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>SZKIELET DREWNIANY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>GARAŻE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>WSZYSTKIE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-po.jpg)
-**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.10.2026 09:38 | Po · 22.10.2026 08:38 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 <details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
 
@@ -59,8 +65,8 @@ Porównanie: 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://projektyka.pl/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-1-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-1-po.jpg)
+
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://projektyka.pl/projekty/ka288)
@@ -69,7 +75,5 @@ Porównanie: 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski). Różnica zrzu
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

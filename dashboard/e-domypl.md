@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-Różnice tej pracowni: **11**. Strona **1/1** · pokazano **11** wpisów.
+**11 zmian w zapisanym zakresie.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -22,21 +20,29 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Prosty dom o tradycyjnej bryle | brak | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Dom parterowy z 3 sypialniami | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Zwarty dom z pokojem od wjazdu | brak | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Dom nowoczesny dwuspadowy | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki20,3 m | Min. szer.działki21,5 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki21,9 m | Min. szer.działki22,8 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki21,8 m | Min. szer.działki29,6 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Strona główna | brak | ADAPTACJA PROJEKTU | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Podmiejska rezydencja | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Mały dom z widokiem | brak | [Otwórz stronę](https://www.e-domy.pl/) |
-| Zmiany wyglądu · Widoczny nagłówek: ADAPTACJA PROJEKTU | PROJEKT DOMU | ADAPTACJA PROJEKTU | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | <strong>Prosty dom o tradycyjnej bryle</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom parterowy z 3 sypialniami</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | <strong>Zwarty dom z pokojem od wjazdu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom nowoczesny dwuspadowy</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki20</strong>,<strong>3</strong> m | Min. szer.<strong>działki21</strong>,<strong>5</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki21</strong>,<strong>9</strong> m | Min. szer.<strong>działki22</strong>,<strong>8</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki21</strong>,<strong>8</strong> m | Min. szer.<strong>działki29</strong>,<strong>6</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>ADAPTACJA PROJEKTU</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Podmiejska rezydencja</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | <strong>Mały dom z widokiem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Zmiany wyglądu · Widoczny nagłówek: ADAPTACJA PROJEKTU | <strong>PROJEKT</strong> <strong>DOMU</strong> | <strong>ADAPTACJA</strong> <strong>PROJEKTU</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-4-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-4-po.jpg)
-**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-4-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-4-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.10.2026 09:36 | Po · 22.10.2026 08:36 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-4-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 <details><summary>Obserwacje pomocnicze (18) — nie są ustaloną zmianą oferty</summary>
 
@@ -61,7 +67,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
 
-**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 <details><summary>Obserwacje pomocnicze (46) — nie są ustaloną zmianą oferty</summary>
 
@@ -77,7 +83,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

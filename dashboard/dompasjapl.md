@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [Dompasja 61B](https://dompasja.pl/dompasja-61b.html)
 
-Różnice tej pracowni: **3**. Strona **1/1** · pokazano **3** wpisów.
+**3 zmian w zapisanym zakresie.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -22,13 +20,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Wygodny parterowy dom z ciekawym układem wnętrza. | [Otwórz stronę](https://dompasja.pl/#example1) |
-| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | DomPasja 61B | brak | [Otwórz stronę](https://dompasja.pl/) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Madera | [Otwórz stronę](https://dompasja.pl/#example1) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Wygodny parterowy dom z ciekawym układem wnętrza.</strong> | [Otwórz stronę](https://dompasja.pl/#example1) |
+| Komunikacja sprzedażowa · Baner | <strong>DomPasja 61B</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Madera</strong> | [Otwórz stronę](https://dompasja.pl/#example1) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-3-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-3-po.jpg)
-**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-3-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-3-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-3-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-3-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.10.2026 09:35 | Po · 22.10.2026 08:36 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-3-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 <details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
 
@@ -52,7 +58,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:36 (czas polski).
 
-**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 <details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
@@ -67,7 +73,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

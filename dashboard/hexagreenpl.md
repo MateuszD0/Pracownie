@@ -8,11 +8,9 @@
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-Różnice tej pracowni: **7**. Strona **1/1** · pokazano **7** wpisów.
+**3 zmian w zapisanym zakresie.**
 
-Strony porównania: **1**
-
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
@@ -22,29 +20,50 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek · Strona główna | 18+ autorskich projektów domów | 17+ autorskich projektów domów | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Usunięto: Nagłówek · Strona główna | 4 Optymalne ustawienie domu | brak | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek · Strona główna | 139+ realizacji #domyHexaGreen | 133+ realizacji #domyHexaGreen | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Treść · Strona główna · Next slide | Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pasywnych, otrzymało w kolejnych latach: nominację do nagrody Symbol 2022, 4 Buildings Awards 2019 i Ek… | Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pasywnych, otrzymało w kolejnych latach: nominację do nagrody Symbol 2022, | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Treść · Strona główna · Next slide | (z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich późniejsze koszty eksploatacji zaskakująco niewielkie. | które będą standardem w najbliższej przyszłości. Opracowane z najwyższą starannością wg prostych #6 zasad (z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich późniejsze koszty eksploat… | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Widoczny nagłówek: 17+ autorskich projektów domów | 18+ autorskich projektów domów | 17+ autorskich projektów domów | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Widoczny nagłówek: 130+ realizacji #domyHexaGreen | 138+ realizacji #domyHexaGreen | 130+ realizacji #domyHexaGreen | [Otwórz stronę](https://hexagreen.pl/#primary) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>4 Optymalne ustawienie domu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty · Strona główna · Next slide | … w kolejnych latach: nominację do nagrody Symbol 2022,<strong> 4 Buildings Awards 2019 i Eko Strateg 2019 oraz Polskiej Nagrody Inteligentnego Rozwoju 2018 co szczególnie cieszy zespół Hexa Green, że to co robimy z pasji projekt</strong>… | Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pasywnych, otrzymało w kolejnych latach: nominację do nagrody Symbol 2022, | [Otwórz stronę](https://hexagreen.pl/#primary) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty · Strona główna · Next slide | (z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich późniejsze koszty eksploatacji zaskakująco niewielkie. | <strong>które będą standardem w najbliższej przyszłości. Opracowane z najwyższą starannością wg prostych #6 zasad </strong>(z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich później… | [Otwórz stronę](https://hexagreen.pl/#primary) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-5-przed.jpg)
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-5-po.jpg)
-**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-5-po.jpg)
+<details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>
 
-<details><summary>Obserwacje pomocnicze (67) — nie są ustaloną zmianą oferty</summary>
+**Opis i argumenty oferty**
+
+**Było:** Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pasywnych, otrzymało w kolejnych latach: nominację do nagrody Symbol 2022, 4 Buildings Awards 2019 i Eko Strateg 2019 oraz Polskiej Nagrody Inteligentnego Rozwoju 2018 co szczególnie cieszy zespół Hexa Green, że to co robimy z pasji projektowania, zostało docenione.
+
+**Jest:** Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pasywnych, otrzymało w kolejnych latach: nominację do nagrody Symbol 2022,
+
+**Opis i argumenty oferty**
+
+**Było:** (z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich późniejsze koszty eksploatacji zaskakująco niewielkie.
+
+**Jest:** które będą standardem w najbliższej przyszłości. Opracowane z najwyższą starannością wg prostych #6 zasad (z gr. hexa), dzięki którym będą miały ekstremalnie niskie zapotrzebowanie na energię do ogrzewania, a ich późniejsze koszty eksploatacji zaskakująco niewielkie.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-5-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.10.2026 09:36 | Po · 22.10.2026 08:37 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-dowod-5-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (71) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Animowany licznik na stronie; odczyt w trakcie animacji nie potwierdza zmiany liczby projektów ani realizacji.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
 - Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
 - Na podstawie zebranych danych wskazujemy najlepszą orientację budynku, jego układ funkcjonalny oraz rozwiązania zwiększające energooszczędn… → brak
-- brak → 4 Buildings Awards 2019 i Eko Strateg 2019 oraz Polskiej Nagrody Inteligentnego Rozwoju 2018 co szczególnie cieszy zespół Hexa Green, że to…
-- które będą standardem w najbliższej przyszłości. Opracowane z najwyższą starannością wg prostych #6 zasad → brak
+- 18+ autorskich projektów domów → 17+ autorskich projektów domów
+- 139+ realizacji #domyHexaGreen → 133+ realizacji #domyHexaGreen
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -56,7 +75,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:37 (czas polski).
 
-**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 <details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
 
@@ -73,7 +92,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
-
-Strony porównania: **1**
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t201811.610237-0000-format-74f0a85f-porownanie.html)
 

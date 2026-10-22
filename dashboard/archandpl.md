@@ -30,7 +30,7 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.archand.pl/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-3.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-3.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archand.pl/projekty/perfetto-3-modern/)
@@ -39,7 +39,7 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
 
 Strony porównania: **1**
 

@@ -48,7 +48,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Borówka 4 bal (BAL) | Projekt domu Arka (CE) | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu uA271v1 · https://www.1001studio.pl/wp-content/uploads/2022/12/30969-300x300.jpg | Projekt domu uA48 · https://www.1001studio.pl/wp-content/uploads/2020/07/29846-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-1.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-1.webp)
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
@@ -57,7 +57,7 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.1001studio.pl/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-1.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-1.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -66,7 +66,7 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
 
 Strony porównania: **1** · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 

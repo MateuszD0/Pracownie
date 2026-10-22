@@ -48,7 +48,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2022/12/30970-300x300.jpg | https://www.1001studio.pl/wp-content/uploads/2023/08/31393-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 | Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu Wyjątkowy | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-1.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-1.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: [1](1001studiopl.md) · **2** · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 

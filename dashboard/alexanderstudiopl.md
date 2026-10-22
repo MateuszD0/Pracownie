@@ -33,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Treść · Karta projektu | 1 dni 14 : 24 : 5 | 0 dni 15 : 23 : 24 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 | Komunikacja sprzedażowa · Treść · Karta projektu · KUP PROJEKT | 1 dni 14 : 19 : 47 | 0 dni 15 : 18 : 10 | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-2.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-2.webp)
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
@@ -42,8 +42,8 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-2.webp)
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-2.webp)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: **1**
 

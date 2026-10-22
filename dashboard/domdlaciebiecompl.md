@@ -32,7 +32,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Funkcjonalności · Dodano: Funkcjonalność · Zabudowa wolnostojąca szeregowa do szeregówki bliźniacza do zbliźniaczenia: do szeregówki | brak | Zamów bezpłatny katalog | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: **1**
 

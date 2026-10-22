@@ -43,7 +43,7 @@ Porównanie: 21.10.2026 09:37 → 22.10.2026 08:37 (czas polski). Różnica zrzu
 
 [Otwórz stronę](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: **1**
 

@@ -24,7 +24,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Źródło grafiki: Projekty domów - nowości | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_26eqaiu0o8fd3l_List3_PL.jpg) | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_qkahqo20o8hm6i_List3_PL.jpg) | [Otwórz stronę](https://www.archipelag.pl/#category-1rqru7o05mn8ig) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-dowod-5.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-5.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
@@ -33,7 +33,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: **1**
 

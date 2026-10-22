@@ -4,7 +4,7 @@
 
 **2026-10-21 → 2026-10-22** · strona główna i jedna zapamiętana karta projektu każdej pracowni.
 
-Dane z odczytów: **22.10.2026 08:35 – 22.10.2026 09:46**, czas polski.
+Dane z odczytów: **22.10.2026 08:35 – 22.10.2026 10:43**, czas polski.
 
 Pełne porównanie komunikacji: **116/130 stron**. Brak odczytu lub częściowa historia nie oznaczają braku zmian.
 
@@ -12,13 +12,13 @@ Pełne porównanie komunikacji: **116/130 stron**. Brak odczytu lub częściowa 
 
 ## Najważniejsze różnice biznesowe
 
-Promocje i rabaty: **2** pracowni · Dodatki i pakiety: **2** pracowni · Komunikacja sprzedażowa: **23** pracowni · Warunki oferty: **0** pracowni · Funkcjonalności: **6** pracowni · Zmiany wyglądu: **7** pracowni
+Promocje i rabaty: **2** pracowni · Dodatki i pakiety: **2** pracowni · Komunikacja sprzedażowa: **22** pracowni · Warunki oferty: **0** pracowni · Funkcjonalności: **6** pracowni · Zmiany wyglądu: **7** pracowni
 
 | Pracownia / strona | Co się zmieniło | Było | Jest | Źródło |
 | --- | --- | --- | --- | --- |
 | [e-domy.pl](dashboard/e-domypl.md) · stały projekt | Promocje i rabaty · Dodano: Funkcjonalność | brak | P R O M O C J A (klienci indyw.) - Pakiet dodatków za 69zł (+69,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=P%20R%20O%20M%20O%20C%20J%20A%20%28klienci%20indyw.%29%20-%20Pakiet%20dodatk%C3%B3w%20za%2069z%C5%82%20%28%2B69%2C00%20PLN%29) |
 | [projektyka.pl](dashboard/projektykapl.md) · główna | Promocje i rabaty · Usunięto: Nagłówek | W PROMOCJI | brak | [Otwórz stronę](https://projektyka.pl/) |
-| [hbstudio.pl](dashboard/hbstudiopl.md) · główna | Dodatki i pakiety · Treść | Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższym nie dysponujemy adresami zrealizowanych domów. | Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniżej przedstawiamy lis… | [Otwórz stronę](https://hbstudio.pl/#main) |
+| [hbstudio.pl](dashboard/hbstudiopl.md) · główna | Dodatki i pakiety · Treść | Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższym nie dysponujemy adresami zrealizowanych domów. | Istnieje możliwość jednokrotnej wymiany projektu zakupionego w Pracowni Projektowej HB Studio na inny z jej oferty, przy czym wymianę należy zgłosić do biura pracowni w terminie do 60 dni kalendarzowych od daty zakupu projektu. Wymieniany… | [Otwórz stronę](https://hbstudio.pl/#main) |
 | [extradom.pl](dashboard/extradompl.md) · główna | Funkcjonalności · Źródło grafiki w zestawie banerów | Konfigurator domu gotowego · https://extradom.wpcdn.pl/assets/cbe39bf/images/home/category-icon-ready-configurator.webp | Konfigurator domu gotowego · https://extradom.wpcdn.pl/assets/50d928a/images/home/category-icon-ready-configurator.webp | [Otwórz stronę](https://www.extradom.pl/#page) |
 | [projektydomow.redcart.pl](dashboard/projektydomowredcartpl.md) · stały projekt | Funkcjonalności · Usunięto: Funkcjonalność | PROJEKT NOWOCZESNEGO DOMU ENERGOOSZCZĘDNEGO NF40-GJ-70-20-2G-V6 POW. 164 M2 | brak | [Otwórz stronę](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
 | [1001studio.pl](dashboard/1001studiopl.md) · główna | Komunikacja sprzedażowa · Usunięto: Baner | Projekt domu E6 G1 ECONOMIC (wersja B) | brak | [Otwórz stronę](https://www.1001studio.pl/) |
@@ -59,7 +59,7 @@ Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej k
 | [domyzweranda.pl](dashboard/domyzwerandapl.md) | 1 różnych zmian | Bez zmian w zapisanej komunikacji |
 | [e-domy.pl](dashboard/e-domypl.md) | 27 różnych zmian | 46 różnych zmian |
 | [extradom.pl](dashboard/extradompl.md) | 61 różnych zmian | 6 różnych zmian |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | 6 różnych zmian | Brak odczytu |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | 1 różnych zmian | Brak odczytu |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | 70 różnych zmian | 5 różnych zmian |
 | [kreatywnedomy.pl](dashboard/kreatywnedomypl.md) | Bez zmian w zapisanej komunikacji | 7 różnych zmian |
 | [kreodom.pl](dashboard/kreodompl.md) | 34 różnych zmian | Bez zmian w zapisanej komunikacji |

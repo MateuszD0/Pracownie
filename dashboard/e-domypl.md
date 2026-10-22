@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Ogrzewanie podłogowe (+549,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Ogrzewanie%20pod%C5%82ogowe%20%28%2B549%2C00%20PLN%29) |
 | Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Kotłownia na paliwo stałe (+499,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Kot%C5%82ownia%20na%20paliwo%20sta%C5%82e%20%28%2B499%2C00%20PLN%29) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t074605.482076-0000-06802343-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
 
 Strony porównania: **1** · [2](e-domypl-2.md) · [3](e-domypl-3.md)
 

@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [AKSAMITKA 1](https://archdom.pl/produkt/projekt-domu-aksamitka/)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
 Strony porównania: **1**
 
@@ -28,11 +28,9 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:35 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Dodano: Źródło grafiki w zestawie banerów · Rodzaj ogrzewania: gaz / OPIS | brak | Projekt domu parterowego Aksamitka wersja standardowa - widok salonu 3 · https://archdom.pl/wp-content/uploads/2023/02/aksamitka\_1\_int\_3-480x270.webp | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#pg-thumbnails-3911-slide05) |
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

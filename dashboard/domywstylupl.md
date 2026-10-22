@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [MALUTKI 12 – projekt domu z poddaszem, 107 m²](https://www.domywstylu.pl/projekt-domu-malutki_12.php)
 
-Różnice tej pracowni: **4**. Strona **1/1** · pokazano **4** wpisów.
+Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
 Strony porównania: **1**
 
@@ -20,12 +20,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu JEMIOŁA 2 | Projekt domu ELKA 5 | [Otwórz stronę](https://www.domywstylu.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu MALINOWY | Projekt domu ALBIT | [Otwórz stronę](https://www.domywstylu.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu AWOKADO 3 | Projekt domu AWOKADO 2 | [Otwórz stronę](https://www.domywstylu.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu MALUTKI 2 | Projekt domu SZPAK DR-S | [Otwórz stronę](https://www.domywstylu.pl/#main) |
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+
+Przykłady z zapisów:
+
+- Projekt domu JEMIOŁA 2 → Projekt domu ELKA 5
+- Projekt domu MALINOWY → Projekt domu ALBIT
+- Projekt domu AWOKADO 3 → Projekt domu AWOKADO 2
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
@@ -35,7 +44,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

@@ -20,33 +20,41 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-27-po.jpg)
 
 ### Grafika i wygląd — różnica do obejrzenia
 
-**Zmieniła się zawartość obrazu: górna część strony**
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
 Porównanie: 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://projektyzwizja.pl/)
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-27-przed.jpg)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-27-po.jpg)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
 
 **Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-28-po.jpg)
 
 ### Grafika i wygląd — różnica do obejrzenia
 
-**Zmieniła się zawartość obrazu: górna część strony**
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
 Porównanie: 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-28-przed.jpg)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-28-po.jpg)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

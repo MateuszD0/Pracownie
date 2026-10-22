@@ -20,7 +20,9 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-13-po.jpg)
 
 ### Grafika i wygląd — różnica do obejrzenia
 
@@ -30,7 +32,8 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.archand.pl/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-dowod-3.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-13-przed.jpg)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-13-po.jpg)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archand.pl/projekty/perfetto-3-modern/)
@@ -39,7 +42,7 @@ Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

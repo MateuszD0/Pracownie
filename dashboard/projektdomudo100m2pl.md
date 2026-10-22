@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
 Strony porównania: **1**
 
@@ -20,9 +20,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Dodano: Treść · Strona główna | brak | Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu? | [Otwórz stronę](https://www.projektdomudo100m2.pl/#chatbase-message-bubbles) |
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-25-po.jpg)
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- brak → Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu?
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ### Grafika i wygląd — różnica do obejrzenia
 
@@ -32,6 +44,8 @@ Porównanie: 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.projektdomudo100m2.pl/)
 
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-25-przed.jpg)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-25-po.jpg)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
@@ -40,7 +54,7 @@ Porównanie: 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski). Różnica zrzu
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

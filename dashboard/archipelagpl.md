@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Alison III G2](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
 
-Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
+Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
 Strony porównania: **1**
 
@@ -20,11 +20,22 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:36 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Zmiany wyglądu · Źródło grafiki: Projekty domów - nowości | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_26eqaiu0o8fd3l_List3_PL.jpg) | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_qkahqo20o8hm6i_List3_PL.jpg) | [Otwórz stronę](https://www.archipelag.pl/#category-1rqru7o05mn8ig) |
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-dowod-5.webp)
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-15-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-15-po.jpg)
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+
+Przykłady z zapisów:
+
+- https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view\_26eqaiu0o8fd3l\_List3\_PL.jpg → https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view\_qkahqo20o8hm6i\_List3\_PL.jpg
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
@@ -33,7 +44,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

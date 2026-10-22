@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [KD\_2402M](https://kreatywnedomy.pl/projekt/kd_2402m/)
 
-Różnice tej pracowni: **7**. Strona **1/1** · pokazano **7** wpisów.
+Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
 
 Strony porównania: **1**
 
@@ -30,15 +30,28 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Funkcjonalności · Usunięto: Funkcjonalność · Karta projektu · POBIERANIE PLIKÓW | RZUTY | brak | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/) |
-| Funkcjonalności · Usunięto: Funkcjonalność · Karta projektu · POBIERANIE PLIKÓW | PRZEKROJE | brak | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · DODATKI / Dodaj do koszyka | brak | Odrzucać | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/?add-to-cart=249) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · DODATKI / Dodaj do koszyka | brak | Dostosuj | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/?add-to-cart=249) |
 | Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · DODATKI / Dodaj do koszyka | brak | Akceptuj wszystko | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/?add-to-cart=249) |
-| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu · DODATKI / Dodaj do koszyka | brak | Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników oraz analizować ruch na stronie. Kliknięcie przycisku „Akceptuj wszystkie” oznacza zgodę na wykorzyst… | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/?add-to-cart=249) |
-| Komunikacja sprzedażowa · Dodano: Treść · Karta projektu · DODATKI / Dodaj do koszyka | brak | Cenimy prywatność użytkowników | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/?add-to-cart=249) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-7-przed.jpg)
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-7-przed.jpg)
+
+<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
+
+- Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Kontrolka zgód lub ustawień sesji; nie zmiana komunikacji oferty.
+
+Przykłady z zapisów:
+
+- RZUTY → brak
+- brak → Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników o…
+- brak → Odrzucać
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

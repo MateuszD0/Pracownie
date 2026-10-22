@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Malutki 12](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
-Różnice tej pracowni: **4**. Strona **1/1** · pokazano **4** wpisów.
+Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
 Strony porównania: **1**
 
@@ -20,12 +20,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:37 → 22.10.2026 08:37 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu MALUTKI 2 | Projekt domu SZPAK DR-S | [Otwórz stronę](http://www.mtmstyl.com.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu JEMIOŁA 2 | Projekt domu ELKA 5 | [Otwórz stronę](http://www.mtmstyl.com.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu MALINOWY | Projekt domu ALBIT | [Otwórz stronę](http://www.mtmstyl.com.pl/#main) |
-| Komunikacja sprzedażowa · Wezwanie do działania · Strona główna | Projekt domu AWOKADO 3 | Projekt domu AWOKADO 2 | [Otwórz stronę](http://www.mtmstyl.com.pl/#main) |
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+
+Przykłady z zapisów:
+
+- Projekt domu MALUTKI 2 → Projekt domu SZPAK DR-S
+- Projekt domu JEMIOŁA 2 → Projekt domu ELKA 5
+- Projekt domu MALINOWY → Projekt domu ALBIT
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
@@ -33,7 +42,9 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Odczyty:** 21.10.2026 09:37 → 22.10.2026 08:37 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach**
+
+**Zapisane zrzuty — podgląd przed / po:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-21-po.jpg)
 
 ### Grafika i wygląd — różnica do obejrzenia
 
@@ -43,7 +54,9 @@ Porównanie: 21.10.2026 09:37 → 22.10.2026 08:37 (czas polski). Różnica zrzu
 
 [Otwórz stronę](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-21-przed.jpg)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-dowod-21-po.jpg)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t191159.761841-0000-format-e0560989-porownanie.html)
 
 Strony porównania: **1**
 

@@ -101,3 +101,17 @@ def test_email_is_post_publication_and_never_sends_without_private_credentials()
     send = next(step for step in job['steps'] if step.get('name') == 'Wyślij porównanie')
     assert send['if'] == "steps.config.outputs.configured == 'true'"
     assert config['concurrency']['cancel-in-progress'] == 'false'
+
+
+def test_recovery_has_its_own_frequent_trigger_and_can_dispatch_without_reading_smtp_password():
+    config = workflow('recovery.yml')
+    assert config['on']['schedule'] == [{'cron': '41 * * * *'}]
+    assert 'workflow_dispatch' in config['on']
+    assert config['permissions'] == {'contents': 'read', 'actions': 'write'}
+    assert config['concurrency'] == {'group': 'pracownie-recovery', 'cancel-in-progress': 'false'}
+    step = next(s for s in config['jobs']['recovery']['steps'] if 'pracownie.recovery' in s.get('run', ''))
+    assert set(step['env']) == {'GITHUB_TOKEN', 'EMAIL_CONFIGURED'}
+    assert "SMTP_PASSWORD != ''" in step['env']['EMAIL_CONFIGURED']
+    monitor = workflow('monitor.yml')
+    assert monitor['on']['workflow_dispatch']['inputs']['automatic_recovery']['default'] == 'false'
+    assert 'Automatyczna naprawa odczytów' in monitor['run-name']

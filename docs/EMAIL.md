@@ -30,10 +30,24 @@ oraz uruchamiania Actions nie wystarcza.
 
 ## Pierwsza wysyłka i ponowienia
 
-Po skonfigurowaniu sekretów uruchom workflow ręcznie w Actions, wskazując dzień
-istniejącego raportu (np. `2026-10-22`). Kolejne dni są wysyłane po publikacji skanu.
-Poczta nie jest uruchamiana, jeżeli sam harmonogram GitHuba nie dostarczy zdarzenia
-skanu. To powiadomienie po publikacji, a nie niezależny planista gwarantujący 08:00.
+Po skonfigurowaniu sekretów nie trzeba potwierdzać tego w rozmowie ani uruchamiać
+poczty ręcznie. Dodatkowy workflow „Automatyczne nadrabianie raportu i poczty”
+sprawdza stan co godzinę, w 41. minucie. Gdy konfiguracja jest gotowa i nie ma
+potwierdzenia wysłania dzisiejszego raportu, zleca wysyłkę. Ręczna wysyłka jest
+również dostępna w Actions: wskaż dzień bieżącego, najnowszego raportu
+(np. `2026-10-22`).
+
+Kontroler nadrabia też brak skanu od 05:17 do 12:00 czasu polskiego: uruchamia
+pełny skan z wznowieniem albo naprawia tylko wskazane brakujące domeny. Nie
+uruchamia drugiego producenta podczas trwającego skanu lub przebudowy; pomija
+trwałe blokady i ogranicza dodatkowe próby do dwóch dziennie. Opcjonalne Pages
+oczekujące na zatwierdzenie nie blokują raportów. Samo zlecenie e-maila nie jest
+potwierdzeniem wysłania — potrzebna jest odpowiedź SMTP i potwierdzenie w wydaniu.
+
+Kontroler ma osobny harmonogram Actions, więc pomaga po pominięciu pojedynczych
+porannych wywołań. Nadal korzysta z planisty GitHuba i nie gwarantuje terminu przy
+pominięciu wszystkich zdarzeń cron lub awarii całej usługi. Pełna niezależność
+wymagałaby planisty poza GitHubem.
 
 Potwierdzenie wysłania jest zapisywane w wydaniu raportu. Próba zapasowa i
 przebudowa raportu nie wysyłają tego samego dnia ponownie. Potwierdzenie nie zawiera

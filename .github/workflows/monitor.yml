@@ -1,4 +1,5 @@
 name: Codzienny monitoring pracowni
+run-name: ${{ inputs.automatic_recovery && 'Automatyczna naprawa odczytów' || 'Codzienny monitoring pracowni' }}
 
 on:
   workflow_run:
@@ -12,6 +13,10 @@ on:
     - cron: '7 4,5 * * *' # Recovery: 06:07 Europe/Warsaw
   workflow_dispatch:
     inputs:
+      automatic_recovery:
+        description: Oznacz jako automatyczne ponowienie (limit 2 dziennie)
+        type: boolean
+        default: false
       scope:
         description: Zakres skanu (pilot ma oddzielne archiwum i stan)
         type: choice

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Uroczy Klasyczny 82](https://domyzweranda.pl/projekty/uroczy-klasyczny-82)
 
-Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
+Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
 
 Strony porównania: **1**
 
@@ -18,19 +18,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://domyzweranda.pl/)
 
-**Odczyty:** 20.10.2026 21:55 → 21.10.2026 09:36 (czas polski).
+**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Zmiany wyglądu · Kolor tła: nagłówek strony | przezroczysty | biały (#FFFFFF) | [Otwórz stronę](https://domyzweranda.pl/#header) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domyzweranda.pl/projekty/uroczy-klasyczny-82)
 
-**Odczyty:** 20.10.2026 21:55 → 21.10.2026 09:36 (czas polski).
+**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1**
 

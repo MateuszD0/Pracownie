@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Alison III G2](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
 
-Różnice tej pracowni: **5**. Strona **1/1** · pokazano **5** wpisów.
+Różnice tej pracowni: **1**. Strona **1/1** · pokazano **1** wpisów.
 
 Strony porównania: **1**
 
@@ -18,27 +18,22 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:36 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Źródło grafiki: Domy21 | [Otwórz grafikę](https://www.archipelag.pl/files/Avrt/7lk5a120mtee9e/7lk5a120mtee9e.png) | [Otwórz grafikę](https://www.archipelag.pl/files/Avrt/kk1ttvk0o362br/kk1ttvk0o362br.jpg) | [Otwórz stronę](https://www.archipelag.pl/#js_fl4l94r0c9gjn8_ArticleHome) |
-| Zmiany wyglądu · Opis grafiki | MITEK | Domy21 | [Otwórz stronę](https://www.archipelag.pl/#js_fl4l94r0c9gjn8_ArticleHome) |
+| Zmiany wyglądu · Źródło grafiki: Projekty domów - nowości | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_26eqaiu0o8fd3l_List3_PL.jpg) | [Otwórz grafikę](https://www.archipelag.pl/files/Project/1os6ejb0o8chhf/view_qkahqo20o8hm6i_List3_PL.jpg) | [Otwórz stronę](https://www.archipelag.pl/#category-1rqru7o05mn8ig) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-dowod-5.png)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-5.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:36 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Usunięto: Baner · Karta projektu | Next | brak | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
-| Komunikacja sprzedażowa · Usunięto: Baner · Karta projektu | Prev | brak | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
-| Komunikacja sprzedażowa · Usunięto: Źródło grafiki w zestawie banerów · Karta projektu | https://www.archipelag.pl/js/bxslider/images/controls.png | brak | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1**
 

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Perfetto 3 modern](https://www.archand.pl/projekty/perfetto-3-modern/)
 
@@ -18,7 +18,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://www.archand.pl/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:34 (czas polski).
+**Odczyty:** 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,20 +26,20 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 20.10.2026 21:54 → 21.10.2026 09:34 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://www.archand.pl/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-dowod-3.png)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-3.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.archand.pl/projekty/perfetto-3-modern/)
 
-**Odczyty:** brak odczytu → 21.10.2026 09:34 (czas polski).
+**Odczyty:** brak odczytu → 22.10.2026 08:35 (czas polski).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1**
 

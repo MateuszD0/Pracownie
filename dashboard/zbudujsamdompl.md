@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
-Różnice tej pracowni: **5**. Strona **1/1** · pokazano **5** wpisów.
+Różnice tej pracowni: **6**. Strona **1/1** · pokazano **6** wpisów.
 
 Strony porównania: **1**
 
@@ -18,25 +18,27 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://www.zbudujsamdom.pl/)
 
-**Odczyty:** 20.10.2026 21:58 → 21.10.2026 09:38 (czas polski).
+**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Strona główna | Budowa domu szkieletowego 100 m2 w Pelplinie – projekt Veronica | Budowa domu murowanego 87 m2 w Działkach, gmina Wiskitki – projekt Veronica | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Budowa domu murowanego 114 m2 w Nowym Sączu – poszukiwana firma budowlana | Budowa domu murowanego 116 m2 z garażem w Aleksandrowie Łódzkim – poszukiwana firma budowlana | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
+| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Pomorskie | brak | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
+| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Małopolskie | brak | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
+| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Mazowieckie | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
-**Odczyty:** 20.10.2026 21:58 → 21.10.2026 09:39 (czas polski).
+**Odczyty:** 21.10.2026 09:39 → 22.10.2026 08:39 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 25 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Komunikacja sprzedażowa · Baner · Karta projektu | 10 osób przegląda ten projekt teraz | 23 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Czy pakiet jest dla osoby bez doświadczenia budowlanego? | 31 osób przegląda ten projekt teraz | 21 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
-| Zmiany wyglądu · Dodana grafika: Budynek gospodarczy – instrukcja budowy PDF, instrukcja video i lista materiałów | brak | [Otwórz grafikę](https://www.zbudujsamdom.pl/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png) | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
-| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 17384 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 17725 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · W jakiej formie otrzymuję materiały? | 21 osób przegląda ten projekt teraz | 37 osób przegląda ten projekt teraz | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#product-81038) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1**
 

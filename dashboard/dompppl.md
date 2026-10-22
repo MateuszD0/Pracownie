@@ -4,9 +4,9 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
-**Ten sam projekt:** [dompp.pl](https://dompp.pl/projekty-domow/house-x21/)
+**Ten sam projekt:** [House X21](https://dompp.pl/projekty-domow/house-x21/)
 
 Różnice tej pracowni: **0**. Strona **1/1** · pokazano **0** wpisów.
 
@@ -16,25 +16,21 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://dompp.pl)
+[Otwórz stronę źródłową](https://dompp.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 22.10.2026 08:36 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://dompp.pl/projekty-domow/house-x21/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 22.10.2026 08:36 (czas polski).
 
-**Brak odczytu**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1**
 

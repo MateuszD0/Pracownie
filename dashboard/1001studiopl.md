@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-Różnice tej pracowni: **90**. Strona **1/4** · pokazano **25** wpisów.
+Różnice tej pracowni: **76**. Strona **1/4** · pokazano **25** wpisów.
 
 Strony porównania: **1** · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 
@@ -18,46 +18,55 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:34 (czas polski).
+**Odczyty:** 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Marisa G1 ENERGO · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_1rblokf0djo7er\_Zoom-300x300.jpg | Projekt domu Daniel VII G2 · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_pokbhfp0h484pi\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Dodano: Źródło grafiki w zestawie banerów · Strona główna | brak | Projekt domu Dom przy Cyprysowej 34 long · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-205-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Daniel X G1 (wersja A) | Projekt domu Daniel VII G2 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2026/09/view\_husuqo20djo7er\_Zoom-300x300.jpg | Projekt domu Sosenka 3 · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-sosenka3-parter-300x300.png | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Weranda 4 (CE) | Projekt domu Sosenka 3 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Jemioła (CE) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-2232-300x300.jpeg | https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-2582-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu Dom przy Sielskiej | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Dom przy Bukowej 35A | Projekt domu Dom przy Bukowej 40 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Mini 8 w. II G1 · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_bau168v0gilddv\_Zoom-300x300.jpg | Projekt domu Logan · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_1cn5gc90ea7p61\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu Borówka 4 bal (BAL) | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Tymon G1 (wersja B) · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_q5ahgg20jgojl2\_Zoom-300x300.jpg | Projekt domu uA235 · https://www.1001studio.pl/wp-content/uploads/2022/06/30523-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt HOMEKONCEPT 144 · https://www.1001studio.pl/wp-content/uploads/2026/02/projekt-domu-homekoncept-144-lustro-zdjecie-1-300x300.jpg | Projekt HOMEKONCEPT 77 · https://www.1001studio.pl/wp-content/uploads/2025/03/homekoncept-77-l-zdjecie-0-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Dom przy Klonowej 5 | Projekt domu Dom przy Topolowej 2 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Decyma 12 (CE) | Projekt domu Optymalny 2 | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Bachus 8 (CE) · https://www.1001studio.pl/wp-content/uploads/2020/09/xml\_grafika-2826-300x300.jpeg | Projekt domu Decyma 6 (CE) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-2581-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Jemioła (CE) | Projekt domu Logan | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Willa Floryda 4 · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-willa-floryda-4-wizualizacja-front-300x300.jpg | Projekt domu Natalia 4 · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-natalia-4-wizualizacja-front-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt HOMEKONCEPT 81 · https://www.1001studio.pl/wp-content/uploads/2024/11/homekoncept-81-l-zdjecie-4.jpg | https://www.1001studio.pl/wp-content/uploads/2024/11/homekoncept-77-l-zdjecie-13.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt HOMEKONCEPT 52 B · https://www.1001studio.pl/wp-content/uploads/2024/11/hk-52-b-koncepcja-parter-mini.jpg | Projekt HOMEKONCEPT 95 A · https://www.1001studio.pl/wp-content/uploads/2024/05/homekoncept-95-a-l-zdjecie-1-3-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu uA247 · https://www.1001studio.pl/wp-content/uploads/2022/10/30838-300x300.jpg | Projekt domu uA271v1 · https://www.1001studio.pl/wp-content/uploads/2022/12/30969-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Projekt domu Mini 8 w. II G1 | brak | [Otwórz stronę](https://www.1001studio.pl/) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Dom przy Pastelowej 16 D bis · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-404-300x300.jpg | Projekt domu Dom przy Sielskiej · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-44-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Dom przy Klonowej 5 · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-138-300x300.jpg | Projekt domu Dom przy Topolowej 2 · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-134-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Daniel X G1 (wersja A) · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_6cgi65j0miqgqo\_Zoom-300x300.jpg | Projekt domu E6 G1 ECONOMIC (wersja B) · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_2ri96v70dfp8ua\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Bachus 8 (CE) | Projekt domu Decyma 6 (CE) | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
+| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Projekt domu E6 G1 ECONOMIC (wersja B) | brak | [Otwórz stronę](https://www.1001studio.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu uAG24 | Projekt domu Simon III G2 | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Dom przy Bukowej 40 | Projekt domu Dom przy Bukowej 11 | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Dom przy Bukowej 40 · https://www.1001studio.pl/wp-content/uploads/2020/07/viz\_1\_web-10-300x300.jpg | Projekt domu Dom przy Bukowej 11 · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-375-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Decyma 6 (CE) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-2581-300x300.jpeg | Projekt domu Szyper 5 (CE) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-1667-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Dodano: Baner · Strona główna | brak | Projekt domu Szyper 5 (CE) | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Projekt HOMEKONCEPT 95 A | brak | [Otwórz stronę](https://www.1001studio.pl/) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Borówka 4 bal (BAL) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-1828-300x300.jpeg | Projekt domu Bez 3 (KO) · https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-1213-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Dom przy Sielskiej · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-44-300x300.jpg | Projekt domu Dom przy Sielskiej 6 · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-348-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Na Swoim · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-na-swoim-wizualizacja-front-300x300.jpg | Projekt domu Otwarty 5 · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-otwarty-5-wizualizacja-front-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Daniel VII G2 | Projekt domu Rafael II | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Dom przy Oliwkowej NH | Projekt domu Dom przy Oliwkowej | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu uA299 · https://www.1001studio.pl/wp-content/uploads/2024/09/31719-300x300.jpg | Projekt domu Arka (CE) · https://www.1001studio.pl/wp-content/uploads/2020/09/xml\_grafika-3129-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Daniel VII G2 · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_pokbhfp0h484pi\_Zoom-300x300.jpg | Projekt domu Simon III G2 · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_ihal8jd0hisbg3\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu uAG24 · https://www.1001studio.pl/wp-content/uploads/2022/12/31045-300x300.jpg | Projekt domu Diuna (CE) · https://www.1001studio.pl/wp-content/uploads/2020/09/xml\_grafika-804-300x300.jpeg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu EL PINAR 2 szkielet drewniany · https://www.1001studio.pl/wp-content/uploads/2020/01/09b0a333eec703e8a0eb0c97ccd9b1105430e41d-300x300.jpg | Projekt domu SEVILLA 2 · https://www.1001studio.pl/wp-content/uploads/2020/01/10780-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Dom przy Oliwkowej NH · https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_1\_web-295-300x300.jpg | Projekt domu Dom przy Olchowej 10 · https://www.1001studio.pl/wp-content/uploads/2023/04/viz\_1\_web-5-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu E6 G1 ECONOMIC (wersja B) · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_2ri96v70dfp8ua\_Zoom-300x300.jpg | Projekt domu Wiktoria · https://www.1001studio.pl/wp-content/uploads/2026/09/view\_tm444960djloju\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu Kujawiak · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-kujawiak-wizualizacja-front-300x300.jpg | Projekt domu Fokus · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-fokus-wizualizacja-front-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Dom przy Cyprysowej 34 long | Projekt domu Dom przy Olchowej 10 | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Usunięto: Baner · Strona główna | Projekt domu EL PINAR 2 szkielet drewniany | brak | [Otwórz stronę](https://www.1001studio.pl/) |
+| Komunikacja sprzedażowa · Dodano: Źródło grafiki w zestawie banerów · Strona główna | brak | Projekt domu Wyjątkowy · https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-wyjatkowy-wizualizacja-front-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt HOMEKONCEPT 95 A · https://www.1001studio.pl/wp-content/uploads/2024/05/homekoncept-95-a-l-zdjecie-1-3-300x300.jpg | Projekt domu uA306 · https://www.1001studio.pl/wp-content/uploads/2023/08/31383-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Borówka 4 bal (BAL) | Projekt domu Arka (CE) | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | Projekt domu uA271v1 · https://www.1001studio.pl/wp-content/uploads/2022/12/30969-300x300.jpg | Projekt domu uA48 · https://www.1001studio.pl/wp-content/uploads/2020/07/29846-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-dowod-1.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-1.webp)
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.1001studio.pl/)
+
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-1.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:35 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: **1** · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · [4](1001studiopl-4.md)
 

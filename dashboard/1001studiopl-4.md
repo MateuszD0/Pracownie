@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-21 → 2026-10-22**
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-Różnice tej pracowni: **90**. Strona **4/4** · pokazano **15** wpisów.
+Różnice tej pracowni: **76**. Strona **4/4** · pokazano **1** wpisów.
 
 Strony porównania: [1](1001studiopl.md) · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · **4**
 
@@ -18,36 +18,22 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:34 (czas polski).
+**Odczyty:** 21.10.2026 09:34 → 22.10.2026 08:35 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2020/01/projekt\_domu\_willa\_floryda\_4\_-\_rzut\_parteru-300x300.png | https://www.1001studio.pl/wp-content/uploads/2020/01/projekt-domu-natalia-4-parter-300x300.png | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2020/01/willa-s\_oneczna-pietr-300x300.png | https://www.1001studio.pl/wp-content/uploads/2020/01/na\_swoim-parter-300x300.png | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2020/09/xml\_grafika-2827-300x300.jpeg | https://www.1001studio.pl/wp-content/uploads/2022/12/30970-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2023/12/xml\_grafika\_nl-1337-300x300.jpeg | https://www.1001studio.pl/wp-content/uploads/2026/09/view\_nm7gg430ea7p61\_Zoom-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Projekt domu Koral | Projekt domu Kujawiak | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2023/12/31531-300x300.jpg | https://www.1001studio.pl/wp-content/uploads/2020/01/viz\_2\_web-205-300x300.jpg | [Otwórz stronę](https://www.1001studio.pl/#section_2010520015) |
-| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 5262 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 5234 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.1001studio.pl/) |
-| Zmiany wyglądu · Rozmiar: treść strony | 1280 × 4813 px; położenie: 0 px od lewej, 134 px od góry | 1280 × 4785 px; położenie: 0 px od lewej, 134 px od góry | [Otwórz stronę](https://www.1001studio.pl/#main) |
-| Zmiany wyglądu · Przesunięcie: Zapytaj o Rabat (28 px w górę) | 510 × 32 px; położenie: 655 px od lewej, 3304 px od góry | 510 × 32 px; położenie: 655 px od lewej, 3276 px od góry | [Otwórz stronę](https://www.1001studio.pl/#row-1286139930) |
-| Zmiany wyglądu · Przesunięcie: PROJEKTY DOMÓW WEDŁUG TYPU (29 px w górę) | 780 × 32 px; położenie: 385 px od lewej, 2787 px od góry | 780 × 32 px; położenie: 385 px od lewej, 2758 px od góry | [Otwórz stronę](https://www.1001studio.pl/#section_631187892) |
-| Zmiany wyglądu · Przesunięcie: PORTALE PARTNERSKIE (28 px w górę) | 1050 × 32 px; położenie: 115 px od lewej, 4370 px od góry | 1050 × 32 px; położenie: 115 px od lewej, 4342 px od góry | [Otwórz stronę](https://www.1001studio.pl/#section_825010239) |
-| Zmiany wyglądu · Przesunięcie: Archipelag.pl (28 px w górę) | 247 × 247 px; położenie: 115 px od lewej, 4436 px od góry | 247 × 247 px; położenie: 115 px od lewej, 4408 px od góry | [Otwórz stronę](https://www.1001studio.pl/#section_825010239) |
-| Zmiany wyglądu · Przesunięcie: treść strony (28 px w górę) | 500 × 333 px; położenie: 115 px od lewej, 3607 px od góry | 500 × 333 px; położenie: 115 px od lewej, 3579 px od góry | [Otwórz stronę](https://www.1001studio.pl/#image_2114789947) |
-| Zmiany wyglądu · Przesunięcie: KUP TANIEJ (28 px w górę) | 1050 × 32 px; położenie: 115 px od lewej, 3238 px od góry | 1050 × 32 px; położenie: 115 px od lewej, 3210 px od góry | [Otwórz stronę](https://www.1001studio.pl/#section_1524420505) |
-| Zmiany wyglądu · Przesunięcie: Znalazłeś wymarzony projekt? Zapytaj o rabat! Każdemu należy się zniżka! (28 px w górę) | 510 × 64 px; położenie: 115 px od lewej, 3304 px od góry | 510 × 64 px; położenie: 115 px od lewej, 3276 px od góry | [Otwórz stronę](https://www.1001studio.pl/#row-1286139930) |
+| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.1001studio.pl/wp-content/uploads/2020/01/optymalny2-parter-300x300.png | https://www.1001studio.pl/wp-content/uploads/2020/01/klasyczny-parter-300x300.png | [Otwórz stronę](https://www.1001studio.pl/#section_1175139992) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-dowod-1.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-dowod-1.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 21.10.2026 09:35 → 22.10.2026 08:35 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t063519.125436-0000-02de8c37-porownanie.html)
 
 Strony porównania: [1](1001studiopl.md) · [2](1001studiopl-2.md) · [3](1001studiopl-3.md) · **4**
 

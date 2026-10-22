@@ -63,6 +63,10 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "project": row["name"] if event["page"] == "projekt" else "",
                 "context": event.get("variant") or event.get("context", ""),
                 "scenario": event.get("scenario", ""),
+                "field_key": event.get("field_key", ""),
+                "communication_role": event.get("communication_role", ""),
+                "unmatched": event.get("unmatched", False),
+                "supporting_reason": event.get("supporting_reason", ""),
                 "category": category,
                 "type": LABELS.get(category, category),
                 "description": description,
@@ -241,7 +245,7 @@ def render_journal_html(view: dict, *, rows: list[dict] | None = None, secondary
             + esc(item["type"])
             + ('<br><span class="badge">Wysoki</span>' if not secondary and item["category"] in {"ceny", "promocje", "dodatki", "pakiety"} else '')
             + "</td><td>"
-            + esc(item["description"])
+            + esc(item["description"] + (' — ' + item['supporting_reason'] if item.get('supporting_reason') else ''))
             + '<p class="small">'
             + esc(context)
             + '</p><span class="small">'
@@ -270,6 +274,11 @@ def render_journal_html(view: dict, *, rows: list[dict] | None = None, secondary
 
 
 def render_journal_csv(view: dict) -> str:
+    from .management import build_management
+
+    management = build_management(view)
+    primary = set(management['source_ids'])
+    supporting = {e['id']: e for e in management['secondary']}
     stream = io.StringIO(newline="")
     writer = csv.writer(stream, delimiter=";")
     writer.writerow(
@@ -288,6 +297,8 @@ def render_journal_csv(view: dict) -> str:
             "Odczyt po",
             "Luka dni",
             "Podstawa",
+            "Ocena",
+            "Wyjaśnienie",
         ]
     )
     for item in view.get("journal", []):
@@ -310,6 +321,8 @@ def render_journal_csv(view: dict) -> str:
                 "basis",
             ]
         ]
+        values += ['Zmiana w zakresie biznesowym' if item['id'] in primary else 'Obserwacja pomocnicza',
+                   supporting.get(item['id'], {}).get('supporting_reason', item.get('basis', ''))]
         writer.writerow(
             ["'" + str(v) if str(v).startswith(("=", "+", "-", "@", "\t", "\r")) else v for v in values]
         )

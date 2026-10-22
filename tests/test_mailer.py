@@ -141,3 +141,13 @@ def test_missing_credentials_and_header_injection_are_rejected(monkeypatch):
     monkeypatch.setenv('SMTP_PASSWORD', 'private')
     with pytest.raises(ValueError):
         MailConfig.from_env()
+
+
+def test_email_uses_named_sections_when_another_table_precedes_highlights():
+    document = DOCUMENT.replace('<table>', '<h2>Najważniejsze różnice biznesowe</h2><table>', 1)
+    insert = '<table><tbody><tr><td>UNRELATED_COVERAGE_TABLE</td></tr></tbody></table>'
+    document = document.replace('<h2>', insert + '<h2>', 1)
+    message = compose(DAY, document, QUALITY, 'test/monitor', 'https://github.com/test/monitor/releases/tag/report', CONFIG)
+    plain = message.get_body(preferencelist=('plain',)).get_content()
+    assert 'UNRELATED_COVERAGE_TABLE' not in plain
+    assert '10%' in plain and '20%' in plain

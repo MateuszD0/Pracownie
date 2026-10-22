@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 from decimal import ROUND_HALF_UP, Decimal, InvalidOperation
 
+from .extract import canonical_url
 from .model import Change, Snapshot
 from .observations import location_url, replay_pair, signature
 
@@ -11,8 +12,17 @@ def compare(before: Snapshot | None, after: Snapshot, excluded_keys: list[str] |
     if before is None:
         return [], after
     before, after = replay_pair(before, after)
+    same_identity = (before.domain, before.page, before.scenario, canonical_url(before.url)) == (
+        after.domain, after.page, after.scenario, canonical_url(after.url)
+    )
     changes = []
     retained = copy.deepcopy(after)
+    if not same_identity:
+        changes.append(Change(
+            "review", "komunikacja", "Niezgodna tożsamość porównywanych stron",
+            before.url, after.url, before.observed_at, after.observed_at, after.url, after.scenario,
+            field_key="identity", note="Zmieniono adres, pracownię, stronę lub scenariusz. Nie ustalono zmiany oferty tego samego projektu.",
+        ))
     for key in sorted(set(before.fields) | set(after.fields)):
         if key in (excluded_keys or []):
             continue
@@ -29,8 +39,8 @@ def compare(before: Snapshot | None, after: Snapshot, excluded_keys: list[str] |
         # with the same product/offer identity. Text and inferred DOM mappings
         # still require review when their extraction rules change.
         authoritative_pair = old is not None and new is not None and key.startswith("oferta:") and key.endswith((":price", ":lowPrice", ":highPrice")) and old.amount is not None and new.amount is not None
-        uncertain = missing_section or after.quality != "ok" or before.quality != "ok" or method_changed and not authoritative_pair
-        if old and new is None and uncertain:
+        uncertain = not same_identity or missing_section or after.quality != "ok" or before.quality != "ok" or method_changed and not authoritative_pair
+        if old and new is None and uncertain and same_identity:
             retained.fields[key] = old
         destination_text = new.value if new else None
         if old and new:
@@ -51,7 +61,9 @@ def compare(before: Snapshot | None, after: Snapshot, excluded_keys: list[str] |
         )
         if method_changed and not authoritative_pair:
             change.note += " Zmieniono wersję przeglądarki lub reguły odczytu; różnica wymaga potwierdzenia w źródle."
-        if old and new and old.amount is not None and new.amount is not None and old.currency == new.currency:
+        if not same_identity:
+            change.note += " Porównywane zapisy mają inną tożsamość; nie ustalono zmiany oferty tego samego projektu."
+        if same_identity and old and new and old.amount is not None and new.amount is not None and old.currency == new.currency:
             try:
                 old_amount, new_amount = Decimal(old.amount), Decimal(new.amount)
                 change.delta = str((new_amount - old_amount).quantize(Decimal("0.01")))

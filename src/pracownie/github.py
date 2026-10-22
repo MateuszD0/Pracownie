@@ -12,8 +12,10 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 import httpx
+from PIL import Image
 
 from .dashboard import render_dashboard_documents
+from .management import build_management
 from .model import digest, json_bytes, now_iso, slug
 from .presentation import render_markdown
 from .state import StateStore
@@ -22,7 +24,36 @@ OWNER_MARKER = "<!-- pracownie-monitor:v1 -->"
 # GitHub release bodies have a finite character limit. Use a smaller UTF-8 byte
 # budget, including all links/markup, so Polish text and escaped fields also fit.
 RELEASE_BODY_BYTES = 60_000
-RELEASE_PREVIEWS = 6
+RELEASE_PREVIEW_PAIRS = 40
+
+
+def proof_preview_pairs(items: list[dict], journal: list[dict], limit: int = RELEASE_PREVIEW_PAIRS) -> list[dict]:
+    """One dated before/after pair per page, with business findings first."""
+    pairs, seen = [], set()
+    candidates = [*items, *(item for item in journal if item.get("category") == "obraz")]
+    for item in candidates:
+        if len(pairs) >= max(0, limit):
+            break
+        key = (item["domain"], item["page"])
+        if key in seen or not item.get("daily"):
+            continue
+        evidence = item.get("evidence", {})
+        fields = ("fragment_przed", "fragment_po") if all(evidence.get(k) for k in ("fragment_przed", "fragment_po")) else ("przed", "po")
+        if not all(evidence.get(k) for k in fields):
+            continue
+        pairs.append({"domain": key[0], "page": key[1], "before": evidence[fields[0]], "after": evidence[fields[1]]})
+        seen.add(key)
+    return pairs
+
+
+def write_proof_preview(source: Path, destination: Path) -> None:
+    """A light public preview; the original archive retains full image pixels."""
+    with Image.open(source) as original:
+        image = original.convert("RGB")
+        # Preserve the whole supplied frame and its aspect ratio. The height
+        # bound is below JPEG's encoder limit, including very long pages.
+        image.thumbnail((1000, 65000), Image.Resampling.LANCZOS)
+        image.save(destination, format="JPEG", quality=65, optimize=True)
 
 
 def release_body(view: dict, links: dict[str, str], images: dict, published_at: str, *, dashboard_url: str = "") -> str:
@@ -289,17 +320,19 @@ class GitHubStore:
         view = json.loads((output / day / "oferty.json").read_text())
         previews = {}
         preview_assets = []
-        proof_candidates = [e for e in view.get("journal", []) if e["category"] == "obraz"] + [e for r in view["rows"] for e in r["events"]]
-        for event in proof_candidates:
-            if len(previews) >= RELEASE_PREVIEWS:
-                break
-            path = event["evidence"].get("zmieniony_obszar") or event["evidence"].get("roznice") or event["evidence"].get("po")
-            if not path or path in previews:
-                continue
-            from .model import safe_path
-            preview = self.upload(report_release, f"{day}-{stamp}-dowod-{len(previews)+1}{Path(path).suffix}", safe_path(output, path))
-            previews[path] = preview["browser_download_url"]
-            preview_assets.append(preview["id"])
+        pairs = proof_preview_pairs(build_management(view)["items"], view.get("journal", []))
+        with tempfile.TemporaryDirectory() as temporary:
+            for pair_index, pair in enumerate(pairs, start=1):
+                for field, label in [("before", "przed"), ("after", "po")]:
+                    path = pair[field]
+                    if path in previews:
+                        continue
+                    from .model import safe_path
+                    preview_path = Path(temporary) / f"{pair_index}-{label}.jpg"
+                    write_proof_preview(safe_path(output, path), preview_path)
+                    preview = self.upload(report_release, f"{day}-{stamp}-dowod-{pair_index}-{label}.jpg", preview_path)
+                    previews[path] = preview["browser_download_url"]
+                    preview_assets.append(preview["id"])
         zip_asset = self.upload(report_release, f"{day}-{stamp}.zip", report_archive)
         state_release = self.release(f"{self.namespace}-state-v1", create=True)
         assert state_release is not None

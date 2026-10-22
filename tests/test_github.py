@@ -319,10 +319,10 @@ def test_only_get_is_retried_after_a_transport_failure(monkeypatch):
     assert calls == ["GET", "GET", "GET", "POST"]
 
 
-def test_large_daily_report_publishes_bounded_summary_and_only_six_unique_previews(tmp_path):
+def test_large_daily_report_publishes_bounded_summary_and_paired_previews(tmp_path):
     from PIL import Image
 
-    from pracownie.github import RELEASE_BODY_BYTES
+    from pracownie.github import RELEASE_BODY_BYTES, RELEASE_PREVIEW_PAIRS
     from pracownie.presentation import render_markdown
 
     fake = FakeGitHub()
@@ -339,11 +339,13 @@ def test_large_daily_report_publishes_bounded_summary_and_only_six_unique_previe
         path = output / proof
         path.parent.mkdir(parents=True, exist_ok=True)
         Image.new("RGB", (10, 10), "white").save(path)
+        previous_proof = f"{day}/{domain}/przed.png"
+        Image.new("RGB", (10, 10), "black").save(output / previous_proof)
         before, after = day.replace("21", "20") + "T05:20:00+00:00", day + "T05:20:00+00:00"
         changes = [Change("changed", "komunikacja", "Baner", f"{n} Stara oferta. " + "Żółć i źródło " * 30, f"{n} Nowa oferta. " + "Bezpłatne dodatki " * 30, before, after, "https://" + domain, "podstawowy") for n in range(16)]
-        # More than six distinct visual events precede the ordinary sales events.
+        # Many observations on a page share one pair of source images.
         changes.append(Change("visual", "obraz", "Obraz", "Stara grafika", "Nowa grafika", before, after, "https://" + domain, "podstawowy"))
-        results.append(Result(domain, "glowna", "podstawowy", "changed", "https://" + domain, changes, observed_at=after, compared_at=before, data_quality="ok", evidence={"po": proof}))
+        results.append(Result(domain, "glowna", "podstawowy", "changed", "https://" + domain, changes, observed_at=after, compared_at=before, data_quality="ok", evidence={"przed": previous_proof, "po": proof}))
     write_outputs(output, day, results, {"run_id": run_id, "started_at": after, "finished_at": after, "elapsed_seconds": 60}, {}, domains)
     view = json.loads((output / day / "oferty.json").read_text())
     original = render_markdown(view)
@@ -361,7 +363,10 @@ def test_large_daily_report_publishes_bounded_summary_and_only_six_unique_previe
     # Only the release landing page is shortened; files retain every event.
     assert (output / day / "podsumowanie.md").read_text() == original
     assert len(view["journal"]) == 65 * 17
-    assert len([a for a in fake.assets.values() if "-dowod-" in a["name"]]) == 6
+    previews = [a for a in fake.assets.values() if "-dowod-" in a["name"]]
+    assert len(previews) == 2 * RELEASE_PREVIEW_PAIRS
+    assert sum(a["name"].endswith("-przed.jpg") for a in previews) == RELEASE_PREVIEW_PAIRS
+    assert sum(a["name"].endswith("-po.jpg") for a in previews) == RELEASE_PREVIEW_PAIRS
 
 
 def test_release_byte_budget_keeps_full_links_rows_and_balanced_disclosures(monkeypatch):

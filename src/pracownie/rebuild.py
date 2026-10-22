@@ -71,7 +71,7 @@ def enrich_visual_results(results: list[Result], output: Path, store: StateStore
     output = output.resolve()
     state = store.read() if store else {}
     for result in results:
-        visuals = [c for c in result.changes if c.category == "obraz"]
+        visuals = [c for c in result.changes if c.category == "obraz" and not c.details.get("communication_asset")]
         if not visuals or result.scenario != "podstawowy" or not all(result.evidence.get(k) for k in ["przed", "po"]):
             continue
         before = safe_path(output, result.evidence["przed"])

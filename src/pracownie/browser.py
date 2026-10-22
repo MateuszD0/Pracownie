@@ -108,6 +108,13 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
                 continue
             actions = [{"action": "click", **target}]
         elif kind == "select" and page == "projekt":
+            # Order forms may offer the entire catalogue in a project picker.
+            # These options select other projects, not variants of the frozen
+            # project being monitored. Explicit adapters can still set a
+            # known project if the form initially opens with a wrong default.
+            if re.fullmatch(r"(?:wybierz\s+)?projekt(?:\s+domu)?\s*:?", label.strip(), re.I):
+                warnings.append("Pominięto wybór innego projektu w formularzu; monitorowany jest jeden stały projekt.")
+                continue
             for option in control.get("options", []):
                 if option["value"] == control.get("value"):
                     continue

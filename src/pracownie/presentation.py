@@ -22,6 +22,7 @@ from .management import (
     build_management,
     business_highlights,
     communication_summary,
+    page_finding,
     render_availability,
     render_business_change,
     render_business_proofs,
@@ -196,6 +197,9 @@ def _event(change, result: Result) -> dict:
         "before_full": old,
         "after_full": new,
         "basis": change.details.get("basis", ""),
+        "communication_role": change.details.get("role", ""),
+        "unmatched": change.details.get("unmatched", False),
+        "supporting_reason": change.details.get("supporting_reason", ""),
     }
 
 
@@ -344,6 +348,10 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                     # blocks, avoiding duplicate or parser-version alerts.
                     continue
                 if change.category == "obraz":
+                    if change.details.get("communication_asset"):
+                        # Asset URL inventory is retained in raw changes. It
+                        # cannot replace a measured screenshot difference.
+                        continue
                     if result.scenario == "podstawowy" and not any(
                         v["page"] == result.page for v in row["visuals"]
                     ):
@@ -936,7 +944,8 @@ def render_daily_html(view: dict) -> str:
             + ('<p class="small">' + esc(event.get("note")) + '</p>' if event.get("note") else "") + '</article>'
         )
 
-    items = build_management(view)['items']
+    management = build_management(view)
+    items = management['items']
     changed = {item['domain'] for item in items}
     blocks = []
     for row in sorted(view["rows"], key=lambda r: (r['domain'] not in changed, r['domain'])):
@@ -947,10 +956,9 @@ def render_daily_html(view: dict) -> str:
             link = safe_url(page["url"])
             title = '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(page["label"]) + '</a>' if link else esc(page["label"])
             part = '<section class="daily-page" data-page="' + page["page"] + '"><h3>' + title + '</h3>'
-            copy_status = page['communication'].get('label', page['status_label'])
-            if page_items:
-                copy_status = f"Różne zmiany komunikacji: {len(page_items)}"
-            part += '<span class="badge ' + page["status"] + '" data-change-label data-fallback="' + esc(page['communication'].get('label', page['status_label'])) + '">' + esc(copy_status) + '</span>'
+            supporting = [e for e in management['secondary'] if e['domain'] == row['domain'] and e['page'] == page['page'] and e['daily'] and e['category'] != 'ceny']
+            copy_status = page_finding(page, page_items, supporting)
+            part += '<span class="badge ' + page["status"] + '" data-change-label data-fallback="' + esc(page_finding(page, [], supporting)) + '">' + esc(copy_status) + '</span>'
             part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
             if page["page"] == "projekt":
                 part += '<p class="fixed-project"><strong>Ten sam projekt: ' + esc(row['name']) + '</strong></p>'
@@ -960,7 +968,10 @@ def render_daily_html(view: dict) -> str:
             if len(page_items) > 3:
                 part += '<details class="more-changes"><summary>Pozostałe różnice tej strony (' + str(len(page_items) - 3) + ')</summary>' + ''.join(render_business_change(item) for item in page_items[3:]) + '</details>'
             if not page_items:
-                part += '<p class="small">' + ('Bez zmian komunikacji w porównanym zakresie.' if page['communication'].get('daily') else 'Nie ustalono zmian; zakres porównania opisano powyżej.') + '</p>'
+                part += '<p class="small">' + esc(page_finding(page, [], supporting)) + '</p>'
+            if supporting:
+                reasons = list(dict.fromkeys(e.get('supporting_reason', e.get('basis', 'Obserwacja pomocnicza')) for e in supporting))
+                part += '<details class="supporting-observations"><summary>Obserwacje pomocnicze (' + str(len(supporting)) + ')</summary><ul>' + ''.join('<li>' + esc(reason) + '</li>' for reason in reasons) + '</ul><p class="small">Pełne teksty i dowody są w dodatkowym dzienniku obserwacji.</p></details>'
             part += render_business_proofs(view['day'], page_items)
             if page['page'] == 'projekt':
                 price_events = [e for e in page['events'] if e['category'] == 'ceny']

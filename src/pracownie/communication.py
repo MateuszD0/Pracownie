@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import re
 from difflib import SequenceMatcher
+from urllib.parse import urlsplit
 
 from .extract import MONEY, canonical_url, money_text, normalize
 from .model import Change, Snapshot
@@ -16,7 +17,10 @@ from .model import Change, Snapshot
 CONTRACT = "communication-v1"
 NOISE = re.compile(r"cookies|ciastecz|polity[kc].{0,12}prywatno|ustawienia prywatno|privacy policy|privacy settings|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
 ROLES = {"heading": "Nagłówek", "banner": "Baner", "cta": "Wezwanie do działania", "text": "Treść", "image": "Źródło grafiki w zestawie banerów"}
-COUNTDOWN = re.compile(r"(?:\d+\s*(?:dni|dzień|days?)\s*)?\d+\s*godz\.?\s*\d+\s*min\.?\s*\d+\s*sek\.?", re.I)
+COUNTDOWN = re.compile(r"(?:\d+\s*(?:dni|dzień|days?)\s*)?(?:\d+\s*(?:godz\.?|h)\s*\d+\s*min\.?\s*\d+\s*(?:sek\.?|s)(?!\w)|\d{1,2}\s*:\s*\d{1,2}\s*:\s*\d{1,2}(?!\d))", re.I)
+# Some timers put each unit in a separate span. Match a whole fragment only:
+# delivery promises such as "Wysyłka w 24 godz." remain meaningful copy.
+TIMER_FRAGMENT = re.compile(r"^\d+\s*(?:godz\.?|min\.?|sek\.?)$", re.I)
 
 
 def clean(value: str, patterns: list[str] | None = None) -> str:
@@ -24,6 +28,8 @@ def clean(value: str, patterns: list[str] | None = None) -> str:
     # DOM text often joins cells as "02 dni01 godz.53 min.14 sek.". Mask only
     # the ticking duration, keeping discounts, copy and absolute end dates.
     value = COUNTDOWN.sub("[licznik]", value)
+    if TIMER_FRAGMENT.fullmatch(value):
+        return ""
     if MONEY.fullmatch(money_text(value)):
         return ""
     if NOISE.search(value) or not re.search(r"[a-ząćęłńóśźż]{3}", value, re.I):
@@ -58,13 +64,67 @@ def text_fragments(snapshot: Snapshot) -> set[str]:
 def category(before: str, after: str) -> str:
     text = before + " " + after
     for name, pattern in [("promocje", r"promoc|rabat|przecen|wyprzeda|kod rabat"),
-                          ("dodatki", r"gratis|bezpłat|za darmo|dodatk|kosztorys"),
-                          ("pakiety", r"pakiet|w cenie|dokumentac"),
+                          ("dodatki", r"gratis|bezpłat|za darmo|\bdodat(?:ek|ki|ków|ku|kiem|kami|kach|kowe|kowy|kowa|kową|kowych|kowego|kowej)\b|kosztorys"),
+                          ("pakiety", r"pakiet|w cenie"),
                           ("warunki", r"dostaw|wysył|termin|zwrot|gwaranc"),
                           ("funkcje", r"konfigur|kalkulator|personaliz")]:
         if re.search(pattern, text, re.I):
             return name
     return "komunikacja"
+
+
+def stable_element_key(key: str) -> bool:
+    """A DOM position is a slot, not an identity for its current text."""
+    return bool(key) and ":nth-" not in key and " > " not in key
+
+
+def pair_candidate(item: dict, options: list[dict]) -> dict | None:
+    matching = next((other for other in options if item.get("key") == other.get("key")), None)
+    if matching is not None:
+        if stable_element_key(item.get("key", "")) or SequenceMatcher(None, item["text"], matching["text"]).ratio() >= .65:
+            return matching
+    # For positional selectors, the content must corroborate a match. Otherwise
+    # report separate inventory additions/removals rather than an invented edit.
+    if options:
+        closest = max(options, key=lambda other: SequenceMatcher(None, item["text"], other["text"]).ratio())
+        if SequenceMatcher(None, item["text"], closest["text"]).ratio() >= .65:
+            return closest
+    return None
+
+
+def supporting_reason(snapshot: Snapshot, item: dict | None) -> str:
+    """Annotate only source-backed peripheral inventory, keeping the records."""
+    if not item:
+        return ""
+    key = item.get("key", "").removeprefix("body > ")
+    if key == "#similar-projects" or key.startswith("#similar-projects > "):
+        return "Element sekcji podobnych projektów; nie dotyczy stałej karty projektu."
+    if re.search(r"(?:^| > )project-list:nth-of-type\(\d+\) > ", key):
+        return "Element zapisanej listy projektów; obserwacja katalogu."
+    if snapshot.domain == "kreodom.pl" and re.match(r"#projects-tab\d+ > ", key):
+        return "Element zakładki katalogu projektów; nie zmiana oferty stałego projektu."
+    # This footer-like section has no <footer> tag. Its exact structure was
+    # verified against the retained keys and the source HTML for this site.
+    if (snapshot.domain == "dobredomy.pl" and snapshot.page == "projekt"
+            and key.startswith("section:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > ")
+            and item.get("role") == "cta"):
+        return "Link w katalogowej stopce Dobrych Domów; nie zmiana oferty stałego projektu."
+    for control in snapshot.document.get("payload", {}).get("controls", []):
+        if control.get("selector", "").removeprefix("body > ") != key:
+            continue
+        href = control.get("href", "")
+        target, current = urlsplit(href), urlsplit(snapshot.url)
+        if (target.hostname and target.hostname.removeprefix("www.") == (current.hostname or "").removeprefix("www.")
+                and canonical_url(href).rstrip("/") != canonical_url(snapshot.url).rstrip("/")
+                and re.search(r"/(?:projekt/[^/]+|projekt-domu-[^/]+|projekty/[^/]+)", target.path)):
+            return "Zapisany link prowadzi do innego projektu lub katalogu; nie do stałej karty."
+    return ""
+
+
+def ticking_activity(before: str, after: str) -> bool:
+    activity = r"\b(?:odsłon(?:a|y)?(?: projektu)?|os(?:ób|oby|oba)\s+przegląda|przegląda(?:ją)?\s+(?:ten\s+)?projekt)"
+    return bool(before and after and before != after and re.search(activity, before, re.I)
+                and re.sub(r"\d+", "[liczba]", before) == re.sub(r"\d+", "[liczba]", after))
 
 
 def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change]]:
@@ -110,11 +170,7 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     pairs = []
     for a in list(removed):
         options = [b for b in added if a["role"] == b["role"]]
-        b = next((b for b in options if a.get("key") and a["key"] == b.get("key")), None)
-        if b is None and options:
-            closest = max(options, key=lambda b: SequenceMatcher(None, a["text"], b["text"]).ratio())
-            if SequenceMatcher(None, a["text"], closest["text"]).ratio() >= .65:
-                b = closest
+        b = pair_candidate(a, options)
         if b is not None:
             removed.remove(a)
             added.remove(b)
@@ -128,6 +184,34 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
             continue
         item = b or a
         key = "communication:" + hashlib.sha256(repr((item["role"], old_value, new_value)).encode()).hexdigest()[:16]
-        changes.append(Change("changed" if a and b else "added" if b else "removed", category(old_value, new_value), ROLES.get(item["role"], "Treść"), old_value or None, new_value or None, before.observed_at, after.observed_at, (b or {}).get("url") or after.url, after.scenario, field_key=key, details={"communication": True, "role": item["role"], "basis": "Dwa zapisy tego samego zakresu komunikacji; porównano zestaw komunikatów, nie aktywny slajd"}))
-    output.update(status="changed" if changes else "unchanged", comparable=True, changes=len(changes), reason="", shared_unchanged=len(first.keys() & second.keys()), fragments_before=len(old))
+        details = {
+            "communication": True, "role": item["role"],
+            "unmatched": not (a and b),
+            "element_before": (a or {}).get("key", ""), "element_after": (b or {}).get("key", ""),
+            "pairing": "identity" if a and b and a.get("key") == b.get("key") and stable_element_key(a.get("key", "")) else "similarity" if a and b else "inventory",
+            "basis": "Dwa zapisy tego samego zakresu komunikacji; porównano zestaw komunikatów, nie aktywny slajd",
+        }
+        supporting = supporting_reason(before, a) or supporting_reason(after, b)
+        if ticking_activity(old_value, new_value):
+            supporting = "Zmieniła się wyłącznie liczba odsłon lub oglądających; treść komunikatu pozostała taka sama."
+        if supporting:
+            details["supporting_reason"] = supporting
+        kind = "changed" if a and b else "added" if b else "removed"
+        change_category = category(old_value, new_value)
+        if item["role"] == "image":
+            # A CDN deployment may change every URL while keeping all pixels.
+            # Keep the observation, without inferring a new feature/campaign
+            # from an accessible caption such as "Konfigurator domu".
+            kind, change_category = "review", "obraz"
+            details.update(
+                communication_asset=True, specific=False,
+                description="Zmiana adresu pliku grafiki; wygląd niepotwierdzony",
+                basis="Zapisano różne adresy plików. Sam adres ani opis grafiki nie potwierdza zmiany wyglądu lub oferty.",
+                asset_before=(a or {}).get("asset", ""), asset_after=(b or {}).get("asset", ""),
+            )
+        changes.append(Change(kind, change_category, ROLES.get(item["role"], "Treść"), old_value or None, new_value or None, before.observed_at, after.observed_at, (b or {}).get("url") or after.url, after.scenario, field_key=key, details=details))
+    asset_reviews = sum(bool(change.details.get("communication_asset")) for change in changes)
+    supporting_reviews = sum(bool(change.details.get("supporting_reason")) and not change.details.get("communication_asset") for change in changes)
+    copy_changes = len(changes) - asset_reviews - supporting_reviews
+    output.update(status="changed" if copy_changes else "unchanged", comparable=True, changes=copy_changes, asset_reviews=asset_reviews, supporting_reviews=supporting_reviews, reason="", shared_unchanged=len(first.keys() & second.keys()), fragments_before=len(old))
     return output, changes

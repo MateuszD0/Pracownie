@@ -76,10 +76,16 @@ def compose(day: str, document: str, readiness: dict, repo: str, report_url: str
     coverage = f"Świeże odczyty: {readiness.get('fresh', '?')}/{readiness.get('expected', '?')}; częściowe: {len(limited)}; brakujące: {len(missing)}."
     text = [title, coverage]
     sections = [f'<h1>{html.escape(title)}</h1><p>{html.escape(coverage)}</p>']
-    groups = [('Najważniejsze różnice biznesowe', tables[0], 6)]
+    def section_table(title: str, legacy_index: int):
+        heading = next((h for h in soup.find_all(['h2', 'h3']) if title in h.get_text(' ', strip=True)), None)
+        return heading.find_next('table') if heading else tables[legacy_index]
+
+    groups = [('Najważniejsze różnice biznesowe', section_table('Najważniejsze różnice biznesowe', 0), 6)]
     if len(tables) >= 3:
-        groups.append(('Grafika i wygląd — wybrane obserwacje', tables[1], 3))
+        groups.append(('Grafika i wygląd — wybrane obserwacje', section_table('Grafika i wygląd', 1), 3))
     for heading, table, limit in groups:
+        if table is None:
+            raise ValueError('Brak tabel w wymaganej sekcji porównania.')
         headers = table.select('thead th')
         rows = table.select('tbody tr')[:limit]
         if not rows:

@@ -9,6 +9,7 @@ from collections import Counter
 from decimal import Decimal
 
 from .journal import capture_day, relative_proof, safe_source
+from .signals import classify, implication, summary
 
 BUSINESS_BUCKETS = [
     ('promotions', 'Promocje i rabaty'), ('extras', 'Dodatki i pakiety'),
@@ -55,6 +56,8 @@ def group_changes(entries: list[dict]) -> list[dict]:
         item['observation_count'] = len(item['observation_ids'])
         item['business_bucket'] = business_bucket(item)
         item['business_type'] = dict(BUSINESS_BUCKETS)[item['business_bucket']]
+        item['summary'] = summary(item)
+        item['implication'] = implication(item)
         item['highlight_eligible'] = highlight_eligible(item)
         output.append(item)
     return sorted(output, key=business_priority)
@@ -62,7 +65,9 @@ def group_changes(entries: list[dict]) -> list[dict]:
 
 def build_management(view: dict) -> dict:
     journal = view['journal']
-    original = [e for e in journal if e['daily'] and e['category'] != 'ceny' and e.get('specific', e['category'] != 'obraz')]
+    candidates = [e for e in journal if e['daily'] and e['category'] != 'ceny' and e.get('specific', e['category'] != 'obraz')]
+    original, supporting = classify(candidates)
+    supporting_by_id = {e['id']: e for e in supporting}
     original_ids = {e['id'] for e in original}
     meaningful = group_changes(original)
     domains = []
@@ -88,7 +93,8 @@ def build_management(view: dict) -> dict:
         'items': meaningful,
         'source_ids': sorted(original_ids),
         'source_count': len(original),
-        'secondary': [e for e in journal if e['id'] not in original_ids],
+        'secondary': [supporting_by_id.get(e['id'], e) for e in journal if e['id'] not in original_ids],
+        'supporting': supporting,
         'business_buckets': [{'key': key, 'label': label,
                              'domains': len({e['domain'] for e in meaningful if e['business_bucket'] == key})}
                             for key, label in BUSINESS_BUCKETS],
@@ -115,6 +121,16 @@ def communication_summary(view: dict) -> str:
     return (finding +
             f'Pełne porównanie zapisanego zakresu: {complete}/{len(pages)} stron. '
             f'Dla {partial} stron sprawdzono zgodność fragmentów ze starszego skanu; to porównanie częściowe.')
+
+
+def page_finding(page: dict, items: list[dict], supporting: list[dict]) -> str:
+    if items:
+        return ' · '.join(item['summary'] for item in items[:2]) + (f' · i {len(items) - 2} dalszych zmian' if len(items) > 2 else '')
+    if not page.get('current_read') or not page.get('communication', {}).get('daily'):
+        return page.get('communication', {}).get('label', 'Brak porównania')
+    if supporting or page.get('communication', {}).get('asset_reviews'):
+        return 'Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach'
+    return 'Bez zmian w zapisanej komunikacji'
 
 
 def render_management(view: dict) -> str:
@@ -242,15 +258,16 @@ def render_quality_summary(view: dict) -> str:
 def render_communication_table(view: dict) -> str:
     esc = html.escape
     content = '<section id="communication-coverage" class="box"><h2>Porównanie dzień do dnia — każda pracownia</h2><p class="small">Jedna stała karta projektu i strona główna. Wybierz pracownię, aby zobaczyć treści przed / po i zrzuty. „Częściowe” nie oznacza „bez zmian”.</p><div class="table-box" tabindex="0" role="region" aria-label="Komunikacja we wszystkich pracowniach"><table class="communication-table"><thead><tr><th>Pracownia / stały projekt</th><th data-communication-header="glowna">Strona główna</th><th data-communication-header="projekt">Stała karta projektu</th><th>Porównanie i źródła</th></tr></thead><tbody>'
-    items = build_management(view)['items']
+    management = build_management(view)
+    items = management['items']
     for row in sorted(view['rows'], key=lambda r: (not any(e['domain'] == r['domain'] for e in items), r['domain'])):
         content += '<tr data-communication-domain="' + esc(row['domain'], quote=True) + '"><td><strong>' + esc(row['domain']) + '</strong><br><span class="small">Stały projekt: ' + ('<a href="' + esc(safe_source(row['url']), quote=True) + '" target="_blank" rel="noopener">' + esc(row['name']) + '</a>' if safe_source(row['url']) else esc(row['name'])) + '</span></td>'
         for page in row['pages']:
-            c = page.get('communication', {})
             stamp = (capture_day(page['compared_at']) or 'brak bazy') + ' → ' + (capture_day(page['observed_at']) or 'brak odczytu')
             page_items = [e for e in items if e['domain'] == row['domain'] and e['page'] == page['page']]
-            label = f"Różne zmiany komunikacji: {len(page_items)}" if page_items else c.get('label', 'Brak porównania')
-            content += '<td data-communication-page="' + page['page'] + '"><strong data-change-label data-fallback="' + esc(c.get('label', 'Brak porównania'), quote=True) + '">' + esc(label) + '</strong><br><span class="small">' + esc(stamp) + '</span>'
+            supporting = [e for e in management['secondary'] if e['domain'] == row['domain'] and e['page'] == page['page'] and e['daily'] and e['category'] != 'ceny']
+            label = page_finding(page, page_items, supporting)
+            content += '<td data-communication-page="' + page['page'] + '"><strong data-change-label data-fallback="' + esc(page_finding(page, [], supporting), quote=True) + '">' + esc(label) + '</strong><br><span class="small">' + esc(stamp) + '</span>'
             categories = Counter(e['business_bucket'] for e in page_items)
             for key, title in BUSINESS_BUCKETS:
                 if categories[key]:

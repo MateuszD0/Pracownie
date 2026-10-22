@@ -24,6 +24,14 @@ def supporting_reason(item: dict) -> str:
     description = item.get('description', '')
     if item.get('supporting_reason'):
         return item['supporting_reason']
+    # Verified theme script: /wp-content/themes/hexagreen/js/info-section-counter.js.
+    # It animates these headline numbers. Archived text and visual measurements
+    # from the same capture even disagree (139 vs 138; 133 vs 130).
+    # Do not infer the end value from a historical mid-animation observation.
+    if item.get('domain') == 'hexagreen.pl' and texts and all(
+        re.fullmatch(r'\d+\+ (?:autorskich projektów domów|realizacji #domyHexaGreen)', t) for t in texts
+    ) and item['category'] in {'komunikacja', 'tresc', 'obraz'}:
+        return 'Animowany licznik na stronie; odczyt w trakcie animacji nie potwierdza zmiany liczby projektów ani realizacji.'
     selected = re.search(r'(?:^| / )Projekt:\s*:?\s*([^/]+)', item.get('context', ''), re.I)
     if selected and normalized(selected[1]) not in normalized(item.get('project', '')):
         return 'Interakcja wybrała inny projekt niż zapamiętana karta; poza zakresem porównania tej oferty.'
@@ -40,9 +48,10 @@ def supporting_reason(item: dict) -> str:
                 return 'Drobne przesunięcie układu; nie ustalono zmiany komunikacji.'
     if 'ue_push_dialog' in item.get('source', ''):
         return 'Okno powiadomień mogło pojawić się zależnie od sesji.'
-    if texts and all(normalized(t) in {'odrzucać', 'odrzuć', 'dostosuj', 'akceptuj', 'akceptuj wszystkie', 'zaakceptuj wszystkie'} for t in texts):
+    if texts and all(normalized(t) in {'odrzucać', 'odrzuć', 'dostosuj', 'akceptuj', 'akceptuj wszystko', 'zaakceptuj wszystko', 'akceptuj wszystkie', 'zaakceptuj wszystkie'} for t in texts):
         return 'Kontrolka zgód lub ustawień sesji; nie zmiana komunikacji oferty.'
-    if texts and all(re.match(r'(?i)^(?:projekt\b|projekty dom|więcej informacji o projekcie|domy z |dom z |dom bez |nasza stodoła)', t) for t in texts) and item['category'] in {'komunikacja', 'funkcje', 'tresc'}:
+    offer_claim = any(re.search(r'\brabat|\bgratis|\bpakiet|\bdodat|\bpromocj|\bw cenie\b|\bbezpłat', t, re.I) for t in texts)
+    if texts and not offer_claim and all(re.match(r'(?i)^(?:projekt\b|projekty dom|więcej informacji o projekcie|domy z |dom z |dom bez |nasza stodoła)', t) for t in texts) and item['category'] in {'komunikacja', 'funkcje', 'tresc'}:
         return 'Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.'
     if texts and all(re.search(r'\d\s*m[²2]', t) for t in texts) and item.get('communication_role') in {'banner', 'heading', 'cta'}:
         return 'Zmiana pozycji lub parametrów w prezentowanym katalogu; nie ustalono zmiany stałego projektu.'

@@ -111,6 +111,7 @@ async def test_connected_scans_show_observations_and_open_their_own_evidence(exe
         assert await page.locator('dialog img[src="option-before.png"]').count() == 1
         assert 'Rabat 20%' in await page.locator('dialog').inner_text()
         await page.locator('#close').click()
+        await page.locator('.filter-disclosure > summary').click()
         await page.locator('#page-filter').select_option('projekt')
         assert not await page.locator('#observations .event:visible').count()
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
@@ -216,6 +217,7 @@ async def test_report_renders_both_pages_with_and_without_javascript(executable)
             assert "4 290,00 zł" in await page.locator('.daily-page[data-page="projekt"]').inner_text()
             assert not await page.locator('.day-domain img[src="x"]').count()
             if scripts:
+                await page.locator(".filter-disclosure > summary").click()
                 await page.locator("#page-filter").select_option("glowna")
                 assert not await page.locator('.daily-page[data-page="projekt"]').is_visible()
                 await page.locator("#search").fill("brak-domeny")

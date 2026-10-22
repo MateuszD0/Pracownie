@@ -5,6 +5,7 @@ import re
 
 import httpx
 import pytest
+from bs4 import BeautifulSoup
 from test_github import FakeGitHub, prepare
 from test_management_dashboard import management_view
 
@@ -20,7 +21,7 @@ def test_readable_dashboard_has_all_firms_both_pages_and_business_changes():
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
     assert len(docs) == 3
     assert '[test.pl](dashboard/testpl.md)' in text
-    text = '\n'.join(docs.values())
+    text = BeautifulSoup('\n'.join(docs.values()), 'html.parser').get_text()
     assert text.count('## Strona główna') == text.count('## Karta projektu') == len(view['rows'])
     assert 'Rabat 10%' in text and 'Rabat 20%' in text and 'gratis' in text
     assert 'Brak odczytu' in text and '403' in text
@@ -101,7 +102,7 @@ def test_company_pagination_keeps_every_difference_and_avoids_false_unchanged_la
     company = [text for name, text in docs.items() if name.startswith('dashboard/testpl')]
     assert len(company) == 3
     for i in range(70):
-        assert sum(f'Komunikat {i} ·' in text for text in company) == 1
+        assert sum(f'Komunikat {i} |' in text for text in company) == 1
     assert all('Ten sam projekt:' in text and '## Strona główna' in text and '## Karta projektu' in text for text in company)
     assert all(len(text.encode()) < 64_000 for text in docs.values())
     assert '[2](testpl-2.md)' in docs['dashboard/testpl.md']

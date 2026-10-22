@@ -6,8 +6,9 @@ import re
 from urllib.parse import quote
 
 from .journal import safe_source
-from .management import brief, build_management, business_highlights, page_finding
+from .management import brief, build_management, page_finding
 from .presentation import when
+from .readout import digest_groups
 
 
 def cell(value) -> str:
@@ -24,14 +25,31 @@ def company_anchor(domain: str) -> str:
     return re.sub(r'[^a-z0-9_-]', '', domain.casefold())
 
 
-def change_row(item: dict) -> str:
-    label = item['business_type'] + ' · ' + item['description']
-    if item.get('context'):
-        label += ' · ' + item['context']
-    def value(text):
-        return link('Otwórz grafikę', text) if item['category'] == 'obraz' and re.fullmatch(r'https?://\S+', str(text)) else cell(brief(text, 240))
+def diff_cell(item: dict, side: str) -> str:
+    def fragment(part):
+        # Unlike a complete cell, a diff segment must keep boundary spaces.
+        text = html.escape(re.sub(r'\s+', ' ', part['text']), quote=False).replace('\\', '\\\\')
+        text = re.sub(r'([|\[\]*_`])', r'\\\1', text)
+        return '<strong>' + text + '</strong>' if part['changed'] and text.strip() else text
+    return ''.join(fragment(part) for part in item['readout'][side])
 
-    return '| ' + ' | '.join([cell(label), value(item['before']), value(item['after']), link('Otwórz stronę', item['source'])]) + ' |'
+
+def change_row(item: dict) -> str:
+    label = item['business_type'] + ' · ' + item['readout']['title']
+    if item.get('context') and item['context'] not in {'Strona główna', 'Karta projektu'}:
+        label += ' · ' + item['context']
+    return '| ' + ' | '.join([cell(label), diff_cell(item, 'before'), diff_cell(item, 'after'), link('Otwórz stronę', item['source'])]) + ' |'
+
+
+def proof_pair(evidence: dict, previews: dict, before_at: str, after_at: str) -> list[str]:
+    keys = ['fragment_przed', 'fragment_po'] if all(evidence.get(k) in previews for k in ['fragment_przed', 'fragment_po']) else ['przed', 'po']
+    if not all(evidence.get(k) in previews for k in keys):
+        return []
+    images = ['![' + label + '](' + quote(safe_source(previews[evidence[k]]), safe=":/?#[]@!$&'*+,;=%") + ')' for k, label in zip(keys, ['Przed', 'Po'], strict=True)]
+    return ['<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>', '',
+            '| Przed · ' + cell(when(before_at)) + ' | Po · ' + cell(when(after_at)) + ' |', '| --- | --- |',
+            '| ' + ' | '.join(images) + ' |', '',
+            'Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.', '', '</details>', '']
 
 
 def proof_links(evidence: dict, previews: dict) -> str:
@@ -53,36 +71,70 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     home_complete = sum(p['page'] == 'glowna' and bool(p.get('communication', {}).get('daily')) for p in pages)
     project_complete = sum(p['page'] == 'projekt' and bool(p.get('communication', {}).get('daily')) for p in pages)
     history = 'https://github.com/' + report_url.split('github.com/')[-1].split('/releases/')[0] + '/blob/main/' + filename.replace('DASHBOARD', 'RAPORTY', 1)
-    lines = ['# Dzienny dashboard pracowni', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i jedna zapamiętana karta projektu każdej pracowni.", '']
+    groups = digest_groups(data['items'])
+    # The overview links to the page containing the representative change.
+    targets = {}
+    for domain, entries in domains.items():
+        for index, item in enumerate(entries):
+            suffix = f'-{index // 25 + 1}' if index >= 25 else ''
+            anchor = 'strona-główna' if item['page'] == 'glowna' else 'karta-projektu'
+            targets[item['id']] = folder + '/' + names[domain] + suffix + '.md#' + anchor
+    lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
+             f"**Zmiany w {data['metrics']['communication']} pracowniach** · **Obie strony porównane: {complete_firms}/{len(view['rows'])} pracowni.**", '']
     if observed:
-        lines += [f"Dane z odczytów: **{when(observed[0])} – {when(observed[-1])}**, czas polski.", '']
-    lines += [f"**Obie strony porównane: {complete_firms}/{len(view['rows'])} pracowni.** Strony główne: {home_complete}/{len(view['rows'])} · stałe projekty: {project_complete}/{len(view['rows'])}.", '',
-              f"Ustalone zmiany: **{data['metrics']['communication']} pracowni**. Zestawienie dotyczy komunikacji, promocji, dodatków i wyglądu. Rotacja polecanych projektów, adresy plików i niezgodne konteksty są w obserwacjach pomocniczych.", '']
-    lines += [f"Pełne porównanie komunikacji: **{complete}/{len(pages)} stron**. Brak odczytu lub częściowa historia nie oznaczają braku zmian.", '', link('Historia dni', history) + ' · ' + link('Pliki i pełne zrzuty', report_url), '', '## Najważniejsze różnice biznesowe', '', ' · '.join(cell(b['label']) + ': **' + (str(b['domains']) if complete or b['domains'] else '—') + '** pracowni' for b in data['business_buckets']), '', '| Pracownia / strona | Co się zmieniło | Było | Jest | Źródło |', '| --- | --- | --- | --- | --- |']
-    for item in business_highlights(data['items']):
-        lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(item['business_type'] + ' · ' + item['description']), cell(brief(item['before'], 240)), cell(brief(item['after'], 240)), link('Otwórz stronę', item['source']) + ' ' + proof_links(item['evidence'], previews)]) + ' |']
-    if not business_highlights(data['items']):
-        lines += ['| Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie. | | | | |']
-    lines += ['', '„Brak” oznacza brak komunikatu w danym zapisie. Zniknięcie hasła promocyjnego nie dowodzi zakończenia promocji. Porównania dotyczą zapisanej treści; dodatkowe interakcje mogą mieć niepełne pokrycie.', '']
-    visual_facts = [item for item in data['items'] if item['category'] == 'obraz']
-    lines += ['', '## Grafika i wygląd', '', 'Banery i zdjęcia, kolory, typografia oraz układ elementów. Zmiana zrzutu bez ustalonej przyczyny jest sygnałem do obejrzenia, a nie potwierdzeniem przebudowy strony czy nowej kampanii.', '', f"Opisane zmiany: **{len({e['domain'] for e in visual_facts})} pracowni** · różnice obrazu bez jednoznacznego opisu: **{len({e['domain'] for e in visual_reviews})} pracowni**. Jedna pracownia może występować w obu grupach.", '']
-    visual_highlights, seen = [], set()
-    for item in visual_facts + visual_reviews:
-        if item['domain'] not in seen:
-            visual_highlights.append(item)
-            seen.add(item['domain'])
-        if len(visual_highlights) == 6:
-            break
-    if visual_highlights:
-        lines += ['Wybrane przykłady; wszystkie obserwacje są w porównaniach poszczególnych pracowni.', '', '| Pracownia / strona | Co wykryto | Podstawa |', '| --- | --- | --- |']
-        for item in visual_highlights:
-            description = item['description'] + (': ' + brief(item['before'], 95) + ' → ' + brief(item['after'], 95) if item.get('specific') else '')
-            lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(description), ('Zrzuty i właściwość elementu' if item.get('specific') else 'Różnica zrzutów; przyczyna niepotwierdzona') + ' ' + proof_links(item['evidence'], previews)]) + ' |']
-    else:
-        lines += ['Brak wiarygodnych obserwacji zmian graficznych dzień do dnia w zapisanym zakresie.']
-    lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby przeczytać jej porównanie strony głównej i stałej karty projektu. Pełne porównania są podzielone na krótkie strony, aby wyświetlały się bezpośrednio w GitHubie.', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- |']
+        lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski.", '']
+    lines += ['[Zmiany](#najważniejsze-różnice-biznesowe) · [Grafika i wygląd](#grafika-i-wygląd) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '',
+              f"Zakres: strony główne **{home_complete}/{len(view['rows'])}**, stałe projekty **{project_complete}/{len(view['rows'])}**. Pełne porównanie: **{complete}/{len(pages)} stron**. Brakujące dane nie oznaczają braku zmian.", '',
+              '## Najważniejsze różnice biznesowe', '',
+              'Każda pracownia, strona i temat ze zmianą mają własny wiersz. **Pogrubienie wskazuje zmienione słowa.** Do trzech porównań na temat; pozostałe są pod linkiem „Porównaj”.', '',
+              '| Pracownia / temat | Wczoraj | Dzisiaj | Dowód i szczegóły |', '| --- | --- | --- | --- |']
+    digest_pages, digest_rows, digest_bytes = [], [], 0
+    for group in groups:
+        entries = group['items'][:3]
+        label = f"[{cell(group['domain'])}]({targets[group['id']]})<br>" + ('Strona główna' if group['page'] == 'glowna' else 'Stały projekt') + '<br>**' + cell(group['business_type']) + '**'
+        values = ['<br><br>'.join('<em>' + (str(index + 1) + '. ' if group['count'] > 1 else '') + cell(e['readout']['title']) + '</em><br>' + diff_cell(e, side) for index, e in enumerate(entries)) for side in ['before', 'after']]
+        more = f"<br>+{group['count'] - 3} dalszych zmian" if group['count'] > 3 else ''
+        evidence = '[Porównaj →](' + targets[group['id']] + ')' + more + '<br>' + link('Otwórz stronę', entries[0]['source'])
+        digest_row = '| ' + ' | '.join([label, *values, evidence]) + ' |'
+        if digest_rows and digest_bytes + len(digest_row.encode()) > 24_000:
+            digest_pages.append(digest_rows)
+            digest_rows, digest_bytes = [], 0
+        digest_rows.append(digest_row)
+        digest_bytes += len(digest_row.encode())
+    digest_pages.append(digest_rows)
+    lines += digest_pages[0]
+    digest_documents = {}
+    if len(digest_pages) > 1:
+        navigation = ' · '.join('[Dalsze zmiany ' + str(i + 1) + '](' + folder + f'/zmiany-{i + 1}.md)' for i in range(1, len(digest_pages)))
+        lines += ['', f"Pokazano **{len(digest_pages[0])}/{len(groups)} tematów**. " + navigation, '']
+        for index, rows in enumerate(digest_pages[1:], 2):
+            digest_documents[folder + f'/zmiany-{index}.md'] = '\n'.join([
+                '# Dalsze zmiany — ' + cell(view['day']), '', '[← Podsumowanie dnia](../' + filename + ')', '',
+                f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · część {index}/{len(digest_pages)}", '',
+                '| Pracownia / temat | Wczoraj | Dzisiaj | Dowód i szczegóły |', '| --- | --- | --- | --- |',
+                *[r.replace('](' + folder + '/', '](') for r in rows], '',
+                navigation.replace('](' + folder + '/', ']('), ''])
+    if not groups:
+        lines += ['| Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie. | | | |']
+    lines += ['', '„Nie odnotowano w tym odczycie” oznacza brak tekstu w zapisanym widoku. Nie oznacza wycofania oferty ani zakończenia promocji.', '',
+              '## Grafika i wygląd', '',
+              'Opisane zmiany wyglądu są w tabeli powyżej. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.', '',
+              f"różnice obrazu bez jednoznacznego opisu: **{len({e['domain'] for e in visual_reviews})} pracowni**.", '',
+              '<details><summary>Rozwiń dodatkowe obserwacje wyglądu</summary>', '', '| Pracownia / strona | Co wykryto | Podstawa |', '| --- | --- | --- |']
+    seen_visual = set()
+    for item in visual_reviews:
+        key = item['domain'], item['page']
+        if key in seen_visual:
+            continue
+        seen_visual.add(key)
+        anchor = 'strona-główna' if item['page'] == 'glowna' else 'karta-projektu'
+        lines += ['| ' + ' | '.join([f"[{cell(item['domain'])}]({folder}/{names[item['domain']]}.md#{anchor}) · " + ('główna' if item['page'] == 'glowna' else 'stały projekt'), cell(item['description']), 'Różnica zrzutów; przyczyna niepotwierdzona. ' + proof_links(item['evidence'], previews)]) + ' |']
+    if not seen_visual:
+        lines += ['| Brak dodatkowych różnic obrazu w porównaniu dzień do dnia. | | |']
+    lines += ['', '</details>', '']
+    lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalonej zmiany” dotyczy wyłącznie zapisanego zakresu.', '', '<details><summary>Rozwiń listę wszystkich pracowni i kompletność odczytów</summary>', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- |']
     ordered = sorted(view['rows'], key=lambda row: (not domains[row['domain']], row['domain']))
-    documents = {}
+    documents = digest_documents
     for row in ordered:
         items = domains[row['domain']]
         labels = []
@@ -90,22 +142,28 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             changes = [item for item in items if item['page'] == page['page']]
             supporting = [e for e in data['secondary'] if e['domain'] == row['domain'] and e['page'] == page['page'] and e['daily'] and e['category'] != 'ceny']
             review = any(e['domain'] == row['domain'] and e['page'] == page['page'] for e in visual_reviews)
-            label = page_finding(page, changes, supporting)
+            label = (str(len(changes)) + ' zmian · ' + ', '.join(dict.fromkeys(e['business_type'] for e in changes))) if changes else page_finding(page, [], supporting)
             labels += [cell(label + (' · obraz do obejrzenia' if review else ''))]
         lines += [f"| [{cell(row['domain'])}]({folder}/{names[row['domain']]}.md) | " + ' | '.join(labels) + ' |']
         chunks = [items[i:i + 25] for i in range(0, len(items), 25)] or [[]]
         paths = [folder + '/' + names[row['domain']] + (f'-{i + 1}' if i else '') + '.md' for i in range(len(chunks))]
         for index, chunk in enumerate(chunks):
             navigation = ' · '.join((f'**{i + 1}**' if i == index else f'[{i + 1}]({path.rsplit("/", 1)[-1]})') for i, path in enumerate(paths))
-            content = ['# ' + cell(row['domain']), '', '[← Wszystkie pracownie](../' + filename + ')', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}**", '', '**Ten sam projekt:** ' + link(row['name'], row['url']), '', f"Różnice tej pracowni: **{len(items)}**. Strona **{index + 1}/{len(chunks)}** · pokazano **{len(chunk)}** wpisów.", '', 'Strony porównania: ' + navigation, '', 'Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.', '']
+            content = ['# ' + cell(row['domain']), '', '[← Wszystkie pracownie](../' + filename + ')', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}**", '', '**Ten sam projekt:** ' + link(row['name'], row['url']), '', '**' + (str(len(items)) + ' zmian w zapisanym zakresie.' if items else 'Bez ustalonych zmian biznesowych w zapisanym zakresie.' if all(p.get('communication', {}).get('daily') for p in row['pages']) else 'Niepełne porównanie — sprawdź zakres obu stron.') + '**', '', 'Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.', '']
+            if len(chunks) > 1:
+                content += ['Strony porównania: ' + navigation, '']
             for page in row['pages']:
                 page_items = [item for item in chunk if item['page'] == page['page']]
                 total = sum(item['page'] == page['page'] for item in items)
                 content += ['## ' + cell(page['label']), '', link('Otwórz stronę źródłową', page['url']), '', '**Odczyty:** ' + when(page['compared_at']) + ' → ' + when(page['observed_at']) + ' (czas polski).', '']
                 if page_items:
                     content += ['| Zmiana / miejsce | Było | Jest | Źródło |', '| --- | --- | --- | --- |', *[change_row(item) for item in page_items], '']
-                    images = list(dict.fromkeys(url for item in page_items for path, url in previews.items() if path in item['evidence'].values()))
-                    content += [link('Podgląd zapisanej zmiany', url) for url in images]
+                    long_items = [e for e in page_items if max(len(str(e['before'])), len(str(e['after']))) > 220]
+                    if long_items:
+                        content += ['<details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>', '']
+                        for e in long_items:
+                            content += ['**' + cell(e['readout']['title']) + '**', '', '**Było:** ' + cell(brief(e['before'], 600)), '', '**Jest:** ' + cell(brief(e['after'], 600)), '']
+                        content += ['</details>', '']
                 elif total:
                     content += [f'Pozostałe strony tego porównania zawierają {total} różnic tej strony; użyj numerów stron powyżej.', '']
                 else:
@@ -114,10 +172,12 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                 if page.get('error_text'):
                     content += ['Powód braku odczytu: ' + cell(page['error_text']), '']
                 if index == 0:
-                    evidence = next((e['evidence'] for e in items if e['page'] == page['page'] and proof_links(e['evidence'], previews)), page.get('evidence', {}))
+                    witness = next((e for e in items if e['page'] == page['page'] and proof_links(e['evidence'], previews)), None)
+                    evidence = witness['evidence'] if witness else page.get('evidence', {})
                     proofs = proof_links(evidence, previews)
                     if proofs:
-                        content += ['**Zapisane zrzuty — podgląd przed / po:** ' + proofs, '']
+                        content += ['**Zapisane zrzuty:** ' + proofs, '']
+                        content += proof_pair(evidence, previews, witness['before_at'] if witness else page['compared_at'], witness['after_at'] if witness else page['observed_at'])
                     supporting = [e for e in data['supporting'] if e['domain'] == row['domain'] and e['page'] == page['page']]
                     if supporting:
                         reasons = list(dict.fromkeys(e['supporting_reason'] for e in supporting))
@@ -128,11 +188,13 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                     for item in visual_reviews:
                         if item['domain'] == row['domain'] and item['page'] == page['page']:
                             content += ['### Grafika i wygląd — różnica do obejrzenia', '', '**' + cell(item['description']) + '**', '', 'Porównanie: ' + when(item['before_at']) + ' → ' + when(item['after_at']) + ' (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.', '', link('Otwórz stronę', item['source']), '']
-                            content += [link('Podgląd zapisanej zmiany', url) for path, url in previews.items() if path in item['evidence'].values()]
+                            content += [proof_links(item['evidence'], previews), '']
             if downloads.get('html'):
                 content += [link('Zrzuty przed / po — pobierz pełne porównanie HTML', downloads['html']), '']
-            content += ['Strony porównania: ' + navigation, '']
+            if len(chunks) > 1:
+                content += ['Strony porównania: ' + navigation, '']
             documents[paths[index]] = '\n'.join(content) + '\n'
+    lines += ['', '</details>', '', link('Pliki raportu i pełne zrzuty', report_url), '']
     documents[filename] = '\n'.join(lines) + '\n'
     return documents
 

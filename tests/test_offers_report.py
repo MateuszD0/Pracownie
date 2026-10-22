@@ -205,6 +205,7 @@ async def test_html_search_filter_dialog_and_embedded_content(executable, tmp_pa
         page.on("pageerror", lambda error: errors.append(str(error)))
         await page.set_content(target.read_text())
         await page.locator('#all-prices > summary').click()
+        await page.locator('.filter-disclosure > summary').click()
         await page.locator('[data-filter="price"]').click()
         assert await page.locator("#rows tr").count() == 1
         await page.locator("#search").fill("nieistnieje")

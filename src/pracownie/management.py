@@ -7,8 +7,10 @@ import html
 import re
 from collections import Counter
 from decimal import Decimal
+from urllib.parse import urldefrag
 
 from .journal import capture_day, relative_proof, safe_source
+from .readout import digest_groups, readout
 from .signals import classify, implication, summary
 
 BUSINESS_BUCKETS = [
@@ -59,8 +61,27 @@ def group_changes(entries: list[dict]) -> list[dict]:
         item['summary'] = summary(item)
         item['implication'] = implication(item)
         item['highlight_eligible'] = highlight_eligible(item)
+        item['readout'] = readout(item)
         output.append(item)
-    return sorted(output, key=business_priority)
+    # A heading can be captured by both the copy and visual extractors.
+    # Merge only exact content, time, scenario and source-page matches.
+    copies = {}
+    def same_capture(item):
+        return (item['domain'], item['page'], item.get('scenario'), item['before_at'], item['after_at'],
+                urldefrag(item['source'])[0], item['before'], item['after'])
+    for item in output:
+        if item['category'] != 'obraz':
+            copies.setdefault(same_capture(item), []).append(item)
+    merged = []
+    for item in output:
+        matches = copies.get(same_capture(item), [])
+        if item['category'] == 'obraz' and item['description'].startswith('Widoczny nagłówek:') and len(matches) == 1:
+            match = matches[0]
+            match['observation_ids'].extend(item['observation_ids'])
+            match['observation_count'] = len(match['observation_ids'])
+        else:
+            merged.append(item)
+    return sorted(merged, key=business_priority)
 
 
 def build_management(view: dict) -> dict:
@@ -129,21 +150,24 @@ def page_finding(page: dict, items: list[dict], supporting: list[dict]) -> str:
     if not page.get('current_read') or not page.get('communication', {}).get('daily'):
         return page.get('communication', {}).get('label', 'Brak porównania')
     if supporting or page.get('communication', {}).get('asset_reviews'):
-        return 'Brak ustalonej zmiany biznesowej; obserwacje pomocnicze w szczegółach'
+        return 'Bez ustalonej zmiany · obserwacje w szczegółach'
     return 'Bez zmian w zapisanej komunikacji'
 
 
 def render_management(view: dict) -> str:
     metrics = build_management(view)['metrics']
     measured = any(p.get('communication', {}).get('daily') for r in view['rows'] for p in r['pages'])
-    content = '<section class="box executive" id="executive" aria-labelledby="summary-title"><h2 id="summary-title">Podsumowanie dnia</h2><p id="management-summary" aria-live="polite">' + html.escape(communication_summary(view)) + '</p>'
-    content += '<p class="small" id="management-scope">' + html.escape(view['comparison']['before_day']) + ' → ' + html.escape(view['day']) + '. Brak porównywalnego zapisu nie oznacza braku zmian. Ceny nie ograniczają porównania komunikatów.</p></section>'
+    pages = [p for row in view['rows'] for p in row['pages']]
+    complete = sum(bool(p.get('communication', {}).get('daily')) for p in pages)
+    overview = f"Pełne porównanie: {complete}/{len(pages)} stron. Brakujące dane nie oznaczają braku zmian."
+    content = '<section class="box executive" id="executive" aria-labelledby="summary-title"><h2 id="summary-title">Podsumowanie dnia</h2><p id="management-summary" aria-live="polite">' + html.escape(overview) + '</p>'
+    content += '<p class="small" id="management-scope">' + html.escape(view['comparison']['before_day']) + ' → ' + html.escape(view['day']) + ' · strona główna i ta sama karta projektu.</p></section>'
     content += '<div class="stats management-stats" id="management-stats">'
-    for key, label, note in [('communication', 'Pracownie ze zmianą komunikacji', 'potwierdzone komunikaty lub opisane zmiany wyglądu'), ('home_changes', 'Zmiany na stronach głównych', 'pracowni · nagłówki, banery, CTA i treść'), ('project_changes', 'Zmiany na kartach projektów', 'pracowni · opis, argumenty oferty, dodatki i CTA')]:
+    for key, label, note in [('communication', 'Pracownie ze zmianą', 'potwierdzone komunikaty lub opisane zmiany wyglądu'), ('home_changes', 'Strony główne', 'pracowni · nagłówki, banery, CTA i treść'), ('project_changes', 'Karty projektów', 'pracowni · opis, argumenty oferty, dodatki i CTA')]:
         value = str(metrics[key]) if measured or metrics[key] else '—'
         content += '<div class="stat"><span>' + label + '</span><strong id="metric-' + key + '">' + value + '</strong><span>' + note + '</span></div>'
     content += '</div>'
-    return render_business_summary(view) + content
+    return content + render_business_summary(view)
 
 
 def render_quality_panel(view: dict) -> str:
@@ -183,35 +207,48 @@ def business_highlights(items: list[dict], limit=6) -> list[dict]:
     return selected
 
 
+def parts_html(parts: list[dict]) -> str:
+    return ''.join(('<strong class="changed-token">' + html.escape(p['text']) + '</strong>') if p['changed'] else html.escape(p['text']) for p in parts)
+
+
 def render_business_summary(view: dict) -> str:
     esc = html.escape
     data = build_management(view)
-    measured = any(p.get('communication', {}).get('daily') for r in view['rows'] for p in r['pages'])
-    content = '<section id="business-summary" class="box"><h2>Najważniejsze różnice biznesowe dzień do dnia</h2><p class="small">Porównanie: ' + esc(view['comparison']['before_day']) + ' → ' + esc(view['day']) + '. Strona główna i ten sam projekt każdej pracowni.</p><div id="business-buckets" class="business-buckets">'
+    groups = digest_groups(data['items'])
+    measured = any(p.get('communication', {}).get('daily') for row in view['rows'] for p in row['pages'])
+    content = '<section id="business-summary" class="box"><h2>Najważniejsze różnice biznesowe dzień do dnia</h2><p class="small">' + esc(view['comparison']['before_day']) + ' → ' + esc(view['day']) + ' · strona główna i ten sam projekt. Pogrubienie wskazuje zmienione słowa.</p>'
+    content += '<div id="business-buckets" class="business-buckets">'
     for bucket in data['business_buckets']:
-        number = str(bucket['domains']) if measured or bucket['domains'] else '—'
-        content += '<div><strong data-business-metric="' + bucket['key'] + '">' + number + '</strong><span>' + bucket['label'] + '</span><small>pracowni ze zmianą</small></div>'
-    content += '</div><div class="table-box"><table class="business-table"><thead><tr><th>Pracownia / strona</th><th>Zmiana</th><th>Było</th><th>Jest</th><th>Sprawdź</th></tr></thead><tbody id="business-highlights">'
-    highlights = business_highlights(data['items'])
-    for item in highlights:
-        content += '<tr data-business-domain="' + esc(item['domain'], quote=True) + '"><td><strong>' + esc(item['domain']) + '</strong><br><span class="small">' + ('Strona główna' if item['page'] == 'glowna' else 'Stała karta projektu') + '</span></td><td>' + esc(item.get('business_type', item['type']) + ' · ' + item['description']) + '</td><td>' + esc(brief(item['before'])) + '</td><td>' + esc(brief(item['after'])) + '</td><td><a data-company-link href="#firma-' + item['id'] + '">Porównaj pracownię</a><br><a href="' + esc(safe_source(item['source']), quote=True) + '" target="_blank" rel="noopener">Źródło zmiany</a></td></tr>'
-    if not highlights:
-        content += '<tr><td colspan="5">Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie.</td></tr>'
-    total = data['metrics']['communication']
-    return content + '</tbody></table></div><p class="small" id="business-count">Wybrane konkretne różnice: ' + str(len(highlights)) + ' pracowni. Wszystkie pracownie ze zmianami: ' + str(total) + '. Pełne porównanie każdej pracowni jest poniżej; ceny są w szczegółach.</p></section>'
+        content += '<span><strong data-business-metric="' + bucket['key'] + '">' + (str(bucket['domains']) if measured or bucket['domains'] else '—') + '</strong> ' + bucket['label'] + '</span>'
+    content += '</div><div class="table-box"><table class="business-table"><thead><tr><th>Pracownia / temat</th><th>Wczoraj</th><th>Dzisiaj</th><th>Dowód i szczegóły</th></tr></thead><tbody id="business-highlights">'
+    for group in groups:
+        entries = group['items'][:3]
+        content += '<tr data-business-domain="' + esc(group['domain'], quote=True) + '"><td data-label="Pracownia / temat"><strong>' + esc(group['domain']) + '</strong><br><span class="small">' + ('Strona główna' if group['page'] == 'glowna' else 'Stała karta projektu') + '</span><br><span class="topic">' + esc(group['business_type']) + '</span></td>'
+        for side, label in [('before', 'Wczoraj'), ('after', 'Dzisiaj')]:
+            content += '<td data-label="' + label + '">' + ''.join('<div class="digest-value"><small>' + (str(index + 1) + '. ' if group['count'] > 1 else '') + esc(e['readout']['title']) + '</small>' + parts_html(e['readout'][side]) + '</div>' for index, e in enumerate(entries)) + '</td>'
+        content += '<td data-label="Dowód i szczegóły"><a data-company-link href="#firma-' + group['id'] + '">Porównaj przed / po</a><br><a href="' + esc(safe_source(entries[0]['source']), quote=True) + '" target="_blank" rel="noopener">Otwórz stronę</a>'
+        if group['count'] > 3:
+            content += '<p class="small">+' + str(group['count'] - 3) + ' dalszych zmian w szczegółach</p>'
+        content += '</td></tr>'
+    if not groups:
+        content += '<tr><td colspan="4">Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie.</td></tr>'
+    return content + '</tbody></table></div><p class="small" id="business-count">Tematy zmian: ' + str(len(groups)) + ' · pracownie: ' + str(data['metrics']['communication']) + '. Każda strona i temat ze zmianą są ujęte w tabeli.</p><p class="small">„Nie odnotowano” oznacza brak tekstu w zapisie, nie wycofanie oferty. Zrzut przedstawia uchwycony widok; jego fragment może nie obejmować wszystkich komunikatów.</p></section>'
 
 
 def render_business_change(item: dict) -> str:
     esc = html.escape
 
-    def value(text):
-        text = str(text)
-        return esc(text) if len(text) <= 480 else esc(text[:240]) + '…<details class="long-value"><summary>Pełna treść (' + str(len(text)) + ' znaków)</summary><div>' + esc(text) + '</div></details>'
+    def value(side):
+        text = str(item[side])
+        rendered = parts_html(item['readout'][side])
+        return rendered + ('<details class="long-value"><summary>Pełna treść</summary><div>' + esc(text) + '</div></details>' if len(text) > 220 else '')
 
-    result = '<article class="firm-change daily-event" id="firma-' + item['id'] + '" data-firm-domain="' + esc(item['domain'], quote=True) + '" data-page="' + item['page'] + '" data-category="' + item['category'] + '"><strong>' + esc(item.get('business_type', item['type']) + ' · ' + item['description']) + '</strong><div class="values"><div class="value"><small>Było · ' + esc(capture_day(item['before_at'])) + '</small>' + value(item['before']) + '</div><div class="value after"><small>Jest · ' + esc(capture_day(item['after_at'])) + '</small>' + value(item['after']) + '</div></div><p><a href="' + esc(safe_source(item['source']), quote=True) + '" target="_blank" rel="noopener">Otwórz zmienione miejsce</a>'
+    result = '<article class="firm-change daily-event" id="firma-' + item['id'] + '" data-firm-domain="' + esc(item['domain'], quote=True) + '" data-page="' + item['page'] + '" data-category="' + item['category'] + '"><strong>' + esc(item.get('business_type', item['type']) + ' · ' + item['readout']['title']) + '</strong><div class="values"><div class="value"><small>Było · ' + esc(capture_day(item['before_at'])) + '</small>' + value('before') + '</div><div class="value after"><small>Jest · ' + esc(capture_day(item['after_at'])) + '</small>' + value('after') + '</div></div><p><a href="' + esc(safe_source(item['source']), quote=True) + '" target="_blank" rel="noopener">Otwórz zmienione miejsce</a>'
     if any(item['evidence'].get(k) for k in ('przed', 'po', 'fragment_przed', 'fragment_po')):
         result += ' · <a href="#firma-dowod-' + evidence_id(item['evidence'], item['domain'], item['page']) + '">Zrzuty przed / po</a>'
     result += '</p>'
+    if item['readout']['note']:
+        result += '<p class="small">' + esc(item['readout']['note']) + '</p>'
     if item['observation_count'] > 1:
         result += '<details class="contexts"><summary>Ten sam komunikat w ' + str(item['observation_count']) + ' odczytach</summary><p class="small">' + esc(' · '.join(item['contexts'])) + '</p></details>'
     return result + '</article>'

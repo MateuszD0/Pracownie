@@ -42,7 +42,7 @@ def test_supporting_observations_preserved_and_not_reported_as_unchanged():
     data = build_management(view)
     assert not data['items'] and data['secondary'][0]['id'] == original['id']
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
-    assert 'Brak ustalonej zmiany biznesowej' in docs['DASHBOARD.md']
+    assert 'Bez ustalonej zmiany' in docs['DASHBOARD.md']
     assert 'nie ustalono zmiany wyglądu' in docs['dashboard/testpl.md']
     assert 'https://site.test/v1/banner.webp' in docs['dashboard/testpl.md']
 
@@ -54,9 +54,9 @@ def test_daily_table_contains_the_finding_and_matching_before_after_links():
     previews = {first['evidence']['przed']: 'https://example.com/before.jpg', first['evidence']['po']: 'https://example.com/after.jpg'}
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day', previews=previews)
     root = docs['DASHBOARD.md']
-    assert 'Rabat 10%' in root.split('## Wszystkie pracownie')[1]
-    assert '[Przed](https://example.com/before.jpg)' in root
-    assert '[Po](https://example.com/after.jpg)' in root
+    assert 'Rabat <strong>10</strong>%' in root.split('## Wszystkie pracownie')[0]
+    assert '[Przed](https://example.com/before.jpg)' in docs['dashboard/testpl.md']
+    assert '[Po](https://example.com/after.jpg)' in docs['dashboard/testpl.md']
     assert 'Obie strony porównane:' in root
 
 

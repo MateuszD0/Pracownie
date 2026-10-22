@@ -12,6 +12,7 @@ from test_management_dashboard import management_view
 from pracownie.browser import BrowserScanner
 from pracownie.management import build_management, business_highlights, group_changes
 from pracownie.presentation import render_html, render_markdown, render_text
+from pracownie.readout import digest_groups
 
 
 @pytest.mark.browser
@@ -30,11 +31,10 @@ async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, 
         if scripts and (output := os.environ.get('MONITOR_REVIEW_SCREENSHOT')):
             await page.screenshot(path=output, full_page=False)
         assert await page.locator('#business-summary').count() == 1
-        assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('executive')) & Node.DOCUMENT_POSITION_FOLLOWING)")
+        assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('executive')) & Node.DOCUMENT_POSITION_PRECEDING)")
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('communication-coverage')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('#communication-coverage').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('daily')) & Node.DOCUMENT_POSITION_FOLLOWING)")
-        assert await page.locator('[data-business-domain]:visible').count() <= 6
-        assert len(await page.locator('[data-business-domain]:visible').evaluate_all('es=>[...new Set(es.map(e=>e.dataset.businessDomain))]')) == await page.locator('[data-business-domain]:visible').count()
+        assert await page.locator('[data-business-domain]:visible').count() == len(digest_groups(build_management(view)['items']))
         assert await page.locator('[data-communication-domain]').count() == len(view['rows'])
         link = page.locator('#business-highlights a[data-company-link]').first
         if await link.count():
@@ -110,6 +110,7 @@ async def test_promotional_controls_follow_business_filters_and_csv(executable):
         context = await scanner.browser.new_context(accept_downloads=True)
         page = await context.new_page()
         await page.set_content(render_html(view))
+        await page.locator('.filter-disclosure > summary').click()
         await page.locator('#page-filter').select_option('glowna')
         await page.locator('#journal-category').select_option('sales')
         assert await page.locator('#business-highlights [data-business-domain]').count() == 1

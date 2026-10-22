@@ -79,6 +79,7 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         assert await page.locator('#metric-communication').inner_text() == '1'
         assert await page.locator('#executive').is_visible()
         assert not await page.locator('#secondary-journal').is_visible()
+        await page.locator('.filter-disclosure > summary').click()
         await page.locator('[data-filter="price"]').click()
         assert await page.locator('[data-filter="price"]').evaluate('e=>e===document.activeElement')
         await page.locator('[data-filter="all"]').click()
@@ -88,6 +89,7 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         await page.locator('#full-journal > summary').click()
         assert await page.locator('#journal tr[data-journal-domain]:visible').count() == 1
         assert await page.locator('#business-highlights [data-business-domain]:visible').count() == 1
+        await page.locator('.directory > summary').click()
         assert await page.locator('[data-communication-page=projekt]:visible').count() == 0
         assert await page.locator('[data-communication-domain]:visible').count() == 2
         async with page.expect_download() as download_event:

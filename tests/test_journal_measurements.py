@@ -261,6 +261,7 @@ async def test_change_table_filters_and_native_proof_links(executable):
             await page.set_content(render_html(journal_view()))
             await page.locator('#full-journal > summary').click()
             if scripts:
+                await page.locator('.filter-disclosure > summary').click()
                 await page.locator('#journal-category').select_option('obraz')
                 assert await page.locator('#journal tr[data-category="obraz"]').is_visible()
                 assert not await page.locator('#journal tr[data-category="promocje"]').is_visible()

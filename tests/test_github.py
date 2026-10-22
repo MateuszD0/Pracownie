@@ -1,3 +1,4 @@
+import base64
 import hashlib
 import json
 
@@ -363,6 +364,13 @@ def test_large_daily_report_publishes_bounded_summary_and_paired_previews(tmp_pa
     # Only the release landing page is shortened; files retain every event.
     assert (output / day / "podsumowanie.md").read_text() == original
     assert len(view["journal"]) == 65 * 17
+    documents = {path: base64.b64decode(value['content']).decode() for path, value in fake.repo_files.items()
+                 if path == 'DASHBOARD.md' or path.startswith('dashboard/')}
+    assert all(len(text.encode()) < 64_000 for text in documents.values())
+    assert 'dashboard/zmiany-2.md' in documents
+    digest = '\n'.join(text.split('## Grafika i wygląd')[0] for path, text in documents.items() if path == 'DASHBOARD.md' or '/zmiany-' in path)
+    for domain in domains:
+        assert digest.count('[' + domain + '](' + 'dashboard/' + domain.replace('.', '') + '.md#strona-główna)') + digest.count('[' + domain + '](' + domain.replace('.', '') + '.md#strona-główna)') == 1
     previews = [a for a in fake.assets.values() if "-dowod-" in a["name"]]
     assert len(previews) == 2 * RELEASE_PREVIEW_PAIRS
     assert sum(a["name"].endswith("-przed.jpg") for a in previews) == RELEASE_PREVIEW_PAIRS

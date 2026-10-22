@@ -41,3 +41,17 @@ Sprawdzono reguły porównania i zachowania tożsamości projektu, klasyfikację
 - Szczegółowe grafiki wymagają zrzutów; sam adres obrazu nie wystarcza do opisu nowej kreacji.
 - Darmowy harmonogram GitHub Actions może wystartować z opóźnieniem. Kontroler i ponowienia pomagają, ale nie gwarantują publikacji o 08:00 przy opóźnieniu całej usługi.
 - Poczta wymaga skonfigurowanych sekretów. Powodzenie zadania z pominiętą wysyłką nie jest potwierdzeniem dostarczenia maila.
+
+## Układ do codziennego czytania
+
+- Podsumowanie grupuje zmiany według pracowni, strony i tematu. Wiele tematów lub obie strony tej samej pracowni pozostają widoczne. Wiersz pokazuje do trzech par tekstów i liczbę dalszych zmian pod linkiem. Dłuższe zestawienia na GitHubie mają kolejne strony; żaden temat nie znika z powodu limitu sześciu pracowni.
+- Zmienione słowa są pogrubione. Skrót długiego tekstu obejmuje pierwszą różnicę, zamiast obcinać ją za niezmienionym wstępem. „Nie odnotowano w tym odczycie” opisuje zapis, nie zakończenie promocji.
+- W szczegółach pracowni dostępne są datowane, rozwijane obrazy przed/po. Podgląd może obejmować tylko fragment różnicy obrazu; nie musi pokazywać wszystkich komunikatów odczytanych z karty. Pełne dane pozostają w CSV/HTML.
+- Lista wszystkich 65 pracowni i dodatkowe obserwacje obrazu są zwinięte. W HTML filtry są rozwijane, aktywny zakres pozostaje opisany, a tabela zmian na telefonie układa się pionowo.
+- Identyczny nagłówek odczytany jako tekst i cecha wizualna jest jednym ustaleniem; źródłowe identyfikatory pozostają w dzienniku.
+
+### Korekta interpretacji HexaGreen
+
+W zapisach 21–22.10 licznik realizacji ma różne wartości nawet w obrębie tego samego odczytu tekstu i właściwości wizualnych (139/138 oraz 133/130). Dodatkowe sprawdzenie publicznego skryptu `https://hexagreen.pl/wp-content/themes/hexagreen/js/info-section-counter.js?ver=1.0.9` potwierdziło animację liczników po wejściu sekcji w ekran. Dotyczy to również licznika autorskich projektów. Wartości 18 → 17 i 139 → 133 nie są wiarygodnym dowodem zmiany wielkości oferty. Zachowujemy oryginalne odczyty jako pomocnicze; bieżącej wartości witryny nie przepisujemy wstecz do historii. Do czasu rejestrowania ustabilizowanej wartości końcowej te liczniki nie są alertami biznesowymi.
+
+Przyciski zgód, w tym „Akceptuj wszystko”, są obserwacjami interfejsu, nie komunikacją sprzedażową. Nagłówki o projektach zawierające konkretny benefit, np. pakiet gratis, pozostają w zestawieniu biznesowym.

@@ -18,11 +18,11 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 10:43 (czas polski).
+**Odczyty:** 21.10.2026 09:36 → 22.10.2026 11:22 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Dodatki i pakiety · Treść · Strona główna | Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższym nie dysponujemy adresami zrealizowanych domów. | Istnieje możliwość jednokrotnej wymiany projektu zakupionego w Pracowni Projektowej HB Studio na inny z jej oferty, przy czym wymianę należy zgłosić do biura pracowni w terminie do 60 dni kalendarzowych od daty zakupu projektu. Wymieniany… | [Otwórz stronę](https://hbstudio.pl/#main) |
+| Dodatki i pakiety · Treść · Strona główna | Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższym nie dysponujemy adresami zrealizowanych domów. | Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów projektowych, zgodnie z wymogami prawa budowlanego oraz zgodnie z planem zagospodarowania przestrzenneg… | [Otwórz stronę](https://hbstudio.pl/#main) |
 
 ## Karta projektu
 
@@ -34,7 +34,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
 
 Strony porównania: **1**
 

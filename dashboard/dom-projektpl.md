@@ -64,7 +64,7 @@ Porównanie: 21.10.2026 09:35 → 22.10.2026 08:36 (czas polski). Różnica zrzu
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
 
 Strony porównania: **1** · [2](dom-projektpl-2.md)
 

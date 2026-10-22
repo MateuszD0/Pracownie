@@ -38,8 +38,8 @@ Porównanie: 21.10.2026 09:35 → 22.10.2026 08:35 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://archetyp.pl/projekt/lifi/)
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-4.webp)
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-dowod-4.webp)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
 
 Strony porównania: **1**
 

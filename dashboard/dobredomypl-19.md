@@ -32,7 +32,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Zmiany wyglądu · Opis grafiki | Judyta II | Afrodyta | [Otwórz stronę](https://www.dobredomy.pl/) |
 | Zmiany wyglądu · Źródło grafiki: Słoneczko III | [Otwórz grafikę](https://www.dobredomy.pl/img/projekty/dakotaII/dakotaII_w1.jpg?p=hp&dpr=2%29) | [Otwórz grafikę](https://www.dobredomy.pl/img/projekty/sloneczkoIII/sloneczkoIII_w1.jpg?p=hp&dpr=2%29) | [Otwórz stronę](https://www.dobredomy.pl/) |
 
-[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-dowod-6.webp)
+[Podgląd zapisanej zmiany](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-dowod-6.webp)
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.dobredomy.pl/projekt/jantarVII/)
@@ -51,7 +51,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Komunikacja sprzedażowa · Dodano: Treść · Karta projektu | brak | Chcesz otrzymywać powiadomienia o najlepszych ofertach? | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/#ue_push_dialog) |
 | Zmiany wyglądu · Rozmiar: treść strony | 1280 × 9205 px; położenie: 0 px od lewej, 0 px od góry | 1280 × 9220 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · [3](dobredomypl-3.md) · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · [6](dobredomypl-6.md) · [7](dobredomypl-7.md) · [8](dobredomypl-8.md) · [9](dobredomypl-9.md) · [10](dobredomypl-10.md) · [11](dobredomypl-11.md) · [12](dobredomypl-12.md) · [13](dobredomypl-13.md) · [14](dobredomypl-14.md) · [15](dobredomypl-15.md) · [16](dobredomypl-16.md) · [17](dobredomypl-17.md) · [18](dobredomypl-18.md) · **19**
 

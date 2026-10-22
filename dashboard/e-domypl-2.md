@@ -57,7 +57,7 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Kotłownia na paliwo stałe (+499,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 | Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Odkurzacz centralny (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t084300.860507-0000-5556d5a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
 
 Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md)
 

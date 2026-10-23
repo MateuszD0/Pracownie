@@ -105,7 +105,7 @@ def test_email_is_post_publication_and_never_sends_without_private_credentials()
 
 def test_recovery_has_its_own_frequent_trigger_and_can_dispatch_without_reading_smtp_password():
     config = workflow('recovery.yml')
-    assert config['on']['schedule'] == [{'cron': '41 * * * *'}]
+    assert config['on']['schedule'] == [{'cron': '41 * * * *'}, {'cron': '11,31,51 2-7 * * *'}]
     assert 'workflow_dispatch' in config['on']
     assert config['permissions'] == {'contents': 'read', 'actions': 'write'}
     assert config['concurrency'] == {'group': 'pracownie-recovery', 'cancel-in-progress': 'false'}
@@ -115,3 +115,52 @@ def test_recovery_has_its_own_frequent_trigger_and_can_dispatch_without_reading_
     monitor = workflow('monitor.yml')
     assert monitor['on']['workflow_dispatch']['inputs']['automatic_recovery']['default'] == 'false'
     assert 'Automatyczna naprawa odczytów' in monitor['run-name']
+
+
+def test_recovery_rechecks_when_a_producer_finishes_even_after_failure_or_cancellation():
+    config = workflow('recovery.yml')
+    event = config['on']['workflow_run']
+    assert event['workflows'] == [workflow(name)['name'] for name in ('monitor.yml', 'rebuild-report.yml', 'readiness.yml')]
+    assert config['name'] not in event['workflows']  # No self-triggering loop.
+    assert event['types'] == ['completed'] and event['branches'] == ['main']
+    guard = config['jobs']['recovery']['if']
+    assert 'head_repository.full_name == github.repository' in guard
+    assert "conclusion != 'skipped'" in guard
+    assert "conclusion == 'success'" not in guard
+    checkout = config['jobs']['recovery']['steps'][0]
+    assert checkout['with']['ref'] == 'main'
+
+
+def test_morning_controller_has_no_scheduled_gap_over_twenty_minutes_in_poland():
+    from datetime import UTC, date, datetime, time, timedelta
+
+    from pracownie.model import WARSAW
+
+    def values(field, maximum):
+        result = []
+        for part in field.split(','):
+            if part == '*':
+                result.extend(range(maximum))
+            elif '-' in part:
+                start, end = map(int, part.split('-'))
+                result.extend(range(start, end + 1))
+            else:
+                result.append(int(part))
+        return result
+
+    crons = workflow('recovery.yml')['on']['schedule']
+    for offset in range(730):
+        day = date(2026, 1, 1) + timedelta(days=offset)
+        start = datetime.combine(day, time(4, 17), WARSAW)
+        end = datetime.combine(day, time(8), WARSAW)
+        events = {start, end}
+        for slot in crons:
+            minutes, hours, *calendar = slot['cron'].split()
+            assert calendar == ['*', '*', '*']
+            for hour in values(hours, 24):
+                for minute in values(minutes, 60):
+                    instant = datetime.combine(day, time(hour, minute), UTC).astimezone(WARSAW)
+                    if start < instant < end:
+                        events.add(instant)
+        ordered = sorted(events)
+        assert max(b - a for a, b in zip(ordered, ordered[1:], strict=False)) <= timedelta(minutes=20), day

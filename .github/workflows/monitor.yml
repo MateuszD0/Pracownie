@@ -9,8 +9,8 @@ on:
   schedule:
     # UTC covers both Polish offsets; the locked gate applies Europe/Warsaw,
     # skips the early winter slot and skips already committed daily reports.
-    - cron: '17 3,4 * * *' # Primary: 05:17 Europe/Warsaw
-    - cron: '7 4,5 * * *' # Recovery: 06:07 Europe/Warsaw
+    - cron: '17 2,3 * * *' # Primary: 04:17 Europe/Warsaw
+    - cron: '7 3,4 * * *' # Recovery: 05:07 Europe/Warsaw
   workflow_dispatch:
     inputs:
       automatic_recovery:

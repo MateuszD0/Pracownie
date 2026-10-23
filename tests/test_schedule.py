@@ -28,7 +28,7 @@ def invocations(day):
     return sorted(events)
 
 
-def test_every_day_including_dst_and_weekends_starts_at_0517_with_recovery_at_0607():
+def test_every_day_including_dst_and_weekends_starts_at_0417_with_recovery_at_0507():
     for offset in range(730):
         day = date(2026, 1, 1) + timedelta(days=offset)
         remote = Publication()
@@ -43,13 +43,13 @@ def test_every_day_including_dst_and_weekends_starts_at_0517_with_recovery_at_06
             # Simulate a missing/failed first invocation; backup must be independent.
             if cron == RECOVERY_CRON and daily_gate(cron, now, Publication())["run_scan"]:
                 recovery.append(now.astimezone(WARSAW).time())
-        assert primary == [time(5, 17)], day
-        assert recovery[0] == time(6, 7), day
+        assert primary == [time(4, 17)], day
+        assert recovery[0] == time(5, 7), day
 
 
 def test_early_utc_invocation_never_reads_or_writes_remote_history():
     remote = Publication()
-    result = daily_gate(PRIMARY_CRON, datetime(2026, 12, 5, 3, 17, tzinfo=UTC), remote)
+    result = daily_gate(PRIMARY_CRON, datetime(2026, 12, 5, 2, 17, tzinfo=UTC), remote)
     assert not result["run_scan"] and remote.calls == []
 
 

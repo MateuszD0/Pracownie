@@ -32,12 +32,13 @@ oraz uruchamiania Actions nie wystarcza.
 
 Po skonfigurowaniu sekretów nie trzeba potwierdzać tego w rozmowie ani uruchamiać
 poczty ręcznie. Dodatkowy workflow „Automatyczne nadrabianie raportu i poczty”
-sprawdza stan co godzinę, w 41. minucie. Gdy konfiguracja jest gotowa i nie ma
+sprawdza stan co godzinę, w 41. minucie, dodatkowo co 20 minut rano (02–07 UTC)
+i po zakończeniu skanu, przebudowy lub kontroli gotowości. Gdy konfiguracja jest gotowa i nie ma
 potwierdzenia wysłania dzisiejszego raportu, zleca wysyłkę. Ręczna wysyłka jest
 również dostępna w Actions: wskaż dzień bieżącego, najnowszego raportu
 (np. `2026-10-22`).
 
-Kontroler nadrabia też brak skanu od 05:17 do 12:00 czasu polskiego: uruchamia
+Kontroler nadrabia też brak skanu od 04:17 do 12:00 czasu polskiego: uruchamia
 pełny skan z wznowieniem albo naprawia tylko wskazane brakujące domeny. Nie
 uruchamia drugiego producenta podczas trwającego skanu lub przebudowy; pomija
 trwałe blokady i ogranicza dodatkowe próby do dwóch dziennie. Opcjonalne Pages

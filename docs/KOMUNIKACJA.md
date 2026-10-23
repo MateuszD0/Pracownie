@@ -37,7 +37,7 @@ Skan 19 października 2026 nie zawierał pełnej surowej historii komunikacji. O
 
 Pierwszy poprawny zapis rozszerzonego zakresu tworzy nową bazę. Dwa kolejne dni z takim zapisem umożliwiają pełne porównanie tego zakresu. Naprawczy skan tego samego dnia zachowuje poprzedni dzień jako bazę. Przebudowa formatu korzysta z oryginalnych plików o zgodnych datach i tożsamościach, nie odwiedza stron w przeszłości.
 
-Harmonogram działa codziennie, również w weekend: start główny 05:17 Europe/Warsaw, próba zapasowa 06:07, cel publikacji raportu przed 08:00. Zatwierdzony dzisiejszy raport wyłącza zbędny ponowny skan dopiero po sprawdzeniu brakujących odczytów; błędy przejściowe są ponawiane. Kontrola o 07:50 zgłasza brakujące lub częściowe dane w Actions. Cron UTC i kontrola strefy polskiej obsługują zmianę czasu; szczegóły są w [README](../README.md). Blokady domen i opóźnienia GitHub Actions są widoczne w wyniku. GitHub nie gwarantuje punktualności wywołań. Historia pozostaje przechowywana przez 180 dni.
+Harmonogram działa codziennie, również w weekend: start główny 04:17 Europe/Warsaw, próba zapasowa 05:07, cel publikacji raportu przed 08:00. Zatwierdzony dzisiejszy raport wyłącza zbędny ponowny skan dopiero po sprawdzeniu brakujących odczytów; błędy przejściowe są ponawiane. Kontrola o 07:50 zgłasza brakujące lub częściowe dane w Actions. Cron UTC i kontrola strefy polskiej obsługują zmianę czasu; szczegóły są w [README](../README.md). Blokady domen i opóźnienia GitHub Actions są widoczne w wyniku. GitHub nie gwarantuje punktualności wywołań. Historia pozostaje przechowywana przez 180 dni.
 
 ## Reguły konkretnych stron
 

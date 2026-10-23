@@ -11,9 +11,10 @@ import httpx
 from .github import GitHubStore
 from .model import WARSAW
 
-PRIMARY_CRON = "17 3,4 * * *"
-RECOVERY_CRON = "7 4,5 * * *"
-STARTS = {PRIMARY_CRON: time(5, 17), RECOVERY_CRON: time(6, 7)}
+PRIMARY_CRON = "17 2,3 * * *"
+RECOVERY_CRON = "7 3,4 * * *"
+PRIMARY_START = time(4, 17)
+STARTS = {PRIMARY_CRON: PRIMARY_START, RECOVERY_CRON: time(5, 7)}
 
 
 def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:

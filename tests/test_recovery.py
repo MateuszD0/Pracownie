@@ -149,9 +149,9 @@ def test_polish_date_and_dst_used_for_attempt_limits():
                                     run('2', RECOVERY_TITLE, at='2026-10-22T03:30:00Z')]
     assert recover(remote, NOW, True)['action'] == 'report-missing'
     remote = Remote()
-    assert recover(remote, datetime(2026, 12, 1, 4, 0, tzinfo=UTC), True)['action'] == 'early'
+    assert recover(remote, datetime(2026, 12, 1, 3, 0, tzinfo=UTC), True)['action'] == 'early'
     assert not remote.calls
-    assert recover(Remote(), datetime(2026, 12, 1, 4, 30, tzinfo=UTC), True)['action'] == 'scan-dispatched'
+    assert recover(Remote(), datetime(2026, 12, 1, 3, 30, tzinfo=UTC), True)['action'] == 'scan-dispatched'
     with pytest.raises(ValueError, match='strefą'):
         recover(Remote(), datetime(2026, 10, 22, 6), True)
 
@@ -162,3 +162,27 @@ def test_only_automatic_attempts_today_count_and_unrelated_runs_are_preserved():
     original = copy.deepcopy(remote.records)
     assert recover(remote, NOW, True)['automatic_attempt'] == 1
     assert remote.records == original
+
+
+def test_post_rebuild_check_recovers_missed_scan_once_after_busy_morning_check():
+    # The 23 October failure: the 08:27 controller yielded to an old report's
+    # format rebuild. Its completion must be able to recover the missing day.
+    remote = Remote()
+    remote.records['rebuild-report.yml'] = [run(status='in_progress')]
+    remote.jobs['1'] = [{'name': 'rebuild', 'status': 'in_progress'}]
+    assert recover(remote, NOW.replace(hour=8, minute=27), False)['action'] == 'busy'
+    assert not remote.writes
+    remote.records['rebuild-report.yml'][0]['status'] = 'completed'
+    assert recover(remote, NOW.replace(hour=8, minute=28), False)['action'] == 'scan-dispatched'
+    assert remote.writes[0][1]['inputs']['scope'] == 'full'
+    remote.records['monitor.yml'] = [run('2', RECOVERY_TITLE, status='queued')]
+    remote.jobs['2'] = []
+    assert recover(remote, NOW.replace(hour=8, minute=29), False)['action'] == 'busy'
+    assert len(remote.writes) == 1
+
+
+def test_post_rebuild_check_does_not_rescan_an_already_published_day():
+    remote = Remote(published())
+    remote.records['rebuild-report.yml'] = [run(status='completed')]
+    assert recover(remote, NOW, False)['action'] == 'mail-unconfigured'
+    assert not remote.writes

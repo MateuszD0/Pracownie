@@ -10,6 +10,7 @@ import httpx
 
 from .github import GitHubStore
 from .model import WARSAW
+from .readiness import repair_domains
 
 PRIMARY_CRON = "17 2,3 * * *"
 RECOVERY_CRON = "7 3,4 * * *"
@@ -30,8 +31,8 @@ def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
     record = remote.published_report(day)
     if record and "readiness" not in record:
         return dict(result, run_scan=True, reason="Starszy manifest nie potwierdza świeżych odczytów; sprawdzam brakujący zakres.")
-    if record and record.get("readiness", {}).get("retry_domains"):
-        return dict(result, run_scan=True, repair_domains=record["readiness"]["retry_domains"], reason="Ponawiam brakujące odczyty; zachowuję wyniki pozostałych pracowni.")
+    if record and (retry := repair_domains(record.get("readiness", {}))):
+        return dict(result, run_scan=True, repair_domains=retry, reason="Ponawiam brakujące lub częściowe odczyty; zachowuję wyniki pozostałych pracowni.")
     if record:
         return dict(result, reason="Dzisiejszy raport jest zapisany; brak błędów zakwalifikowanych do automatycznego ponowienia. Trwałe blokady pozostają widoczne w raporcie.")
     return dict(result, run_scan=True, reason="Brak zatwierdzonego dzisiejszego raportu. Uruchamiam pełny skan.")

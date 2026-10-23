@@ -317,6 +317,15 @@ class BrowserScanner:
                     except Exception:
                         # A recognized refusal control may be covered by the CMP's animation.
                         await button.evaluate("e => e.click()")
+                    if selector == '#cn-close-notice':
+                        # Cached HTML can expose this control before its async
+                        # click handler is installed. A no-op click is not consent
+                        # dismissal; allow initialization and try the real control.
+                        try:
+                            await button.wait_for(state='hidden', timeout=1500)
+                        except BrowserError:
+                            if await button.count() and await button.is_visible():
+                                await button.click(timeout=1500)
                     return
             # Some CMPs implement their refusal action as an anchor rather
             # than a button (e.g. the visible "Tylko niezbędne" control).
@@ -378,6 +387,16 @@ class BrowserScanner:
         except BrowserError:
             warnings.append("Nie udało się wyłączyć animacji; porównanie wizualne wymaga oceny.")
 
+    async def unresolved_styles(self, page: Page, failed: set[str]) -> list[str]:
+        """Judge the final document, not an aborted duplicate CSS request."""
+        styles = await page.evaluate("""() => ({
+          loaded: [...document.styleSheets].map(s => s.href).filter(Boolean),
+          missing: [...document.querySelectorAll('link[rel~=stylesheet]')]
+            .filter(e => !e.disabled && (!e.media || matchMedia(e.media).matches) && !e.sheet)
+            .map(e => e.href)
+        })""")
+        return sorted((failed | set(styles['missing'])) - set(styles['loaded']))
+
     async def capture(self, site: Site, page_kind: str, url: str, scenario: Scenario, destination: Path) -> Capture:
         if not allowed_url(site, url):
             raise ValueError("Adres poza skonfigurowanymi domenami; wymagany jawny allowed_hosts")
@@ -395,14 +414,10 @@ class BrowserScanner:
         context = await self.browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy)
         page = await context.new_page()
         page.set_default_timeout(7000)
-        failed_hosts = set()
-        failed_styles = set()
+        failed_resources = {}
         def failed_request(request):
             if request.resource_type in {"image", "stylesheet"}:
-                host = urlsplit(request.url).hostname
-                failed_hosts.add(host)
-                if request.resource_type == "stylesheet":
-                    failed_styles.add(host)
+                failed_resources[request.url] = request.resource_type
         page.on("requestfailed", failed_request)
         warnings = []
         data_ready = True
@@ -429,8 +444,23 @@ class BrowserScanner:
                     delay = max(5, delay)
                     self.rate_limited[site.domain] = time.monotonic() + delay
                 raise TransientFetchError(f"Przejściowy błąd HTTP {response.status}", delay)
+            if response and response.status == 403:
+                # Some public sites finish their browser verification with a
+                # normal redirect. Allow it to finish; never solve a CAPTCHA.
+                title = await page.title()
+                if re.search(r"cierpliwości|just a moment|checking your browser", title, re.I):
+                    try:
+                        async with page.expect_response(lambda r: r.request.is_navigation_request()
+                                and r.request.frame == page.main_frame and 200 <= r.status < 300,
+                                timeout=10000) as verified:
+                            await page.wait_for_timeout(0)
+                        response = await verified.value
+                        await page.wait_for_load_state('domcontentloaded', timeout=self.navigation_timeout)
+                    except BrowserError:
+                        pass
             if response is None or response.status >= 400:
-                raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}")
+                title = (await page.title())[:180] if response else ''
+                raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}" + (f" — {title}" if title else ''))
             if not allowed_url(site, page.url):
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
             await self.disable_motion(page, warnings)
@@ -467,6 +497,8 @@ class BrowserScanner:
                     except BrowserError:
                         pass
                     if not await element.count() or not await element.is_visible():
+                        continue
+                    if not await element.evaluate("e => {const r=e.getBoundingClientRect(),s=getComputedStyle(e);return Number(s.opacity)>0 && r.bottom>0 && r.top<innerHeight && r.right>0 && r.left<innerWidth}"):
                         continue
                     warnings.append("Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.")
                     data_ready = False
@@ -514,8 +546,13 @@ class BrowserScanner:
                 data_ready = False
             if await page.evaluate("document.body?.scrollHeight || 0") > 24000:
                 warnings.append("Strona dłuższa niż 24000 px; zrzut i przewijanie ograniczone.")
-            relevant_failed = failed_hosts - set(site.ignore_resource_hosts)
-            if failed_styles - set(site.ignore_resource_hosts):
+            failed_styles = {url for url, kind in failed_resources.items() if kind == 'stylesheet'}
+            unresolved_styles = await self.unresolved_styles(page, failed_styles)
+            relevant_styles = [url for url in unresolved_styles if urlsplit(url).hostname not in site.ignore_resource_hosts]
+            relevant_failed = {urlsplit(url).hostname for url, kind in failed_resources.items() if kind == 'image'}
+            relevant_failed |= {urlsplit(url).hostname for url in relevant_styles}
+            relevant_failed -= set(site.ignore_resource_hosts)
+            if relevant_styles:
                 data_ready = False
             if relevant_failed:
                 warnings.append("Niezaładowane obrazy/style z hostów: " + ", ".join(sorted(str(h) for h in relevant_failed)))
@@ -569,6 +606,7 @@ class BrowserScanner:
             adapter = adapter_signature(site, scenario, page_kind)
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
+            document['unresolved_styles'] = relevant_styles
             document["communication"] = communication
             if len(json.dumps(document).encode()) > 2_000_000:
                 document = {"visual": visual_document, "communication": communication, "ignore_patterns": site.ignore_patterns}

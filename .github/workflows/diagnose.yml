@@ -1,6 +1,11 @@
 name: Diagnostyka odczytu witryn
 on:
   workflow_dispatch:
+    inputs:
+      domains:
+        description: Domeny do sprawdzenia, oddzielone przecinkami
+        type: string
+        default: archido.pl,domydlanas.pl,lk-projekt.pl,archi-projekt.com.pl,dompp.pl,housecollection.pl
 permissions:
   contents: write
 jobs:
@@ -20,6 +25,7 @@ jobs:
           enable-cache: true
       - run: uv sync --frozen
       - run: uv run playwright install --with-deps chromium
-      - run: uv run python scripts/diagnose_access.py --publish
+      - run: uv run python scripts/diagnose_access.py --domains "$DIAGNOSE_DOMAINS" --publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DIAGNOSE_DOMAINS: ${{ inputs.domains }}

@@ -8,7 +8,7 @@ on:
     workflows:
       - Codzienny monitoring pracowni
       - Odśwież układ raportu bez skanowania
-      - Gotowość raportu na 08:00
+      - Kontrola raportu — dane i termin 08:00
     types: [completed]
     branches: [main]
   workflow_dispatch:

@@ -30,6 +30,10 @@ Cron używa UTC (`17 2,3 * * *` i `7 3,4 * * *`), a moduł `pracownie.schedule` 
 
 Kontroler naprawczy ma dodatkowe wywołania co 20 minut w porannym oknie UTC 02:00–07:59 (kontrola stosuje datę i porę Europe/Warsaw). Po zakończeniu skanu, przebudowy lub kontroli gotowości uruchamia się również przez zdarzenie `workflow_run`. Jeżeli wcześniejsza kontrola ustąpiła aktywnej publikacji, jej zakończenie wywołuje ponowną ocenę bez czekania na kolejny cron. Kontroler nie uruchamia równoległych producentów i zachowuje limit dwóch automatycznych napraw dziennie.
 
+Kontrola „Kontrola raportu — dane i termin 08:00” rozdziela dostępność raportu, kompletność odczytów i termin publikacji. Uruchamia się także po zakończeniu skanu lub przebudowy, od 07:50 czasu polskiego. W podsumowaniu Actions podaje link do dashboardu, faktyczną godzinę kontroli oraz listę brakujących i częściowych stron. Dostępny raport z lukami nadal wymaga uwagi — sam sukces zadania skanowania nie oznacza 130 poprawnych odczytów. Termin jest liczony z potwierdzenia publikacji, a nie zakończenia przeglądania stron; przebudowa tego samego dnia zachowuje pierwszą potwierdzoną godzinę.
+
+Naprawa obejmuje także odczyty częściowe, również w starszych manifestach. Przerwane pobranie CSS nie obniża jakości, jeśli ten sam styl został ostatecznie załadowany w przeglądarce; brakujące aktywne style nadal ograniczają jakość porównania. Przy przejściowej stronie weryfikacji skaner czeka do 10 sekund na normalne przekierowanie, bez rozwiązywania CAPTCHA. Trwała odmowa HTTP 403 pozostaje jawnym brakiem odczytu. Workflow diagnostyczny pozwala porównać dostęp HTTP i przeglądarki dla wskazanych domen na rzeczywistym runnerze GitHuba.
+
 GitHub może opóźnić lub pominąć wywołania harmonogramu; wcześniejszy start i ponowienie dają zapas, ale nie gwarantują terminu. Opóźniony skan nadal rusza, zamiast tracić cały dzień. Podsumowanie Actions podaje rzeczywistą godzinę publikacji i ostrzega, jeśli przekroczono 08:00. Termin dotyczy raportu w Releases; opcjonalne Pages ma osobny etap publikacji.
 
 W zakładce Actions wybierz workflow i Run workflow:

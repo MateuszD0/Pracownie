@@ -292,9 +292,14 @@ class GitHubStore:
         available = {a["id"] for a in self.assets(report) if a.get("size", 0) > 0}
         if not required <= files.keys() or not set(files.values()) <= available:
             return None
+        # Asset creation is GitHub's confirmation of the final commit, not the
+        # earlier scan finish or an upload-start timestamp. Preserve the first
+        # confirmed publication across same-day repairs and format rebuilds.
+        record['first_published_at'] = record.get('first_published_at') or commits[0].get('created_at')
         return record
 
     def publish(self, store: StateStore, output: Path, day: str, report_archive: Path, run_id: str) -> dict:
+        previous_publication = self.published_report(day)
         stamp = slug(run_id)
         report_release = self.release(f"{self.namespace}-report-{day}", create=True)
         assert report_release is not None
@@ -342,6 +347,7 @@ class GitHubStore:
             state_name = f"state-{stamp}.zip"
             state_asset = self.upload(state_release, state_name, root / "state.zip")
             record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
+                      "first_published_at": (previous_publication or {}).get('first_published_at'),
                       "publication_started_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
                       "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], journal_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
                       "report_files": {"txt": text_asset["id"], "csv": csv_asset["id"], "journal_csv": journal_asset["id"], "diagnostics": diagnostic_asset["id"], "html_zip": html_asset["id"], "html": standalone_asset["id"], "zip": zip_asset["id"]}}

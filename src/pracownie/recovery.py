@@ -11,6 +11,7 @@ import httpx
 from .github import GitHubStore
 from .mailer import receipt
 from .model import WARSAW
+from .readiness import repair_domains
 from .schedule import PRIMARY_START
 
 RECOVERY_TITLE = 'Automatyczna naprawa odczytów'
@@ -59,7 +60,7 @@ def recover(remote: GitHubStore, now: datetime, email_configured: bool, *, dry_r
     if producer_running(remote, scans, 'scan') or producer_running(remote, rebuilds, 'rebuild'):
         return result('busy', 'Skan lub publikacja już trwa; kontrola została odroczona. Zakończenie zadania wywoła kolejną kontrolę, niezależnie od harmonogramu.')
     record = remote.published_report(day)
-    retry = (record or {}).get('readiness', {}).get('retry_domains', [])
+    retry = repair_domains((record or {}).get('readiness', {}))
     needs_scan = not record or not record.get('readiness', {}).get('expected') or bool(retry)
     automatic = sum(r.get('display_title') == RECOVERY_TITLE and same_day(r, day) for r in scans)
     if needs_scan and local.time() < time(12) and automatic < max_auto_scans:

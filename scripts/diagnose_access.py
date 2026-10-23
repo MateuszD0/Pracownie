@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 from urllib.parse import urlsplit
 
+import httpx
 from playwright.async_api import async_playwright
 
 from pracownie.github import GitHubStore
@@ -41,6 +42,12 @@ async def inspect(sites):
                     page = await context.new_page()
                     check = {"requested_url": url}
                     try:
+                        async with httpx.AsyncClient(follow_redirects=True, timeout=15) as client:
+                            response = await client.get(url)
+                            check['http'] = {'status': response.status_code, 'url': str(response.url)}
+                    except httpx.HTTPError as exc:
+                        check['http'] = {'error': type(exc).__name__}
+                    try:
                         response = await page.goto(url, wait_until="domcontentloaded", timeout=20000)
                         check["status"] = response.status if response else None
                         await page.wait_for_timeout(1500)
@@ -60,7 +67,7 @@ async def inspect(sites):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--domains", default="archdesign.pl,mtmstyl.com.pl,nowoczesne-projektydomow.pl,archdom.pl,archido.pl,domdlaciebie.com.pl,dompp.pl,domydlanas.pl,lk-projekt.pl,hbstudio.pl,archipelag.pl,dompasja.pl,domenadom.pl,domywstylu.pl")
+    parser.add_argument("--domains", default="archido.pl,domydlanas.pl,lk-projekt.pl,archi-projekt.com.pl,dompp.pl,housecollection.pl")
     parser.add_argument("--publish", action="store_true")
     args = parser.parse_args()
     selected = set(args.domains.split(","))

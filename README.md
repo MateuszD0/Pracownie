@@ -34,6 +34,8 @@ Kontrola „Kontrola raportu — dane i termin 08:00” rozdziela dostępność 
 
 Naprawa obejmuje także odczyty częściowe, również w starszych manifestach. Przerwane pobranie CSS nie obniża jakości, jeśli ten sam styl został ostatecznie załadowany w przeglądarce; brakujące aktywne style nadal ograniczają jakość porównania. Przy przejściowej stronie weryfikacji skaner czeka do 10 sekund na normalne przekierowanie, bez rozwiązywania CAPTCHA. Trwała odmowa HTTP 403 pozostaje jawnym brakiem odczytu. Workflow diagnostyczny pozwala porównać dostęp HTTP i przeglądarki dla wskazanych domen na rzeczywistym runnerze GitHuba.
 
+Animacje są zatrzymywane po obsłudze cookies: niektóre bannery potrzebują zakończenia animacji do zamknięcia. Dla `domydlanas.pl` skaner przedstawia się jako `PracownieMonitor` z publicznym adresem repozytorium i obsługuje sprawdzony przycisk „Kontynuuj”. Stała karta to N55-G2, wyróżniona w katalogu; nie przypisujemy jej niepotwierdzonego statusu bestsellera. Ustawienia identyfikacji i cookies są ograniczone do tej domeny.
+
 GitHub może opóźnić lub pominąć wywołania harmonogramu; wcześniejszy start i ponowienie dają zapas, ale nie gwarantują terminu. Opóźniony skan nadal rusza, zamiast tracić cały dzień. Podsumowanie Actions podaje rzeczywistą godzinę publikacji i ostrzega, jeśli przekroczono 08:00. Termin dotyczy raportu w Releases; opcjonalne Pages ma osobny etap publikacji.
 
 W zakładce Actions wybierz workflow i Run workflow:

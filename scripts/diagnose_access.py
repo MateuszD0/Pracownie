@@ -30,7 +30,7 @@ async def inspect(sites):
 
         async def one(site):
             async with semaphore:
-                context = await browser.new_context(locale="pl-PL", viewport={"width":1280,"height":900})
+                context = await browser.new_context(locale="pl-PL", viewport={"width":1280,"height":900}, user_agent=site.user_agent)
                 row = {"domain": site.domain, "checks": []}
                 urls = [site.home_url]
                 if site.domain in {"archdesign.pl", "mtmstyl.com.pl", "nowoczesne-projektydomow.pl"}:

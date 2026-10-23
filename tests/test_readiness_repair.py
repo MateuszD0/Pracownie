@@ -5,7 +5,7 @@ import pytest
 from test_github import FakeGitHub, prepare
 from test_recovery import NOW, Remote, published
 
-from pracownie.browser import BrowserScanner
+from pracownie.browser import BrowserScanner, adapter_signature
 from pracownie.github import GitHubStore
 from pracownie.model import WARSAW, Scenario, Site
 from pracownie.readiness import assess, base_readiness
@@ -98,11 +98,13 @@ async def test_recovered_stylesheet_does_not_poison_capture_but_missing_styles_s
             status=200, content_type='text/css', body='body {color: rgb(1, 2, 3)}'))
         await page.set_content('<link rel="stylesheet" href="https://fixture.test/style.css"><h1>Oferta</h1>')
         await page.wait_for_function("getComputedStyle(document.body).color === 'rgb(1, 2, 3)'")
-        assert await scanner.unresolved_styles(page, {'https://fixture.test/style.css'}) == []
+        assert await scanner.unresolved_styles(page, {'https://fixture.test/style.css'}, {'https://fixture.test/style.css'}) == []
         await page.route('https://fixture.test/missing.css', lambda route: route.abort())
-        await page.evaluate("""() => {const e=document.createElement('link'); e.rel='stylesheet';
-          e.href='https://fixture.test/missing.css'; document.head.append(e)}""")
-        assert 'https://fixture.test/missing.css' in await scanner.unresolved_styles(page, set())
+        async with page.expect_event('requestfailed'):
+            await page.evaluate("""() => {const e=document.createElement('link'); e.rel='stylesheet';
+              e.href='https://fixture.test/missing.css'; document.head.append(e)}""")
+        assert 'https://fixture.test/missing.css' in await scanner.unresolved_styles(
+            page, {'https://fixture.test/missing.css'}, {'https://fixture.test/style.css'})
         await page.close()
 
 
@@ -139,3 +141,42 @@ async def test_normal_redirect_after_temporary_verification_is_captured(sample_s
         assert captured.snapshot.quality == 'ok'
         assert captured.snapshot.url == sample_site.url + '/'
         assert 'Just a moment' not in captured.snapshot.title
+
+
+@pytest.mark.browser
+async def test_site_can_identify_the_monitor_without_changing_other_sites(sample_site, executable, tmp_path, monkeypatch):
+    site = Site('127.0.0.1', sample_site.url)
+    sample_site.cookie_panel = '''<div id="cookie-notice" role="dialog">Informacja o cookies
+      <button id="cn-accept-cookie" aria-label="Kontynuuj" onclick="this.parentElement.remove()">Kontynuuj</button></div>'''
+    site.cookie_continue_selector = "#cookie-notice #cn-accept-cookie[aria-label='Kontynuuj']"
+    scenario = Scenario('podstawowy', 'Strona główna')
+    original = adapter_signature(site, scenario, 'glowna')
+    site.user_agent = 'PracownieMonitor/1.0 (+https://github.com/MateuszD0/Pracownie)'
+    assert adapter_signature(site, scenario, 'glowna') != original
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        create_context = scanner.browser.new_context
+        received = []
+
+        async def context(**kwargs):
+            result = await create_context(**kwargs)
+            result.on('request', lambda r: received.append(r.headers.get('user-agent')))
+            return result
+
+        monkeypatch.setattr(scanner.browser, 'new_context', context)
+        captured = await scanner.capture(site, 'glowna', site.home_url, scenario, tmp_path / 'page.png')
+        assert captured.snapshot.quality == 'ok'
+        assert received and set(received) == {site.user_agent}
+
+
+@pytest.mark.browser
+async def test_cookie_animation_can_finish_before_motion_is_frozen(sample_site, executable, tmp_path):
+    sample_site.cookie_panel = '''<style>@keyframes dismiss {to {opacity:0}}</style>
+      <div id="cookie-notice" role="dialog" onanimationend="this.remove()">Informacja o cookies
+      <button id="cn-close-notice" aria-label="Nie wyrażam zgody"
+        onclick="this.parentElement.style.animation='dismiss .1s'">Zamknij</button></div>'''
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        site = Site('127.0.0.1', sample_site.url)
+        captured = await scanner.capture(site, 'glowna', site.home_url,
+                                         Scenario('podstawowy', 'Strona główna'), tmp_path / 'page.png')
+        assert captured.snapshot.quality == 'ok'
+        assert not captured.snapshot.document['consent']

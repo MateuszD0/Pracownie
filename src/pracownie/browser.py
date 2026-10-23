@@ -212,7 +212,12 @@ class Capture:
 
 
 def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
-    return hashlib.sha256(json.dumps({"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}, sort_keys=True).encode()).hexdigest()[:12]
+    rules = {"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
+    if site.user_agent:
+        rules['user_agent'] = site.user_agent
+    if site.cookie_continue_selector:
+        rules['cookie_continue_selector'] = site.cookie_continue_selector
+    return hashlib.sha256(json.dumps(rules, sort_keys=True).encode()).hexdigest()[:12]
 
 
 class BrowserScanner:
@@ -305,7 +310,7 @@ class BrowserScanner:
         else:
             raise ValueError(f"Nieobsługiwane działanie: {action['action']}")
 
-    async def cookies(self, page: Page):
+    async def cookies(self, page: Page, site: Site | None = None):
         frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
         for frame in frames:
             # Known CMP selectors avoid traversing the accessibility tree of advertisement frames.
@@ -335,6 +340,14 @@ class BrowserScanner:
                 if await button.is_visible():
                     await button.click(timeout=1500)
                     return
+        # An inspected informational banner may have only a Continue control.
+        # This is explicitly configured per site, never a generic accept-all.
+        if site and site.cookie_continue_selector:
+            button = page.locator(site.cookie_continue_selector).first
+            if await button.count() and await button.is_visible():
+                await button.click(timeout=2500)
+                await page.wait_for_timeout(300)
+                return
         # WP exposes its refusal button only after opening the consent settings.
         wp_dialog = page.get_by_role("dialog", name="Plansza informacyjna WP")
         if await wp_dialog.count() and await wp_dialog.first.is_visible():
@@ -387,7 +400,7 @@ class BrowserScanner:
         except BrowserError:
             warnings.append("Nie udało się wyłączyć animacji; porównanie wizualne wymaga oceny.")
 
-    async def unresolved_styles(self, page: Page, failed: set[str]) -> list[str]:
+    async def unresolved_styles(self, page: Page, failed: set[str], succeeded: set[str]) -> list[str]:
         """Judge the final document, not an aborted duplicate CSS request."""
         styles = await page.evaluate("""() => ({
           loaded: [...document.styleSheets].map(s => s.href).filter(Boolean),
@@ -395,7 +408,9 @@ class BrowserScanner:
             .filter(e => !e.disabled && (!e.media || matchMedia(e.media).matches) && !e.sheet)
             .map(e => e.href)
         })""")
-        return sorted((failed | set(styles['missing'])) - set(styles['loaded']))
+        # Chromium can leave a CSSStyleSheet object after an aborted cross-origin
+        # download. Its presence alone is not proof that the transfer succeeded.
+        return sorted((failed | set(styles['missing'])) - (set(styles['loaded']) & succeeded))
 
     async def capture(self, site: Site, page_kind: str, url: str, scenario: Scenario, destination: Path) -> Capture:
         if not allowed_url(site, url):
@@ -411,14 +426,23 @@ class BrowserScanner:
             await asyncio.sleep(pause)
         self.next_read[site.domain] = time.monotonic() + 2
         proxy = None if urlsplit(url).hostname in {"localhost", "127.0.0.1", "::1"} else proxy_settings()
-        context = await self.browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy)
+        context = await self.browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy, user_agent=site.user_agent)
         page = await context.new_page()
         page.set_default_timeout(7000)
         failed_resources = {}
+        successful_styles = set()
         def failed_request(request):
             if request.resource_type in {"image", "stylesheet"}:
                 failed_resources[request.url] = request.resource_type
         page.on("requestfailed", failed_request)
+        async def finished_request(request):
+            if request.resource_type == 'stylesheet':
+                resource = await request.response()
+                if resource and resource.status < 400:
+                    successful_styles.add(request.url)
+                else:
+                    failed_resources[request.url] = 'stylesheet'
+        page.on('requestfinished', finished_request)
         warnings = []
         data_ready = True
         response = None
@@ -463,10 +487,11 @@ class BrowserScanner:
                 raise ValueError(f"Odpowiedź HTTP {response.status if response else 'brak'}" + (f" — {title}" if title else ''))
             if not allowed_url(site, page.url):
                 raise ValueError(f"Przekierowanie poza domenę: {urlsplit(page.url).hostname}; dodaj allowed_hosts po sprawdzeniu")
-            await self.disable_motion(page, warnings)
+            # Consent managers may depend on animationend/transitionend to finish
+            # dismissal. Freeze motion only after the real controls have closed.
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: obsługa cookies"
             try:
-                await self.cookies(page)
+                await self.cookies(page, site)
             except BrowserError:
                 warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
@@ -474,7 +499,7 @@ class BrowserScanner:
             # Consent managers often appear asynchronously, after DOMContentLoaded.
             await page.wait_for_timeout(self.settle_ms)
             try:
-                await self.cookies(page)
+                await self.cookies(page, site)
             except BrowserError:
                 warnings.append("Panel cookies nie odpowiedział na próbę odmowy; sprawdź widoczność oferty.")
             await page.wait_for_timeout(250)
@@ -492,7 +517,7 @@ class BrowserScanner:
                     # closing asynchronously. Retry the real refusal control
                     # before deciding the capture is obscured.
                     try:
-                        await self.cookies(page)
+                        await self.cookies(page, site)
                         await element.wait_for(state="hidden", timeout=1500)
                     except BrowserError:
                         pass
@@ -547,7 +572,7 @@ class BrowserScanner:
             if await page.evaluate("document.body?.scrollHeight || 0") > 24000:
                 warnings.append("Strona dłuższa niż 24000 px; zrzut i przewijanie ograniczone.")
             failed_styles = {url for url, kind in failed_resources.items() if kind == 'stylesheet'}
-            unresolved_styles = await self.unresolved_styles(page, failed_styles)
+            unresolved_styles = await self.unresolved_styles(page, failed_styles, successful_styles)
             relevant_styles = [url for url in unresolved_styles if urlsplit(url).hostname not in site.ignore_resource_hosts]
             relevant_failed = {urlsplit(url).hostname for url, kind in failed_resources.items() if kind == 'image'}
             relevant_failed |= {urlsplit(url).hostname for url in relevant_styles}
@@ -564,6 +589,10 @@ class BrowserScanner:
             communication = await page.evaluate(COMMUNICATION, {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors})
             communication["observed_at"] = timestamp
             communication_rules = {"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
+            if site.user_agent:
+                communication_rules['user_agent'] = site.user_agent
+            if site.cookie_continue_selector:
+                communication_rules['cookie_continue_selector'] = site.cookie_continue_selector
             if site.communication_ignore_selectors:
                 communication_rules["ignore_selectors"] = site.communication_ignore_selectors
             communication["adapter"] = hashlib.sha256(json.dumps(communication_rules, sort_keys=True).encode()).hexdigest()[:12]

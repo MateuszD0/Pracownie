@@ -619,7 +619,10 @@
     {
       "domain": "domydlanas.pl",
       "home_url": "https://domydlanas.pl",
-      "project_url": null,
+      "user_agent": "PracownieMonitor/1.0 (+https://github.com/MateuszD0/Pracownie)",
+      "cookie_continue_selector": "#cookie-notice #cn-accept-cookie[aria-label='Kontynuuj']",
+      "product_url_pattern": "/projekty-domow/.+/n[0-9]+-(bg|g[0-9]+)/?$",
+      "project_url": "https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/",
       "inspection": "pending",
       "scenarios": [],
       "required": {},
@@ -627,12 +630,18 @@
         ".grecaptcha-badge"
       ],
       "allowed_hosts": [],
-      "discovery_links": [],
+      "discovery_links": [
+        "https://domydlanas.pl/projekty-domow/"
+      ],
       "selection": {
         "http_inspected_at": "2026-10-19T19:01:03.180671+00:00",
         "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce."
-      }
+        "note": "Witryna odrzuca domyślny identyfikator HeadlessChrome; skaner identyfikuje się jawnie jako PracownieMonitor. Wybór pojedynczej karty z katalogu zostaje zamrożony po walidacji w przeglądarce. Brak publicznego rankingu sprzedaży.",
+        "basis": "Pierwszy projekt wyróżniony w publicznym katalogu; brak potwierdzonego rankingu sprzedaży.",
+        "source": "https://domydlanas.pl/projekty-domow/",
+        "http_verified_at": "2026-10-23"
+      },
+      "project_name": "N55-G2"
     },
     {
       "domain": "domywstylu.pl",

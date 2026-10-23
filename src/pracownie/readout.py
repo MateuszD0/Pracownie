@@ -85,7 +85,36 @@ def readout(item: dict) -> dict:
             before, after = 'Pozycja w poprzednim zapisie', match[2]
             note = 'Zmierzono przesunięcie; jego przyczyna nie jest ustalona.'
     left, right = comparison_parts(before, after)
-    return {'title': title, 'before': left, 'after': right, 'note': note}
+    short_left, short_right = comparison_parts(before, after, limit=90)
+    previous, current = [''.join(p['text'] for p in side) for side in (short_left, short_right)]
+    missing_before = str(item['before']).strip().casefold() in EMPTY
+    missing_after = str(item['after']).strip().casefold() in EMPTY
+    short_title = title if len(title) <= 80 else title[:79].rstrip() + '…'
+    if description.startswith('Widoczny nagłówek:'):
+        short_title = 'Nagłówek'
+    if missing_before:
+        sentence = f'W zapisie pojawiło się: „{current}”.'
+    elif missing_after:
+        sentence = f'W nowym zapisie brak: „{previous}”.'
+    else:
+        sentence = f'{short_title}: „{previous}” → „{current}”.'
+    layout = item['category'] == 'obraz' and description.startswith('Przesunięcie:')
+    if layout:
+        sentence = f'{short_title}: {after} względem poprzedniego zapisu.'
+    # This is a presentation tier, not a claim about the commercial impact.
+    # Every observation remains in its company's full before/after comparison.
+    offer_words = re.search(r'katalog|gratis|bezpłat|rabat|promoc|nowoś|pakiet|atrakcyjn.{0,12}cen', before + ' ' + after, re.I)
+    fragment = (item['category'] == 'komunikacja' and description == 'Treść'
+                and min(len(before), len(after)) > 100 and (before in after or after in before))
+    if fragment:
+        sentence = 'Zapisano ' + ('krótszy' if len(after) < len(before) else 'dłuższy') + ' fragment opisu oferty.'
+        note = 'Różny zakres zapisanego akapitu; nie ustalono, czy zmieniono treść.'
+    overview = bool(item.get('highlight_eligible', True) or offer_words) and not layout and not fragment
+    # The sentence already communicates one-sided presence.
+    digest_note = '' if missing_before else note
+    return {'title': title, 'before': left, 'after': right, 'note': note,
+            'sentence': sentence, 'digest_note': digest_note, 'overview': overview,
+            'lead_rank': (0 if overview else 4) + 2 * missing_after + missing_before}
 
 
 def digest_groups(items: list[dict]) -> list[dict]:
@@ -98,4 +127,7 @@ def digest_groups(items: list[dict]) -> list[dict]:
             groups[key].update(id=item['id'], items=[], count=0)
         groups[key]['items'].append(item)
         groups[key]['count'] += 1
+    for group in groups.values():
+        lead = min(group['items'], key=lambda item: item['readout']['lead_rank'])
+        group.update(id=lead['id'], lead=lead, overview=lead['readout']['overview'])
     return list(groups.values())

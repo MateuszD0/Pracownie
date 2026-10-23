@@ -80,45 +80,55 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             anchor = 'strona-główna' if item['page'] == 'glowna' else 'karta-projektu'
             targets[item['id']] = folder + '/' + names[domain] + suffix + '.md#' + anchor
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
-             f"**Zmiany w {data['metrics']['communication']} pracowniach** · **Obie strony porównane: {complete_firms}/{len(view['rows'])} pracowni.**", '']
+             f"**Różnice w zapisach {data['metrics']['communication']} pracowni** · **Obie strony porównane: {complete_firms}/{len(view['rows'])} pracowni.**", '']
     if observed:
         lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski.", '']
-    lines += ['[Zmiany](#najważniejsze-różnice-biznesowe) · [Grafika i wygląd](#grafika-i-wygląd) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '',
+    lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Grafika i wygląd](#grafika-i-wygląd) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '',
               f"Zakres: strony główne **{home_complete}/{len(view['rows'])}**, stałe projekty **{project_complete}/{len(view['rows'])}**. Pełne porównanie: **{complete}/{len(pages)} stron**. Brakujące dane nie oznaczają braku zmian.", '',
-              '## Najważniejsze różnice biznesowe', '',
-              'Każda pracownia, strona i temat ze zmianą mają własny wiersz. **Pogrubienie wskazuje zmienione słowa.** Do trzech porównań na temat; pozostałe są pod linkiem „Porównaj”.', '',
-              '| Pracownia / temat | Wczoraj | Dzisiaj | Dowód i szczegóły |', '| --- | --- | --- | --- |']
-    digest_pages, digest_rows, digest_bytes = [], [], 0
-    for group in groups:
-        entries = group['items'][:3]
-        label = f"[{cell(group['domain'])}]({targets[group['id']]})<br>" + ('Strona główna' if group['page'] == 'glowna' else 'Stały projekt') + '<br>**' + cell(group['business_type']) + '**'
-        values = ['<br><br>'.join('<em>' + (str(index + 1) + '. ' if group['count'] > 1 else '') + cell(e['readout']['title']) + '</em><br>' + diff_cell(e, side) for index, e in enumerate(entries)) for side in ['before', 'after']]
-        more = f"<br>+{group['count'] - 3} dalszych zmian" if group['count'] > 3 else ''
-        evidence = '[Porównaj →](' + targets[group['id']] + ')' + more + '<br>' + link('Otwórz stronę', entries[0]['source'])
-        digest_row = '| ' + ' | '.join([label, *values, evidence]) + ' |'
-        if digest_rows and digest_bytes + len(digest_row.encode()) > 24_000:
-            digest_pages.append(digest_rows)
-            digest_rows, digest_bytes = [], 0
-        digest_rows.append(digest_row)
-        digest_bytes += len(digest_row.encode())
-    digest_pages.append(digest_rows)
-    lines += digest_pages[0]
+              '## Zmiany oferty i komunikacji', '',
+              'Krótki opis poniżej; pełne teksty **przed → po** i dostępne zrzuty pod linkiem „Porównaj”. Opis dotyczy zapisów z podanych dni.', '']
+    header = ['| Pracownia / strona | Co zauważono | Sprawdź |', '| --- | --- | --- |']
     digest_documents = {}
-    if len(digest_pages) > 1:
-        navigation = ' · '.join('[Dalsze zmiany ' + str(i + 1) + '](' + folder + f'/zmiany-{i + 1}.md)' for i in range(1, len(digest_pages)))
-        lines += ['', f"Pokazano **{len(digest_pages[0])}/{len(groups)} tematów**. " + navigation, '']
-        for index, rows in enumerate(digest_pages[1:], 2):
-            digest_documents[folder + f'/zmiany-{index}.md'] = '\n'.join([
-                '# Dalsze zmiany — ' + cell(view['day']), '', '[← Podsumowanie dnia](../' + filename + ')', '',
-                f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · część {index}/{len(digest_pages)}", '',
-                '| Pracownia / temat | Wczoraj | Dzisiaj | Dowód i szczegóły |', '| --- | --- | --- | --- |',
-                *[r.replace('](' + folder + '/', '](') for r in rows], '',
-                navigation.replace('](' + folder + '/', ']('), ''])
-    if not groups:
-        lines += ['| Nie ustalono konkretnych zmian biznesowych dzień do dnia w sprawdzonym zakresie. | | | |']
+    for detailed in (False, True):
+        selected = [g for g in groups if g['overview'] != detailed]
+        if detailed:
+            lines += ['', '<details><summary>Pozostałe różnice do przejrzenia · tematy: ' + str(len(selected)) + '</summary>', '',
+                      'Krótkie etykiety, przesunięcia sekcji i różny zakres zapisanych akapitów. Same nie potwierdzają zmiany oferty.', '']
+        lines += header
+        digest_pages, digest_rows, digest_bytes = [], [], 0
+        for group in selected:
+            entry = group['lead']
+            label = f"[{cell(group['domain'])}]({targets[group['id']]})<br>" + ('Strona główna' if group['page'] == 'glowna' else 'Karta projektu')
+            description = '**' + cell(group['business_type']) + '**<br>' + cell(entry['readout']['sentence'])
+            if entry['readout']['digest_note']:
+                description += '<br><em>' + cell(entry['readout']['digest_note']) + '</em>'
+            more = f"<br>Pozostałe różnice tego tematu: {group['count'] - 1}" if group['count'] > 1 else ''
+            evidence = '[Porównaj →](' + targets[group['id']] + ')' + more + '<br>' + link('Otwórz stronę', entry['source'])
+            digest_row = '| ' + ' | '.join([label, description, evidence]) + ' |'
+            if digest_rows and digest_bytes + len(digest_row.encode()) > 16_000:
+                digest_pages.append(digest_rows)
+                digest_rows, digest_bytes = [], 0
+            digest_rows.append(digest_row)
+            digest_bytes += len(digest_row.encode())
+        digest_pages.append(digest_rows)
+        lines += digest_pages[0]
+        if len(digest_pages) > 1:
+            stem = 'drobne' if detailed else 'zmiany'
+            navigation = ' · '.join('[Dalsze tematy ' + str(i + 1) + '](' + folder + f'/{stem}-{i + 1}.md)' for i in range(1, len(digest_pages)))
+            lines += ['', f"Pokazano **{len(digest_pages[0])}/{len(selected)} tematów**. " + navigation, '']
+            for index, rows in enumerate(digest_pages[1:], 2):
+                digest_documents[folder + f'/{stem}-{index}.md'] = '\n'.join([
+                    '# Dalsze obserwacje — ' + cell(view['day']), '', '[← Podsumowanie dnia](../' + filename + ')', '',
+                    f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · część {index}/{len(digest_pages)}", '',
+                    *header, *[r.replace('](' + folder + '/', '](') for r in rows], '',
+                    navigation.replace('](' + folder + '/', ']('), ''])
+        if not selected:
+            lines += ['| ' + ('Brak drobnych obserwacji w tym zakresie.' if detailed else 'Nie ustalono konkretnych zmian biznesowych dzień do dnia w tej części zestawienia.') + ' | | |']
+        if detailed:
+            lines += ['', '</details>', '']
     lines += ['', '„Nie odnotowano w tym odczycie” oznacza brak tekstu w zapisanym widoku. Nie oznacza wycofania oferty ani zakończenia promocji.', '',
               '## Grafika i wygląd', '',
-              'Opisane zmiany wyglądu są w tabeli powyżej. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.', '',
+              'Opisane zmiany wyglądu są powyżej; przesunięcia sekcji w rozwijanych szczegółach. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.', '',
               f"różnice obrazu bez jednoznacznego opisu: **{len({e['domain'] for e in visual_reviews})} pracowni**.", '',
               '<details><summary>Rozwiń dodatkowe obserwacje wyglądu</summary>', '', '| Pracownia / strona | Co wykryto | Podstawa |', '| --- | --- | --- |']
     seen_visual = set()

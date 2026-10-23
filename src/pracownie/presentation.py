@@ -511,7 +511,7 @@ def render_text(view: dict) -> str:
         table.append("Nie ustalono konkretnych zmian dzień do dnia w sprawdzonym zakresie. Zobacz kompletność danych powyżej.")
     lines.extend([communication_summary(view), ""])
     lines.extend(f"{b['label']}: {b['domains']} pracowni ze zmianą" for b in management['business_buckets'])
-    lines.extend(["", "NAJWAŻNIEJSZE RÓŻNICE BIZNESOWE — SKRÓT", "Pracownia | Strona | Zmiana | Było | Jest | Źródło"])
+    lines.extend(["", "ZMIANY OFERTY I KOMUNIKACJI — SKRÓT", "Pracownia | Strona | Zmiana | Było | Jest | Źródło"])
     for item in business_highlights(journal):
         lines.append(" | ".join([item['domain'], 'Strona główna' if item['page'] == 'glowna' else 'Stała karta projektu', item['description'], brief(item['before'], 240), brief(item['after'], 240), item['source']]))
     lines.extend(["", "Pełne porównania, treści i powtórzenia zachowano poniżej.", "", *table, ""])
@@ -679,7 +679,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
     if not paired:
         price_lines = ["Brak wiarygodnych porównań cen z obu dni."]
     highlights = business_highlights(management['items'])
-    business_lines = ["### Najważniejsze różnice biznesowe — skrót", "", " · ".join(esc(b['label']) + ': **' + str(b['domains']) + '** pracowni' for b in management['business_buckets']), "", "| Pracownia / strona | Zmiana | Było | Jest | Źródło |", "| --- | --- | --- | --- | --- |"]
+    business_lines = ["### Zmiany oferty i komunikacji — skrót", "", " · ".join(esc(b['label']) + ': **' + str(b['domains']) + '** pracowni' for b in management['business_buckets']), "", "| Pracownia / strona | Zmiana | Było | Jest | Źródło |", "| --- | --- | --- | --- | --- |"]
     for item in highlights:
         business_lines.append("| " + " | ".join([esc(item['domain']) + ' · ' + ('główna' if item['page'] == 'glowna' else 'stały projekt'), esc(item['description']), esc(brief(item['before'])), esc(brief(item['after'])), '[Źródło](' + item['source'] + ')']) + " |")
     if not highlights:

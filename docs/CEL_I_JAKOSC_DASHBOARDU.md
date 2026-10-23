@@ -1,6 +1,6 @@
 # Cel i zasady dziennego dashboardu
 
-Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej z 65 pracowni. Ceny są dodatkiem. W głównej tabeli mają być treść zmiany, wartości przed/po, miejsce i zapisany dowód. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
+Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej z 65 pracowni. Ceny są dodatkiem. W głównej tabeli mają być krótki opis obserwacji, miejsce i link do porównania; pełne wartości przed/po oraz dostępne dowody pozostają w szczegółach. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
 
 ## Co pokazujemy
 
@@ -44,7 +44,7 @@ Sprawdzono reguły porównania i zachowania tożsamości projektu, klasyfikację
 
 ## Układ do codziennego czytania
 
-- Podsumowanie grupuje zmiany według pracowni, strony i tematu. Wiele tematów lub obie strony tej samej pracowni pozostają widoczne. Wiersz pokazuje do trzech par tekstów i liczbę dalszych zmian pod linkiem. Dłuższe zestawienia na GitHubie mają kolejne strony; żaden temat nie znika z powodu limitu sześciu pracowni.
+- Podsumowanie grupuje zmiany według pracowni, strony i tematu. Wiele tematów lub obie strony tej samej pracowni pozostają widoczne. Wiersz pokazuje jedno krótkie zdanie o reprezentatywnej obserwacji i liczbę pozostałych różnic pod linkiem. Reprezentant zachowuje własne źródło; nie łączymy niezależnie dodanego i usuniętego banera w domniemaną edycję. Dłuższe zestawienia na GitHubie mają kolejne strony; żaden temat nie znika z powodu limitu sześciu pracowni.
 - Zmienione słowa są pogrubione. Skrót długiego tekstu obejmuje pierwszą różnicę, zamiast obcinać ją za niezmienionym wstępem. „Nie odnotowano w tym odczycie” opisuje zapis, nie zakończenie promocji.
 - W szczegółach pracowni dostępne są datowane, rozwijane obrazy przed/po. Podgląd może obejmować tylko fragment różnicy obrazu; nie musi pokazywać wszystkich komunikatów odczytanych z karty. Pełne dane pozostają w CSV/HTML.
 - Lista wszystkich 65 pracowni i dodatkowe obserwacje obrazu są zwinięte. W HTML filtry są rozwijane, aktywny zakres pozostaje opisany, a tabela zmian na telefonie układa się pionowo.
@@ -55,3 +55,11 @@ Sprawdzono reguły porównania i zachowania tożsamości projektu, klasyfikację
 W zapisach 21–22.10 licznik realizacji ma różne wartości nawet w obrębie tego samego odczytu tekstu i właściwości wizualnych (139/138 oraz 133/130). Dodatkowe sprawdzenie publicznego skryptu `https://hexagreen.pl/wp-content/themes/hexagreen/js/info-section-counter.js?ver=1.0.9` potwierdziło animację liczników po wejściu sekcji w ekran. Dotyczy to również licznika autorskich projektów. Wartości 18 → 17 i 139 → 133 nie są wiarygodnym dowodem zmiany wielkości oferty. Zachowujemy oryginalne odczyty jako pomocnicze; bieżącej wartości witryny nie przepisujemy wstecz do historii. Do czasu rejestrowania ustabilizowanej wartości końcowej te liczniki nie są alertami biznesowymi.
 
 Przyciski zgód, w tym „Akceptuj wszystko”, są obserwacjami interfejsu, nie komunikacją sprzedażową. Nagłówki o projektach zawierające konkretny benefit, np. pakiet gratis, pozostają w zestawieniu biznesowym.
+
+### Czytelniejszy skrót dnia
+
+Trzy kolumny: pracownia i strona, co zauważono, link do sprawdzenia. Pełne cytaty pozostają na stronach pracowni, z pogrubioną różnicą. Nazwa „Zmiany oferty i komunikacji” nie sugeruje pomiaru wpływu na sprzedaż.
+
+Krótkie etykiety bez konkretnej informacji o ofercie, przesunięcia sekcji i różny zakres długiego akapitu trafiają do rozwijanego zestawienia „Pozostałe różnice do przejrzenia”. Krótkie komunikaty o katalogu, gratisie, promocji i pakiecie pozostają w skrócie. To podział prezentacji, nie usuwanie obserwacji ani potwierdzenie przyczyny zmiany. Liczniki wszystkich różnic obejmują obie części; filtry HTML działają na obie.
+
+W obrębie tematu pierwszeństwo ma konkretna para wartości, potem obecność w nowym zapisie, potem brak w nowym zapisie. Przy braku komunikatu widoczne jest zastrzeżenie, że nie dowodzi to wycofania oferty. Wyświetlamy daty skanów; przebudowa układu nie tworzy nowego skanu.

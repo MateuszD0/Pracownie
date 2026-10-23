@@ -54,7 +54,8 @@ def test_daily_table_contains_the_finding_and_matching_before_after_links():
     previews = {first['evidence']['przed']: 'https://example.com/before.jpg', first['evidence']['po']: 'https://example.com/after.jpg'}
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day', previews=previews)
     root = docs['DASHBOARD.md']
-    assert 'Rabat <strong>10</strong>%' in root.split('## Wszystkie pracownie')[0]
+    assert '„Rabat 10%” → „Rabat 20%”' in root.split('## Wszystkie pracownie')[0]
+    assert 'Rabat <strong>10</strong>%' in docs['dashboard/testpl.md']
     assert '[Przed](https://example.com/before.jpg)' in docs['dashboard/testpl.md']
     assert '[Po](https://example.com/after.jpg)' in docs['dashboard/testpl.md']
     assert 'Obie strony porównane:' in root

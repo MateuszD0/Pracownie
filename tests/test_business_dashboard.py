@@ -34,7 +34,7 @@ async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, 
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('executive')) & Node.DOCUMENT_POSITION_PRECEDING)")
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('communication-coverage')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('#communication-coverage').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('daily')) & Node.DOCUMENT_POSITION_FOLLOWING)")
-        assert await page.locator('[data-business-domain]:visible').count() == len(digest_groups(build_management(view)['items']))
+        assert await page.locator('[data-business-domain]:visible').count() == sum(g['overview'] for g in digest_groups(build_management(view)['items']))
         assert await page.locator('[data-communication-domain]').count() == len(view['rows'])
         link = page.locator('#business-highlights a[data-company-link]').first
         if await link.count():
@@ -96,7 +96,7 @@ def test_highlights_prioritize_concrete_offers_and_keep_each_company_once():
 def test_daily_business_summary_is_present_in_all_report_formats():
     view = management_view()
     for report in [render_html(view), render_text(view), render_markdown(view)]:
-        assert 'Najważniejsze różnice biznesowe' in report or 'NAJWAŻNIEJSZE RÓŻNICE BIZNESOWE' in report
+        assert 'Zmiany oferty i komunikacji' in report or 'ZMIANY OFERTY I KOMUNIKACJI' in report
         assert 'Rabat 10%' in report and 'Rabat 20%' in report
         assert 'https://test.pl/#oferta' in report
 
@@ -125,4 +125,31 @@ async def test_promotional_controls_follow_business_filters_and_csv(executable):
         rows = list(csv.DictReader(io.StringIO((await download.path()).read_text(encoding='utf-8-sig')), delimiter=';'))
         assert len(rows) == 1 and rows[0]['Rodzaj'] == 'Promocje i rabaty'
         assert rows[0]['Było'] == home['before'] and rows[0]['Jest'] == home['after']
+        await context.close()
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize('scripts', [False, True])
+async def test_compact_summary_and_minor_details_keep_sources_and_filters(executable, scripts):
+    view = management_view()
+    base = view['journal'][0]
+    view['journal'].append(dict(base, id='layout', category='obraz', description='Przesunięcie: sekcja oferty (900 px w dół)', before='0', after='900', specific=True))
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        context = await scanner.browser.new_context(java_script_enabled=scripts, viewport={'width': 390, 'height': 844})
+        page = await context.new_page()
+        await page.set_content(render_html(view))
+        assert await page.locator('#business-highlights [data-business-domain]:visible').count() == 3
+        assert not await page.locator('#business-minor').is_visible()
+        await page.locator('.minor-changes > summary').click()
+        assert '900 px' in await page.locator('#business-minor').inner_text()
+        target = await page.locator('#business-minor a[data-company-link]').get_attribute('href')
+        await page.locator('#business-minor a[data-company-link]').click()
+        assert await page.locator(target).is_visible()
+        if scripts:
+            await page.locator('.filter-disclosure > summary').click()
+            await page.locator('#page-filter').select_option('projekt')
+            assert await page.locator('#business-minor [data-business-domain]').count() == 0
+            assert await page.locator('#minor-count').inner_text() == '0'
+            assert await page.locator('#business-highlights [data-business-domain]').count() == 2
+        assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         await context.close()

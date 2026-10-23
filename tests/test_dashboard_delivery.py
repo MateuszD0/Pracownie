@@ -17,7 +17,7 @@ from pracownie.state import StateStore
 def test_readable_dashboard_has_all_firms_both_pages_and_business_changes():
     view = management_view()
     text = render_dashboard(view, 'https://github.com/test/monitor/releases/tag/monitor-report-2026-10-20')
-    assert text.index('## Najważniejsze różnice biznesowe') < text.index('## Wszystkie pracownie')
+    assert text.index('## Zmiany oferty i komunikacji') < text.index('## Wszystkie pracownie')
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
     assert len(docs) == 3
     assert '[test.pl](dashboard/testpl.md)' in text

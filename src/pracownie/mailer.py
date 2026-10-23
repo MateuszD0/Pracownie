@@ -77,10 +77,10 @@ def compose(day: str, document: str, readiness: dict, repo: str, report_url: str
     text = [title, coverage]
     sections = [f'<h1>{html.escape(title)}</h1><p>{html.escape(coverage)}</p>']
     def section_table(title: str, legacy_index: int):
-        heading = next((h for h in soup.find_all(['h2', 'h3']) if title in h.get_text(' ', strip=True)), None)
+        heading = next((h for h in soup.find_all(['h2', 'h3']) if title in h.get_text(' ', strip=True) or title == 'Zmiany oferty i komunikacji' and 'Najważniejsze różnice biznesowe' in h.get_text(' ', strip=True)), None)
         return heading.find_next('table') if heading else tables[legacy_index]
 
-    groups = [('Najważniejsze różnice biznesowe', section_table('Najważniejsze różnice biznesowe', 0), 6)]
+    groups = [('Zmiany oferty i komunikacji', section_table('Zmiany oferty i komunikacji', 0), 6)]
     if len(tables) >= 3:
         groups.append(('Grafika i wygląd — wybrane obserwacje', section_table('Grafika i wygląd', 1), 3))
     for heading, table, limit in groups:

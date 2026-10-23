@@ -41,7 +41,7 @@ Pozostałe strony tego porównania zawierają 89 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Zapisz się do newslettera | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/#newsletter-component) |
 | Zmiany wyglądu · Układ · Projekt parterowego domu bez garażu, z 3 sypialniami, w nowoczesnym stylu Jantar VII | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · [3](dobredomypl-3.md) · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · **6**
 

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [Projekt domu z poddaszem i garażem dwustanowiskowym uA441](https://www.uarchitekta.pl/projekt/uA441,6969)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.uarchitekta.pl/)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
+**Odczyty:** 22.10.2026 08:39 → 23.10.2026 08:50 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,7 +24,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.uarchitekta.pl/projekt/uA441,6969)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
+**Odczyty:** 22.10.2026 08:39 → 23.10.2026 08:50 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -34,11 +34,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- 13191 odsłon projektu → 13263 odsłon projektu
+- 13263 odsłon projektu → 13331 odsłon projektu
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-23t062552.482285-0000-format-dca9cdea-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 

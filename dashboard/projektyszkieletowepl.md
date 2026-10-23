@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [DOM—B55](https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html)
 
@@ -16,17 +16,27 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.projektyszkieletowe.pl/)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
+**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.projektyszkieletowe.pl/)
+
+
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
+**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-23t062552.482285-0000-format-dca9cdea-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 

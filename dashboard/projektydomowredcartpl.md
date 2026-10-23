@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektydomow.redcart.pl/)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
+**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,22 +24,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:38 (czas polski).
+**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- PROJEKT NOWOCZESNEGO DOMU ENERGOOSZCZĘDNEGO NF40-GJ-70-20-2G-V6 POW. 164 M2 → brak
-- brak → PROJEKT DOMU PASYWNEGO LIGHT PS-GA-70-20 POW. 124,50 M2
+- PROJEKT DOMU PREFABRYKOWANEGO - DOM ALEKSANDRA (WERSJA LUSTRZANEGO ODBICIA) → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-23t062552.482285-0000-format-dca9cdea-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 

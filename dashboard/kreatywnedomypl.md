@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [KD\_2402M](https://kreatywnedomy.pl/projekt/kd_2402m/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**1 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://kreatywnedomy.pl/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:37 (czas polski).
+**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,25 +24,37 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://kreatywnedomy.pl/projekt/kd_2402m/)
 
-**Odczyty:** 21.10.2026 09:37 → 22.10.2026 08:37 (czas polski).
+**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Funkcjonalności · Opcja na stronie · Karta projektu · DODATKI | <strong>ELEWACJE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://kreatywnedomy.pl/projekt/kd_2402m/) |
 
-<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-dowod-12-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 22.10.2026 08:47 | Po · 23.10.2026 08:59 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-dowod-12-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
 
 - Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Kontrolka zgód lub ustawień sesji; nie zmiana komunikacji oferty.
 
 Przykłady z zapisów:
 
-- RZUTY → brak
-- brak → Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników o…
-- brak → Odrzucać
+- brak → RZUTY
+- PRZEKROJE → brak
+- brak → PRZEKROJE
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-23t062552.482285-0000-format-dca9cdea-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 

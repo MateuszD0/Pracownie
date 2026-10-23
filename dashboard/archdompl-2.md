@@ -4,21 +4,21 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-20 → 2026-10-21**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [AKSAMITKA 1](https://archdom.pl/produkt/projekt-domu-aksamitka/)
 
-Różnice tej pracowni: **60**. Strona **2/3** · pokazano **25** wpisów.
+**36 zmian w zapisanym zakresie.**
 
-Strony porównania: [1](archdompl.md) · **2** · [3](archdompl-3.md)
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Strony porównania: [1](archdompl.md) · **2**
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://archdom.pl/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 22.10.2026 08:35 → 23.10.2026 08:46 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,37 +26,23 @@ Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w pl
 
 [Otwórz stronę źródłową](https://archdom.pl/produkt/projekt-domu-aksamitka/)
 
-**Odczyty:** 20.10.2026 21:54 → 21.10.2026 09:35 (czas polski).
+**Odczyty:** 22.10.2026 08:35 → 23.10.2026 08:46 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Aksamitka – projekt małego domu parterowego jednorodzinnego. | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Usunięto: Źródło grafiki w zestawie banerów · Rodzaj ogrzewania: gaz / OPIS | Projekt domu parterowego Aksamitka wersja standardowa - widok salonu 3 · https://archdom.pl/wp-content/uploads/2023/02/aksamitka\_1\_int\_3-480x270.webp | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Możliwość adaptacji poddasza na cele mieszkalne. | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Inne wersje projektu domu: | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Usunięto: Źródło grafiki w zestawie banerów · Karta projektu · Zamów projekt | Prezentacja projektu domu jednorodzinnego parterowego Aksamitka · https://archdom.pl/wp-content/uploads/2023/02/aksamitka\_1\_youtube.webp | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | DZIAŁKA | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · Zamów projekt | brak | projekt małego domu | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | ELEWACJE | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Pompa ciepła powietrzna | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | OPIS | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Ogrzewanie podłogowe | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · Zamów projekt | brak | projekty domów parterowych | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Kotłownia na gaz | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | TECHNOLOGIA | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Egzemplarz projektu | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | z rekuperacją | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Minimalne wymiary działki | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#h-minimalne-wymiary-dzialki) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Kotłownia na pellet | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | + ogrzewanie podłogowe | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · Zamów projekt | brak | projekty małych domów | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-description) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Projekty szamb | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | Wyczyść | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Usunięto: Wezwanie do działania · Karta projektu · Zamów projekt | RZUT | brak | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
-| Komunikacja sprzedażowa · Dodano: Wezwanie do działania · Karta projektu · Zamów projekt | brak | Dowiedz się więcej | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
-| Komunikacja sprzedażowa · Dodano: Nagłówek · Karta projektu · Zamów projekt | brak | Wentylacja mechaniczna | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#tab-global-tab-3340) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>OPIS</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zamów projekt | <strong>Wentylacja mechaniczna</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | <strong>Dowiedz się więcej</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zamów projekt | <strong>+ ogrzewanie podłogowe</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | <strong>projekty małych domów</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>Wyczyść</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>TECHNOLOGIA</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zamów projekt | <strong>Pompa ciepła powietrzna</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>DZIAŁKA</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zamów projekt | <strong>Minimalne wymiary działki</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>ELEWACJE</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-21/2026-10-21-2026-10-21t195559.281789-0000-format-83af87f9-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 
-Strony porównania: [1](archdompl.md) · **2** · [3](archdompl-3.md)
+Strony porównania: [1](archdompl.md) · **2**
 

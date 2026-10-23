@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-22 → 2026-10-23**
 
 **Ten sam projekt:** [Dom jednorodzinny parterowy z antresolą KRZNA 49C](https://skahus.pl/produkt/dom-jednorodzinny-parterowy-z-antresola-krzna-49c/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://skahus.pl/)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
+**Odczyty:** 22.10.2026 08:39 → 23.10.2026 08:49 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://skahus.pl/produkt/dom-jednorodzinny-parterowy-z-antresola-krzna-49c/)
 
-**Odczyty:** 21.10.2026 09:38 → 22.10.2026 08:39 (czas polski).
+**Odczyty:** 22.10.2026 08:39 → 23.10.2026 08:50 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-23t062552.482285-0000-format-dca9cdea-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t064535.812986-0000-a8652a7f-porownanie.html)
 

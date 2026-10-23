@@ -48,13 +48,13 @@ Strony porównania: **1** · [2](studioatriumpl-2.md) · [3](studioatriumpl-3.md
 | Zmiany wyglądu · Położenie i rozmiar: Projekt Lopez - realizacja wnętrza (1346 px w górę) | 426 × <strong>426</strong> px; położenie: 0 px od lewej, <strong>15581</strong> px od góry | 426 × <strong>284</strong> px; położenie: 0 px od lewej, <strong>14235</strong> px od góry | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
 | Zmiany wyglądu · Układ · CO ZAWIERA PROJEKT DOMU STUDIO ATRIUM? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>283 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-34-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-34-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 22.10.2026 08:39 | Po · 23.10.2026 08:50 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-34-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-34-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-34-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-34-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -95,7 +95,7 @@ Porównanie: 22.10.2026 08:39 → 23.10.2026 08:50 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: **1** · [2](studioatriumpl-2.md) · [3](studioatriumpl-3.md)
 

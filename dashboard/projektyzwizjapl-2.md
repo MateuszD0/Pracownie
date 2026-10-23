@@ -39,7 +39,7 @@ Pozostałe strony tego porównania zawierają 5 różnic tej strony; użyj numer
 | Zmiany wyglądu · Układ · Informacje szczegółowe | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3#detailed-information-title) |
 | Zmiany wyglądu · Układ · Podobne projekty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>91 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3#similar-projects-title) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: [1](projektyzwizjapl.md) · **2**
 

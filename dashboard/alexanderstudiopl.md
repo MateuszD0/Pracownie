@@ -30,13 +30,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Promocje i rabaty · Baner · Karta projektu · KUP PROJEKT | <strong>Promocja!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-1-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 22.10.2026 08:40 | Po · 23.10.2026 08:52 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -66,5 +66,5 @@ Porównanie: 22.10.2026 08:35 → 23.10.2026 08:45 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 

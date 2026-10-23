@@ -34,17 +34,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Położenie i rozmiar: 5 000,00 ZŁ (9 px w lewo, 24 px w dół) | <strong>134</strong> × 28 px; położenie: <strong>1034</strong> px od lewej, <strong>703</strong> px od góry | <strong>125</strong> × 28 px; położenie: <strong>1025</strong> px od lewej, <strong>727</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | Zmiany wyglądu · Położenie i rozmiar: Porównaj (24 px w dół) | <strong>298</strong> × 36 px; położenie: 870 px od lewej, <strong>829</strong> px od góry | <strong>280</strong> × 36 px; położenie: 870 px od lewej, <strong>853</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-31-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-31-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 22.10.2026 08:36 | Po · 23.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-31-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-31-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 

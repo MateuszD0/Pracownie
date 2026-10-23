@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 71 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Projekt domu BW-36 wariant 6 - Pow. użytkowa 99,50m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#333) |
 | Zmiany wyglądu · Układ · od 0,00 zł - Kurier Inpost | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#main) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: [1](postawdom24pl.md) · [2](postawdom24pl-2.md) · [3](postawdom24pl-3.md) · **4** · [5](postawdom24pl-5.md)
 

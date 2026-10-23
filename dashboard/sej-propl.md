@@ -48,13 +48,13 @@ Strony porównania: **1** · [2](sej-propl-2.md)
 | Zmiany wyglądu · Położenie i rozmiar: Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026 (197 px w górę) | 173 × <strong>57</strong> px; położenie: 701 px od lewej, <strong>3661</strong> px od góry | 173 × <strong>76</strong> px; położenie: 701 px od lewej, <strong>3464</strong> px od góry | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Widoczny nagłówek: Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć | <strong>Kierownik</strong> <strong>budowy</strong>: <strong>obowiązki,</strong> <strong>koszt</strong> i <strong>kiedy</strong> <strong>jest</strong> <strong>potrzebny w 2026</strong> | <strong>Powierzchnia</strong> <strong>zabudowy a użytkowa</strong>: <strong>czym</strong> <strong>się różnią</strong> i <strong>jak</strong> <strong>je</strong> <strong>liczyć</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-21-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-21-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 22.10.2026 08:38 | Po · 23.10.2026 08:49 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-dowod-21-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-dowod-21-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -98,7 +98,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md)
 

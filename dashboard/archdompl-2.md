@@ -42,7 +42,7 @@ Strony porównania: [1](archdompl.md) · **2**
 | Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zamów projekt | <strong>Minimalne wymiary działki</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Zamów projekt | Nie odnotowano w tym odczycie | <strong>ELEWACJE</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: [1](archdompl.md) · **2**
 

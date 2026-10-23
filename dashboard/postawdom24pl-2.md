@@ -56,7 +56,7 @@ Strony porównania: [1](postawdom24pl.md) · **2** · [3](postawdom24pl-3.md) ·
 
 Pozostałe strony tego porównania zawierają 32 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 
 Strony porównania: [1](postawdom24pl.md) · **2** · [3](postawdom24pl-3.md) · [4](postawdom24pl-4.md) · [5](postawdom24pl-5.md)
 

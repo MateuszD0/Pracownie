@@ -6,7 +6,7 @@
 
 **2026-10-22 → 2026-10-23**
 
-**Ten sam projekt:** [domydlanas.pl](https://domydlanas.pl)
+**Ten sam projekt:** [N55-G2](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://domydlanas.pl)
+[Otwórz stronę źródłową](https://domydlanas.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 23.10.2026 14:37 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
-[Otwórz stronę źródłową](https://domydlanas.pl)
+[Otwórz stronę źródłową](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 23.10.2026 14:37 (czas polski).
 
-**Brak odczytu**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Nie ustalono poprawnej karty projektu.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t072528.631349-0000-format-9752fcba-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
 

@@ -57,7 +57,7 @@ Strony porównania: [1](polliopl.md) · **2** · [3](polliopl-3.md)
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Piętrowe bez garażu</strong> | [Otwórz stronę](https://pollio.pl/projekty-domow/projekt/xb8/#kategorie-i-podobne) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Piętrowe</strong> | [Otwórz stronę](https://pollio.pl/projekty-domow/projekt/xb8/#kategorie-i-podobne) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t074329.212551-0000-93206386-porownanie.html)
 
 Strony porównania: [1](polliopl.md) · **2** · [3](polliopl-3.md)
 

@@ -57,7 +57,7 @@ Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md) 
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>minut</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>sekund</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t074329.212551-0000-93206386-porownanie.html)
 
 Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md) · [4](zbudujsamdompl-4.md)
 

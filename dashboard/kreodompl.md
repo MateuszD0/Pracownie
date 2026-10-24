@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706](https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html)
 
@@ -16,19 +16,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.kreodom.pl/)
 
-**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
+**Odczyty:** 23.10.2026 08:48 → 24.10.2026 09:18 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (53) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (48) — nie są ustaloną zmianą oferty</summary>
 
 - Element zakładki katalogu projektów; nie zmiana oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- PDJ-9791 → brak
-- Karmelita Gold → brak
-- PDJ-0788 → PDJ-4027
+- Karmazyn → brak
+- brak → Markus G1
+- brak → Neptun 5
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -38,9 +38,9 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html)
 
-**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
+**Odczyty:** 23.10.2026 08:48 → 24.10.2026 09:18 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

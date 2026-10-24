@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [ANNECY 357,32m²](https://lipinscy.pl/projekt/annecy/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://lipinscy.pl/)
 
-**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
+**Odczyty:** 23.10.2026 08:48 → 24.10.2026 09:18 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://lipinscy.pl/projekt/annecy/)
 
-**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
+**Odczyty:** 23.10.2026 08:48 → 24.10.2026 09:19 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

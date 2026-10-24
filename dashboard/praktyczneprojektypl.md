@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [B11 — 75 m²/lokal](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://praktyczneprojekty.pl/)
 
-**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
+**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -26,7 +26,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- Czwartek, 22 października 2026, \[licznik\] → Piątek, 23 października 2026, \[licznik\]
+- Piątek, 23 października 2026, \[licznik\] → Sobota, 24 października 2026, \[licznik\]
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -36,7 +36,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://praktyczneprojekty.pl/)
 
@@ -46,9 +46,9 @@ Porównanie: 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski). Różnica zrzu
 
 [Otwórz stronę źródłową](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
-**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
+**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

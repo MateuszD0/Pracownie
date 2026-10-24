@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**6 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,29 +16,64 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektydomow.redcart.pl/)
 
-**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
+**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Dodatki i pakiety · Opis i argumenty oferty | Unikalna usługa: koncepcja kosztorysowa<strong>.</strong> | Unikalna usługa: koncepcja kosztorysowa | [Otwórz stronę](https://projektydomow.redcart.pl/#content) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>CZYTAJ WIĘCEJ ...</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektydomow.redcart.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Przeczytaj więcej ...</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektydomow.redcart.pl/) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | Projekty na indywidualne <strong>zamównienie</strong> | Projekty na indywidualne <strong>zamówienie</strong> | [Otwórz stronę](https://projektydomow.redcart.pl/#content) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | Projektowanie domów wysoce energooszczędnych i pasywnych | Projektowanie domów <strong>na miarę XXI wieku (</strong>wysoce energooszczędnych i pasywnych<strong>)</strong> | [Otwórz stronę](https://projektydomow.redcart.pl/#content) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | Inwentaryzacje architektoniczno-budowlane | Inwentaryzacje architektoniczno - budowlane | [Otwórz stronę](https://projektydomow.redcart.pl/#content) |
 
-## Karta projektu
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-6-przed.jpg)
 
-[Otwórz stronę źródłową](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
+| Przed · 23.10.2026 08:49 | Po · 24.10.2026 09:20 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-6-przed.jpg) |
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+</details>
 
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- PROJEKT DOMU PREFABRYKOWANEGO - DOM ALEKSANDRA (WERSJA LUSTRZANEGO ODBICIA) → brak
+- brak → PROJEKTUJEMY
+- CZYTAJ WIĘCEJ → brak
+- brak → FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+## Karta projektu
+
+[Otwórz stronę źródłową](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
+
+**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
+
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (5) — nie są ustaloną zmianą oferty</summary>
+
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+
+Przykłady z zapisów:
+
+- PROJEKT DOMU PASYWNEGO LIGHT PS-GA-70-20 POW. 124,50 M2 → brak
+- brak → PROJEKT DOMU ENERGOOSZCZĘDNEGO - DOM STANISŁAWA
+- brak → PROJEKT NOWOCZESNEGO DOMU ENERGOOSZCZĘDNEGO NF40-GJ-70-20-2G-V6 POW. 164 M2
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

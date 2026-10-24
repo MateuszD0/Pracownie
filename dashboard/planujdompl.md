@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [Projekt domu PLANUJDOM 072](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**8 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,37 +16,38 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://planujdom.pl/)
 
-**Odczyty:** 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski).
+**Odczyty:** 23.10.2026 08:48 → 24.10.2026 09:19 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo fachowa i uczciwa pomoc. Godna polecenia firma</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Wioletta Winiarska</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Tomasz Ośka</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Anna Bukalska</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Edyta Kowalczyk</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
 
-### Grafika i wygląd — różnica do obejrzenia
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-14-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-14-po.jpg)
 
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-Porównanie: 22.10.2026 08:37 → 23.10.2026 08:48 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+| Przed · 23.10.2026 09:02 | Po · 24.10.2026 09:32 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-dowod-14-po.jpg) |
 
-[Otwórz stronę](https://planujdom.pl/)
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
-
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
 
-**Odczyty:** 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski).
+**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+**Bez zmian w zapisanej komunikacji**
 
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 22.10.2026 08:38 → 23.10.2026 08:49 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
-
-
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

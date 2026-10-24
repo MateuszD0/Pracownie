@@ -4,59 +4,81 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-Różnice tej pracowni: **75**. Strona **2/3** · pokazano **25** wpisów.
+**85 zmian w zapisanym zakresie.**
 
-Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md)
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4](hexagreenpl-4.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://hexagreen.pl/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:37 (czas polski).
+**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Przesunięcie: Opinie naszych zaufanych i świadomych inwestorów (19 px w górę) | 465 × 104 px; położenie: 40 px od lewej, 9472 px od góry | 465 × 104 px; położenie: 40 px od lewej, 9453 px od góry | [Otwórz stronę](https://hexagreen.pl/#opinie) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny (19 px w górę) | 570 × 821 px; położenie: 670 px od lewej, 7183 px od góry | 570 × 821 px; położenie: 670 px od lewej, 7164 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Realizacje #domyHexaGreen (19 px w górę) | 916 × 37 px; położenie: 72 px od lewej, 4596 px od góry | 916 × 37 px; położenie: 72 px od lewej, 4577 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Serdecznie polecam Hexa Green Architekt! (19 px w górę) | 443 × 75 px; położenie: 716 px od lewej, 9759 px od góry | 443 × 75 px; położenie: 716 px od lewej, 9740 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-2bdc1995ed948f1b) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny (20 px w górę) | 585 × 450 px; położenie: 40 px od lewej, 3345 px od góry | 585 × 450 px; położenie: 40 px od lewej, 3325 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny HG 01 passive (19 px w górę) | 585 × 500 px; położenie: 40 px od lewej, 9698 px od góry | 585 × 500 px; położenie: 40 px od lewej, 9679 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-e262f75999dd4df5) |
-| Zmiany wyglądu · Przesunięcie: Projekty domów Hexa Green (19 px w górę) | 508 × 52 px; położenie: 40 px od lewej, 3080 px od góry | 508 × 52 px; położenie: 40 px od lewej, 3061 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: 2 Lokalizacja wjazdu (9 px w górę) | 250 × 67 px; położenie: 390 px od lewej, 8979 px od góry | 250 × 67 px; położenie: 390 px od lewej, 8970 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Uff, jak gorąco! 😅 Jak uchronić dom przed upałem? 5 kluczowych rozwiązań, które dbają o chłód i komfort termiczny latem (19 px w górę) | 380 × 380 px; położenie: 860 px od lewej, 10761 px od góry | 380 × 380 px; położenie: 860 px od lewej, 10742 px od góry | [Otwórz stronę](https://hexagreen.pl/#sbi_18365411899242278) |
-| Zmiany wyglądu · Przesunięcie: projekt domu pasywnego HG 03 Premium Hexa Green Architekt (20 px w górę) | 1200 × 600 px; położenie: 40 px od lewej, 5979 px od góry | 1200 × 600 px; położenie: 40 px od lewej, 5959 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-13b7fdbc62881209) |
-| Zmiany wyglądu · Przesunięcie: Projekt wykonawczy (19 px w górę) | 700 × 52 px; położenie: 90 px od lewej, 6340 px od góry | 700 × 52 px; położenie: 90 px od lewej, 6321 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-13b7fdbc62881209) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny HG 06 Premium samowystarczalny (19 px w górę) | 585 × 500 px; położenie: 40 px od lewej, 9698 px od góry | 585 × 500 px; położenie: 40 px od lewej, 9679 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-e262f75999dd4df5) |
-| Zmiany wyglądu · Przesunięcie: Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+ (19 px w górę) | 443 × 112 px; położenie: 716 px od lewej, 9759 px od góry | 443 × 112 px; położenie: 716 px od lewej, 9740 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-2bdc1995ed948f1b) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny (20 px w górę) | 1200 × 600 px; położenie: 40 px od lewej, 5979 px od góry | 1200 × 600 px; położenie: 40 px od lewej, 5959 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-13b7fdbc62881209) |
-| Zmiany wyglądu · Przesunięcie: Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive (19 px w górę) | 443 × 112 px; położenie: 716 px od lewej, 9759 px od góry | 443 × 112 px; położenie: 716 px od lewej, 9740 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-2bdc1995ed948f1b) |
-| Zmiany wyglądu · Przesunięcie: Hexa Green Architekt projekty domów dom pasywny HG 01 passive (20 px w górę) | 585 × 450 px; położenie: 655 px od lewej, 3345 px od góry | 585 × 450 px; położenie: 655 px od lewej, 3325 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: 5-krotnie mniej energii (19 px w górę) | 213 × 75 px; położenie: 672 px od lewej, 2599 px od góry | 213 × 75 px; położenie: 672 px od lewej, 2580 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+ (19 px w górę) | 443 × 150 px; położenie: 716 px od lewej, 9759 px od góry | 443 × 150 px; położenie: 716 px od lewej, 9740 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-2bdc1995ed948f1b) |
-| Zmiany wyglądu · Przesunięcie: Projekt domu pasywnego (19 px w górę) | 585 × 500 px; położenie: 40 px od lewej, 9698 px od góry | 585 × 500 px; położenie: 40 px od lewej, 9679 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-e262f75999dd4df5) |
-| Zmiany wyglądu · Przesunięcie: Termoizolacja (19 px w górę) | 396 × 37 px; położenie: 203 px od lewej, 5242 px od góry | 396 × 37 px; położenie: 203 px od lewej, 5223 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: Nowe Warunki Techniczne przynoszą istotne zmiany w projektowaniu domów energooszczędnych i samowystarczalnych. Regulacje (19 px w górę) | 380 × 380 px; położenie: 40 px od lewej, 10761 px od góry | 380 × 380 px; położenie: 40 px od lewej, 10742 px od góry | [Otwórz stronę](https://hexagreen.pl/#sbi_18436791862178686) |
-| Zmiany wyglądu · Przesunięcie: 1 Weryfikacja otoczenia (19 px w górę) | 250 × 67 px; położenie: 90 px od lewej, 8704 px od góry | 250 × 67 px; położenie: 90 px od lewej, 8685 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: HG Premium (19 px w górę) | 700 × 52 px; położenie: 90 px od lewej, 6361 px od góry | 700 × 52 px; położenie: 90 px od lewej, 6342 px od góry | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-13b7fdbc62881209) |
-| Zmiany wyglądu · Przesunięcie: Domy pasywne (19 px w górę) | 521 × 37 px; położenie: 687 px od lewej, 3589 px od góry | 521 × 37 px; położenie: 687 px od lewej, 3570 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Zmiany wyglądu · Przesunięcie: 6 zasad projektowania (19 px w górę) | 398 × 52 px; położenie: 40 px od lewej, 4960 px od góry | 398 × 52 px; położenie: 40 px od lewej, 4941 px od góry | [Otwórz stronę](https://hexagreen.pl/#primary) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>Nowe Warunki Techniczne przynoszą istotne zmiany w</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>4 Optymalne ustawienie domu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Jak wybrać optymalną działkę dla domu wysoce energooszczędnego</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Bądź na bieżąco z naszymi nowościami</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy to biuro, a nie inne. Dla mnie tylko jedna</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając moje pierwotne oczekiwania, a jej profesjon</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>była wyjątkowa pod każdym względem.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>W dużym skrócie, bardzo gorąco polecam!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delivering great results. Her ideas improved th</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Dołącz do naszego newslettera</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>3 Analiza nasłonecznienia i zacienienia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>projektuję domy wysoce energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Hexa Green projekt HG 08 energo+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>2 Lokalizacja wjazdu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Szczelność</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>HG 04 II energo+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Zyski cieplne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>Parametry</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Orientacja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Hambar44</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Odzysk ciepła</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>Technologia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>Instalacje energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+
+<details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>
+
+**Baner**
+
+**Było:** Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy to biuro, a nie inne. Dla mnie tylko jedna rzecz w projekcie nie była jasna, więc zadzwoniłem do biura po odpowiedź i uzyskałem ją. Dla ekip budowlanych projekt był czytelny i nie zgłaszali żadnych problemów, tak samo jak dla kierownika budowy. W sumie minął niecały rok i możemy już mieszkać!
+
+**Jest:** brak
+
+**Baner**
+
+**Było:** Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając moje pierwotne oczekiwania, a jej profesjonalizm sprawił, że cały proces przebiegł sprawnie i przyjemnie. Z całego serca polecam ją każdemu, kto szuka utalentowanego i rzetelnego architekta. Dziękuję!
+
+**Jest:** brak
+
+**Baner**
+
+**Było:** \[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delivering great results. Her ideas improved the project far beyond what I initially envisioned, and her professionalism made the whole process smooth and enjoyable. I wholeheartedly recommend her to anyone looking for a talented and reliable architect. Thanks!
+
+**Jest:** brak
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:37 (czas polski).
+**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
 
-Pozostałe strony tego porównania zawierają 5 różnic tej strony; użyj numerów stron powyżej.
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 
-Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md)
+Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4](hexagreenpl-4.md)
 

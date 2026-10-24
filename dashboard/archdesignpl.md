@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-22 → 2026-10-23**
+**2026-10-23 → 2026-10-24**
 
 **Ten sam projekt:** [DN 051](http://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://www.archdesign.pl/)
 
-**Odczyty:** 22.10.2026 08:35 → 23.10.2026 08:46 (czas polski).
+**Odczyty:** 23.10.2026 08:46 → 24.10.2026 09:16 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120)
 
-**Odczyty:** 22.10.2026 08:35 → 23.10.2026 08:46 (czas polski).
+**Odczyty:** 23.10.2026 08:46 → 24.10.2026 09:16 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-23/2026-10-23-2026-10-23t123658.516700-0000-7e1acaf1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t071605.737503-0000-e6b4165b-porownanie.html)
 

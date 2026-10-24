@@ -46,7 +46,7 @@ Strony porównania: [1](polliopl.md) · [2](polliopl-2.md) · **3**
 | Komunikacja sprzedażowa · Opis i argumenty oferty | Kąt nachylenia dachu | Kąt nachylenia dachu<strong>:</strong> | [Otwórz stronę](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | Ocieplenie | Ocieplenie<strong> ścian:</strong> | [Otwórz stronę](https://pollio.pl/projekty-domow/projekt/xb8/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t074329.212551-0000-93206386-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-porownanie.html)
 
 Strony porównania: [1](polliopl.md) · [2](polliopl-2.md) · **3**
 

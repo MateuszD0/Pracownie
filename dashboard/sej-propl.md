@@ -48,13 +48,13 @@ Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 | Zmiany wyglądu · Położenie i rozmiar: Koszt budowy domu 100 m² w 2026: stan surowy i deweloperski (135 px w prawo, 71 px w górę) | <strong>173</strong> × 57 px; położenie: <strong>994</strong> px od lewej, <strong>3483</strong> px od góry | <strong>186</strong> × 57 px; położenie: <strong>1129</strong> px od lewej, <strong>3412</strong> px od góry | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Położenie i rozmiar: Projekt domu SEJ-PRO 071 ENERGO (58 px w prawo) | <strong>362</strong> × <strong>200</strong> px; położenie: -<strong>328</strong> px od lewej, 885 px od góry | <strong>391</strong> × <strong>216</strong> px; położenie: -<strong>270</strong> px od lewej, 885 px od góry | [Otwórz stronę](https://www.sej-pro.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-dowod-27-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-27-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 23.10.2026 08:49 | Po · 24.10.2026 09:20 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-dowod-27-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-27-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -84,7 +84,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t075057.301459-0000-6f1dd6d4-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 

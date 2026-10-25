@@ -16,18 +16,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 24.10.2026 09:43 → 25.10.2026 08:41 (czas polski).
+**Odczyty:** 24.10.2026 09:43 → 25.10.2026 09:19 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
+- brak → 3. Projekt wentylacji mechanicznej: Dzięki zastosowaniu wentylacji mechanicznej uzyskujemy mniejsze koszty ogrzewania. System rekuperacji z…
+- brak → 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola…
 - Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższ… → brak
-- brak → Istnieje możliwość jednokrotnej wymiany projektu zakupionego w Pracowni Projektowej HB Studio na inny z jej oferty, przy czym wymianę należ…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -43,5 +44,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t074128.807843-0000-2f008a98-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
 

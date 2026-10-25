@@ -42,7 +42,7 @@ Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Układ · Dodaj do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>102 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t074128.807843-0000-2f008a98-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 

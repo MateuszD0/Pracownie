@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 24.10.2026 09:43 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 24.10.2026 09:43 → 25.10.2026 08:34 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -43,5 +43,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t073439.035185-0000-c51ad1f7-porownanie.html)
 

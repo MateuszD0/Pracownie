@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Rodrigo SZ](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html)
 
@@ -16,19 +16,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.studioatrium.pl/)
 
-**Odczyty:** 23.10.2026 08:50 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:21 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (9) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- PROJEKT DOMU Z PODDASZEM ROLEKS BIS 115,50 m2 → brak
-- PROJEKT DOMU Z PODDASZEM WENA 136,80 m2 → PROJEKT DOMU PIĘTROWEGO SIENA 113,80 m2
-- PROJEKT DOMU Z PODDASZEM GERWAZY 182,50 m2 → PROJEKT DOMU Z PODDASZEM MODELOWY 138,10 m2
+- PROJEKT DOMU PARTEROWEGO KALIFORNIA 118,95 m2 → PROJEKT DOMU PARTEROWEGO ROBERTO V 81,70 m2
+- PROJEKT DOMU Z PODDASZEM SAMBA VI 129,40 m2 → PROJEKT DOMU Z PODDASZEM PELIKAN 105,50 m2
+- PROJEKT DOMU PARTEROWEGO OSTOJA VII 114,80 m2 → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -38,9 +38,9 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html)
 
-**Odczyty:** 23.10.2026 08:50 → 24.10.2026 09:21 (czas polski).
+**Odczyty:** 24.10.2026 09:21 → 25.10.2026 06:21 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

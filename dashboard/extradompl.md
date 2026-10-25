@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Projekt domu Tracja 2 WOE1114](https://www.extradom.pl/projekt-domu-tracja-2-WOE1114)
 
-**7 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,26 +16,20 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.extradom.pl/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>PREZENT 🎁 Nowość</strong> | [Otwórz stronę](https://www.extradom.pl/#page) |
-| Komunikacja sprzedażowa · Baner | <strong>Puszek</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.extradom.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>Parterowy klasyk 100</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.extradom.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>NewHouse 771 w3</strong> | [Otwórz stronę](https://www.extradom.pl/#page) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Ambrozja 17</strong> | [Otwórz stronę](https://www.extradom.pl/#page) |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>3</strong> dni | <strong>2</strong> dni | [Otwórz stronę](https://www.extradom.pl/#hot-news) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-24-po.jpg)
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
-| Przed · 23.10.2026 08:47 | Po · 24.10.2026 09:18 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-24-po.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- dni → brak
+- 2 dni → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
@@ -43,23 +37,23 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 [Otwórz stronę źródłową](https://www.extradom.pl/projekt-domu-tracja-2-WOE1114)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>3</strong> dni | <strong>2</strong> dni | [Otwórz stronę](https://www.extradom.pl/projekt-domu-tracja-2-WOE1114#hot-news) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-28-po.jpg)
+<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
-| Przed · 23.10.2026 08:47 | Po · 24.10.2026 09:18 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-28-po.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- 2 dni → brak
+- dni → brak
+- 2 dni → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

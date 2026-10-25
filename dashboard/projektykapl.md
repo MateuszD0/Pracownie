@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Ka288](https://projektyka.pl/projekty/ka288)
 
@@ -16,34 +16,32 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektyka.pl/)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>GARAŻE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>w atrakcyjnych cenach</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>w atrakcyjnych cenach</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>GARAŻE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-26-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-13-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 08:49 | Po · 24.10.2026 09:20 |
+| Przed · 24.10.2026 09:20 | Po · 25.10.2026 06:20 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-26-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 
 Przykłady z zapisów:
 
-- Projekty domów → brak
-- https://projektyka.pl/userfiles/projects/category/watermark/thumbs/garaze.jpeg → brak
+- brak → Projekty domów
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -53,19 +51,31 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://projektyka.pl/projekty/ka288)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 24.10.2026 09:20 | Po · 25.10.2026 06:20 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://projektyka.pl/projekty/ka288)
 
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-29-po.jpg)
 
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

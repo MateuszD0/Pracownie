@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [WYSZUKANY D64 wariant II](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
@@ -16,39 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://eg-domy.pl/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 23.10.2026 08:47 | Po · 24.10.2026 09:18 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://eg-domy.pl/)
-
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-39-po.jpg)
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

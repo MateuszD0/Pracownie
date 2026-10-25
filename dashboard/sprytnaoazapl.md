@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Sprytna Oaza](https://sprytnaoaza.pl/products/projekt-sprytna-oaza)
 
-**5 zmian w zapisanym zakresie.**
+**4 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://sprytnaoaza.pl/)
 
-**Odczyty:** 23.10.2026 08:50 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:21 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,37 +24,38 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://sprytnaoaza.pl/products/projekt-sprytna-oaza)
 
-**Odczyty:** 23.10.2026 08:50 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:21 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Pozycję dodano do koszyka</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-notification) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Kontynuuj zakupy</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-notification) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Realizuj zakup</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-notification-form) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Koszyk | Koszyk<strong> 1 1 pozycja</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-icon-bubble) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Pokaż koszyk (1)</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-notification-button) |
+| Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Koszyk 1 1 pozycja</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#:~:text=Koszyk%201%201%20pozycja) |
+| Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Pokaż koszyk (1)</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#:~:text=Poka%C5%BC%20koszyk%20%281%29) |
+| Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Dodaj do koszyka</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#:~:text=Dodaj%20do%20koszyka) |
+| Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Kup teraz</strong> | [Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#:~:text=Kup%20teraz) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-17-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-4-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 09:03 | Po · 24.10.2026 09:34 |
+| Przed · 24.10.2026 09:34 | Po · 25.10.2026 06:33 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-17-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-4-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-### Grafika i wygląd — różnica do obejrzenia
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
-**Zmieniła się zawartość obrazu: górna część strony**
+- Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
 
-Porównanie: 23.10.2026 08:50 → 24.10.2026 09:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Przykłady z zapisów:
 
-[Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza)
+- Koszyk → brak
 
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
+</details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

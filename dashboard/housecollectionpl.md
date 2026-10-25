@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Dom w Toskanii](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://housecollection.pl/)
 
-**Odczyty:** brak odczytu → 24.10.2026 10:02 (czas polski).
+**Odczyty:** brak odczytu → 25.10.2026 06:19 (czas polski).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
-**Odczyty:** brak odczytu → 24.10.2026 10:03 (czas polski).
+**Odczyty:** brak odczytu → 25.10.2026 06:19 (czas polski).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

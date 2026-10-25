@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,19 +16,18 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:43 (czas polski).
+**Odczyty:** 24.10.2026 09:43 → 25.10.2026 06:18 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- 3. Projekt wentylacji mechanicznej: Dzięki zastosowaniu wentylacji mechanicznej uzyskujemy mniejsze koszty ogrzewania. System rekuperacji z… → brak
-- 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola… → brak
-- brak → Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższ…
+- Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższ… → brak
+- brak → Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -38,9 +37,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:43 (czas polski).
+**Odczyty:** 24.10.2026 09:43 → brak odczytu (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Brak odczytu**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

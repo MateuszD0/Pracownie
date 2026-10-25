@@ -4,70 +4,52 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Uroczy Klasyczny 82](https://domyzweranda.pl/projekty/uroczy-klasyczny-82)
 
-**26 zmian w zapisanym zakresie.**
+**10 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
-
-Strony porównania: **1** · [2](domyzwerandapl-2.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://domyzweranda.pl/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Warunki oferty · Nagłówek | <strong>Gwarancja ponadczasowego piękna</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Spełnienie marzeń o własnym domu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Profesjonalizm na każdym kroku</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Relacja oparta na zaufaniu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Kompletna dokumentacja bez kompromisów</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Weranda to strzał w dziesiątkę</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Domy rodzinne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Do porównania</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Domy parterowe</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Parterowy Klasyczny 130</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Bądź bliżej White Porch</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Uroczy Klasyczny 82</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Dopasuj do otoczenia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Wybierz styl życia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Indywidualne podejście</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>ZAPISZ SIĘ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Idealny dom dla rodziny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Uroczy Komfort 130</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Rodzinny Klasyczny 179</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Buduj z radością</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Uroczy Klasyczny+ 115</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Odbierz klucz do marzeń</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Uroczy Komfort 130</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Uroczy Klasyczny+ 115</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Uroczy Klasyczny 82</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Rodzinny Klasyczny 179</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Do porównania</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Parterowy Klasyczny 130</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-9-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-10-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 08:47 | Po · 24.10.2026 09:18 |
+| Przed · 24.10.2026 09:18 | Po · 25.10.2026 06:18 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-9-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-10-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (32) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (10) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Zapisany link prowadzi do innego projektu lub katalogu; nie do stałej karty.
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- Budowa przebiegła sprawnie dzięki świetnie przygotowanej dokumentacji. Ekipa budowlana była pod wrażeniem dokładności projektu. Dom wygląda… → brak
-- Ciesz się procesem tworzenia z pełnym wsparciem naszych ekspertów, aż do momentu odebrania kluczy. → brak
-- BESTSELLER → brak
+- brak → sypialnie
+- brak → ZOBACZ
+- brak → łazienki
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -77,21 +59,22 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://domyzweranda.pl/projekty/uroczy-klasyczny-82)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek · Karta projektu · DODAJ DO KOSZYKA | <strong>Parterowy Klasyczny 138</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
-| Komunikacja sprzedażowa · Nagłówek · Karta projektu · DODAJ DO KOSZYKA | <strong>Parterowy Klasyczny 130</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · DODAJ DO KOSZYKA | <strong>Do porównania</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Pytania / Co dokładnie dostaję po zakupie? | Nie odnotowano w tym odczycie | <strong>Parterowy Klasyczny 138</strong> | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Pytania / Co dokładnie dostaję po zakupie? | Nie odnotowano w tym odczycie | <strong>Do porównania</strong> | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Pytania / Co dokładnie dostaję po zakupie? | Nie odnotowano w tym odczycie | <strong>Parterowy Klasyczny 130</strong> | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Pytania / Co dokładnie dostaję po zakupie? | Nie odnotowano w tym odczycie | <strong>Uroczy Komfort 130</strong> | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-23-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-23-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-11-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 08:56 | Po · 24.10.2026 09:26 |
+| Przed · 24.10.2026 09:27 | Po · 25.10.2026 06:27 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-23-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-23-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-11-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -104,15 +87,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- m² pow. → brak
-- sypialnie → brak
-- łazienki → brak
+- brak → łazienki
+- brak → sypialnie
+- brak → ZOBACZ
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
-
-Strony porównania: **1** · [2](domyzwerandapl-2.md)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

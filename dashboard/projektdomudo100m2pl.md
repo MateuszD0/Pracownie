@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
@@ -16,19 +16,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-po.jpg)
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-Przykłady z zapisów:
+| Przed · 24.10.2026 09:20 | Po · 25.10.2026 06:20 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-po.jpg) |
 
-- Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu? → brak
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
@@ -36,29 +36,41 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://www.projektdomudo100m2.pl/)
 
-
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-27-po.jpg)
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski).
+**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 24.10.2026 09:20 | Po · 25.10.2026 06:20 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 23.10.2026 08:49 → 24.10.2026 09:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-28-po.jpg)
 
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

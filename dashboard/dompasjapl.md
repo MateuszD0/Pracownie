@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Dompasja 61B](https://dompasja.pl/dompasja-61b.html)
 
@@ -16,48 +16,60 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompasja.pl/)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:17 (czas polski).
+**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
+
+Przykłady z zapisów:
+
+- Mój koszyk 0 → Mój koszyk
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:18 (czas polski).
+**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>ZALOGUJ SIĘ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>UTWÓRZ KONTO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>NIE PAMIĘTASZ HASŁA?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>ZALOGUJ SIĘ</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#send2) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>NIE PAMIĘTASZ HASŁA?</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>UTWÓRZ KONTO</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-21-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-8-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 08:47 | Po · 24.10.2026 09:18 |
+| Przed · 24.10.2026 09:18 | Po · 25.10.2026 06:18 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-21-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-8-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
 
 Przykłady z zapisów:
 
-- Zobacz zamówienie i stan wysyłki → brak
-- Adres e-mail → brak
-- Śledzenie historii zamówień → brak
+- brak → Zamawiaj szybciej
+- To jest wymagane pole. → brak
+- brak → To Top
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

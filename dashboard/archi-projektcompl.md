@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [APS 343 POROTHERM](https://archi-projekt.com.pl/product/aps-343-porotherm/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archi-projekt.com.pl/)
 
-**Odczyty:** 23.10.2026 14:37 → 24.10.2026 09:43 (czas polski).
+**Odczyty:** 24.10.2026 09:43 → 25.10.2026 06:17 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archi-projekt.com.pl/product/aps-343-porotherm/)
 
-**Odczyty:** 23.10.2026 08:46 → 24.10.2026 09:17 (czas polski).
+**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:17 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

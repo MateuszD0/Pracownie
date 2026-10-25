@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://postawdom24.pl/)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
+**Odczyty:** 24.10.2026 09:19 → 25.10.2026 06:20 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
+**Odczyty:** 24.10.2026 09:19 → 25.10.2026 06:20 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

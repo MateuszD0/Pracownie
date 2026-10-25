@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [B11 — 75 m²/lokal](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
@@ -16,9 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://praktyczneprojekty.pl/)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
+**Odczyty:** 24.10.2026 09:19 → 25.10.2026 06:20 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 24.10.2026 09:19 | Po · 25.10.2026 06:20 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 <details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
@@ -26,7 +38,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- Piątek, 23 października 2026, \[licznik\] → Sobota, 24 października 2026, \[licznik\]
+- Sobota, 24 października 2026, \[licznik\] → Niedziela, 25 października 2026, \[licznik\]
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -36,19 +48,19 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 24.10.2026 09:19 → 25.10.2026 06:20 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://praktyczneprojekty.pl/)
 
-
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-26-po.jpg)
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
-**Odczyty:** 23.10.2026 08:49 → 24.10.2026 09:19 (czas polski).
+**Odczyty:** 24.10.2026 09:19 → 25.10.2026 06:20 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

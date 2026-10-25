@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-23 → 2026-10-24**
+**2026-10-24 → 2026-10-25**
 
 **Ten sam projekt:** [Lolek II N](https://www.dominanta.pl/projekty-domow/lolek-ii-n)
 
-**2 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,46 +16,39 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.dominanta.pl/)
 
-**Odczyty:** 23.10.2026 08:46 → 24.10.2026 09:17 (czas polski).
+**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Thanks, +</strong> | [Otwórz stronę](https://www.dominanta.pl/) |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | 2026-<strong>06</strong>-<strong>19</strong> \[licznik\] | 2026-<strong>10</strong>-<strong>23</strong> \[licznik\] | [Otwórz stronę](https://www.dominanta.pl/) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-20-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 23.10.2026 08:46 | Po · 24.10.2026 09:17 |
+| Przed · 24.10.2026 09:17 | Po · 25.10.2026 06:18 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-dowod-20-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+### Grafika i wygląd — różnica do obejrzenia
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Przykłady z zapisów:
+Porównanie: 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
-- brak → Ostatni wpis: nothing special \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ РђСЂРєР°РґР°
-- brak → Wątek: Thanks, +
-- Wątek: Автосервис Тойота в Москве → brak
+[Otwórz stronę](https://www.dominanta.pl/)
 
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-dowod-25-po.jpg)
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.dominanta.pl/projekty-domow/lolek-ii-n)
 
-**Odczyty:** 23.10.2026 08:47 → 24.10.2026 09:17 (czas polski).
+**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-24/2026-10-24-2026-10-24t080247.173617-0000-84eafb25-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t051658.451599-0000-d4790849-porownanie.html)
 

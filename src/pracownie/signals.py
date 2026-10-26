@@ -69,7 +69,9 @@ def supporting_reason(item: dict) -> str:
             return 'Automatyczna zmiana względnego określenia dnia.'
         if description == 'Treść' and SequenceMatcher(None, *texts, autojunk=False).ratio() < .45:
             return 'Różne fragmenty treści; nie ustalono, że dotyczą tego samego komunikatu.'
-    if item.get('unmatched') and item.get('communication_role') == 'text':
+    verified = item.get('commercial_check', {}).get('status') in {
+        'added', 'changed', 'scheduled', 'ended', 'probably_ended', 'other_offers', 'elsewhere'}
+    if item.get('unmatched') and item.get('communication_role') == 'text' and not verified:
         return 'Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.'
     return ''
 
@@ -105,6 +107,9 @@ def classify(entries: list[dict]) -> tuple[list[dict], list[dict]]:
 
 def summary(item: dict, limit: int = 145) -> str:
     """A readable finding, never a claim about revenue or a campaign's cause."""
+    if item.get('commercial_check', {}).get('summary'):
+        text = item['commercial_check']['summary']
+        return text if len(text) <= limit else text[:limit - 1].rstrip() + '…'
     before, after = str(item['before']), str(item['after'])
     desc = item['description']
     if item['category'] == 'obraz':

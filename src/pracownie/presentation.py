@@ -279,7 +279,10 @@ def scan_comparison(day: str, rows: list[dict]) -> dict:
 def build_view(day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> dict:
     rows = []
     for domain in domains:
-        entries = [r for r in results if r.domain == domain]
+        # Prefer the primary, verified observation when an interaction repeats
+        # the same message. Alphabetical scenario order otherwise keeps cart
+        # observations first and loses the verification attached to the page.
+        entries = sorted((r for r in results if r.domain == domain), key=lambda r: r.scenario != 'podstawowy')
         home = next((r for r in entries if r.page == "glowna" and r.scenario == "podstawowy"), None)
         project = next((r for r in entries if r.page == "projekt" and r.scenario == "podstawowy"), None)
         selected = selections.get(domain, {})

@@ -188,3 +188,24 @@ def test_technical_descriptions_are_not_commercial_extras(text):
     from pracownie.commercial import concrete, relevant
     assert not concrete(text)
     assert not relevant(change(text, None, 'dodatki'))
+
+
+def test_verified_primary_announcement_survives_cart_duplicates_and_unmatched_text_filter():
+    import copy
+    announcement = 'Promocja od 2026-10-27, koniec za:'
+    base = change(None, announcement)
+    base.details.update(role='text', unmatched=True)
+    base.field_key = 'communication:announcement'
+    base.details['commercial_check'] = assess(base, URL, [document(shot([announcement]), repeated=True)], complete=True)
+    cart = copy.deepcopy(base)
+    cart.details.pop('commercial_check')
+    cart.scenario = 'cart-first-alphabetically'
+    rows = [Result('test.pl', 'projekt', cart.scenario, 'changed', URL, [cart], observed_at=AT, compared_at=BEFORE, data_quality='ok'),
+            Result('test.pl', 'projekt', 'podstawowy', 'changed', URL, [base], observed_at=AT, compared_at=BEFORE, data_quality='ok')]
+    view = build_view(DAY, rows, {'finished_at': AT}, {}, ['test.pl'])
+    event, = view['journal']
+    assert event['scenario'] == 'podstawowy'
+    assert event['commercial_check']['status'] == 'scheduled'
+    assert len(view['management']['items']) == 1
+    dashboard = render_dashboard_documents(view, 'https://example.org/report')['DASHBOARD.md']
+    assert 'Zapowiedź promocji od 2026-10-27' in dashboard.split('<details><summary>Pozostałe różnice', 1)[0]

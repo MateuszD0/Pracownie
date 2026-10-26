@@ -143,9 +143,10 @@ def readout(item: dict) -> dict:
             if expired:
                 sentence = f'Komunikat z minionym terminem oferty ({expired}): „{current}”.'
                 overview = False
+    specific_date = commercial.get('status') == 'scheduled' and bool(re.search(r'\d{4}-\d{2}-\d{2}', str(item['after'])))
     return {'title': title, 'before': left, 'after': right, 'note': note,
             'sentence': sentence, 'digest_note': digest_note, 'overview': overview,
-            'lead_rank': (0 if overview else 4) + 2 * missing_after + missing_before}
+            'lead_rank': (0 if overview else 4) + 2 * missing_after + missing_before - 2 * specific_date}
 
 
 def digest_groups(items: list[dict]) -> list[dict]:

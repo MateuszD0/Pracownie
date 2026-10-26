@@ -252,8 +252,16 @@ def resume_data(root: Path, day: str, sites: list[Site], state: dict, repair_dom
         entry = dict(entry)
         entry["changes"] = [Change(**change) for change in entry["changes"]]
         results.append(Result(**entry))
-    if {r.domain for r in results} != {s.domain for s in sites}:
-        raise ValueError("Istniejący raport ma inny zakres domen; wybierz osobny --output")
+    previous_domains = {r.domain for r in results}
+    configured_domains = {s.domain for s in sites}
+    if previous_domains != configured_domains:
+        # A targeted run may add explicitly requested studios to today's report.
+        # Keep all existing observations; do not permit shrinking the report or
+        # silently introducing studios outside the requested repair scope.
+        additions = configured_domains - previous_domains
+        if not (repair_domains and previous_domains < configured_domains
+                and additions <= set(repair_domains)):
+            raise ValueError("Istniejący raport ma inny zakres domen; wybierz osobny --output")
     if repair_domains:
         if set(repair_domains) - {s.domain for s in sites}:
             raise ValueError("Nieznane domeny do naprawy")

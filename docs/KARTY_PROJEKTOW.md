@@ -1,6 +1,6 @@
 **Stałe karty projektów**
 
-Stan konfiguracji: 19 października 2026. Lista obejmuje 65 domen; 57 ma konkretny adres karty. Pozostałe wymagają poprawnego początkowego odczytu. Po zatwierdzeniu wybór zostaje zamrożony w trwałym stanie.
+Pierwotny przegląd: 19 października 2026 (65 domen, 57 konkretnych adresów kart). 26 października dodano MG Projekt — aktualny zakres konfiguracji to 66 domen. Wiersz MG Projekt opisuje sprawdzenie z 26 października; pozostałe wiersze zachowują datę pierwotnego przeglądu. Bieżące odczyty i wybory zapisane w stanie pokazuje dashboard. Po zatwierdzeniu wybór zostaje zamrożony w trwałym stanie.
 
 Określenie „wyróżniony” lub „polecany” nie dowodzi, że projekt jest najlepiej sprzedający się. Podstawa wyboru poniżej pochodzi z publicznej ekspozycji lub rankingu. Wynik odczytu i kompletność interakcji są osobno wskazane w raporcie dnia.
 
@@ -41,6 +41,7 @@ Określenie „wyróżniony” lub „polecany” nie dowodzi, że projekt jest 
 | kreodom.pl | [PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706](<https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html>) | Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży. [Źródło](<https://kreodom.pl>) |
 | lipinscy.pl | [ANNECY 357,32m²](<https://lipinscy.pl/projekt/annecy/>) | Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży. [Źródło](<https://lipinscy.pl>) |
 | lk-projekt.pl | Nie ustalono poprawnej karty | Brak potwierdzonego wyboru. |
+| mgprojekt.com.pl | Nie ustalono poprawnej karty | Dodano 26.10.2026. Strona główna zwraca HTTP 403 i weryfikację zabezpieczeń na GitHub Actions. Wybór i zamrożenie projektu nastąpi po poprawnym odczycie. [Źródło](<https://www.mgprojekt.com.pl/>) |
 | moj-dom-projekty.pl | Nie ustalono poprawnej karty | Brak potwierdzonego wyboru. |
 | mtmstyl.com.pl | [Malutki 12](<https://www.mtmstyl.com.pl/projekt-domu-malutki_12.php>) | Projekt wyróżniony na stronie głównej; publiczne dane nie potwierdzają wielkości sprzedaży. [Źródło](<https://mtmstyl.com.pl>) |
 | myhome.eco | [DOM MOD 1](<https://myhome.eco/produkt/dom-mod-1/>) | Projekt wyróżniony na stronie głównej; brak potwierdzonych danych sprzedaży. [Źródło](<https://myhome.eco>) |

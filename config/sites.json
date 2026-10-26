@@ -1095,7 +1095,9 @@
       "allowed_hosts": [],
       "discovery_links": [],
       "selection": {
-        "note": "Stała karta zostanie wybrana i zamrożona po pierwszym poprawnym odczycie; priorytet mają projekty oznaczone jako bestseller lub najpopularniejsze."
+        "note": "26.10.2026: GitHub Actions otrzymuje HTTP 403 i stronę weryfikacji zabezpieczeń. Nie ustalono karty projektu. Po pierwszym poprawnym odczycie wybór zostanie zweryfikowany i zamrożony; priorytet mają projekty oznaczone jako bestseller lub najpopularniejsze.",
+        "http_inspected_at": "2026-10-26",
+        "http_status": 403
       }
     },
     {

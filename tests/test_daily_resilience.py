@@ -8,11 +8,35 @@ from pracownie.offers import primary_offer
 from pracownie.pipeline import RunOptions, preserve_same_day_reads, run_scan
 from pracownie.presentation import build_view
 from pracownie.rebuild import repair_archived_quotes
-from pracownie.report import write_outputs
+from pracownie.report import resume_data, write_outputs
 from pracownie.state import StateStore
 
 DAY = "2026-10-20"
 AFTER = "2026-10-20T06:00:00+00:00"
+
+
+def test_targeted_addition_preserves_existing_observations_and_errors(tmp_path):
+    existing = Site('old.pl', 'https://old.pl')
+    added = Site('new.pl', 'https://new.pl')
+    results = [
+        Result(existing.domain, 'glowna', 'podstawowy', 'unchanged', existing.home_url,
+               observed_at=AFTER, compared_at='2026-10-19T06:00:00+00:00', data_quality='ok'),
+        Result(existing.domain, 'projekt', 'podstawowy', 'error', existing.home_url,
+               error='Odpowiedź HTTP 403'),
+    ]
+    metadata = {'run_id': 'old', 'started_at': AFTER, 'finished_at': AFTER, 'elapsed_seconds': 0}
+    write_outputs(tmp_path, DAY, results, metadata, {}, [existing.domain])
+    reused, retained, original = resume_data(tmp_path, DAY, [existing, added], {'day': DAY}, [added.domain])
+    assert reused == {existing.domain}
+    assert retained == results
+    assert original['run_id'] == 'old'
+    # An added studio still needs its first real capture; no earlier baseline is invented.
+    view = build_view(DAY, retained, original, {}, [existing.domain, added.domain])
+    assert len(view['rows']) == 2
+    for sites, repair in [([existing, added], None), ([existing, added], [existing.domain]),
+                          ([added], [added.domain])]:
+        with pytest.raises(ValueError, match='inny zakres domen'):
+            resume_data(tmp_path, DAY, sites, {'day': DAY}, repair)
 
 
 @pytest.mark.parametrize("matching", [True, False])

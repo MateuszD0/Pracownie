@@ -1,0 +1,35 @@
+<!-- pracownie-monitor:v1 -->
+
+# Komunikaty ofert w ostatnim odczycie
+
+[← Odprawa dnia](../DASHBOARD.md)
+
+Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją.
+
+| Pracownia / dzień | Ustalenie | Status / źródła |
+| --- | --- | --- |
+| sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | W cenie projektu | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 26.10.2026 08:04 · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | PDF · bezpłatnie | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Kosztorys inwestorski | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Bezpłatne pozwolenie na zmiany | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
+| slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |

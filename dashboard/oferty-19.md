@@ -1,0 +1,35 @@
+<!-- pracownie-monitor:v1 -->
+
+# Komunikaty ofert w ostatnim odczycie
+
+[← Odprawa dnia](../DASHBOARD.md)
+
+Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją.
+
+| Pracownia / dzień | Ustalenie | Status / źródła |
+| --- | --- | --- |
+| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | GRATISY DO PROJEKTU: | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | W projekcie zaprojektowano wentylację grawitacyjną. Możliwość zmiany na wentylację mechaniczną z rekuperatorem po zakupie dodatku do projektu (patrz dodatki do projektu). | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| sprytnaoaza.pl | Sprytny projekt: Dom w cenie mieszkania | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://sprytnaoaza.pl/) |
+| sprytnaoaza.pl | Samodzielnie doświadczyliśmy całego procesu: od załatwiania pozwoleń po sprzątanie po parapetówce. Dzielimy się naszymi przygodami w serii filmów „Dom w cenie mieszkania” na kanale YouTube, pokazując każdy etap realizacji projektu. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://sprytnaoaza.pl/) |
+| sprytnaoaza.pl | Ulotka z dedykowaną promocją TYLKO dla tych, którzy zakupili projekt i będą budować się z DPE | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://sprytnaoaza.pl/products/projekt-sprytna-oaza) |
+| studioatrium.pl | Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | W tej sekcji zaprezentowano projekty domów parterowych z poddaszem. Grupa tych konceptów zalicza się do najbardziej popularnych na rynku i co za tym idzie, najliczniejszej. Ich bryła może przybrać bardzo różnorodne kształty. Od typowych, prostych konstrukcji, przykrytych dwuspadowym dachem, po bardziej finezyjne bryły ozdobione licznymi detalami architektonicznymi i bazujące na nowoczesnych trend… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Zobacz dodatki | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Zespół architektów i specjalistów Studia Atrium z pełną świadomością podchodzi do spersonalizowanych potrzeb klienta. Oferujemy gotowe projekty domów - jeśli jest taka konieczność to możemy je dostosować do indywidualnych potrzeb (wyceniamy wówczas koszt zmian w projekcie oraz ustalamy termin wykonania tych przeróbek). Dokładając wszelkich starań, służymy pomocą w taki sposób, aby podczas wyboru… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Projekty domów są rezultatem pracy grupy specjalistów, w której skład wchodzą eksperci z różnych dziedzin: architektury, budownictwa, instalacji elektrycznych oraz wodnokanalizacyjnych, a także osoby zajmujące się kosztorysowaniem. Szczegółowo przygotowana dokumentacja techniczna i budowlana sprawia, że realizacja projektów przebiega bezproblemowo, zapewniając późniejszym mieszkańcom wysoki pozio… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Odkryj wyjątkowy świat autorskich projektów Studia Atrium! Jesteśmy dla Ciebie w mediach społecznościowych, gdzie na bieżąco dzielimy się inspiracjami, nowościami, i ciekawostkami z zakresu projektowania domów. Odwiedź nasz profil na Facebooku, aby śledzić aktualności, promocje i opinie klientów. Na naszym kanale YouTube znajdziesz wideo prezentacje projektów, które pozwolą Ci lepiej wyobrazić so… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto zapoznać się z ofertą projektów znajdujących się na naszej stronie internetowej, jeśli jednak wolą Państwo zrobić to stacjonarnie, nasi konsultanci służą pomocą w siedzibie naszej firmy (adres siedziby znajduje się na naszej stronie internetowej, w zakładce ko… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | PROJEKTY DOMÓW Z KOSZTORYSEM | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztów budowy domów. Takie rozwiązanie świetnie sprawdza się w przypadku Inwestorów, którym zależy na dokładnej kontroli budżetu. Jest to również możliwość do lepszego rozplanowania etapów budowy i płynnego zarządzania zapleczem finansowym. Jeżeli budujesz dom po r… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |
+| studioatrium.pl | Zarejestruj się i korzystaj z dogodnych narzędzi wszędzie gdzie jesteś. Będziemy także zawiadamiać Cię o rabatach i promocjach. Dodatkowo otrzymujesz od nas 100 zł na zakup projektu domu. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.studioatrium.pl/) |

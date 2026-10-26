@@ -9,10 +9,10 @@ import pytest
 from bs4 import BeautifulSoup
 from test_management_dashboard import management_view
 
+from pracownie.briefing import build_briefing
 from pracownie.browser import BrowserScanner
 from pracownie.management import build_management, business_highlights, group_changes
 from pracownie.presentation import render_html, render_markdown, render_text
-from pracownie.readout import digest_groups
 
 
 @pytest.mark.browser
@@ -34,8 +34,20 @@ async def test_business_dashboard_hierarchy_links_and_mobile_layout(executable, 
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('executive')) & Node.DOCUMENT_POSITION_PRECEDING)")
         assert await page.locator('#business-summary').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('communication-coverage')) & Node.DOCUMENT_POSITION_FOLLOWING)")
         assert await page.locator('#communication-coverage').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('daily')) & Node.DOCUMENT_POSITION_FOLLOWING)")
-        assert await page.locator('[data-business-domain]:visible').count() == sum(g['overview'] for g in digest_groups(build_management(view)['items']))
+        assert await page.locator('#briefing').is_visible()
+        assert not await page.locator('#business-summary').is_visible()
+        expected = [e for e in build_briefing(view)['events'] if e['tier'] != 'technical']
+        assert await page.locator('[data-brief-id]:visible').count() == len(expected)
+        assert await page.locator('#briefing').evaluate("e=>Boolean(e.compareDocumentPosition(document.getElementById('technical-summary')) & Node.DOCUMENT_POSITION_FOLLOWING)")
+        proof = page.locator('[data-brief-id]:visible a').first
+        if await proof.count():
+            target = await proof.get_attribute('href')
+            await proof.click()
+            assert await page.locator(target).is_visible()
+            proof_text = (await page.locator(target).inner_text()).casefold()
+            assert 'wczoraj' in proof_text and 'dziś' in proof_text
         assert await page.locator('[data-communication-domain]').count() == len(view['rows'])
+        await page.locator('#technical-summary > summary').click()
         link = page.locator('#business-highlights a[data-company-link]').first
         if await link.count():
             target = await link.get_attribute('href')
@@ -113,17 +125,19 @@ async def test_promotional_controls_follow_business_filters_and_csv(executable):
         await page.locator('.filter-disclosure > summary').click()
         await page.locator('#page-filter').select_option('glowna')
         await page.locator('#journal-category').select_option('sales')
-        assert await page.locator('#business-highlights [data-business-domain]').count() == 1
-        assert 'Pakiet dodatków' in await page.locator('#business-highlights').inner_text()
-        await page.locator('#business-highlights [data-company-link]').click()
-        assert await page.locator('.firm-change:visible').count() == 1
+        assert await page.locator('[data-brief-id]:visible').count() == 1
+        assert 'Pakiet dodatków' in await page.locator('#brief-main').inner_text()
+        await page.locator('[data-brief-id]:visible a').click()
+        assert await page.locator('.brief-proof:visible').count() == 1
         await page.locator('#full-journal > summary').click()
         assert await page.locator('#journal [data-journal-domain]:visible').count() == 1
         async with page.expect_download() as download_event:
             await page.locator('#export-visible').click()
         download = await download_event.value
         rows = list(csv.DictReader(io.StringIO((await download.path()).read_text(encoding='utf-8-sig')), delimiter=';'))
-        assert len(rows) == 1 and rows[0]['Rodzaj'] == 'Promocje i rabaty'
+        assert len(rows) == 1 and rows[0]['Status'] == 'Zaobserwowana zmiana'
+        assert 'Pakiet dodatków' in rows[0]['Co się zmieniło']
+        assert rows[0]['Strona'] == 'glowna' and rows[0]['Źródło'] == home['source']
         assert rows[0]['Było'] == home['before'] and rows[0]['Jest'] == home['after']
         await context.close()
 
@@ -138,8 +152,10 @@ async def test_compact_summary_and_minor_details_keep_sources_and_filters(execut
         context = await scanner.browser.new_context(java_script_enabled=scripts, viewport={'width': 390, 'height': 844})
         page = await context.new_page()
         await page.set_content(render_html(view))
-        assert await page.locator('#business-highlights [data-business-domain]:visible').count() == 3
+        assert await page.locator('[data-brief-id]:visible').count() == 2
+        assert '900 px' not in await page.locator('#briefing').inner_text()
         assert not await page.locator('#business-minor').is_visible()
+        await page.locator('#technical-summary > summary').click()
         await page.locator('.minor-changes > summary').click()
         assert '900 px' in await page.locator('#business-minor').inner_text()
         target = await page.locator('#business-minor a[data-company-link]').get_attribute('href')
@@ -151,5 +167,6 @@ async def test_compact_summary_and_minor_details_keep_sources_and_filters(execut
             assert await page.locator('#business-minor [data-business-domain]').count() == 0
             assert await page.locator('#minor-count').inner_text() == '0'
             assert await page.locator('#business-highlights [data-business-domain]').count() == 2
+            assert await page.locator('[data-brief-id]:visible').count() == 2
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         await context.close()

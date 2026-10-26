@@ -22,10 +22,10 @@ DETAIL = r"""() => ({
 })"""
 
 
-async def inspect(sites):
+async def inspect(sites, *, verification_wait=1.5, headed=False):
     output = {"observed_at": now_iso(), "sites": []}
     async with async_playwright() as manager:
-        browser = await manager.chromium.launch()
+        browser = await manager.chromium.launch(headless=not headed)
         semaphore = asyncio.Semaphore(3)
 
         async def one(site):
@@ -40,7 +40,11 @@ async def inspect(sites):
                 urls.extend(site.discovery_links)
                 for url in dict.fromkeys(urls):
                     page = await context.new_page()
-                    check = {"requested_url": url}
+                    check = {"requested_url": url, "headed": headed, "navigation": []}
+                    def navigation(response, page=page, check=check):
+                        if response.request.is_navigation_request() and response.request.frame == page.main_frame:
+                            check['navigation'].append({'status': response.status, 'url': response.url})
+                    page.on('response', navigation)
                     try:
                         async with httpx.AsyncClient(follow_redirects=True, timeout=15) as client:
                             response = await client.get(url)
@@ -50,7 +54,17 @@ async def inspect(sites):
                     try:
                         response = await page.goto(url, wait_until="domcontentloaded", timeout=20000)
                         check["status"] = response.status if response else None
-                        await page.wait_for_timeout(1500)
+                        elapsed = 0
+                        check['timeline'] = []
+                        while elapsed < verification_wait:
+                            pause = min(5, verification_wait - elapsed)
+                            await page.wait_for_timeout(pause * 1000)
+                            elapsed += pause
+                            check['timeline'].append({'after_seconds': elapsed,
+                                                      'title': await page.title(),
+                                                      'text': (await page.locator('body').inner_text())[:700]})
+                        if check['navigation']:
+                            check['status'] = check['navigation'][-1]['status']
                         check.update(await page.evaluate(DETAIL))
                     except Exception as exc:
                         check.update(error=str(exc).splitlines()[0], url=page.url)
@@ -69,12 +83,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--domains", default="archido.pl,domydlanas.pl,lk-projekt.pl,archi-projekt.com.pl,dompp.pl,housecollection.pl")
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--verification-wait", type=float, default=1.5)
+    parser.add_argument("--headed", action="store_true")
     args = parser.parse_args()
+    if not 0 <= args.verification_wait <= 60:
+        raise SystemExit('Czas diagnostyki musi być w zakresie 0–60 s')
     selected = set(args.domains.split(","))
     sites = [s for s in load_sites(Path("config/sites.json")) if s.domain in selected]
     if selected != {s.domain for s in sites}:
         raise SystemExit("Nieznana domena diagnostyki")
-    result = asyncio.run(inspect(sites))
+    result = asyncio.run(inspect(sites, verification_wait=args.verification_wait, headed=args.headed))
     path = Path(".monitor/access-diagnostics.json")
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

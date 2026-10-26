@@ -73,6 +73,7 @@ jobs:
         run: uv run python -m pracownie.schedule
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
           SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
       - name: Chromium i OCR
         if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
@@ -101,6 +102,7 @@ jobs:
         if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
           SCAN_SCOPE: ${{ github.event_name == 'schedule' && 'full' || inputs.scope || 'full' }}
           FORCE_RESCAN: ${{ github.event_name == 'workflow_run' && !steps.deployment.outputs.repair_domains && 'true' || inputs.rescan || 'false' }}
           REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.schedule.outputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
@@ -136,6 +138,7 @@ jobs:
         run: uv run python -m pracownie.web --check-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
       - name: Przygotuj gotowy widok HTML i zrzuty
         if: steps.pages.outputs.enabled == 'true' && (github.event_name != 'workflow_dispatch' || inputs.scope == 'full')
         run: uv run python -m pracownie.web --source raporty

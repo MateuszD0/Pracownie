@@ -1,11 +1,11 @@
 # Cel i zasady dziennego dashboardu
 
-Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej z 65 pracowni. Ceny są dodatkiem. W głównej tabeli mają być krótki opis obserwacji, miejsce i link do porównania; pełne wartości przed/po oraz dostępne dowody pozostają w szczegółach. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
+Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej skonfigurowanej pracowni (obecnie 66). Ceny są dodatkiem. W głównej tabeli mają być krótki opis obserwacji, miejsce i link do porównania; pełne wartości przed/po oraz dostępne dowody pozostają w szczegółach. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
 
 ## Co pokazujemy
 
 1. Na górze: daty odczytów, liczba pracowni z porównaniem obu stron oraz najważniejsze różnice komunikacji/promocji/dodatków/wyglądu.
-2. Wszystkie 65 pracowni: osobno strona główna i stały projekt; krótki opis wyniku zamiast samego licznika różnic.
+2. Wszystkie skonfigurowane pracownie: osobno strona główna i stały projekt; krótki opis wyniku zamiast samego licznika różnic.
 3. Po otwarciu pracowni: tekst przed/po, źródło, daty, podglądy zrzutów, przyczyny braku danych i zwinięte obserwacje pomocnicze.
 4. Surowy dziennik i pełne obrazy pozostają dostępne. Eksport CSV niesie ocenę i wyjaśnienie; obserwacji pomocniczej nie wolno przedstawiać jako nowej promocji.
 
@@ -47,7 +47,7 @@ Sprawdzono reguły porównania i zachowania tożsamości projektu, klasyfikację
 - Podsumowanie grupuje zmiany według pracowni, strony i tematu. Wiele tematów lub obie strony tej samej pracowni pozostają widoczne. Wiersz pokazuje jedno krótkie zdanie o reprezentatywnej obserwacji i liczbę pozostałych różnic pod linkiem. Reprezentant zachowuje własne źródło; nie łączymy niezależnie dodanego i usuniętego banera w domniemaną edycję. Dłuższe zestawienia na GitHubie mają kolejne strony; żaden temat nie znika z powodu limitu sześciu pracowni.
 - Zmienione słowa są pogrubione. Skrót długiego tekstu obejmuje pierwszą różnicę, zamiast obcinać ją za niezmienionym wstępem. „Nie odnotowano w tym odczycie” opisuje zapis, nie zakończenie promocji.
 - W szczegółach pracowni dostępne są datowane, rozwijane obrazy przed/po. Podgląd może obejmować tylko fragment różnicy obrazu; nie musi pokazywać wszystkich komunikatów odczytanych z karty. Pełne dane pozostają w CSV/HTML.
-- Lista wszystkich 65 pracowni i dodatkowe obserwacje obrazu są zwinięte. W HTML filtry są rozwijane, aktywny zakres pozostaje opisany, a tabela zmian na telefonie układa się pionowo.
+- Lista wszystkich skonfigurowanych pracowni i dodatkowe obserwacje obrazu są zwinięte. W HTML filtry są rozwijane, aktywny zakres pozostaje opisany, a tabela zmian na telefonie układa się pionowo.
 - Identyczny nagłówek odczytany jako tekst i cecha wizualna jest jednym ustaleniem; źródłowe identyfikatory pozostają w dzienniku.
 
 ### Korekta interpretacji HexaGreen
@@ -63,3 +63,19 @@ Trzy kolumny: pracownia i strona, co zauważono, link do sprawdzenia. Pełne cyt
 Krótkie etykiety bez konkretnej informacji o ofercie, przesunięcia sekcji i różny zakres długiego akapitu trafiają do rozwijanego zestawienia „Pozostałe różnice do przejrzenia”. Krótkie komunikaty o katalogu, gratisie, promocji i pakiecie pozostają w skrócie. To podział prezentacji, nie usuwanie obserwacji ani potwierdzenie przyczyny zmiany. Liczniki wszystkich różnic obejmują obie części; filtry HTML działają na obie.
 
 W obrębie tematu pierwszeństwo ma konkretna para wartości, potem obecność w nowym zapisie, potem brak w nowym zapisie. Przy braku komunikatu widoczne jest zastrzeżenie, że nie dowodzi to wycofania oferty. Wyświetlamy daty skanów; przebudowa układu nie tworzy nowego skanu.
+
+## Odprawa dnia — 26.10.2026
+
+Główny widok korzysta ze wspólnych zdarzeń biznesowych: maksymalnie pięć najważniejszych na start, dalsze zdarzenia na żądanie i osobna widoczna sekcja „Ważne do sprawdzenia”. Ważność jest niezależna od pewności. Brak promocyjnego komunikatu bez rozstrzygającego sprawdzenia nie znika w technicznych obserwacjach. Same przesunięcia, rozmiary i rozpoznane zlepki cen nie są alertami odprawy.
+
+Jednakowe warunki na głównej i karcie łączymy w jedno zdarzenie z zachowaniem miejsc i źródeł. Nagłówek może łączyć obserwację tekstową i wizualną tylko przy zgodnej treści, stronie i datach. Niezależne kampanie z innymi kodami, kwotami lub terminami pozostają oddzielne.
+
+Raport HTML ma działające wyszukiwanie, filtry i powrót z dowodu. Eksport przenośny zawiera mały indeks i osadzone obrazy; w trybie bez JavaScript ukrywa nieaktywne kontrolki i pokazuje wszystkie zdarzenia. Główna miara obejmuje pracownie z porównaniem obu stron, a braki mają wskazane przyczyny.
+
+Wykaz komunikatów ofert zachowuje datę ostatniego poprawnego odczytu. Nie należy utożsamiać obecności komunikatu z potwierdzoną dostępnością w koszyku. Historia zdarzeń jest gromadzona od wdrożenia odprawy; starsza historia pozostaje w dziennych wydaniach. Kolejka nierozstrzygniętych ofert jest ponawiana także bez nowej różnicy DOM. Dodatkowe sprawdzenie nie tworzy fikcyjnej zmiany dzień do dnia.
+
+Wcześniejsze zasoby tego samego dnia nie są już kasowane przy korekcie. Retencja działa na całe dzienne wydania. Współdzielenie obrazów w stanie i widoku WWW pozostaje aktywne; pełne ZIP-y kolejnych wersji mogą powtarzać obrazy. Budżet 180 dni i dalszą deduplikację archiwów należy ocenić po tygodniu pomiarów.
+
+Termin i status poczty są niezależne od jakości odczytu. Brak konfiguracji nie jest wysłaniem; odpowiedź SMTP nie jest potwierdzeniem obecności w skrzynce odbiorcy. Po wysyłce status dashboardu jest aktualizowany z trwałego potwierdzenia. Włączenie publicznego adresu WWW wymaga uprawnienia do GitHub Pages; wysyłka wymaga sekretów opisanych w EMAIL.md.
+
+Do odbioru operacyjnego nadal potrzebne są: tydzień pomiaru terminowości i przeoczeń, ręczny odbiór zakresu interakcji per pracownia i naprawy trwałych blokad. Testy nie zastępują tych pomiarów.

@@ -5,10 +5,10 @@ import html
 import re
 from urllib.parse import quote
 
+from .briefing import build_briefing, delivery_text, markdown_briefing, markdown_event
 from .journal import safe_source
 from .management import brief, build_management, page_finding
 from .presentation import when
-from .readout import digest_groups
 
 
 def cell(value) -> str:
@@ -71,7 +71,7 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     home_complete = sum(p['page'] == 'glowna' and bool(p.get('communication', {}).get('daily')) for p in pages)
     project_complete = sum(p['page'] == 'projekt' and bool(p.get('communication', {}).get('daily')) for p in pages)
     history = 'https://github.com/' + report_url.split('github.com/')[-1].split('/releases/')[0] + '/blob/main/' + filename.replace('DASHBOARD', 'RAPORTY', 1)
-    groups = digest_groups(data['items'])
+    briefing = build_briefing(view, data)
     # The overview links to the page containing the representative change.
     targets = {}
     for domain, entries in domains.items():
@@ -79,55 +79,52 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             suffix = f'-{index // 25 + 1}' if index >= 25 else ''
             anchor = 'strona-główna' if item['page'] == 'glowna' else 'karta-projektu'
             targets[item['id']] = folder + '/' + names[domain] + suffix + '.md#' + anchor
+    event_targets, digest_documents = {}, {}
+    for domain in names:
+        events = [e for e in briefing['events'] if e['domain'] == domain and e['tier'] != 'technical']
+        for i in range(0, len(events), 10):
+            path = folder + '/zdarzenia-' + names[domain] + ('-' + str(i // 10 + 1) if i else '') + '.md'
+            content = ['# Zdarzenia · ' + cell(domain), '', '[← Odprawa dnia](../' + filename + ')', '', '[' + cell(domain) + ' — wszystkie odczyty](' + names[domain] + '.md)', '']
+            for event in events[i:i + 10]:
+                event_targets[event['id']] = path + '#zdarzenie-' + event['id']
+                content += markdown_event(event, previews)
+            digest_documents[path] = '\n'.join(content) + '\n'
+
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
-             f"**Różnice w zapisach {data['metrics']['communication']} pracowni** · **Obie strony porównane: {complete_firms}/{len(view['rows'])} pracowni.**", '']
+             f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.** · **{len(briefing['gaps'])} wymaga uwagi.**", '',
+             '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '']
     if observed:
-        lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski.", '']
-    lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Grafika i wygląd](#grafika-i-wygląd) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '',
-              f"Zakres: strony główne **{home_complete}/{len(view['rows'])}**, stałe projekty **{project_complete}/{len(view['rows'])}**. Pełne porównanie: **{complete}/{len(pages)} stron**. Brakujące dane nie oznaczają braku zmian.", '',
-              '## Zmiany oferty i komunikacji', '',
-              'Krótki opis poniżej; pełne teksty **przed → po** i dostępne zrzuty pod linkiem „Porównaj”. Opis dotyczy zapisów z podanych dni.', '']
-    header = ['| Pracownia / strona | Co zauważono | Sprawdź |', '| --- | --- | --- |']
-    digest_documents = {}
-    for detailed in (False, True):
-        selected = [g for g in groups if g['overview'] != detailed]
-        if detailed:
-            lines += ['', '<details><summary>Pozostałe różnice do przejrzenia · tematy: ' + str(len(selected)) + '</summary>', '',
-                      'Krótkie etykiety, przesunięcia sekcji i różny zakres zapisanych akapitów. Same nie potwierdzają zmiany oferty.', '']
-        lines += header
-        digest_pages, digest_rows, digest_bytes = [], [], 0
-        for group in selected:
-            entry = group['lead']
-            label = f"[{cell(group['domain'])}]({targets[group['id']]})<br>" + ('Strona główna' if group['page'] == 'glowna' else 'Karta projektu')
-            description = '**' + cell(group['business_type']) + '**<br>' + cell(entry['readout']['sentence'])
-            if entry['readout']['digest_note']:
-                description += '<br><em>' + cell(entry['readout']['digest_note']) + '</em>'
-            more = f"<br>Pozostałe różnice tego tematu: {group['count'] - 1}" if group['count'] > 1 else ''
-            evidence = '[Porównaj →](' + targets[group['id']] + ')' + more + '<br>' + link('Otwórz stronę', entry['source'])
-            for source in entry.get('commercial_check', {}).get('sources', [])[:2]:
-                evidence += '<br>' + link('Sprawdzone warunki', source['url'])
-            digest_row = '| ' + ' | '.join([label, description, evidence]) + ' |'
-            if digest_rows and digest_bytes + len(digest_row.encode()) > 16_000:
-                digest_pages.append(digest_rows)
-                digest_rows, digest_bytes = [], 0
-            digest_rows.append(digest_row)
-            digest_bytes += len(digest_row.encode())
-        digest_pages.append(digest_rows)
-        lines += digest_pages[0]
-        if len(digest_pages) > 1:
-            stem = 'drobne' if detailed else 'zmiany'
-            navigation = ' · '.join('[Dalsze tematy ' + str(i + 1) + '](' + folder + f'/{stem}-{i + 1}.md)' for i in range(1, len(digest_pages)))
-            lines += ['', f"Pokazano **{len(digest_pages[0])}/{len(selected)} tematów**. " + navigation, '']
-            for index, rows in enumerate(digest_pages[1:], 2):
-                digest_documents[folder + f'/{stem}-{index}.md'] = '\n'.join([
-                    '# Dalsze obserwacje — ' + cell(view['day']), '', '[← Podsumowanie dnia](../' + filename + ')', '',
-                    f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · część {index}/{len(digest_pages)}", '',
-                    *header, *[r.replace('](' + folder + '/', '](') for r in rows], '',
-                    navigation.replace('](' + folder + '/', ']('), ''])
-        if not selected:
-            lines += ['| ' + ('Brak drobnych obserwacji w tym zakresie.' if detailed else 'Nie ustalono konkretnych zmian biznesowych dzień do dnia w tej części zestawienia.') + ' | | |']
-        if detailed:
-            lines += ['', '</details>', '']
+        lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski. Późniejsze uzupełnienia nie są porannym skanem.", '']
+    lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
+    if downloads.get('web'):
+        lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']
+    lines += markdown_briefing(view, briefing, event_targets, digest_documents, folder, filename)
+    intelligence = view.get('metadata', {}).get('intelligence', {})
+    for kind, title, entries in [('oferty', 'Komunikaty ofert w ostatnim odczycie', intelligence.get('offers', [])), ('historia', 'Historia zdarzeń', intelligence.get('history', []))]:
+        paths = []
+        for i in range(0, len(entries), 25):
+            path = folder + '/' + kind + '-' + str(i // 25 + 1) + '.md'
+            paths.append(path)
+            head = ['# ' + title, '', '[← Odprawa dnia](../' + filename + ')', '', 'Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją.', '', '| Pracownia / dzień | Ustalenie | Status / źródła |', '| --- | --- | --- |']
+            for entry in entries[i:i + 25]:
+                if kind == 'oferty':
+                    cells = [entry['domain'], brief(entry['text'], 400), entry['status'] + ' · ' + ' · '.join(when(x['observed_at']) for x in entry['sources'])]
+                    head += ['| ' + ' | '.join(cell(v) for v in cells) + '<br>' + ' · '.join(link('Źródło', x['url']) for x in entry['sources']) + ' |']
+                else:
+                    head += ['| ' + ' | '.join(cell(v) for v in [entry['domain'] + ' · ' + entry['day'], entry['sentence'], entry['confidence']]) + ' |']
+            digest_documents[path] = '\n'.join(head) + '\n'
+        if paths:
+            lines += [title + ' (' + str(len(entries)) + '): ' + ' · '.join('[' + str(i + 1) + '](' + path + ')' for i, path in enumerate(paths)), '']
+    older_pending = [q for q in intelligence.get('pending', []) if q['first_seen'] < view['day']]
+    if older_pending:
+        lines += ['### Nierozstrzygnięte z wcześniejszych dni', '']
+        lines += ['- **' + cell(q['domain']) + '**: ' + cell(brief(q['before'] or q['after'], 180)) + ' · od ' + q['first_seen'] + '; następna próba: ' + q['next_check'] for q in older_pending]
+    editions = view.get('metadata', {}).get('delivery', {}).get('editions', [])
+    if editions:
+        lines += ['', '<details><summary>Wcześniejsze wydania tego dnia</summary>', '', *['- ' + link(when(e['created_at']), e['html']) for e in editions], '', '</details>', '']
+    lines += ['<details><summary>Zakres odczytów i techniczne obserwacje</summary>', '',
+              f"Strony główne: {home_complete}/{len(view['rows'])}; stałe karty: {project_complete}/{len(view['rows'])}; łącznie {complete}/{len(pages)} stron z porównaniem.", '',
+              'Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.', '', '</details>', '']
     lines += ['', '„Nie odnotowano w tym odczycie” oznacza brak tekstu w zapisanym widoku. Nie oznacza wycofania oferty ani zakończenia promocji.', '',
               '## Grafika i wygląd', '',
               'Opisane zmiany wyglądu są powyżej; przesunięcia sekcji w rozwijanych szczegółach. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.', '',
@@ -151,10 +148,10 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
         items = domains[row['domain']]
         labels = []
         for page in row['pages']:
-            changes = [item for item in items if item['page'] == page['page']]
+            changes = [e for e in briefing['events'] if e['domain'] == row['domain'] and page['page'] in e['pages'] and e['tier'] != 'technical']
             supporting = [e for e in data['secondary'] if e['domain'] == row['domain'] and e['page'] == page['page'] and e['daily'] and e['category'] != 'ceny']
             review = any(e['domain'] == row['domain'] and e['page'] == page['page'] for e in visual_reviews)
-            label = (str(len(changes)) + ' zmian · ' + ', '.join(dict.fromkeys(e['business_type'] for e in changes))) if changes else page_finding(page, [], supporting)
+            label = (str(len(changes)) + ' zmian · ' + ', '.join(dict.fromkeys(e['kind'] for e in changes))) if changes else page_finding(page, [], supporting)
             if not page.get('current_read') and page.get('error_text'):
                 label += ' · ' + page['error_text']
             labels += [cell(label + (' · obraz do obejrzenia' if review else ''))]

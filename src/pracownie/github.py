@@ -300,6 +300,16 @@ class GitHubStore:
 
     def publish(self, store: StateStore, output: Path, day: str, report_archive: Path, run_id: str) -> dict:
         previous_publication = self.published_report(day)
+        from .delivery import annotate_report, delivery_status
+        from .report import bundle_report
+
+        delivery = delivery_status(self, day, previous_publication)
+        from .intelligence import update_intelligence
+        state = store.read()
+        intelligence = update_intelligence(state, json.loads((output / day / 'oferty.json').read_text()))
+        annotate_report(output, day, delivery, intelligence)
+        store.commit(state)
+        bundle_report(output, day, report_archive)
         stamp = slug(run_id)
         report_release = self.release(f"{self.namespace}-report-{day}", create=True)
         assert report_release is not None
@@ -346,7 +356,10 @@ class GitHubStore:
             store.export(root / "state.zip")
             state_name = f"state-{stamp}.zip"
             state_asset = self.upload(state_release, state_name, root / "state.zip")
-            record = {"schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
+            editions = [*delivery.get('editions', []), {
+                'run_id': run_id, 'created_at': now_iso(), 'html': standalone_asset['browser_download_url'],
+                'archive': zip_asset['browser_download_url']}]
+            record = {"editions": editions, "schema": 1, "owner": "pracownie-monitor:v1", "day": day, "run_id": run_id,
                       "first_published_at": (previous_publication or {}).get('first_published_at'),
                       "publication_started_at": now_iso(), "asset": state_name, "sha256": digest(root / "state.zip"),
                       "report_release_id": report_release["id"], "report_assets": [text_asset["id"], csv_asset["id"], journal_asset["id"], diagnostic_asset["id"], html_asset["id"], standalone_asset["id"], *preview_assets, zip_asset["id"]],
@@ -375,14 +388,16 @@ class GitHubStore:
             })
             (root / "commit.json").write_bytes(json_bytes(record))
             dashboard_url = self.update_dashboard(view, report_release["html_url"], {"html": standalone_asset["browser_download_url"]}, previews)
-            self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
+            confirmation = self.upload(state_release, f"commit-{stamp}.json", root / "commit.json")
+            if not delivery.get('first_published_at') and confirmation.get('created_at'):
+                delivery['first_published_at'] = confirmation['created_at']
+                view['metadata']['delivery'] = delivery
+                self.update_dashboard(view, report_release['html_url'], {'html': standalone_asset['browser_download_url']}, previews)
             published_at = now_iso()
             # A commit manifest uploaded last is the only pointer used by subsequent runners.
             self._collect_state(state_release)
-        keep_reports = set(record["report_assets"])
-        for asset in self.assets(report_release):
-            if asset["id"] not in keep_reports and asset["name"].startswith(day + "-"):
-                self.request("DELETE", f"{self.prefix}/releases/assets/{asset['id']}")
+        # Daily corrections are immutable. Existing links and morning evidence
+        # survive subsequent rebuilds; day-level retention removes whole days.
         return {"report_url": report_release["html_url"], "dashboard_url": dashboard_url, "state_asset_id": state_asset["id"], "published_at": published_at}
 
     def _collect_state(self, release: dict):

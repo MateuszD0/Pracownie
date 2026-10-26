@@ -76,19 +76,19 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         errors = []
         page.on("pageerror", lambda e: errors.append(str(e)))
         await page.set_content(render_html(management_view()))
-        assert await page.locator('#metric-communication').inner_text() == '1'
-        assert await page.locator('#executive').is_visible()
+        assert await page.locator('#metric-communication').text_content() == '1'
+        assert await page.locator('#briefing').is_visible()
         assert not await page.locator('#secondary-journal').is_visible()
         await page.locator('.filter-disclosure > summary').click()
         await page.locator('[data-filter="price"]').click()
         assert await page.locator('[data-filter="price"]').evaluate('e=>e===document.activeElement')
         await page.locator('[data-filter="all"]').click()
         await page.locator('#page-filter').select_option('glowna')
-        assert await page.locator('#metric-project_changes').inner_text() == '—'
-        assert await page.locator('#metric-home_changes').inner_text() == '1'
+        assert await page.locator('#metric-project_changes').text_content() == '—'
+        assert await page.locator('#metric-home_changes').text_content() == '1'
         await page.locator('#full-journal > summary').click()
         assert await page.locator('#journal tr[data-journal-domain]:visible').count() == 1
-        assert await page.locator('#business-highlights [data-business-domain]:visible').count() == 1
+        assert await page.locator('[data-brief-id]:visible').count() == 1
         await page.locator('.directory > summary').click()
         assert await page.locator('[data-communication-page=projekt]:visible').count() == 0
         assert await page.locator('[data-communication-domain]:visible').count() == 2
@@ -102,10 +102,10 @@ async def test_management_filters_export_watchlist_and_mobile_layout(executable)
         await page.locator('#watch-only').check()
         assert not await page.locator('[data-availability-domain="blocked.pl"]').is_visible()
         await page.locator('#search').fill('brak')
-        assert 'Brak pracowni' in await page.locator('#summary-title').inner_text()
-        assert await page.locator('#metric-home_changes').inner_text() == '—'
+        assert 'Brak pracowni' in await page.locator('#summary-title').text_content()
+        assert await page.locator('#metric-home_changes').text_content() == '—'
         await page.locator('#reset-filters').click()
-        assert await page.locator('#metric-communication').inner_text() == '1'
+        assert await page.locator('#metric-communication').text_content() == '1'
         assert await page.evaluate('document.documentElement.scrollWidth <= innerWidth')
         assert not errors
         await context.close()

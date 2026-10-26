@@ -370,7 +370,12 @@ def test_large_daily_report_publishes_bounded_summary_and_paired_previews(tmp_pa
     assert 'dashboard/zmiany-2.md' in documents
     digest = '\n'.join(text.split('## Grafika i wygląd')[0] for path, text in documents.items() if path == 'DASHBOARD.md' or '/zmiany-' in path)
     for domain in domains:
-        assert digest.count('[' + domain + '](' + 'dashboard/' + domain.replace('.', '') + '.md#strona-główna)') + digest.count('[' + domain + '](' + domain.replace('.', '') + '.md#strona-główna)') == 1
+        assert domain in digest
+    # Every normalized event links to an existing, bounded evidence document.
+    import re
+    for target in re.findall(r'\[Przed / po →\]\(([^)]+)\)', digest):
+        path = target.split('#')[0]
+        assert path in documents or 'dashboard/' + path in documents
     previews = [a for a in fake.assets.values() if "-dowod-" in a["name"]]
     assert len(previews) == 2 * RELEASE_PREVIEW_PAIRS
     assert sum(a["name"].endswith("-przed.jpg") for a in previews) == RELEASE_PREVIEW_PAIRS

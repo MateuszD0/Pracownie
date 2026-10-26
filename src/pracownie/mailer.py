@@ -66,6 +66,9 @@ def compose(day: str, document: str, readiness: dict, repo: str, report_url: str
     comparison = re.search(r'(\d{4}-\d{2}-\d{2})\s*→\s*(\d{4}-\d{2}-\d{2})', intro.get_text(' ', strip=True) if intro else '')
     if not comparison or comparison[2] != day:
         raise ValueError('Dashboard nie dotyczy dnia raportu; nie wysłano starego porównania.')
+    from urllib.parse import urljoin
+    for a in soup.select('a[href]'):
+        a['href'] = urljoin(f'https://github.com/{repo}/blob/main/DASHBOARD.md', a['href'])
     tables = soup.find_all('table')
     if len(tables) < 2:
         raise ValueError('Brak tabel porównania; nie wysłano pustego raportu.')
@@ -81,7 +84,10 @@ def compose(day: str, document: str, readiness: dict, repo: str, report_url: str
         return heading.find_next('table') if heading else tables[legacy_index]
 
     groups = [('Zmiany oferty i komunikacji', section_table('Zmiany oferty i komunikacji', 0), 6)]
-    if len(tables) >= 3:
+    review_heading = next((h for h in soup.find_all(['h2', 'h3']) if h.get_text(' ', strip=True) == 'Ważne do sprawdzenia'), None)
+    if review_heading:
+        groups.append(('Ważne do sprawdzenia', review_heading.find_next('table'), 10))
+    elif len(tables) >= 3:
         groups.append(('Grafika i wygląd — wybrane obserwacje', section_table('Grafika i wygląd', 1), 3))
     for heading, table, limit in groups:
         if table is None:
@@ -180,6 +186,13 @@ def main():
     remote = GitHubStore(os.environ['GITHUB_REPOSITORY'], os.environ.get('GITHUB_TOKEN', ''))
     try:
         result = deliver(remote, day, MailConfig.from_env())
+        from .delivery import refresh_email_status
+        try:
+            refreshed = refresh_email_status(remote, day)
+        except (ValueError, RuntimeError, OSError, httpx.HTTPError):
+            refreshed = False
+        if not refreshed:
+            print('Potwierdzenie SMTP zapisano; aktualizacja statusu dashboardu wymaga ponowienia.')
         print('Wysłano raport e-mail.' if result == 'sent' else 'Raport tego dnia został już wysłany; pominięto duplikat.')
     except (ValueError, RuntimeError, OSError, smtplib.SMTPException, httpx.HTTPError) as exc:
         # SMTP errors can contain the recipient; keep those out of public logs.

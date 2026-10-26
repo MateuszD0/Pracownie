@@ -9,6 +9,7 @@ import io
 import json
 import os
 import shutil
+from importlib.resources import files
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -27,21 +28,43 @@ def export_standalone(document: Path, destination: Path, downloads: dict | None 
     if dates:
         soup.title.string = 'Porównanie skanów · ' + dates.get_text()
         soup.select_one('#title').string = 'Porównanie skanów · ' + dates.get_text()
-    for node in soup.select('script, dialog, button, select, .filters, noscript'):
+    soup.body['data-portable'] = 'true'
+    full = json.loads(soup.select_one('#data').string)
+    compact = {'rows': [{'domain': r['domain'], 'name': r['name'],
+                        'complete': len(r['pages']) == 2 and all(p['communication'].get('daily') for p in r['pages']),
+                        'missing': any(not p['current_read'] for p in r['pages'])} for r in full['rows']],
+               'events': [{'id': e['id'], 'domain': e['domain'], 'tier': e['tier'],
+                           'items': [{'page': i['page'], 'category': i['category'], 'bucket': i['business_bucket']} for i in e['items']]}
+                          for e in full['briefing']['events'] if e['tier'] != 'technical']}
+    for node in soup.select('script, dialog, #technical-summary, #all-prices, #export-visible, [data-watch], [data-open]'):
         node.decompose()
+    watch = soup.select_one('#watch-only')
+    if watch:
+        watch.find_parent('label').decompose()
+    payload = soup.new_tag('script', type='application/json', id='data')
+    payload.string = json.dumps(compact, ensure_ascii=False).replace('<', '\\u003c')
+    soup.body.append(payload)
+    script = soup.new_tag('script')
+    script.string = files('pracownie').joinpath('portable.js').read_text()
+    soup.body.append(script)
+    status = soup.new_tag('p', id='portable-status', attrs={'class': 'small', 'role': 'status'})
+    soup.select_one('.quick-filters').insert_after(status)
     cache = {}
     for picture in soup.select('img[src]'):
         relative = unquote(picture['src'])
-        if relative not in cache:
+        important = picture.find_parent(id='brief-proofs') is not None
+        cache_key = (relative, important)
+        if cache_key not in cache:
             path = safe_path(document.parent, relative)
             with Image.open(path) as original:
                 image = original.convert('RGB')
                 image = image.crop((0, 0, image.width, min(image.height, 1800)))
-                image.thumbnail((320, 450))
+                image.thumbnail((640, 900) if important else (320, 450))
                 stream = io.BytesIO()
-                image.save(stream, format='JPEG', quality=40, optimize=True)
-                cache[relative] = 'data:image/jpeg;base64,' + base64.b64encode(stream.getvalue()).decode('ascii')
-        picture['src'] = cache[relative]
+                image.save(stream, format='JPEG', quality=65 if important else 40, optimize=True)
+                cache[cache_key] = 'data:image/jpeg;base64,' + base64.b64encode(stream.getvalue()).decode('ascii')
+        picture['data-proof'] = picture['src']
+        picture['src'] = cache[cache_key]
         if picture.parent.name == 'a':
             picture.parent.unwrap()
     for caption in soup.select('figcaption'):
@@ -53,24 +76,17 @@ def export_standalone(document: Path, destination: Path, downloads: dict | None 
         target = (downloads or {}).get(Path(href).name)
         if target:
             link['href'] = target
+        elif link.find_parent('nav'):
+            link.decompose()
         else:
             link.unwrap()
-    notice = soup.new_tag('p', attrs={'class': 'visual-note', 'id': 'standalone-notice'})
+    notice = soup.new_tag('p', attrs={'class': 'visual-note standalone-note', 'id': 'standalone-notice'})
     notice.string = 'Wszystkie porównania tekstu są zapisane w tym pliku. Podglądy zrzutów są wbudowane; pełne obrazy są w archiwum raportu.'
     if archive_url:
         link = soup.new_tag('a', href=archive_url)
         link.string = ' Pobierz pełne zrzuty.'
         notice.append(link)
-    soup.main.insert(0, notice)
-    # The enhanced offers table is redundant with the fully rendered page
-    # sections when scripts are disabled. Never show an empty table as data.
-    empty_rows = soup.select_one('#rows')
-    if empty_rows and not empty_rows.select('tr'):
-        table_box = empty_rows.find_parent(class_='table-box')
-        heading = table_box.find_previous_sibling(class_='section-head')
-        if heading:
-            heading.decompose()
-        table_box.decompose()
+    soup.main.append(notice)
     destination.write_text(str(soup))
 
 

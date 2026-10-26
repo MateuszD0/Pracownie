@@ -58,7 +58,7 @@ def test_daily_table_contains_the_finding_and_matching_before_after_links():
     assert 'Rabat <strong>10</strong>%' in docs['dashboard/testpl.md']
     assert '[Przed](https://example.com/before.jpg)' in docs['dashboard/testpl.md']
     assert '[Po](https://example.com/after.jpg)' in docs['dashboard/testpl.md']
-    assert 'Obie strony porównane:' in root
+    assert 'Porównano obie strony:' in root
 
 
 def test_price_and_unmatched_faq_are_not_sales_changes_but_offer_edit_is():

@@ -1,0 +1,3378 @@
+{
+  "schema": 1,
+  "audit_day": "2026-10-26",
+  "source": {
+    "repository": "MateuszD0/Pracownie",
+    "commit": "ddfb0acb646509ca29a766be955ff3d4a5f7e9dc",
+    "run_id": "2026-10-26T151141.729914-0000-cfafb6fe",
+    "release_url": "https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-26",
+    "first_published_at": "2026-10-26T07:26:46Z",
+    "email_run_url": "https://github.com/MateuszD0/Pracownie/actions/runs/40347566111",
+    "sha256": {
+      "oferty.json": "9003cddeee0fee2e4e09cd2c215476f7846b64f3a797e1a962b4c9385ec63fba",
+      "zmiany.json": "4cb290bca31ce0dc013df0784301950f4dc12e0496c1b0826a834e436ee7fbbc",
+      "pokrycie.json": "657088cdc785d8161caa4fdd21c3d7a44e40cf5500f97ff27df4e697452619d1",
+      "report.html": "a880260399ccc81d72942663086baeda93aeb75b3a800267739b24bd31aff837"
+    }
+  },
+  "scope": {
+    "firms": 66,
+    "journal_observations": 1217,
+    "inspection_status_counts": {
+      "pending": 66
+    }
+  },
+  "pages_by_firm": [
+    {
+      "domain": "1001studio.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:15.303678+00:00",
+          "compared_at": "2026-10-25T05:17:15.843965+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 31"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:23.438604+00:00",
+          "compared_at": "2026-10-25T05:17:23.332298+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "alexanderstudio.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T13:58:09.004983+00:00",
+          "compared_at": "2026-10-25T05:17:09.059359+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T13:58:15.433807+00:00",
+          "compared_at": "2026-10-25T05:17:18.144677+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 2"
+        }
+      ]
+    },
+    {
+      "domain": "archand.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:10.719920+00:00",
+          "compared_at": "2026-10-25T05:17:10.213769+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 4"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:18.071218+00:00",
+          "compared_at": "2026-10-25T05:17:17.221442+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archdesign.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:25.139547+00:00",
+          "compared_at": "2026-10-25T05:17:22.479465+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:30.074222+00:00",
+          "compared_at": "2026-10-25T05:17:26.698372+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archdom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:23.574036+00:00",
+          "compared_at": "2026-10-25T05:17:23.489336+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:28.909824+00:00",
+          "compared_at": "2026-10-25T05:17:28.183917+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archeton.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:31.048696+00:00",
+          "compared_at": "2026-10-25T05:17:29.755881+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:39.542005+00:00",
+          "compared_at": "2026-10-25T05:17:37.183180+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archetyp.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:35.479091+00:00",
+          "compared_at": "2026-10-25T05:17:32.592803+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:46.464199+00:00",
+          "compared_at": "2026-10-25T05:17:41.240987+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archi-projekt.com.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:37.120217+00:00",
+          "compared_at": "2026-10-25T05:17:35.047336+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:44.089047+00:00",
+          "compared_at": "2026-10-25T05:17:40.305725+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archido.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": false,
+          "data_quality": "unknown",
+          "error_text": "Witryna blokuje dostęp ze skanera (403).",
+          "observed_at": null,
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Brak odczytu"
+        },
+        {
+          "page": "projekt",
+          "current_read": false,
+          "data_quality": "unknown",
+          "error_text": "Nie ustalono poprawnej karty projektu.",
+          "observed_at": null,
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Brak odczytu"
+        }
+      ]
+    },
+    {
+      "domain": "archipelag.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:50.360390+00:00",
+          "compared_at": "2026-10-25T05:17:46.580499+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:58.077363+00:00",
+          "compared_at": "2026-10-25T05:17:52.774980+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "archstodola.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:51.992478+00:00",
+          "compared_at": "2026-10-25T05:17:45.731221+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:57.354987+00:00",
+          "compared_at": "2026-10-25T05:17:50.164353+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 3"
+        }
+      ]
+    },
+    {
+      "domain": "dobredomy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:00:59.283466+00:00",
+          "compared_at": "2026-10-25T05:17:53.806455+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 3"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:09.099919+00:00",
+          "compared_at": "2026-10-25T05:18:01.479688+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 3"
+        }
+      ]
+    },
+    {
+      "domain": "dom-projekt.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:03.303274+00:00",
+          "compared_at": "2026-10-25T05:17:56.614856+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:10.859566+00:00",
+          "compared_at": "2026-10-25T05:18:03.196635+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "domdlaciebie.com.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:07.419096+00:00",
+          "compared_at": "2026-10-25T05:18:00.163503+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:14.589636+00:00",
+          "compared_at": "2026-10-25T05:18:05.789586+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 1"
+        }
+      ]
+    },
+    {
+      "domain": "domenadom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:18.589524+00:00",
+          "compared_at": "2026-10-25T05:18:06.813483+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:25.437485+00:00",
+          "compared_at": "2026-10-25T05:18:12.631326+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "dominanta.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:21.430839+00:00",
+          "compared_at": "2026-10-25T05:18:10.382581+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:28.187440+00:00",
+          "compared_at": "2026-10-25T05:18:15.533466+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "domoweklimaty.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:26.800965+00:00",
+          "compared_at": "2026-10-25T05:18:16.144154+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:37.676542+00:00",
+          "compared_at": "2026-10-25T05:18:24.958107+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "dompasja.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:32.187215+00:00",
+          "compared_at": "2026-10-25T05:18:20.582907+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 10"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:38.937998+00:00",
+          "compared_at": "2026-10-25T05:18:28.746377+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "dompp.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "partial",
+          "error_text": "",
+          "observed_at": "2026-10-26T08:47:18.247827+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "partial",
+          "error_text": "",
+          "observed_at": "2026-10-26T08:47:24.922966+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        }
+      ]
+    },
+    {
+      "domain": "domydlanas.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:42.845376+00:00",
+          "compared_at": "2026-10-25T05:18:29.880535+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:49.700076+00:00",
+          "compared_at": "2026-10-25T05:18:35.203667+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "domywstylu.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:45.078736+00:00",
+          "compared_at": "2026-10-25T05:18:34.323348+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 5"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:52.087835+00:00",
+          "compared_at": "2026-10-25T05:18:39.874907+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "domyzweranda.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T13:58:10.156779+00:00",
+          "compared_at": "2026-10-25T05:18:36.596700+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 15"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T13:58:16.442619+00:00",
+          "compared_at": "2026-10-25T05:18:43.064987+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "e-domy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T14:31:07.889841+00:00",
+          "compared_at": "2026-10-25T05:18:40.961374+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 19"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T14:31:12.794387+00:00",
+          "compared_at": "2026-10-25T05:18:46.350682+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "eg-domy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:01:58.778150+00:00",
+          "compared_at": "2026-10-25T05:18:46.463209+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:06.325864+00:00",
+          "compared_at": "2026-10-25T05:18:54.105150+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "extradom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:07.609868+00:00",
+          "compared_at": "2026-10-25T05:18:50.896686+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:17.968806+00:00",
+          "compared_at": "2026-10-25T05:18:59.739300+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "galeriadomow.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:11.124047+00:00",
+          "compared_at": "2026-10-25T05:18:54.162809+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:19.107426+00:00",
+          "compared_at": "2026-10-25T05:19:02.711280+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 1"
+        }
+      ]
+    },
+    {
+      "domain": "hbstudio.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T13:58:19.406605+00:00",
+          "compared_at": "2026-10-25T08:19:04.802632+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 7"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T08:08:45.758170+00:00",
+          "compared_at": "2026-10-24T07:43:48.439710+00:00",
+          "comparable_daily": false,
+          "comparison_label": "Luka 2 dni · brak porównania z wczoraj"
+        }
+      ]
+    },
+    {
+      "domain": "hexagreen.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:19.786921+00:00",
+          "compared_at": "2026-10-25T05:19:06.132118+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:26.136952+00:00",
+          "compared_at": "2026-10-25T05:19:13.014401+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "housecollection.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "partial",
+          "error_text": "",
+          "observed_at": "2026-10-26T08:47:17.164536+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "partial",
+          "error_text": "",
+          "observed_at": "2026-10-26T08:47:27.453304+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        }
+      ]
+    },
+    {
+      "domain": "kbprojekt.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:27.307260+00:00",
+          "compared_at": "2026-10-25T05:19:10.370033+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:34.874884+00:00",
+          "compared_at": "2026-10-25T05:19:18.096379+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "klimatdrewna.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:31.280526+00:00",
+          "compared_at": "2026-10-25T05:19:17.318329+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:38.005076+00:00",
+          "compared_at": "2026-10-25T05:19:22.689452+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "kreatywnedomy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:40.813700+00:00",
+          "compared_at": "2026-10-25T05:19:19.401823+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:47.026616+00:00",
+          "compared_at": "2026-10-25T05:19:24.522613+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "kreodom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:43.419243+00:00",
+          "compared_at": "2026-10-25T05:19:24.568041+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:50.661935+00:00",
+          "compared_at": "2026-10-25T05:19:30.606273+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "lipinscy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:45.112398+00:00",
+          "compared_at": "2026-10-25T05:19:29.224607+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:52.022251+00:00",
+          "compared_at": "2026-10-25T05:19:35.244706+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "lk-projekt.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": false,
+          "data_quality": "unknown",
+          "error_text": "Witryna blokuje dostęp ze skanera (403).",
+          "observed_at": null,
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Brak odczytu"
+        },
+        {
+          "page": "projekt",
+          "current_read": false,
+          "data_quality": "unknown",
+          "error_text": "Nie ustalono poprawnej karty projektu.",
+          "observed_at": null,
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Brak odczytu"
+        }
+      ]
+    },
+    {
+      "domain": "mgprojekt.com.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T15:12:10.339043+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T15:12:15.644467+00:00",
+          "compared_at": null,
+          "comparable_daily": false,
+          "comparison_label": "Pierwszy zapis · brak porównywalnej bazy"
+        }
+      ]
+    },
+    {
+      "domain": "moj-dom-projekty.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:56.648607+00:00",
+          "compared_at": "2026-10-25T05:19:36.208058+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:02.890546+00:00",
+          "compared_at": "2026-10-25T05:19:41.540303+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "mtmstyl.com.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:02:56.930674+00:00",
+          "compared_at": "2026-10-25T05:19:39.805556+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 5"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:02.981516+00:00",
+          "compared_at": "2026-10-25T05:19:45.330540+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "myhome.eco",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:05.003492+00:00",
+          "compared_at": "2026-10-25T05:19:41.548696+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:11.679665+00:00",
+          "compared_at": "2026-10-25T05:19:48.368404+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "nowoczesne-projektydomow.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:09.069171+00:00",
+          "compared_at": "2026-10-25T05:19:47.740782+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:14.062385+00:00",
+          "compared_at": "2026-10-25T05:19:53.250060+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "ototwojdom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:10.259072+00:00",
+          "compared_at": "2026-10-25T05:19:51.044324+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:15.013094+00:00",
+          "compared_at": "2026-10-25T05:19:55.295215+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "penthus.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:19.166971+00:00",
+          "compared_at": "2026-10-25T05:19:56.047031+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:25.669138+00:00",
+          "compared_at": "2026-10-25T05:20:01.689336+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "pioroarchitekci.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:20.733527+00:00",
+          "compared_at": "2026-10-25T05:19:59.036557+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:26.298948+00:00",
+          "compared_at": "2026-10-25T05:20:04.025918+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "planujdom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:22.430719+00:00",
+          "compared_at": "2026-10-25T05:20:00.643551+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:34.902647+00:00",
+          "compared_at": "2026-10-25T05:20:06.897322+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "pollio.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:30.400283+00:00",
+          "compared_at": "2026-10-25T05:20:06.289040+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:34.895459+00:00",
+          "compared_at": "2026-10-25T05:20:10.705554+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "polskiedomki.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:31.382664+00:00",
+          "compared_at": "2026-10-25T05:20:09.693498+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:36.384548+00:00",
+          "compared_at": "2026-10-25T05:20:13.957487+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "postawdom24.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:42.259241+00:00",
+          "compared_at": "2026-10-25T05:20:13.306206+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:48.936578+00:00",
+          "compared_at": "2026-10-25T05:20:20.763139+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "praktyczneprojekty.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:40.197628+00:00",
+          "compared_at": "2026-10-25T05:20:15.600859+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 1"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:47.032383+00:00",
+          "compared_at": "2026-10-25T05:20:22.857046+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "pro-arte.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:43.263032+00:00",
+          "compared_at": "2026-10-25T05:20:19.898354+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:49.821059+00:00",
+          "compared_at": "2026-10-25T05:20:24.950634+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "profesjonalne-projekty-domow.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:53.230967+00:00",
+          "compared_at": "2026-10-25T05:20:26.861863+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:59.554543+00:00",
+          "compared_at": "2026-10-25T05:20:32.832627+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektdomudo100m2.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:58.305027+00:00",
+          "compared_at": "2026-10-25T05:20:31.350132+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 1"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:03.858183+00:00",
+          "compared_at": "2026-10-25T05:20:37.046363+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektstodola.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:03:54.882591+00:00",
+          "compared_at": "2026-10-25T05:20:29.992364+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 2"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:02.126733+00:00",
+          "compared_at": "2026-10-25T05:20:36.477826+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektydomow.redcart.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:05.341144+00:00",
+          "compared_at": "2026-10-25T05:20:37.878661+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:12.736837+00:00",
+          "compared_at": "2026-10-25T05:20:43.109602+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektygebala.com",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:09.544827+00:00",
+          "compared_at": "2026-10-25T05:20:44.010769+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:14.386769+00:00",
+          "compared_at": "2026-10-25T05:20:48.063342+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektyka.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:09.470176+00:00",
+          "compared_at": "2026-10-25T05:20:42.114244+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:16.763034+00:00",
+          "compared_at": "2026-10-25T05:20:47.203084+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektyszkieletowe.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:19.157394+00:00",
+          "compared_at": "2026-10-25T05:20:48.500192+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:24.520689+00:00",
+          "compared_at": "2026-10-25T05:20:53.017393+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "projektyzwizja.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:21.911095+00:00",
+          "compared_at": "2026-10-25T05:20:55.972065+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:28.700859+00:00",
+          "compared_at": "2026-10-25T05:21:01.763794+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "sej-pro.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:25.642521+00:00",
+          "compared_at": "2026-10-25T05:20:56.227553+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:32.857672+00:00",
+          "compared_at": "2026-10-25T05:21:02.633902+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "skahus.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:33.836430+00:00",
+          "compared_at": "2026-10-25T05:21:00.829086+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:40.722029+00:00",
+          "compared_at": "2026-10-25T05:21:07.676699+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "slonecznedomy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:36.752076+00:00",
+          "compared_at": "2026-10-25T05:21:09.489911+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:43.117948+00:00",
+          "compared_at": "2026-10-25T05:21:15.469841+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "sprytnaoaza.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:38.388924+00:00",
+          "compared_at": "2026-10-25T05:21:07.003673+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:42.869656+00:00",
+          "compared_at": "2026-10-25T05:21:11.013191+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "studioatrium.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:47.551443+00:00",
+          "compared_at": "2026-10-25T05:21:13.773952+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 6"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:54.365646+00:00",
+          "compared_at": "2026-10-25T05:21:19.051000+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "studiokrajobrazy.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:48.700311+00:00",
+          "compared_at": "2026-10-25T05:21:15.439764+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:53.110723+00:00",
+          "compared_at": "2026-10-25T05:21:19.987516+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "teaprojekt.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:49.661712+00:00",
+          "compared_at": "2026-10-25T05:21:21.367132+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:04:55.588200+00:00",
+          "compared_at": "2026-10-25T05:21:25.848167+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "uarchitekta.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:05:00.386513+00:00",
+          "compared_at": "2026-10-25T05:21:26.447587+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:05:07.155265+00:00",
+          "compared_at": "2026-10-25T05:21:32.027308+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    },
+    {
+      "domain": "zbudujsamdom.pl",
+      "pages": [
+        {
+          "page": "glowna",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:05:04.012635+00:00",
+          "compared_at": "2026-10-25T05:21:28.916108+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Zmiany komunikacji: 3"
+        },
+        {
+          "page": "projekt",
+          "current_read": true,
+          "data_quality": "ok",
+          "error_text": "",
+          "observed_at": "2026-10-26T07:05:11.936753+00:00",
+          "compared_at": "2026-10-25T05:21:36.547123+00:00",
+          "comparable_daily": true,
+          "comparison_label": "Bez zmian w zapisanej komunikacji"
+        }
+      ]
+    }
+  ],
+  "management_observations": [
+    {
+      "id": "zmiana-1b99d38369616d",
+      "domain": "alexanderstudio.pl",
+      "page": "projekt",
+      "business_bucket": "promotions",
+      "overview_eligible": true,
+      "commercial_status": "scheduled",
+      "before": "brak",
+      "after": "Promocja od 2026-10-27, koniec za:",
+      "source": "https://alexanderstudio.pl/produkt/carmen-magdalena-a/",
+      "description": "Dodano: Treść",
+      "before_at": "2026-10-25T05:17:18.144677+00:00",
+      "after_at": "2026-10-26T13:58:15.433807+00:00",
+      "sentence": "Zapowiedź promocji od 2026-10-27: „Promocja od 2026-10-27, koniec za:”"
+    },
+    {
+      "id": "zmiana-3f10c0ddc9932f",
+      "domain": "alexanderstudio.pl",
+      "page": "projekt",
+      "business_bucket": "promotions",
+      "overview_eligible": true,
+      "commercial_status": "scheduled",
+      "before": "brak",
+      "after": "Promocja jeszcze się nie rozpoczęła.",
+      "source": "https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown",
+      "description": "Dodano: Treść",
+      "before_at": "2026-10-25T05:17:18.144677+00:00",
+      "after_at": "2026-10-26T13:58:15.433807+00:00",
+      "sentence": "Zapowiedź promocji — jeszcze nieaktywna: „Promocja jeszcze się nie rozpoczęła.”"
+    },
+    {
+      "id": "zmiana-eb0b962507dd11",
+      "domain": "planujdom.pl",
+      "page": "glowna",
+      "business_bucket": "promotions",
+      "overview_eligible": false,
+      "commercial_status": "not_checked",
+      "before": "WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: [licznik] Zobacz >",
+      "after": "brak",
+      "source": "https://planujdom.pl/",
+      "description": "Usunięto: Baner",
+      "before_at": "2026-10-25T05:31:46.742724+00:00",
+      "after_at": "2026-10-26T07:17:27.739525+00:00",
+      "sentence": "Zniknął komunikat: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: [licznik] Zobacz >”. Weryfikacja oferty w serwisie nie została wykonana dla tego zapisu."
+    },
+    {
+      "id": "zmiana-6758d35accc2a6",
+      "domain": "planujdom.pl",
+      "page": "projekt",
+      "business_bucket": "promotions",
+      "overview_eligible": false,
+      "commercial_status": "not_checked",
+      "before": "WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: [licznik] Zobacz >",
+      "after": "brak",
+      "source": "https://planujdom.pl/projekty-domow/projekt-domu-d-072/",
+      "description": "Usunięto: Baner",
+      "before_at": "2026-10-25T05:30:59.200991+00:00",
+      "after_at": "2026-10-26T07:16:26.385483+00:00",
+      "sentence": "Zniknął komunikat: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: [licznik] Zobacz >”. Weryfikacja oferty w serwisie nie została wykonana dla tego zapisu."
+    },
+    {
+      "id": "zmiana-89bd31891fa333",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "functions",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-54369e3d5edbc8",
+      "domain": "kreatywnedomy.pl",
+      "page": "projekt",
+      "business_bucket": "functions",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-5c03e6e09af89e",
+      "domain": "archand.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked",
+      "before": "brak",
+      "after": "ZNAJDŹ DOM W SWOIM STYLU",
+      "source": "https://www.archand.pl/#section2",
+      "description": "Dodano: Nagłówek",
+      "before_at": "2026-10-25T05:17:10.213769+00:00",
+      "after_at": "2026-10-26T07:00:10.719920+00:00",
+      "sentence": "W zapisie pojawiło się: „ZNAJDŹ DOM W SWOIM STYLU”."
+    },
+    {
+      "id": "zmiana-44a09183153ba9",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-50552db1fadbb4",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c87fb44eac11cc",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ada421ec091808",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d739d57d224fef",
+      "domain": "planujdom.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked",
+      "before": "4470,00 zł Pierwotna cena wynosiła: 4470,00 zł.3790,00 złAktualna cena wynosi: 3790,00 zł.",
+      "after": "brak",
+      "source": "https://planujdom.pl/",
+      "description": "Usunięto: Baner",
+      "before_at": "2026-10-25T05:31:46.742724+00:00",
+      "after_at": "2026-10-26T07:17:27.739525+00:00",
+      "sentence": "W nowym zapisie brak: „4470,00 zł Pierwotna cena wynosiła: 4470,00 zł.3790,00 złAktualna cena wynosi: 3790,00 zł.”."
+    },
+    {
+      "id": "zmiana-99e93f3bcb9903",
+      "domain": "projektstodola.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9d18c9c9577795",
+      "domain": "projektstodola.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-dad5c9de754522",
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-4ac5ea3d9c45a7",
+      "domain": "archand.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked",
+      "before": "POLECANE KATEGORIE",
+      "after": "brak",
+      "source": "https://www.archand.pl/",
+      "description": "Usunięto: Nagłówek",
+      "before_at": "2026-10-25T05:17:10.213769+00:00",
+      "after_at": "2026-10-26T07:00:10.719920+00:00",
+      "sentence": "W nowym zapisie brak: „POLECANE KATEGORIE”."
+    },
+    {
+      "id": "zmiana-043fad00a25939",
+      "domain": "dompasja.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3b854d6caaa449",
+      "domain": "dompasja.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-5e25e0e6519564",
+      "domain": "dompasja.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d4390e945f20fc",
+      "domain": "domywstylu.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0cb0d97f7dc737",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-19877c2294feb1",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-2105619a4da6c7",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-2a684cdf548c2c",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6ea8e58506c901",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ad69f1e69942e0",
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-5b6d080af1f248",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-81b607d46251ad",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9a7850b345d9f0",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9f5c809015a509",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c0ec9b3769c607",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d9801ee1a72f86",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0449fa89f52833",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1379a8f7800053",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8c3b4b7bceeb67",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-973076e68e1c5c",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a0085b2a66a100",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-b4348f6ed0b64b",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-bae6ab864f6a07",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-bc9b2653bc3246",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c2cb62da98285b",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c8d2a37ae2762a",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-de08301e47ef46",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-deaa3bc68a538c",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fb2461d3743cca",
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-93cec27811449f",
+      "domain": "mtmstyl.com.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-410e1258a89753",
+      "domain": "zbudujsamdom.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3a9b70b7b523d4",
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-88b2885321b874",
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-93ac32c499026b",
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3b0a1144a3c683",
+      "domain": "archand.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked",
+      "before": "POLECANE KATEGORIE",
+      "after": "ZNAJDŹ DOM W SWOIM STYLU",
+      "source": "https://www.archand.pl/#section2",
+      "description": "Widoczny nagłówek: ZNAJDŹ DOM W SWOIM STYLU",
+      "before_at": "2026-10-25T05:17:10.213769+00:00",
+      "after_at": "2026-10-26T07:00:10.719920+00:00",
+      "sentence": "Nagłówek: „POLECANE KATEGORIE” → „ZNAJDŹ DOM W SWOIM STYLU”."
+    },
+    {
+      "id": "zmiana-1fc9f996dbb585",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-4838953a5a3cbf",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-78342570faac8a",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-b804ed69478d72",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d1a3843060f3bc",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-f6aac867310bb7",
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8ae8fe2a932b34",
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-04b6409bda04d6",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-072a44e7363b09",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0887c5cd0b18a2",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0e8b5ffc6ac8cc",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-14d8846a615907",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-169d8ea4ae5746",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-18d01949886bbb",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1c025da2246575",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1dd09c67c9cb08",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1f59cda5ab9b26",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-23148aa62e3313",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-2d1db11bb26b3d",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3b078455b5b3a5",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3c2bad380f20fc",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3f0639ab770994",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-42a57c9dbb676e",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-42de23f65f50a9",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-45867daaaf6af1",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-476069a034cce7",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-4f04e533ad7cac",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-550c77c23f7475",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-5e27fb5910c5f3",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6712e4034f9da3",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6a164e0a8a647a",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6e0c2563f979af",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-707d67e51d0f95",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-72b02afe2c7ad8",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-872c25839495b2",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-88cb068ab86769",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8bc103f36c4bdf",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-948f06039a7173",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9ad60e8eac5751",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9c82b407f85fed",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9e504d03714b8a",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a00ed94cab4ca1",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a0e0bdae108fff",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a0f77daaaeb130",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a189a5805b1eda",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-af270ecdc22408",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-b18f5da7834d40",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-b84d696bf86730",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-bc1854163aa8cc",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-bcdab3568cef45",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-be8d5bc9fab5ed",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c1c8c3a8b2da34",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c6e2705290af36",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c9664d04edcd0a",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-cc3accc921c923",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ccd62820da4039",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ce98f0aee27942",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d115f25208a07d",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d45f13bfec34ad",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d92ce73912a8e9",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-df67ffe94b5077",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-e1a8184a26ff5c",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-f326e6f5537726",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fe52dcd30236c8",
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-00db8017836c11",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-04fdc97040226e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0525dbb00eae1e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-079482d17f079f",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0c81e84c337291",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-0f93437d39c8d5",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-13e4b2f9ec077e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1cb699e4109375",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1d14d363f22bee",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-1ecc2ab3f3fa27",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-2262f6ab13419a",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-230f60e767db85",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-24191645b63c9b",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-24aebd5ada6e50",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-25909430caf46e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-30b50edc77221c",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-338df88278141f",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3ae4e0891554b9",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-3fe1e441dc603e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-44f0e897093bf7",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-520372ff39e183",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-633ab7e3cd0f56",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6682975f9ef6f3",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6ad65626b0db24",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6baffba5c4eeea",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-6d0492142b301b",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-748626f40775a0",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-779e662c0139b7",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-7dffaf410afa2b",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-853cf5152247b4",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8abc10e26e4a81",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8c9097c2c63930",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8f20d557aad914",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-8f2831b4321ec6",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9038cdabeddf42",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-977cfba6c255ba",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9afa60915fd4e0",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-9f19e836a005a7",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a2feb4eb2d02cc",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-a36a8bbbeb5b7e",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-af5236540df7e8",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-b65227ca8c393d",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-babf0325dabc5c",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-bafda88adcaf06",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-be49c39e06ea94",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c0aa49ff86d7ab",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-c7277bd15f84a1",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d0a05bba568210",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d515790fc3fea4",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-d70caf3638c2d2",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-df11fcab2d9372",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-e2a5479699309d",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-e8ef42a548df5f",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ec1393db657b9c",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ec369082049c3d",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-f0bdfd228455e7",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": true,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-f20aebf85c76dc",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fa21985cfc50fa",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fbff1e2ab95cda",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fc0bbb8a0d4691",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-fdfe5b12b49136",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    },
+    {
+      "id": "zmiana-ffb37efd605581",
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview_eligible": false,
+      "commercial_status": "not_checked"
+    }
+  ],
+  "digest_groups": [
+    {
+      "domain": "alexanderstudio.pl",
+      "page": "projekt",
+      "business_bucket": "promotions",
+      "overview": true,
+      "count": 2
+    },
+    {
+      "domain": "planujdom.pl",
+      "page": "glowna",
+      "business_bucket": "promotions",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "planujdom.pl",
+      "page": "projekt",
+      "business_bucket": "promotions",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "functions",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "kreatywnedomy.pl",
+      "page": "projekt",
+      "business_bucket": "functions",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "archand.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": true,
+      "count": 2
+    },
+    {
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": true,
+      "count": 9
+    },
+    {
+      "domain": "hexagreen.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": true,
+      "count": 14
+    },
+    {
+      "domain": "planujdom.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": true,
+      "count": 1
+    },
+    {
+      "domain": "projektstodola.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": true,
+      "count": 2
+    },
+    {
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "dompasja.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 3
+    },
+    {
+      "domain": "domywstylu.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "domyzweranda.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 6
+    },
+    {
+      "domain": "mtmstyl.com.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "zbudujsamdom.pl",
+      "page": "glowna",
+      "business_bucket": "copy",
+      "overview": false,
+      "count": 1
+    },
+    {
+      "domain": "1001studio.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": false,
+      "count": 3
+    },
+    {
+      "domain": "archand.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": true,
+      "count": 1
+    },
+    {
+      "domain": "archetyp.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": true,
+      "count": 6
+    },
+    {
+      "domain": "e-domy.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": true,
+      "count": 1
+    },
+    {
+      "domain": "sej-pro.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": true,
+      "count": 57
+    },
+    {
+      "domain": "studioatrium.pl",
+      "page": "glowna",
+      "business_bucket": "design",
+      "overview": true,
+      "count": 62
+    }
+  ],
+  "flow_checks": {
+    "search_before_visible_domains": 66,
+    "search_after_visible_domains": 66,
+    "scripts": 0,
+    "comparison_href": "#firma-zmiana-1b99d38369616d",
+    "comparison_opened_details": true,
+    "mobile_body_overflow": false,
+    "mobile_table_overflows": 5
+  },
+  "email_jobs": [
+    {
+      "conclusion": "success",
+      "name": "email",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job"
+        },
+        {
+          "conclusion": "success",
+          "name": "Sprawdź konfigurację poczty"
+        },
+        {
+          "conclusion": "skipped",
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262"
+        },
+        {
+          "conclusion": "skipped",
+          "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065"
+        },
+        {
+          "conclusion": "skipped",
+          "name": "Run astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff"
+        },
+        {
+          "conclusion": "skipped",
+          "name": "Run uv sync --frozen"
+        },
+        {
+          "conclusion": "skipped",
+          "name": "Wyślij porównanie"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job"
+        }
+      ]
+    }
+  ],
+  "asset_sizes": [
+    {
+      "name": "2026-10-26-2026-10-26t151141.729914-0000-cfafb6fe-porownanie.html",
+      "size": 6340501
+    },
+    {
+      "name": "2026-10-26-2026-10-26t151141.729914-0000-cfafb6fe-widok.zip",
+      "size": 31387620
+    },
+    {
+      "name": "2026-10-26-2026-10-26t151141.729914-0000-cfafb6fe.zip",
+      "size": 263553007
+    }
+  ],
+  "limits": [
+    "One published day; no measured long-term precision, recall or timeliness.",
+    "Raw observation count is not a business-event count.",
+    "Published portable HTML tested in Chromium via set_content without modifying markup.",
+    "GitHub CSS failed in this environment; unstyled screenshot rejected.",
+    "No full WCAG or screen reader audit.",
+    "No new live verification of Planujdom offer expiry."
+  ]
+}

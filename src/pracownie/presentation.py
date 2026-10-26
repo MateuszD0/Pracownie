@@ -490,9 +490,21 @@ def _delta_text(row: dict) -> str:
 
 
 def render_text(view: dict) -> str:
+    from .briefing import build_briefing, delivery_text
+
     c = view["counts"]
     pair = view["comparison"]
-    lines = [
+    briefing = build_briefing(view)
+    brief_lines = [f"ODPRAWA DNIA — {pair['before_day']} → {pair['after_day']}",
+                   f"Porównano obie strony: {len(briefing['complete_domains'])}/{briefing['total']} pracowni.",
+                   delivery_text(view), ""]
+    for tier, label in [('main', 'NAJWAŻNIEJSZE ZMIANY'), ('review', 'WAŻNE DO SPRAWDZENIA')]:
+        brief_lines += [label]
+        for event in briefing['events']:
+            if event['tier'] == tier:
+                brief_lines += [event['domain'] + ' | ' + event['sentence'] + ' | ' + event['confidence'], event['lead']['source']]
+        brief_lines += ['']
+    lines = brief_lines + [
         f"KOMUNIKACJA PRACOWNI — {view['day']}",
         assessment(view)["title"].upper(),
         *assessment(view)["lines"],
@@ -504,7 +516,7 @@ def render_text(view: dict) -> str:
         f"Ceny ustalone: {c['prices']}; porównywalne pary cen: {c['price_pairs']}. Potwierdzone zmiany ofert: {c['events']} w {c['changed']} domenach.",
         f"Brak pełnego odczytu stron: {c['missing']} domen. Obrazy do oceny: {c['visual']} domen.",
         "",
-        "NAJWAŻNIEJSZE ZMIANY",
+        "DIAGNOSTYKA I PEŁNE ZAPISY",
         "",
     ]
     management = build_management(view)
@@ -812,8 +824,11 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
 
 
 def render_html(view: dict) -> str:
+    from .briefing import build_briefing, render_briefing, render_intelligence
+
     # Recompute after enrichment too; archived views can predate this schema.
     view = {**view, "management": build_management(view)}
+    view["briefing"] = build_briefing(view, view["management"])
     template = files("pracownie").joinpath("_report_template.html").read_text()
     observed = sorted(p["observed_at"] for r in view["rows"] for p in r["pages"] if p["observed_at"])
     payload = (
@@ -835,7 +850,7 @@ def render_html(view: dict) -> str:
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
         "__STATIC_JOURNAL__": render_journal_html(view, rows=[e for e in view['journal'] if e['id'] in source_ids]),
         "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
-        "__STATIC_MANAGEMENT__": render_management(view),
+        "__STATIC_MANAGEMENT__": render_briefing(view, view["briefing"]) + render_intelligence(view) + '<details id="technical-summary"><summary>Wszystkie obserwacje — szczegóły techniczne</summary>' + render_management(view) + '</details>',
         "__STATIC_AVAILABILITY__": render_availability(view),
         "__STATIC_QUALITY__": render_quality_panel(view),
         "__STATIC_COMMUNICATION__": render_communication_table(view),

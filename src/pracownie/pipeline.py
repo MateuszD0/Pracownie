@@ -356,7 +356,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                                 previous = [old for kind in ('glowna', 'projekt')
                                             if (old := store.previous(state, f'{site.domain}/{kind}/podstawowy'))]
                                 await verify_offers(site, [home, project], results, previous, scanner,
-                                                    work, staging / day / slug(site.domain))
+                                                    work, staging / day / slug(site.domain), pending=state.get("verification_queue"))
                                 if project and selection:
                                     await interactions(site, "projekt", selection["url"], project, work)
                                 if home:

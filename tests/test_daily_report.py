@@ -183,7 +183,8 @@ def test_web_uses_verified_images_and_does_not_modify_archive(tmp_path):
     assert 'src="screenshots/' in (target / DAY / "index.html").read_text()
     assert (target / f"{DAY}.txt").is_file()
     standalone = BeautifulSoup((target / f"porownanie-{DAY}.html").read_text(), "html.parser")
-    assert not standalone.select('script, button, select')
+    assert standalone.select_one('#search') and standalone.select_one('#reset-filters')
+    assert standalone.select_one('#data') and standalone.body['data-portable'] == 'true'
     assert standalone.select('img') and all(i['src'].startswith('data:image/jpeg;base64,') for i in standalone.select('img'))
     verify_outputs(source, DAY)
     view = json.loads((source / DAY / "oferty.json").read_text())
@@ -267,7 +268,7 @@ async def test_portable_comparison_displays_text_and_images_without_scripts_or_s
         assert 'Rabat 20%' in await page.locator('#observations').inner_text()
         assert await page.locator('#observations del').is_visible()
         assert await page.locator('#observations ins').is_visible()
-        assert not await page.locator('script, button').count()
+        assert not await page.locator('.quick-filters').is_visible()
         await page.locator('#observations img').last.scroll_into_view_if_needed()
         await page.wait_for_function("[...document.querySelectorAll('#observations img')].every(i=>i.complete&&i.naturalWidth>0)")
         assert not network

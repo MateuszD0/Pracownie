@@ -41,12 +41,14 @@ jobs:
       - run: uv run python -m pracownie.rebuild --publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
 
       - name: Sprawdź dostępność opcjonalnego adresu WWW
         id: pages
         run: uv run python -m pracownie.web --check-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
       - name: Przygotuj gotowy widok HTML i zrzuty
         if: steps.pages.outputs.enabled == 'true'
         run: uv run python -m pracownie.web --source .monitor/report-rebuild/raporty

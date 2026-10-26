@@ -110,11 +110,11 @@ def test_digest_puts_a_concrete_observation_before_long_pairs_without_losing_rec
     for lead in soup.select('#business-highlights a[data-company-link], #business-minor a[data-company-link]'):
         assert soup.select_one(lead['href']) is not None
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
-    primary, rest = docs['DASHBOARD.md'].split('<details><summary>Pozostałe różnice', 1)
+    primary = docs['DASHBOARD.md'].split('## Braki porównania')[0]
+    rest = docs['dashboard/testpl.md']
     assert 'Zamów bezpłatny katalog' in primary and 'Mazowieckie' not in primary
     assert 'Mazowieckie' in rest and '900 px' in rest
-    assert 'Weryfikacja oferty w serwisie nie została wykonana' in rest
-    assert 'Promocja do końca miesiąca' not in primary
+    assert 'Promocja do końca miesiąca' in primary and 'Do sprawdzenia' in primary
     assert 'promocja się skończyła' not in primary.casefold()
 
 

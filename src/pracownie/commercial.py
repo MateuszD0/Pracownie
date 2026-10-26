@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import asyncio
 import re
-from datetime import date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urldefrag, urlsplit
 
@@ -180,7 +180,6 @@ def assess(change: Change, url: str, documents: list[dict], *, complete: bool) -
 
 
 def local_day_from(value: str) -> str:
-    from datetime import datetime
     return local_day(datetime.fromisoformat(value))
 
 
@@ -190,9 +189,18 @@ def quote(value: str | None, limit: int = 220) -> str:
 
 
 async def verify_offers(site: Site, captures: list, results: list, previous: list[Snapshot], scanner,
-                        work: Path, archive: Path, *, budget: float = 45) -> None:
+                        work: Path, archive: Path, *, budget: float = 45, pending: dict | None = None) -> None:
     scoped = [r for r in results if r.domain == site.domain and r.scenario == 'podstawowy']
     targets = [(r, c) for r in scoped for c in r.changes if relevant(c)]
+    followups = []
+    for item in (pending or {}).values():
+        row = next((r for r in scoped if r.page == item['page'] and r.observed_at and not r.error), None)
+        if item['domain'] != site.domain or item['status'] != 'open' or not row or item['next_check'] > local_day_from(row.observed_at) or not allowed_url(site, item['url']):
+            continue
+        change = Change('removed' if not item['after'] or item['after'] == 'brak' else 'changed', item['category'], item['label'],
+                        item['before'], item['after'], item['before_at'], row.observed_at, item['url'], 'weryfikacja-oferty')
+        targets.append((row, change))
+        followups.append((item, change))
     if not targets:
         return
     current = [c.snapshot for c in captures if c is not None]
@@ -221,6 +229,11 @@ async def verify_offers(site: Site, captures: list, results: list, previous: lis
                     and all(d.get('complete') for d in documents))
         for result, change in targets:
             change.details['commercial_check'] = assess(change, result.url, documents, complete=complete)
+        for item, change in followups:
+            check = change.details['commercial_check']
+            item['check'] = check
+            item['status'] = 'resolved' if check['status'] in {'ended', 'elsewhere', 'still_present', 'added', 'changed', 'scheduled', 'label_only'} else 'open'
+            item['next_check'] = (date.fromisoformat(local_day_from(change.after_at)) + timedelta(days=1)).isoformat()
         archive.mkdir(parents=True, exist_ok=True)
         (archive / 'weryfikacja-oferty.json').write_bytes(json_bytes({
             'checked_at': now_iso(), 'omitted_links': omitted, 'complete': complete,

@@ -82,12 +82,15 @@ def test_same_day_rebuild_preserves_confirmed_publication_time_not_scan_finish(t
         if asset['name'].startswith('commit-'):
             asset['created_at'] = day + 'T05:40:00Z'
     assert remote.published_report(day)['first_published_at'] == day + 'T05:40:00Z'
+    prior_assets = set(remote.published_report(day)['report_assets'])
     archive = prepare(store, output, day, 'b')
     remote.publish(store, output, day, archive, 'b')
     for asset in fake.assets.values():
         if asset['name'] == 'commit-b.json':
             asset['created_at'] = day + 'T10:30:00Z'
     assert remote.published_report(day)['first_published_at'] == day + 'T05:40:00Z'
+    assert prior_assets <= fake.assets.keys()
+    assert len(remote.published_report(day)['editions']) == 2
 
 
 @pytest.mark.browser

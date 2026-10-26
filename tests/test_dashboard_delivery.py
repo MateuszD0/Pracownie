@@ -19,7 +19,8 @@ def test_readable_dashboard_has_all_firms_both_pages_and_business_changes():
     text = render_dashboard(view, 'https://github.com/test/monitor/releases/tag/monitor-report-2026-10-20')
     assert text.index('## Zmiany oferty i komunikacji') < text.index('## Wszystkie pracownie')
     docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
-    assert len(docs) == 3
+    assert {'DASHBOARD.md', 'dashboard/testpl.md', 'dashboard/blockedpl.md'} <= docs.keys()
+    assert 'dashboard/zdarzenia-testpl.md' in docs
     assert '[test.pl](dashboard/testpl.md)' in text
     text = BeautifulSoup('\n'.join(docs.values()), 'html.parser').get_text()
     assert text.count('## Strona główna') == text.count('## Karta projektu') == len(view['rows'])

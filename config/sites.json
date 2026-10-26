@@ -1083,6 +1083,22 @@
       }
     },
     {
+      "domain": "mgprojekt.com.pl",
+      "home_url": "https://www.mgprojekt.com.pl/",
+      "project_url": null,
+      "inspection": "pending",
+      "scenarios": [],
+      "required": {},
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "allowed_hosts": [],
+      "discovery_links": [],
+      "selection": {
+        "note": "Stała karta zostanie wybrana i zamrożona po pierwszym poprawnym odczycie; priorytet mają projekty oznaczone jako bestseller lub najpopularniejsze."
+      }
+    },
+    {
       "domain": "moj-dom-projekty.pl",
       "home_url": "https://moj-dom-projekty.pl",
       "project_url": null,

@@ -23,13 +23,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Promocje i rabaty · Baner · Strona główna · Next slide | <strong>WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
 | Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>4470,00 zł Pierwotna cena wynosiła: 4470,00 zł.3790,00 złAktualna cena wynosi: 3790,00 zł.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-1-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.10.2026 06:31 | Po · 26.10.2026 08:17 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -45,17 +45,17 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 | --- | --- | --- | --- |
 | Promocje i rabaty · Baner · Karta projektu · Next slide | <strong>WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-2-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-2-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.10.2026 06:30 | Po · 26.10.2026 08:16 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-2-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-dowod-2-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t084703.305080-0000-bc52d70d-porownanie.html)
 

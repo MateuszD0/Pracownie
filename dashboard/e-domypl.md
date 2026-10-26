@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-**8 zmian w zapisanym zakresie.**
+**10 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,43 +16,46 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/)
 
-**Odczyty:** 25.10.2026 06:18 → 26.10.2026 14:58 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 15:23 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom parterowy na planie kwadratu</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom parterowy z 3 sypialniami</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 | Komunikacja sprzedażowa · Baner | <strong>Kompaktowy dom z poddaszem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Prosty dom na wąskie działki</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 | Komunikacja sprzedażowa · Baner | <strong>Parterowy dom o zwartej bryle</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,<strong>3</strong> m | Min. szer.<strong>działki24</strong>,<strong>9</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ADAPTACJA PROJEKTU</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,1 m | Min. szer.<strong>działki19</strong>,1 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Duży dom parterowy</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Widoczny nagłówek: PROJEKT DOMU | <strong>ADAPTACJA</strong> <strong>PROJEKTU</strong> | <strong>PROJEKT</strong> <strong>DOMU</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | <strong>Parterowy dom z płaskim dachem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki22</strong>,<strong>7</strong> m | Min. szer.<strong>działki24</strong>,<strong>2</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,<strong>3</strong> m | Min. szer.<strong>działki21</strong>,<strong>5</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | <strong>Mały</strong> dom parterowy | <strong>Prosty</strong> dom parterowy | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,<strong>1</strong> m | Min. szer.<strong>działki25</strong>,<strong>4</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,<strong>6</strong> m | Min. szer.<strong>działki20</strong>,<strong>9</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-6-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t142250.421388-0000-286b0a94-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t142250.421388-0000-286b0a94-dowod-7-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 25.10.2026 06:18 | Po · 26.10.2026 14:58 |
+| Przed · 25.10.2026 06:18 | Po · 26.10.2026 15:23 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t142250.421388-0000-286b0a94-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t142250.421388-0000-286b0a94-dowod-7-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (13) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (47) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Zmiana pozycji lub parametrów w prezentowanym katalogu; nie ustalono zmiany stałego projektu.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- więcej informacji o projekcie domu E-143 → więcej informacji o projekcie domu E-273
-- Poniżej przedstawiamy najważniejsze rozwiązania konstrukcyjne i materiałowe stosowane w naszych projektach: - fundamenty – ławy wylewane, ż… → brak
-- Powierzchniaużytkowa / netto137,1 m² / 200,4 m² → Powierzchniaużytkowa / netto120,9 m² / 147,7 m²
+- więcej informacji o projekcie domu E-155 → więcej informacji o projekcie domu E-269a
+- więcej informacji o projekcie domu E-231 → więcej informacji o projekcie domu E-185a
+- Powierzchniaużytkowa / netto116,1 m² / 150,6 m² → Powierzchniaużytkowa / netto112,8 m² / 118,2 m²
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -62,9 +65,9 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-**Odczyty:** 25.10.2026 06:18 → 26.10.2026 14:58 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 15:23 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t142250.421388-0000-286b0a94-porownanie.html)
 

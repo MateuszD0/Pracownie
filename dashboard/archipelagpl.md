@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Alison III G2](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
 
-**2 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/)
 
-**Odczyty:** 24.10.2026 09:16 → 25.10.2026 06:17 (czas polski).
+**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-19-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-19-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 24.10.2026 09:16 | Po · 25.10.2026 06:17 |
+| Przed · 25.10.2026 06:17 | Po · 26.10.2026 08:00 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-19-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-19-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -35,13 +35,12 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 <details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
-- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
 
 Przykłady z zapisów:
 
-- https://www.archipelag.pl/files/Avrt/7lk5a120mtee9e/7lk5a120mtee9e.png → https://www.archipelag.pl/files/Avrt/lng23tb0o62eur/lng23tb0o62eur.jpg
-- brak → https://www.archipelag.pl/files/Avrt/kk1ttvk0o362br/kk1ttvk0o362br.jpg
-- MITEK → Solbet od 01.10.2026
+- https://www.archipelag.pl/files/Avrt/lng23tb0o62eur/lng23tb0o62eur.jpg → brak
+- brak → https://www.archipelag.pl/files/Avrt/nof68sd0n6tscb/nof68sd0n6tscb.jpg
+- https://www.archipelag.pl/files/Avrt/2s725dj0n7607c/2s725dj0n7607c.jpg → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -51,20 +50,17 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3)
 
-**Odczyty:** 24.10.2026 09:16 → 25.10.2026 06:17 (czas polski).
+**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Prev</strong> | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3#project) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Next</strong> | [Otwórz stronę](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3#project) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-7-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-20-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 24.10.2026 09:16 | Po · 25.10.2026 06:17 |
+| Przed · 25.10.2026 06:17 | Po · 26.10.2026 08:00 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-7-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-20-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -77,13 +73,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- https://www.archipelag.pl/files/Project/9pk9msv0iff990/view\_fb2ocsl0ig47u3\_List\_PL.jpg → brak
-- brak → https://www.archipelag.pl/files/Project/oiag5mg0cb9uj0/view\_a3pl4960digc0l\_List\_PL.jpg
-- brak → https://www.archipelag.pl/files/Project/ho69a000gs4q0c/view\_p2fsqne0h9d2lg\_List\_PL.jpg
+- https://www.archipelag.pl/files/Project/g8m8k5q0e2j08v/view\_spgfqv70e2l8q8\_List\_PL.jpg → https://www.archipelag.pl/files/Project/d1p0u020nr6d3d/view\_q9f6oqj0nr9ehe\_List\_PL.jpg
+- Tanita III G2 ENERGO PLUS → Daniel VII G2
+- https://www.archipelag.pl/files/Project/ho69a000gs4q0c/view\_p2fsqne0h9d2lg\_List\_PL.jpg → https://www.archipelag.pl/files/Project/v2dru8e0h47d08/view\_pokbhfp0h484pi\_List\_PL.jpg
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

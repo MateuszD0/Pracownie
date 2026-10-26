@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Dompasja 61B](https://dompasja.pl/dompasja-61b.html)
 
@@ -16,17 +16,36 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompasja.pl/)
 
-**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>ZALOGUJ SIĘ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>NIE PAMIĘTASZ HASŁA?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>UTWÓRZ KONTO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://dompasja.pl/) |
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-9-przed.jpg)
 
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 25.10.2026 06:18 | Po · 26.10.2026 08:01 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-9-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
 
 Przykłady z zapisów:
 
-- Mój koszyk 0 → Mój koszyk
+- Zamawiaj szybciej → brak
+- Stworzenie konta ma wiele korzyści: → brak
+- Zobacz zamówienie i stan wysyłki → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -36,40 +55,21 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
 
-**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>ZALOGUJ SIĘ</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#send2) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>NIE PAMIĘTASZ HASŁA?</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#login-form) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>UTWÓRZ KONTO</strong> | [Otwórz stronę](https://dompasja.pl/dompasja-61b.html#modal-content-29) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-8-przed.jpg)
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 24.10.2026 09:18 | Po · 25.10.2026 06:18 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-8-przed.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
 
 Przykłady z zapisów:
 
-- brak → Zamawiaj szybciej
-- To jest wymagane pole. → brak
-- brak → To Top
+- Mój koszyk → Mój koszyk 0
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Celia Mini](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archeton.pl/)
 
-**Odczyty:** 24.10.2026 09:16 → 25.10.2026 06:17 (czas polski).
+**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html)
 
-**Odczyty:** 24.10.2026 09:16 → 25.10.2026 06:17 (czas polski).
+**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

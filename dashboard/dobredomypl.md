@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Projekt domu Jantar VII](https://www.dobredomy.pl/projekt/jantarVII)
 
@@ -16,32 +16,33 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.dobredomy.pl/)
 
-**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:17 (czas polski).
+**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-20-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-21-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 24.10.2026 09:17 | Po · 25.10.2026 06:17 |
+| Przed · 25.10.2026 06:17 | Po · 26.10.2026 08:00 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-20-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-21-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
 
+- Okno powiadomień mogło pojawić się zależnie od sesji.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 - Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
 
 Przykłady z zapisów:
 
-- https://www.dobredomy.pl/img/projekty/orlando/orlando\_w1.jpg?p=hp&amp;dpr=2) → https://www.dobredomy.pl/img/projekty/daktyl/daktyl\_w1.jpg?p=hp&amp;dpr=2)
-- Juliusz Nowy → Słodki B
-- https://www.dobredomy.pl/img/projekty/mariolaIII/mariolaIII\_w1.jpg?p=hp&amp;dpr=2) → https://www.dobredomy.pl/img/projekty/amazonka/amazonka\_w1.jpg?p=hp&amp;dpr=2)
+- brak → Chcę być na bieżąco
+- brak → Chcesz otrzymywać powiadomienia o najlepszych ofertach?
+- brak → Nie, dziękuję
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -51,39 +52,48 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.dobredomy.pl/projekt/jantarVII/)
 
-**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-21-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 24.10.2026 09:17 | Po · 25.10.2026 06:18 |
+| Przed · 25.10.2026 06:18 | Po · 26.10.2026 08:01 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-21-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (394) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (397) — nie są ustaloną zmianą oferty</summary>
 
 - Link w katalogowej stopce Dobrych Domów; nie zmiana oferty stałego projektu.
 - Okno powiadomień mogło pojawić się zależnie od sesji.
-- Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
+- Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.
 
 Przykłady z zapisów:
 
-- Projekt domu Barwinek II → Projekt domu Susan
-- Projekt domu Hiacynt II → Projekt domu Nela
-- brak → Domy parterowe projekty
+- Projekt domu Ametyst II → Projekt domu Anato lII
+- Projekt domu Fabia IX → Projekt domu Alyson
+- Projekt domu Tytus III → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/)
+
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-22-po.jpg)
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

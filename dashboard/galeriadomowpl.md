@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Projekt domu - Dom przy Bukowej 14](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
-**1 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.galeriadomow.pl/)
 
-**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:02 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,23 +24,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
-**Odczyty:** 24.10.2026 09:18 → 25.10.2026 06:19 (czas polski).
+**Odczyty:** 25.10.2026 06:19 → 26.10.2026 08:02 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Warunki oferty · Opis i argumenty oferty | wysyłka <strong>w</strong> <strong>dniu 26 października 2026</strong> koszty dostawy: 0,00 zł | wysyłka <strong>już</strong> <strong>jutro</strong> koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-2-po.jpg)
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Automatyczna zmiana względnego określenia dnia.
 
-| Przed · 24.10.2026 09:18 | Po · 25.10.2026 06:19 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-2-po.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- wysyłka już jutro koszty dostawy: 0,00 zł → wysyłka już dzisiaj koszty dostawy: 0,00 zł
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

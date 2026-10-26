@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [Projekt Dwie Stodoły](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
 
@@ -16,32 +16,32 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektstodola.pl/)
 
-**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
-
-**Bez zmian w zapisanej komunikacji**
-
-## Karta projektu
-
-[Otwórz stronę źródłową](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
-
-**Odczyty:** 24.10.2026 09:20 → 25.10.2026 06:20 (czas polski).
+**Odczyty:** 25.10.2026 06:20 → 26.10.2026 08:03 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek · Wersja projektu: wersja lustrzane odbicie | <strong>RZUT WERSJA LUSTRZANE ODBICIE:</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
-| Komunikacja sprzedażowa · Nagłówek · Wersja projektu: wersja lustrzane odbicie | Nie odnotowano w tym odczycie | <strong>RZUT WERSJA PODSTAWOWA:</strong> | [Otwórz stronę](https://projektstodola.pl/produkt/projekt-dwie-stodoly/#product-20787) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Poradnik · Działka i usytuowanie Jak usytuować dom na działce Ten sam projekt może dać salon pełen słońca albo w cieniu, prywatny taras albo taras \[…\]</strong> | [Otwórz stronę](https://projektstodola.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Działka pod budowę domu i usytuowanie domu na działce to pierwszy, najważniejszy element Waszego przyszłego miejsca do zamieszkania. Działka nierozerwalnie łączy się z projektem. Dobry \[…\]</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektstodola.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-6-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-7-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 24.10.2026 09:32 | Po · 25.10.2026 06:31 |
+| Przed · 25.10.2026 06:20 | Po · 26.10.2026 08:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-dowod-7-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+## Karta projektu
+
+[Otwórz stronę źródłową](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
+
+**Odczyty:** 25.10.2026 06:20 → 26.10.2026 08:04 (czas polski).
+
+**Bez zmian w zapisanej komunikacji**
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

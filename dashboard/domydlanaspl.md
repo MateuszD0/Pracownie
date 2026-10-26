@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-24 → 2026-10-25**
+**2026-10-25 → 2026-10-26**
 
 **Ten sam projekt:** [N55-G2](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domydlanas.pl/)
 
-**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**Odczyty:** 24.10.2026 09:17 → 25.10.2026 06:18 (czas polski).
+**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-25/2026-10-25-2026-10-25t081855.813622-0000-494b07b1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t065956.152367-0000-6f0abfd1-porownanie.html)
 

@@ -54,7 +54,7 @@ Pozostałe strony tego porównania zawierają 38 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Elewacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#elewacje) |
 | Zmiany wyglądu · Układ · ChatGPT Image 12 cze 2026, 12\_59\_18\_2\_11zon\_2\_11zon | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#main-pg_4691-slide01) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t191849.956951-0000-7b460dc3-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t192937.261706-0000-format-c0d76915-porownanie.html)
 
 Strony porównania: [1](planujdompl.md) · [2](planujdompl-2.md) · **3**
 

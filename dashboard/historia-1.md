@@ -10,7 +10,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | projektstodola.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Działka pod budowę domu i usytuowanie domu na działce to pierwszy, najważniejszy element Waszego przyszłego miejsca do zamieszkania. Działka nierozerwalnie łączy się z projektem.…”. | Zaobserwowana zmiana |
 | projektstodola.pl · 2026-10-26 | Pojawił się komunikat: „Poradnik · Działka i usytuowanie Jak usytuować dom na działce Ten sam projekt może dać salon pełen słońca albo w cieniu, prywatny taras albo taras \[…\]”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-26 | Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| planujdom.pl · 2026-10-26 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
 | hexagreen.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-26 | Pojawił się komunikat: „Rodzinny dom z sypialnią na parterze”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |

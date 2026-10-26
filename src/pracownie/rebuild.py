@@ -14,7 +14,7 @@ from .communication import measure
 from .compare import compare
 from .github import GitHubStore
 from .images import image_difference, visual_evidence, visual_text
-from .model import Change, Result, Site, Snapshot, json_bytes, load_sites, local_day, now_iso, safe_path, slug
+from .model import Change, Result, Site, Snapshot, digest, json_bytes, load_sites, local_day, now_iso, safe_path, slug
 from .observations import visual_description
 from .offers import primary_offer
 from .pipeline import preserve_same_day_reads
@@ -84,6 +84,11 @@ def enrich_visual_results(results: list[Result], output: Path, store: StateStore
         difference = image_difference(before, after, after.parent / "roznice.png")
         if not difference.changed:
             continue
+        archived_crops = {}
+        for key in ('fragment_przed', 'fragment_po'):
+            path = safe_path(output, result.evidence[key]) if result.evidence.get(key) else None
+            if path and path.is_file():
+                archived_crops[key] = digest(path)
         crops = visual_evidence(before, after, after.parent, difference)
         result.evidence.update({k: p.relative_to(output).as_posix() for k, p in crops.items()})
         old = Snapshot(result.domain, result.page, result.scenario, result.url, result.compared_at or "", "", {}, [], "", "")
@@ -101,6 +106,11 @@ def enrich_visual_results(results: list[Result], output: Path, store: StateStore
         else:
             details = next((c.details for c in visuals if c.details.get("facts")), None) or visual_description(old, new, difference)
         ocr = {} if details.get("facts") or details.get("rotation") else visual_text(crops)
+        if not ocr and not details.get('facts') and not details.get('rotation') and len(archived_crops) == 2:
+            # OCR is optional in a formatting runner. Keep the recorded text
+            # only when BOTH regenerated evidence crops are byte-identical.
+            if all(key in crops and digest(crops[key]) == value for key, value in archived_crops.items()):
+                ocr = next((dict(c.details['ocr']) for c in visuals if c.details.get('ocr')), {})
         if ocr:
             details["ocr"] = ocr
             details["description"] = "Zmieniła się zawartość obrazu: " + details.get("area", "zaznaczony obszar")

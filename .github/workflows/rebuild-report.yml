@@ -37,6 +37,10 @@ jobs:
           version: '0.12.23'
           enable-cache: true
       - run: uv sync --frozen
+      - name: Odczyt tekstu z zachowanych zrzutów
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-pol
       - run: uv run pytest -q -m 'not browser'
       - run: uv run python -m pracownie.rebuild --publish
         env:

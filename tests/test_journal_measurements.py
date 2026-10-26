@@ -123,6 +123,30 @@ def test_archived_visual_enrichment_accepts_relative_report_directory(tmp_path, 
     assert (root / result.evidence["zmieniony_obszar"]).is_file()
 
 
+@pytest.mark.parametrize('changed_capture', [False, True])
+def test_formatting_without_ocr_preserves_text_only_for_identical_evidence(tmp_path, monkeypatch, changed_capture):
+    image = Image.new('RGB', (200, 300), 'white')
+    image.save(tmp_path/'before.png')
+    ImageDraw.Draw(image).rectangle((30, 40, 130, 90), fill='red')
+    image.save(tmp_path/'after.png')
+    ocr = {'before':'Oferta poprzednia', 'after':'Rabat 15%', 'basis':'Zapisany OCR'}
+    monkeypatch.setattr('pracownie.rebuild.visual_text', lambda _: dict(ocr))
+    change = Change('review', 'obraz', 'Wygląd', None, '', BEFORE, AFTER, 'https://test.pl/dom', 'podstawowy')
+    result = Result('test.pl', 'projekt', 'podstawowy', 'review', 'https://test.pl/dom', [change],
+                    observed_at=AFTER, compared_at=BEFORE, evidence={'przed':'before.png', 'po':'after.png'})
+    enrich_visual_results([result], tmp_path)
+    assert result.changes[0].details['ocr'] == ocr
+    monkeypatch.setattr('pracownie.rebuild.visual_text', lambda _: {})
+    if changed_capture:
+        ImageDraw.Draw(image).rectangle((30, 40, 130, 90), fill='blue')
+        image.save(tmp_path/'after.png')
+    enrich_visual_results([result], tmp_path)
+    if changed_capture:
+        assert 'ocr' not in result.changes[0].details
+    else:
+        assert result.changes[0].details['ocr'] == ocr
+
+
 def test_banner_description_compares_actual_labels_when_asset_url_is_reused():
     from pracownie.images import VisualDiff
 

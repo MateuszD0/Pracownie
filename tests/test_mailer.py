@@ -60,6 +60,7 @@ def delivery(tmp_path):
     def respond(request):
         if request.url.path.endswith('/contents/DASHBOARD.md'):
             assert request.headers['accept'] == 'application/vnd.github.html+json'
+            assert request.url.params['ref'] == fake.git_head
             return httpx.Response(200, text=DOCUMENT)
         return fake.request(request)
     remote = GitHubStore('test/monitor', 'fake', client=httpx.Client(transport=httpx.MockTransport(respond)))
@@ -89,12 +90,26 @@ def test_stale_or_empty_comparison_is_rejected():
         compose(DAY, DOCUMENT.split('<table>')[0], QUALITY, 'test/monitor', 'https://github.com', CONFIG)
 
 
+def test_email_evidence_keeps_the_edition_when_tomorrows_dashboard_changes():
+    links = '<a href="dashboard/zdarzenia-testpl.md#zdarzenie-1">Przed / po</a><a href="https://github.com/test/monitor/blob/main/dashboard/testpl.md">Odczyty</a>'
+    document = DOCUMENT.replace('<a href="javascript:evil()">Zły</a>', links)
+    message = compose(DAY, document, QUALITY, 'test/monitor', 'https://github.com/test/monitor/releases/tag/report', CONFIG, revision='abc123')
+    content = message.get_body(preferencelist=('html',)).get_content()
+    assert '/blob/abc123/dashboard/zdarzenia-testpl.md#zdarzenie-1' in content
+    assert '/blob/abc123/dashboard/testpl.md' in content
+    assert '/blob/abc123/DASHBOARD.md' in content
+    assert '/blob/main/' not in content
+    assert 'https://test.pl/oferta' in content
+
+
 def test_successful_delivery_is_encrypted_deduplicated_and_receipt_has_no_personal_data(delivery):
     remote, fake = delivery
+    edition = fake.git_head
     assert deliver(remote, DAY, CONFIG, SMTP) == 'sent'
     assert SMTP.calls == ['ehlo', 'tls', 'ehlo', 'login', 'send']
     assert deliver(remote, DAY, CONFIG, SMTP) == 'already-sent'
     assert len(SMTP.sent) == 1
+    assert f'/blob/{edition}/DASHBOARD.md' in SMTP.sent[0].get_body(preferencelist=('html',)).get_content()
     receipts = [fake.contents[a['id']] for a in fake.assets.values() if a['name'].startswith('email-')]
     assert len(receipts) == 1
     text = receipts[0].decode()

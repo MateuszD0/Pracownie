@@ -38,6 +38,11 @@ def technical(item: dict) -> bool:
 def event_sentence(item: dict) -> str:
     check = item.get('commercial_check', {})
     if check:
+        if normalized(item['after']) in EMPTY and check['status'] in {'other_offers', 'unverified', 'probably_ended', 'unstable'}:
+            # The checking result is context, not a replacement for the
+            # disappeared offer. Keep its discount/code in the daily summary.
+            observation = 'Nie odnotowano wcześniejszego komunikatu: „' + short(item['before'], 140) + '”. '
+            return observation + check['summary'].removeprefix('Komunikat zniknął. ')
         if check['status'] == 'scheduled':
             dates = re.findall(r'\d{4}-\d{2}-\d{2}', str(item['after']))
             if len(set(dates)) == 1:

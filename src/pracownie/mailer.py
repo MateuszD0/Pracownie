@@ -60,19 +60,24 @@ def safe_cell(cell) -> str:
     return ' '.join(parts)
 
 
-def compose(day: str, document: str, readiness: dict, repo: str, report_url: str, config: MailConfig) -> EmailMessage:
+def compose(day: str, document: str, readiness: dict, repo: str, report_url: str, config: MailConfig, *, revision: str = 'main') -> EmailMessage:
     soup = BeautifulSoup(document, 'html.parser')
     intro = soup.find('p')
     comparison = re.search(r'(\d{4}-\d{2}-\d{2})\s*→\s*(\d{4}-\d{2}-\d{2})', intro.get_text(' ', strip=True) if intro else '')
     if not comparison or comparison[2] != day:
         raise ValueError('Dashboard nie dotyczy dnia raportu; nie wysłano starego porównania.')
-    from urllib.parse import urljoin
+    from urllib.parse import quote, urljoin
+    repository_view = f'https://github.com/{repo}/blob/'
+    pinned_view = repository_view + quote(revision, safe='') + '/'
+    dashboard = pinned_view + 'DASHBOARD.md'
     for a in soup.select('a[href]'):
-        a['href'] = urljoin(f'https://github.com/{repo}/blob/main/DASHBOARD.md', a['href'])
+        url = urljoin(dashboard, a['href'])
+        # GitHub may render relative Markdown links as absolute main links.
+        # Both forms must keep pointing at the edition used in this email.
+        a['href'] = pinned_view + url[len(repository_view + 'main/'):] if url.startswith(repository_view + 'main/') else url
     tables = soup.find_all('table')
     if len(tables) < 2:
         raise ValueError('Brak tabel porównania; nie wysłano pustego raportu.')
-    dashboard = f'https://github.com/{repo}/blob/main/DASHBOARD.md'
     title = f'Pracownie: zmiany {comparison[1]} → {day}'
     limited = readiness.get('limited', [])
     missing = readiness.get('missing', [])
@@ -150,9 +155,10 @@ def deliver(remote: GitHubStore, day: str, config: MailConfig, smtp_factory=smtp
     if pending_name in assets:
         receipt(remote, assets[pending_name], day)
         raise ValueError('Poprzednia wysyłka nie ma potwierdzenia; sprawdź skrzynkę przed ręcznym ponowieniem.')
+    revision = remote.request('GET', f'{remote.prefix}/git/ref/heads/main').json()['object']['sha']
     response = remote.request('GET', f'{remote.prefix}/contents/{remote.dashboard_filename}',
-                              params={'ref': 'main'}, headers={'Accept': 'application/vnd.github.html+json'})
-    message = compose(day, response.text, record['readiness'], remote.repo, release['html_url'], config)
+                              params={'ref': revision}, headers={'Accept': 'application/vnd.github.html+json'})
+    message = compose(day, response.text, record['readiness'], remote.repo, release['html_url'], config, revision=revision)
     with tempfile.TemporaryDirectory() as directory, smtp_factory(config.host, config.port, timeout=30) as smtp:
         smtp.ehlo()
         smtp.starttls(context=ssl.create_default_context())

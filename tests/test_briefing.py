@@ -58,6 +58,18 @@ def test_unique_dated_announcement_absorbs_generic_not_started_message():
     assert len(build_briefing(view)['events']) == 3
 
 
+def test_follow_up_summary_identifies_the_missing_offer_and_does_not_call_other_extras_new():
+    view = management_view()
+    base = view['journal'][0]
+    view['journal'] = [dict(base, before='Rabat -15% z kodem JESIEN', after='brak',
+        commercial_check={'status':'other_offers', 'summary':'Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „Tablica budowy gratis”', 'note':''})]
+    event = build_briefing(view)['events'][0]
+    assert event['tier'] == 'review'
+    assert '-15%' in event['sentence'] and 'JESIEN' in event['sentence']
+    assert 'Tablica budowy gratis' in event['sentence']
+    assert 'nowy' not in event['sentence'].casefold()
+
+
 def test_registry_is_idempotent_preserves_last_capture_date_and_retains_history():
     view = management_view()
     view['journal'][0]['after'] = 'brak'

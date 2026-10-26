@@ -6,7 +6,7 @@
 
 **2026-10-25 → 2026-10-26**
 
-**Ten sam projekt:** [mgprojekt.com.pl](https://www.mgprojekt.com.pl/)
+**Ten sam projekt:** [Projekt domu Amber 5](https://www.mgprojekt.com.pl/amber-5)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -16,21 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.mgprojekt.com.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 26.10.2026 16:12 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
-[Otwórz stronę źródłową](https://www.mgprojekt.com.pl/)
+[Otwórz stronę źródłową](https://www.mgprojekt.com.pl/amber-5)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 26.10.2026 16:12 (czas polski).
 
-**Brak odczytu**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Nie ustalono poprawnej karty projektu.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t143058.642899-0000-9a93e568-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t151141.729914-0000-cfafb6fe-porownanie.html)
 

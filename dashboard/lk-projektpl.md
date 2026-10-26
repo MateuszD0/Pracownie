@@ -6,7 +6,7 @@
 
 **2026-10-25 → 2026-10-26**
 
-**Ten sam projekt:** [lk-projekt.pl](https://lk-projekt.pl)
+**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -24,7 +24,7 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 ## Karta projektu
 
-[Otwórz stronę źródłową](https://lk-projekt.pl)
+Adres karty zostanie podany po poprawnym wyborze projektu.
 
 **Odczyty:** brak odczytu → brak odczytu (czas polski).
 
@@ -32,5 +32,5 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t143058.642899-0000-9a93e568-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t151141.729914-0000-cfafb6fe-porownanie.html)
 

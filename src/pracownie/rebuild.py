@@ -14,7 +14,19 @@ from .communication import measure
 from .compare import compare
 from .github import GitHubStore
 from .images import image_difference, visual_evidence, visual_text
-from .model import Change, Result, Site, Snapshot, digest, json_bytes, load_sites, local_day, now_iso, safe_path, slug
+from .model import (
+    Change,
+    Result,
+    Site,
+    Snapshot,
+    digest,
+    json_bytes,
+    load_sites,
+    local_day,
+    now_iso,
+    safe_path,
+    slug,
+)
 from .observations import visual_description
 from .offers import primary_offer
 from .pipeline import preserve_same_day_reads

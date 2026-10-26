@@ -14,7 +14,7 @@ from pracownie.model import load_sites, now_iso
 
 DETAIL = r"""() => ({
  title:document.title, url:location.href, canonical:document.querySelector('link[rel=canonical]')?.href,
- headings:[...document.querySelectorAll('h1,h2')].slice(0,12).map(e=>e.innerText),
+ headings:[...document.querySelectorAll('h1,h2')].filter(e=>e.checkVisibility({visibilityProperty:true,opacityProperty:true})).slice(0,12).map(e=>e.innerText),
  length:document.body?.innerText.length || 0,
  products:[...document.querySelectorAll('a[href]')].filter(e=>!e.closest('nav,header,footer') && !/kategoria-produktu/.test(e.href) && /produkt|project|projekt|,p\d|\d\.html/.test(e.href)).slice(0,150).map(e=>({url:e.href,text:(e.innerText||e.querySelector('img')?.alt||'').slice(0,120)})),
  prices:[...document.querySelectorAll('[itemprop=price],ins,del,[class*=price],[class*=Price],[class*=cena]')].slice(0,70).map(e=>({selector:e.id?'#'+e.id:e.tagName+'.'+String(e.className).replaceAll(' ','.'),text:(e.innerText||e.getAttribute('content')||'').slice(0,180),parent:e.parentElement?.outerHTML.slice(0,1200)})),

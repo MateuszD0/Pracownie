@@ -46,10 +46,10 @@ Zrzuty przedstawiają rzeczywisty opublikowany HTML, nie projekt nowego ekranu. 
 
 Pierwszy ekran:
 
-> **Zmiany 25 → 26 października**  
-> Porównano obie strony: **60/66 pracowni** · **6 wymaga uwagi**  
-> Wydanie poranne: **08:26 — po terminie** · ostatnia korekta oznaczona osobno  
-> **Najważniejsze zmiany** — najwyżej 5 zdarzeń, następnie „Pozostałe ważne zmiany”  
+> **Zmiany 25 → 26 października**
+> Porównano obie strony: **60/66 pracowni** · **6 wymaga uwagi**
+> Wydanie poranne: **08:26 — po terminie** · ostatnia korekta oznaczona osobno
+> **Najważniejsze zmiany** — najwyżej 5 zdarzeń, następnie „Pozostałe ważne zmiany”
 > **Ważne do sprawdzenia** — zawsze widoczne, jeśli istnieją nierozstrzygnięte istotne sygnały
 
 Przykład redakcji na podstawie rzeczywistych zapisów; to nie jest nowa weryfikacja ofert:

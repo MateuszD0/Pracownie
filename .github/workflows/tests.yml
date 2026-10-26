@@ -17,7 +17,7 @@ concurrency:
 jobs:
   tests:
     runs-on: ubuntu-24.04
-    timeout-minutes: 12
+    timeout-minutes: 30 # Chromium setup and tests have separate bounds below.
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -31,5 +31,7 @@ jobs:
           enable-cache: true
       - run: uv sync --frozen
       - run: uv run playwright install --with-deps chromium
+        timeout-minutes: 15
       - run: uv run ruff check .
       - run: xvfb-run -a uv run pytest -q
+        timeout-minutes: 10

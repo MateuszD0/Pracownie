@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://housecollection.pl/)
 
-**Odczyty:** brak odczytu → 26.10.2026 08:46 (czas polski).
+**Odczyty:** brak odczytu → 26.10.2026 09:08 (czas polski).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
-**Odczyty:** brak odczytu → 26.10.2026 08:46 (czas polski).
+**Odczyty:** brak odczytu → 26.10.2026 09:08 (czas polski).
 
 **Pierwszy zapis · brak porównywalnej bazy**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-porownanie.html)
 

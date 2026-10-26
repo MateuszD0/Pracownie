@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 25.10.2026 09:19 → 26.10.2026 08:46 (czas polski).
+**Odczyty:** 25.10.2026 09:19 → 26.10.2026 09:08 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -27,8 +27,8 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 Przykłady z zapisów:
 
 - Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu… → brak
-- 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto → brak
-- 3. Projekt wentylacji mechanicznej: Dzięki zastosowaniu wentylacji mechanicznej uzyskujemy mniejsze koszty ogrzewania. System rekuperacji z… → brak
+- 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola… → brak
+- 2. Projekt pompy ciepła: Pompa ciepła to urządzenie grzewcze, które dostarcza energię ze źródeł naturalnych. Pobiera określoną ilość energi… → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -38,11 +38,9 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 24.10.2026 09:43 → brak odczytu (czas polski).
+**Odczyty:** 24.10.2026 09:43 → 26.10.2026 09:08 (czas polski).
 
-**Brak odczytu**
+**Luka 2 dni · brak porównania z wczoraj**
 
-Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-porownanie.html)
 

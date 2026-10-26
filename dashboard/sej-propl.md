@@ -48,13 +48,13 @@ Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 | Zmiany wyglądu · Układ · Co zawiera gotowy projekt domu? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>155 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Czy gotowy projekt trzeba adaptować do działki? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>154 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#faq) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-dowod-16-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-16-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.10.2026 06:20 | Po · 26.10.2026 08:04 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-dowod-16-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-dowod-16-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -84,7 +84,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t074557.291437-0000-3a1d66d0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t080830.221352-0000-24c92825-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 

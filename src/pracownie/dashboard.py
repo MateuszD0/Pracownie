@@ -155,19 +155,23 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             supporting = [e for e in data['secondary'] if e['domain'] == row['domain'] and e['page'] == page['page'] and e['daily'] and e['category'] != 'ceny']
             review = any(e['domain'] == row['domain'] and e['page'] == page['page'] for e in visual_reviews)
             label = (str(len(changes)) + ' zmian · ' + ', '.join(dict.fromkeys(e['business_type'] for e in changes))) if changes else page_finding(page, [], supporting)
+            if not page.get('current_read') and page.get('error_text'):
+                label += ' · ' + page['error_text']
             labels += [cell(label + (' · obraz do obejrzenia' if review else ''))]
         lines += [f"| [{cell(row['domain'])}]({folder}/{names[row['domain']]}.md) | " + ' | '.join(labels) + ' |']
         chunks = [items[i:i + 25] for i in range(0, len(items), 25)] or [[]]
         paths = [folder + '/' + names[row['domain']] + (f'-{i + 1}' if i else '') + '.md' for i in range(len(chunks))]
         for index, chunk in enumerate(chunks):
             navigation = ' · '.join((f'**{i + 1}**' if i == index else f'[{i + 1}]({path.rsplit("/", 1)[-1]})') for i, path in enumerate(paths))
-            content = ['# ' + cell(row['domain']), '', '[← Wszystkie pracownie](../' + filename + ')', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}**", '', '**Ten sam projekt:** ' + link(row['name'], row['url']), '', '**' + (str(len(items)) + ' zmian w zapisanym zakresie.' if items else 'Bez ustalonych zmian biznesowych w zapisanym zakresie.' if all(p.get('communication', {}).get('daily') for p in row['pages']) else 'Niepełne porównanie — sprawdź zakres obu stron.') + '**', '', 'Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.', '']
+            project_label = '**Ten sam projekt:** ' + link(row['name'], row['url']) if row.get('project_selected', True) else '**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.'
+            content = ['# ' + cell(row['domain']), '', '[← Wszystkie pracownie](../' + filename + ')', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}**", '', project_label, '', '**' + (str(len(items)) + ' zmian w zapisanym zakresie.' if items else 'Bez ustalonych zmian biznesowych w zapisanym zakresie.' if all(p.get('communication', {}).get('daily') for p in row['pages']) else 'Niepełne porównanie — sprawdź zakres obu stron.') + '**', '', 'Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.', '']
             if len(chunks) > 1:
                 content += ['Strony porównania: ' + navigation, '']
             for page in row['pages']:
                 page_items = [item for item in chunk if item['page'] == page['page']]
                 total = sum(item['page'] == page['page'] for item in items)
-                content += ['## ' + cell(page['label']), '', link('Otwórz stronę źródłową', page['url']), '', '**Odczyty:** ' + when(page['compared_at']) + ' → ' + when(page['observed_at']) + ' (czas polski).', '']
+                source_link = link('Otwórz stronę źródłową', page['url']) if page['url'] else 'Adres karty zostanie podany po poprawnym wyborze projektu.'
+                content += ['## ' + cell(page['label']), '', source_link, '', '**Odczyty:** ' + when(page['compared_at']) + ' → ' + when(page['observed_at']) + ' (czas polski).', '']
                 if page_items:
                     content += ['| Zmiana / miejsce | Było | Jest | Źródło |', '| --- | --- | --- | --- |', *[change_row(item) for item in page_items], '']
                     for item in page_items:

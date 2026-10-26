@@ -116,7 +116,7 @@ jobs:
           if [[ -n "$REPAIR_DOMAINS" ]]; then
             scan_args+=(--repair-domains "$REPAIR_DOMAINS")
           fi
-          uv run pracownie run "${scan_args[@]}"
+          xvfb-run -a uv run pracownie run "${scan_args[@]}"
       - name: Diagnostyka w razie awarii
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

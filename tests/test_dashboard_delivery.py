@@ -46,6 +46,18 @@ def test_dashboard_escapes_source_text_and_distinguishes_gaps():
     assert '&lt;script&gt;' in text and '\\|' in text and '\\[x\\]' in text
 
 
+def test_blocked_site_has_a_reason_and_no_homepage_disguised_as_a_selected_project():
+    view = management_view()
+    docs = render_dashboard_documents(view, 'https://github.com/test/monitor/releases/tag/day')
+    row = next(r for r in view['rows'] if r['domain'] == 'blocked.pl')
+    assert not row['project_selected']
+    assert next(p for p in row['pages'] if p['page'] == 'projekt')['url'] == ''
+    assert 'Witryna blokuje dostęp ze skanera (403)' in docs['DASHBOARD.md']
+    assert '**Ten sam projekt:**' not in docs['dashboard/blockedpl.md']
+    assert 'jeszcze nie wybrana' in docs['dashboard/blockedpl.md']
+    assert 'https://blocked.pl' not in docs['dashboard/blockedpl.md'].split('## Karta projektu')[1]
+
+
 def test_dashboard_publication_preserves_user_files_and_retries_a_sha_conflict():
     fake = FakeGitHub()
     remote = GitHubStore('test/monitor', 'not-a-real-token', client=httpx.Client(transport=httpx.MockTransport(fake.request)))

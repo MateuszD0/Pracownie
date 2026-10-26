@@ -161,6 +161,7 @@ class Site:
     communication_ignore_selectors: list[str] = field(default_factory=list)
     user_agent: str | None = None
     cookie_continue_selector: str | None = None
+    browser_headed: bool = False
 
     @classmethod
     def from_dict(cls, data: dict) -> Site:

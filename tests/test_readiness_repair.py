@@ -180,3 +180,45 @@ async def test_cookie_animation_can_finish_before_motion_is_frozen(sample_site, 
                                          Scenario('podstawowy', 'Strona główna'), tmp_path / 'page.png')
         assert captured.snapshot.quality == 'ok'
         assert not captured.snapshot.document['consent']
+
+
+@pytest.mark.browser
+async def test_headed_access_is_scoped_to_one_site_and_has_separate_history(sample_site, executable, tmp_path, monkeypatch):
+    import os
+    import sys
+
+    from playwright.async_api import Browser
+
+    if sys.platform == 'linux' and not os.environ.get('DISPLAY'):
+        pytest.skip('Uruchom test przez xvfb-run, jak w GitHub Actions.')
+    create_context = Browser.new_context
+
+    async def context(browser, **kwargs):
+        result = await create_context(browser, **kwargs)
+
+        async def protected(route):
+            if 'HeadlessChrome' in route.request.headers.get('user-agent', ''):
+                await route.fulfill(status=403, content_type='text/html', body='<title>Odmowa</title>')
+            else:
+                await route.fulfill(status=302, headers={'Location': sample_site.url + '/'})
+
+        await result.route('**/window-required', protected)
+        return result
+
+    monkeypatch.setattr(Browser, 'new_context', context)
+    site = Site('127.0.0.1', sample_site.url)
+    scenario = Scenario('podstawowy', 'Strona główna')
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        with pytest.raises(ValueError, match='HTTP 403'):
+            await scanner.capture(site, 'glowna', sample_site.url + '/window-required', scenario, tmp_path / 'denied.png')
+        original_adapter = adapter_signature(site, scenario, 'glowna')
+        site.browser_headed = True
+        captured = await scanner.capture(site, 'glowna', sample_site.url + '/window-required', scenario, tmp_path / 'headed.png')
+        assert captured.snapshot.quality == 'ok'
+        assert '-headed|extractor=' in captured.snapshot.renderer
+        assert original_adapter != adapter_signature(site, scenario, 'glowna')
+        ordinary = await scanner.capture(Site('127.0.0.1', sample_site.url), 'glowna', sample_site.url, scenario, tmp_path / 'ordinary.png')
+        assert '-headed' not in ordinary.snapshot.renderer
+        assert scanner.headed_browser is not scanner.browser
+        headed = scanner.headed_browser
+    assert not headed.is_connected()

@@ -277,7 +277,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     return None
                 snapshot = Snapshot.from_dict(json.loads(raw_path.read_text()))
                 if (snapshot.observed_at != old.observed_at or not (store.root / snapshot.image).is_file()
-                    or snapshot.renderer.split("|extractor=")[0] != scanner.renderer
+                    or snapshot.renderer.split("|extractor=")[0] != scanner.renderer + ('-headed' if site.browser_headed else '')
                     or snapshot.document.get("adapter") != adapter_signature(site, Scenario("podstawowy", ""), kind)):
                     return None
                 if old.offer.get("field_key") in site.unreliable_price_keys:

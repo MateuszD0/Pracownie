@@ -216,6 +216,8 @@ def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
     rules = {"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
     if site.user_agent:
         rules['user_agent'] = site.user_agent
+    if site.browser_headed:
+        rules['browser_headed'] = True
     if site.cookie_continue_selector:
         rules['cookie_continue_selector'] = site.cookie_continue_selector
     return hashlib.sha256(json.dumps(rules, sort_keys=True).encode()).hexdigest()[:12]
@@ -227,6 +229,8 @@ class BrowserScanner:
         self.navigation_timeout = navigation_timeout
         self.settle_ms = settle_ms
         self.browser: Browser | None = None
+        self.headed_browser: Browser | None = None
+        self.headed_lock = asyncio.Lock()
         self.phases: dict[str, str] = {}
         self.next_read: dict[str, float] = {}
         self.rate_limited: dict[str, float] = {}
@@ -245,6 +249,8 @@ class BrowserScanner:
         return self
 
     async def __aexit__(self, *args):
+        if self.headed_browser:
+            await self.headed_browser.close()
         if self.browser:
             await self.browser.close()
         await self.manager.stop()
@@ -427,7 +433,13 @@ class BrowserScanner:
             await asyncio.sleep(pause)
         self.next_read[site.domain] = time.monotonic() + 2
         proxy = None if urlsplit(url).hostname in {"localhost", "127.0.0.1", "::1"} else proxy_settings()
-        context = await self.browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy, user_agent=site.user_agent)
+        browser = self.browser
+        if site.browser_headed:
+            async with self.headed_lock:
+                if self.headed_browser is None:
+                    self.headed_browser = await self.manager.chromium.launch(headless=False, executable_path=self.executable)
+            browser = self.headed_browser
+        context = await browser.new_context(viewport={"width": 1280, "height": 900}, locale="pl-PL", timezone_id="Europe/Warsaw", color_scheme="light", reduced_motion="reduce", proxy=proxy, user_agent=site.user_agent)
         page = await context.new_page()
         page.set_default_timeout(7000)
         failed_resources = {}
@@ -593,6 +605,8 @@ class BrowserScanner:
             communication_rules = {"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
             if site.user_agent:
                 communication_rules['user_agent'] = site.user_agent
+            if site.browser_headed:
+                communication_rules['browser_headed'] = True
             if site.cookie_continue_selector:
                 communication_rules['cookie_continue_selector'] = site.cookie_continue_selector
             if site.communication_ignore_selectors:
@@ -645,7 +659,7 @@ class BrowserScanner:
             snapshot = Snapshot(
                 domain=site.domain, page=page_kind, scenario=scenario.id, url=canonical_url(page.url),
                 observed_at=timestamp, title=payload.get("h1") or payload["title"], fields=fields,
-                sections=sections, image="", renderer=self.renderer + "|extractor=" + self.extractor + "-" + adapter, warnings=warnings,
+                sections=sections, image="", renderer=self.renderer + ('-headed' if site.browser_headed else '') + "|extractor=" + self.extractor + "-" + adapter, warnings=warnings,
                 quality="partial" if not data_ready else "ok" if fields else "visual",
                 contract=CONTRACT + ":" + adapter, document=document,
             )

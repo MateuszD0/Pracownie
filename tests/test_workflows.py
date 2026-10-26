@@ -38,6 +38,7 @@ def test_schedule_checks_committed_freshness_under_writer_lock_before_browser_in
     command = next(s for s in steps if "SCAN_SCOPE" in s.get("env", {}))
     assert command["env"]["SCAN_DAY"] == "${{ steps.schedule.outputs.day }}"
     assert '--day "$SCAN_DAY"' in command["run"]
+    assert 'xvfb-run -a uv run pracownie run' in command['run']
 
 
 def test_report_publication_does_not_wait_for_pages_environment_approval():

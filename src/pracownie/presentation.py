@@ -246,7 +246,7 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         status, label = "unchanged", "Bez zmian w odczytanym zakresie"
     return {
         "page": page, "label": "Strona główna" if page == "glowna" else "Karta projektu",
-        "url": base.url if base else "", "status": status, "status_label": label,
+        "url": base.url if base and (page != 'projekt' or row['project_selected']) else "", "status": status, "status_label": label,
         "observed_at": base.observed_at if base else None, "compared_at": before_at,
         "gap_days": gap, "daily": gap == 1 and current_read,
         "current_read": current_read, "data_quality": base.data_quality if base else "unknown",
@@ -295,6 +295,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             "domain": domain,
             "name": selected.get("name") or domain,
             "url": selected.get("url") or (project.url if project else ""),
+            "project_selected": bool(selected.get('url') or (project and project.observed_at)),
             "home_read": bool(home and home.observed_at and datetime.fromisoformat(home.observed_at).astimezone(WARSAW).date().isoformat() == day),
             "project_read": bool(project and project.observed_at and datetime.fromisoformat(project.observed_at).astimezone(WARSAW).date().isoformat() == day),
             "current": current,
@@ -965,7 +966,8 @@ def render_daily_html(view: dict) -> str:
             part += '<span class="badge ' + page["status"] + '" data-change-label data-fallback="' + esc(page_finding(page, [], supporting)) + '">' + esc(copy_status) + '</span>'
             part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
             if page["page"] == "projekt":
-                part += '<p class="fixed-project"><strong>Ten sam projekt: ' + esc(row['name']) + '</strong></p>'
+                project_label = 'Ten sam projekt: ' + row['name'] if row.get('project_selected', True) else 'Stała karta projektu: jeszcze nie wybrana — brak poprawnego odczytu.'
+                part += '<p class="fixed-project"><strong>' + esc(project_label) + '</strong></p>'
             if page["gap_days"] and page["gap_days"] > 1:
                 part += '<p class="visual-note">Luka ' + str(page["gap_days"]) + ' dni. Porównanie z ostatnim poprawnym odczytem, starszym niż wczoraj.</p>'
             part += ''.join(render_business_change(item) for item in page_items[:3])

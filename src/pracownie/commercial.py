@@ -12,7 +12,7 @@ from .communication import records
 from .model import Change, Scenario, Site, Snapshot, json_bytes, local_day, now_iso
 
 TOPICS = {'promocje', 'dodatki', 'pakiety'}
-OFFER = re.compile(r'promoc|rabat|kupon|kod\s+(?:rabatowy|promocyjny)|gratis|bezpłat|za darmo|pakiet|w cenie|dodatk', re.I)
+CLAIM = re.compile(r'promoc|rabat|kupon|gratis|bezpłat|za darmo|pakiet|w cenie|kosztorys|\bdodat(?:ek|ki|ków|ku|kiem|kami|kach)\b', re.I)
 NAVIGATION = re.compile(r'^(?:regulamin(?:em)?(?: promocji)?|promocj[ae!]*|promocyjne projekty domów|pakiet|(?:bezpłatne |płatne )?dodatki(?: do projektu)?|(?:masz|wpisz|zastosuj) kod(?: rabatowy)?|powiadom o promocji|sprawdź promocje|zobacz promocje|więcej)[\s!?.:»>→]*$', re.I)
 UNSAFE = re.compile(r'add.to.cart|wc-ajax|checkout|koszyk|zam[oó]wienie|zamow|kontakt|logowanie|logout|newsletter|subscribe|unsubscribe', re.I)
 
@@ -22,14 +22,18 @@ def normalized(value: str | None) -> str:
 
 
 def concrete(text: str) -> bool:
-    return bool(OFFER.search(text) and not NAVIGATION.fullmatch(text.strip())
+    return bool(CLAIM.search(text) and not NAVIGATION.fullmatch(text.strip())
                 and not re.search(r'<\s*/?\s*(?:img|div|script|span|iframe)\b', text, re.I))
 
 
 def relevant(change: Change) -> bool:
+    values = [v for v in (change.before, change.after) if v]
+    meaningful = any(concrete(v) or re.fullmatch(r'promocja[ !?.]*', v, re.I) for v in values)
+    if not change.details.get('communication') and change.field_key and all(len(v) <= 60 for v in values):
+        meaningful |= any(re.search(r'\d|gratis|bezpłat', v, re.I) and concrete(change.label + ' ' + v) for v in values)
     return (change.category in TOPICS and change.kind in {'added', 'removed', 'changed'}
             and not change.details.get('supporting_reason')
-            and bool(OFFER.search(change.label + ' ' + (change.before or '') + ' ' + (change.after or ''))))
+            and meaningful)
 
 
 def document(snapshot: Snapshot, *, repeated: bool = False) -> dict:

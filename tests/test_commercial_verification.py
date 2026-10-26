@@ -181,3 +181,10 @@ def test_free_shipping_cannot_confirm_a_different_addon_became_free():
     result = assess(c, URL, [document(snapshot, repeated=True)], complete=True)
     assert result['status'] == 'changed'
     assert 'Kosztorys' in result['summary']
+
+
+@pytest.mark.parametrize('text', ['pomieszczenia dodatkowe,', 'wygodnie pomieszczenia dodatkowe i pomocnicze;', 'ADAPTACJA PROJEKTU Dodatkowo należy dostosować fundamenty budynku do warunków gruntowych.'])
+def test_technical_descriptions_are_not_commercial_extras(text):
+    from pracownie.commercial import concrete, relevant
+    assert not concrete(text)
+    assert not relevant(change(text, None, 'dodatki'))

@@ -32,5 +32,5 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-porownanie.html)
 

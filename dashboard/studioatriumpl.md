@@ -48,13 +48,13 @@ Strony porównania: **1** · [2](studioatriumpl-2.md) · [3](studioatriumpl-3.md
 | Zmiany wyglądu · Układ · ZREALIZOWANY PROJEKT BUDYNKU STUDIO ATRIUM - RECEPTA NA DOM, KTÓRY URZECZYWISTNIA MARZENIA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>283 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
 | Zmiany wyglądu · Układ · PROJEKTY DOMÓW Z PODDASZEM UŻYTKOWYM | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>283 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-dowod-17-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-16-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.10.2026 06:21 | Po · 26.10.2026 08:04 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-dowod-17-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-dowod-16-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -85,7 +85,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-porownanie.html)
 
 Strony porównania: **1** · [2](studioatriumpl-2.md) · [3](studioatriumpl-3.md)
 

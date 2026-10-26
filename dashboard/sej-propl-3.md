@@ -38,7 +38,7 @@ Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 

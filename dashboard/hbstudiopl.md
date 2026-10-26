@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 25.10.2026 09:19 → 26.10.2026 09:08 (czas polski).
+**Odczyty:** 25.10.2026 09:19 → 26.10.2026 14:58 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -26,9 +26,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu… → brak
 - 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola… → brak
-- 2. Projekt pompy ciepła: Pompa ciepła to urządzenie grzewcze, które dostarcza energię ze źródeł naturalnych. Pobiera określoną ilość energi… → brak
+- Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.… → brak
+- brak → Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -42,5 +42,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Luka 2 dni · brak porównania z wczoraj**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t131007.375105-0000-c428b70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t135758.294187-0000-555369c8-porownanie.html)
 

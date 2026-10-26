@@ -32,6 +32,7 @@ from .observations import CONTRACT
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
 VISUALS = files("pracownie").joinpath("visuals.js").read_text()
 COMMUNICATION = files("pracownie").joinpath("communication.js").read_text()
+COMMERCIAL = files("pracownie").joinpath("commercial.js").read_text()
 COOKIE_NAMES = re.compile(r"^(odmowa|odrzuć(?: wszystkie| wszystko| opcjonalne)?|(?:(?:zaakceptuj|akceptuj|zezwól na) )?tylko (?:niezbędne|konieczne)|nie zgadzam się|nie wyrażam zgody|nie akceptuję|reject all|reject|reject optional|necessary only|deny|continue without accepting)$", re.I)
 UNSAFE_OPTIONS = re.compile(r"zgod(?![ayę]?\s+(?:autora\s+)?na\s+zmian)|sprzeciw|danych osobowych|consent|newsletter|prywatno|regulamin|rodo|quantity|ilość|ilosc|sort|limit|billing_|shipping_|address_|_country|\[country\]|\bkraj\b|\bcountry\b|kod pocztowy|województwo", re.I)
 
@@ -587,6 +588,7 @@ class BrowserScanner:
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
             communication = await page.evaluate(COMMUNICATION, {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors})
+            payload['commercial_context'] = await page.evaluate(COMMERCIAL)
             communication["observed_at"] = timestamp
             communication_rules = {"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
             if site.user_agent:
@@ -633,7 +635,7 @@ class BrowserScanner:
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             adapter = adapter_signature(site, scenario, page_kind)
-            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections"] if key in payload}
+            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document['unresolved_styles'] = relevant_styles
             document["communication"] = communication

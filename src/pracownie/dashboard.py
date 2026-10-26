@@ -104,6 +104,8 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                 description += '<br><em>' + cell(entry['readout']['digest_note']) + '</em>'
             more = f"<br>Pozostałe różnice tego tematu: {group['count'] - 1}" if group['count'] > 1 else ''
             evidence = '[Porównaj →](' + targets[group['id']] + ')' + more + '<br>' + link('Otwórz stronę', entry['source'])
+            for source in entry.get('commercial_check', {}).get('sources', [])[:2]:
+                evidence += '<br>' + link('Sprawdzone warunki', source['url'])
             digest_row = '| ' + ' | '.join([label, description, evidence]) + ' |'
             if digest_rows and digest_bytes + len(digest_row.encode()) > 16_000:
                 digest_pages.append(digest_rows)
@@ -168,6 +170,15 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                 content += ['## ' + cell(page['label']), '', link('Otwórz stronę źródłową', page['url']), '', '**Odczyty:** ' + when(page['compared_at']) + ' → ' + when(page['observed_at']) + ' (czas polski).', '']
                 if page_items:
                     content += ['| Zmiana / miejsce | Było | Jest | Źródło |', '| --- | --- | --- | --- |', *[change_row(item) for item in page_items], '']
+                    for item in page_items:
+                        check = item.get('commercial_check', {})
+                        if check:
+                            content += ['**Wynik sprawdzenia oferty:** ' + cell(check['summary']), '', '<details><summary>Źródła i zakres weryfikacji</summary>', '']
+                            for source in check.get('sources', []):
+                                content += ['- ' + link('Warunki oferty', source['url']) + ': ' + cell(brief(source['text'], 600))]
+                            for checked in check.get('checked_pages', []):
+                                content += ['- ' + link('Sprawdzona strona', checked['url']) + ' · ' + when(checked.get('observed_at')) + ' · ' + cell('odczyt poprawny' if checked.get('complete') else checked.get('error') or 'odczyt częściowy')]
+                            content += ['', cell(check.get('note', '')), '', '</details>', '']
                     long_items = [e for e in page_items if max(len(str(e['before'])), len(str(e['after']))) > 220]
                     if long_items:
                         content += ['<details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>', '']

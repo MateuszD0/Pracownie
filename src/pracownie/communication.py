@@ -63,7 +63,7 @@ def text_fragments(snapshot: Snapshot) -> set[str]:
 
 def category(before: str, after: str) -> str:
     text = before + " " + after
-    for name, pattern in [("promocje", r"promoc|rabat|przecen|wyprzeda|kod rabat"),
+    for name, pattern in [("promocje", r"promoc|rabat|przecen|wyprzeda|kupon"),
                           ("dodatki", r"gratis|bezpłat|za darmo|\bdodat(?:ek|ki|ków|ku|kiem|kami|kach|kowe|kowy|kowa|kową|kowych|kowego|kowej)\b|kosztorys"),
                           ("pakiety", r"pakiet|w cenie"),
                           ("warunki", r"dostaw|wysył|termin|zwrot|gwaranc"),

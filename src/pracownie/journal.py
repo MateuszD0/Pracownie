@@ -67,6 +67,7 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "communication_role": event.get("communication_role", ""),
                 "unmatched": event.get("unmatched", False),
                 "supporting_reason": event.get("supporting_reason", ""),
+                "commercial_check": event.get("commercial_check", {}),
                 "category": category,
                 "type": LABELS.get(category, category),
                 "description": description,

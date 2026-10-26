@@ -200,6 +200,7 @@ def _event(change, result: Result) -> dict:
         "communication_role": change.details.get("role", ""),
         "unmatched": change.details.get("unmatched", False),
         "supporting_reason": change.details.get("supporting_reason", ""),
+        "commercial_check": change.details.get("commercial_check", {}),
     }
 
 

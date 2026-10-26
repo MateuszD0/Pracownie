@@ -221,6 +221,8 @@ def digest_row_html(group: dict) -> str:
     result += '</td><td data-label="Sprawdź"><a data-company-link href="#firma-' + group['id'] + '">Porównaj przed / po</a><br><a href="' + esc(safe_source(entry['source']), quote=True) + '" target="_blank" rel="noopener">Otwórz stronę</a>'
     if group['count'] > 1:
         result += '<p class="small">Pozostałe różnice tego tematu: ' + str(group['count'] - 1) + '</p>'
+    for source in entry.get('commercial_check', {}).get('sources', [])[:2]:
+        result += '<br><a href="' + esc(safe_source(source['url']), quote=True) + '" target="_blank" rel="noopener">Sprawdzone warunki oferty</a>'
     return result + '</td></tr>'
 
 
@@ -258,6 +260,15 @@ def render_business_change(item: dict) -> str:
     result += '</p>'
     if item['readout']['note']:
         result += '<p class="small">' + esc(item['readout']['note']) + '</p>'
+    check = item.get('commercial_check', {})
+    if check:
+        result += '<details class="commercial-check"><summary>Wynik sprawdzenia oferty w serwisie</summary><p>' + esc(check['summary']) + '</p>'
+        for source in check.get('sources', []):
+            result += '<p><a href="' + esc(safe_source(source['url']), quote=True) + '">Źródło warunków</a>: ' + esc(source['text'][:600]) + '</p>'
+        from .presentation import when
+        for page in check.get('checked_pages', []):
+            result += '<p class="small"><a href="' + esc(safe_source(page['url']), quote=True) + '">Sprawdzona strona</a> · ' + esc(when(page.get('observed_at'))) + ' · ' + esc('odczyt poprawny' if page.get('complete') else page.get('error') or 'odczyt częściowy') + '</p>'
+        result += '</details>'
     if item['observation_count'] > 1:
         result += '<details class="contexts"><summary>Ten sam komunikat w ' + str(item['observation_count']) + ' odczytach</summary><p class="small">' + esc(' · '.join(item['contexts'])) + '</p></details>'
     return result + '</article>'

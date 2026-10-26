@@ -73,6 +73,14 @@ Opis wydania w Releases zawiera skrót: do 20 zmian komunikacji i 20 dodatkowych
 
 Pierwszy poprawny skan tworzy punkt odniesienia. Obrazy „przed” pojawią się dopiero w porównaniach z rzeczywiście zapisanym wcześniejszym stanem. Ponowne uruchomienie tego samego dnia porównuje do stanu sprzed tego dnia. Skany zakończone błędem nie zastępują poprawnej historii.
 
+**Sprawdzanie promocji, kodów rabatowych i dodatków**
+
+Zmiana tych komunikatów na stronie głównej lub stałej karcie projektu uruchamia dodatkowe sprawdzenie: ponowny odczyt zmienionej strony, kontekst obu stron i do dwóch powiązanych publicznych podstron promocji lub warunków oferty. Skaner korzysta z odnośników zapisanych dziś i poprzednio. Nie przegląda innych kart projektów ani nie finalizuje zakupów. Weryfikacja ma budżet 45 sekund na pracownię, przed dodatkowym sprawdzaniem interakcji.
+
+Podsumowanie rozróżnia nową promocję, kod rabatowy, dodatek lub pakiet, zapowiedź przyszłej promocji oraz komunikat sprzedawcy o zakończeniu. Zniknięcie banera powoduje sprawdzenie, czy komunikat nadal występuje lub znalazł się w innym miejscu. Inne znalezione oferty są pokazane jako kontekst, bez przypisywania ich wcześniejszej promocji. Ocena „prawdopodobnie zakończono” wymaga poprawnego powtórnego odczytu oraz sprawdzenia obu stron i wszystkich wybranych źródeł. Błędy, nieodczytany PDF, dodatkowe pominięte linki lub limit czasu wykluczają taką ocenę. Sam brak etykiety „Pakiet” albo linku do regulaminu nie ustala zmiany warunków.
+
+Każdy wynik sprawdzenia ma cytaty, źródła i rzeczywiste daty odczytów, dostępne przy zmianie w dashboardzie i HTML oraz w archiwalnym `weryfikacja-oferty.json`. Zrzuty pomocniczych odczytów nie są powielane w archiwum; dotychczasowe zrzuty przed/po pozostają dowodem porównania. Stare raporty bez dodatkowego sprawdzenia nie otrzymują wstecz potwierdzenia zakończenia promocji. Przebudowa zachowuje weryfikację tylko dla identycznych obserwacji. Publikacja kodu rabatowego nie oznacza sprawdzenia realizacji zamówienia z tym kodem.
+
 **Limity i koszt**
 
 Używane są standardowe runnery Ubuntu, jedna maszyna i ograniczona współbieżność przeglądarki. Skan ma budżet 60 minut, a cały job 75 minut; raport wyraźnie pokazuje domeny pominięte z powodu czasu. Zapas zwiększono po pełnym pomiarze 26 min 22 s, aby uwzględnić porównania obrazów w kolejnych dniach. Codzienna praca nie wymaga płatnego API.

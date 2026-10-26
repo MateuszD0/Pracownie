@@ -23,6 +23,7 @@ from .browser import (
     adapter_signature,
     infer_scenarios,
 )
+from .commercial import verify_offers
 from .communication import measure
 from .compare import compare
 from .extract import is_listing_title, page_identity
@@ -264,7 +265,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     results.append(Result(site.domain, kind, "pokrycie-interakcji", "partial", url, warnings=list(dict.fromkeys(warnings))))
 
             def reuse_base(site: Site, kind: str, url: str):
-                if not options.resume:
+                if not options.resume or site.domain in (options.repair_domains or []):
                     return None
                 old = next((r for r in previous_results if r.domain == site.domain and r.page == kind
                             and r.scenario == "podstawowy" and r.url == url and not r.error
@@ -352,6 +353,10 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         async with asyncio.timeout(min(timeout, remaining)):
                             if detail:
                                 _, home, project, selection, work = pending[site.domain]
+                                previous = [old for kind in ('glowna', 'projekt')
+                                            if (old := store.previous(state, f'{site.domain}/{kind}/podstawowy'))]
+                                await verify_offers(site, [home, project], results, previous, scanner,
+                                                    work, staging / day / slug(site.domain))
                                 if project and selection:
                                     await interactions(site, "projekt", selection["url"], project, work)
                                 if home:

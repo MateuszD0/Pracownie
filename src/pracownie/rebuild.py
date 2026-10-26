@@ -39,10 +39,15 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
         prior = state.get("anchor", {}).get(key)
         before = Snapshot.from_dict(prior) if prior and prior.get("observed_at") == result.compared_at else None
         result.communication, changes = measure(before, Snapshot.from_dict(raw))
+        checks = {(c.field_key, c.before, c.after, c.before_at, c.after_at, c.url): c.details['commercial_check']
+                  for c in result.changes if c.details.get('commercial_check')}
         # Rebuild is idempotent and keeps the original source evidence.
         result.changes = [c for c in result.changes if not c.field_key.startswith("communication:")]
         for change in changes:
             change.evidence = dict(result.evidence)
+            identity = (change.field_key, change.before, change.after, change.before_at, change.after_at, change.url)
+            if identity in checks:
+                change.details['commercial_check'] = checks[identity]
         result.changes.extend(changes)
 
 

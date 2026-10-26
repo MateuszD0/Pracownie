@@ -112,6 +112,37 @@ def readout(item: dict) -> dict:
     overview = bool(item.get('highlight_eligible', True) or offer_words) and not layout and not fragment
     # The sentence already communicates one-sided presence.
     digest_note = '' if missing_before else note
+    commercial = item.get('commercial_check', {})
+    if commercial:
+        sentence = commercial['summary']
+        note = digest_note = commercial.get('note', '')
+        overview = commercial['status'] in {'added', 'changed', 'scheduled', 'ended', 'probably_ended', 'other_offers', 'elsewhere'}
+    elif item['category'] in {'promocje', 'dodatki', 'pakiety'}:
+        if missing_after:
+            sentence = f'Zniknął komunikat: „{previous}”. Weryfikacja oferty w serwisie nie została wykonana dla tego zapisu.'
+            note = digest_note = 'Ten zapis nie ustala zakończenia promocji; dodatkowe sprawdzenie jest zadaniem monitora.'
+            overview = False
+        elif missing_before:
+            from .commercial import (
+                announces_end,
+                concrete,
+                expired_end,
+                future_start,
+                local_day_from,
+                not_started,
+            )
+            start = future_start(str(item['after']), local_day_from(item['after_at'])) if item.get('after_at') else ''
+            label = ('Zapowiedź promocji od ' + start) if start else 'Nowy kod rabatowy w komunikacji' if re.search(r'kod\s+(?:rabatowy|promocyjny)|kupon', str(item['after']), re.I) else 'Nowy dodatek lub pakiet w komunikacji' if item['category'] in {'dodatki', 'pakiety'} else 'Nowa promocja w komunikacji'
+            sentence = f'{label}: „{current}”.'
+            if announces_end(str(item['after'])):
+                sentence = f'Serwis informuje o zakończeniu promocji: „{current}”.'
+            if not_started(str(item['after'])) and not start:
+                sentence = f'Zapowiedź promocji — jeszcze nieaktywna: „{current}”.'
+            overview = concrete(str(item['after']))
+            expired = expired_end(str(item['after']), local_day_from(item['after_at'])) if item.get('after_at') else ''
+            if expired:
+                sentence = f'Komunikat z minionym terminem oferty ({expired}): „{current}”.'
+                overview = False
     return {'title': title, 'before': left, 'after': right, 'note': note,
             'sentence': sentence, 'digest_note': digest_note, 'overview': overview,
             'lead_rank': (0 if overview else 4) + 2 * missing_after + missing_before}

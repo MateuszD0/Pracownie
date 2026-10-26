@@ -99,7 +99,7 @@ def test_digest_puts_a_concrete_observation_before_long_pairs_without_losing_rec
     data = build_management(view)
     assert len(data['items']) == 4
     groups = digest_groups(data['items'])
-    assert {g['lead']['id'] for g in groups if g['overview']} == {'catalog', 'removed'}
+    assert {g['lead']['id'] for g in groups if g['overview']} == {'catalog'}
     soup = BeautifulSoup(render_html(view), 'html.parser')
     assert 'Zamów bezpłatny katalog' in soup.select_one('#business-highlights').text
     assert 'Mazowieckie' not in soup.select_one('#business-highlights').text
@@ -113,7 +113,8 @@ def test_digest_puts_a_concrete_observation_before_long_pairs_without_losing_rec
     primary, rest = docs['DASHBOARD.md'].split('<details><summary>Pozostałe różnice', 1)
     assert 'Zamów bezpłatny katalog' in primary and 'Mazowieckie' not in primary
     assert 'Mazowieckie' in rest and '900 px' in rest
-    assert 'nie dowodzi wycofania oferty' in primary
+    assert 'Weryfikacja oferty w serwisie nie została wykonana' in rest
+    assert 'Promocja do końca miesiąca' not in primary
     assert 'promocja się skończyła' not in primary.casefold()
 
 

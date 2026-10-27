@@ -20,6 +20,8 @@ def values(item: dict) -> list[str]:
 
 
 def supporting_reason(item: dict) -> str:
+    from .commercial import generic_offer_label
+
     texts = values(item)
     description = item.get('description', '')
     if item.get('supporting_reason'):
@@ -71,7 +73,8 @@ def supporting_reason(item: dict) -> str:
             return 'Różne fragmenty treści; nie ustalono, że dotyczą tego samego komunikatu.'
     verified = item.get('commercial_check', {}).get('status') in {
         'added', 'changed', 'scheduled', 'ended', 'probably_ended', 'other_offers', 'elsewhere'}
-    if item.get('unmatched') and item.get('communication_role') == 'text' and not verified:
+    generic_promotion = item['category'] == 'promocje' and texts and all(generic_offer_label(t) for t in texts)
+    if item.get('unmatched') and item.get('communication_role') == 'text' and not verified and not generic_promotion:
         return 'Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.'
     return ''
 

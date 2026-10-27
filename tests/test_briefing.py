@@ -74,7 +74,7 @@ def test_follow_up_summary_identifies_the_missing_offer_and_does_not_call_other_
 def test_bare_promotion_labels_are_reviewed_even_if_older_verification_said_added(text):
     view = management_view()
     base = view['journal'][0]
-    view['journal'] = [dict(base, before='brak', after=text,
+    view['journal'] = [dict(base, before='brak', after=text, unmatched=True, communication_role='text',
         commercial_check={'status': 'added', 'summary': 'Nowa promocja: ' + text, 'note': ''})]
     event = build_briefing(view)['events'][0]
     assert event['tier'] == 'review'

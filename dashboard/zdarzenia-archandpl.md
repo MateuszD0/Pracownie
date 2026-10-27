@@ -24,11 +24,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0f837bb9f9d2672f%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%E2%80%9D+%E2%86%92+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%23page3R_mcid12%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0f837bb9f9d2672f%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%E2%80%9D+%E2%86%92+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%23page3R_mcid12%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0f837bb9f9d2672f%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%E2%80%9D+%E2%86%92+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%23page3R_mcid12%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 33a15913ebd64e18
 
@@ -48,11 +52,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F33a15913ebd64e18%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A+%7Bprocent_stawki_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bprocent_stawki_numer_2%7D+z%C5%82+Koszty+w+sys%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EKoszty+w+systemie+zleconym+przez+firm%C4%99+budowlan%C4%85%2C+przy+minimalnej+cenie+materia%C5%82%C3%B3w+i+robocizny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F33a15913ebd64e18%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A+%7Bprocent_stawki_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bprocent_stawki_numer_2%7D+z%C5%82+Koszty+w+sys%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EKoszty+w+systemie+zleconym+przez+firm%C4%99+budowlan%C4%85%2C+przy+minimalnej+cenie+materia%C5%82%C3%B3w+i+robocizny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F33a15913ebd64e18%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estan+surowy+zamkni%C4%99ty+%3A+%7Bprocent_stawki_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bprocent_stawki_numer_2%7D+z%C5%82+Koszty+w+sys%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EKoszty+w+systemie+zleconym+przez+firm%C4%99+budowlan%C4%85%2C+przy+minimalnej+cenie+materia%C5%82%C3%B3w+i+robocizny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie f6de493cc9e45c41
 
@@ -72,9 +80,13 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-26-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-26-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Ff6de493cc9e45c41%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A+%7Bstawka_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Ff6de493cc9e45c41%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A+%7Bstawka_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Ff6de493cc9e45c41%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archand.pl%0AZdarzenie%3A+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A+%7Bstawka_numer_1%7D+z%C5%82+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Estawka+stan+surowy+zamkni%C4%99ty+%3A%7Bstawka_numer_1%7D+stan+wyko%C5%84czony%3A+%7Bstawka_numer_2%7D%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.archand.pl%2Fprojekty%2Fperfetto-3-modern%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

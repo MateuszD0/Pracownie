@@ -19,11 +19,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-10-27 | Pojawił się komunikat: „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-27 | „Koszt budowy domu 100 m² w 2026: stan surowy i deweloperski” → „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-27 | „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć” → „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-10-27 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „Promocja kończy się: 29.10.2026” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyka.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
 | pro-arte.pl · 2026-10-27 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
 | mtmstyl.com.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |

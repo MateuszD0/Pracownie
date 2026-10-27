@@ -24,11 +24,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0755c0b4eb1c7fde%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0755c0b4eb1c7fde%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F0755c0b4eb1c7fde%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 36d5e578e6c56abb
 
@@ -48,11 +52,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F36d5e578e6c56abb%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECENA+PROMOCYJNA+PAKIETU+PRO%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F36d5e578e6c56abb%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECENA+PROMOCYJNA+PAKIETU+PRO%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F36d5e578e6c56abb%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECENA+PROMOCYJNA+PAKIETU+PRO%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 3d591f8c018538ba
 
@@ -72,11 +80,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F3d591f8c018538ba%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EDo+ko%C5%84ca+promocji+zosta%C5%82o%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F3d591f8c018538ba%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EDo+ko%C5%84ca+promocji+zosta%C5%82o%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F3d591f8c018538ba%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EDo+ko%C5%84ca+promocji+zosta%C5%82o%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 56d0633eec57b700
 
@@ -96,11 +108,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F56d0633eec57b700%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+DO+PONIEDZIA%C5%81KU%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F56d0633eec57b700%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+DO+PONIEDZIA%C5%81KU%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F56d0633eec57b700%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+DO+PONIEDZIA%C5%81KU%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie bea72ce6f50bf90d
 
@@ -120,11 +136,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fbea72ce6f50bf90d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPo+promocji+cena+wraca+do+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fbea72ce6f50bf90d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPo+promocji+cena+wraca+do+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fbea72ce6f50bf90d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPo+promocji+cena+wraca+do+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie c4e727211cff98d0
 
@@ -144,11 +164,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fc4e727211cff98d0%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+NA+PAKIET+PRO%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fc4e727211cff98d0%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+NA+PAKIET+PRO%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fc4e727211cff98d0%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPROMOCJA+NA+PAKIET+PRO%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 110ec511db82704f
 
@@ -168,11 +192,15 @@ Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F110ec511db82704f%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EKUP+PAKIET+%E2%80%93+333+Z%C5%81%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F110ec511db82704f%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EKUP+PAKIET+%E2%80%93+333+Z%C5%81%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F110ec511db82704f%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EKUP+PAKIET+%E2%80%93+333+Z%C5%81%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 4344651abce9fde9
 
@@ -192,11 +220,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4344651abce9fde9%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDwa+projekty%2C+dwie+technologie%2C+instrukcje+budowy+i+dodatkowe+materia%C5%82y+w+jednym+pakiecie.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4344651abce9fde9%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDwa+projekty%2C+dwie+technologie%2C+instrukcje+budowy+i+dodatkowe+materia%C5%82y+w+jednym+pakiecie.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4344651abce9fde9%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDwa+projekty%2C+dwie+technologie%2C+instrukcje+budowy+i+dodatkowe+materia%C5%82y+w+jednym+pakiecie.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 625fb78d8d93bc07
 
@@ -216,11 +248,15 @@ Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-12-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F625fb78d8d93bc07%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+pakietu+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F625fb78d8d93bc07%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+pakietu+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F625fb78d8d93bc07%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ENajni%C5%BCsza+cena+pakietu+z+30+dni+przed+obni%C5%BCk%C4%85%3A+499+z%C5%82.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPAKIET+PRO%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
 ## Zdarzenie 7c7220ee7045bb3c
 
@@ -240,9 +276,13 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 26.10.2026 08:05 | Po · 27.10.2026 08:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F7c7220ee7045bb3c%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECena+pakietu%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F7c7220ee7045bb3c%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECena+pakietu%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F7c7220ee7045bb3c%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+zbudujsamdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9ECena+pakietu%3A%E2%80%9D.+Nie+uda%C5%82o+si%C4%99+zweryfikowa%C4%87+zmiany+oferty+w+serwisie.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

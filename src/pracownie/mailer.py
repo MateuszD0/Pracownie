@@ -88,10 +88,24 @@ def compose(day: str, document: str, readiness: dict, repo: str, report_url: str
         heading = next((h for h in soup.find_all(['h2', 'h3']) if title in h.get_text(' ', strip=True) or title == 'Zmiany oferty i komunikacji' and 'Najważniejsze różnice biznesowe' in h.get_text(' ', strip=True)), None)
         return heading.find_next('table') if heading else tables[legacy_index]
 
-    groups = [('Zmiany oferty i komunikacji', section_table('Zmiany oferty i komunikacji', 0), 6)]
+    def section_groups(title: str, legacy_index: int, limit: int):
+        from .relationships import LABELS
+
+        heading = next((h for h in soup.find_all('h2') if h.get_text(' ',strip=True) == title), None)
+        segments = []
+        if heading:
+            for h in heading.find_all_next(['h2','h3']):
+                if h.name == 'h2':
+                    break
+                label = h.get_text(' ',strip=True)
+                if label in LABELS.values():
+                    segments.append((title+' · '+label,h.find_next('table'),limit))
+        return segments or [(title,section_table(title,legacy_index),limit)]
+
+    groups = section_groups('Zmiany oferty i komunikacji',0,6)
     review_heading = next((h for h in soup.find_all(['h2', 'h3']) if h.get_text(' ', strip=True) == 'Ważne do sprawdzenia'), None)
     if review_heading:
-        groups.append(('Ważne do sprawdzenia', review_heading.find_next('table'), 10))
+        groups += section_groups('Ważne do sprawdzenia',0,10)
     elif len(tables) >= 3:
         groups.append(('Grafika i wygląd — wybrane obserwacje', section_table('Grafika i wygląd', 1), 3))
     for heading, table, limit in groups:

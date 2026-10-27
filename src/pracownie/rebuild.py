@@ -183,6 +183,7 @@ def main():
     parser.add_argument("--namespace", default="monitor")
     parser.add_argument("--root", type=Path, default=Path(".monitor/report-rebuild"))
     parser.add_argument("--publish", action="store_true")
+    parser.add_argument('--include-new-sites', action='store_true', help='Dodaj skonfigurowane nowe pracownie z jawnym statusem oczekiwania na pierwszy skan')
     args = parser.parse_args()
     remote = GitHubStore(args.repository, os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN", ""), args.namespace)
     store = StateStore(args.root / "state")
@@ -203,6 +204,10 @@ def main():
             sites = load_sites(Path("config/sites.json"))
             configured = {site.domain for site in sites}
             domains = [domain for domain in archived_domains if domain in configured]
+            additions = sorted(configured - set(archived_domains)) if args.include_new_sites else []
+            if additions and args.namespace != 'monitor':
+                raise ValueError('Nowe domeny można dopisać w tym trybie tylko do pełnego monitoringu')
+            domains += additions
             if not domains:
                 raise ValueError("Brak skonfigurowanych domen w raporcie; nie opublikowano pustego zakresu")
             active = set(domains)
@@ -213,7 +218,14 @@ def main():
                     continue
                 raw["changes"] = [Change(**change) for change in raw["changes"]]
                 results.append(Result(**raw))
+            for site in sites:
+                if site.domain in additions:
+                    for page, url in [('glowna',site.home_url),('projekt',site.project_url or site.home_url)]:
+                        results.append(Result(site.domain,page,'podstawowy','unavailable',url,
+                                              error='Nowa pracownia — pierwszy skan jeszcze niewykonany.'))
             metadata = data["metadata"]
+            if additions:
+                metadata['new_domains'] = additions
             metadata["domains"] = len(domains)
             for key in ("reused_domains", "repair_domains"):
                 if key in metadata:

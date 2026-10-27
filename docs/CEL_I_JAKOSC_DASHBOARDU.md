@@ -1,6 +1,6 @@
 # Cel i zasady dziennego dashboardu
 
-Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej skonfigurowanej pracowni (obecnie 66). Ceny są dodatkiem. W głównej tabeli mają być krótki opis obserwacji, miejsce i link do porównania; pełne wartości przed/po oraz dostępne dowody pozostają w szczegółach. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
+Dashboard służy do przeglądu zmian komunikacji konkurencji: strona główna i ten sam zapamiętany projekt każdej skonfigurowanej pracowni (obecnie 112 serwisów). Ceny są dodatkiem. W głównej tabeli mają być krótki opis obserwacji, miejsce i link do porównania; pełne wartości przed/po oraz dostępne dowody pozostają w szczegółach. Nie należy utożsamiać liczby różnic DOM z liczbą zmian biznesowych.
 
 ## Co pokazujemy
 
@@ -79,3 +79,11 @@ Wcześniejsze zasoby tego samego dnia nie są już kasowane przy korekcie. Reten
 Termin i status poczty są niezależne od jakości odczytu. Brak konfiguracji nie jest wysłaniem; odpowiedź SMTP nie jest potwierdzeniem obecności w skrzynce odbiorcy. Po wysyłce status dashboardu jest aktualizowany z trwałego potwierdzenia. Włączenie publicznego adresu WWW wymaga uprawnienia do GitHub Pages; wysyłka wymaga sekretów opisanych w EMAIL.md.
 
 Do odbioru operacyjnego nadal potrzebne są: tydzień pomiaru terminowości i przeoczeń, ręczny odbiór zakresu interakcji per pracownia i naprawy trwałych blokad. Testy nie zastępują tych pomiarów.
+
+## Współpraca — 27.10.2026
+
+Pełną listę współpracujących wskazał użytkownik w arkuszu „Pracownie URL Ewa”. W rejestrze jest 98 partnerów: 80 z domeną i 18 bez stron WWW. Dla 33 domen istniały już adaptery, dodano pozostałe 47; 32 dotychczasowe serwisy oznaczono jako niewspółpracujące. Skan obejmuje 112 serwisów, po dwie podstawowe strony. Extradom pozostaje wykluczony.
+
+Podział jest utrwalany w metadanych wydania, aby późniejsza zmiana współpracy nie zmieniła historycznego raportu. W Markdown obie grupy mają osobne tabele i nagłówki list. W pełnym i przenośnym HTML wspólny filtr wpływa na zmiany, dowody, kompletność i eksport. Na start widocznych jest do pięciu zdarzeń w każdej grupie. Nazwa i kod z rejestru są dostępne w wyszukiwaniu.
+
+Firmy bez WWW są w osobnym wykazie; nie są błędami odczytu i nie zwiększają oczekiwanej liczby stron. Nowe domeny mogą zostać dopisane do bieżącego raportu z jawnym statusem oczekiwania na pierwszy skan, przez `--include-new-sites`. Pierwszy poprawny odczyt ustanawia bazę; pełne porównanie dzień do dnia wymaga kolejnego poprawnego zapisu. Nie wybieramy ponownie kart już zamrożonych dla dotychczasowych pracowni.

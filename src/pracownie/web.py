@@ -30,10 +30,10 @@ def export_standalone(document: Path, destination: Path, downloads: dict | None 
         soup.select_one('#title').string = 'Porównanie skanów · ' + dates.get_text()
     soup.body['data-portable'] = 'true'
     full = json.loads(soup.select_one('#data').string)
-    compact = {'rows': [{'domain': r['domain'], 'name': r['name'],
+    compact = {'rows': [{'domain': r['domain'], 'name': r['name'], 'relationship':r.get('relationship','all'), 'studio_name':r.get('studio_name',''), 'partner_code':r.get('partner_code',''),
                         'complete': len(r['pages']) == 2 and all(p['communication'].get('daily') for p in r['pages']),
-                        'missing': any(not p['current_read'] for p in r['pages'])} for r in full['rows']],
-               'events': [{'id': e['id'], 'domain': e['domain'], 'tier': e['tier'],
+                        'missing': any(not p['current_read'] for p in r['pages']), 'pending':r.get('scan_pending',False)} for r in full['rows']],
+               'events': [{'id': e['id'], 'domain': e['domain'], 'tier': e['tier'], 'group':e.get('group','all'),
                            'items': [{'page': i['page'], 'category': i['category'], 'bucket': i['business_bucket']} for i in e['items']]}
                           for e in full['briefing']['events'] if e['tier'] != 'technical']}
     for node in soup.select('script, dialog, #technical-summary, #all-prices, #export-visible, [data-watch], [data-open]'):
@@ -45,7 +45,7 @@ def export_standalone(document: Path, destination: Path, downloads: dict | None 
     payload.string = json.dumps(compact, ensure_ascii=False).replace('<', '\\u003c')
     soup.body.append(payload)
     script = soup.new_tag('script')
-    script.string = files('pracownie').joinpath('portable.js').read_text()
+    script.string = files('pracownie').joinpath('relationship_groups.js').read_text() + '\n' + files('pracownie').joinpath('portable.js').read_text()
     soup.body.append(script)
     status = soup.new_tag('p', id='portable-status', attrs={'class': 'small', 'role': 'status'})
     soup.select_one('.quick-filters').insert_after(status)

@@ -132,6 +132,11 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     directory.mkdir(parents=True, exist_ok=True)
     from .images import compact_evidence
     from .readiness import base_readiness
+    from .relationships import relationship_snapshot
+
+    relationships = relationship_snapshot(domains)
+    if relationships:
+        metadata['relationships'] = relationships
 
     metadata["image_compression"] = compact_evidence(staging, day, results)
     metadata["evidence_bytes"] = sum(p.stat().st_size for p in directory.rglob("*") if p.suffix in {".png", ".webp"})

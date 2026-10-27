@@ -13,8 +13,8 @@ from pracownie.report import bundle_report, resume_data, verify_outputs, write_o
 from pracownie.state import StateStore
 
 
-@pytest.mark.parametrize('keep_existing', [True, False])
-def test_registry_removal_updates_publication_preserves_history_and_allows_resume(tmp_path, monkeypatch, keep_existing):
+@pytest.mark.parametrize(('keep_existing','include_new'), [(True,False),(False,False),(True,True)])
+def test_registry_removal_updates_publication_preserves_history_and_allows_resume(tmp_path, monkeypatch, keep_existing, include_new):
     day = '2026-10-27'
     fake = FakeGitHub()
     def respond(request):
@@ -44,9 +44,12 @@ def test_registry_removal_updates_publication_preserves_history_and_allows_resum
     config = tmp_path/'config'
     config.mkdir()
     domain = 'test.pl' if keep_existing else 'new.pl'
-    (config/'sites.json').write_bytes(json_bytes({'schema':1, 'sites':[{'domain':domain,'home_url':f'https://{domain}'}]}))
+    configured = [{'domain':domain,'home_url':f'https://{domain}'}]
+    if include_new:
+        configured.append({'domain':'new.pl','home_url':'https://new.pl'})
+    (config/'sites.json').write_bytes(json_bytes({'schema':1, 'sites':configured}))
     monkeypatch.chdir(tmp_path)
-    monkeypatch.setattr(sys, 'argv', ['rebuild', '--repository','test/monitor','--root',str(tmp_path/'rebuilt'),'--publish'])
+    monkeypatch.setattr(sys, 'argv', ['rebuild', '--repository','test/monitor','--root',str(tmp_path/'rebuilt'),'--publish'] + (['--include-new-sites'] if include_new else []))
     monkeypatch.setattr(rebuild, 'GitHubStore', lambda *a, **kw: remote)
     monkeypatch.setattr(remote, 'close', lambda: None)
     if not keep_existing:
@@ -57,14 +60,22 @@ def test_registry_removal_updates_publication_preserves_history_and_allows_resum
     rebuild.main()
     reports = tmp_path/'rebuilt/raporty'
     raw = json.loads((reports/day/'zmiany.json').read_text())
-    assert raw['results'] == json.loads((output/day/'zmiany.json').read_text())['results'][:2]
-    assert list(json.loads((reports/day/'pokrycie.json').read_text())) == ['test.pl']
+    assert [r for r in raw['results'] if r['domain']=='test.pl'] == json.loads((output/day/'zmiany.json').read_text())['results'][:2]
+    expected = ['new.pl','test.pl'] if include_new else ['test.pl']
+    assert sorted(json.loads((reports/day/'pokrycie.json').read_text())) == expected
     assert list(json.loads((reports/day/'wybrane-projekty.json').read_text())) == ['test.pl']
-    assert raw['metadata']['domains'] == 1 and raw['metadata']['readiness']['expected'] == 2
+    assert raw['metadata']['domains'] == len(expected) and raw['metadata']['readiness']['expected'] == len(expected)*2
+    if include_new:
+        pending = [r for r in raw['results'] if r['domain']=='new.pl']
+        assert len(pending) == 2 and all(not r['observed_at'] and r['status']=='unavailable' for r in pending)
+        assert raw['metadata']['new_domains'] == ['new.pl']
     assert not (reports/day/slug('extradom.pl')).exists()
     verify_outputs(reports, day)
-    resume_data(reports, day, [Site('test.pl','https://test.pl')], store.read(), ['test.pl'])
+    resume_data(reports, day, [Site(d,f'https://{d}') for d in expected], store.read(), ['test.pl'])
     dashboard = json.loads((reports/day/'oferty.json').read_text())
-    assert [row['domain'] for row in dashboard['rows']] == ['test.pl']
+    assert sorted(row['domain'] for row in dashboard['rows']) == expected
+    if include_new:
+        new = next(r for r in dashboard['rows'] if r['domain']=='new.pl')
+        assert new['scan_pending'] and all(p['communication']['label']=='Oczekuje na pierwszy skan' for p in new['pages'])
     assert fake.contents[before['report_files']['zip']] == original_archive
     assert 'extradom.pl' in StateStore(tmp_path/'rebuilt/state').read()['selections']

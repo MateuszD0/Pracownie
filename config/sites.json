@@ -41,6 +41,45 @@
       ]
     },
     {
+      "domain": "3ddom.pl",
+      "home_url": "https://3ddom.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://3ddom.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "agrobisp.pl",
+      "home_url": "http://www.agrobisp.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.agrobisp.pl/cgi-bin/store",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "http://www.agrobisp.pl/cgi-bin/store"
+      ]
+    },
+    {
+      "domain": "ajrstudio.pl",
+      "home_url": "http://www.ajrstudio.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.ajrstudio.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "alexanderstudio.pl",
       "home_url": "https://alexanderstudio.pl",
       "project_url": "https://alexanderstudio.pl/produkt/carmen-magdalena-a/",
@@ -110,6 +149,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "archbb.pl",
+      "home_url": "http://archbb.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://archbb.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "archdesign.pl",
@@ -324,6 +375,30 @@
       ]
     },
     {
+      "domain": "archiportal.pl",
+      "home_url": "http://www.archiportal.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.archiportal.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "architeka.pl",
+      "home_url": "http://www.architeka.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.architeka.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "archstodola.pl",
       "home_url": "https://archstodola.pl",
       "project_url": "https://archstodola.pl/stodola-chalet-p-14.html",
@@ -344,6 +419,45 @@
         "browser_verified_at": "2026-10-19T19:34:04.609468+00:00"
       },
       "project_name": "STODOŁA CHALET"
+    },
+    {
+      "domain": "artinex-projekt.pl",
+      "home_url": "http://www.artinex-projekt.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.artinex-projekt.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "birylo.pl",
+      "home_url": "http://birylo.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://birylo.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "coolhouses.studio",
+      "home_url": "https://coolhouses.studio/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://coolhouses.studio/projekty/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "https://coolhouses.studio/projekty/"
+      ]
     },
     {
       "domain": "dobredomy.pl",
@@ -422,6 +536,18 @@
       ]
     },
     {
+      "domain": "domato.pl",
+      "home_url": "https://www.domato.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.domato.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "domdlaciebie.com.pl",
       "home_url": "https://domdlaciebie.com.pl",
       "project_url": null,
@@ -451,6 +577,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "domek.net.pl",
+      "home_url": "http://www.domek.net.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.domek.net.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "domenadom.pl",
@@ -485,6 +623,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "domideaprojekt.pl",
+      "home_url": "https://domideaprojekt.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://domideaprojekt.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "dominanta.pl",
@@ -616,6 +766,42 @@
       "project_name": "House X21"
     },
     {
+      "domain": "domtodom.pl",
+      "home_url": "http://domtodom.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://domtodom.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "domy21.pl",
+      "home_url": "https://domy21.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://domy21.pl/kontakt/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "domyciekawe.pl",
+      "home_url": "http://domyciekawe.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://domyciekawe.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "domydlanas.pl",
       "home_url": "https://domydlanas.pl",
       "user_agent": "PracownieMonitor/1.0 (+https://github.com/MateuszD0/Pracownie)",
@@ -641,6 +827,18 @@
         "http_verified_at": "2026-10-23"
       },
       "project_name": "N55-G2"
+    },
+    {
+      "domain": "domyigaraze.pl",
+      "home_url": "http://www.domyigaraze.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.domyigaraze.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "domywstylu.pl",
@@ -677,6 +875,33 @@
       ]
     },
     {
+      "domain": "domywzieleni.pl",
+      "home_url": "http://domywzieleni.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://domywzieleni.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "domyzmieta.pl",
+      "home_url": "http://domyzmieta.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://domyzmieta.pl/projekty/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "http://domyzmieta.pl/projekty/"
+      ]
+    },
+    {
       "domain": "domyzweranda.pl",
       "home_url": "https://domyzweranda.pl",
       "project_url": "https://domyzweranda.pl/projekty/uroczy-klasyczny-82",
@@ -697,6 +922,21 @@
         "browser_verified_at": "2026-10-19T19:36:52.994780+00:00"
       },
       "project_name": "Uroczy Klasyczny 82"
+    },
+    {
+      "domain": "drewnex.biz",
+      "home_url": "https://www.drewnex.biz/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.drewnex.biz/kategoria-produktu/domy-drewniane-caloroczne/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "https://www.drewnex.biz/kategoria-produktu/domy-drewniane-caloroczne/"
+      ]
     },
     {
       "domain": "e-domy.pl",
@@ -732,6 +972,18 @@
       ]
     },
     {
+      "domain": "ecodomy.pl",
+      "home_url": "http://www.ecodomy.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.ecodomy.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "eg-domy.pl",
       "home_url": "https://eg-domy.pl",
       "project_url": "https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/",
@@ -754,6 +1006,42 @@
       "project_name": "WYSZUKANY D64 wariant II"
     },
     {
+      "domain": "ekoarchitekci.pl",
+      "home_url": "http://ekoarchitekci.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://ekoarchitekci.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "faberarchitektura.com",
+      "home_url": "https://faberarchitektura.com/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://faberarchitektura.com/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "fortecaklimatyczna.pl",
+      "home_url": "https://www.fortecaklimatyczna.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.fortecaklimatyczna.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "galeriadomow.pl",
       "home_url": "https://galeriadomow.pl",
       "project_url": "https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html",
@@ -774,6 +1062,21 @@
         "browser_verified_at": "2026-10-19T19:38:58.212828+00:00"
       },
       "project_name": "Projekt domu - Dom przy Bukowej 14"
+    },
+    {
+      "domain": "gutarchitektura.pl",
+      "home_url": "https://www.gutarchitektura.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.gutarchitektura.pl/projekty/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "https://www.gutarchitektura.pl/projekty/"
+      ]
     },
     {
       "domain": "hbstudio.pl",
@@ -831,6 +1134,42 @@
       ]
     },
     {
+      "domain": "hgatelier.com.pl",
+      "home_url": "http://www.hgatelier.com.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.hgatelier.com.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "homekoncept.pl",
+      "home_url": "http://www.homekoncept.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.homekoncept.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "horyzont.com",
+      "home_url": "http://www.horyzont.com/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.horyzont.com/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "housecollection.pl",
       "home_url": "https://housecollection.pl",
       "project_url": "https://housecollection.pl/strona-glowna/dom-w-toskanii",
@@ -869,6 +1208,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "improjekty.pl",
+      "home_url": "http://www.improjekty.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.improjekty.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "kbprojekt.pl",
@@ -939,6 +1290,21 @@
       ]
     },
     {
+      "domain": "kowalscypracownia.pl",
+      "home_url": "https://kowalscypracownia.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://kowalscypracownia.pl/gotowe-projekty-domow/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "discovery_links": [
+        "https://kowalscypracownia.pl/gotowe-projekty-domow/"
+      ]
+    },
+    {
       "domain": "kreatywnedomy.pl",
       "home_url": "https://kreatywnedomy.pl",
       "project_url": "https://kreatywnedomy.pl/projekt/kd_2402m/",
@@ -1005,6 +1371,18 @@
       ]
     },
     {
+      "domain": "kupprojekt.pl",
+      "home_url": "http://www.kupprojekt.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.kupprojekt.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "lipinscy.pl",
       "home_url": "https://lipinscy.pl",
       "project_url": "https://lipinscy.pl/projekt/annecy/",
@@ -1057,6 +1435,18 @@
       }
     },
     {
+      "domain": "machonarchitekci.pl",
+      "home_url": "https://machonarchitekci.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://machonarchitekci.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "mgprojekt.com.pl",
       "home_url": "https://www.mgprojekt.com.pl/",
       "project_url": null,
@@ -1074,6 +1464,30 @@
         "http_status": 403
       },
       "browser_headed": true
+    },
+    {
+      "domain": "mjs-domy.pl",
+      "home_url": "https://www.mjs-domy.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.mjs-domy.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "modernhouse-projekty.pl",
+      "home_url": "https://www.modernhouse-projekty.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.modernhouse-projekty.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "moj-dom-projekty.pl",
@@ -1150,6 +1564,18 @@
       "project_name": "DOM MOD 1"
     },
     {
+      "domain": "nanostudio.pl",
+      "home_url": "http://www.nanostudio.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.nanostudio.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "nowoczesne-projektydomow.pl",
       "home_url": "http://www.nowoczesne-projektydomow.pl",
       "project_url": "http://www.nowoczesne-projektydomow.pl/projekty,10,0,223",
@@ -1184,6 +1610,42 @@
       ]
     },
     {
+      "domain": "opprojekt.com.pl",
+      "home_url": "https://opprojekt.com.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://opprojekt.com.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "opusdom.pl",
+      "home_url": "http://www.opusdom.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.opusdom.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "opushome.pl",
+      "home_url": "https://www.opushome.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.opushome.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "ototwojdom.pl",
       "home_url": "https://ototwojdom.pl",
       "project_url": "https://ototwojdom.pl/oto70pietrowy-wariant-schody-korytarz/",
@@ -1215,6 +1677,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "partero.pl",
+      "home_url": "https://www.partero.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.partero.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "penthus.pl",
@@ -1384,6 +1858,18 @@
       ]
     },
     {
+      "domain": "pracowniaprojektowa.info",
+      "home_url": "https://www.pracowniaprojektowa.info/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.pracowniaprojektowa.info/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "praktyczneprojekty.pl",
       "home_url": "https://praktyczneprojekty.pl",
       "project_url": "https://praktyczneprojekty.pl/b11___75m2lok.html",
@@ -1541,6 +2027,18 @@
       "project_name": "Projekt Dwie Stodoły"
     },
     {
+      "domain": "projekty.nordarchitekci.pl",
+      "home_url": "https://projekty.nordarchitekci.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://projekty.nordarchitekci.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "projektydomow.redcart.pl",
       "home_url": "https://projektydomow.redcart.pl",
       "project_url": "https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html",
@@ -1561,6 +2059,18 @@
         "browser_verified_at": "2026-10-19T19:49:53.251983+00:00"
       },
       "project_name": "Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2"
+    },
+    {
+      "domain": "projektydomowzbali.pl",
+      "home_url": "https://www.projektydomowzbali.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.projektydomowzbali.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "projektygebala.com",
@@ -1616,6 +2126,30 @@
           "primary": true
         }
       ]
+    },
+    {
+      "domain": "projektymalachit.pl",
+      "home_url": "http://www.projektymalachit.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.projektymalachit.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
+      "domain": "projektyprestige.pl",
+      "home_url": "http://www.projektyprestige.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.projektyprestige.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "projektyszkieletowe.pl",
@@ -1760,6 +2294,18 @@
       ]
     },
     {
+      "domain": "space4u.design",
+      "home_url": "https://www.space4u.design/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.space4u.design/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "sprytnaoaza.pl",
       "home_url": "https://sprytnaoaza.pl",
       "project_url": "https://sprytnaoaza.pl/products/projekt-sprytna-oaza",
@@ -1780,6 +2326,18 @@
         "http_verified_at": "2026-10-19"
       },
       "project_name": "Sprytna Oaza"
+    },
+    {
+      "domain": "studioarchitektury.com.pl",
+      "home_url": "http://www.studioarchitektury.com.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "http://www.studioarchitektury.com.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "studioatrium.pl",
@@ -1864,6 +2422,18 @@
       "project_name": "Projekt domu AR-22 P"
     },
     {
+      "domain": "tipitom.space",
+      "home_url": "https://www.tipitom.space/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.tipitom.space/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
+    },
+    {
       "domain": "uarchitekta.pl",
       "home_url": "https://uarchitekta.pl",
       "project_url": "https://www.uarchitekta.pl/projekt/uA441,6969",
@@ -1895,6 +2465,18 @@
           "optional": true
         }
       ]
+    },
+    {
+      "domain": "witekarchitekci.pl",
+      "home_url": "https://www.witekarchitekci.pl/",
+      "inspection": "pending",
+      "masks": [
+        ".grecaptcha-badge"
+      ],
+      "selection": {
+        "source": "https://www.witekarchitekci.pl/",
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      }
     },
     {
       "domain": "zbudujsamdom.pl",
@@ -1929,5 +2511,8 @@
         }
       ]
     }
+  ],
+  "excluded_domains": [
+    "extradom.pl"
   ]
 }

@@ -90,8 +90,12 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                 content += markdown_event(event, previews)
             digest_documents[path] = '\n'.join(content) + '\n'
 
+    pending = len(briefing['pending_domains'])
+    gap_status = f"**{len(briefing['gaps'])} wymaga uwagi.**"
+    if pending:
+        gap_status = f"**{pending} oczekuje na pierwszy skan.** · **Pozostałe braki: {len(briefing['gaps'])-pending}.**"
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
-             f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.** · **{len(briefing['gaps'])} wymaga uwagi.**", '',
+             f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.** · " + gap_status, '',
              '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '']
     if observed:
         lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski. Późniejsze uzupełnienia nie są porannym skanem.", '']
@@ -99,6 +103,9 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     if downloads.get('web'):
         lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']
     lines += markdown_briefing(view, briefing, event_targets, digest_documents, folder, filename)
+    from .relationships import LABELS as RELATIONSHIP_LABELS
+    from .relationships import group_for, registry_markdown
+    lines += registry_markdown(view)
     intelligence = view.get('metadata', {}).get('intelligence', {})
     for kind, title, entries in [('oferty', 'Komunikaty ofert w ostatnim odczycie', intelligence.get('offers', [])), ('historia', 'Historia zdarzeń', intelligence.get('history', []))]:
         paths = []
@@ -142,9 +149,15 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
         lines += ['| Brak dodatkowych różnic obrazu w porównaniu dzień do dnia. | | |']
     lines += ['', '</details>', '']
     lines += ['', '## Wszystkie pracownie', '', 'Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalonej zmiany” dotyczy wyłącznie zapisanego zakresu.', '', '<details><summary>Rozwiń listę wszystkich pracowni i kompletność odczytów</summary>', '', '| Pracownia | Strona główna | Stała karta projektu |', '| --- | --- | --- |']
-    ordered = sorted(view['rows'], key=lambda row: (not domains[row['domain']], row['domain']))
+    ordered = sorted(view['rows'], key=lambda row: (row.get('relationship','') != 'partner', not domains[row['domain']], row['domain']))
     documents = digest_documents
+    previous_group = None
     for row in ordered:
+        group = group_for(view, row['domain'])
+        if group != 'all' and group != previous_group:
+            count = sum(group_for(view,r['domain']) == group for r in view['rows'])
+            lines += ['| **' + RELATIONSHIP_LABELS[group] + '** · ' + str(count) + ' serwisów | | |']
+        previous_group = group
         items = domains[row['domain']]
         labels = []
         for page in row['pages']:
@@ -155,7 +168,8 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             if not page.get('current_read') and page.get('error_text'):
                 label += ' · ' + page['error_text']
             labels += [cell(label + (' · obraz do obejrzenia' if review else ''))]
-        lines += [f"| [{cell(row['domain'])}]({folder}/{names[row['domain']]}.md) | " + ' | '.join(labels) + ' |']
+        code = ' · **' + cell(row['partner_code']) + '**' if row.get('partner_code') else ''
+        lines += [f"| [{cell(row['domain'])}]({folder}/{names[row['domain']]}.md)" + code + ' | ' + ' | '.join(labels) + ' |']
         chunks = [items[i:i + 25] for i in range(0, len(items), 25)] or [[]]
         paths = [folder + '/' + names[row['domain']] + (f'-{i + 1}' if i else '') + '.md' for i in range(len(chunks))]
         for index, chunk in enumerate(chunks):

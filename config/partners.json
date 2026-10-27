@@ -1,0 +1,699 @@
+{
+  "schema": 1,
+  "source": {
+    "filename": "Pracownie URL Ewa-2026-10-27-13-22-52.xlsx",
+    "sheet": "Pracownie URL Ewa",
+    "as_of": "2026-10-27",
+    "complete": true,
+    "no_website_confirmed": true,
+    "sha256": "ee03b76137f25279e80ae956f714a1c5348829e179af0402942193071b925278"
+  },
+  "partners": [
+    {
+      "code": "LBA",
+      "name": "Ce-Bud Projekt",
+      "source_row": 2,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "WCB",
+      "name": "uArchitekta",
+      "source_row": 3,
+      "domain": "uarchitekta.pl",
+      "website": "http://www.uarchitekta.pl/"
+    },
+    {
+      "code": "KZB",
+      "name": "Domato",
+      "source_row": 4,
+      "domain": "domato.pl",
+      "website": "https://www.domato.pl/"
+    },
+    {
+      "code": "PKT",
+      "name": "Projektyka",
+      "source_row": 5,
+      "domain": "projektyka.pl",
+      "website": "https://www.projektyka.pl/"
+    },
+    {
+      "code": "PKA",
+      "name": "W23 Architekci",
+      "source_row": 6,
+      "domain": "domyigaraze.pl",
+      "website": "http://www.domyigaraze.pl/"
+    },
+    {
+      "code": "WRR",
+      "name": "Alexanderstudio.pl",
+      "source_row": 7,
+      "domain": "alexanderstudio.pl",
+      "website": "https://www.alexanderstudio.pl/"
+    },
+    {
+      "code": "KCD",
+      "name": "DomStudio",
+      "source_row": 8,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "ELW",
+      "name": "Sej-pro",
+      "source_row": 9,
+      "domain": "sej-pro.pl",
+      "website": "https://www.sej-pro.pl/"
+    },
+    {
+      "code": "GDE",
+      "name": "TIPITOM",
+      "source_row": 10,
+      "domain": "tipitom.space",
+      "website": "https://www.tipitom.space/"
+    },
+    {
+      "code": "GDF",
+      "name": "Aringa",
+      "source_row": 11,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "LUB",
+      "name": "Kowalscy pracownia sp. z o.o.",
+      "source_row": 12,
+      "domain": "kowalscypracownia.pl",
+      "website": "https://kowalscypracownia.pl/gotowe-projekty-domow/"
+    },
+    {
+      "code": "SLT",
+      "name": "Attyka Piotr Kędzierski",
+      "source_row": 13,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "ZGD",
+      "name": "Biryło Architekci",
+      "source_row": 14,
+      "domain": "birylo.pl",
+      "website": "http://birylo.pl/"
+    },
+    {
+      "code": "WBD",
+      "name": "MJS Studio",
+      "source_row": 15,
+      "domain": "mjs-domy.pl",
+      "website": "https://www.mjs-domy.pl/"
+    },
+    {
+      "code": "SLU",
+      "name": "AVO PROJEKTY DOMÓW Arkadiusz Woch SLU",
+      "source_row": 16,
+      "domain": "projektydomowzbali.pl",
+      "website": "https://www.projektydomowzbali.pl/"
+    },
+    {
+      "code": "BYA",
+      "name": "ARCH.LS",
+      "source_row": 17,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "WBE",
+      "name": "Architeka Katarzyna Kałaska",
+      "source_row": 18,
+      "domain": "architeka.pl",
+      "website": "http://www.architeka.pl/"
+    },
+    {
+      "code": "WWC",
+      "name": "BK dom Bartosz Kuzak",
+      "source_row": 19,
+      "domain": "pracowniaprojektowa.info",
+      "website": "https://www.pracowniaprojektowa.info/"
+    },
+    {
+      "code": "BSL",
+      "name": "Witek Architekci",
+      "source_row": 20,
+      "domain": "witekarchitekci.pl",
+      "website": "https://www.witekarchitekci.pl/"
+    },
+    {
+      "code": "LUZ",
+      "name": "WAJDA WAJDA ARCHITEKCI sp. z o.o.",
+      "source_row": 21,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "KZM",
+      "name": "Opus Sp. z o.o.",
+      "source_row": 22,
+      "domain": "opushome.pl",
+      "website": "https://www.opushome.pl/"
+    },
+    {
+      "code": "KZN",
+      "name": "Pracownia Pióro Architekci",
+      "source_row": 23,
+      "domain": "pioroarchitekci.pl",
+      "website": "https://www.pioroarchitekci.pl/"
+    },
+    {
+      "code": "BBI",
+      "name": "APlan Studio",
+      "source_row": 24,
+      "domain": "space4u.design",
+      "website": "https://www.space4u.design/"
+    },
+    {
+      "code": "KZO",
+      "name": "A1X",
+      "source_row": 25,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "CZE",
+      "name": "Dobry Projekt",
+      "source_row": 26,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "WBF",
+      "name": "3Ddom",
+      "source_row": 27,
+      "domain": "3ddom.pl",
+      "website": "https://3ddom.pl/"
+    },
+    {
+      "code": "ZGE",
+      "name": "PARTERO projekty domów",
+      "source_row": 28,
+      "domain": "partero.pl",
+      "website": "https://www.partero.pl/"
+    },
+    {
+      "code": "WSA",
+      "name": "Domy 21",
+      "source_row": 29,
+      "domain": "domy21.pl",
+      "website": "https://domy21.pl/kontakt/"
+    },
+    {
+      "code": "LOB",
+      "name": "Studio Wektor",
+      "source_row": 30,
+      "domain": "fortecaklimatyczna.pl",
+      "website": "https://www.fortecaklimatyczna.pl/"
+    },
+    {
+      "code": "KRY",
+      "name": "Biuro architektoniczne Stodoła Kamila Rusnak",
+      "source_row": 31,
+      "domain": "archstodola.pl",
+      "website": "https://archstodola.pl/"
+    },
+    {
+      "code": "BHC",
+      "name": "HOUSECOLLECTION sp. z o.o.",
+      "source_row": 32,
+      "domain": "housecollection.pl",
+      "website": "https://housecollection.pl/wszystkie-projekty-domow"
+    },
+    {
+      "code": "GDH",
+      "name": "NORD Architekci",
+      "source_row": 33,
+      "domain": "projekty.nordarchitekci.pl",
+      "website": "https://projekty.nordarchitekci.pl/"
+    },
+    {
+      "code": "KNT",
+      "name": "Gut Architektura",
+      "source_row": 34,
+      "domain": "gutarchitektura.pl",
+      "website": "https://www.gutarchitektura.pl/projekty/"
+    },
+    {
+      "code": "KDX",
+      "name": "Drewnex",
+      "source_row": 35,
+      "domain": "drewnex.biz",
+      "website": "https://www.drewnex.biz/kategoria-produktu/domy-drewniane-caloroczne/"
+    },
+    {
+      "code": "GDI",
+      "name": "Spektrum",
+      "source_row": 36,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "POZ",
+      "name": "Cool Houses",
+      "source_row": 37,
+      "domain": "coolhouses.studio",
+      "website": "https://coolhouses.studio/projekty/"
+    },
+    {
+      "code": "HUS",
+      "name": "Konfigurator",
+      "source_row": 38,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "JGD",
+      "name": "A2 Projekt Aldona Stanek",
+      "source_row": 39,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "BSI",
+      "name": "AIONI",
+      "source_row": 40,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "LKP",
+      "name": "Leszek Kalandyk LK&Projekt",
+      "source_row": 41,
+      "domain": "lk-projekt.pl",
+      "website": "http://www.lk-projekt.pl/"
+    },
+    {
+      "code": "SBM",
+      "name": "Machoń Architekci",
+      "source_row": 42,
+      "domain": "machonarchitekci.pl",
+      "website": "https://machonarchitekci.pl/"
+    },
+    {
+      "code": "TBO",
+      "name": "OPPROJEKT",
+      "source_row": 43,
+      "domain": "opprojekt.com.pl",
+      "website": "https://opprojekt.com.pl/"
+    },
+    {
+      "code": "LUC",
+      "name": "FABER ARCHITEKTURA Sp. z o.o.",
+      "source_row": 44,
+      "domain": "faberarchitektura.com",
+      "website": "https://faberarchitektura.com/"
+    },
+    {
+      "code": "DZW",
+      "name": "White Porch Spółka z o.o",
+      "source_row": 45,
+      "domain": "domyzweranda.pl",
+      "website": "https://www.domyzweranda.pl/"
+    },
+    {
+      "code": "FIA",
+      "name": "Formula Studio",
+      "source_row": 46,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "ABP",
+      "name": "PLANUJDOM",
+      "source_row": 47,
+      "domain": "planujdom.pl",
+      "website": "https://planujdom.pl"
+    },
+    {
+      "code": "OST",
+      "name": "STUDIO TRZY CZWARTE",
+      "source_row": 48,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "BSA",
+      "name": "Domy w Stylu",
+      "source_row": 49,
+      "domain": "domywstylu.pl",
+      "website": "http://www.domywstylu.pl/"
+    },
+    {
+      "code": "GDA",
+      "name": "Jota",
+      "source_row": 50,
+      "domain": "domyciekawe.pl",
+      "website": "http://domyciekawe.pl/"
+    },
+    {
+      "code": "KRA",
+      "name": "Agrobisp",
+      "source_row": 51,
+      "domain": "agrobisp.pl",
+      "website": "http://www.agrobisp.pl/cgi-bin/store"
+    },
+    {
+      "code": "KRD",
+      "name": "Archeton",
+      "source_row": 52,
+      "domain": "archeton.pl",
+      "website": "http://www.archeton.pl/"
+    },
+    {
+      "code": "KRG",
+      "name": "Studio Rutkowski",
+      "source_row": 53,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "LUA",
+      "name": "Archi-Projekt",
+      "source_row": 54,
+      "domain": "archi-projekt.com.pl",
+      "website": "http://www.archi-projekt.com.pl/"
+    },
+    {
+      "code": "WRD",
+      "name": "Horyzont Pracownia Projektowa",
+      "source_row": 55,
+      "domain": "horyzont.com",
+      "website": "http://www.horyzont.com/"
+    },
+    {
+      "code": "WRF",
+      "name": "Archeco Dom dla Ciebie",
+      "source_row": 56,
+      "domain": "domdlaciebie.com.pl",
+      "website": "http://www.domdlaciebie.com.pl/"
+    },
+    {
+      "code": "WRG",
+      "name": "Majchrzak Pracownia Projektowa sp. z o. o.",
+      "source_row": 57,
+      "domain": "dompp.pl",
+      "website": "http://dompp.pl/"
+    },
+    {
+      "code": "KRK",
+      "name": "GALERIADOMOW.PL",
+      "source_row": 58,
+      "domain": "galeriadomow.pl",
+      "website": "https://www.galeriadomow.pl/"
+    },
+    {
+      "code": "BSB",
+      "name": "DOMINANTA K.SUTUŁA, K.BURZYŃSKI, K.MARKIEWICZ s.j.",
+      "source_row": 59,
+      "domain": "dominanta.pl",
+      "website": "http://www.dominanta.pl/"
+    },
+    {
+      "code": "SLF",
+      "name": "Domek",
+      "source_row": 60,
+      "domain": "domek.net.pl",
+      "website": "http://www.domek.net.pl/"
+    },
+    {
+      "code": "WRL",
+      "name": "Lelo Design",
+      "source_row": 61,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "KRM",
+      "name": "Hg - Atelier",
+      "source_row": 62,
+      "domain": "hgatelier.com.pl",
+      "website": "http://www.hgatelier.com.pl/"
+    },
+    {
+      "code": "WRN",
+      "name": "Krajobrazy",
+      "source_row": 63,
+      "domain": "studiokrajobrazy.pl",
+      "website": "https://studiokrajobrazy.pl/"
+    },
+    {
+      "code": "WAH",
+      "name": "MG Projekt",
+      "source_row": 64,
+      "domain": "mgprojekt.com.pl",
+      "website": "http://www.mgprojekt.com.pl/"
+    },
+    {
+      "code": "WRW",
+      "name": "Domena",
+      "source_row": 65,
+      "domain": "domenadom.pl",
+      "website": "https://www.domenadom.pl/"
+    },
+    {
+      "code": "WRY",
+      "name": "OPUSDOM",
+      "source_row": 66,
+      "domain": "opusdom.pl",
+      "website": "http://www.opusdom.pl/"
+    },
+    {
+      "code": "SLN",
+      "name": "Pro arte Arkadiusz Woch, Krzysztof Biodrowicz spółka jawna",
+      "source_row": 67,
+      "domain": "pro-arte.pl",
+      "website": "http://www.pro-arte.pl/"
+    },
+    {
+      "code": "WOB",
+      "name": "Lipińscy Domy Biuro Projektowe",
+      "source_row": 68,
+      "domain": "lipinscy.pl",
+      "website": "https://lipinscy.pl/"
+    },
+    {
+      "code": "SLO",
+      "name": "I.M. projekty",
+      "source_row": 69,
+      "domain": "improjekty.pl",
+      "website": "http://www.improjekty.pl/"
+    },
+    {
+      "code": "WRC",
+      "name": "Pracownia Projektowa ARCHIPELAG",
+      "source_row": 70,
+      "domain": "archipelag.pl",
+      "website": "http://www.archipelag.pl/"
+    },
+    {
+      "code": "WOE",
+      "name": "Archiportal",
+      "source_row": 71,
+      "domain": "archiportal.pl",
+      "website": "http://www.archiportal.pl/"
+    },
+    {
+      "code": "PRA",
+      "name": "Kup Projekt",
+      "source_row": 72,
+      "domain": "kupprojekt.pl",
+      "website": "http://www.kupprojekt.pl/"
+    },
+    {
+      "code": "KRP",
+      "name": "Dom-Projekt",
+      "source_row": 73,
+      "domain": "dom-projekt.pl",
+      "website": "http://www.dom-projekt.pl/"
+    },
+    {
+      "code": "WOF",
+      "name": "Archand",
+      "source_row": 74,
+      "domain": "archand.pl",
+      "website": "http://www.archand.pl/"
+    },
+    {
+      "code": "WOJ",
+      "name": "AJR Studio Architektury",
+      "source_row": 75,
+      "domain": "ajrstudio.pl",
+      "website": "http://www.ajrstudio.pl/"
+    },
+    {
+      "code": "PZB",
+      "name": "NANO",
+      "source_row": 76,
+      "domain": "nanostudio.pl",
+      "website": "http://www.nanostudio.pl/"
+    },
+    {
+      "code": "BSE",
+      "name": "Archetyp",
+      "source_row": 77,
+      "domain": "archetyp.pl",
+      "website": "https://archetyp.pl/"
+    },
+    {
+      "code": "BBD",
+      "name": "Mój-dom",
+      "source_row": 78,
+      "domain": "moj-dom-projekty.pl",
+      "website": "http://www.moj-dom-projekty.pl/"
+    },
+    {
+      "code": "KRX",
+      "name": "HOMEKONCEPT",
+      "source_row": 79,
+      "domain": "homekoncept.pl",
+      "website": "http://www.homekoncept.pl/"
+    },
+    {
+      "code": "BBE",
+      "name": "Dompasja",
+      "source_row": 80,
+      "domain": "dompasja.pl",
+      "website": "http://www.dompasja.pl/"
+    },
+    {
+      "code": "WAW",
+      "name": "Domy z Wizją",
+      "source_row": 81,
+      "domain": "projektyzwizja.pl",
+      "website": "http://www.projektyzwizja.pl/"
+    },
+    {
+      "code": "WAX",
+      "name": "E-domy",
+      "source_row": 82,
+      "domain": "e-domy.pl",
+      "website": "http://www.e-domy.pl/"
+    },
+    {
+      "code": "BBG",
+      "name": "Prestige",
+      "source_row": 83,
+      "domain": "projektyprestige.pl",
+      "website": "http://www.projektyprestige.pl/"
+    },
+    {
+      "code": "WAI",
+      "name": "Artinex",
+      "source_row": 84,
+      "domain": "artinex-projekt.pl",
+      "website": "http://www.artinex-projekt.pl/"
+    },
+    {
+      "code": "KRZ",
+      "name": "Modern House",
+      "source_row": 85,
+      "domain": "modernhouse-projekty.pl",
+      "website": "https://www.modernhouse-projekty.pl/"
+    },
+    {
+      "code": "WOT",
+      "name": "B-Projekt",
+      "source_row": 86,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "SKA",
+      "name": "Dom to Dom",
+      "source_row": 87,
+      "domain": "domtodom.pl",
+      "website": "http://domtodom.pl/"
+    },
+    {
+      "code": "WOW",
+      "name": "Skala Projekt",
+      "source_row": 88,
+      "domain": null,
+      "website": null
+    },
+    {
+      "code": "JGC",
+      "name": "Postaw Dom",
+      "source_row": 89,
+      "domain": "postawdom24.pl",
+      "website": "https://postawdom24.pl/"
+    },
+    {
+      "code": "WAC",
+      "name": "Domidea SKA",
+      "source_row": 90,
+      "domain": "domideaprojekt.pl",
+      "website": "https://domideaprojekt.pl/"
+    },
+    {
+      "code": "SLS",
+      "name": "Malachit",
+      "source_row": 91,
+      "domain": "projektymalachit.pl",
+      "website": "http://www.projektymalachit.pl/"
+    },
+    {
+      "code": "WWB",
+      "name": "EG-domy Pracownia Projektowa Ewelina Grochowska",
+      "source_row": 92,
+      "domain": "eg-domy.pl",
+      "website": "http://eg-domy.pl/"
+    },
+    {
+      "code": "KKD",
+      "name": "Domometria",
+      "source_row": 93,
+      "domain": "domyzmieta.pl",
+      "website": "http://domyzmieta.pl/projekty/"
+    },
+    {
+      "code": "KKE",
+      "name": "Ekoarchitekci",
+      "source_row": 94,
+      "domain": "ekoarchitekci.pl",
+      "website": "http://ekoarchitekci.pl/"
+    },
+    {
+      "code": "WOZ",
+      "name": "Ecodomy",
+      "source_row": 95,
+      "domain": "ecodomy.pl",
+      "website": "http://www.ecodomy.pl/"
+    },
+    {
+      "code": "BBH",
+      "name": "MyProjektujemy Tomasz Kurzydem",
+      "source_row": 96,
+      "domain": "archbb.pl",
+      "website": "http://archbb.pl/"
+    },
+    {
+      "code": "BSG",
+      "name": "Energoprojekty",
+      "source_row": 97,
+      "domain": "studioarchitektury.com.pl",
+      "website": "http://www.studioarchitektury.com.pl/"
+    },
+    {
+      "code": "KKF",
+      "name": "Domy w Zieleni",
+      "source_row": 98,
+      "domain": "domywzieleni.pl",
+      "website": "http://domywzieleni.pl/"
+    },
+    {
+      "code": "KKG",
+      "name": "Domy dla nas",
+      "source_row": 99,
+      "domain": "domydlanas.pl",
+      "website": "https://www.domydlanas.pl/"
+    }
+  ]
+}

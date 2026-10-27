@@ -216,6 +216,8 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
     communication["daily"] = gap == 1 and current_read and bool(communication.get("comparable"))
     if not current_read:
         communication.update(status="missing", label="Brak odczytu", ready=False)
+        if base and base.status == 'unavailable' and (base.error or '').startswith('Nowa pracownia'):
+            communication.update(status='pending',label='Oczekuje na pierwszy skan')
     elif gap is not None and gap > 1:
         communication.update(status="gap", label=f"Luka {gap} dni · brak porównania z wczoraj")
     elif communication.get("comparable") and gap == 1:
@@ -437,6 +439,7 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
             row["issues"].append("Karta odczytana częściowo; cena nie służy do ustalania zmiany oferty.")
         row["issues"] = list(dict.fromkeys(row["issues"]))
         row["pages"] = [page_comparison(day, page, base, entries, row) for page, base in [("glowna", home), ("projekt", project)]]
+        row['scan_pending'] = all(p['communication'].get('status') == 'pending' for p in row['pages'])
         if not row["home_read"] or not row["project_read"]:
             row["status"], row["status_label"] = "missing", "Brak pełnego odczytu stron"
         elif row["events"]:
@@ -476,6 +479,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
         },
         "categories": dict(Counter(e["category"] for r in rows for e in r["events"])),
     }
+    from .relationships import apply_relationships
+    apply_relationships(view)
     view["management"] = build_management(view)
     return view
 
@@ -491,6 +496,7 @@ def _delta_text(row: dict) -> str:
 
 def render_text(view: dict) -> str:
     from .briefing import build_briefing, delivery_text
+    from .relationships import groups
 
     c = view["counts"]
     pair = view["comparison"]
@@ -500,9 +506,12 @@ def render_text(view: dict) -> str:
                    delivery_text(view), ""]
     for tier, label in [('main', 'NAJWAŻNIEJSZE ZMIANY'), ('review', 'WAŻNE DO SPRAWDZENIA')]:
         brief_lines += [label]
-        for event in briefing['events']:
-            if event['tier'] == tier:
-                brief_lines += [event['domain'] + ' | ' + event['sentence'] + ' | ' + event['confidence'], event['lead']['source']]
+        for group, group_label in groups(view):
+            if group_label:
+                brief_lines += [group_label.upper()]
+            for event in briefing['events']:
+                if event['tier'] == tier and (group == 'all' or event['group'] == group):
+                    brief_lines += [event['domain'] + ' | ' + event['sentence'] + ' | ' + event['confidence'], event['lead']['source']]
         brief_lines += ['']
     lines = brief_lines + [
         f"KOMUNIKACJA PRACOWNI — {view['day']}",
@@ -825,6 +834,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
 
 def render_html(view: dict) -> str:
     from .briefing import build_briefing, render_briefing, render_intelligence
+    from .relationships import group_html
 
     # Recompute after enrichment too; archived views can predate this schema.
     view = {**view, "management": build_management(view)}
@@ -843,6 +853,7 @@ def render_html(view: dict) -> str:
     replacements = {
         "__REPORT_DATA__": payload,
         "__REPORT_DAY__": html.escape(view["day"]),
+        "__RELATIONSHIP_SCRIPT__": files('pracownie').joinpath('relationship_groups.js').read_text(),
         "__STATIC_DAILY__": render_daily_html(view),
         "__STATIC_COMPARISON__": render_scan_html(view),
         "__STATIC_OBSERVATIONS__": render_observations_html(view),
@@ -860,7 +871,8 @@ def render_html(view: dict) -> str:
         "__STATIC_STAMP__": ("Dane z odczytów " + html.escape(when(observed[0])) + " – " + html.escape(when(observed[-1])) + " · czas polski") if observed else "Brak bieżących odczytów",
     }
     # One pass: source text containing a placeholder is data, never a template.
-    return re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
+    document = re.sub("|".join(re.escape(k) for k in replacements), lambda m: replacements[m[0]], template)
+    return group_html(document, view)
 
 
 def render_stats_html(view: dict) -> str:

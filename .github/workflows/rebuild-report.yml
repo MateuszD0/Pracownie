@@ -1,6 +1,11 @@
 name: Odśwież układ raportu bez skanowania
 on:
   workflow_dispatch:
+    inputs:
+      include_new_sites:
+        description: Dodaj nowe pracownie z konfiguracji jako oczekujące na pierwszy skan
+        type: boolean
+        default: false
   workflow_run:
     workflows: [Testy]
     types: [completed]
@@ -42,8 +47,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-pol
       - run: uv run pytest -q -m 'not browser'
-      - run: uv run python -m pracownie.rebuild --publish
+      - run: |
+          rebuild_args=(--publish)
+          if [[ "$INCLUDE_NEW_SITES" == 'true' ]]; then
+            rebuild_args+=(--include-new-sites)
+          fi
+          uv run python -m pracownie.rebuild "${rebuild_args[@]}"
         env:
+          INCLUDE_NEW_SITES: ${{ inputs.include_new_sites || false }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
 

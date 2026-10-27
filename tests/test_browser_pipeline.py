@@ -265,7 +265,7 @@ def test_registry_and_workflow_contract():
     from pracownie.model import load_sites
     root = Path(__file__).parents[1]
     sites = load_sites(root / "config/sites.json")
-    assert len(sites) == 65
+    assert len(sites) == 112
     assert 'extradom.pl' not in {site.domain for site in sites}
     pilot = json.loads((root / 'config/sites.json').read_text())['pilot']
     assert 'extradom.pl' not in pilot and set(pilot) <= {site.domain for site in sites}

@@ -63,6 +63,7 @@ def event_key(item: dict) -> tuple:
 
 def build_briefing(view: dict, management: dict | None = None) -> dict:
     from .management import build_management
+    from .relationships import group_for
 
     management = management or build_management(view)
     groups = {}
@@ -117,7 +118,7 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
             note = 'Zapowiedź; nie oznacza aktywnego rabatu w dniu odczytu.'
         important = commercial or bool(re.search(r'nagłówek|baner|wezwanie', lead['description'], re.I))
         identifier = hashlib.sha256(repr(key).encode()).hexdigest()[:16]
-        events.append({'id': identifier, 'domain': lead['domain'], 'kind': 'Komunikacja sprzedażowa' if heading else lead['business_type'],
+        events.append({'id': identifier, 'domain': lead['domain'], 'group':group_for(view,lead['domain']), 'kind': 'Komunikacja sprzedażowa' if heading else lead['business_type'],
                        'bucket': 'copy' if heading else lead['business_bucket'], 'tier': tier, 'confidence': confidence,
                        'importance': 'ważne' if important else 'do przeglądu',
                        'sentence': event_sentence(lead), 'note': note,
@@ -148,6 +149,7 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
         if issues:
             gaps.append({'domain': row['domain'], 'issues': issues})
     return {'events': events, 'total': len(view['rows']), 'complete_domains': complete, 'gaps': gaps,
+            'pending_domains':[r['domain'] for r in view['rows'] if r.get('scan_pending')],
             'paired_pages': sum(bool(p.get('communication', {}).get('daily')) for p in pages),
             'expected_pages': len(pages)}
 
@@ -199,6 +201,9 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
     out = ['<section id="briefing" aria-labelledby="brief-title"><h2 id="brief-title">Odprawa dnia</h2>',
            '<p class="brief-coverage" id="brief-coverage">Porównano obie strony: <strong>' + str(len(data['complete_domains'])) + '/' + str(data['total']) + ' pracowni</strong> · <a href="#brief-gaps">' + str(len(data['gaps'])) + ' wymaga uwagi</a></p>',
            '<p class="small" id="brief-delivery">' + esc(delivery_text(view)) + ' · czas polski</p>']
+    if data['pending_domains']:
+        pending = len(data['pending_domains'])
+        out[1] = '<p class="brief-coverage" id="brief-coverage">Porównano obie strony: <strong>' + str(len(data['complete_domains'])) + '/' + str(data['total']) + ' pracowni</strong> · ' + str(pending) + ' oczekuje na pierwszy skan · <a href="#brief-gaps">Pozostałe braki: ' + str(len(data['gaps'])-pending) + '</a></p>'
     reviews = [e for e in data['events'] if e['tier'] == 'review']
     out += ['<p id="brief-review-cue"' + (' hidden' if not reviews else '') + '><a href="#brief-review">Ważne do sprawdzenia: ' + str(len(reviews)) + '</a></p>']
     for tier, title in [('main', 'Najważniejsze zmiany'), ('review', 'Ważne do sprawdzenia')]:
@@ -237,6 +242,7 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
 
 def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_documents: dict, folder: str, filename: str) -> list[str]:
     from .dashboard import cell, link
+    from .relationships import groups
 
     lines = ['## Zmiany oferty i komunikacji', '', 'Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.', '']
     header = ['| Pracownia / miejsce | Co się zmieniło | Status | Dowód |', '| --- | --- | --- | --- |']
@@ -262,12 +268,24 @@ def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_doc
 
     main = [e for e in data['events'] if e['tier'] == 'main']
     review = [e for e in data['events'] if e['tier'] == 'review']
-    lines += header + ([row(e) for e in main[:5]] or ['| Nie ustalono konkretnych zmian biznesowych w porównanym zakresie. | | | |'])
-    if len(main) > 5:
-        lines += ['', '<details><summary>Pozostałe ważne zmiany (' + str(len(main)-5) + ')</summary>', '', *header, *paged(main[5:], 'zmiany'), '', '</details>']
-    lines += ['', '## Ważne do sprawdzenia', '', *header]
-    lines += paged(review, 'weryfikacja') or ['| Brak ważnych nierozstrzygniętych sygnałów w tym zakresie. | | | |']
-    lines += ['', '## Braki porównania', '', '**' + str(len(data['gaps'])) + ' pracowni wymaga uwagi.** Brak porównania nie oznacza „bez zmian”.', '']
+    for group, label in groups(view):
+        selected = [e for e in main if group == 'all' or e['group'] == group]
+        if label:
+            lines += ['### ' + label, '']
+        lines += header + ([row(e) for e in selected[:5]] or ['| Nie ustalono konkretnych zmian biznesowych w porównanym zakresie. | | | |'])
+        if len(selected) > 5:
+            lines += ['', '<details><summary>Pozostałe ważne zmiany (' + str(len(selected)-5) + ')</summary>', '', *header, *paged(selected[5:], 'zmiany' + ('-'+group if label else '')), '', '</details>']
+        lines += ['']
+    lines += ['', '## Ważne do sprawdzenia', '']
+    for group, label in groups(view):
+        if label:
+            lines += ['### ' + label, '']
+        selected = [e for e in review if group == 'all' or e['group'] == group]
+        lines += header + (paged(selected, 'weryfikacja' + ('-'+group if label else '')) or ['| Brak ważnych nierozstrzygniętych sygnałów w tym zakresie. | | | |']) + ['']
+    gap_summary = '**' + str(len(data['gaps'])) + ' pracowni wymaga uwagi.**'
+    if data['pending_domains']:
+        gap_summary = 'Bez pełnego porównania: **' + str(len(data['gaps'])) + '**, w tym **' + str(len(data['pending_domains'])) + ' oczekuje na pierwszy skan**.'
+    lines += ['', '## Braki porównania', '', gap_summary + ' Brak porównania nie oznacza „bez zmian”.', '']
     for gap in data['gaps']:
         lines += ['- **' + cell(gap['domain']) + '**: ' + cell('; '.join(LABELS[i['page']] + ' — ' + i['reason'] for i in gap['issues']))]
     return lines + ['']

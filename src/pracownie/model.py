@@ -172,7 +172,8 @@ class Site:
 
 def load_sites(path: Path) -> list[Site]:
     data = json.loads(path.read_text())
-    sites = [Site.from_dict(item) for item in data["sites"]]
+    excluded = set(data.get('excluded_domains', []))
+    sites = [Site.from_dict(item) for item in data["sites"] if item['domain'] not in excluded]
     domains = [site.domain for site in sites]
     if len(set(domains)) != len(domains):
         raise ValueError("Powtórzone domeny w konfiguracji")

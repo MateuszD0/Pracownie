@@ -166,3 +166,14 @@ def test_email_uses_named_sections_when_another_table_precedes_highlights():
     plain = message.get_body(preferencelist=('plain',)).get_content()
     assert 'UNRELATED_COVERAGE_TABLE' not in plain
     assert '10%' in plain and '20%' in plain
+
+
+def test_grouped_dashboard_keeps_both_relationship_groups_in_the_summary():
+    first = DOCUMENT.split('<table>',1)[1].split('</table>',1)[0]
+    tables = '<h2>Zmiany oferty i komunikacji</h2><h3>Współpracujące z nami</h3><table>'+first+'</table>'
+    tables += '<h3>Niewspółpracujące z nami</h3><table>'+first.replace('test.pl','other.pl').replace('20%','30%')+'</table>'
+    document = DOCUMENT.split('<table>',1)[0]+tables
+    message = compose(DAY,document,QUALITY,'test/monitor','https://github.com/test/monitor/releases/tag/report',CONFIG)
+    plain = message.get_body(preferencelist=('plain',)).get_content()
+    assert 'Współpracujące z nami' in plain and 'Niewspółpracujące z nami' in plain
+    assert 'test.pl' in plain and 'other.pl' in plain and '20%' in plain and '30%' in plain

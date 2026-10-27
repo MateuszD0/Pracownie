@@ -4,7 +4,6 @@
     "archipelag.pl",
     "dobredomy.pl",
     "domoweklimaty.pl",
-    "extradom.pl",
     "lipinscy.pl"
   ],
   "sites": [
@@ -753,31 +752,6 @@
         "browser_verified_at": "2026-10-19T19:38:08.082040+00:00"
       },
       "project_name": "WYSZUKANY D64 wariant II"
-    },
-    {
-      "domain": "extradom.pl",
-      "home_url": "https://extradom.pl",
-      "project_url": "https://www.extradom.pl/projekt-domu-tracja-2-WOE1114",
-      "inspection": "pending",
-      "scenarios": [],
-      "required": {},
-      "masks": [
-        ".grecaptcha-badge"
-      ],
-      "allowed_hosts": [],
-      "discovery_links": [
-        "https://www.extradom.pl/porady/artykul-extraprojekt-najpopularniejsze-projekty-domow-2026"
-      ],
-      "selection": {
-        "http_inspected_at": "2026-10-19T19:01:04.933414+00:00",
-        "http_status": 200,
-        "note": "Wybór projektu zostanie zamrożony dopiero po poprawnej walidacji karty w przeglądarce.",
-        "basis": "Pierwszy poprawny projekt z sekcji: Nagroda publiczności: najpopularniejsze projekty domów w 2026 roku. Wyniki głosowania na Extraprojekt 2027. Ranking/ekspozycja nie potwierdza liczby sprzedaży.",
-        "source": "https://www.extradom.pl/porady/artykul-extraprojekt-najpopularniejsze-projekty-domow-2026",
-        "browser_verified_at": "2026-10-19T19:58:12.287043+00:00"
-      },
-      "product_url_pattern": "/projekt-domu-[^/?#]+/?$",
-      "project_name": "Projekt domu Tracja 2 WOE1114"
     },
     {
       "domain": "galeriadomow.pl",

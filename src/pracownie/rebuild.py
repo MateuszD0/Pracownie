@@ -199,14 +199,34 @@ def main():
             restore_report(args.root / "source.zip", output, day, record["run_id"])
             data = json.loads((output / day / "zmiany.json").read_text())
             selections = json.loads((output / day / "wybrane-projekty.json").read_text())
-            domains = list(json.loads((output / day / "pokrycie.json").read_text()))
+            archived_domains = list(json.loads((output / day / "pokrycie.json").read_text()))
+            sites = load_sites(Path("config/sites.json"))
+            configured = {site.domain for site in sites}
+            domains = [domain for domain in archived_domains if domain in configured]
+            if not domains:
+                raise ValueError("Brak skonfigurowanych domen w raporcie; nie opublikowano pustego zakresu")
+            active = set(domains)
+            selections = {domain: selection for domain, selection in selections.items() if domain in active}
             results = []
             for raw in data["results"]:
+                if raw["domain"] not in active:
+                    continue
                 raw["changes"] = [Change(**change) for change in raw["changes"]]
                 results.append(Result(**raw))
             metadata = data["metadata"]
+            metadata["domains"] = len(domains)
+            for key in ("reused_domains", "repair_domains"):
+                if key in metadata:
+                    metadata[key] = [domain for domain in metadata[key] if domain in active]
+            removed = sorted(set(archived_domains) - active)
+            if removed:
+                metadata["removed_domains"] = sorted(set(metadata.get("removed_domains", [])) | set(removed))
+                # Remove only regenerated files; prior published editions and
+                # stored captures remain available in their original archives.
+                for domain in removed:
+                    shutil.rmtree(safe_path(output, day + "/" + slug(domain)), ignore_errors=True)
             metadata["source_price_corrections"] = metadata.get("source_price_corrections", []) + repair_archived_quotes(results, output, day)
-            metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, load_sites(Path("config/sites.json")))
+            metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, [site for site in sites if site.domain in active])
             metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()
             metadata["run_id"] = now_iso().replace(":", "").replace("+", "-") + "-format-" + uuid.uuid4().hex[:8]

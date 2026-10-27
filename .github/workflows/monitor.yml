@@ -108,7 +108,7 @@ jobs:
           REPAIR_DOMAINS: ${{ inputs.repair_domains || steps.schedule.outputs.repair_domains || steps.deployment.outputs.repair_domains || '' }}
           SCAN_DAY: ${{ steps.schedule.outputs.day }}
         run: |
-          scan_args=(--github --scope "$SCAN_SCOPE" --budget-seconds 3600)
+          scan_args=(--github --scope "$SCAN_SCOPE" --concurrency 5 --budget-seconds 3600)
           if [[ -n "$SCAN_DAY" ]]; then
             scan_args+=(--day "$SCAN_DAY")
           fi

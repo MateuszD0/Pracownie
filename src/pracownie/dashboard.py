@@ -99,6 +99,10 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
              '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '']
     if observed:
         lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski. Późniejsze uzupełnienia nie są porannym skanem.", '']
+    feedback = view.get('metadata', {}).get('feedback')
+    if feedback:
+        from .feedback import summary_text
+        lines += [summary_text(feedback), '', 'Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.', '']
     lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
     if downloads.get('web'):
         lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']
@@ -183,6 +187,9 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
                 total = sum(item['page'] == page['page'] for item in items)
                 source_link = link('Otwórz stronę źródłową', page['url']) if page['url'] else 'Adres karty zostanie podany po poprawnym wyborze projektu.'
                 content += ['## ' + cell(page['label']), '', source_link, '', '**Odczyty:** ' + when(page['compared_at']) + ' → ' + when(page['observed_at']) + ' (czas polski).', '']
+                if index == 0 and feedback and feedback.get('repository') and page.get('communication', {}).get('daily'):
+                    from .feedback import missed_link
+                    content += [link('Zgłoś pominiętą zmianę', missed_link(feedback['repository'], view['day'], row['domain'], page['page'], page['url'])), '']
                 if page_items:
                     content += ['| Zmiana / miejsce | Było | Jest | Źródło |', '| --- | --- | --- | --- |', *[change_row(item) for item in page_items], '']
                     for item in page_items:

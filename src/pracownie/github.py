@@ -306,8 +306,11 @@ class GitHubStore:
         delivery = delivery_status(self, day, previous_publication)
         from .intelligence import update_intelligence
         state = store.read()
-        intelligence = update_intelligence(state, json.loads((output / day / 'oferty.json').read_text()))
-        annotate_report(output, day, delivery, intelligence)
+        current_view = json.loads((output / day / 'oferty.json').read_text())
+        intelligence = update_intelligence(state, current_view)
+        from .feedback import read_feedback
+        feedback = read_feedback(self, day, state['business_ledger'], {r['domain'] for r in current_view['rows']})
+        annotate_report(output, day, delivery, intelligence, feedback)
         store.commit(state)
         bundle_report(output, day, report_archive)
         stamp = slug(run_id)

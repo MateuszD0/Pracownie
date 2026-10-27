@@ -994,6 +994,11 @@ def render_daily_html(view: dict) -> str:
             copy_status = page_finding(page, page_items, supporting)
             part += '<span class="badge ' + page["status"] + '" data-change-label data-fallback="' + esc(page_finding(page, [], supporting)) + '">' + esc(copy_status) + '</span>'
             part += '<p class="small">' + esc(when(page["compared_at"])) + ' → ' + esc(when(page["observed_at"])) + ' · czas polski</p>'
+            feedback = view.get('metadata', {}).get('feedback', {})
+            if feedback.get('repository') and page.get('communication', {}).get('daily'):
+                from .feedback import missed_link
+                url = missed_link(feedback['repository'], view['day'], row['domain'], page['page'], page['url'])
+                part += '<p class="small"><a href="' + esc(url) + '" target="_blank" rel="noopener">Zgłoś pominiętą zmianę</a></p>'
             if page["page"] == "projekt":
                 project_label = 'Ten sam projekt: ' + row['name'] if row.get('project_selected', True) else 'Stała karta projektu: jeszcze nie wybrana — brak poprawnego odczytu.'
                 part += '<p class="fixed-project"><strong>' + esc(project_label) + '</strong></p>'

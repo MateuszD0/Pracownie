@@ -46,7 +46,7 @@ def test_report_publication_does_not_wait_for_pages_environment_approval():
         config = workflow(name)
         producer = config["jobs"][job]
         assert "environment" not in producer
-        assert config["permissions"] == {"contents": "write", "pages": "read"}
+        assert config["permissions"] == {"contents": "write", "issues": "read", "pages": "read"}
         deployment = config["jobs"]["pages"]
         assert deployment["needs"] == job
         assert "pages_enabled == 'true'" in deployment["if"]

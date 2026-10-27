@@ -274,7 +274,7 @@ def test_registry_and_workflow_contract():
     events = workflow.get("on", workflow.get(True))
     from pracownie.schedule import PRIMARY_CRON, RECOVERY_CRON
     assert events["schedule"] == [{"cron": PRIMARY_CRON}, {"cron": RECOVERY_CRON}]
-    assert workflow["permissions"] == {"contents": "write", "pages": "read"}
+    assert workflow["permissions"] == {"contents": "write", "issues": "read", "pages": "read"}
     assert workflow["jobs"]["pages"]["permissions"] == {"contents": "read", "pages": "write", "id-token": "write"}
     assert not workflow["jobs"]["scan"]["concurrency"]["cancel-in-progress"]
     assert json.loads((root / "config/sites.json").read_text())["schema"] == 1

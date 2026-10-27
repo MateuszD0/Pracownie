@@ -124,9 +124,15 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
             note = 'Zapowiedź; nie oznacza aktywnego rabatu w dniu odczytu.'
         important = commercial or bool(re.search(r'nagłówek|baner|wezwanie', lead['description'], re.I))
         identifier = hashlib.sha256(repr(key).encode()).hexdigest()[:16]
+        feedback = view.get('metadata', {}).get('feedback', {})
+        rating = feedback.get('ratings', {}).get(view['day'] + '/' + identifier, {})
+        priority_reason = ('promocja, dodatek lub warunki oferty' if commercial else
+                           'nagłówek, baner lub wezwanie do działania' if important else 'pozostała obserwacja')
         events.append({'id': identifier, 'domain': lead['domain'], 'group':group_for(view,lead['domain']), 'kind': 'Komunikacja sprzedażowa' if heading else lead['business_type'],
                        'bucket': 'copy' if heading else lead['business_bucket'], 'tier': tier, 'confidence': confidence,
                        'importance': 'ważne' if important else 'do przeglądu',
+                       'priority': 'Wysoki' if important else 'Standardowy', 'priority_reason': priority_reason,
+                       'rating': rating, 'feedback_repo': feedback.get('repository', ''), 'day': view['day'],
                        'sentence': (('W nowym zapisie nie ma etykiety: ' if removed else 'Zauważono etykietę: ') + '„' + short(texts[-1]) + '”.' if label_only else event_sentence(lead)), 'note': note,
                        'next_check': (date.fromisoformat(view['day']) + timedelta(days=1)).isoformat() if review or status == 'scheduled' else '',
                        'pages': sorted({e['page'] for e in items}), 'lead': lead,
@@ -210,13 +216,17 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
     if data['pending_domains']:
         pending = len(data['pending_domains'])
         out[1] = '<p class="brief-coverage" id="brief-coverage">Porównano obie strony: <strong>' + str(len(data['complete_domains'])) + '/' + str(data['total']) + ' pracowni</strong> · ' + str(pending) + ' oczekuje na pierwszy skan · <a href="#brief-gaps">Pozostałe braki: ' + str(len(data['gaps'])-pending) + '</a></p>'
+    feedback = view.get('metadata', {}).get('feedback')
+    if feedback:
+        from .feedback import summary_text
+        out += ['<p class="small">' + esc(summary_text(feedback)) + ' Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny są publicznymi zgłoszeniami GitHub i pojawiają się w kolejnym raporcie.</p>']
     reviews = [e for e in data['events'] if e['tier'] == 'review']
     out += ['<p id="brief-review-cue"' + (' hidden' if not reviews else '') + '><a href="#brief-review">Ważne do sprawdzenia: ' + str(len(reviews)) + '</a></p>']
     for tier, title in [('main', 'Najważniejsze zmiany'), ('review', 'Ważne do sprawdzenia')]:
         selected = [e for e in data['events'] if e['tier'] == tier]
-        out += ['<section class="brief-section" id="brief-' + tier + '" data-brief-section="' + tier + '"><h3>' + title + '</h3><div class="table-box"><table class="business-table brief-table"><thead><tr><th>Pracownia / miejsce</th><th>Co się zmieniło</th><th>Status</th><th>Dowód</th></tr></thead><tbody>']
+        out += ['<section class="brief-section" id="brief-' + tier + '" data-brief-section="' + tier + '"><h3>' + title + '</h3><div class="table-box"><table class="business-table brief-table"><thead><tr><th>Pracownia / miejsce</th><th>Co się zmieniło</th><th>Priorytet i pewność</th><th>Dowód</th></tr></thead><tbody>']
         for index, event in enumerate(selected):
-            out += ['<tr data-brief-id="' + event['id'] + '"' + (' hidden data-brief-extra' if tier == 'main' and index >= 5 else '') + '><td><strong>' + esc(event['domain']) + '</strong><br><span data-brief-places class="small">' + ' · '.join(LABELS[p] for p in event['pages']) + '</span></td><td><span class="topic">' + esc(event['kind']) + '</span><p>' + esc(event['sentence']) + '</p></td><td><strong class="certainty ' + tier + '">' + esc(event['confidence']) + '</strong><p class="small">' + esc(event['note']) + '</p></td><td><a href="#zdarzenie-' + event['id'] + '">Przed / po →</a></td></tr>']
+            out += ['<tr data-brief-id="' + event['id'] + '"' + (' hidden data-brief-extra' if tier == 'main' and index >= 5 else '') + '><td><strong>' + esc(event['domain']) + '</strong><br><span data-brief-places class="small">' + ' · '.join(LABELS[p] for p in event['pages']) + '</span></td><td><span class="topic">' + esc(event['kind']) + '</span><p>' + esc(event['sentence']) + '</p></td><td><strong>Priorytet: ' + esc(event['priority']) + '</strong><p class="small">' + esc(event['priority_reason']) + '</p><strong class="certainty ' + tier + '">' + esc(event['confidence']) + '</strong><p class="small">' + esc(event['note']) + '</p></td><td><a href="#zdarzenie-' + event['id'] + '">Przed / po →</a></td></tr>']
         out += ['<tr data-brief-empty="' + tier + '"' + (' hidden' if selected else '') + '><td colspan="4">' + ('Nie ustalono istotnych zmian w porównanym zakresie.' if tier == 'main' else 'Brak ważnych nierozstrzygniętych sygnałów w tym zakresie.') + '</td></tr></tbody></table></div>']
         if tier == 'main':
             out += ['<button type="button" id="brief-more"' + (' hidden' if len(selected) <= 5 else '') + '>Pozostałe ważne zmiany (' + str(max(0, len(selected)-5)) + ')</button>']
@@ -241,7 +251,14 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
             path = relative_proof(view['day'], evidence.get(key, ''))
             if path:
                 out += ['<figure><a href="' + esc(path) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(path) + '" alt="' + label + ' — ' + esc(event['domain']) + '"></a><figcaption>' + label + ' · ' + esc(when(at)) + '</figcaption></figure>']
-        out += ['</div><p class="small">Zrzut jest dowodem uchwyconego obszaru; pełny tekst może pochodzić również z interakcji.</p><a href="#briefing">↑ Powrót do odprawy</a></article>']
+        out += ['</div><p class="small">Zrzut jest dowodem uchwyconego obszaru; pełny tekst może pochodzić również z interakcji.</p>']
+        if event['feedback_repo']:
+            from .feedback import LABELS as FEEDBACK_LABELS
+            from .feedback import feedback_links
+            rating = event['rating']
+            out += ['<p><strong>Twoja ocena:</strong> ' + esc(FEEDBACK_LABELS.get(rating.get('verdict'), 'brak oceny')) + '. Oceń: '
+                    + ' · '.join('<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(label) + '</a>' for label, url in feedback_links(event['feedback_repo'], event['day'], event)) + '</p>']
+        out += ['<a href="#briefing">↑ Powrót do odprawy</a></article>']
     out += ['</details>']
     return ''.join(out)
 
@@ -251,13 +268,13 @@ def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_doc
     from .relationships import groups
 
     lines = ['## Zmiany oferty i komunikacji', '', 'Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.', '']
-    header = ['| Pracownia / miejsce | Co się zmieniło | Status | Dowód |', '| --- | --- | --- | --- |']
+    header = ['| Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |', '| --- | --- | --- | --- |']
 
     def row(event):
         checked = event['lead'].get('commercial_check', {}).get('sources', [])
         return '| ' + ' | '.join([
             '**' + cell(event['domain']) + '**<br>' + ' · '.join(LABELS[p] for p in event['pages']),
-            cell(event['sentence']), '**' + cell(event['confidence']) + '**' + ('<br>' + cell(event['note']) if event['note'] else ''),
+            cell(event['sentence']), '**Priorytet: ' + cell(event['priority']) + '**<br>' + cell(event['priority_reason']) + '<br>**' + cell(event['confidence']) + '**' + ('<br>' + cell(event['note']) if event['note'] else ''),
             '[Przed / po →](' + targets[event['id']] + ')<br>' + link('Otwórz stronę', event['lead']['source']) + ('<br>' + link('Sprawdzone warunki', checked[0]['url']) if checked else ''),
         ]) + ' |'
 
@@ -308,4 +325,11 @@ def markdown_event(event: dict, previews: dict) -> list[str]:
              ' · '.join(link(LABELS[page], source) for page, source in dict.fromkeys((e['page'], e['source']) for e in event['items'])), '',
              'Liczba źródłowych obserwacji: ' + str(len(event['observation_ids'])) + '. Pełne zapisy pozostają w szczegółach pracowni.', '']
     lines += proof_pair(lead.get('evidence', {}), previews, lead['before_at'], lead['after_at'])
+    if event['feedback_repo']:
+        from .feedback import LABELS as FEEDBACK_LABELS
+        from .feedback import feedback_links
+
+        current = FEEDBACK_LABELS.get(event['rating'].get('verdict'), 'brak oceny')
+        lines += ['**Twoja ocena:** ' + cell(current) + '. Oceń alert: ' + ' · '.join(link(label, url) for label, url in feedback_links(event['feedback_repo'], event['day'], event)), '',
+                  'Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.', '']
     return lines

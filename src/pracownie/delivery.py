@@ -65,7 +65,7 @@ def delivery_status(remote, day: str, previous: dict | None) -> dict:
             'checked_at': now_iso(), 'editions': editions}
 
 
-def annotate_report(root: Path, day: str, delivery: dict, intelligence: dict | None = None) -> None:
+def annotate_report(root: Path, day: str, delivery: dict, intelligence: dict | None = None, feedback: dict | None = None) -> None:
     """Add delivery facts without changing any source capture or its timestamp."""
     verify_outputs(root, day)
     directory = root / day
@@ -74,6 +74,8 @@ def annotate_report(root: Path, day: str, delivery: dict, intelligence: dict | N
     view['metadata']['delivery'] = raw['metadata']['delivery'] = delivery
     if intelligence is not None:
         view['metadata']['intelligence'] = raw['metadata']['intelligence'] = intelligence
+    if feedback is not None:
+        view['metadata']['feedback'] = raw['metadata']['feedback'] = feedback
     outputs = {directory / 'oferty.json': json_bytes(view), directory / 'zmiany.json': json_bytes(raw),
                directory / 'index.html': render_html(view).encode(), root / f'{day}.txt': render_text(view).encode(),
                directory / 'podsumowanie.md': render_markdown(view).encode()}

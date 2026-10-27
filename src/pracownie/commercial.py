@@ -44,7 +44,9 @@ def concrete(text: str) -> bool:
 
 def relevant(change: Change) -> bool:
     values = [v for v in (change.before, change.after) if v]
-    meaningful = any(concrete(v) or re.fullmatch(r'promocja[ !?.]*', v, re.I) for v in values)
+    # A bare promotion label has no terms, but still merits a bounded
+    # recheck of the source when it appears or disappears.
+    meaningful = any(concrete(v) or generic_offer_label(v) for v in values)
     if not change.details.get('communication') and change.field_key and all(len(v) <= 60 for v in values):
         meaningful |= any(re.search(r'\d|gratis|bezpłat', v, re.I) and concrete(change.label + ' ' + v) for v in values)
     return (change.category in TOPICS and change.kind in {'added', 'removed', 'changed'}

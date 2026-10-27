@@ -2,7 +2,7 @@ from types import SimpleNamespace
 
 import pytest
 
-from pracownie.commercial import assess, document, linked_pages, verify_offers
+from pracownie.commercial import assess, document, linked_pages, relevant, verify_offers
 from pracownie.communication import measure
 from pracownie.dashboard import render_dashboard_documents
 from pracownie.model import Change, Result, Site, Snapshot
@@ -93,6 +93,8 @@ def test_unstable_or_next_day_reads_do_not_confirm_todays_new_offer():
 @pytest.mark.parametrize('text', ['PROMOCJI', 'Do końca promocji:', 'Promocja!'])
 def test_repeated_bare_promotion_label_does_not_confirm_new_offer(text):
     c = change(None, text)
+    assert relevant(c)
+    assert relevant(change(text))
     result = assess(c, URL, [document(shot([text]), repeated=True)], complete=True)
     assert result['status'] == 'label_only'
     c.details['commercial_check'] = {'status': 'added', 'summary': 'Nowa promocja', 'note': ''}

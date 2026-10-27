@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [SEJ-PRO 016 ENERGO](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
 
-**67 zmian w zapisanym zakresie.**
+**68 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -22,6 +22,7 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
+| Zmiany wyglądu · Układ · Adaptacja projektu gotowego domu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Położenie i rozmiar: SEJ-PRO 071/1 ENERGO (120 px w prawo, 17 px w dół) | <strong>362</strong> × 35 px; położenie: <strong>460</strong> px od lewej, <strong>1101</strong> px od góry | <strong>392</strong> × 35 px; położenie: <strong>580</strong> px od lewej, <strong>1118</strong> px od góry | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Zdjęcie 5 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>105 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Następne zdjęcie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>150 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
@@ -46,7 +47,6 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md)
 | Zmiany wyglądu · Układ · Jak szybko otrzymam zamówiony projekt? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#faq) |
 | Zmiany wyglądu · Układ · Poprzednie zdjęcie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>150 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Zdjęcie 3 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>165 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Układ · Dodaj do porównywarki | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
 ## Karta projektu
 
@@ -54,9 +54,9 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md)
 
 **Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+Pozostałe strony tego porównania zawierają 1 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md)
 

@@ -62,6 +62,7 @@ def event_key(item: dict) -> tuple:
 
 
 def build_briefing(view: dict, management: dict | None = None) -> dict:
+    from .commercial import generic_offer_label
     from .management import build_management
     from .relationships import group_for
 
@@ -109,11 +110,16 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
         status = check.get('status', '')
         commercial = lead['business_bucket'] in COMMERCIAL
         removed = normalized(lead['after']) in EMPTY
+        texts = [lead[k] for k in ('before', 'after') if normalized(lead[k]) not in EMPTY]
+        label_only = commercial and bool(texts) and all(generic_offer_label(text) for text in texts)
         noise = all(technical(e) for e in items)
         review = commercial and (status in {'unverified', 'probably_ended', 'other_offers', 'unstable'} or removed and status not in VERIFIED)
-        tier = 'technical' if noise or status in {'still_present', 'label_only', 'expired'} else 'review' if review else 'main' if any(e['readout']['overview'] for e in items) else 'technical'
+        review = review or label_only
+        tier = 'technical' if noise or status in {'still_present', 'expired'} else 'review' if review else 'technical' if status == 'label_only' else 'main' if any(e['readout']['overview'] for e in items) else 'technical'
         confidence = 'Do sprawdzenia' if review else 'Potwierdzona zapowiedź' if status == 'scheduled' else 'Sprawdzono w serwisie' if status in VERIFIED else 'Zaobserwowana zmiana'
         note = 'Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia.' if review and removed else check.get('note', '')
+        if label_only:
+            note = 'Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.'
         if status == 'scheduled':
             note = 'Zapowiedź; nie oznacza aktywnego rabatu w dniu odczytu.'
         important = commercial or bool(re.search(r'nagłówek|baner|wezwanie', lead['description'], re.I))
@@ -121,7 +127,7 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
         events.append({'id': identifier, 'domain': lead['domain'], 'group':group_for(view,lead['domain']), 'kind': 'Komunikacja sprzedażowa' if heading else lead['business_type'],
                        'bucket': 'copy' if heading else lead['business_bucket'], 'tier': tier, 'confidence': confidence,
                        'importance': 'ważne' if important else 'do przeglądu',
-                       'sentence': event_sentence(lead), 'note': note,
+                       'sentence': (('W nowym zapisie nie ma etykiety: ' if removed else 'Zauważono etykietę: ') + '„' + short(texts[-1]) + '”.' if label_only else event_sentence(lead)), 'note': note,
                        'next_check': (date.fromisoformat(view['day']) + timedelta(days=1)).isoformat() if review or status == 'scheduled' else '',
                        'pages': sorted({e['page'] for e in items}), 'lead': lead,
                        'items': items, 'observation_ids': list(dict.fromkeys(i for e in items for i in e['observation_ids']))})

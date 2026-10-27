@@ -70,6 +70,19 @@ def test_follow_up_summary_identifies_the_missing_offer_and_does_not_call_other_
     assert 'nowy' not in event['sentence'].casefold()
 
 
+@pytest.mark.parametrize('text', ['PROMOCJI', 'Do końca promocji:', 'Promocja!'])
+def test_bare_promotion_labels_are_reviewed_even_if_older_verification_said_added(text):
+    view = management_view()
+    base = view['journal'][0]
+    view['journal'] = [dict(base, before='brak', after=text,
+        commercial_check={'status': 'added', 'summary': 'Nowa promocja: ' + text, 'note': ''})]
+    event = build_briefing(view)['events'][0]
+    assert event['tier'] == 'review'
+    assert event['confidence'] == 'Do sprawdzenia'
+    assert 'Nowa promocja' not in event['sentence']
+    assert 'nie potwierdza' in event['note']
+
+
 def test_registry_is_idempotent_preserves_last_capture_date_and_retains_history():
     view = management_view()
     view['journal'][0]['after'] = 'brak'

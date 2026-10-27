@@ -90,6 +90,18 @@ def test_unstable_or_next_day_reads_do_not_confirm_todays_new_offer():
     assert assess(c, URL, [later], complete=True)['status'] == 'unverified'
 
 
+@pytest.mark.parametrize('text', ['PROMOCJI', 'Do końca promocji:', 'Promocja!'])
+def test_repeated_bare_promotion_label_does_not_confirm_new_offer(text):
+    c = change(None, text)
+    result = assess(c, URL, [document(shot([text]), repeated=True)], complete=True)
+    assert result['status'] == 'label_only'
+    c.details['commercial_check'] = {'status': 'added', 'summary': 'Nowa promocja', 'note': ''}
+    row = Result('test.pl', 'projekt', 'podstawowy', 'changed', URL, [c], observed_at=AT, compared_at=BEFORE, data_quality='ok')
+    view = build_view(DAY, [row], {'finished_at': AT}, {}, ['test.pl'])
+    assert view['journal'][0]['commercial_check']['status'] == 'label_only'
+    assert 'Nowa promocja' not in render_html(view)
+
+
 def test_missing_terms_link_is_not_a_probable_end_of_a_campaign():
     c = change('Regulamin promocji >>')
     result = assess(c, URL, [document(shot(['Opis domu.']), repeated=True)], complete=True)

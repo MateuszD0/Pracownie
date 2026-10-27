@@ -39,6 +39,26 @@ def test_reordered_images_still_report_resizing_without_fabricating_movement():
     assert all(f['what'].startswith('Rozmiar:') and '600 × 400' in f['after'] for f in details['facts'])
 
 
+def test_reordered_headlines_are_not_claimed_as_rewritten_messages():
+    a = {'key': '#slot-1', 'text': 'Koszt budowy domu w 2026', 'label': 'Koszt budowy domu w 2026'}
+    b = {'key': '#slot-2', 'text': 'Kierownik budowy i jego obowiązki', 'label': 'Kierownik budowy i jego obowiązki'}
+    before = shot([a, b])
+    after = shot([{**b, 'key': '#slot-1'}, {**a, 'key': '#slot-2'}], NEW)
+    facts = visual_description(before, after, VisualDiff(True, .3, None))['facts']
+    assert not any(f['what'].startswith('Widoczny nagłówek:') for f in facts)
+    after = shot([{**a, 'text': 'Nowy przekaz o domach', 'label': 'Nowy przekaz o domach'}, b], NEW)
+    facts = visual_description(before, after, VisualDiff(True, .3, None))['facts']
+    assert any(f['before'] == a['text'] and f['after'] == 'Nowy przekaz o domach' for f in facts)
+
+
+def test_different_unrelated_headlines_in_positional_slot_are_not_an_edit():
+    key = '#articles > h2:nth-of-type(1)'
+    before = shot([{'key': key, 'text': 'Kierownik budowy i jego obowiązki'}])
+    after = shot([{'key': key, 'text': 'Powierzchnia zabudowy i jak ją liczyć'}], NEW)
+    facts = visual_description(before, after, VisualDiff(True, .3, None))['facts']
+    assert not any(f['what'].startswith('Widoczny nagłówek:') for f in facts)
+
+
 def test_all_style_facts_survive_and_journal_has_distinct_element_ids():
     elements = [{'key': str(i), 'label': 'treść strony', 'color': 'black'} for i in range(25)]
     before = shot(elements)

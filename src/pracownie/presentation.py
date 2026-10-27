@@ -142,6 +142,8 @@ def _amount_key(value: str | None) -> str:
 
 
 def _event(change, result: Result) -> dict:
+    from .commercial import display_check
+
     old, new = change.before, change.after
     if old and new and "\n" in old + new:
         before_lines, after_lines = set(old.splitlines()), set(new.splitlines())
@@ -200,7 +202,7 @@ def _event(change, result: Result) -> dict:
         "communication_role": change.details.get("role", ""),
         "unmatched": change.details.get("unmatched", False),
         "supporting_reason": change.details.get("supporting_reason", ""),
-        "commercial_check": change.details.get("commercial_check", {}),
+        "commercial_check": display_check(change.details.get("commercial_check", {}), old, new),
     }
 
 

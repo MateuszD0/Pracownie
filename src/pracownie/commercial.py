@@ -13,12 +13,28 @@ from .model import Change, Scenario, Site, Snapshot, json_bytes, local_day, now_
 
 TOPICS = {'promocje', 'dodatki', 'pakiety'}
 CLAIM = re.compile(r'promoc|rabat|kupon|gratis|bezpłat|za darmo|pakiet|w cenie|kosztorys|\bdodat(?:ek|ki|ków|ku|kiem|kami|kach)\b', re.I)
-NAVIGATION = re.compile(r'^(?:regulamin(?:em)?(?: promocji)?|promocj[ae!]*|promocyjne projekty domów|pakiet|(?:bezpłatne |płatne )?dodatki(?: do projektu)?|(?:masz|wpisz|zastosuj) kod(?: rabatowy)?|powiadom o promocji|sprawdź promocje|zobacz promocje|więcej)[\s!?.:»>→]*$', re.I)
+NAVIGATION = re.compile(r'^(?:regulamin(?:em)?(?: promocji)?|promocj(?:a|e|i|ę|ą|om|ami|ach)|(?:do końca|koniec) promocji|promocja kończy się za|promocyjne projekty domów|pakiet|(?:bezpłatne |płatne )?dodatki(?: do projektu)?|(?:masz|wpisz|zastosuj) kod(?: rabatowy)?|powiadom o promocji|sprawdź promocje|zobacz promocje|więcej)[\s!?.:»>→]*$', re.I)
 UNSAFE = re.compile(r'add.to.cart|wc-ajax|checkout|koszyk|zam[oó]wienie|zamow|kontakt|logowanie|logout|newsletter|subscribe|unsubscribe', re.I)
 
 
 def normalized(value: str | None) -> str:
     return ' '.join((value or '').casefold().split())
+
+
+def generic_offer_label(value: str | None) -> bool:
+    """An isolated label/countdown is an observation, not offer terms."""
+    return bool(value and re.fullmatch(r'(?:promocj(?:a|e|i|ę|ą|om|ami|ach)|(?:do końca|koniec) promocji|promocja kończy się za)[\s!?.:»>→]*', value.strip(), re.I))
+
+
+def display_check(check: dict, before: str | None, after: str | None) -> dict:
+    """Correct legacy label-only conclusions for display, preserving evidence."""
+    texts = [value for value in (before, after) if value and value.strip()]
+    if check and check.get('status') in {'added', 'changed'} and texts and all(generic_offer_label(value) for value in texts):
+        observed = after or before
+        return {**check, 'status': 'label_only',
+                'summary': 'Zauważono zmianę etykiety: ' + quote(observed),
+                'note': 'Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.'}
+    return check
 
 
 def concrete(text: str) -> bool:

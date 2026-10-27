@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import copy
 import re
+from difflib import SequenceMatcher
 from urllib.parse import quote, urlsplit, urlunsplit
 
 from .extract import extract_fields
@@ -97,6 +98,8 @@ def scope_complete(document: dict) -> bool:
 
 
 def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
+    from .communication import stable_element_key
+
     old, new = before.document.get("visual", {}), after.document.get("visual", {})
     facts = []
     carousel_assets = []
@@ -111,6 +114,11 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
     if old.get("schema") == new.get("schema") == 1:
         first = {e["key"]: e for e in old.get("elements", [])}
         second = {e["key"]: e for e in new.get("elements", [])}
+        # A CSS slot can be reused when a list or carousel reorders. If either
+        # heading is still present elsewhere, the slot alone cannot establish
+        # that one message was rewritten into the other.
+        old_texts = {e.get("text") for e in first.values() if e.get("text")}
+        new_texts = {e.get("text") for e in second.values() if e.get("text")}
         compared_assets = set()
         for key in sorted(first.keys() & second.keys()):
             a, b = first[key], second[key]
@@ -180,7 +188,9 @@ def visual_description(before: Snapshot, after: Snapshot, difference) -> dict:
                         "url": b.get("url") or after.url,
                     }
                 )
-            if a.get("text") != b.get("text") and a.get("text") and b.get("text"):
+            if (a.get("text") != b.get("text") and a.get("text") and b.get("text")
+                    and a["text"] not in new_texts and b["text"] not in old_texts
+                    and (stable_element_key(key) or SequenceMatcher(None, a["text"], b["text"]).ratio() >= .65)):
                 facts.append(
                     {
                         "what": "Widoczny nagłówek: " + label,

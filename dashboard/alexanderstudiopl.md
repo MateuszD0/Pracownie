@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [Carmen Magdalena A](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://alexanderstudio.pl/)
 
-**Odczyty:** 25.10.2026 06:17 → 26.10.2026 14:58 (czas polski).
+**Odczyty:** 26.10.2026 14:58 → 27.10.2026 06:42 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,60 +24,75 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-**Odczyty:** 25.10.2026 06:17 → 26.10.2026 14:58 (czas polski).
+**Odczyty:** 26.10.2026 14:58 → 27.10.2026 06:42 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Promocja od 2026-10-27, koniec za:</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Promocja jeszcze się nie rozpoczęła.</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#countdown) |
+| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>Promocja!</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_a911a47_0) |
+| Promocje i rabaty · Opis i argumenty oferty | <strong>Promocja jeszcze się nie rozpoczęła.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 
-**Wynik sprawdzenia oferty:** Zapowiedź promocji od 2026-10-27: „Promocja od 2026-10-27, koniec za:”
+**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „Promocja!”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Promocja!
+- [Sprawdzona strona](https://alexanderstudio.pl/) · 27.10.2026 06:42 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 27.10.2026 06:42 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 27.10.2026 06:49 · odczyt poprawny
+
+—
+
+</details>
+
+**Wynik sprawdzenia oferty:** Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „Promocja od 2026-10-27, koniec za:”
 
 <details><summary>Źródła i zakres weryfikacji</summary>
 
 - [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Promocja od 2026-10-27, koniec za:
-- [Sprawdzona strona](https://alexanderstudio.pl/) · 26.10.2026 14:58 · odczyt poprawny
-- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 26.10.2026 14:58 · odczyt poprawny
-- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 26.10.2026 14:58 · odczyt poprawny
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Promocja od 2026-10-27, koniec za:
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Dostawa gratis
+- [Sprawdzona strona](https://alexanderstudio.pl/) · 27.10.2026 06:42 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 27.10.2026 06:42 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 27.10.2026 06:49 · odczyt poprawny
 
-—
-
-</details>
-
-**Wynik sprawdzenia oferty:** Zapowiedź promocji — jeszcze nieaktywna: „Promocja jeszcze się nie rozpoczęła.”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Promocja jeszcze się nie rozpoczęła.
-- [Sprawdzona strona](https://alexanderstudio.pl/) · 26.10.2026 14:58 · odczyt poprawny
-- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 26.10.2026 14:58 · odczyt poprawny
-- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 26.10.2026 14:58 · odczyt poprawny
-
-—
+To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego obowiązywania konkretnej wcześniejszej promocji.
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 25.10.2026 06:17 | Po · 26.10.2026 14:58 |
+| Przed · 26.10.2026 14:58 | Po · 27.10.2026 06:42 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- brak → Najniższa cena z 30 dni przed obniżką: 5270zł.
+- brak → 6200zł Pierwotna cena wynosiła: 6200zł. 5270zł Aktualna cena wynosi: 5270zł.
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
 ### Grafika i wygląd — różnica do obejrzenia
 
-**Zmieniła się zawartość obrazu: górna część strony**
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 25.10.2026 06:17 → 26.10.2026 14:58 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 26.10.2026 14:58 → 27.10.2026 06:42 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-1-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-1-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

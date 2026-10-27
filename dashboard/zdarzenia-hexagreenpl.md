@@ -6,25 +6,25 @@
 
 [hexagreen.pl — wszystkie odczyty](hexagreenpl.md)
 
-## Zdarzenie bde1bfb488925b5e
+## Zdarzenie 580cd2cb2837e790
 
-**W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”.**
+**Pojawił się komunikat: „projektuję domy wysoce energooszczędne”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>projektuję domy wysoce energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | Nie odnotowano w tym odczycie | <strong>projektuję domy wysoce energooszczędne</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
 
-[Strona główna](https://hexagreen.pl/)
+[Strona główna](https://hexagreen.pl/#primary)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 25.10.2026 06:28 | Po · 26.10.2026 08:12 |
+| Przed · 26.10.2026 08:12 | Po · 27.10.2026 06:55 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-4-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-15-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

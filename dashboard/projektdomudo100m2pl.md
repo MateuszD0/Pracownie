@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
@@ -16,29 +16,27 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/)
 
-**Odczyty:** 25.10.2026 06:20 → 26.10.2026 08:03 (czas polski).
+**Odczyty:** 26.10.2026 08:03 → 27.10.2026 06:46 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
-
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-
-Przykłady z zapisów:
-
-- brak → Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu?
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Odczyty:** 25.10.2026 06:20 → 26.10.2026 08:04 (czas polski).
+**Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
+
+
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

@@ -6,25 +6,73 @@
 
 [archand.pl — wszystkie odczyty](archandpl.md)
 
-## Zdarzenie 654f5758804c805a
+## Zdarzenie 0f837bb9f9d2672f
 
-**„POLECANE KATEGORIE” → „ZNAJDŹ DOM W SWOIM STYLU”.**
+**„stan surowy zamknięty :” → „stan surowy zamknięty :{stawka\_numer\_1}”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Widoczny nagłówek: ZNAJDŹ DOM W SWOIM STYLU | <strong>POLECANE</strong> <strong>KATEGORIE</strong> | <strong>ZNAJDŹ</strong> <strong>DOM W SWOIM STYLU</strong> | [Otwórz stronę](https://www.archand.pl/#section2) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | stan surowy zamknięty : | stan surowy zamknięty :<strong>{stawkanumer1}</strong> | [Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/#page3R_mcid12) |
 
-[Strona główna](https://www.archand.pl/#section2) · [Strona główna](https://www.archand.pl/)
+[Karta projektu](https://www.archand.pl/projekty/perfetto-3-modern/#page3R_mcid12)
 
-Liczba źródłowych obserwacji: 3. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 25.10.2026 06:17 | Po · 26.10.2026 08:00 |
+| Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+## Zdarzenie 33a15913ebd64e18
+
+**„stan surowy zamknięty : {procent\_stawki\_numer\_1} zł stan wykończony: {procent\_stawki\_numer\_2} zł Koszty w sys…” → „Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny.”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>stan surowy zamknięty : {procentstawkinumer1} zł stan wykończony: {procentstawkinumer2} zł </strong>Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny. | Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny. | [Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/) |
+
+[Karta projektu](https://www.archand.pl/projekty/perfetto-3-modern/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+## Zdarzenie f6de493cc9e45c41
+
+**„stawka stan surowy zamknięty : {stawka\_numer\_1} zł stan wykończony: {stawka\_numer\_2} zł” → „stawka stan surowy zamknięty :{stawka\_numer\_1} stan wykończony: {stawka\_numer\_2}”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | stawka stan surowy zamknięty : {stawkanumer1}<strong> zł</strong> stan wykończony: {stawkanumer2}<strong> zł</strong> | stawka stan surowy zamknięty :{stawkanumer1} stan wykończony: {stawkanumer2} | [Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/) |
+
+[Karta projektu](https://www.archand.pl/projekty/perfetto-3-modern/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 26.10.2026 08:00 | Po · 27.10.2026 06:42 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-27-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

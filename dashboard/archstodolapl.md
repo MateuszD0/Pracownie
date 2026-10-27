@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [STODOŁA CHALET](https://archstodola.pl/stodola-chalet-p-14.html)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archstodola.pl/)
 
-**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
+**Odczyty:** 26.10.2026 08:00 → 27.10.2026 06:42 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,7 +24,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archstodola.pl/stodola-chalet-p-14.html)
 
-**Odczyty:** 25.10.2026 06:17 → 26.10.2026 08:00 (czas polski).
+**Odczyty:** 26.10.2026 08:00 → 27.10.2026 06:43 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -35,13 +35,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- NASZA STODOŁA PARTEROWA Z GARAŻEM pow. użytkowa 117,9 m2 + pow.garażu 37,3 m2 → NASZA STODOŁA S POWIĘKSZONA pow. użytkowa 121,0 m2 + pow. garażu i kotłowni 25,5 m2
-- brak → NASZA STODOŁA pow. użytkowa 248,9 m2 + pow. garażu, kotłowni i sauny 55,3 m2
-- STODOŁA Z WIDOKIEM → brak
+- NASZA STODOŁA PARTEROWA pow. użytkowa 117,9 m2 → NASZA STODOŁA S pow. użytkowa 89,33 m2
+- brak → NASZA STODOŁA S pow. użytkowa 89,33 m2
+- NASZA STODOŁA S pow. użytkowa 89,33 m2 → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

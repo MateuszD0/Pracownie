@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | W cenie projektu | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 26.10.2026 08:04 · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | PDF · bezpłatnie | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Kosztorys inwestorski | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Bezpłatne pozwolenie na zmiany | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://skahus.pl/) |
-| slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 26.10.2026 08:04<br>[Źródło](https://www.slonecznedomy.pl/) |
+| pro-arte.pl | GRATIS | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Rzetelny kosztorys budowlany pomaga zaplanować budżet inwestycji, porównać oferty wykonawców i kontrolować wydatki na każdym etapie realizacji. Oferujemy kosztorysowanie robót budowlanych dla domów jednorodzinnych oraz innych inwestycji, a także doradztwo w zakresie szacowania i planowania kosztów budowy. Przygotowujemy kosztorysy, które wspierają inwestorów już na etapie wyboru projektu i planow… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Unikalna usługa: koncepcja kosztorysowa | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Koncepcja kosztorysowa łączy koncepcję architektoniczną z przedmiarem robót budowlanych, co pozwala już na wczesnym etapie inwestycji oszacować przewidywane koszty budowy. Dzięki temu inwestor może poznać przybliżoną wartość inwestycji, jej skalę i podstawowe parametry jeszcze przed zleceniem pełnego projektu budowlanego, który bywa kosztowny i czasochłonny. To rozwiązanie dla osób, które chcą og… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | //profesjonalne-projekty-domow.pl/\_cms/view/13/kosztorysowanie-robot-budowlanych-.html · https://static1.redcart.pl/templates/images/rotators/4962/1792417380-slider1792417380.jpg | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Poproś o bezpłatną symulację kredytową. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html) |
+| profesjonalne-projekty-domow.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html) |
+| profesjonalne-projekty-domow.pl | Poproś o kupon rabatowy | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html) |
+| projektdomudo100m2.pl | Kosztorys budowy — 30 zł | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | kosztorys | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys — 30 zł | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Dla każdego projektu możesz kupić kompletny pakiet: kosztorys inwestorski PDF, wersję uproszczoną oraz zestawienie materiałów XLS. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zobacz wszystkie kosztorysy → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Dobry projekt to nie tylko układ pomieszczeń i wygląd domu. Przed rozpoczęciem inwestycji warto wiedzieć, jakiego budżetu może wymagać budowa wybranego projektu. Dlatego dla projektów Rodzina na Swoim przygotowaliśmy kompletne pakiety kosztorysowe. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Wybierz kosztorys swojego domu → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys budowy projektu Rodzina na Swoim | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Znajdź kosztorys dla swojego projektu → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |

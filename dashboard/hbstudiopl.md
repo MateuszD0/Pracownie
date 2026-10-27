@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 25.10.2026 09:19 → 26.10.2026 14:58 (czas polski).
+**Odczyty:** 26.10.2026 14:58 → 27.10.2026 06:44 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
@@ -26,9 +26,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola… → brak
-- Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.… → brak
-- brak → Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro…
+- Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro… → brak
+- brak → 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto
+- brak → 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -38,9 +38,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 24.10.2026 09:43 → 26.10.2026 09:08 (czas polski).
+**Odczyty:** 26.10.2026 09:08 → brak odczytu (czas polski).
 
-**Luka 2 dni · brak porównania z wczoraj**
+**Brak odczytu**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

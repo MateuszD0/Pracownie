@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [Projekt domu - Dom przy Bukowej 14](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**1 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.galeriadomow.pl/)
 
-**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:02 (czas polski).
+**Odczyty:** 26.10.2026 08:02 → 27.10.2026 06:44 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,21 +24,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
-**Odczyty:** 25.10.2026 06:19 → 26.10.2026 08:02 (czas polski).
+**Odczyty:** 26.10.2026 08:02 → 27.10.2026 06:44 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 <strong>marca</strong> 2026 r. | OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 <strong>września</strong> 2026 r. | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#link) |
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-18-przed.jpg)
 
-- Automatyczna zmiana względnego określenia dnia.
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-Przykłady z zapisów:
+| Przed · 26.10.2026 08:02 | Po · 27.10.2026 06:44 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-18-przed.jpg) |
 
-- wysyłka już jutro koszty dostawy: 0,00 zł → wysyłka już dzisiaj koszty dostawy: 0,00 zł
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [MALUTKI 12 – projekt domu z poddaszem, 107 m²](https://www.domywstylu.pl/projekt-domu-malutki_12.php)
 
-**1 zmian w zapisanym zakresie.**
+**6 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,25 +16,27 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.domywstylu.pl/)
 
-**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
+**Odczyty:** 26.10.2026 08:01 → 27.10.2026 06:43 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Aksamitka dr-S</strong> | [Otwórz stronę](https://www.domywstylu.pl/#root-main) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Aksamitka dr-S</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.domywstylu.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Puszek</strong> | [Otwórz stronę](https://www.domywstylu.pl/#root-main) |
+| Zmiany wyglądu · Rozmiar: baner | <strong>145</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | <strong>86</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | [Otwórz stronę](https://www.domywstylu.pl/#root-main) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-11-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 25.10.2026 06:18 | Po · 26.10.2026 08:01 |
+| Przed · 26.10.2026 08:01 | Po · 27.10.2026 06:43 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-dowod-11-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (13) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (12) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
@@ -42,9 +44,9 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- Projekt domu MALUTKI 2 → Projekt domu SZPAK DR-S
-- Projekt domu AWOKADO 3 → Projekt domu AWOKADO 2
-- Projekt domu MALINOWY → Projekt domu ALBIT
+- Projekt domu PUSZEK → Projekt domu AWOKADO 3
+- Projekt domu MALUTKI DR-S → Projekt domu MALUTKI 2
+- Projekt domu ARIEL → Projekt domu MALINOWY
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -54,9 +56,40 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.domywstylu.pl/projekt-domu-malutki_12.php)
 
-**Odczyty:** 25.10.2026 06:18 → 26.10.2026 08:01 (czas polski).
+**Odczyty:** 26.10.2026 08:01 → 27.10.2026 06:43 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Regulamin promocji &gt;&gt;</strong> | [Otwórz stronę](https://www.domywstylu.pl/projekt-domu-malutki_12.php#project-content-right) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJI</strong> | [Otwórz stronę](https://www.domywstylu.pl/projekt-domu-malutki_12.php#clockdiv-wrapper) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA ▸ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>118 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domywstylu.pl/projekt-domu-malutki_12.php#add_to_cart_form) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „PROMOCJI”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://www.domywstylu.pl/projekt-domu-malutki_12.php): PROMOCJI
+- [Sprawdzona strona](https://www.domywstylu.pl/) · 27.10.2026 06:43 · odczyt poprawny
+- [Sprawdzona strona](https://www.domywstylu.pl/projekt-domu-malutki_12.php) · 27.10.2026 06:43 · odczyt poprawny
+- [Sprawdzona strona](https://www.domywstylu.pl/projekt-domu-malutki_12.php) · 27.10.2026 06:52 · odczyt poprawny
+- [Sprawdzona strona](https://www.domywstylu.pl/aktualnosci/niezawodnosc-i-komfort-w-dobrej-cenie-sprawdz-promocje-roku-2026-hrmann-962.php) · 27.10.2026 06:52 · odczyt poprawny
+- [Sprawdzona strona](https://www.domywstylu.pl/dlaczego-warto-wybrac-projekt-domywstylu.html) · 27.10.2026 06:52 · odczyt poprawny
+
+Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-4-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 26.10.2026 08:01 | Po · 27.10.2026 06:43 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-dowod-4-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

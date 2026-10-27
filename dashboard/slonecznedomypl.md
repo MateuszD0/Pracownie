@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-25 → 2026-10-26**
+**2026-10-26 → 2026-10-27**
 
 **Ten sam projekt:** [Sava B](https://www.slonecznedomy.pl/projekty/sava-b)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.slonecznedomy.pl/)
 
-**Odczyty:** 25.10.2026 06:21 → 26.10.2026 08:04 (czas polski).
+**Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -24,24 +24,24 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.slonecznedomy.pl/projekty/sava-b)
 
-**Odczyty:** 25.10.2026 06:21 → 26.10.2026 08:04 (czas polski).
+**Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (21) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → PROJEKT DOMU SAVA B
-- PROJEKT DOMU SAVA B → brak
-- PROJEKT DOMU SAVA B (Projekty domów z poddaszem użytkowym) → brak
+- brak → PROJEKT DOMU SAVA B (Projekty domów z poddaszem użytkowym)
+- brak → PROJEKT DOMU SAVA B (Projekty domów z poddaszem użytkowym)
+- brak → (Projekty domów z poddaszem użytkowym)
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-26/2026-10-26-2026-10-26t194016.922713-0000-format-984f447a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
 

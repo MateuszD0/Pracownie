@@ -6,7 +6,7 @@
 
 **Porównano obie strony: 60/66 pracowni.** · **6 wymaga uwagi.**
 
-<!-- delivery:2026-10-27 -->Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-10-27 -->Pierwsza publikacja: 07:11 — przed 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
 Odczyty: 27.10.2026 06:42 – 27.10.2026 06:47, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektydomow.redcart.pl | Poproś o bezpłatną symulację kredytową. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
-| projektydomow.redcart.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
-| projektyka.pl | W PROMOCJI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/) |
-| projektyka.pl | Pakiet szamba szczelnego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
-| projektyka.pl | Kosztorys inwestorski | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
-| projektyka.pl | Dziennik budowy 1,- Tablica budowy 1,- Projekt wentylacji mechanicznej 1200,- Projekt pompy ciepła 800,- Kotłownia na paliwo stałe 550,- Pakiet szamba szczelnego 300,- Przydomowa oczyszczalnia ścieków 500,- Kosztorys inwestorski 550,- Dodatkowy papierowy egzemplarz projektu 600,- | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/) · [Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 2d 17:12:23 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/) |
-| projektyzwizja.pl | CENA PROMOCYJNA | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Promocja kończy się: 29.10.2026 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | BEZPŁATNA ANALIZA DZIAŁKI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Sprawdzimy bezpłatnie, czy Twoje zmiany są możliwe i proste do wprowadzenia przez lokalnego projektanta adaptującego. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Poza minimalnymi wymiarami działki oraz odpowiednim nasłonecznieniem istotne są również przypisane do nieruchomości warunki zabudowy lub ograniczenia określone w Miejscowym Planie Zagospodarowania Przestrzennego. Jeśli masz wątpliwości, oferujemy bezpłatną analizę warunków zabudowy. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | ZAMÓW BEZPŁATNĄ ANALIZĘ | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Kosztorys | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Szacunkowy koszt do stanu surowego zamkniętego, obliczony na podstawie rzeczywistych kosztorysów naszych projektów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | POBIERZ UPROSZCZONY KOSZTORYS W SYSTEMIE GOSPODARCZYM | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | KOSZTORYS (450 ZŁ) | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | W celu poprawienia energooszczędności budynku oferujemy dodatkowe opracowania instalacyjne. Dodatkowe opracowania możesz zamówić łącznie z projektem lub oddzielnie korzystając z formularza zamówienia projektu. Jeżeli któryś z dodatków ma podany dłuższy czas realizacji niż projekt domu to wysyłamy go w określonym terminie oddzielną, bezpłatną przesyłką. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Bezpłatną zgodę na zmiany | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Sprawdź informacje o technologii budowy, zawartości dokumentacji, warunkach zabudowy, zmianach i adaptacji, kosztorysach oraz zasadach zakupu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Czy dom Idealny M3 jest energooszczędny? Tak, projekt Idealny M3 został zaprojektowany z myślą o maksymalnej energooszczędności. W cenie projektu uwzględniono wentylację mechaniczną z rekuperatorem oraz kolektory słoneczne, które zapewniają wysoki komfort cieplny i ograniczają zużycie energii. Dodatkowo, na etapie adaptacji możesz zdecydować się na takie rozwiązania jak ogrzewanie podłogowe, pomp… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Projekt energooszczędny z rekuperacją w standardzie i szeroką opcją dodatków poprawiających bilans energetyczny. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 2d 17:12:13 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| sej-pro.pl | i bądź na bieżąco ze wszystkimi nowościami i promocjami. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 15% rabatu na 1 dzień zakupów 10% rabatu przez 12 mies. 10% zwrotu na kartę OBI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | rabatu na 1 dzień zakupów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | rabatu przez 12 mies. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
+| slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | 10% RABATU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | po uruchomieniu kredytu na budowę domu, dokonamy częściowego zwrotu kosztów zakupu naszego projektu na zasadach opisanych w Regulaminie promocji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | GRATISY DO PROJEKTU: | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |

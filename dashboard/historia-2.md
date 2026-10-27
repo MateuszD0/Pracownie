@@ -30,6 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kbprojekt.pl · 2026-10-27 | „\| 1,2 tys. opinii \| stan na: 19.10.2026” → „\| 1,2 tys. opinii \| stan na: 26.10.2026”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-27 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-10-27 | „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 marca 2026 r.” → „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 września 2026 r.”. | Zaobserwowana zmiana |
-| extradom.pl · 2026-10-27 | Nowy dodatek lub pakiet: „Karta Allegro 200 zł gratis” | Sprawdzono w serwisie |
-| extradom.pl · 2026-10-27 | Pojawił się komunikat: „KUP W PROMOCJI”. | Zaobserwowana zmiana |
-| extradom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Dom przyszłości: najlepszy projekt domu energooszczędnego i ekologicznego. Wyniki plebiscytu Extraprojekt 2027”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z sypialnią na parterze”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-27 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |

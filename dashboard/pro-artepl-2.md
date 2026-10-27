@@ -32,7 +32,7 @@ Strony porównania: [1](pro-artepl.md) · **2**
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t075757.581196-0000-1981dd81-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t080734.848892-0000-format-ff067ba4-porownanie.html)
 
 Strony porównania: [1](pro-artepl.md) · **2**
 

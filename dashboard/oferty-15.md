@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mtmstyl.com.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Kosztorys budowlany uwzględnia wyłącznie część budowlaną robót – bez instalacji. Instalacje zostały uwzględnione jedynie wskaźnikowo w tabelach elementów zapisanych w formacie programu Excel. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Bezpłatny PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bezpłatny | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Dodatki w DOBREJ CENIE | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Klasa B640 Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki Cena: 8500 zł | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Dopuszczamy zmiany zastosowanych materiałów, zmianę funkcji domu jak również gabarytów budynku. Do projektu dołączona jest bezpłatna zgoda Autorów domu na wprowadzenie dowolnych zmian. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
+| penthus.pl | Kosztorys | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.penthus.pl/projects/hus-167) |

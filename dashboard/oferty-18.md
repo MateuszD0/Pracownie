@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pro-arte.pl | GRATIS | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
-| profesjonalne-projekty-domow.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Rzetelny kosztorys budowlany pomaga zaplanować budżet inwestycji, porównać oferty wykonawców i kontrolować wydatki na każdym etapie realizacji. Oferujemy kosztorysowanie robót budowlanych dla domów jednorodzinnych oraz innych inwestycji, a także doradztwo w zakresie szacowania i planowania kosztów budowy. Przygotowujemy kosztorysy, które wspierają inwestorów już na etapie wyboru projektu i planow… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Unikalna usługa: koncepcja kosztorysowa | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Koncepcja kosztorysowa łączy koncepcję architektoniczną z przedmiarem robót budowlanych, co pozwala już na wczesnym etapie inwestycji oszacować przewidywane koszty budowy. Dzięki temu inwestor może poznać przybliżoną wartość inwestycji, jej skalę i podstawowe parametry jeszcze przed zleceniem pełnego projektu budowlanego, który bywa kosztowny i czasochłonny. To rozwiązanie dla osób, które chcą og… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Do projektów dostępne są pakiety kosztorysowe, które pomagają lepiej przygotować się do budowy i porównać różne warianty jeszcze przed rozpoczęciem inwestycji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zobacz kosztorysy → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekt, warianty, kosztorys, zdjęcia z realizacji i kolejne informacje możesz sprawdzić bez konieczności szukania ich w wielu niezależnych serwisach. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |

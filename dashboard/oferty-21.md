@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyzwizja.pl | Projekt energooszczędny z rekuperacją w standardzie i szeroką opcją dodatków poprawiających bilans energetyczny. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 2d 17:12:13 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| sej-pro.pl | i bądź na bieżąco ze wszystkimi nowościami i promocjami. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | W cenie projektu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | Extra dodatki i rabaty Pakiet dodatków o wartości 4100 zł za 1 zł i rabaty do marketów budowlanych. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | 15% rabatu na 1 dzień zakupów 10% rabatu przez 12 mies. 10% zwrotu na kartę OBI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | rabatu na 1 dzień zakupów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | rabatu przez 12 mies. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |

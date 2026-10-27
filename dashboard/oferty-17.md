@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pollio.pl | GRATIS | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Zamów bezpłatną wycenę budowy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Przemyślany podział na strefę dzienną, sypialną oraz gospodarczą. Możliwość bezpłatnych modyfikacji ścian działowych. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Standardy realizacji i pakiety budowy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Kierownik budowy i dziennik budowy w cenie | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego — nasi architekci i inżynierowie bezpłatnie uwzględnią Twoje wytyczne w projekcie i kosztorysie. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pro-arte.pl | KOSZT WYSYŁKI W CENIE PROJEKTU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | KOSZTORYS | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | Kosztorys orientacyjny brutto | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| pro-arte.pl | GRATIS | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
+| profesjonalne-projekty-domow.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |

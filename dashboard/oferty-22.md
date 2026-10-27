@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | rabatu na 1 dzień zakupów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | rabatu przez 12 mies. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
 | skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
 | skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
 | slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | W projekcie zaprojektowano wentylację grawitacyjną. Możliwość zmiany na wentylację mechaniczną z rekuperatorem po zakupie dodatku do projektu (patrz dodatki do projektu). | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | sprytnaoaza.pl | Sprytny projekt: Dom w cenie mieszkania | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://sprytnaoaza.pl/) |
+| sprytnaoaza.pl | Samodzielnie doświadczyliśmy całego procesu: od załatwiania pozwoleń po sprzątanie po parapetówce. Dzielimy się naszymi przygodami w serii filmów „Dom w cenie mieszkania” na kanale YouTube, pokazując każdy etap realizacji projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://sprytnaoaza.pl/) |
+| sprytnaoaza.pl | Ulotka z dedykowaną promocją TYLKO dla tych, którzy zakupili projekt i będą budować się z DPE | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://sprytnaoaza.pl/products/projekt-sprytna-oaza) |
+| studioatrium.pl | Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.studioatrium.pl/) |

@@ -8,8 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PAKIET PRO”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały dodatkowe”. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | „Dla kogo jest ten pakiet?” → „Zobacz, jak może wyglądać gotowy dom 70 m²”. | Zaobserwowana zmiana |
 | sprytnaoaza.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-27 | „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026” → „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Zaobserwowana zmiana |

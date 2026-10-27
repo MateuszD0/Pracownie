@@ -16,23 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 26.10.2026 14:58 → 27.10.2026 08:58 (czas polski).
+**Odczyty:** 26.10.2026 14:58 → 27.10.2026 09:53 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
-
-<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-
-Przykłady z zapisów:
-
-- brak → materiały wykończeniowe: posadzki, tynki, dachówki, izolacje cieplne i przeciwwilgociowe, przy zachowaniu niezbędnych parametrów wytrzymało…
-- brak → przenikalności cieplnej i obowiązujących norm budowlanych;
-- Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro… → brak
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
@@ -44,5 +30,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t080734.848892-0000-format-ff067ba4-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t085337.866826-0000-fb6b0761-porownanie.html)
 

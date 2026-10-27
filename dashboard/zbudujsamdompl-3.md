@@ -36,7 +36,7 @@ Pozostałe strony tego porównania zawierają 24 różnic tej strony; użyj nume
 | Zmiany wyglądu · Widoczny nagłówek: Otrzymujesz komplet instrukcji budowy | <strong>Zobacz,</strong> <strong>jak</strong> <strong>może</strong> <strong>wyglądać gotowy dom 70 m²</strong> | <strong>Otrzymujesz</strong> <strong>komplet</strong> <strong>instrukcji</strong> <strong>budowy</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Układ · Otrzymujesz komplet instrukcji budowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>886 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t080734.848892-0000-format-ff067ba4-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t085337.866826-0000-fb6b0761-porownanie.html)
 
 Strony porównania: [1](zbudujsamdompl.md) · [2](zbudujsamdompl-2.md) · **3**
 

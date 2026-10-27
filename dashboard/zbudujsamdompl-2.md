@@ -57,7 +57,7 @@ Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md)
 | Zmiany wyglądu · Położenie i rozmiar: Zobacz ten projekt w rzeczywistości (140 px w prawo, 460 px w dół) | <strong>1060</strong> × 38 px; położenie: <strong>110</strong> px od lewej, <strong>6837</strong> px od góry | <strong>780</strong> × 38 px; położenie: <strong>250</strong> px od lewej, <strong>7297</strong> px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Położenie i rozmiar: Zobacz, jak może wyglądać gotowy dom 70 m² (150 px w prawo, 68 px w dół) | <strong>1060</strong> × 38 px; położenie: <strong>110</strong> px od lewej, <strong>1978</strong> px od góry | <strong>760</strong> × 38 px; położenie: <strong>260</strong> px od lewej, <strong>2046</strong> px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
 
 Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md)
 

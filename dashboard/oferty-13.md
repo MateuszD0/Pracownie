@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mtmstyl.com.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Kosztorys budowlany uwzględnia wyłącznie część budowlaną robót – bez instalacji. Instalacje zostały uwzględnione jedynie wskaźnikowo w tabelach elementów zapisanych w formacie programu Excel. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Bezpłatny PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Bezpłatny | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Dodatki w DOBREJ CENIE | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Kosztorys budowlany | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Budowa domu - bezpłatna wycena firmy Wolf Haus | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | BEZPŁATNA WYCENA | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Najniższa cena 30 dni przed promocją 5649 zł | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Do końca PROMOCJI pozostało | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45 · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) · [Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| mgprojekt.com.pl | Koszt wysyłki: gratis | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet klimatyzacja w domu | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet odkurzacz centralny | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet płaszcz wodny | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet energooszczędny | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| modernhouse-projekty.pl | Do każdego zamówienia dołączamy komplet praktycznych dodatków, które ułatwią Ci start budowy: elegancką teczkę na dokumentację, profesjonalną tablicę informacyjną wymaganą na placu budowy oraz darmową dostawę kurierem InPost na terenie całej Polski. | Obecna w zapisie · 27.10.2026 14:15 · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kupując projekt w Modern House – otrzymujesz bezpłatny dostęp do wiedzy i doświadczenia jego autora. Masz pytania, wątpliwości lub potrzebujesz wsparcia? Skontaktuj się bezpośrednio z projektantem. Służymy pomocą zarówno przed zakupem, jak i podczas adaptacji, budowy czy ewentualnych zmian – jesteśmy z Tobą przez cały proces. | Obecna w zapisie · 27.10.2026 14:15 · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Idea „mniej znaczy więcej” wymaga od nas dyscypliny oraz świadomości. Intencjonalnie rezygnując ze zbędnych elementów, unikamy taniej efektowności. W zamian, zbliżamy się do rzeczywistego piękna, które nie potrzebuje żadnych dodatków ani ozdób. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/) |
+| modernhouse-projekty.pl | Każdy gotowy projekt domu zawiera katalog dopuszczalnych zmiany w projekcie niewymagających dodatkowej zgody projektanta. Jeżeli chcesz wprowadzić zmiany, których nie ma na poniższej liście skontaktuj się z nami a wystawimy Ci bezpłatnie dodatkową zgodę na zmiany. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/) |
+| modernhouse-projekty.pl | Aby skorzystać ze zwrotu lub wymiany, należy w wymaganym terminie poinformować nas o swojej decyzji drogą mailową, a następnie postępować zgodnie z procedurą opisaną w regulaminie oraz formularzu zwrotu lub wymiany. Kosztorysy przekazywane w formie elektronicznej nie podlegają zwrotowi. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/) |
+| modernhouse-projekty.pl | Zyskaj 5% rabatu w 2 minuty | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Wszystko, czego potrzebujesz – w cenie projektu! | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Sprawdzimy to dla Ciebie bezpłatnie! | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

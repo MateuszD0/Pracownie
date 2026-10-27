@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domoweklimaty.pl | , których wielkość, nieskomplikowana forma i prostota konstrukcji dają możliwość ich realizacji stosunkowo niewielkim kosztem. Zaletą naszych projektów domów jest również porównywalność kosztorysów. Szacunkowe koszty budowy domu można porównać w odniesieniu do różnych projektów lub w obrębie jednej koncepcji, ale przy korzystaniu z różnych metod budowy. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Ponadto oferujemy atrakcyjny pakiet dodatków do projektu. Do każdego projektu dołączamy: | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Ponadto oferujemy atrakcyjny pakiet | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | dodatków do projektu | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Na życzenie bezpłatnie proponujemy także: | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Gratis | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Pakiet dodatków i gratisów tylko dla klientów bezpośrednich | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | otowych, dostępnych na stronie materiałów promocyjnych | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Zamów kosztorys | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | Jak liczymy kosztorysy? | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | KOSZTORYS RAZEM | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | Co to jest kosztorys i jak jest on liczony? | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | ATRAKCYJNE RABATY | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | BEZPŁATNA, SZYBKA WYSYŁKA | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| domoweklimaty.pl | Kupujący u nas, otrzymujesz rabat na nasze projekty garaży, altan czy ogrodzeń. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
+| dompasja.pl | Uzyskaj na bieżąco wszystkie nowości Podaj nam swój adres e-mail, a będziesz na bieżąco informowany o najnowszych ofertach i promocjach. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://dompasja.pl/) |
+| dompasja.pl | Podaj nam swój adres e-mail, a będziesz na bieżąco informowany o najnowszych ofertach i promocjach. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://dompasja.pl/) |
+| dompasja.pl | Kosztorys: | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://dompasja.pl/dompasja-61b.html) |
+| dompasja.pl | Kosztorys | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://dompasja.pl/dompasja-61b.html) |
+| domy21.pl | Bezpłatne wyceny, polecane technologie, energooszczędne rozwiązania. | Obecna w zapisie · 27.10.2026 14:14 · 27.10.2026 14:15<br>[Źródło](https://domy21.pl/) · [Źródło](https://domy21.pl/projekty/stodoly/) |
+| domy21.pl | Odkryj najpopularniejsze etui na iPhone’a 13! Podnieś poziom swojego telefonu dzięki coque iphone 13 Le Plus Populaire, elegancki i trwały dodatek łączący styl i ochronę. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://domy21.pl/projekty/stodoly/) |
 | domydlanas.pl | https://domydlanas.pl/images/rabat-desktop.png | Obecna w zapisie · 27.10.2026 06:43 · 27.10.2026 06:43<br>[Źródło](https://domydlanas.pl/) · [Źródło](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/) |
 | domywstylu.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
-| domywstylu.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
-| domywstylu.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
-| domywstylu.pl | PROMOCJI | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | GRATIS ! | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Bezpłatna wysyłka | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Kosztorys budowlany uwzględnia wyłącznie część budowlaną robót – bez instalacji. Instalacje zostały uwzględnione jedynie wskaźnikowo w tabelach elementów zapisanych w formacie programu Excel. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Bezpłatny PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Bezpłatny | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | PAKIET DODATKÓW | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Dodatki w DOBREJ CENIE | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Kosztorys budowlany | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Budowa domu - bezpłatna wycena firmy Wolf Haus | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | BEZPŁATNA WYCENA | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Najniższa cena 30 dni przed promocją 5649 zł | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |

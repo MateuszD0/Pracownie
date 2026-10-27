@@ -4,11 +4,11 @@
 
 **2026-10-26 → 2026-10-27** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 60/112 pracowni.** · **47 oczekuje na pierwszy skan.** · **Pozostałe braki: 5.**
+**Porównano obie strony: 60/112 pracowni.** · **52 wymaga uwagi.**
 
 <!-- delivery:2026-10-27 -->Pierwsza publikacja: 07:11 — przed 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Odczyty: 27.10.2026 06:42 – 27.10.2026 09:53, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 27.10.2026 06:42 – 27.10.2026 14:16, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 [Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · [Historia dni](https://github.com/MateuszD0/Pracownie/blob/main/RAPORTY.md)
 
@@ -117,60 +117,60 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md)
 
 ## Braki porównania
 
-Bez pełnego porównania: **52**, w tym **47 oczekuje na pierwszy skan**. Brak porównania nie oznacza „bez zmian”.
+**52 pracowni wymaga uwagi.** Brak porównania nie oznacza „bez zmian”.
 
+- **3ddom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **agrobisp.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **ajrstudio.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **archbb.pl**: Strona główna — Przejściowy błąd HTTP 500; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **archido.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **archiportal.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **architeka.pl**: Strona główna — Przekierowanie poza domenę: budujdom.pl; dodaj allowed\_hosts po sprawdzeniu; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **artinex-projekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **birylo.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **coolhouses.studio**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domato.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domek.net.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **domideaprojekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **dompp.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domtodom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domy21.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domyciekawe.pl**: Strona główna — Page.goto: net::ERR\_NAME\_NOT\_RESOLVED at http://domyciekawe.pl/; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **domyigaraze.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **domywzieleni.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **domyzmieta.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **drewnex.biz**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **ecodomy.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **ekoarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **faberarchitektura.com**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **fortecaklimatyczna.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **gutarchitektura.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **hbstudio.pl**: Karta projektu — Witryna ogranicza liczbę odczytów (429).
+- **hgatelier.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **homekoncept.pl**: Strona główna — Przekierowanie poza domenę: homekoncept.com.pl; dodaj allowed\_hosts po sprawdzeniu; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **horyzont.com**: Strona główna — Page.goto: net::ERR\_HTTP2\_PROTOCOL\_ERROR at http://www.horyzont.com/; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **housecollection.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **improjekty.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **kowalscypracownia.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **kupprojekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **lk-projekt.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **3ddom.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **agrobisp.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **ajrstudio.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **archbb.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **archiportal.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **architeka.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **artinex-projekt.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **birylo.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **coolhouses.studio**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domato.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domek.net.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domideaprojekt.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domtodom.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domy21.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domyciekawe.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domyigaraze.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domywzieleni.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **domyzmieta.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **drewnex.biz**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **ecodomy.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **ekoarchitekci.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **faberarchitektura.com**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **fortecaklimatyczna.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **gutarchitektura.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **hgatelier.com.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **homekoncept.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **horyzont.com**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **improjekty.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **kowalscypracownia.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **kupprojekt.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **machonarchitekci.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **mjs-domy.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **modernhouse-projekty.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **nanostudio.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **opprojekt.com.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **opusdom.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **opushome.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **partero.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **pracowniaprojektowa.info**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **projekty.nordarchitekci.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **projektydomowzbali.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **projektymalachit.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **projektyprestige.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **space4u.design**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **studioarchitektury.com.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **tipitom.space**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
-- **witekarchitekci.pl**: Strona główna — Nowa pracownia — pierwszy skan jeszcze niewykonany.; Karta projektu — Nowa pracownia — pierwszy skan jeszcze niewykonany.
+- **machonarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **mjs-domy.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **modernhouse-projekty.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **nanostudio.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **opprojekt.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **opusdom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **opushome.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **partero.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **pracowniaprojektowa.info**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **projekty.nordarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **projektydomowzbali.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **projektymalachit.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **projektyprestige.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **space4u.design**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **studioarchitektury.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **tipitom.space**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **witekarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
 
 
 Podział według pełnej listy współpracujących pracowni z 2026-10-27.
@@ -202,7 +202,7 @@ Te pracownie nie mają stron WWW; są w wykazie partnerów i nie są skanowane.
 
 </details>
 
-Komunikaty ofert w ostatnim odczycie (574): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md)
+Komunikaty ofert w ostatnim odczycie (640): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md)
 
 Historia zdarzeń (70): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md)
 
@@ -217,6 +217,7 @@ Historia zdarzeń (70): [1](dashboard/historia-1.md) · [2](dashboard/historia-2
 - [27.10.2026 09:01](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t075757.581196-0000-1981dd81-porownanie.html)
 - [27.10.2026 09:10](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t080734.848892-0000-format-ff067ba4-porownanie.html)
 - [27.10.2026 09:58](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t085337.866826-0000-fb6b0761-porownanie.html)
+- [27.10.2026 14:05](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-porownanie.html)
 
 </details>
 
@@ -241,13 +242,13 @@ różnice obrazu bez jednoznacznego opisu: **8 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-1-po.jpg) |
-| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-34-po.jpg) |
-| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-35-po.jpg) |
-| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-37-po.jpg) |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-38-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-1-po.jpg) |
+| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-34-po.jpg) |
+| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-35-po.jpg) |
+| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-37-po.jpg) |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-38-po.jpg) |
 | [eg-domy.pl](dashboard/eg-domypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-dowod-40-po.jpg) |
+| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-40-po.jpg) |
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
@@ -277,71 +278,71 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [projektyka.pl](dashboard/projektykapl.md) · **PKT** | 1 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
 | [projektyzwizja.pl](dashboard/projektyzwizjapl.md) · **WAW** | 2 zmian · Promocje i rabaty, Komunikacja sprzedażowa | 4 zmian · Promocje i rabaty, Komunikacja sprzedażowa |
 | [sej-pro.pl](dashboard/sej-propl.md) · **ELW** | 6 zmian · Komunikacja sprzedażowa | 1 zmian · Promocje i rabaty |
-| [3ddom.pl](dashboard/3ddompl.md) · **WBF** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [agrobisp.pl](dashboard/agrobisppl.md) · **KRA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [ajrstudio.pl](dashboard/ajrstudiopl.md) · **WOJ** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [archbb.pl](dashboard/archbbpl.md) · **BBH** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [3ddom.pl](dashboard/3ddompl.md) · **WBF** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [agrobisp.pl](dashboard/agrobisppl.md) · **KRA** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [ajrstudio.pl](dashboard/ajrstudiopl.md) · **WOJ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [archbb.pl](dashboard/archbbpl.md) · **BBH** | Brak odczytu · Przejściowy błąd HTTP 500 | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [archi-projekt.com.pl](dashboard/archi-projektcompl.md) · **LUA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archipelag.pl](dashboard/archipelagpl.md) · **WRC** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [archiportal.pl](dashboard/archiportalpl.md) · **WOE** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [architeka.pl](dashboard/architekapl.md) · **WBE** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [archiportal.pl](dashboard/archiportalpl.md) · **WOE** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [architeka.pl](dashboard/architekapl.md) · **WBE** | Brak odczytu · Przekierowanie poza domenę: budujdom.pl; dodaj allowed\_hosts po sprawdzeniu | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [archstodola.pl](dashboard/archstodolapl.md) · **KRY** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [artinex-projekt.pl](dashboard/artinex-projektpl.md) · **WAI** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [coolhouses.studio](dashboard/coolhousesstudio.md) · **POZ** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [domato.pl](dashboard/domatopl.md) · **KZB** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [artinex-projekt.pl](dashboard/artinex-projektpl.md) · **WAI** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [coolhouses.studio](dashboard/coolhousesstudio.md) · **POZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domato.pl](dashboard/domatopl.md) · **KZB** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) · **WRF** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domenadom.pl](dashboard/domenadompl.md) · **WRW** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [dominanta.pl](dashboard/dominantapl.md) · **BSB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [dompp.pl](dashboard/dompppl.md) · **WRG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [domy21.pl](dashboard/domy21pl.md) · **WSA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domy21.pl](dashboard/domy21pl.md) · **WSA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Brak odczytu · Page.goto: net::ERR\_NAME\_NOT\_RESOLVED at http://domyciekawe.pl/ | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domydlanas.pl](dashboard/domydlanaspl.md) · **KKG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [domyigaraze.pl](dashboard/domyigarazepl.md) · **PKA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [domywzieleni.pl](dashboard/domywzielenipl.md) · **KKF** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [domyigaraze.pl](dashboard/domyigarazepl.md) · **PKA** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [domywzieleni.pl](dashboard/domywzielenipl.md) · **KKF** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyzweranda.pl](dashboard/domyzwerandapl.md) · **DZW** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [ecodomy.pl](dashboard/ecodomypl.md) · **WOZ** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [ekoarchitekci.pl](dashboard/ekoarchitekcipl.md) · **KKE** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [faberarchitektura.com](dashboard/faberarchitekturacom.md) · **LUC** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md) · **LOB** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [gutarchitektura.pl](dashboard/gutarchitekturapl.md) · **KNT** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [hgatelier.com.pl](dashboard/hgateliercompl.md) · **KRM** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [homekoncept.pl](dashboard/homekonceptpl.md) · **KRX** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [horyzont.com](dashboard/horyzontcom.md) · **WRD** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [ecodomy.pl](dashboard/ecodomypl.md) · **WOZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [ekoarchitekci.pl](dashboard/ekoarchitekcipl.md) · **KKE** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [faberarchitektura.com](dashboard/faberarchitekturacom.md) · **LUC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md) · **LOB** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [gutarchitektura.pl](dashboard/gutarchitekturapl.md) · **KNT** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [hgatelier.com.pl](dashboard/hgateliercompl.md) · **KRM** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [homekoncept.pl](dashboard/homekonceptpl.md) · **KRX** | Brak odczytu · Przekierowanie poza domenę: homekoncept.com.pl; dodaj allowed\_hosts po sprawdzeniu | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [horyzont.com](dashboard/horyzontcom.md) · **WRD** | Brak odczytu · Page.goto: net::ERR\_HTTP2\_PROTOCOL\_ERROR at http://www.horyzont.com/ | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [housecollection.pl](dashboard/housecollectionpl.md) · **BHC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [improjekty.pl](dashboard/improjektypl.md) · **SLO** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [kupprojekt.pl](dashboard/kupprojektpl.md) · **PRA** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [improjekty.pl](dashboard/improjektypl.md) · **SLO** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [kupprojekt.pl](dashboard/kupprojektpl.md) · **PRA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [lipinscy.pl](dashboard/lipinscypl.md) · **WOB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [lk-projekt.pl](dashboard/lk-projektpl.md) · **LKP** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [machonarchitekci.pl](dashboard/machonarchitekcipl.md) · **SBM** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [machonarchitekci.pl](dashboard/machonarchitekcipl.md) · **SBM** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [partero.pl](dashboard/parteropl.md) · **ZGE** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [partero.pl](dashboard/parteropl.md) · **ZGE** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [planujdom.pl](dashboard/planujdompl.md) · **ABP** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [postawdom24.pl](dashboard/postawdom24pl.md) · **JGC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [pracowniaprojektowa.info](dashboard/pracowniaprojektowainfo.md) · **WWC** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md) · **GDH** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md) · **SLU** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [projektymalachit.pl](dashboard/projektymalachitpl.md) · **SLS** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [projektyprestige.pl](dashboard/projektyprestigepl.md) · **BBG** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [space4u.design](dashboard/space4udesign.md) · **BBI** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
-| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [pracowniaprojektowa.info](dashboard/pracowniaprojektowainfo.md) · **WWC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md) · **GDH** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md) · **SLU** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [projektymalachit.pl](dashboard/projektymalachitpl.md) · **SLS** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [projektyprestige.pl](dashboard/projektyprestigepl.md) · **BBG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [space4u.design](dashboard/space4udesign.md) · **BBI** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [studiokrajobrazy.pl](dashboard/studiokrajobrazypl.md) · **WRN** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [uarchitekta.pl](dashboard/uarchitektapl.md) · **WCB** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. | Oczekuje na pierwszy skan · Nowa pracownia — pierwszy skan jeszcze niewykonany. |
+| [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | **Niewspółpracujące z nami** · 32 serwisów | | |
 | [1001studio.pl](dashboard/1001studiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | 1 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |

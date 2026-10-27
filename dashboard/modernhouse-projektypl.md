@@ -6,7 +6,7 @@
 
 **2026-10-26 → 2026-10-27**
 
-**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
+**Ten sam projekt:** [NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.modernhouse-projekty.pl/)
+[Otwórz stronę źródłową](https://modernhouse-projekty.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 27.10.2026 14:15 (czas polski).
 
-**Oczekuje na pierwszy skan**
-
-Powód braku odczytu: Nowa pracownia — pierwszy skan jeszcze niewykonany.
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
-Adres karty zostanie podany po poprawnym wyborze projektu.
+[Otwórz stronę źródłową](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 27.10.2026 14:15 (czas polski).
 
-**Oczekuje na pierwszy skan**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Nowa pracownia — pierwszy skan jeszcze niewykonany.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
 

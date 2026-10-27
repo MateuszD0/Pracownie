@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów 10% rabatu przez 12 mies. 10% zwrotu na kartę OBI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | rabatu na 1 dzień zakupów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | rabatu przez 12 mies. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://skahus.pl/) |
-| slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | 10% RABATU | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | po uruchomieniu kredytu na budowę domu, dokonamy częściowego zwrotu kosztów zakupu naszego projektu na zasadach opisanych w Regulaminie promocji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | GRATISY DO PROJEKTU: | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| projektdomudo100m2.pl | Dla domu RNS100C z dachem czterospadowym dostępny jest osobny kosztorys uwzględniający materiały i zakres prac właściwy dla tego projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | pełny kosztorys inwestorski PDF | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | kosztorys uproszczony PDF | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | Kup kosztorys RNS100C → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektstodola.pl | W CENIE PROJEKTU ZYSKUJESZ: | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
+| projektstodola.pl | BEZPŁATNA DOSTAWA KURIEREM | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
+| projektstodola.pl | KOSZTORYS | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
+| projekty.nordarchitekci.pl | Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Pobierz bezpłatnie | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Dane techniczne i kosztorys | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Kosztorys | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Dodatkowa opcja Dostępność Cena BIOZ Natychmiast BEZPŁATNIE Charakterystyka energetyczna Natychmiast BEZPŁATNIE Zgoda na zmiany w projekcie Natychmiast BEZPŁATNIE | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projektydomow.redcart.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | Rzetelny kosztorys budowlany pomaga zaplanować budżet inwestycji, porównać oferty wykonawców i kontrolować wydatki na każdym etapie realizacji. Oferujemy kosztorysowanie robót budowlanych dla domów jednorodzinnych oraz innych inwestycji, a także doradztwo w zakresie szacowania i planowania kosztów budowy. Przygotowujemy kosztorysy, które wspierają inwestorów już na etapie wyboru projektu i planow… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | Unikalna usługa: koncepcja kosztorysowa | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | Koncepcja kosztorysowa łączy koncepcję architektoniczną z przedmiarem robót budowlanych, co pozwala już na wczesnym etapie inwestycji oszacować przewidywane koszty budowy. Dzięki temu inwestor może poznać przybliżoną wartość inwestycji, jej skalę i podstawowe parametry jeszcze przed zleceniem pełnego projektu budowlanego, który bywa kosztowny i czasochłonny. To rozwiązanie dla osób, które chcą og… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | //profesjonalne-projekty-domow.pl/\_cms/view/13/kosztorysowanie-robot-budowlanych-.html · https://static1.redcart.pl/templates/images/rotators/4962/1792417380-slider1792417380.jpg | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) |
+| projektydomow.redcart.pl | Poproś o bezpłatną symulację kredytową. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
+| projektydomow.redcart.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
+| projektydomowzbali.pl | Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat oraz dodatki do projektu (dziennik budowy, tablica budowy). | Obecna w zapisie · 27.10.2026 14:15 · 27.10.2026 14:15<br>[Źródło](https://www.projektydomowzbali.pl/) · [Źródło](https://www.projektydomowzbali.pl/projekty-domow-calorocznych/169,l-188) |
+| projektyka.pl | W PROMOCJI | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/) |
+| projektyka.pl | Pakiet szamba szczelnego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
+| projektyka.pl | Kosztorys inwestorski | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
+| projektyka.pl | Dziennik budowy 1,- Tablica budowy 1,- Projekt wentylacji mechanicznej 1200,- Projekt pompy ciepła 800,- Kotłownia na paliwo stałe 550,- Pakiet szamba szczelnego 300,- Przydomowa oczyszczalnia ścieków 500,- Kosztorys inwestorski 550,- Dodatkowy papierowy egzemplarz projektu 600,- | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |

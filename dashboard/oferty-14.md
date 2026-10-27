@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Klasa B640 Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki Cena: 8500 zł | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Dopuszczamy zmiany zastosowanych materiałów, zmianę funkcji domu jak również gabarytów budynku. Do projektu dołączona jest bezpłatna zgoda Autorów domu na wprowadzenie dowolnych zmian. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
-| penthus.pl | Kosztorys | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
-| penthus.pl | Rzuty Dane techniczne Opis Kosztorys Dodatki Pliki do pobrania Analiza | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
-| pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
-| planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna charakterystyka energetyczna | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Tablica budowy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Dziennik budowy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna konsultacja z architektem | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatnie sprawdzimy projekt pod Twoją działkę | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| pollio.pl | Projekt budowlany i adaptacja: 0 zł w cenie generalnego wykonawstwa Projekt X35. Nowoczesna stodoła Kategoria Domy w stylu stodoły Standard Generalne wykonawstwo pod klucz | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Superenergooszczędne pakiety trzyszybowe z ciepłą ramką dystansową TGI. Eliminują mostki termiczne, ograniczają straty ciepła i zapewniają optymalne doświetlenie pomieszczeń. | Obecna w zapisie · 27.10.2026 06:45 · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) · [Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Energooszczędna nowoczesna stodoła zrealizowana w surowym klimacie Islandii. Konstrukcja wzmocniona na wiatry do 160 km/h, pokrycie blachą na rąbek, izolacja PIR i trzyszybowe pakiety termoizolacyjne. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | W cenie obsługi | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | ZAMÓW PRECYZYJNY KOSZTORYS → | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Nie sprzedajemy projektów na papierze do samodzielnej budowy. Wznosimy domy w standardzie generalnego wykonawstwa — pełna dokumentacja, adaptacja i formalności za 0 zł w cenie umowy budowlanej z 10-letnią pisemną gwarancją. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Od projektu do odbioru kluczy: bezpłatnie przeanalizujemy Twoją działkę (MPZP, warunki gruntowe, usytuowanie), zaadaptujemy projekt architektoniczny (0 zł w umowie), uzyskamy pozwolenie na budowę i wzniesiemy dom z 10-letnią gwarancją na konstrukcję nośną. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Zgłoś działkę do bezpłatnej analizy | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Projekt budowlany i adaptacja: 0 zł w cenie generalnego wykonawstwa | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Pełna elastyczność materiałowa dla inwestora: Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
+| modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Szczegółowy kosztorys inwestorski | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kosztorysy MODERN HOUSE aktualizowane są dwa razy do roku a podane koszty budowy są wartościami netto. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | W kosztorysach domów MODERN HOUSE nie uwzględniamy elementów wykończeniowych na elewacji takich jak np. okładzin drewnianych, kamiennych czy płyt betonowych. Zakładamy ocieplenie ścian styropianem i wykończenie tynkiem, wiedząc, że każdy może chcieć zrealizować swój dom według odmiennych upodobań. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kupując kosztorys otrzymujesz go w wersji elektronicznej w formacie PDF oraz excel, przesyłany jest na podany w zamówieniu adres e-mail. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Cena kosztorysu: 590,00 zł | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Dodaj kosztorys do koszyka | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kosztorys uproszczony | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Pakiet korzyści PRIME | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Pakiet korzyści COMFORT | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Pakiet korzyści BENEFIT | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Pakiet korzyści PRESTIGE | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kosztorys projektu | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Nowoczesny parterowy dom z biało - grafitową elewacją z dodatkami drewna Modern House NewHouse 761 · https://modernhouse-projekty.pl/wp-content/uploads/2024/10/21\_Gotowy\_proejkt\_domu\_z\_dachem\_wielospadowym\_garaz\_na\_dwa\_auta\_nowoczesna\_bryla\_NewHouse\_761\_Modern\_House-1920x960.webp | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| moj-dom-projekty.pl | W przypadku zamówień realizowanych na terenie Polski jest ona całkowicie bezpłatna dla naszych klientów. Gdy przesyłka ma być dostarczona za granicę, jej koszt jest indywidualnie ustalany z klientem w zależności od lokalizacji, do której wszystkie egzemplarze projektu mają zostać wysłane. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.moj-dom-projekty.pl/) |
+| moj-dom-projekty.pl | PROMOCJE!!! Zadzwoń. Kupując projekt możesz otrzymać różne korzyści!!! Zobacz więcej | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.moj-dom-projekty.pl/) |
+| moj-dom-projekty.pl | Szacunkowy koszt budowy w stanie deweloperskim: 554 000 PLN Szacunkowy koszt stanu surowego zamknietego: 398 880 PLN Koszty nie obejmują budowy piwnicy. Podane koszty są szacunkowe i nie mogą zastąpić rzeczywistego kosztorysu. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
+| mtmstyl.com.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | PROMOCJI | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | GRATIS ! | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatna wysyłka | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |

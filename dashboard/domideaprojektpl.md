@@ -6,7 +6,7 @@
 
 **2026-10-26 → 2026-10-27**
 
-**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
+**Ten sam projekt:** [domidea 1 w6](https://domideaprojekt.pl/projekt/domidea-1-w-6/)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -16,21 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domideaprojekt.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 27.10.2026 14:14 (czas polski).
 
-**Oczekuje na pierwszy skan**
-
-Powód braku odczytu: Nowa pracownia — pierwszy skan jeszcze niewykonany.
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
-Adres karty zostanie podany po poprawnym wyborze projektu.
+[Otwórz stronę źródłową](https://domideaprojekt.pl/projekt/domidea-1-w-6/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 27.10.2026 14:14 (czas polski).
 
-**Oczekuje na pierwszy skan**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Nowa pracownia — pierwszy skan jeszcze niewykonany.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
 

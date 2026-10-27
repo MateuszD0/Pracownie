@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyzwizja.pl | Sprawdź informacje o technologii budowy, zawartości dokumentacji, warunkach zabudowy, zmianach i adaptacji, kosztorysach oraz zasadach zakupu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Czy dom Idealny M3 jest energooszczędny? Tak, projekt Idealny M3 został zaprojektowany z myślą o maksymalnej energooszczędności. W cenie projektu uwzględniono wentylację mechaniczną z rekuperatorem oraz kolektory słoneczne, które zapewniają wysoki komfort cieplny i ograniczają zużycie energii. Dodatkowo, na etapie adaptacji możesz zdecydować się na takie rozwiązania jak ogrzewanie podłogowe, pomp… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Projekt energooszczędny z rekuperacją w standardzie i szeroką opcją dodatków poprawiających bilans energetyczny. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 2d 17:12:13 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| sej-pro.pl | i bądź na bieżąco ze wszystkimi nowościami i promocjami. | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | W cenie projektu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | W cenie projektu 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | PDF · bezpłatnie | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Kosztorys inwestorski | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Bezpłatne pozwolenie na zmiany | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Do końca promocji: | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Extra dodatki i rabaty Pakiet dodatków o wartości 4100 zł za 1 zł i rabaty do marketów budowlanych. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| projektdomudo100m2.pl | Dobry projekt to nie tylko układ pomieszczeń i wygląd domu. Przed rozpoczęciem inwestycji warto wiedzieć, jakiego budżetu może wymagać budowa wybranego projektu. Dlatego dla projektów Rodzina na Swoim przygotowaliśmy kompletne pakiety kosztorysowe. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Wybierz kosztorys swojego domu → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys budowy projektu Rodzina na Swoim | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Znajdź kosztorys dla swojego projektu → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Do projektów dostępne są pakiety kosztorysowe, które pomagają lepiej przygotować się do budowy i porównać różne warianty jeszcze przed rozpoczęciem inwestycji. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zobacz kosztorysy → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekt, warianty, kosztorys, zdjęcia z realizacji i kolejne informacje możesz sprawdzić bez konieczności szukania ich w wielu niezależnych serwisach. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekty, kosztorysy i budowy w jednym ekosystemie. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Sam metraż nie wystarcza do oceny budżetu. Na koszt budowy wpływają m.in. konstrukcja, rodzaj dachu, garaż, standard wykonania, ceny materiałów i robocizny. Dlatego przed podjęciem decyzji warto sprawdzić kosztorys przygotowany dla konkretnego projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Sprawdź kosztorysy → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Na stronie znajdziesz gotowe projekty domów parterowych, warianty do 100 m² i większe, projekty z garażem, domy z dachem dwuspadowym i czterospadowym, a także projekty z użytkowym poddaszem. Każdy projekt możesz porównać z innymi wariantami, sprawdzić dostępny kosztorys oraz zobaczyć prawdziwe realizacje inwestorów. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Co zawiera kosztorys budowy za 30 zł? | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Jak otrzymam zakupiony kosztorys? | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Czy muszę kupić projekt, aby wcześniej sprawdzić kosztorys? | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Porównaj projekty od 76 do 145 m², wybierz odpowiedni metraż, dach i wariant, zobacz prawdziwe realizacje i sprawdź kosztorys. Wszystko, czego potrzebujesz do wyboru projektu, znajdziesz w jednym miejscu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zobacz kosztorysy budowy | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | CENA 30 zł za kompletny pakiet | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Dostawa elektroniczna Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys budowy projektu RNS100C | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |

@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | Dobry projekt to nie tylko układ pomieszczeń i wygląd domu. Przed rozpoczęciem inwestycji warto wiedzieć, jakiego budżetu może wymagać budowa wybranego projektu. Dlatego dla projektów Rodzina na Swoim przygotowaliśmy kompletne pakiety kosztorysowe. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Wybierz kosztorys swojego domu → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorys budowy projektu Rodzina na Swoim | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | CENA 30 zł za kompletny pakiet | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Dostawa elektroniczna Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorys budowy projektu RNS100C | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | Dla domu RNS100C z dachem czterospadowym dostępny jest osobny kosztorys uwzględniający materiały i zakres prac właściwy dla tego projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | pełny kosztorys inwestorski PDF | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |

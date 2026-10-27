@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyprestige.pl | PROMOCJA - MINUS 100 PLN! | Obecna w zapisie · 27.10.2026 14:15 · 27.10.2026 14:15<br>[Źródło](https://projektyprestige.pl/) · [Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
-| projektyprestige.pl | Przy składaniu zamówienia na projekt domu istnieje możliwość zamówienia szczegółowego kosztorysu. Dodatkowy koszt takiego opracowania wynosi od 400 do 600 zł brutto. Zamawiając projekt wystarczy zgłosić chęć zamówienia kosztorysu (wpisując to w polu „komentarz”). | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
-| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/) · [Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 2d 17:12:23 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/) |
 | projektyzwizja.pl | CENA PROMOCYJNA | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Promocja kończy się: 29.10.2026 | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | W cenie projektu | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 27.10.2026 06:46 · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | W cenie projektu 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

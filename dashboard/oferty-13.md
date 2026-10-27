@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mgprojekt.com.pl | Koszt wysyłki: gratis | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Sprawdzimy to dla Ciebie bezpłatnie! | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

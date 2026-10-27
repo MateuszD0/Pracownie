@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl | Wychodząc na przeciw Państwa oczekiwaniom, prezentujemy pakiet rozwiązań związanych z ogrodzeniem posesji po zakończeniu budowy domu. Pakiet zawiera 6 typów ogrodzeń indywidualnie przez nas zaprojektowanych (3 typy z elementami drewnianymi oraz 3 typy z elementami metalowymi), oraz 5 typów śmietników (o różnych wymiarach i konstrukcji dachów). | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | NOWOŚĆ! Pakiet - Przydomowa retencja - 349,00 PLN więcej | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | NOWOŚĆ! Prezentujemy pakiet umożliwiający wykorzystanie wód opadowych do nawodnienia działki. | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | Pakiet - Przydomowa oczyszczalnia ścieków - 399,00 PLN więcej | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl | więcej o dodatkach » | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 26.10.2026 09:08<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
+| hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |

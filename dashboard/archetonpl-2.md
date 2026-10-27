@@ -36,7 +36,7 @@ Strony porównania: [1](archetonpl.md) · **2**
 | Zmiany wyglądu · Układ · visibility | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932) |
 | Zmiany wyglądu · Układ · equalizer | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1212) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
 
 Strony porównania: [1](archetonpl.md) · **2**
 

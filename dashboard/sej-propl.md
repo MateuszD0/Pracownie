@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [SEJ-PRO 016 ENERGO](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
 
-**72 zmian w zapisanym zakresie.**
+**67 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -45,15 +45,16 @@ Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 | Zmiany wyglądu · Układ · Dom na igielnianej | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>99 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Pozostałe elementy różnicujące nasze projekty domów | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Projekty domów od SEJ-PRO – szczegóły oferty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Widoczny nagłówek: Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026 | <strong>Koszt</strong> budowy <strong>domu</strong> <strong>100</strong> <strong>m²</strong> w 2026<strong>: stan surowy i deweloperski</strong> | <strong>Kierownik</strong> budowy<strong>:</strong> <strong>obowiązki,</strong> <strong>koszt</strong> <strong>i kiedy jest potrzebny</strong> w 2026 | [Otwórz stronę](https://www.sej-pro.pl/#page) |
+| Zmiany wyglądu · Układ · Zdjęcie 3 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>135 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
+| Zmiany wyglądu · Układ · Adaptacja projektu gotowego domu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-19-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-dowod-18-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 26.10.2026 08:04 | Po · 27.10.2026 06:46 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-19-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-dowod-18-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -81,38 +82,9 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Do końca promocji:</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „Do końca promocji:”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://www.sej-pro.pl/projekt/sej-pro-016-energo/): Do końca promocji:
-- [Sprawdzona strona](https://www.sej-pro.pl/) · 27.10.2026 06:46 · odczyt poprawny
-- [Sprawdzona strona](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) · 27.10.2026 06:46 · odczyt poprawny
-- [Sprawdzona strona](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) · 27.10.2026 07:00 · odczyt poprawny
-- [Sprawdzona strona](https://www.sej-pro.pl/program-korzysci-po-zakupie/) · 27.10.2026 07:00 · Adres przekierował na inną stronę.
-- [Sprawdzona strona](https://www.sej-pro.pl/dodatki/) · 27.10.2026 07:00 · odczyt poprawny
-
-Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-11-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 26.10.2026 08:04 | Po · 27.10.2026 06:46 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-dowod-11-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
@@ -120,13 +92,14 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 Przykłady z zapisów:
 
 - brak → Poprzednia najniższa cena: 5 397 zł.
+- brak → Do końca promocji:
 - 336 × 52 px; położenie: 863 px od lewej, 883 px od góry → 336 × 52 px; położenie: 863 px od lewej, 898 px od góry
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md)
 

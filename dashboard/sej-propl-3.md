@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [SEJ-PRO 016 ENERGO](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
 
-**72 zmian w zapisanym zakresie.**
+**67 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -22,16 +22,11 @@ Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · Poprzednie zdjęcie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>150 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Widoczny nagłówek: Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026 | <strong>Powierzchnia</strong> <strong>zabudowy</strong> <strong>a</strong> <strong>użytkowa:</strong> <strong>czym się różnią</strong> i <strong>jak</strong> <strong>je</strong> <strong>liczyć</strong> | <strong>Ławy</strong> <strong>fundamentowe</strong> <strong>czy</strong> <strong>płyta?</strong> <strong>Koszt</strong> i <strong>wybór</strong> <strong>fundamentu</strong> <strong>w 2026</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Układ · Zdjęcie 3 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>165 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Układ · Dodaj do porównywarki | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Zdjęcie 2 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>165 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Dołącz do grupy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>99 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Zdjęcie 3 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>105 px</strong> w <strong>prawo,</strong> <strong>17 px w dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Czy gotowy projekt trzeba adaptować do działki? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>345 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#faq) |
 | Zmiany wyglądu · Układ · SEJ-PRO 015 ENERGO | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>99 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
-| Zmiany wyglądu · Widoczny nagłówek: Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć | <strong>Kierownik</strong> <strong>budowy</strong>: <strong>obowiązki,</strong> <strong>koszt</strong> i <strong>kiedy</strong> <strong>jest</strong> <strong>potrzebny w 2026</strong> | <strong>Powierzchnia</strong> <strong>zabudowy a użytkowa</strong>: <strong>czym</strong> <strong>się różnią</strong> i <strong>jak</strong> <strong>je</strong> <strong>liczyć</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Do głównych zalet projektu indywidualnego należą: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>346 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Poprzednie zdjęcie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Położenie i rozmiar: Stan deweloperski domu: co obejmuje i ile kosztuje w 2026 (83 px w prawo, 345 px w górę) | <strong>173</strong> × <strong>76</strong> px; położenie: <strong>115</strong> px od lewej, <strong>3642</strong> px od góry | <strong>186</strong> × <strong>57</strong> px; położenie: <strong>198</strong> px od lewej, <strong>3297</strong> px od góry | [Otwórz stronę](https://www.sej-pro.pl/#page) |
@@ -51,9 +46,9 @@ Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 
 **Odczyty:** 26.10.2026 08:04 → 27.10.2026 06:46 (czas polski).
 
-Pozostałe strony tego porównania zawierają 1 różnic tej strony; użyj numerów stron powyżej.
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3**
 

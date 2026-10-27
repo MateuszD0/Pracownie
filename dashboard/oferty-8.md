@@ -10,7 +10,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | domywstylu.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/) |
-| domywstylu.pl | PROMOCJI | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | GRATIS ! | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | Bezpłatna wysyłka | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domywzieleni.pl | Własny dom, w dodatku zaprojektowany zgodnie z oczekiwaniami i marzeniami to prawdziwy skarb. Miejsce, w którym czujemy się bezpiecznie, gdzie blisko jest nasza rodzina i ważne dla nas wspomnienia powinno być nie tylko praktyczne i komfortowe do mieszkania, ale również piękne. Jeżeli Ty także myślisz o budowie własnego domu i nie masz jeszcze do końca sprecyzowanych oczekiwań projektowych – zapra… | Obecna w zapisie · 27.10.2026 14:14<br>[Źródło](https://domywzieleni.pl/) |
 | domyzweranda.pl | Udostępniamy bezpłatnie sprawdzone rozwiązania detali z naszych projektów - rysunki i modele gotowe do wykorzystania w adaptacjach i własnej pracy projektowej. Biblioteka rośnie z każdym nowym projektem. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/) |
 | domyzweranda.pl | Bezpłatna dostawa | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| domyzweranda.pl | Co dostajesz w cenie | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |

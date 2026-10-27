@@ -8,11 +8,11 @@
 
 **Ten sam projekt:** [Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
-**55 zmian w zapisanym zakresie.**
+**50 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md)
+Strony porównania: [1](zbudujsamdompl.md) · **2**
 
 ## Strona główna
 
@@ -51,13 +51,13 @@ Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md)
 | Komunikacja sprzedażowa · Baner | <strong>godzin</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | Komunikacja sprzedażowa · Baner | <strong>Warunki zabudowy</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | Komunikacja sprzedażowa · Baner | <strong>minut</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| Zmiany wyglądu · Widoczny nagłówek: Zobacz ten projekt w rzeczywistości | <strong>Dom</strong> <strong>murowany</strong> <strong>czy</strong> <strong>szkieletowy?</strong> | <strong>Zobacz</strong> <strong>ten</strong> <strong>projekt</strong> <strong>w rzeczywistości</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Położenie i rozmiar: Budowa krok po kroku (25 px w lewo, 851 px w dół) | <strong>960</strong> × 38 px; położenie: <strong>160</strong> px od lewej, <strong>6079</strong> px od góry | <strong>1010</strong> × 38 px; położenie: <strong>135</strong> px od lewej, <strong>6930</strong> px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Układ · Zajrzyj do środka instrukcji | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>504 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Położenie i rozmiar: Zobacz ten projekt w rzeczywistości (140 px w prawo, 460 px w dół) | <strong>1060</strong> × 38 px; położenie: <strong>110</strong> px od lewej, <strong>6837</strong> px od góry | <strong>780</strong> × 38 px; położenie: <strong>250</strong> px od lewej, <strong>7297</strong> px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 | Zmiany wyglądu · Położenie i rozmiar: Zobacz, jak może wyglądać gotowy dom 70 m² (150 px w prawo, 68 px w dół) | <strong>1060</strong> × 38 px; położenie: <strong>110</strong> px od lewej, <strong>1978</strong> px od góry | <strong>760</strong> × 38 px; położenie: <strong>260</strong> px od lewej, <strong>2046</strong> px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
+| Zmiany wyglądu · Układ · Otrzymujesz komplet instrukcji budowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>886 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/#content_tab_description) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
 
-Strony porównania: [1](zbudujsamdompl.md) · **2** · [3](zbudujsamdompl-3.md)
+Strony porównania: [1](zbudujsamdompl.md) · **2**
 

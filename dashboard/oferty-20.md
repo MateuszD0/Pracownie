@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | Dla domu RNS100C z dachem czterospadowym dostępny jest osobny kosztorys uwzględniający materiały i zakres prac właściwy dla tego projektu. | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| projektdomudo100m2.pl | pełny kosztorys inwestorski PDF | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektdomudo100m2.pl | kosztorys uproszczony PDF | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektdomudo100m2.pl | Kup kosztorys RNS100C → | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektstodola.pl | W CENIE PROJEKTU ZYSKUJESZ: | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyka.pl | Pakiet szamba szczelnego | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
 | projektyka.pl | Kosztorys inwestorski | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
 | projektyka.pl | Dziennik budowy 1,- Tablica budowy 1,- Projekt wentylacji mechanicznej 1200,- Projekt pompy ciepła 800,- Kotłownia na paliwo stałe 550,- Pakiet szamba szczelnego 300,- Przydomowa oczyszczalnia ścieków 500,- Kosztorys inwestorski 550,- Dodatkowy papierowy egzemplarz projektu 600,- | Obecna w zapisie · 27.10.2026 06:46<br>[Źródło](https://projektyka.pl/projekty/ka288) |
+| projektyprestige.pl | PROMOCJA - MINUS 100 PLN! | Obecna w zapisie · 27.10.2026 14:15 · 27.10.2026 14:15<br>[Źródło](https://projektyprestige.pl/) · [Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
+| projektyprestige.pl | Przy składaniu zamówienia na projekt domu istnieje możliwość zamówienia szczegółowego kosztorysu. Dodatkowy koszt takiego opracowania wynosi od 400 do 600 zł brutto. Zamawiając projekt wystarczy zgłosić chęć zamówienia kosztorysu (wpisując to w polu „komentarz”). | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |

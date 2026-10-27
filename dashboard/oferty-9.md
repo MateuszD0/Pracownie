@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domyzweranda.pl | Co dostajesz w cenie | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | domyzweranda.pl | Kosztorys | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | domyzweranda.pl | Pierwszy dom „na start" w cenie mieszkania. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | domyzweranda.pl | Bezpłatne rozwiązania detali do pobrania - rysunki i modele gotowe do użycia w adaptacji i własnych projektach. Biblioteka stale rośnie, obecnie 1 detal. | Obecna w zapisie · 27.10.2026 06:43<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl | Pakiet energooszczędny jest dodatkiem do projektu standardowego/gotowego. Jest to zbiór porad i wskazówek, któ­re umożliwią poprawę izolacyjności termicznej domu, zmniejszenie zapotrzebowania budynku na ciepło, zmniejszenie kosztów ogrzewania budynku. | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | Pakiet - Architektura ogrodowa - 499,00 PLN więcej | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | Pakiet - Nowoczesne Ogrodzenia - 499,00 PLN więcej | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
+| e-domy.pl | Wychodząc na przeciw Państwa oczekiwaniom, prezentujemy pakiet rozwiązań związanych z ogrodzeniem posesji po zakończeniu budowy domu. Pakiet zawiera 6 typów ogrodzeń indywidualnie przez nas zaprojektowanych (3 typy z elementami drewnianymi oraz 3 typy z elementami metalowymi), oraz 5 typów śmietników (o różnych wymiarach i konstrukcji dachów). | Obecna w zapisie · 27.10.2026 06:44<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |

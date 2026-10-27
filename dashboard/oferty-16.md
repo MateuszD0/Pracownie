@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Klasa B640 Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki Cena: 8500 zł | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | Energooszczędna nowoczesna stodoła zrealizowana w surowym klimacie Islandii. Konstrukcja wzmocniona na wiatry do 160 km/h, pokrycie blachą na rąbek, izolacja PIR i trzyszybowe pakiety termoizolacyjne. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | W cenie obsługi | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | ZAMÓW PRECYZYJNY KOSZTORYS → | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | Nie sprzedajemy projektów na papierze do samodzielnej budowy. Wznosimy domy w standardzie generalnego wykonawstwa — pełna dokumentacja, adaptacja i formalności za 0 zł w cenie umowy budowlanej z 10-letnią pisemną gwarancją. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](https://pollio.pl/) |

@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Szczegółowy kosztorys inwestorski | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kosztorysy MODERN HOUSE aktualizowane są dwa razy do roku a podane koszty budowy są wartościami netto. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | W kosztorysach domów MODERN HOUSE nie uwzględniamy elementów wykończeniowych na elewacji takich jak np. okładzin drewnianych, kamiennych czy płyt betonowych. Zakładamy ocieplenie ścian styropianem i wykończenie tynkiem, wiedząc, że każdy może chcieć zrealizować swój dom według odmiennych upodobań. | Obecna w zapisie · 27.10.2026 14:15<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -30,6 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/) |
-| mtmstyl.com.pl | PROMOCJI | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | GRATIS ! | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bezpłatna wysyłka | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 27.10.2026 06:45<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |

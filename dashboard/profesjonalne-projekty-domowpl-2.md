@@ -39,7 +39,7 @@ Pozostałe strony tego porównania zawierają 1 różnic tej strony; użyj numer
 | Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>+</strong> <strong>brak</strong> wykuszy | <strong>✓</strong> <strong>Brak</strong> wykuszy | [Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>+</strong> <strong>brak</strong> balkonów | <strong>✓</strong> <strong>Brak</strong> balkonów | [Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t092304.772799-0000-format-805d9664-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t093128.210814-0000-format-19df0600-porownanie.html)
 
 Strony porównania: [1](profesjonalne-projekty-domowpl.md) · **2**
 

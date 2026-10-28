@@ -14,6 +14,14 @@ on:
         description: Otwórz standardowe okno Chromium w ekranie wirtualnym
         type: boolean
         default: false
+      discover:
+        description: Sprawdź katalogi i kandydatów na stały projekt (bez zmiany wyboru)
+        type: boolean
+        default: false
+      disable_http2:
+        description: Sprawdź zgodność protokołu HTTP/1.1
+        type: boolean
+        default: false
       runner:
         description: System do niezależnego sprawdzenia dostępu
         type: choice
@@ -40,6 +48,8 @@ jobs:
       - run: uv run playwright install --with-deps chromium
       - run: |
           args=(--domains "$DIAGNOSE_DOMAINS" --verification-wait "$VERIFICATION_WAIT" --publish)
+          if [[ "$DISCOVER" == 'true' ]]; then args+=(--discover); fi
+          if [[ "$DISABLE_HTTP2" == 'true' ]]; then args+=(--disable-http2); fi
           if [[ "$HEADED" == 'true' ]]; then
             if [[ "$RUNNER_OS" == 'Linux' ]]; then
               xvfb-run -a uv run python scripts/diagnose_access.py "${args[@]}" --headed
@@ -54,3 +64,5 @@ jobs:
           DIAGNOSE_DOMAINS: ${{ inputs.domains }}
           VERIFICATION_WAIT: ${{ inputs.verification_wait }}
           HEADED: ${{ inputs.headed }}
+          DISCOVER: ${{ inputs.discover }}
+          DISABLE_HTTP2: ${{ inputs.disable_http2 }}

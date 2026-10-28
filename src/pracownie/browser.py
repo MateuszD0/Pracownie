@@ -153,6 +153,21 @@ def infer_scenarios(payload: dict, page: str, limit: int = 30) -> tuple[list[Sce
     return scenarios, list(dict.fromkeys(warnings))
 
 
+def discovery_catalogues(site: Site, payload: dict) -> list[str]:
+    """Bounded catalogue navigation, used only before a project is frozen."""
+    rankings, catalogues = [], []
+    for link in [*payload.get("discovery_links", []), *payload.get("links", [])]:
+        url = canonical_url(link["url"])
+        if not allowed_url(site, url) or page_identity(url) in {page_identity(site.home_url), page_identity(payload.get("url", site.home_url))}:
+            continue
+        text = " ".join(link.get("text", "").split()).casefold()
+        if re.search(r"bestseller|najpopular|najlepiej sprzed", text):
+            rankings.append(url)
+        elif re.fullmatch(r"(?:zobacz |nasze |wszystkie )?projekty(?: domów| gotowe| gotowe domów)?|katalog(?: projektów)?", text):
+            catalogues.append(url)
+    return list(dict.fromkeys([*site.discovery_links, *rankings, *catalogues]))[:2]
+
+
 def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
     candidates = []
     for position, link in enumerate(payload.get("links", [])):
@@ -160,7 +175,7 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
         if not allowed_url(site, url) or page_identity(url) in {page_identity(site.home_url), page_identity(payload.get("url", site.home_url))}:
             continue
         path = urlsplit(url).path.lower()
-        if re.search(r"\.(pdf|zip|jpg|png|webp)$|/koszyk|/kontakt|/regulamin|/logowanie|/blog|/porady|/informacje|/aktualnosci|/dodatki/|/pakiet-dodatkow/|/kategoria-produktu/|/product-category/|/_cms/view/|/content/", path):
+        if re.search(r"\.(pdf|zip|jpg|png|webp)$|/koszyk|/basket|/cart|/banner/|/kontakt|/regulamin|/logowanie|/blog|/porady|/informacje|/aktualnosci|/dodatki/|/pakiet-dodatkow/|/kategoria/|/pakiet-dodatkow/|/kategoria-produktu/|/product-category/|/_cms/view/|/content/", path):
             continue
         if re.search(r"/(lista|nowosci|kategorie|ulubione|wszystkie-projekty|polecane_projekty|promocja|energo-plus)/?$", path):
             continue
@@ -649,7 +664,7 @@ class BrowserScanner:
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             adapter = adapter_signature(site, scenario, page_kind)
-            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "commercial_context"] if key in payload}
+            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document['unresolved_styles'] = relevant_styles
             document["communication"] = communication
@@ -671,10 +686,7 @@ class BrowserScanner:
         candidates = project_candidates(site, home.payload)
         warnings = []
         # Inspect explicit bestseller/popular sections before choosing a merely promoted card.
-        ranking_links = list(site.discovery_links)
-        for link in home.payload.get("links", []):
-            if re.search(r"bestseller|najpopular|najlepiej sprzed", link.get("text", ""), re.I) and allowed_url(site, link["url"]):
-                ranking_links.append(link["url"])
+        ranking_links = discovery_catalogues(site, home.payload)
         ranked_candidates = []
         for index, url in enumerate(list(dict.fromkeys(ranking_links))[:2]):
             try:
@@ -683,7 +695,7 @@ class BrowserScanner:
                     candidate.update(source=url, basis=f"Pierwszy poprawny projekt z sekcji: {listing.snapshot.title}. Ranking/ekspozycja nie potwierdza liczby sprzedaży.")
                     ranked_candidates.append((0, candidate))
             except Exception as exc:
-                warnings.append("Nie udało się sprawdzić rankingu: " + type(exc).__name__)
+                warnings.append(f"Nie udało się odczytać katalogu {url}: {str(exc).splitlines()[0][:180]}")
         candidates = ranked_candidates + candidates
         seen = set()
         for _, selection in candidates:
@@ -699,5 +711,5 @@ class BrowserScanner:
                 selection["name"] = capture.snapshot.title
                 return selection, capture, warnings
             except Exception as exc:
-                warnings.append(f"Kandydat niepotwierdzony: {selection['url']} ({type(exc).__name__})")
+                warnings.append(f"Kandydat niepotwierdzony: {selection['url']} ({str(exc).splitlines()[0][:180]})")
         return None, None, warnings + ["Nie wybrano poprawnej karty projektu; wymagane sprawdzenie domeny."]

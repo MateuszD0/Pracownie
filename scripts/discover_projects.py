@@ -29,7 +29,7 @@ def discover(site):
     row = {"domain": site.domain, "verified_candidate": None, "failures": []}
     home = inspect(site)
     candidates = []
-    for ranking in list(dict.fromkeys(site.discovery_links + home.get("ranking_urls", [])))[:2]:
+    for ranking in list(dict.fromkeys(site.discovery_links + home.get("ranking_urls", []) + home.get("catalogue_urls", [])))[:2]:
         listing = inspect(replace(site, home_url=ranking))
         for candidate in listing.get("candidates", []):
             candidate["basis"] = "Pierwszy poprawny projekt z sekcji: " + listing.get("title", ranking)

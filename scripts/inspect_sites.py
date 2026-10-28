@@ -10,7 +10,7 @@ from urllib.parse import urljoin, urlsplit
 import httpx
 from bs4 import BeautifulSoup
 
-from pracownie.browser import project_candidates
+from pracownie.browser import discovery_catalogues, project_candidates
 from pracownie.model import load_sites
 
 
@@ -37,6 +37,9 @@ def inspect(site):
         result["candidates"] = [item for _, item in project_candidates(site, {"links": links, "url": str(response.url)})][:20]
         result["ranking_urls"] = list(dict.fromkeys(link["url"] for link in links if re.search(r"bestseller|najpopular|najlepiej sprzed", link["text"], re.I)))[:5]
         result["resource_hosts"] = sorted({urlsplit(urljoin(str(response.url), e.get("src") or e.get("href", ""))).hostname for e in soup.select("script[src],link[rel=stylesheet],img[src]")} - {None})
+        result["catalogue_urls"] = discovery_catalogues(site, {"url": str(response.url), "links": [
+            {"url": urljoin(str(response.url), a["href"]), "text": a.get_text(" ", strip=True)} for a in soup.select("a[href]")
+        ]})
     except Exception as exc:
         result.update(status="error", error=str(exc).splitlines()[0][:400])
     return result

@@ -92,6 +92,12 @@
     context:clean(e.closest('article,li,[class*=card],[class*=product],[class*=projekt],[class*=offer],[class*=item]')?.innerText).slice(0,500),image:!!e.querySelector('img')
   }));
   const controls=[];
+  // Catalogue links in navigation help select the first fixed project. They
+  // stay separate from offer content and are never scanned after selection.
+  const discoveryLinks=[...document.querySelectorAll('a[href]')]
+    .filter(e=>visible(e) && scope(e)!=='privacy')
+    .map(e=>({url:e.href,text:clean(e.innerText || e.getAttribute('aria-label'))}))
+    .filter(e=>/bestseller|najpopular|najlepiej sprzed|^(?:(?:zobacz|nasze|wszystkie) )?projekty(?: domów| gotowe| gotowe domów)?$|^katalog(?: projektów)?$/i.test(e.text)).slice(0,40);
   for(const e of document.querySelectorAll('summary,[role=tab],button,a[data-toggle=tab],a[data-bs-toggle=tab],a[class*=button],a[class*=btn],a[href*=koszyk],a[href*=zamow],a[href*=cart],select,input[type=radio],input[type=checkbox],input[type=submit],input[type=button],input[type=image]')) {
     const associated=e.labels?.[0];
     const checkable=e.tagName==='INPUT' && /radio|checkbox/.test(e.type);
@@ -114,5 +120,5 @@
   const metaAmount=document.querySelector('meta[property="product:sale_price:amount"]') || document.querySelector('meta[property="product:price:amount"]') || document.querySelector('meta[property="og:price:amount"]');
   const metaCurrency=document.querySelector('meta[property="product:price:currency"],meta[property="og:price:currency"]');
   const metaPrice=pageKind==='projekt' && metaAmount && metaCurrency?{amount:metaAmount.content,currency:metaCurrency.content}:null;
-  return {version:2,page:pageKind,url:location.href,title:clean(document.title),h1:clean(primaryTitle?.innerText),text:clean(document.body.innerText),blocks,prices,products:selectedProducts,meta_price:metaPrice,links,controls,sections:[...sections],headings,images,truncated:count>7000};
+  return {version:2,page:pageKind,url:location.href,title:clean(document.title),h1:clean(primaryTitle?.innerText),text:clean(document.body.innerText),blocks,prices,products:selectedProducts,meta_price:metaPrice,links,discovery_links:discoveryLinks,controls,sections:[...sections],headings,images,truncated:count>7000};
 }

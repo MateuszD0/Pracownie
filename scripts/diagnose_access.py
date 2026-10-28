@@ -7,6 +7,8 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 import httpx
+from bs4 import BeautifulSoup
+from discover_projects import discover
 from playwright.async_api import async_playwright
 
 from pracownie.github import GitHubStore
@@ -16,16 +18,18 @@ DETAIL = r"""() => ({
  title:document.title, url:location.href, canonical:document.querySelector('link[rel=canonical]')?.href,
  headings:[...document.querySelectorAll('h1,h2')].filter(e=>e.checkVisibility({visibilityProperty:true,opacityProperty:true})).slice(0,12).map(e=>e.innerText),
  length:document.body?.innerText.length || 0,
+ text:(document.body?.innerText || '').slice(0,20000),
+ links:[...document.querySelectorAll('a[href]')].slice(0,250).map(e=>({url:e.href,text:(e.innerText||e.querySelector('img')?.alt||'').slice(0,140)})),
  products:[...document.querySelectorAll('a[href]')].filter(e=>!e.closest('nav,header,footer') && !/kategoria-produktu/.test(e.href) && /produkt|project|projekt|,p\d|\d\.html/.test(e.href)).slice(0,150).map(e=>({url:e.href,text:(e.innerText||e.querySelector('img')?.alt||'').slice(0,120)})),
  prices:[...document.querySelectorAll('[itemprop=price],ins,del,[class*=price],[class*=Price],[class*=cena]')].slice(0,70).map(e=>({selector:e.id?'#'+e.id:e.tagName+'.'+String(e.className).replaceAll(' ','.'),text:(e.innerText||e.getAttribute('content')||'').slice(0,180),parent:e.parentElement?.outerHTML.slice(0,1200)})),
  controls:[...document.querySelectorAll('input[type=radio],input[type=checkbox],[role=tab],summary,a[href*=koszyk],a[href*=zamow],button[type=submit]')].slice(0,65).map(e=>({id:e.id,name:e.name,type:e.type,role:e.getAttribute('role'),text:(e.labels?.[0]?.innerText||e.innerText||e.getAttribute('aria-label')||'').slice(0,160),html:e.outerHTML.slice(0,500),visible:e.checkVisibility({visibilityProperty:true,opacityProperty:true}),rect:JSON.stringify(e.getBoundingClientRect()),label:e.labels?.[0]?.outerHTML.slice(0,600),parent:e.parentElement?.outerHTML.slice(0,900)}))
 })"""
 
 
-async def inspect(sites, *, verification_wait=1.5, headed=False):
+async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projects=False, disable_http2=False):
     output = {"observed_at": now_iso(), "sites": []}
     async with async_playwright() as manager:
-        browser = await manager.chromium.launch(headless=not headed)
+        browser = await manager.chromium.launch(headless=not headed, args=['--disable-http2'] if disable_http2 else [])
         semaphore = asyncio.Semaphore(3)
 
         async def one(site):
@@ -49,6 +53,10 @@ async def inspect(sites, *, verification_wait=1.5, headed=False):
                         async with httpx.AsyncClient(follow_redirects=True, timeout=15) as client:
                             response = await client.get(url)
                             check['http'] = {'status': response.status_code, 'url': str(response.url)}
+                            soup = BeautifulSoup(response.text, 'html.parser')
+                            check['http']['title'] = soup.title.get_text(' ', strip=True) if soup.title else ''
+                            check['http']['text'] = soup.get_text(' ', strip=True)[:20000]
+                            check['http']['links'] = [{'url': a['href'], 'text': a.get_text(' ', strip=True)[:140]} for a in soup.select('a[href]')][:250]
                     except httpx.HTTPError as exc:
                         check['http'] = {'error': type(exc).__name__}
                     try:
@@ -72,6 +80,8 @@ async def inspect(sites, *, verification_wait=1.5, headed=False):
                     await page.close()
                 output["sites"].append(row)
                 await context.close()
+                if discover_projects:
+                    row['curation'] = await asyncio.to_thread(discover, site)
                 print("Diagnostyka " + site.domain, flush=True)
 
         await asyncio.gather(*(one(site) for site in sites))
@@ -85,6 +95,8 @@ if __name__ == "__main__":
     parser.add_argument("--publish", action="store_true")
     parser.add_argument("--verification-wait", type=float, default=1.5)
     parser.add_argument("--headed", action="store_true")
+    parser.add_argument("--discover", action="store_true")
+    parser.add_argument("--disable-http2", action="store_true")
     args = parser.parse_args()
     if not 0 <= args.verification_wait <= 60:
         raise SystemExit('Czas diagnostyki musi być w zakresie 0–60 s')
@@ -92,7 +104,7 @@ if __name__ == "__main__":
     sites = [s for s in load_sites(Path("config/sites.json")) if s.domain in selected]
     if selected != {s.domain for s in sites}:
         raise SystemExit("Nieznana domena diagnostyki")
-    result = asyncio.run(inspect(sites, verification_wait=args.verification_wait, headed=args.headed))
+    result = asyncio.run(inspect(sites, verification_wait=args.verification_wait, headed=args.headed, discover_projects=args.discover, disable_http2=args.disable_http2))
     path = Path(".monitor/access-diagnostics.json")
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

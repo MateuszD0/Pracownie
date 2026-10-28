@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-26 → 2026-10-27**
+**2026-10-27 → 2026-10-28**
 
 **Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
 
@@ -14,11 +14,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A20.83.159.5%3A1793106961.078)
+[Otwórz stronę źródłową](https://tipitom.space/)
 
-**Odczyty:** brak odczytu → 27.10.2026 14:16 (czas polski).
+**Odczyty:** 27.10.2026 14:16 → 28.10.2026 08:30 (czas polski).
 
-**Pierwszy zapis · brak porównywalnej bazy**
+**Niepełny zakres porównania**
 
 ## Karta projektu
 
@@ -30,5 +30,5 @@ Adres karty zostanie podany po poprawnym wyborze projektu.
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-porownanie.html)
 

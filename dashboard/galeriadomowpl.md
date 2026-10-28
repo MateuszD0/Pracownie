@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-26 → 2026-10-27**
+**2026-10-27 → 2026-10-28**
 
 **Ten sam projekt:** [Projekt domu - Dom przy Bukowej 14](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
@@ -16,35 +16,61 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.galeriadomow.pl/)
 
-**Odczyty:** 26.10.2026 08:02 → 27.10.2026 06:44 (czas polski).
+**Odczyty:** 27.10.2026 06:44 → 28.10.2026 08:27 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-27%2Fgaleriadomow.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2F%0A%0AOpis%3A)
-
-**Bez zmian w zapisanej komunikacji**
-
-## Karta projektu
-
-[Otwórz stronę źródłową](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
-
-**Odczyty:** 26.10.2026 08:02 → 27.10.2026 06:44 (czas polski).
-
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-27%2Fgaleriadomow.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fgaleriadomow.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 <strong>marca</strong> 2026 r. | OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 <strong>września</strong> 2026 r. | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#link) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | salon + <strong>5</strong> <strong>pokoi</strong> garaż: <strong>2</strong> <strong>159</strong>.<strong>90</strong> m² | salon + <strong>3</strong> <strong>pokoje</strong> garaż: <strong>1</strong> <strong>101</strong>.<strong>67</strong> m² | [Otwórz stronę](https://www.galeriadomow.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-17-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-32-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.10.2026 08:02 | Po · 27.10.2026 06:44 |
+| Przed · 27.10.2026 06:44 | Po · 28.10.2026 08:27 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-17-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-32-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-32-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-porownanie.html)
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- salon + 5 pokoi → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+## Karta projektu
+
+[Otwórz stronę źródłową](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
+
+**Odczyty:** 27.10.2026 06:44 → 28.10.2026 08:27 (czas polski).
+
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fgaleriadomow.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%0A%0AOpis%3A)
+
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- brak → cena regularna
+- brak → obowiązuje do 30 października 2026, godz. 12:00
+- brak → najniższa cena z 30 dni przed promocją: 3540 zł
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-porownanie.html)
 

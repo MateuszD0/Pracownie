@@ -2,15 +2,15 @@
 
 # Co zmieniło się u pracowni?
 
-**2026-10-26 → 2026-10-27** · strona główna i ta sama karta projektu.
+**2026-10-27 → 2026-10-28** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 60/112 pracowni.** · **52 wymaga uwagi.**
+**Porównano obie strony: 84/112 pracowni.** · **28 wymaga uwagi.**
 
-<!-- delivery:2026-10-27 -->Pierwsza publikacja: 07:11 — przed 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-10-28 -->Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Odczyty: 27.10.2026 06:42 – 27.10.2026 14:16, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 28.10.2026 08:24 – 28.10.2026 08:30, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
-Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/73 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
+Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/151 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
 Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.
 
@@ -24,31 +24,38 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **archeton.pl**<br>Karta projektu | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-5df7bbae4b927d2c)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932)<br>[Sprawdzone warunki](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
-| **dom-projekt.pl**<br>Karta projektu | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-dom-projektpl.md#zdarzenie-2091029019d511e8)<br>[Otwórz stronę](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html)<br>[Sprawdzone warunki](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html) |
-| **pro-arte.pl**<br>Karta projektu | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-pro-artepl.md#zdarzenie-378afd63540b2076)<br>[Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)<br>[Sprawdzone warunki](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| **projektyzwizja.pl**<br>Karta projektu | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-projektyzwizjapl.md#zdarzenie-503e1b6289f6324b)<br>[Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)<br>[Sprawdzone warunki](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| **projektyzwizja.pl**<br>Karta projektu | Nowa promocja w komunikacji: „Promocja kończy się: 29.10.2026” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-projektyzwizjapl.md#zdarzenie-bf6881be896b186c)<br>[Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)<br>[Sprawdzone warunki](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| **3ddom.pl**<br>Karta projektu | Zmiana komunikatu oferty: „Promocja od 25.10.2026 koniec za” → „Promocja od 26.10.2026 koniec za” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-3ddompl.md#zdarzenie-82d62e369289c013)<br>[Otwórz stronę](https://3ddom.pl/produkt/dom-na-majowej/#product-63)<br>[Sprawdzone warunki](https://3ddom.pl/produkt/dom-na-majowej/) |
+| **archi-projekt.com.pl**<br>Strona główna | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-archi-projektcompl.md#zdarzenie-31c3e9898cf9e02e)<br>[Otwórz stronę](https://archi-projekt.com.pl/)<br>[Sprawdzone warunki](https://archi-projekt.com.pl/) |
+| **planujdom.pl**<br>Strona główna · Karta projektu | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Sprawdzono w serwisie**<br>Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia. | [Przed / po →](dashboard/zdarzenia-planujdompl.md#zdarzenie-d8742e3cb7483f9b)<br>[Otwórz stronę](https://planujdom.pl/#view)<br>[Sprawdzone warunki](https://planujdom.pl/) |
+| **alexanderstudio.pl**<br>Strona główna · Karta projektu | „Garaże i budynki gospodarcze” → „Garaże i budynki &lt;br&gt;gospodarcze”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-alexanderstudiopl.md#zdarzenie-927553ac27d840d8)<br>[Otwórz stronę](https://alexanderstudio.pl/) |
+| **artinex-projekt.pl**<br>Strona główna | Pojawił się komunikat: „D330A Zabudowa bliźniacza WT2021”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-artinex-projektpl.md#zdarzenie-972906932356ea63)<br>[Otwórz stronę](https://artinex-projekt.pl/#project-list) |
 
-<details><summary>Pozostałe ważne zmiany (15)</summary>
+<details><summary>Pozostałe ważne zmiany (44)</summary>
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **e-domy.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-2f8ab8299f8c22b1)<br>[Otwórz stronę](https://www.e-domy.pl/) |
-| **galeriadomow.pl**<br>Karta projektu | „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 marca 2026 r.” → „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 września 2026 r.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-galeriadomowpl.md#zdarzenie-927b656bdc4ec62e)<br>[Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#link) |
-| **projektyka.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektykapl.md#zdarzenie-c0d867542f3e5382)<br>[Otwórz stronę](https://projektyka.pl/) |
-| **sej-pro.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Budowa domu krok po kroku: etapy i ile trwają w 2026”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-sej-propl.md#zdarzenie-930154af494cf38c)<br>[Otwórz stronę](https://www.sej-pro.pl/) |
-| **archand.pl**<br>Karta projektu | „stan surowy zamknięty :” → „stan surowy zamknięty :{stawka\_numer\_1}”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archandpl.md#zdarzenie-0f837bb9f9d2672f)<br>[Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/#page3R_mcid12) |
-| **archeton.pl**<br>Karta projektu | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-093fd78512eb3123)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1534) |
-| **archeton.pl**<br>Karta projektu | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-0dc9f09ef16fe47f)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-835) |
-| **archeton.pl**<br>Karta projektu | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-790741197cf9c4ff)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932) |
-| **archeton.pl**<br>Karta projektu | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-c93e79e96f792695)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1212) |
-| **e-domy.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Rodzinny dom z sypialnią na parterze”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-45ad45c63eac48de)<br>[Otwórz stronę](https://www.e-domy.pl/) |
-| **e-domy.pl**<br>Strona główna | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-8af20c2aa7bebe7a)<br>[Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| **projektyzwizja.pl**<br>Strona główna · Karta projektu | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektyzwizjapl.md#zdarzenie-5c0b16026e5bb123)<br>[Otwórz stronę](https://projektyzwizja.pl/#promotion-popup-title) |
-| **sej-pro.pl**<br>Strona główna | Pojawił się komunikat: „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-sej-propl.md#zdarzenie-a019b1b3339cc4ce)<br>[Otwórz stronę](https://www.sej-pro.pl/#page) |
-| **archand.pl**<br>Karta projektu | „stan surowy zamknięty : {procent\_stawki\_numer\_1} zł stan wykończony: {procent\_stawki\_numer\_2} zł Koszty w sys…” → „Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny.”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archandpl.md#zdarzenie-33a15913ebd64e18)<br>[Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/) |
-| **archand.pl**<br>Karta projektu | „stawka stan surowy zamknięty : {stawka\_numer\_1} zł stan wykończony: {stawka\_numer\_2} zł” → „stawka stan surowy zamknięty :{stawka\_numer\_1} stan wykończony: {stawka\_numer\_2}”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-archandpl.md#zdarzenie-f6de493cc9e45c41)<br>[Otwórz stronę](https://www.archand.pl/projekty/perfetto-3-modern/) |
+| **domato.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-domatopl.md#zdarzenie-128e848b63a9edc7)<br>[Otwórz stronę](https://domato.pl/) |
+| **e-domy.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-378262a0cd080957)<br>[Otwórz stronę](https://www.e-domy.pl/) |
+| **ekoarchitekci.pl**<br>Strona główna | Pojawił się komunikat: „Instalacja fotowoltaiki w domu jednorodzinnym”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-ekoarchitekcipl.md#zdarzenie-fd1c0333b4b61aa1)<br>[Otwórz stronę](https://ekoarchitekci.pl/#cf47_module_article_grid_0) |
+| **opusdom.pl**<br>Karta projektu | „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…” → „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwn…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-0fe7733bc6a9e03a)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-91a8d2b3ce10798a9) |
+| **projektyka.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektykapl.md#zdarzenie-7c6e0044725d55db)<br>[Otwórz stronę](https://projektyka.pl/) |
+| **sej-pro.pl**<br>Strona główna | Pojawił się komunikat: „Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-sej-propl.md#zdarzenie-2d1f63870cefd9bb)<br>[Otwórz stronę](https://www.sej-pro.pl/#page) |
+| **galeriadomow.pl**<br>Strona główna | „salon + 5 pokoi garaż: 2 159.90 m²” → „salon + 3 pokoje garaż: 1 101.67 m²”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-galeriadomowpl.md#zdarzenie-47cb05fc12f933c2)<br>[Otwórz stronę](https://www.galeriadomow.pl/) |
+| **kowalscypracownia.pl**<br>Strona główna · Karta projektu | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-kowalscypracowniapl.md#zdarzenie-41afbcc404a65c5c)<br>[Otwórz stronę](https://kowalscypracownia.pl/) |
+| **domdlaciebie.com.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-domdlaciebiecompl.md#zdarzenie-8126385907951d63)<br>[Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| **alexanderstudio.pl**<br>Strona główna · Karta projektu | „Bliźniaki i jednorodzinne dwulokalowe” → „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-alexanderstudiopl.md#zdarzenie-d1e38451606d3713)<br>[Otwórz stronę](https://alexanderstudio.pl/) |
+| **artinex-projekt.pl**<br>Strona główna | Pojawił się komunikat: „D324 WT2021 wersja drewniana”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-artinex-projektpl.md#zdarzenie-c6466458960240e9)<br>[Otwórz stronę](https://artinex-projekt.pl/#project-list) |
+| **domato.pl**<br>Strona główna | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-domatopl.md#zdarzenie-3d956d67f8860ac1)<br>[Otwórz stronę](https://domato.pl/#slick-slide10) |
+| **e-domy.pl**<br>Strona główna | Pojawił się komunikat: „Prosty dom na wąskie działki”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-ce3826cd585f2d7e)<br>[Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| **e-domy.pl**<br>Strona główna | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-d46f8e14e56732fa)<br>[Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| **opusdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-14168df0f1ce94ed)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| **opusdom.pl**<br>Karta projektu | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowi…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-225529c03022c78c)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c08b97a516534ca) |
+| **opusdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Melka bliźniak jest wygodnym niepodpiwniczonym domem w zabudowie bliźniaczej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się prostą konstrukc…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-231f1192b988d180)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| **opusdom.pl**<br>Karta projektu | „LILI II z Opusdom to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem…” → „Projekt Karmelia II z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i wbudowanym dwustanowisko…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-349eab503e3f841c)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-c392c10f108ead53fa) |
+| **opusdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Grand jest dużym, reprezentacyjnym nowoczesnym domem jednorodzinnym, który może służyć jako obszerny dom dla rodziny z dziećmi jak również jako dom dla dwóch pokoleń rodziny: np.…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-5ba2c5b1086ab5b4)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| **opusdom.pl**<br>Karta projektu | Pojawił się komunikat: „Arkadia to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ś…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-611ba7b89281685f)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c08b97a516534ca) |
+
+Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](dashboard/zmiany-partner-3.md)
 
 </details>
 
@@ -56,25 +63,36 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **hexagreen.pl**<br>Strona główna | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-hexagreenpl.md#zdarzenie-580cd2cb2837e790)<br>[Otwórz stronę](https://hexagreen.pl/#primary) |
-| **sprytnaoaza.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-sprytnaoazapl.md#zdarzenie-460636f474fc6c32)<br>[Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Najniższa cena z 30 dni przed obniżką: 499 zł.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-0755c0b4eb1c7fde)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **kbprojekt.pl**<br>Strona główna | „\| 792 opinii \| stan na: 19.10.2026” → „\| 794 opinii \| stan na: 26.10.2026”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-kbprojektpl.md#zdarzenie-3afe581948a1c1b2)<br>[Otwórz stronę](https://www.kbprojekt.pl/#main) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-26889f3d42bc56fb)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| **kreodom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „TRÓJNIK STALOWY I PRZECIEK, KTÓRY POJAWIA SIĘ DOPIERO PO TYGODNIU”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-kreodompl.md#zdarzenie-8dffad7f7401ba51)<br>[Otwórz stronę](https://www.kreodom.pl/) |
+| **profesjonalne-projekty-domow.pl**<br>Strona główna | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-05518d1183513132)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/#carusel_2) |
+| **projektydomow.redcart.pl**<br>Strona główna | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektydomowredcartpl.md#zdarzenie-f33a582efa73bcbd)<br>[Otwórz stronę](https://projektydomow.redcart.pl/#carusel_2) |
+| **sprytnaoaza.pl**<br>Karta projektu | Pojawił się komunikat: „Pozycję dodano do koszyka”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-sprytnaoazapl.md#zdarzenie-1e94d95da3389a5d)<br>[Otwórz stronę](https://sprytnaoaza.pl/products/projekt-sprytna-oaza#cart-notification) |
+| **kreodom.pl**<br>Strona główna | Pojawił się komunikat: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-kreodompl.md#zdarzenie-fae86cac1fcc2be8)<br>[Otwórz stronę](https://www.kreodom.pl/#articles-tab0) |
 
-<details><summary>Pozostałe ważne zmiany (9)</summary>
+<details><summary>Pozostałe ważne zmiany (20)</summary>
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy murowanego”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-4afdc16a921c30c8)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Tylko do poniedziałku 26.10.2026, godz. 23:59”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-6ab8ec26f7487a48)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-6c9b0b7be6bf3f67)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy szkieletowego”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-7b26eb6868c6f24e)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-88b6d4542f4a2246)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-3.md#zdarzenie-a1d700adc0f6f197)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-3.md#zdarzenie-b67a2f833ec6dd99)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „✓ Instrukcje PDF + wideo”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-3.md#zdarzenie-c04cb3e59543a69e)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **kbprojekt.pl**<br>Strona główna | „\| 1,2 tys. opinii \| stan na: 19.10.2026” → „\| 1,2 tys. opinii \| stan na: 26.10.2026”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-kbprojektpl.md#zdarzenie-c479020b1be1042d)<br>[Otwórz stronę](https://www.kbprojekt.pl/#main) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „DLACZEGO WARTO WYBRAĆ DOM ALEKSANDRA?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-276b62c1a54b0ee2)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „PARTER – WYGODNA STREFA DZIENNA”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-34059add15890eac)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „„Tania budowa w 10 punktach””. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-6a0a76d2a0de15c3)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-6c927310eba3b3ca)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-7ef04ac3dc05a44c)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „STANDARD PASYWNY – PRZEMYŚLANA ARCHITEKTURA”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-8175d5cdff9d19c1)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „PODDASZE – PRYWATNA STREFA DOMOWNIKÓW”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-8599b6667710ac5b)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „WENTYLACJA MECHANICZNA Z ODZYSKIEM CIEPŁA”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-ce7e684bc7db41b9)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „RZUT PARTERU – POWIERZCHNIE POMIESZCZEŃ”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl.md#zdarzenie-f1ca9060ca690328)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | Pojawił się komunikat: „UKŁAD POMIESZCZEŃ – PRZEMYŚLANY DOM DLA RODZINY”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-fa10128fa44d1d1b)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „+ kompaktowa bryła budynku” → „✓ Zwarta, kompaktowa bryła budynku”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-16aff745371847be)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „Schody zaprojektowano jako żelbetowe monolityczne, zbrojone o grubości 15 cm.” → „Schody wewnętrzne zaprojektowano jako monolityczne żelbetowe, zbrojone, o grubości konstrukcyjnej 15 cm.”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-33c04cee2e86e833)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „+ brak dużych zadaszeń tarasów, ganków itp.” → „✓ Brak rozbudowanych zadaszeń tarasów”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-3fca46231a98594a)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-4fb15362a2d24737)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-5f46454d0d3caeb8)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „Strop nad parterem (między-kondygnacyjny) zaprojektowano jako monolityczny żelbetowy o grubości 17 cm zbrojon…” → „Strop międzykondygnacyjny zaprojektowano jako monolityczny strop żelbetowy o grubości 17 cm, zbrojony prętami…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-9a0b91780eb19f11)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „+ standardowe, prostokątne okna” → „✓ Standardowe, prostokątne okna”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-a4a533e9d8c897b1)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „Budynek zaprojektowany jako murowany z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku p…” → „Ściany zewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku przew…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-c815e35ca8fe16d9)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „W przypadku projektu „Dom Aleksandra”, zapotrzebowanie na energię użytkową do ogrzania i wentylacji wynosi:” → „Według obliczeń projektowych dla przyjętych warunków lokalizacyjnych w Krakowie zapotrzebowanie na energię uż…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-2.md#zdarzenie-e11467ae782d341d)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
+| **profesjonalne-projekty-domow.pl**<br>Karta projektu | „Ściany wewnętrzne zaprojektowano jako murowane z bloczków z betonu komórkowego klasy 500. Ściany wewnętrzne o…” → „Ściany wewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500. Grubość ścian wynosi 24 i 20 cm,…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-profesjonalne-projekty-domowpl-3.md#zdarzenie-ff68498737f9e853)<br>[Otwórz stronę](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html#tab-1) |
 
 </details>
 
@@ -85,89 +103,48 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **alexanderstudio.pl**<br>Karta projektu | Zauważono etykietę: „Promocja!”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-alexanderstudiopl.md#zdarzenie-4a764f3a180427db)<br>[Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_a911a47_0)<br>[Sprawdzone warunki](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
-| **alexanderstudio.pl**<br>Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Promocja jeszcze się nie rozpoczęła.”. W sprawdzonym serwisie znaleziono również: „Promocja od 2026-10-27, koniec za:” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-alexanderstudiopl.md#zdarzenie-de0bf2d0d03b2908)<br>[Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)<br>[Sprawdzone warunki](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
-| **domywstylu.pl**<br>Karta projektu | Zauważono etykietę: „PROMOCJI”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-domywstylupl.md#zdarzenie-0b0e5ee68d0e8694)<br>[Otwórz stronę](https://www.domywstylu.pl/projekt-domu-malutki_12.php#clockdiv-wrapper)<br>[Sprawdzone warunki](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| **eg-domy.pl**<br>Strona główna · Karta projektu | Zauważono etykietę: „Promocja”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-eg-domypl.md#zdarzenie-a226a2fd573a48f6)<br>[Otwórz stronę](https://eg-domy.pl/)<br>[Sprawdzone warunki](https://eg-domy.pl/) |
-| **projektyzwizja.pl**<br>Strona główna | Zauważono etykietę: „PROMOCJA”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-projektyzwizjapl.md#zdarzenie-3511e7d00fb8b95d)<br>[Otwórz stronę](https://projektyzwizja.pl/)<br>[Sprawdzone warunki](https://projektyzwizja.pl/) |
-| **projektyzwizja.pl**<br>Strona główna · Karta projektu | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-projektyzwizjapl.md#zdarzenie-7b721052aab37bac)<br>[Otwórz stronę](https://projektyzwizja.pl/#popup)<br>[Sprawdzone warunki](https://projektyzwizja.pl/) |
-| **sej-pro.pl**<br>Karta projektu | Zauważono etykietę: „Do końca promocji:”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-sej-propl.md#zdarzenie-4b22c93178db99e7)<br>[Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)<br>[Sprawdzone warunki](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| **mgprojekt.com.pl**<br>Strona główna | Nie udało się zweryfikować zmiany oferty w serwisie. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia** | [Przed / po →](dashboard/zdarzenia-mgprojektcompl.md#zdarzenie-5e56e447806d7d74)<br>[Otwórz stronę](https://www.mgprojekt.com.pl/#home) |
 
 ### Niewspółpracujące z nami
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
-| **mtmstyl.com.pl**<br>Karta projektu | Zauważono etykietę: „PROMOCJI”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji. | [Przed / po →](dashboard/zdarzenia-mtmstylcompl.md#zdarzenie-3f96f5fd00172c2e)<br>[Otwórz stronę](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php#clockdiv-wrapper)<br>[Sprawdzone warunki](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| **zbudujsamdom.pl**<br>Strona główna | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA PAKIETU PRO”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-36d5e578e6c56abb)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/)<br>[Sprawdzone warunki](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji zostało:”. Nie udało się zweryfikować zmiany oferty w serwisie. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-3d591f8c018538ba)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Strona główna | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-56d0633eec57b700)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/)<br>[Sprawdzone warunki](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-bea72ce6f50bf90d)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/)<br>[Sprawdzone warunki](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Karta projektu | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PAKIET PRO”. Nie udało się zweryfikować zmiany oferty w serwisie. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-c4e727211cff98d0)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „KUP PAKIET – 333 ZŁ”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-110ec511db82704f)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie.”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-4344651abce9fde9)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Strona główna · Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-625fb78d8d93bc07)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/)<br>[Sprawdzone warunki](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Cena pakietu:”. Nie udało się zweryfikować zmiany oferty w serwisie. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl.md#zdarzenie-7c7220ee7045bb3c)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „WYBIERAM PAKIET PRO ZA 333 ZŁ →”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-9554b2adc50adcf8)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-b39f69f1aa20e5d3)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/)<br>[Sprawdzone warunki](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-b43777ea2e946687)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
-| **zbudujsamdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „✓ Materiały dodatkowe”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-zbudujsamdompl-2.md#zdarzenie-c90cfe9944d8f6ff)<br>[Otwórz stronę](https://www.zbudujsamdom.pl/) |
+| **dobredomy.pl**<br>Strona główna · Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-dobredomypl.md#zdarzenie-6b9edf8232529e52)<br>[Otwórz stronę](https://www.dobredomy.pl/)<br>[Sprawdzone warunki](https://www.dobredomy.pl/) |
+| **dobredomy.pl**<br>Strona główna · Karta projektu | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-dobredomypl.md#zdarzenie-8893034cec5413a3)<br>[Otwórz stronę](https://www.dobredomy.pl/)<br>[Sprawdzone warunki](https://www.dobredomy.pl/) |
+| **archdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „DODATKI”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](dashboard/zdarzenia-archdompl.md#zdarzenie-e50b462616fa2e6e)<br>[Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
 
 
 ## Braki porównania
 
-**52 pracowni wymaga uwagi.** Brak porównania nie oznacza „bez zmian”.
+**28 pracowni wymaga uwagi.** Brak porównania nie oznacza „bez zmian”.
 
-- **3ddom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **agrobisp.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **ajrstudio.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **archbb.pl**: Strona główna — Przejściowy błąd HTTP 500; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **archido.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **archiportal.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **architeka.pl**: Strona główna — Przekierowanie poza domenę: budujdom.pl; dodaj allowed\_hosts po sprawdzeniu; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **artinex-projekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **birylo.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **coolhouses.studio**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **domato.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **domek.net.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **domideaprojekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **birylo.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
+- **domek.net.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
 - **dompp.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **domtodom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **domy21.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **domyciekawe.pl**: Strona główna — Page.goto: net::ERR\_NAME\_NOT\_RESOLVED at http://domyciekawe.pl/; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **domyigaraze.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **domywzieleni.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **domyzmieta.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **drewnex.biz**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **ecodomy.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **ekoarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **faberarchitektura.com**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **fortecaklimatyczna.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **gutarchitektura.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **hbstudio.pl**: Karta projektu — Witryna ogranicza liczbę odczytów (429).
-- **hgatelier.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **fortecaklimatyczna.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
+- **gutarchitektura.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
+- **hbstudio.pl**: Karta projektu — Luka 2 dni · brak porównania z wczoraj
 - **homekoncept.pl**: Strona główna — Przekierowanie poza domenę: homekoncept.com.pl; dodaj allowed\_hosts po sprawdzeniu; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **horyzont.com**: Strona główna — Page.goto: net::ERR\_HTTP2\_PROTOCOL\_ERROR at http://www.horyzont.com/; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **housecollection.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **improjekty.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **kowalscypracownia.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **kupprojekt.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
 - **lk-projekt.pl**: Strona główna — Witryna blokuje dostęp ze skanera (403).; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **machonarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **mjs-domy.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **modernhouse-projekty.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **nanostudio.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **mjs-domy.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
+- **nanostudio.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
 - **opprojekt.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **opusdom.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **opushome.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **partero.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
-- **pracowniaprojektowa.info**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **projekty.nordarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **projektydomowzbali.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
+- **opushome.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
+- **partero.pl**: Karta projektu — Nie ustalono poprawnej karty projektu.
 - **projektymalachit.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **projektyprestige.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **space4u.design**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **studioarchitektury.com.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Pierwszy zapis · brak porównywalnej bazy
-- **tipitom.space**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
+- **tipitom.space**: Strona główna — Niepełny zakres porównania; Karta projektu — Nie ustalono poprawnej karty projektu.
 - **witekarchitekci.pl**: Strona główna — Pierwszy zapis · brak porównywalnej bazy; Karta projektu — Nie ustalono poprawnej karty projektu.
 
 
@@ -200,31 +177,29 @@ Te pracownie nie mają stron WWW; są w wykazie partnerów i nie są skanowane.
 
 </details>
 
-Komunikaty ofert w ostatnim odczycie (636): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md)
+Komunikaty ofert w ostatnim odczycie (641): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md)
 
-Historia zdarzeń (73): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md)
+Historia zdarzeń (151): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md) · [4](dashboard/historia-4.md) · [5](dashboard/historia-5.md) · [6](dashboard/historia-6.md) · [7](dashboard/historia-7.md)
 
 ### Nierozstrzygnięte z wcześniejszych dni
 
-- **planujdom.pl**: WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt; · od 2026-10-26; następna próba: 2026-10-28
-
-<details><summary>Wcześniejsze wydania tego dnia</summary>
-
-- [27.10.2026 07:10](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t054158.344099-0000-1c61635e-porownanie.html)
-- [27.10.2026 08:52](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t074707.657506-0000-22467acf-porownanie.html)
-- [27.10.2026 09:01](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t075757.581196-0000-1981dd81-porownanie.html)
-- [27.10.2026 09:10](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t080734.848892-0000-format-ff067ba4-porownanie.html)
-- [27.10.2026 09:58](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t085337.866826-0000-fb6b0761-porownanie.html)
-- [27.10.2026 14:05](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t130226.949893-0000-format-ea8249e6-porownanie.html)
-- [27.10.2026 14:23](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t131331.819165-0000-f8df0b4c-porownanie.html)
-- [27.10.2026 18:49](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t174456.022404-0000-format-2c0bb110-porownanie.html)
-- [27.10.2026 18:56](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t175226.580108-0000-format-fc99ce52-porownanie.html)
-
-</details>
-
+- **alexanderstudio.pl**: Promocja jeszcze się nie rozpoczęła. · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Najniższa cena pakietu z 30 dni przed obniżką: 499 zł. · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: PROMOCJA DO PONIEDZIAŁKU · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Projekt + instrukcje + materiały dodatkowe w jednym zestawie · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: PROMOCJA NA PAKIET PRO · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Najczęściej wybierane projekty i pakiety · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: KUP PAKIET – 333 ZŁ · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Po promocji cena wraca do 499 zł. · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Do końca promocji zostało: · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: WYBIERAM PAKIET PRO ZA 333 ZŁ → · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: ✓ Materiały dodatkowe · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie. · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: Cena pakietu: · od 2026-10-27; następna próba: 2026-10-29
+- **zbudujsamdom.pl**: CENA PROMOCYJNA PAKIETU PRO · od 2026-10-27; następna próba: 2026-10-29
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 61/112; stałe karty: 60/112; łącznie 121/224 stron z porównaniem.
+Strony główne: 93/112; stałe karty: 84/112; łącznie 177/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -237,20 +212,29 @@ Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracow
 
 Opisane zmiany wyglądu są powyżej; przesunięcia sekcji w rozwijanych szczegółach. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.
 
-różnice obrazu bez jednoznacznego opisu: **8 pracowni**.
+różnice obrazu bez jednoznacznego opisu: **15 pracowni**.
 
 <details><summary>Rozwiń dodatkowe obserwacje wyglądu</summary>
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-po.jpg) |
-| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-34-po.jpg) |
-| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-35-po.jpg) |
-| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-37-po.jpg) |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-38-po.jpg) |
-| [eg-domy.pl](dashboard/eg-domypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-40-po.jpg) |
-| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [ajrstudio.pl](dashboard/ajrstudiopl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-39-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-po.jpg) |
+| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-2-po.jpg) |
+| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-40-po.jpg) |
+| [archipelag.pl](dashboard/archipelagpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [domideaprojekt.pl](dashboard/domideaprojektpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [domy21.pl](dashboard/domy21pl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [drewnex.biz](dashboard/drewnexbiz.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-29-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-33-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [mtmstyl.com.pl](dashboard/mtmstylcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
 
@@ -264,121 +248,121 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | Pracownia | Strona główna | Stała karta projektu |
 | --- | --- | --- |
 | **Współpracujące z nami** · 80 serwisów | | |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md) · **WRR** | Bez zmian w zapisanej komunikacji | 2 zmian · Promocje i rabaty · obraz do obejrzenia |
-| [archand.pl](dashboard/archandpl.md) · **WOF** | Bez zmian w zapisanej komunikacji | 3 zmian · Komunikacja sprzedażowa |
-| [archeton.pl](dashboard/archetonpl.md) · **KRD** | Bez zmian w zapisanej komunikacji | 5 zmian · Promocje i rabaty, Komunikacja sprzedażowa |
+| [3ddom.pl](dashboard/3ddompl.md) · **WBF** | Bez zmian w zapisanej komunikacji | 1 zmian · Promocje i rabaty |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md) · **WRR** | 2 zmian · Komunikacja sprzedażowa · obraz do obejrzenia | 2 zmian · Komunikacja sprzedażowa |
+| [archand.pl](dashboard/archandpl.md) · **WOF** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [archetyp.pl](dashboard/archetyppl.md) · **BSE** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [dom-projekt.pl](dashboard/dom-projektpl.md) · **KRP** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | 1 zmian · Promocje i rabaty |
+| [archi-projekt.com.pl](dashboard/archi-projektcompl.md) · **LUA** | 1 zmian · Promocje i rabaty · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
+| [archipelag.pl](dashboard/archipelagpl.md) · **WRC** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [archstodola.pl](dashboard/archstodolapl.md) · **KRY** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [artinex-projekt.pl](dashboard/artinex-projektpl.md) · **WAI** | 2 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
+| [domato.pl](dashboard/domatopl.md) · **KZB** | 2 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
+| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) · **WRF** | Bez zmian w zapisanej komunikacji | 1 zmian · Funkcjonalności · obraz do obejrzenia |
 | [dompasja.pl](dashboard/dompasjapl.md) · **BBE** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [domywstylu.pl](dashboard/domywstylupl.md) · **BSA** | Bez ustalonej zmiany · obserwacje w szczegółach | 1 zmian · Promocje i rabaty |
+| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [e-domy.pl](dashboard/e-domypl.md) · **WAX** | 3 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
-| [eg-domy.pl](dashboard/eg-domypl.md) · **WWB** | 1 zmian · Promocje i rabaty | 1 zmian · Promocje i rabaty · obraz do obejrzenia |
-| [galeriadomow.pl](dashboard/galeriadomowpl.md) · **KRK** | Bez zmian w zapisanej komunikacji | 1 zmian · Komunikacja sprzedażowa |
-| [mgprojekt.com.pl](dashboard/mgprojektcompl.md) · **WAH** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [pro-arte.pl](dashboard/pro-artepl.md) · **SLN** | Bez zmian w zapisanej komunikacji | 1 zmian · Promocje i rabaty |
-| [projektyka.pl](dashboard/projektykapl.md) · **PKT** | 1 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
-| [projektyzwizja.pl](dashboard/projektyzwizjapl.md) · **WAW** | 3 zmian · Promocje i rabaty, Komunikacja sprzedażowa | 4 zmian · Promocje i rabaty, Komunikacja sprzedażowa |
-| [sej-pro.pl](dashboard/sej-propl.md) · **ELW** | 2 zmian · Komunikacja sprzedażowa | 1 zmian · Promocje i rabaty |
-| [3ddom.pl](dashboard/3ddompl.md) · **WBF** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [ekoarchitekci.pl](dashboard/ekoarchitekcipl.md) · **KKE** | 1 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
+| [galeriadomow.pl](dashboard/galeriadomowpl.md) · **KRK** | 1 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | 1 zmian · Komunikacja sprzedażowa · obraz do obejrzenia | 2 zmian · Komunikacja sprzedażowa · obraz do obejrzenia |
+| [mgprojekt.com.pl](dashboard/mgprojektcompl.md) · **WAH** | 1 zmian · Promocje i rabaty | Bez zmian w zapisanej komunikacji |
+| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Bez zmian w zapisanej komunikacji | 27 zmian · Komunikacja sprzedażowa |
+| [planujdom.pl](dashboard/planujdompl.md) · **ABP** | 1 zmian · Promocje i rabaty | 1 zmian · Promocje i rabaty |
+| [projektyka.pl](dashboard/projektykapl.md) · **PKT** | 3 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
+| [sej-pro.pl](dashboard/sej-propl.md) · **ELW** | 2 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [agrobisp.pl](dashboard/agrobisppl.md) · **KRA** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [ajrstudio.pl](dashboard/ajrstudiopl.md) · **WOJ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [ajrstudio.pl](dashboard/ajrstudiopl.md) · **WOJ** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [archbb.pl](dashboard/archbbpl.md) · **BBH** | Brak odczytu · Przejściowy błąd HTTP 500 | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [archi-projekt.com.pl](dashboard/archi-projektcompl.md) · **LUA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [archipelag.pl](dashboard/archipelagpl.md) · **WRC** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [archeton.pl](dashboard/archetonpl.md) · **KRD** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [archiportal.pl](dashboard/archiportalpl.md) · **WOE** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [architeka.pl](dashboard/architekapl.md) · **WBE** | Brak odczytu · Przekierowanie poza domenę: budujdom.pl; dodaj allowed\_hosts po sprawdzeniu | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [archstodola.pl](dashboard/archstodolapl.md) · **KRY** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [artinex-projekt.pl](dashboard/artinex-projektpl.md) · **WAI** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [coolhouses.studio](dashboard/coolhousesstudio.md) · **POZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [domato.pl](dashboard/domatopl.md) · **KZB** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) · **WRF** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [domenadom.pl](dashboard/domenadompl.md) · **WRW** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [coolhouses.studio](dashboard/coolhousesstudio.md) · **POZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [dom-projekt.pl](dashboard/dom-projektpl.md) · **KRP** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
+| [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [domenadom.pl](dashboard/domenadompl.md) · **WRW** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [dominanta.pl](dashboard/dominantapl.md) · **BSB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [dompp.pl](dashboard/dompppl.md) · **WRG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [domy21.pl](dashboard/domy21pl.md) · **WSA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domy21.pl](dashboard/domy21pl.md) · **WSA** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Brak odczytu · Page.goto: net::ERR\_NAME\_NOT\_RESOLVED at http://domyciekawe.pl/ | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [domydlanas.pl](dashboard/domydlanaspl.md) · **KKG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [domydlanas.pl](dashboard/domydlanaspl.md) · **KKG** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [domyigaraze.pl](dashboard/domyigarazepl.md) · **PKA** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [domywzieleni.pl](dashboard/domywzielenipl.md) · **KKF** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [domywstylu.pl](dashboard/domywstylupl.md) · **BSA** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [domywzieleni.pl](dashboard/domywzielenipl.md) · **KKF** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyzweranda.pl](dashboard/domyzwerandapl.md) · **DZW** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [ecodomy.pl](dashboard/ecodomypl.md) · **WOZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [ekoarchitekci.pl](dashboard/ekoarchitekcipl.md) · **KKE** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [faberarchitektura.com](dashboard/faberarchitekturacom.md) · **LUC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md) · **LOB** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [gutarchitektura.pl](dashboard/gutarchitekturapl.md) · **KNT** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [hgatelier.com.pl](dashboard/hgateliercompl.md) · **KRM** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [ecodomy.pl](dashboard/ecodomypl.md) · **WOZ** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [eg-domy.pl](dashboard/eg-domypl.md) · **WWB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [faberarchitektura.com](dashboard/faberarchitekturacom.md) · **LUC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md) · **LOB** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [gutarchitektura.pl](dashboard/gutarchitekturapl.md) · **KNT** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [hgatelier.com.pl](dashboard/hgateliercompl.md) · **KRM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [homekoncept.pl](dashboard/homekonceptpl.md) · **KRX** | Brak odczytu · Przekierowanie poza domenę: homekoncept.com.pl; dodaj allowed\_hosts po sprawdzeniu | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [horyzont.com](dashboard/horyzontcom.md) · **WRD** | Brak odczytu · Page.goto: net::ERR\_HTTP2\_PROTOCOL\_ERROR at http://www.horyzont.com/ | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [housecollection.pl](dashboard/housecollectionpl.md) · **BHC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
 | [improjekty.pl](dashboard/improjektypl.md) · **SLO** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [kupprojekt.pl](dashboard/kupprojektpl.md) · **PRA** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [kupprojekt.pl](dashboard/kupprojektpl.md) · **PRA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [lipinscy.pl](dashboard/lipinscypl.md) · **WOB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [lk-projekt.pl](dashboard/lk-projektpl.md) · **LKP** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [machonarchitekci.pl](dashboard/machonarchitekcipl.md) · **SBM** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [partero.pl](dashboard/parteropl.md) · **ZGE** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [partero.pl](dashboard/parteropl.md) · **ZGE** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [planujdom.pl](dashboard/planujdompl.md) · **ABP** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [postawdom24.pl](dashboard/postawdom24pl.md) · **JGC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [pracowniaprojektowa.info](dashboard/pracowniaprojektowainfo.md) · **WWC** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md) · **GDH** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md) · **SLU** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [pracowniaprojektowa.info](dashboard/pracowniaprojektowainfo.md) · **WWC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [pro-arte.pl](dashboard/pro-artepl.md) · **SLN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md) · **GDH** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md) · **SLU** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [projektymalachit.pl](dashboard/projektymalachitpl.md) · **SLS** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [projektyprestige.pl](dashboard/projektyprestigepl.md) · **BBG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [space4u.design](dashboard/space4udesign.md) · **BBI** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
-| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Pierwszy zapis · brak porównywalnej bazy | Pierwszy zapis · brak porównywalnej bazy |
+| [projektyprestige.pl](dashboard/projektyprestigepl.md) · **BBG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [projektyzwizja.pl](dashboard/projektyzwizjapl.md) · **WAW** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [space4u.design](dashboard/space4udesign.md) · **BBI** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [studiokrajobrazy.pl](dashboard/studiokrajobrazypl.md) · **WRN** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Niepełny zakres porównania | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [uarchitekta.pl](dashboard/uarchitektapl.md) · **WCB** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Pierwszy zapis · brak porównywalnej bazy | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | **Niewspółpracujące z nami** · 32 serwisów | | |
 | [1001studio.pl](dashboard/1001studiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [hexagreen.pl](dashboard/hexagreenpl.md) | 1 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [kbprojekt.pl](dashboard/kbprojektpl.md) | 2 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [mtmstyl.com.pl](dashboard/mtmstylcompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | 1 zmian · Promocje i rabaty |
+| [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | 1 zmian · Dodatki i pakiety |
+| [dobredomy.pl](dashboard/dobredomypl.md) | 2 zmian · Promocje i rabaty | 2 zmian · Promocje i rabaty |
+| [kbprojekt.pl](dashboard/kbprojektpl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [kreodom.pl](dashboard/kreodompl.md) | 2 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
+| [profesjonalne-projekty-domow.pl](dashboard/profesjonalne-projekty-domowpl.md) | 1 zmian · Komunikacja sprzedażowa | 20 zmian · Komunikacja sprzedażowa |
+| [projektydomow.redcart.pl](dashboard/projektydomowredcartpl.md) | 1 zmian · Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [sprytnaoaza.pl](dashboard/sprytnaoazapl.md) | Bez zmian w zapisanej komunikacji | 1 zmian · Komunikacja sprzedażowa |
-| [teaprojekt.pl](dashboard/teaprojektpl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [zbudujsamdom.pl](dashboard/zbudujsamdompl.md) | 13 zmian · Promocje i rabaty, Dodatki i pakiety, Komunikacja sprzedażowa | 11 zmian · Komunikacja sprzedażowa, Promocje i rabaty, Dodatki i pakiety |
+| [studioatrium.pl](dashboard/studioatriumpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [teaprojekt.pl](dashboard/teaprojektpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [zbudujsamdom.pl](dashboard/zbudujsamdompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [dobredomy.pl](dashboard/dobredomypl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [domoweklimaty.pl](dashboard/domoweklimatypl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez zmian w zapisanej komunikacji | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Luka 2 dni · brak porównania z wczoraj |
+| [hexagreen.pl](dashboard/hexagreenpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [klimatdrewna.pl](dashboard/klimatdrewnapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [kreatywnedomy.pl](dashboard/kreatywnedomypl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [kreodom.pl](dashboard/kreodompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [mtmstyl.com.pl](dashboard/mtmstylcompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [myhome.eco](dashboard/myhomeeco.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [nowoczesne-projektydomow.pl](dashboard/nowoczesne-projektydomowpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [ototwojdom.pl](dashboard/ototwojdompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [penthus.pl](dashboard/penthuspl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [pollio.pl](dashboard/polliopl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [pollio.pl](dashboard/polliopl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [polskiedomki.pl](dashboard/polskiedomkipl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md) | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
-| [profesjonalne-projekty-domow.pl](dashboard/profesjonalne-projekty-domowpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [projektstodola.pl](dashboard/projektstodolapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [projektydomow.redcart.pl](dashboard/projektydomowredcartpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [projektstodola.pl](dashboard/projektstodolapl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [projektygebala.com](dashboard/projektygebalacom.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [skahus.pl](dashboard/skahuspl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [slonecznedomy.pl](dashboard/slonecznedomypl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [studioatrium.pl](dashboard/studioatriumpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 
 </details>
 
-[Pliki raportu i pełne zrzuty](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-27)
+[Pliki raportu i pełne zrzuty](https://github.com/MateuszD0/Pracownie/releases/tag/monitor-report-2026-10-28)
 

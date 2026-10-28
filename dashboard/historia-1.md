@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl · 2026-10-27 | „Otrzymujesz komplet instrukcji budowy” → „Zajrzyj do środka instrukcji”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Najniższa cena z 30 dni przed obniżką: 499 zł.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „KUP PAKIET – 333 ZŁ”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | „Dom 70 m², który możesz zbudować” → „Budowa krok po kroku”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | „Dom murowany czy szkieletowy?” → „Zobacz ten projekt w rzeczywistości”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA PAKIETU PRO”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji zostało:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie.”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy murowanego”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Tylko do poniedziałku 26.10.2026, godz. 23:59”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | „Zobacz, jak może wyglądać gotowy dom 70 m²” → „Otrzymujesz komplet instrukcji budowy”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy szkieletowego”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Cena pakietu:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „WYBIERAM PAKIET PRO ZA 333 ZŁ →”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcje PDF + wideo”. | Zaobserwowana zmiana |
+| sprytnaoaza.pl · 2026-10-28 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-28 | Pojawił się komunikat: „Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Dom parterowy czy z poddaszem: co tańsze w budowie i utrzymaniu?”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
+| projektydomow.redcart.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DLACZEGO WARTO WYBRAĆ DOM ALEKSANDRA?”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PARTER – WYGODNA STREFA DZIENNA”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „„Tania budowa w 10 punktach””. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „STANDARD PASYWNY – PRZEMYŚLANA ARCHITEKTURA”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PODDASZE – PRYWATNA STREFA DOMOWNIKÓW”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „WENTYLACJA MECHANICZNA Z ODZYSKIEM CIEPŁA”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PARTERU – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „UKŁAD POMIESZCZEŃ – PRZEMYŚLANY DOM DLA RODZINY”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ kompaktowa bryła budynku” → „✓ Zwarta, kompaktowa bryła budynku”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „Schody zaprojektowano jako żelbetowe monolityczne, zbrojone o grubości 15 cm.” → „Schody wewnętrzne zaprojektowano jako monolityczne żelbetowe, zbrojone, o grubości konstrukcyjnej 15 cm.”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak dużych zadaszeń tarasów, ganków itp.” → „✓ Brak rozbudowanych zadaszeń tarasów”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „Strop nad parterem (między-kondygnacyjny) zaprojektowano jako monolityczny żelbetowy o grubości 17 cm zbrojon…” → „Strop międzykondygnacyjny zaprojektowano jako monolityczny strop żelbetowy o grubości 17 cm, zbrojony prętami…”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ standardowe, prostokątne okna” → „✓ Standardowe, prostokątne okna”. | Zaobserwowana zmiana |

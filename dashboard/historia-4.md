@@ -8,14 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| archand.pl · 2026-10-27 | „stawka stan surowy zamknięty : {stawka\_numer\_1} zł stan wykończony: {stawka\_numer\_2} zł” → „stawka stan surowy zamknięty :{stawka\_numer\_1} stan wykończony: {stawka\_numer\_2}”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Promocja jeszcze się nie rozpoczęła.”. W sprawdzonym serwisie znaleziono również: „Promocja od 2026-10-27, koniec za:” | Do sprawdzenia |
-| projektstodola.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Działka pod budowę domu i usytuowanie domu na działce to pierwszy, najważniejszy element Waszego przyszłego miejsca do zamieszkania. Działka nierozerwalnie łączy się z projektem.…”. | Zaobserwowana zmiana |
-| projektstodola.pl · 2026-10-26 | Pojawił się komunikat: „Poradnik · Działka i usytuowanie Jak usytuować dom na działce Ten sam projekt może dać salon pełen słońca albo w cieniu, prywatny taras albo taras \[…\]”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-26 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
-| hexagreen.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-26 | Pojawił się komunikat: „Rodzinny dom z sypialnią na parterze”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Parterowy dom z płaskim dachem”. | Zaobserwowana zmiana |
-| archand.pl · 2026-10-26 | „POLECANE KATEGORIE” → „ZNAJDŹ DOM W SWOIM STYLU”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-26 | Zapowiedź promocji od 2026-10-27. | Potwierdzona zapowiedź |
+| alexanderstudio.pl · 2026-10-28 | „Garaże i budynki gospodarcze” → „Garaże i budynki &lt;br&gt;gospodarcze”. | Zaobserwowana zmiana |
+| alexanderstudio.pl · 2026-10-28 | „Bliźniaki i jednorodzinne dwulokalowe” → „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe”. | Zaobserwowana zmiana |
+| 3ddom.pl · 2026-10-28 | Zmiana komunikatu oferty: „Promocja od 25.10.2026 koniec za” → „Promocja od 26.10.2026 koniec za” | Sprawdzono w serwisie |
+| zbudujsamdom.pl · 2026-10-27 | „Otrzymujesz komplet instrukcji budowy” → „Zajrzyj do środka instrukcji”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Najniższa cena z 30 dni przed obniżką: 499 zł.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „KUP PAKIET – 333 ZŁ”. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | „Dom 70 m², który możesz zbudować” → „Budowa krok po kroku”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | „Dom murowany czy szkieletowy?” → „Zobacz ten projekt w rzeczywistości”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA PAKIETU PRO”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji zostało:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie.”. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy murowanego”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Tylko do poniedziałku 26.10.2026, godz. 23:59”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | „Zobacz, jak może wyglądać gotowy dom 70 m²” → „Otrzymujesz komplet instrukcji budowy”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy szkieletowego”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Cena pakietu:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „WYBIERAM PAKIET PRO ZA 333 ZŁ →”. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |

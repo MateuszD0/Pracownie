@@ -6,59 +6,59 @@
 
 [alexanderstudio.pl — wszystkie odczyty](alexanderstudiopl.md)
 
-## Zdarzenie 4a764f3a180427db
+## Zdarzenie 927553ac27d840d8
 
-**Zauważono etykietę: „Promocja!”.**
+**„Garaże i budynki gospodarcze” → „Garaże i budynki &lt;br&gt;gospodarcze”.**
 
-**Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
+**Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>Promocja!</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_a911a47_0) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Garaże i budynki gospodarcze | Garaże i budynki <strong>&lt;br&gt;</strong>gospodarcze | [Otwórz stronę](https://alexanderstudio.pl/) |
 
-[Karta projektu](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_a911a47_0)
+[Strona główna](https://alexanderstudio.pl/) · [Karta projektu](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.10.2026 14:58 | Po · 27.10.2026 06:42 |
+| Przed · 27.10.2026 06:42 | Po · 28.10.2026 08:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4a764f3a180427db%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%23lakit_carousel_a911a47_0%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4a764f3a180427db%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%23lakit_carousel_a911a47_0%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2F4a764f3a180427db%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%23lakit_carousel_a911a47_0%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2F927553ac27d840d8%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EGara%C5%BCe+i+budynki+gospodarcze%E2%80%9D+%E2%86%92+%E2%80%9EGara%C5%BCe+i+budynki+%3Cbr%3Egospodarcze%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2F927553ac27d840d8%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EGara%C5%BCe+i+budynki+gospodarcze%E2%80%9D+%E2%86%92+%E2%80%9EGara%C5%BCe+i+budynki+%3Cbr%3Egospodarcze%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2F927553ac27d840d8%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EGara%C5%BCe+i+budynki+gospodarcze%E2%80%9D+%E2%86%92+%E2%80%9EGara%C5%BCe+i+budynki+%3Cbr%3Egospodarcze%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie de0bf2d0d03b2908
+## Zdarzenie d1e38451606d3713
 
-**Nie odnotowano wcześniejszego komunikatu: „Promocja jeszcze się nie rozpoczęła.”. W sprawdzonym serwisie znaleziono również: „Promocja od 2026-10-27, koniec za:”**
+**„Bliźniaki i jednorodzinne dwulokalowe” → „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe”.**
 
-**Do sprawdzenia** · Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia.
+**Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | <strong>Promocja jeszcze się nie rozpoczęła.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Bliźniaki i jednorodzinne dwulokalowe | Bliźniaki i jednorodzinne <strong>&lt;br&gt;</strong>dwulokalowe | [Otwórz stronę](https://alexanderstudio.pl/) |
 
-[Karta projektu](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
+[Strona główna](https://alexanderstudio.pl/) · [Karta projektu](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.10.2026 14:58 | Po · 27.10.2026 06:42 |
+| Przed · 27.10.2026 06:42 | Po · 28.10.2026 08:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-14-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fde0bf2d0d03b2908%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPromocja+jeszcze+si%C4%99+nie+rozpocz%C4%99%C5%82a.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPromocja+od+2026-10-27%2C+koniec+za%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fde0bf2d0d03b2908%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPromocja+jeszcze+si%C4%99+nie+rozpocz%C4%99%C5%82a.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPromocja+od+2026-10-27%2C+koniec+za%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-27%2Fde0bf2d0d03b2908%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EPromocja+jeszcze+si%C4%99+nie+rozpocz%C4%99%C5%82a.%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EPromocja+od+2026-10-27%2C+koniec+za%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2Fd1e38451606d3713%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+dwulokalowe%E2%80%9D+%E2%86%92+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+%3Cbr%3Edwulokalowe%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2Fd1e38451606d3713%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+dwulokalowe%E2%80%9D+%E2%86%92+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+%3Cbr%3Edwulokalowe%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-28%2Fd1e38451606d3713%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+alexanderstudio.pl%0AZdarzenie%3A+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+dwulokalowe%E2%80%9D+%E2%86%92+%E2%80%9EBli%C5%BAniaki+i+jednorodzinne+%3Cbr%3Edwulokalowe%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

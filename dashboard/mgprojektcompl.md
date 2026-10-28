@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-26 → 2026-10-27**
+**2026-10-27 → 2026-10-28**
 
 **Ten sam projekt:** [Projekt domu Amber 5](https://www.mgprojekt.com.pl/amber-5)
 
-**2 zmian w zapisanym zakresie.**
+**1 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,34 +16,48 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.mgprojekt.com.pl/)
 
-**Odczyty:** 26.10.2026 16:12 → 27.10.2026 06:44 (czas polski).
+**Odczyty:** 27.10.2026 06:44 → 28.10.2026 08:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-27%2Fmgprojekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.mgprojekt.com.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fmgprojekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.mgprojekt.com.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Rozmiar: baner | <strong>224</strong> × 16 px; położenie: <strong>521</strong> px od lewej, 723 px od góry | <strong>240</strong> × 16 px; położenie: <strong>513</strong> px od lewej, 723 px od góry | [Otwórz stronę](https://www.mgprojekt.com.pl/#home) |
-| Zmiany wyglądu · Rozmiar: baner | <strong>17262</strong> × 520 px; położenie: 16 px od lewej, 259 px od góry | <strong>18495</strong> × 520 px; położenie: 16 px od lewej, 259 px od góry | [Otwórz stronę](https://www.mgprojekt.com.pl/#home) |
+| Promocje i rabaty · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Promocja w MGPROJEKT</strong> | [Otwórz stronę](https://www.mgprojekt.com.pl/#home) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-29-po.jpg)
+**Wynik sprawdzenia oferty:** Nie udało się zweryfikować zmiany oferty w serwisie.
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Sprawdzona strona](https://www.mgprojekt.com.pl/) · 28.10.2026 08:28 · odczyt częściowy
+- [Sprawdzona strona](https://www.mgprojekt.com.pl/amber-5) · 28.10.2026 08:28 · odczyt częściowy
+- [Sprawdzona strona](https://www.mgprojekt.com.pl/) · 28.10.2026 08:37 · odczyt częściowy
+- [Sprawdzona strona](https://www.mgprojekt.com.pl/aktualnosci/promocja-cenowa) · 28.10.2026 08:37 · odczyt poprawny
+- [Sprawdzona strona](https://www.mgprojekt.com.pl/aktualnosci/dodatki-do-projektu-domu) · 28.10.2026 08:37 · odczyt poprawny
+
+—
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-5-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.10.2026 16:12 | Po · 27.10.2026 06:44 |
+| Przed · 27.10.2026 06:44 | Po · 28.10.2026 08:28 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-dowod-29-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → https://www.mgprojekt.com.pl/media/slider/banner/Promocja-Cenowa-MGProjekt-031026-s.jpg
+- brak → 2026-06-28 \[licznik\]
+- brak → Serdecznie zapraszamy do skorzystania z Promocji w MG Projekt - Teraz wszystkie projekty domów można kupić w niższej cenie!
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -53,11 +67,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.mgprojekt.com.pl/amber-5)
 
-**Odczyty:** 26.10.2026 16:12 → 27.10.2026 06:45 (czas polski).
+**Odczyty:** 27.10.2026 06:45 → 28.10.2026 08:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-27%2Fmgprojekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.mgprojekt.com.pl%2Famber-5%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fmgprojekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.mgprojekt.com.pl%2Famber-5%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-porownanie.html)
 

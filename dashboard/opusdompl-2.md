@@ -56,7 +56,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Grand</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Syntia-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t092304.772799-0000-format-805d9664-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 

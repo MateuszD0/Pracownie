@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 6 różnic tej strony; użyj numer
 | Zmiany wyglądu · Położenie i rozmiar: APG 11A budynek gospodarczy (795 px w lewo, 517 px w górę) | <strong>1040</strong> × 22 px; położenie: <strong>1180</strong> px od lewej, <strong>3924</strong> px od góry | <strong>245</strong> × 22 px; położenie: <strong>385</strong> px od lewej, <strong>3407</strong> px od góry | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_a911a47_0) |
 | Zmiany wyglądu · Układ · Quickview for “Elektroniczna wersja projektu” | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1601 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t092304.772799-0000-format-805d9664-porownanie.html)
 
 Strony porównania: [1](alexanderstudiopl.md) · **2** · [3](alexanderstudiopl-3.md)
 

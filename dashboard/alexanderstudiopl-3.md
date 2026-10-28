@@ -42,7 +42,7 @@ Pozostałe strony tego porównania zawierają 6 różnic tej strony; użyj numer
 | Zmiany wyglądu · Położenie i rozmiar: Werbi B (795 px w lewo, 494 px w górę) | <strong>1040</strong> × <strong>669</strong> px; położenie: <strong>1180</strong> px od lewej, <strong>4200</strong> px od góry | <strong>245</strong> × <strong>158</strong> px; położenie: <strong>385</strong> px od lewej, <strong>3706</strong> px od góry | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/#lakit_carousel_2196fef_0) |
 | Zmiany wyglądu · Układ · Dodaj do koszyka: „Pompa ciepła powietrzna lub gruntowa” | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>1601 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t093128.210814-0000-format-19df0600-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t094000.180252-0000-20955b5e-porownanie.html)
 
 Strony porównania: [1](alexanderstudiopl.md) · [2](alexanderstudiopl-2.md) · **3**
 

@@ -6,7 +6,7 @@
 
 **2026-10-27 → 2026-10-28**
 
-**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
+**Ten sam projekt:** [Projekt domu TK275](https://budujdom.pl/projekty-domow/tk275/)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](http://www.architeka.pl/)
+[Otwórz stronę źródłową](https://budujdom.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 28.10.2026 10:40 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Przekierowanie do innego serwisu: budujdom.pl.
+**Pierwszy zapis · brak porównywalnej bazy**
 
 ## Karta projektu
 
-Adres karty zostanie podany po poprawnym wyborze projektu.
+[Otwórz stronę źródłową](https://budujdom.pl/projekty-domow/tk275/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 28.10.2026 10:40 (czas polski).
 
-**Brak odczytu**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Nie ustalono poprawnej karty projektu.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t093128.210814-0000-format-19df0600-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t094000.180252-0000-20955b5e-porownanie.html)
 

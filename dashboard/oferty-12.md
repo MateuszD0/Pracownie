@@ -8,6 +8,18 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| lipinscy.pl | Rozwiązania do domu w promocji Hörmann | Obecna w zapisie · 28.10.2026 08:27 · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) · [Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Promocja firmy Hörmann od miesięcy cieszy się zainteresowaniem inwestorów i właścicieli domów. Wszyscy, którzy nie zdążyli z niej skorzystać mają jeszcze szansę, ponieważ oferta została przedłużona do 26 lutego 2026 roku. W atrakcyjnych cenach można zamówić bramę garażową z napędem, drzwi zewnętrzne i wewnętrzne, a także domek oraz skrzynię ogrodową. | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział w promocji. | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38212\_articles\_mainSection.jpeg | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38206\_articles\_mainSection.jpeg | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
+| lipinscy.pl | Domy z kosztorysem | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
+| lipinscy.pl | Domy jednorodzinne z kosztorysem | Obecna w zapisie · 28.10.2026 08:27<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
+| mgprojekt.com.pl | Promocja w MGPROJEKT | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) |
+| mgprojekt.com.pl | Serdecznie zapraszamy do skorzystania z Promocji w MG Projekt - Teraz wszystkie projekty domów można kupić w niższej cenie! | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) |
 | mgprojekt.com.pl | Jako autorska pracownia architektoniczna możemy zagwarantować najniższe ceny projektów. Dodatkowo, do każdego zamówionego bezpośrednio projektu domu dołączamy bezpłatnie zestaw dodatków o wartości ponad 2000 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) |
 | mgprojekt.com.pl | Czasem wystarczy drobna modyfikacja projektu domu – niewielka zmiana kąta nachylenia dachu, przesunięcie okna czy ograniczenie wysokości budynku – aby nowy dom spełniał wymagania urzędu, a my mogli spać spokojnie. Każda gmina ma swoje specyficzne reguły, więc nie istnieje jeden uniwersalny sposób na realizację projektu domu bez zaglądania w przepisy. Doskonale to rozumiemy, dlatego do każdego got… | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) |
 | mgprojekt.com.pl | Sam projekt domu powinien być także oceniany przez pryzmat kosztów budowy domu. Nawet jeśli sam projekt budowlany wydaje się stosunkowo tani, ostateczny koszt inwestycji może być wysoki, jeśli bryła budynku jest zbyt złożona lub zastosowane rozwiązania techniczne okazują się kosztowne w wykonaniu. Gotowe projekty domów z naszej oferty uwzględniają optymalne ekonomicznie technologie, co pozwala na… | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) |
@@ -21,15 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Dodatki do projektów | Obecna w zapisie · 28.10.2026 08:28 · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/) · [Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | DODATKI I GRATISY | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | gratis | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | PAKIET KOSZTORYS INWESTORSKI | Obecna w zapisie · 28.10.2026 08:28 · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) · [Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kominek z DGP 500 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej ? 600 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kosztorys inwestorski ? 600 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet ogrzewanie podłogowe ? 550 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP ? 550 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe ? 750 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna ? 550 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet klimatyzacja w domu ? 550 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła ? 750 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet odkurzacz centralny ? 550 zł | Obecna w zapisie · 28.10.2026 08:28<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

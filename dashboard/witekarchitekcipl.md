@@ -6,7 +6,7 @@
 
 **2026-10-27 → 2026-10-28**
 
-**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
+**Ten sam projekt:** [JESIENNA REZYDENCJA IZABELIN](https://witekarchitekci.pl/index-g56)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -16,19 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://witekarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 28.10.2026 10:41 (czas polski).
+**Odczyty:** brak odczytu → 28.10.2026 10:52 (czas polski).
 
 **Niepełny zakres porównania**
 
 ## Karta projektu
 
-Adres karty zostanie podany po poprawnym wyborze projektu.
+[Otwórz stronę źródłową](https://witekarchitekci.pl/index-g56)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 28.10.2026 10:52 (czas polski).
 
-**Brak odczytu**
+**Niepełny zakres porównania**
 
-Powód braku odczytu: Adres nie odpowiada zweryfikowanej stałej karcie projektu
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t094000.180252-0000-20955b5e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t095229.885546-0000-15b0445d-porownanie.html)
 

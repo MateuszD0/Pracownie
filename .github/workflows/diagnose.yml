@@ -22,6 +22,10 @@ on:
         description: Sprawdź zgodność protokołu HTTP/1.1
         type: boolean
         default: false
+      extra_urls:
+        description: 'Dodatkowe publiczne adresy: JSON domena → lista URL (maks. 4 na domenę)'
+        type: string
+        default: '{}'
       runner:
         description: System do niezależnego sprawdzenia dostępu
         type: choice
@@ -47,7 +51,7 @@ jobs:
       - run: uv sync --frozen
       - run: uv run playwright install --with-deps chromium
       - run: |
-          args=(--domains "$DIAGNOSE_DOMAINS" --verification-wait "$VERIFICATION_WAIT" --publish)
+          args=(--domains "$DIAGNOSE_DOMAINS" --verification-wait "$VERIFICATION_WAIT" --extra-urls "$EXTRA_URLS" --publish)
           if [[ "$DISCOVER" == 'true' ]]; then args+=(--discover); fi
           if [[ "$DISABLE_HTTP2" == 'true' ]]; then args+=(--disable-http2); fi
           if [[ "$HEADED" == 'true' ]]; then
@@ -66,3 +70,4 @@ jobs:
           HEADED: ${{ inputs.headed }}
           DISCOVER: ${{ inputs.discover }}
           DISABLE_HTTP2: ${{ inputs.disable_http2 }}
+          EXTRA_URLS: ${{ inputs.extra_urls || '{}' }}

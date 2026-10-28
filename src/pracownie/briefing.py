@@ -63,6 +63,7 @@ def event_key(item: dict) -> tuple:
 
 def build_briefing(view: dict, management: dict | None = None) -> dict:
     from .commercial import generic_offer_label
+    from .gaps import page_gap
     from .management import build_management
     from .relationships import group_for
 
@@ -156,8 +157,7 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
         for p in row['pages']:
             if p.get('communication', {}).get('daily'):
                 continue
-            reason = p.get('error_text') or p.get('communication', {}).get('label') or 'Brak porównywalnej pary zapisów'
-            issues.append({'page': p['page'], 'reason': reason})
+            issues.append(page_gap(p, view['day']))
         if issues:
             gaps.append({'domain': row['domain'], 'issues': issues})
     return {'events': events, 'total': len(view['rows']), 'complete_domains': complete, 'gaps': gaps,
@@ -231,10 +231,11 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
         if tier == 'main':
             out += ['<button type="button" id="brief-more"' + (' hidden' if len(selected) <= 5 else '') + '>Pozostałe ważne zmiany (' + str(max(0, len(selected)-5)) + ')</button>']
         out += ['</section>']
-    out += ['<details id="brief-gaps"><summary>Braki porównania · ' + str(len(data['gaps'])) + ' pracowni</summary><ul>']
+    out += ['<details id="brief-gaps"><summary>Braki porównania · ' + str(len(data['gaps'])) + ' pracowni</summary><p>Osobno pokazujemy działające odczyty bez historii i problemy wymagające naprawy.</p><div class="table-box"><table><thead><tr><th>Pracownia / strona</th><th>Stan odczytu</th><th>Co dalej</th></tr></thead><tbody>']
     for gap in data['gaps']:
-        out += ['<li data-gap-domain="' + esc(gap['domain']) + '"><a href="#pracownia-' + esc(gap['domain']) + '">' + esc(gap['domain']) + '</a>: ' + esc('; '.join(LABELS[i['page']] + ' — ' + i['reason'] for i in gap['issues'])) + '</li>']
-    out += ['</ul><p class="small">Pierwszy odczyt, luka historii i blokada są różnymi przyczynami. Żadna nie oznacza „bez zmian”.</p></details></section><details id="brief-proofs"><summary>Dowody zdarzeń — tekst i zrzuty przed / po</summary>']
+        for issue in gap['issues']:
+            out += ['<tr data-gap-domain="' + esc(gap['domain']) + '"><td><a href="#pracownia-' + esc(gap['domain']) + '">' + esc(gap['domain']) + '</a><br>' + LABELS[issue['page']] + '</td><td><strong>' + esc(issue['status']) + '</strong><br>' + esc(issue['reason']) + '</td><td>' + esc(issue['action']) + '</td></tr>']
+    out += ['</tbody></table></div><p class="small">Brak porównania nie oznacza „bez zmian”. Daty zapisów i dostępne dowody znajdują się w szczegółach pracowni.</p></details></section><details id="brief-proofs"><summary>Dowody zdarzeń — tekst i zrzuty przed / po</summary>']
     for event in data['events']:
         if event['tier'] == 'technical':
             continue
@@ -305,12 +306,29 @@ def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_doc
             lines += ['### ' + label, '']
         selected = [e for e in review if group == 'all' or e['group'] == group]
         lines += header + (paged(selected, 'weryfikacja' + ('-'+group if label else '')) or ['| Brak ważnych nierozstrzygniętych sygnałów w tym zakresie. | | | |']) + ['']
-    gap_summary = '**' + str(len(data['gaps'])) + ' pracowni wymaga uwagi.**'
+    gap_summary = '**' + str(len(data['gaps'])) + ' pracowni bez pełnego porównania obu stron.**'
     if data['pending_domains']:
         gap_summary = 'Bez pełnego porównania: **' + str(len(data['gaps'])) + '**, w tym **' + str(len(data['pending_domains'])) + ' oczekuje na pierwszy skan**.'
     lines += ['', '## Braki porównania', '', gap_summary + ' Brak porównania nie oznacza „bez zmian”.', '']
-    for gap in data['gaps']:
-        lines += ['- **' + cell(gap['domain']) + '**: ' + cell('; '.join(LABELS[i['page']] + ' — ' + i['reason'] for i in gap['issues']))]
+    from .dashboard import company_anchor
+    for category, title in [('history', 'Odczyt działa — potrzebna historia'), ('repair', 'Problemy wymagające naprawy')]:
+        issues = [(gap['domain'], issue) for gap in data['gaps'] for issue in gap['issues'] if issue['category'] == category]
+        if not issues:
+            continue
+        gap_header = ['| Pracownia / strona | Stan odczytu | Co dalej |', '| --- | --- | --- |']
+        gap_rows = []
+        for domain, issue in issues:
+            target = folder + '/' + company_anchor(domain) + '.md#' + ('strona-główna' if issue['page'] == 'glowna' else 'karta-projektu')
+            gap_rows += ['| [' + cell(domain) + '](' + target + ')<br>' + LABELS[issue['page']] + ' | **' + cell(issue['status']) + '**<br>' + cell(short(issue['reason'], 260)) + ' | ' + cell(issue['action']) + ' |']
+        lines += ['### ' + title + ' · ' + str(len(issues)) + ' stron', '', *gap_header, *gap_rows[:12]]
+        navigation = []
+        for offset in range(12, len(gap_rows), 24):
+            path = folder + '/odczyty-' + category + '-' + str(offset // 24 + 2) + '.md'
+            navigation.append('[Dalsze strony ' + str(offset + 1) + '–' + str(min(offset + 24, len(gap_rows))) + '](' + path + ')')
+            extra_documents[path] = '\n'.join(['# ' + title + ' · ' + view['day'], '', '[← Odprawa dnia](../' + filename + ')', '', *gap_header, *[r.replace('](' + folder + '/', '](') for r in gap_rows[offset:offset + 24]], ''])
+        if navigation:
+            lines += ['', ' · '.join(navigation)]
+        lines += ['']
     return lines + ['']
 
 

@@ -276,6 +276,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 if not old or not raw_path.is_file():
                     return None
                 snapshot = Snapshot.from_dict(json.loads(raw_path.read_text()))
+                if (kind == "glowna" and not site.project_url and not state["selections"].get(site.domain)
+                    and "discovery_links" not in snapshot.document.get("payload", {})):
+                    # A cached homepage from before catalogue navigation was
+                    # recorded cannot repair a missing initial project choice.
+                    return None
                 if (snapshot.observed_at != old.observed_at or not (store.root / snapshot.image).is_file()
                     or snapshot.renderer.split("|extractor=")[0] != scanner.renderer + ('-headed' if site.browser_headed else '')
                     or snapshot.document.get("adapter") != adapter_signature(site, Scenario("podstawowy", ""), kind)):

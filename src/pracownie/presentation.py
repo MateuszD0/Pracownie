@@ -105,6 +105,12 @@ def issue_text(value: str) -> str:
         return ""
     if "ERR_CONNECTION_REFUSED" in value:
         return "Serwer odmówił połączenia."
+    if "ERR_NAME_NOT_RESOLVED" in value:
+        return "Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony."
+    if "ERR_HTTP2_PROTOCOL_ERROR" in value:
+        return "Błąd komunikacji HTTP/2 z serwerem witryny."
+    if "Przekierowanie poza domenę:" in value:
+        return "Przekierowanie do innego serwisu: " + value.split(":", 1)[1].split(";", 1)[0].strip() + "."
     if "ERR_CERT" in value or "SSL" in value:
         return "Witryna ma nieprawidłowy certyfikat dla tego adresu."
     if "403" in value:
@@ -228,7 +234,7 @@ def page_comparison(day: str, page: str, base: Result | None, entries: list[Resu
         communication["label"] = "Zrzut bez różnic · zakres częściowy"
     elif communication.get("status") == "partial" and communication.get("shared_unchanged"):
         communication["label"] = f"Częściowe · {communication['shared_unchanged']} zgodnych tekstów"
-    elif communication.get("status") == "partial":
+    elif communication.get("status") == "partial" or base and base.data_quality == "partial":
         communication["label"] = "Niepełny zakres porównania"
     else:
         communication["label"] = "Pierwszy zapis · brak porównywalnej bazy"

@@ -59,3 +59,36 @@ async def test_navigation_catalogue_is_extracted_separately_from_offer(executabl
         assert not payload['links']
         assert not any('Katalog' in x['text'] for x in payload['blocks'])
         await browser.close()
+
+
+def test_partial_first_read_is_a_repair_not_a_promise_of_tomorrows_comparison():
+    from pracownie.gaps import page_gap
+    from pracownie.model import Result
+    from pracownie.presentation import build_view
+    result = Result('test.pl', 'glowna', 'podstawowy', 'partial', 'https://test.pl/',
+                    observed_at='2026-10-28T06:00:00+00:00', data_quality='partial',
+                    warnings=['Widoczny panel cookies może zasłaniać ofertę.'],
+                    communication={'status': 'baseline', 'comparable': False, 'ready': False})
+    view = build_view('2026-10-28', [result], {}, {}, ['test.pl'])
+    page = view['rows'][0]['pages'][0]
+    assert 'Pierwszy zapis' not in page['communication']['label']
+    gap = page_gap(page, '2026-10-28')
+    assert gap['category'] == 'repair' and 'cookies' in gap['reason']
+    assert not page['communication']['daily']
+
+
+def test_first_usable_read_and_old_history_remain_distinct_from_failed_reads():
+    from pracownie.gaps import page_gap
+    page = {'page': 'glowna', 'current_read': True, 'data_quality': 'ok', 'communication': {'ready': True}}
+    first = page_gap(page, '2026-10-28')
+    assert first['category'] == 'history' and '2026-10-29' in first['action']
+    gap = page_gap(dict(page, compared_at='2026-10-26T06:00:00+00:00', gap_days=2), '2026-10-28')
+    assert gap['category'] == 'history' and 'sprzed 2 dni' in gap['reason']
+    failed = page_gap(dict(page, current_read=False, error_text='Witryna blokuje dostęp (403).'), '2026-10-28')
+    assert failed['category'] == 'repair' and 'odrzucony' in failed['status']
+
+
+def test_search_page_with_project_words_in_navigation_is_not_a_project():
+    from pracownie.extract import validate_payload
+    with pytest.raises(ValueError, match='kategorii'):
+        validate_payload({'h1': 'szukaj', 'text': 'Projekt domu w nawigacji, powierzchnia i katalog projektów gotowych.'}, product=True)

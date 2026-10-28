@@ -54,7 +54,7 @@
     },
     {
       "domain": "agrobisp.pl",
-      "home_url": "http://www.agrobisp.pl/",
+      "home_url": "https://www.agrobisp.pl/cgi-bin/store",
       "inspection": "pending",
       "masks": [
         ".grecaptcha-badge"
@@ -64,8 +64,9 @@
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
       },
       "discovery_links": [
-        "http://www.agrobisp.pl/cgi-bin/store"
-      ]
+        "https://www.agrobisp.pl/cgi-bin/store/projektydomow"
+      ],
+      "product_url_pattern": "/cgi-bin/store\\?action=display&item=\\d+$"
     },
     {
       "domain": "ajrstudio.pl",
@@ -384,19 +385,27 @@
       "selection": {
         "source": "http://www.archiportal.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+      },
+      "cookie_continue_selector": "#privacyModal button.close"
     },
     {
       "domain": "architeka.pl",
-      "home_url": "http://www.architeka.pl/",
+      "home_url": "https://budujdom.pl/",
       "inspection": "pending",
       "masks": [
         ".grecaptcha-badge"
       ],
       "selection": {
         "source": "http://www.architeka.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony.",
+        "redirect_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "allowed_hosts": [
+        "budujdom.pl"
+      ],
+      "discovery_links": [
+        "https://budujdom.pl/projekty-domow/"
+      ]
     },
     {
       "domain": "archstodola.pl",
@@ -588,7 +597,10 @@
       "selection": {
         "source": "http://www.domek.net.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+      },
+      "discovery_links": [
+        "https://domek.net.pl/projekty-domow/"
+      ]
     },
     {
       "domain": "domenadom.pl",
@@ -1075,6 +1087,7 @@
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
       },
       "discovery_links": [
+        "https://www.gutarchitektura.pl/sklep/",
         "https://www.gutarchitektura.pl/projekty/"
       ]
     },
@@ -1147,15 +1160,19 @@
     },
     {
       "domain": "homekoncept.pl",
-      "home_url": "http://www.homekoncept.pl/",
+      "home_url": "https://homekoncept.com.pl/",
       "inspection": "pending",
       "masks": [
         ".grecaptcha-badge"
       ],
       "selection": {
         "source": "http://www.homekoncept.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony.",
+        "redirect_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "allowed_hosts": [
+        "homekoncept.com.pl"
+      ]
     },
     {
       "domain": "horyzont.com",
@@ -1442,9 +1459,12 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "https://machonarchitekci.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "source": "https://machonarchitekci.pl/projekty-gotowe/",
+        "basis": "Pierwszy poprawny projekt z sekcji: Projekty gotowe -Nowoczesna architektura, domy mieszkalne i letniskowe Wybór stały; brak potwierdzenia bestsellera.",
+        "http_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "project_url": "https://machonarchitekci.pl/dom-na-zgloszenie-70m2/",
+      "project_name": "Dom na zgłoszenie 70m2"
     },
     {
       "domain": "mgprojekt.com.pl",
@@ -1473,9 +1493,12 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "https://www.mjs-domy.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "source": "https://www.mjs-domy.pl/sklep/",
+        "basis": "Pierwszy poprawny projekt z sekcji: Sklep - MJS Domy Wybór stały; brak potwierdzenia bestsellera.",
+        "http_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "project_url": "https://www.mjs-domy.pl/mjs-101/",
+      "project_name": "MJS-101"
     },
     {
       "domain": "modernhouse-projekty.pl",
@@ -1573,7 +1596,10 @@
       "selection": {
         "source": "http://www.nanostudio.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+      },
+      "discovery_links": [
+        "https://www.nanostudio.pl/architektura/"
+      ]
     },
     {
       "domain": "nowoczesne-projektydomow.pl",
@@ -1617,9 +1643,12 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "https://opprojekt.com.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "source": "https://opprojekt.com.pl/projekty-domow",
+        "basis": "Pierwszy poprawny projekt z sekcji: Gotowe projekty domów 2024 - Wybierz dom idealny dla Twojej rodziny. Wybór stały; brak potwierdzenia bestsellera.",
+        "http_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "project_url": "https://opprojekt.com.pl/projekt-livia",
+      "project_name": "PROJEKT LIVIA"
     },
     {
       "domain": "opusdom.pl",
@@ -1641,9 +1670,12 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "https://www.opushome.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "source": "https://opushome.pl/projekt-typowy/",
+        "basis": "Pierwszy poprawny projekt z sekcji: Projekt typowy – OPUS Sp. z o.o. – Budujmy Razem! Wybór stały; brak potwierdzenia bestsellera.",
+        "http_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "project_url": "https://opushome.pl/projekt-domu-relaks-2/",
+      "project_name": "Projekt domu Relaks 2"
     },
     {
       "domain": "ototwojdom.pl",
@@ -1686,9 +1718,12 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "https://www.partero.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+        "source": "https://www.partero.pl/kategoria/nowoczesna-stodola",
+        "basis": "Pierwszy poprawny projekt z sekcji: PROJEKTY DOMÓW - partero Wybór stały; brak potwierdzenia bestsellera.",
+        "http_verified_at": "2026-10-28T09:15:08.542944+00:00"
+      },
+      "project_url": "https://www.partero.pl/partero-01",
+      "project_name": "PARTERO-01"
     },
     {
       "domain": "penthus.pl",

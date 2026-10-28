@@ -24,13 +24,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Baner | <strong>Producentdomówdrewnianych</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.drewnex.biz/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 27.10.2026 14:14 | Po · 28.10.2026 08:26 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -44,7 +44,7 @@ Porównanie: 27.10.2026 14:14 → 28.10.2026 08:26 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.drewnex.biz/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-dowod-29-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-dowod-29-po.jpg)
 
 ## Karta projektu
 
@@ -56,5 +56,5 @@ Porównanie: 27.10.2026 14:14 → 28.10.2026 08:26 (czas polski). Różnica zrzu
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t084005.011724-0000-3e79eff6-porownanie.html)
 

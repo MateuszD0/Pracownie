@@ -34,7 +34,7 @@ Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Grand-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Oliwia</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-c392c10f108ead53fa) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t072447.267278-0000-0cd61aa0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t082454.957764-0000-6b29f01b-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 

@@ -2532,7 +2532,7 @@
         "basis": "Projekt wyróżniony w portfolio na stronie głównej. Karta realizacji, brak publicznego rankingu sprzedaży.",
         "browser_verified_at": "2026-10-28T09:23:26.735946+00:00"
       },
-      "project_url": "https://witekarchitekci.pl/index-g56.html",
+      "project_url": "https://witekarchitekci.pl/index-g56",
       "project_name": "JESIENNA REZYDENCJA IZABELIN",
       "project_identity": {
         "selector": ":is(h1,h2):has-text(\"JESIENNA REZYDENCJA\")",

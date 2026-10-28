@@ -60,13 +60,25 @@
         ".grecaptcha-badge"
       ],
       "selection": {
-        "source": "http://www.agrobisp.pl/cgi-bin/store",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+        "source": "https://www.agrobisp.pl/cgi-bin/store",
+        "basis": "Projekt miesiąca wyróżniony na stronie głównej; brak potwierdzenia rankingu sprzedaży.",
+        "browser_verified_at": "2026-10-28T09:23:26.735946+00:00"
       },
       "discovery_links": [
         "https://www.agrobisp.pl/cgi-bin/store/projektydomow"
       ],
-      "product_url_pattern": "/cgi-bin/store\\?action=display&item=\\d+$"
+      "product_url_pattern": "/cgi-bin/store\\?action=display&item=\\d+$",
+      "project_url": "https://www.agrobisp.pl/cgi-bin/store?action=display&item=433",
+      "project_name": "WB-0016",
+      "project_identity": {
+        "selector": "text=\"WB-0016\"",
+        "text": "WB-0016"
+      },
+      "required": {
+        "projekt": [
+          "text=\"Symbol projektu:\""
+        ]
+      }
     },
     {
       "domain": "ajrstudio.pl",
@@ -596,11 +608,18 @@
       ],
       "selection": {
         "source": "http://www.domek.net.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+        "basis": "Pierwsza karta z katalogu projektów; oferta opisana głównie grafiką. Brak danych o bestsellerze.",
+        "browser_verified_at": "2026-10-28T09:23:26.735946+00:00"
       },
       "discovery_links": [
         "https://domek.net.pl/projekty-domow/"
-      ]
+      ],
+      "project_url": "https://domek.net.pl/projekt/domek-na-babiogorskiej-069-es-54_35/",
+      "project_name": "domek na Babiogórskiej 54-35 (069 ES 54-35)",
+      "project_identity": {
+        "selector": ":is(h1,h2):has-text(\"domek na Babiogórskiej\")",
+        "text": "domek na Babiogórskiej 54-35 (069 ES 54-35)"
+      }
     },
     {
       "domain": "domenadom.pl",
@@ -2510,7 +2529,14 @@
       ],
       "selection": {
         "source": "https://www.witekarchitekci.pl/",
-        "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+        "basis": "Projekt wyróżniony w portfolio na stronie głównej. Karta realizacji, brak publicznego rankingu sprzedaży.",
+        "browser_verified_at": "2026-10-28T09:23:26.735946+00:00"
+      },
+      "project_url": "https://witekarchitekci.pl/index-g56.html",
+      "project_name": "JESIENNA REZYDENCJA IZABELIN",
+      "project_identity": {
+        "selector": ":is(h1,h2):has-text(\"JESIENNA REZYDENCJA\")",
+        "text": "JESIENNA REZYDENCJA IZABELIN"
       }
     },
     {

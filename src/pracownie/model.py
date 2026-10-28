@@ -146,6 +146,7 @@ class Site:
     home_url: str
     project_url: str | None = None
     project_name: str | None = None
+    project_identity: dict = field(default_factory=dict)
     selection: dict = field(default_factory=dict)
     required: dict[str, list[str]] = field(default_factory=dict)
     scenarios: list[Scenario] = field(default_factory=list)

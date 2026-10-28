@@ -229,6 +229,8 @@ class Capture:
 
 def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
     rules = {"fields": site.field_selectors, "masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}
+    if page_kind == 'projekt' and site.project_identity:
+        rules['project_identity'] = site.project_identity
     if site.user_agent:
         rules['user_agent'] = site.user_agent
     if site.browser_headed:
@@ -591,6 +593,19 @@ class BrowserScanner:
                     continue
                 await page.locator(rule["selector"]).filter(visible=True).first.wait_for(state="visible", timeout=5000)
             payload = await page.evaluate(EXTRACT, page_kind)
+            if page_kind == 'projekt' and not is_cart and site.project_identity:
+                if not site.project_url or page_identity(page.url) != page_identity(site.project_url):
+                    raise ValueError('Adres nie odpowiada zweryfikowanej stałej karcie projektu')
+                heading = page.locator(site.project_identity['selector']).filter(visible=True).first
+                if not await heading.count():
+                    raise ValueError('Brak zweryfikowanej nazwy projektu na karcie')
+                name = ' '.join((await heading.inner_text()).split())
+                if name != site.project_identity['text']:
+                    raise ValueError('Nazwa nie odpowiada zweryfikowanej stałej karcie projektu')
+                # Some older and portfolio cards have no Product markup and
+                # put their specific name below a generic site-wide H1.
+                payload['h1'] = name
+                payload['verified_project_identity'] = {'url': page.url, 'name': name, 'selector': site.project_identity['selector']}
             payload["scenario_label"] = scenario.label
             payload["variant"] = scenario.label if any(a.get("action") in {"select", "check"} for a in scenario.actions) else ""
             validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
@@ -664,7 +679,7 @@ class BrowserScanner:
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             adapter = adapter_signature(site, scenario, page_kind)
-            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
+            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "verified_project_identity", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document['unresolved_styles'] = relevant_styles
             document["communication"] = communication

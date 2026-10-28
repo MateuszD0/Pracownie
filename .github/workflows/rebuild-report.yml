@@ -15,10 +15,9 @@ permissions:
   issues: read
   pages: read
 jobs:
-  rebuild:
-    concurrency:
-      group: pracownie-monitor
-      cancel-in-progress: false
+  admission:
+    # GitHub keeps just one pending job per concurrency group. An automatic
+    # layout rebuild must not replace a scan already waiting for the writer.
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event.workflow_run.conclusion == 'success' &&
@@ -26,6 +25,37 @@ jobs:
        github.event.workflow_run.head_repository.full_name == github.repository &&
        !contains(github.event.workflow_run.head_commit.message, '[scan]') &&
        !contains(github.event.workflow_run.head_commit.message, '[mail]'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    permissions:
+      actions: read
+    outputs:
+      available: ${{ steps.gate.outputs.available }}
+    steps:
+      - id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          active=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/monitor.yml/runs?per_page=30" --jq '[.workflow_runs[] | select(.status == "queued" or .status == "pending" or .status == "in_progress" or .status == "waiting" or .status == "requested")] | length')
+          if [[ "$active" -gt 0 ]]; then
+            echo 'available=false' >> "$GITHUB_OUTPUT"
+            echo 'Odświeżenie odłożone: skan jest w toku lub oczekuje na publikację.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'available=true' >> "$GITHUB_OUTPUT"
+          fi
+  rebuild:
+    needs: admission
+    concurrency:
+      group: pracownie-monitor
+      cancel-in-progress: false
+    if: >-
+      needs.admission.outputs.available == 'true' &&
+      (github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       !contains(github.event.workflow_run.head_commit.message, '[scan]') &&
+       !contains(github.event.workflow_run.head_commit.message, '[mail]')))
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     outputs:

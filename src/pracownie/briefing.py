@@ -231,10 +231,10 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
         if tier == 'main':
             out += ['<button type="button" id="brief-more"' + (' hidden' if len(selected) <= 5 else '') + '>Pozostałe ważne zmiany (' + str(max(0, len(selected)-5)) + ')</button>']
         out += ['</section>']
-    out += ['<details id="brief-gaps"><summary>Braki porównania · ' + str(len(data['gaps'])) + ' pracowni</summary><p>Osobno pokazujemy działające odczyty bez historii i problemy wymagające naprawy.</p><div class="table-box"><table><thead><tr><th>Pracownia / strona</th><th>Stan odczytu</th><th>Co dalej</th></tr></thead><tbody>']
+    out += ['<details id="brief-gaps"><summary>Braki porównania · ' + str(len(data['gaps'])) + ' pracowni</summary><p>Osobno pokazujemy działające odczyty bez historii i problemy wymagające naprawy.</p><div class="table-box"><table class="business-table"><thead><tr><th>Pracownia / strona</th><th>Stan odczytu</th><th>Co dalej</th></tr></thead><tbody>']
     for gap in data['gaps']:
         for issue in gap['issues']:
-            out += ['<tr data-gap-domain="' + esc(gap['domain']) + '"><td><a href="#pracownia-' + esc(gap['domain']) + '">' + esc(gap['domain']) + '</a><br>' + LABELS[issue['page']] + '</td><td><strong>' + esc(issue['status']) + '</strong><br>' + esc(issue['reason']) + '</td><td>' + esc(issue['action']) + '</td></tr>']
+            out += ['<tr data-gap-domain="' + esc(gap['domain']) + '"><td><a href="#pracownia-' + esc(gap['domain']) + '">' + esc(gap['domain']) + '</a><br>' + LABELS[issue['page']] + '</td><td data-label="Stan odczytu"><strong>' + esc(issue['status']) + '</strong><br>' + esc(issue['reason']) + '</td><td data-label="Co dalej">' + esc(issue['action']) + '</td></tr>']
     out += ['</tbody></table></div><p class="small">Brak porównania nie oznacza „bez zmian”. Daty zapisów i dostępne dowody znajdują się w szczegółach pracowni.</p></details></section><details id="brief-proofs"><summary>Dowody zdarzeń — tekst i zrzuty przed / po</summary>']
     for event in data['events']:
         if event['tier'] == 'technical':

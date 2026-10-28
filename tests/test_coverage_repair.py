@@ -92,3 +92,22 @@ def test_search_page_with_project_words_in_navigation_is_not_a_project():
     from pracownie.extract import validate_payload
     with pytest.raises(ValueError, match='kategorii'):
         validate_payload({'h1': 'szukaj', 'text': 'Projekt domu w nawigacji, powierzchnia i katalog projektów gotowych.'}, product=True)
+
+
+@pytest.mark.browser
+async def test_inspected_graphical_card_requires_both_its_fixed_url_and_visible_name(sample_site, executable, tmp_path):
+    from pracownie.model import Scenario
+    sample_site.no_sales = True
+    sample_site.cookie_panel = '<h2 id="project-title">JESIENNA REZYDENCJA</h2><p>Portfolio projektu. Zobacz wizualizacje.</p>'
+    site = Site('test.pl', sample_site.url, sample_site.url + '/projekt-jesienny',
+                project_identity={'selector': '#project-title', 'text': 'JESIENNA REZYDENCJA'})
+    scenario = Scenario('podstawowy', 'Projekt')
+    async with BrowserScanner(executable, settle_ms=10) as scanner:
+        capture = await scanner.capture(site, 'projekt', site.project_url, scenario, tmp_path / 'project.png')
+        assert capture.snapshot.title == 'JESIENNA REZYDENCJA'
+        assert capture.snapshot.document['payload']['verified_project_identity']['name'] == capture.snapshot.title
+        with pytest.raises(ValueError, match='Adres nie odpowiada'):
+            await scanner.capture(site, 'projekt', site.home_url, scenario, tmp_path / 'wrong-url.png')
+        site.project_identity['text'] = 'INNY PROJEKT'
+        with pytest.raises(ValueError, match='Nazwa nie odpowiada'):
+            await scanner.capture(site, 'projekt', site.project_url, scenario, tmp_path / 'wrong-name.png')

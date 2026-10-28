@@ -167,5 +167,7 @@ def validate_payload(payload: dict, product: bool = False) -> None:
         title = normalize(payload.get("h1") or payload.get("title", ""))
         if is_listing_title(title) or re.fullmatch(r"szukaj|wyszukiwarka|wyniki wyszukiwania|oferta|projekt indywidualny", title, re.I):
             raise ValueError("Adres prowadzi do kategorii, poradnika lub dodatku, a nie pojedynczego projektu")
-        if not (payload.get("products") or title and re.search(r"powierzch|projekt domu|opis projektu|rzuty|kosztorys|do koszyka", text, re.I)):
+        identity = payload.get('verified_project_identity', {})
+        verified = bool(identity.get('selector') and identity.get('name') == title and identity.get('url') == payload.get('url'))
+        if not (verified or payload.get("products") or title and re.search(r"powierzch|projekt domu|opis projektu|rzuty|kosztorys|do koszyka", text, re.I)):
             raise ValueError("Nie potwierdzono, że wybrany adres jest kartą projektu")

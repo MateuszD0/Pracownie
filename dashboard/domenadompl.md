@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-27 → 2026-10-28**
+**2026-10-28 → 2026-10-29**
 
 **Ten sam projekt:** [Domena 169 A1](https://domenadom.pl/p/domena-169-a1-i532)
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domenadom.pl/)
 
-**Odczyty:** 27.10.2026 06:43 → 28.10.2026 08:26 (czas polski).
+**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fdomenadom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Fdomenadom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,11 +26,25 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domenadom.pl/p/domena-169-a1-i532)
 
-**Odczyty:** 27.10.2026 06:43 → 28.10.2026 08:26 (czas polski).
+**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-28%2Fdomenadom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2Fp%2Fdomena-169-a1-i532%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Fdomenadom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2Fp%2Fdomena-169-a1-i532%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t095229.885546-0000-15b0445d-porownanie.html)
+<details><summary>Obserwacje pomocnicze (5) — nie są ustaloną zmianą oferty</summary>
+
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+
+Przykłady z zapisów:
+
+- https://domenadom.pl/userfiles/projects/elevation/elevation\_right\_532.jpg?t=1793172375 → https://domenadom.pl/userfiles/projects/elevation/elevation\_right\_532.jpg?t=1793255403
+- https://domenadom.pl/userfiles/projects/projection/ground\_532\_1792056902.jpg?t=1793172375 → https://domenadom.pl/userfiles/projects/projection/ground\_532\_1792056902.jpg?t=1793255403
+- https://domenadom.pl/userfiles/projects/elevation/elevation\_back\_532.jpg?t=1793172375 → https://domenadom.pl/userfiles/projects/elevation/elevation\_back\_532.jpg?t=1793255403
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t062826.523535-0000-6cc18836-porownanie.html)
 

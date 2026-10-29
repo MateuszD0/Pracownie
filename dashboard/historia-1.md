@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sprytnaoaza.pl · 2026-10-28 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-28 | Pojawił się komunikat: „Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Dom parterowy czy z poddaszem: co tańsze w budowie i utrzymaniu?”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-10-28 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| projektydomow.redcart.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ kompaktowa bryła budynku” → „✓ Zwarta, kompaktowa bryła budynku”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DLACZEGO WARTO WYBRAĆ DOM ALEKSANDRA?”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „Schody zaprojektowano jako żelbetowe monolityczne, zbrojone o grubości 15 cm.” → „Schody wewnętrzne zaprojektowano jako monolityczne żelbetowe, zbrojone, o grubości konstrukcyjnej 15 cm.”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PARTER – WYGODNA STREFA DZIENNA”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak dużych zadaszeń tarasów, ganków itp.” → „✓ Brak rozbudowanych zadaszeń tarasów”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „„Tania budowa w 10 punktach””. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „STANDARD PASYWNY – PRZEMYŚLANA ARCHITEKTURA”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PODDASZE – PRYWATNA STREFA DOMOWNIKÓW”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „Strop nad parterem (między-kondygnacyjny) zaprojektowano jako monolityczny żelbetowy o grubości 17 cm zbrojon…” → „Strop międzykondygnacyjny zaprojektowano jako monolityczny strop żelbetowy o grubości 17 cm, zbrojony prętami…”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ standardowe, prostokątne okna” → „✓ Standardowe, prostokątne okna”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „Budynek zaprojektowany jako murowany z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku p…” → „Ściany zewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku przew…”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „WENTYLACJA MECHANICZNA Z ODZYSKIEM CIEPŁA”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „W przypadku projektu „Dom Aleksandra”, zapotrzebowanie na energię użytkową do ogrzania i wentylacji wynosi:” → „Według obliczeń projektowych dla przyjętych warunków lokalizacyjnych w Krakowie zapotrzebowanie na energię uż…”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zadzwoń lub napisz – bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki.” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji.” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zgoda na zmiany gratis” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki i miejscowego planu.” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Oświadczenie z szerokim zakresem zmian dla architekta adaptującego – w cenie projektu.” | Sprawdzono w serwisie |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „14 dni na zwrot, 30 na wymianę”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Więcej o naszych projektach”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Dlaczego warto kupić projekt u nas”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „GOTOWE PROJEKTY DOMÓW - OD CZEGO ZACZĄĆ WYBÓR PROJEKTU”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Zobacz wszystkie nowości →”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Zbuduj dom z TeA Projekt”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak kupić gotowy projekt domu – krok po kroku”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów a uwarunkowania lokalne.”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Projekty garaży 8 projektów”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Domy piętrowe 18 projektów”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Autorskie gotowe projekty domów”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów - sprawdź naszą ofertę”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Tanie w budowie 36 projektów”. | Zaobserwowana zmiana |

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-27 → 2026-10-28**
+**2026-10-28 → 2026-10-29**
 
 **Ten sam projekt:** [PROJEKT LIVIA](https://opprojekt.com.pl/projekt-livia)
 
@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/)
 
-**Odczyty:** brak odczytu → 28.10.2026 09:40 (czas polski).
+**Odczyty:** 28.10.2026 09:40 → 29.10.2026 07:32 (czas polski).
 
-**Pierwszy zapis · brak porównywalnej bazy**
+**Częściowe · 52 zgodnych tekstów**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/projekt-livia)
 
-**Odczyty:** brak odczytu → 28.10.2026 10:42 (czas polski).
+**Odczyty:** brak odczytu → 29.10.2026 07:33 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t095229.885546-0000-15b0445d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t062826.523535-0000-6cc18836-porownanie.html)
 

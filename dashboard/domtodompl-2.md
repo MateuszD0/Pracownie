@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-27 → 2026-10-28**
+**2026-10-28 → 2026-10-29**
 
 **Ten sam projekt:** [ATKA](http://domtodom.pl/projekty-domow/projekt/20)
 
@@ -18,27 +18,27 @@ Strony porównania: [1](domtodompl.md) · **2**
 
 [Otwórz stronę źródłową](http://domtodom.pl/)
 
-**Odczyty:** 27.10.2026 14:14 → 28.10.2026 08:26 (czas polski).
+**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>GWINEA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ORINOKO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>BALI N 2G</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>MERKURY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>KALEDONIA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>CARAVELA 2 G2</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>PANAMA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>JUKATAN 2</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>KOLORADO</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>KOMODO</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>JURA N</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>ALASKA</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>ZANZIBAR</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>QUATTRO Z GARAŻAMI</strong> | [Otwórz stronę](http://domtodom.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](http://domtodom.pl/projekty-domow/projekt/20)
 
-**Odczyty:** 27.10.2026 14:14 → 28.10.2026 08:26 (czas polski).
+**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-28/2026-10-28-2026-10-28t095229.885546-0000-15b0445d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t062826.523535-0000-6cc18836-porownanie.html)
 
 Strony porównania: [1](domtodompl.md) · **2**
 

@@ -25,13 +25,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Nagłówek | DOM MISTRZA ALEKSANDRA (<strong>WERSJA PODSTAWOWA</strong>) | DOM MISTRZA ALEKSANDRA (<strong>MUROWANY</strong>) | [Otwórz stronę](https://projektydomow.redcart.pl/#carusel_2) |
 | Komunikacja sprzedażowa · Baner | Dom Mistrza Aleksandra (<strong>wersja podstawowa</strong>) | Dom Mistrza Aleksandra (<strong>murowany</strong>) | [Otwórz stronę](https://projektydomow.redcart.pl/#carusel_14) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-17-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-17-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 28.10.2026 08:29 | Po · 29.10.2026 07:33 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-17-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-17-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -53,13 +53,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 | Zmiany wyglądu · Położenie i rozmiar: PROJEKT DOMU PASYWNEGO LIGHT - DOM LEONARDA (21 px w dół) | 258 × <strong>91</strong> px; położenie: 984 px od lewej, <strong>1956</strong> px od góry | 258 × <strong>69</strong> px; położenie: 984 px od lewej, <strong>1977</strong> px od góry | [Otwórz stronę](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html#carousel-cross) |
 | Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>50 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html#carousel-cross) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-35-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-35-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 28.10.2026 08:29 | Po · 29.10.2026 07:33 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-dowod-35-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-35-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -79,5 +79,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t082641.801720-0000-0c5bb646-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-porownanie.html)
 

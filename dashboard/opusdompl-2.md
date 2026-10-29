@@ -57,7 +57,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Rino | Rino<strong> II</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Karmelia L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 

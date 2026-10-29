@@ -26,13 +26,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Baner | <strong>eko Typowy 82 pierwotny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ekoarchitekci.pl/) |
 | Komunikacja sprzedażowa · Baner | <strong>eko Typowy 83 pierwotny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ekoarchitekci.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-24-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-24-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 28.10.2026 08:27 | Po · 29.10.2026 07:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-24-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-24-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -48,5 +48,5 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
 

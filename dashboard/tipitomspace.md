@@ -14,9 +14,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://tipitom.space/)
+[Otwórz stronę źródłową](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A48.211.211.32%3A1793267258.831)
 
-**Odczyty:** 27.10.2026 14:16 → 29.10.2026 09:37 (czas polski).
+**Odczyty:** 27.10.2026 14:16 → 29.10.2026 10:47 (czas polski).
 
 **Luka 2 dni · brak porównania z wczoraj**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://tipitom.space/produkt/tt-1-merkury-murowany/)
 
-**Odczyty:** brak odczytu → 29.10.2026 09:37 (czas polski).
+**Odczyty:** brak odczytu → 29.10.2026 10:47 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
 

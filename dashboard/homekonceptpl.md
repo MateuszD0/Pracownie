@@ -25,13 +25,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Baner | <strong>Saved For Later</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://homekoncept.com.pl/) |
 | Komunikacja sprzedażowa · Baner | <strong>No items to show</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://homekoncept.com.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-25-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-25-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 28.10.2026 10:40 | Po · 29.10.2026 07:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-25-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-25-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -51,13 +51,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 | Komunikacja sprzedażowa · Baner | &lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne-hk-850x425.jpg" alt="Projekt domu&amp;lt;br&amp;gt; HOMEKONCEPT 139 B" width="850" height="425" /&gt; | &lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne-hk-850x425.jpg<strong>.rss.webp</strong>" alt="Projekt domu&amp;lt;br&amp;gt; HOMEKONCEPT 139 B" width="850" height="425" /&gt; | [Otwórz stronę](https://homekoncept.com.pl/produkt/homekoncept-149-b2/#up-sells-products-carousel) |
 | Komunikacja sprzedażowa · Baner | &lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg" alt="Projekt domu&amp;lt;br&amp;gt; HOMEKONCEPT 101 G1 B" width="800" height="450" /&gt; | &lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg<strong>.rss.webp</strong>" alt="Projekt domu&amp;lt;br&amp;gt; HOMEKONCEPT 101 G1 B" width="800" height="450" /&gt; | [Otwórz stronę](https://homekoncept.com.pl/produkt/homekoncept-149-b2/#up-sells-products-carousel) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-14-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-14-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-14-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-14-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 28.10.2026 10:41 | Po · 29.10.2026 07:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-dowod-14-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-14-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -75,5 +75,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t083708.373619-0000-3723058d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
 

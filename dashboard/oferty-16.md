@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
-| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna charakterystyka energetyczna | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | GRATIS Tablica budowy | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
+| planujdom.pl | GRATIS Dziennik budowy | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
+| planujdom.pl | Bezpłatna konsultacja z architektem | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
+| planujdom.pl | Bezpłatnie sprawdzimy projekt pod Twoją działkę | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |

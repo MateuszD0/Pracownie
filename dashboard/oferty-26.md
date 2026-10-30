@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl | Pakiet PRO – dom 70 m2 | Obecna w zapisie · 30.10.2026 09:09 · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/) · [Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| zbudujsamdom.pl | Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| zbudujsamdom.pl | Kompletny pakiet dla osób, które chcą zbudować dom samodzielnie – od projektu aż po realizację krok po kroku. | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Dla kogo jest ten pakiet? | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Obie instrukcje otrzymujesz w cenie pakietu. | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Czy pakiet jest dla osoby bez doświadczenia budowlanego? | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
@@ -33,3 +30,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl | Projekt domu 70 m² bez pozwolenia – kompletny Pakiet PRO · https://www.zbudujsamdom.pl/wp-content/uploads/2026/09/projekt-domu-70m2-bez-pozwolenia-pakiet-pro-300x300.webp | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Dom 70 m² – wizualizacja projektu domu murowanego i szkieletowego · https://cdn.shopify.com/s/files/1/0765/3353/0952/files/projekt-domu-70m2-pakiet-murowany-szkieletowy.webp?v=1787746143 | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Pakiet projektów domu 70 m² i instrukcje budowy · https://cdn.shopify.com/s/files/1/0765/3353/0952/files/pakiet-projektow-domu-70m2-instrukcje.webp?v=1787746144 | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| zbudujsamdom.pl | ilość Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO | Obecna w zapisie · 30.10.2026 09:09<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |

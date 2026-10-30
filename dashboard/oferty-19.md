@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| profesjonalne-projekty-domow.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
-| profesjonalne-projekty-domow.pl | Poproś o kupon rabatowy | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
-| projektdomudo100m2.pl | Kosztorys budowy — 30 zł | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | kosztorys | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorys — 30 zł | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Dla każdego projektu możesz kupić kompletny pakiet: kosztorys inwestorski PDF, wersję uproszczoną oraz zestawienie materiałów XLS. | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Sprawdź kosztorysy → | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Na stronie znajdziesz gotowe projekty domów parterowych, warianty do 100 m² i większe, projekty z garażem, domy z dachem dwuspadowym i czterospadowym, a także projekty z użytkowym poddaszem. Każdy projekt możesz porównać z innymi wariantami, sprawdzić dostępny kosztorys oraz zobaczyć prawdziwe realizacje inwestorów. | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Co zawiera kosztorys budowy za 30 zł? | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Jak otrzymam zakupiony kosztorys? | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Czy muszę kupić projekt, aby wcześniej sprawdzić kosztorys? | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Porównaj projekty od 76 do 145 m², wybierz odpowiedni metraż, dach i wariant, zobacz prawdziwe realizacje i sprawdź kosztorys. Wszystko, czego potrzebujesz do wyboru projektu, znajdziesz w jednym miejscu. | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.projektdomudo100m2.pl/) |

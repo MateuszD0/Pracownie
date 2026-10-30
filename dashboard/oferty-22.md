@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) |
-| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | W cenie projektu 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://skahus.pl/) |
 | skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://skahus.pl/) |
 | slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.slonecznedomy.pl/) |

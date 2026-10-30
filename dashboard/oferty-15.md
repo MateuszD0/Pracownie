@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| moj-dom-projekty.pl | Szacunkowy koszt budowy w stanie deweloperskim: 554 000 PLN Szacunkowy koszt stanu surowego zamknietego: 398 880 PLN Koszty nie obejmują budowy piwnicy. Podane koszty są szacunkowe i nie mogą zastąpić rzeczywistego kosztorysu. | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
-| mtmstyl.com.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/) |
-| mtmstyl.com.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07 · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) · [Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |

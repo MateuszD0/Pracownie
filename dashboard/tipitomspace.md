@@ -14,11 +14,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://tipitom.space/)
+[Otwórz stronę źródłową](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A20.102.47.196%3A1793349928.097)
 
-**Odczyty:** 29.10.2026 10:47 → 30.10.2026 09:09 (czas polski).
+**Odczyty:** 29.10.2026 10:47 → 30.10.2026 09:45 (czas polski).
 
-**Niepełny zakres porównania**
+**Częściowe · 2 zgodnych tekstów**
+
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 29.10.2026 10:47 → 30.10.2026 09:45 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A20.102.47.196%3A1793349928.097)
+
+
 
 ## Karta projektu
 
@@ -28,5 +38,5 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t084501.133827-0000-d17781cd-porownanie.html)
 

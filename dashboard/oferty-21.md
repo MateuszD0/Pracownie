@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektydomow.redcart.pl | Poproś o bezpłatną symulację kredytową. | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
-| projektydomow.redcart.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://projektydomow.redcart.pl/) · [Źródło](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
-| projektydomowzbali.pl | Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat oraz dodatki do projektu (dziennik budowy, tablica budowy). | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.projektydomowzbali.pl/) · [Źródło](https://www.projektydomowzbali.pl/projekty-domow-calorocznych/169,l-188) |
 | projektyka.pl | W PROMOCJI | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://projektyka.pl/) |
 | projektyka.pl | Pakiet szamba szczelnego | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://projektyka.pl/projekty/ka288) |
 | projektyka.pl | Kosztorys inwestorski | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://projektyka.pl/projekty/ka288) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | i bądź na bieżąco ze wszystkimi nowościami i promocjami. | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | W cenie projektu | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | 4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 30.10.2026 09:08 · 30.10.2026 09:08<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| lipinscy.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38212\_articles\_mainSection.jpeg | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/) |
-| lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/) |
-| lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38206\_articles\_mainSection.jpeg | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy z kosztorysem | Obecna w zapisie · 30.10.2026 09:06<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Pakiet kosztorys inwestorski ? 600 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe ? 550 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP ? 550 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe ? 750 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna ? 550 zł | Obecna w zapisie · 30.10.2026 09:07<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [DOPASOWANY 04](https://domato.pl/projekt/51/dopasowany-04)
 
-**3 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,63 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domato.pl/)
 
-**Odczyty:** 29.10.2026 07:29 → 30.10.2026 08:16 (czas polski).
+**Odczyty:** 29.10.2026 07:29 → 30.10.2026 09:04 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdomato.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Nowoczesne rozwiązania projektowe dla wymagających.</strong> | [Otwórz stronę](https://domato.pl/#slick-slide10) |
-| Komunikacja sprzedażowa · Baner | <strong>POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domato.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>zobacz DOMY MINI</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domato.pl/) |
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 29.10.2026 07:29 | Po · 30.10.2026 08:16 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
-
-- Zmiana pozycji lub parametrów w prezentowanym katalogu; nie ustalono zmiany stałego projektu.
-- Zapisany link prowadzi do innego projektu lub katalogu; nie do stałej karty.
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-
-Przykłady z zapisów:
-
-- Z MYŚLĄ O TOBIE POSZERZAMY GRUPĘ DOMÓW MINI O POWIERZCHNI DO 80 m². → brak
-- brak → ZOBACZ TEN DOM
-- brak → PROJEKTY DOMÓW
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 29.10.2026 07:29 → 30.10.2026 08:16 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://domato.pl/)
-
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-26-po.jpg)
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domato.pl/projekt/51/dopasowany-04)
 
-**Odczyty:** 29.10.2026 07:30 → 30.10.2026 08:16 (czas polski).
+**Odczyty:** 29.10.2026 07:30 → 30.10.2026 09:04 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdomato.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2Fprojekt%2F51%2Fdopasowany-04%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-porownanie.html)
 

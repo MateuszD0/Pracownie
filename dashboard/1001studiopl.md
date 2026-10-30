@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**3 zmian w zapisanym zakresie.**
+**5 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,17 +16,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/)
 
-**Odczyty:** 29.10.2026 07:28 → 30.10.2026 08:15 (czas polski).
+**Odczyty:** 29.10.2026 07:28 → 30.10.2026 09:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2F1001studio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1549532259) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>124 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1549532259) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>73 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1549532259) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>CLOSE</strong> | [Otwórz stronę](https://www.1001studio.pl/#popmake-1869) |
+| Zmiany wyglądu · Rozmiar: nagłówek strony | <strong>1280</strong> × 134 px; położenie: 0 px od lewej, 0 px od góry | <strong>1265</strong> × 134 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.1001studio.pl/#header) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>127 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1074507119) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>127 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1074507119) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>53 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1074507119) |
 
-<details><summary>Obserwacje pomocnicze (72) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (82) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
@@ -34,9 +36,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- Projekt domu Marisa III G1 ENERGO → Projekt domu Ben II G1
-- Projekt HOMEKONCEPT 66 → Projekt HOMEKONCEPT 99
-- Projekt domu Anabela G1 → Projekt domu Ernest G1
+- Projekt domu uA215 → Projekt domu TRYPOLIS
+- Projekt domu Marisa III G1 ENERGO → Projekt domu Daniel III G2
+- Projekt domu Dom przy Kwiatowej 4 → Projekt domu Dom przy Cyprysowej 73
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -46,11 +48,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Odczyty:** 29.10.2026 07:29 → 30.10.2026 08:15 (czas polski).
+**Odczyty:** 29.10.2026 07:29 → 30.10.2026 09:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2F1001studio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2Fproduct%2Fprojekt-domu-bolonia-blizniak-dla-jednego-segmentu%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-porownanie.html)
 

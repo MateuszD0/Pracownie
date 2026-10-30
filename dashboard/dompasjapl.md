@@ -16,39 +16,39 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompasja.pl/)
 
-**Odczyty:** 29.10.2026 07:30 → 30.10.2026 08:16 (czas polski).
+**Odczyty:** 29.10.2026 07:30 → 30.10.2026 09:04 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdompasja.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>DomPasja</strong> <strong>56</strong> - projekt domu z <strong>poddaszem</strong> <strong>użytkowym</strong> | <strong>Dompasja</strong> <strong>61 D</strong> - projekt domu <strong>parterowego </strong>z <strong>dachem</strong> <strong>bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dompasja 61 D odbicie lustrzane- projekt domu parterowego z dachem bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dompasja 61 D - projekt domu parterowego z dachem bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
-| Komunikacja sprzedażowa · Baner | <strong>DomPasja</strong> <strong>56</strong> - projekt domu z <strong>poddaszem</strong> <strong>użytkowym</strong> | <strong>Dompasja</strong> <strong>61 D</strong> - projekt domu <strong>parterowego </strong>z <strong>dachem</strong> <strong>bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-31-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 29.10.2026 07:30 | Po · 30.10.2026 08:16 |
+| Przed · 29.10.2026 07:30 | Po · 30.10.2026 09:04 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-31-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
 
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
+- 1280 × 9133 px; położenie: 0 px od lewej, 692 px od góry → 1280 × 9157 px; położenie: 0 px od lewej, 692 px od góry
 - 270 × 203 px; położenie: 655 px od lewej, 9001 px od góry → 270 × 203 px; położenie: 655 px od lewej, 9025 px od góry
-- brak → https://dompasja.pl/pub/media/catalog/product/cache/4ec5709076986ef0d7b9a2025dce7154/d/p/dp-61-d--u1.1lo.jpg
-- brak → https://dompasja.pl/pub/media/catalog/product/cache/4ec5709076986ef0d7b9a2025dce7154/d/p/dp-61-d--u1.jpg
+- 1170 × 35 px; położenie: 55 px od lewej, 8926 px od góry → 1170 × 35 px; położenie: 55 px od lewej, 8950 px od góry
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -58,23 +58,24 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
 
-**Odczyty:** 29.10.2026 07:30 → 30.10.2026 08:17 (czas polski).
+**Odczyty:** 29.10.2026 07:30 → 30.10.2026 09:04 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdompasja.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2Fdompasja-61b.html%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
 - brak → To Top
+- To Top → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-porownanie.html)
 

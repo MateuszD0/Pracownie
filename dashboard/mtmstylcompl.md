@@ -16,25 +16,25 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://www.mtmstyl.com.pl/)
 
-**Odczyty:** 29.10.2026 07:32 → 30.10.2026 08:19 (czas polski).
+**Odczyty:** 29.10.2026 07:32 → 30.10.2026 09:06 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fmtmstyl.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
 | Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Przejdź do koszyka</strong> | [Otwórz stronę](http://www.mtmstyl.com.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Puszek</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://www.mtmstyl.com.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Trakt</strong> | [Otwórz stronę](http://www.mtmstyl.com.pl/#root-main) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Puszek</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://www.mtmstyl.com.pl/) |
 | Zmiany wyglądu · Rozmiar: baner | <strong>86</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | <strong>77</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | [Otwórz stronę](http://www.mtmstyl.com.pl/#root-main) |
 | Zmiany wyglądu · Kolor tekstu: Szukaj | <strong>czarny (</strong>#<strong>000000)</strong> | #<strong>111111</strong> | [Otwórz stronę](http://www.mtmstyl.com.pl/#search_by_name_form) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-22-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-25-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 09:06 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-22-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-25-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -50,9 +50,9 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- Projekt domu MALUTKI DR-S → Projekt domu MALUTKI 2
-- Projekt domu ARIEL → Projekt domu MALINOWY
+- Projekt domu WERANDA 4 → Projekt domu JEMIOŁA 2
 - Projekt domu PUSZEK → Projekt domu AWOKADO 3
+- Projekt domu MALUTKI DR-S → Projekt domu MALUTKI 2
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -62,7 +62,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
-**Odczyty:** 29.10.2026 07:32 → 30.10.2026 08:19 (czas polski).
+**Odczyty:** 29.10.2026 07:32 → 30.10.2026 09:06 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fmtmstyl.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2Fprojekt-domu-malutki_12.php%0A%0AOpis%3A)
 
@@ -81,23 +81,23 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 - [Warunki oferty](http://www.mtmstyl.com.pl/#main): Atrakcyjne PROMOCJE
 - [Warunki oferty](http://www.mtmstyl.com.pl/dlaczego-warto-wybrac-projekt-domywstylu.html#page-main): Atrakcyjne PROMOCJE
 - [Warunki oferty](http://www.mtmstyl.com.pl/#main): Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann
-- [Sprawdzona strona](http://www.mtmstyl.com.pl/) · 30.10.2026 08:19 · odczyt poprawny
-- [Sprawdzona strona](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) · 30.10.2026 08:19 · odczyt poprawny
-- [Sprawdzona strona](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) · 30.10.2026 08:31 · odczyt poprawny
-- [Sprawdzona strona](http://www.mtmstyl.com.pl/aktualnosci/niezawodnosc-i-komfort-w-dobrej-cenie-sprawdz-promocje-roku-2026-hrmann-962.php) · 30.10.2026 08:31 · odczyt poprawny
-- [Sprawdzona strona](http://www.mtmstyl.com.pl/dlaczego-warto-wybrac-projekt-domywstylu.html) · 30.10.2026 08:31 · odczyt poprawny
+- [Sprawdzona strona](http://www.mtmstyl.com.pl/) · 30.10.2026 09:06 · odczyt poprawny
+- [Sprawdzona strona](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) · 30.10.2026 09:06 · odczyt poprawny
+- [Sprawdzona strona](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) · 30.10.2026 09:19 · odczyt poprawny
+- [Sprawdzona strona](http://www.mtmstyl.com.pl/aktualnosci/niezawodnosc-i-komfort-w-dobrej-cenie-sprawdz-promocje-roku-2026-hrmann-962.php) · 30.10.2026 09:19 · odczyt poprawny
+- [Sprawdzona strona](http://www.mtmstyl.com.pl/dlaczego-warto-wybrac-projekt-domywstylu.html) · 30.10.2026 09:19 · odczyt poprawny
 
 —
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-10-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-13-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 09:06 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-10-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -111,13 +111,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- MINUTY → brak
-- DNI → brak
 - SEKUNDY → brak
+- GODZINY → brak
+- koszyk → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t080300.140084-0000-6a637c7f-porownanie.html)
 

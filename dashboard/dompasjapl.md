@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-28 → 2026-10-29**
+**2026-10-29 → 2026-10-30**
 
 **Ten sam projekt:** [Dompasja 61B](https://dompasja.pl/dompasja-61b.html)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**3 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,35 +16,65 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompasja.pl/)
 
-**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
+**Odczyty:** 29.10.2026 07:30 → 30.10.2026 08:16 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Fdompasja.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdompasja.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dompasja 61 D odbicie lustrzane- projekt domu parterowego z dachem bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dompasja 61 D - projekt domu parterowego z dachem bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
+| Komunikacja sprzedażowa · Baner | <strong>DomPasja</strong> <strong>56</strong> - projekt domu z <strong>poddaszem</strong> <strong>użytkowym</strong> | <strong>Dompasja</strong> <strong>61 D</strong> - projekt domu <strong>parterowego </strong>z <strong>dachem</strong> <strong>bezokapowym</strong> | [Otwórz stronę](https://dompasja.pl/#maincontent) |
 
-## Karta projektu
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-po.jpg)
 
-[Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-**Odczyty:** 28.10.2026 08:26 → 29.10.2026 07:30 (czas polski).
+| Przed · 29.10.2026 07:30 | Po · 30.10.2026 08:16 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-28-po.jpg) |
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Fdompasja.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2Fdompasja-61b.html%0A%0AOpis%3A)
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+</details>
 
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- brak → To jest wymagane pole.
-- To Top → brak
-- Prosimy o określenie wymaganych opcji produktu. → brak
+- 270 × 203 px; położenie: 655 px od lewej, 9001 px od góry → 270 × 203 px; położenie: 655 px od lewej, 9025 px od góry
+- brak → https://dompasja.pl/pub/media/catalog/product/cache/4ec5709076986ef0d7b9a2025dce7154/d/p/dp-61-d--u1.1lo.jpg
+- brak → https://dompasja.pl/pub/media/catalog/product/cache/4ec5709076986ef0d7b9a2025dce7154/d/p/dp-61-d--u1.jpg
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
+## Karta projektu
+
+[Otwórz stronę źródłową](https://dompasja.pl/dompasja-61b.html)
+
+**Odczyty:** 29.10.2026 07:30 → 30.10.2026 08:17 (czas polski).
+
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Fdompasja.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompasja.pl%2Fdompasja-61b.html%0A%0AOpis%3A)
+
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- brak → To Top
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
 

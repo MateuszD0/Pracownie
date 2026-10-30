@@ -4,60 +4,49 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-28 → 2026-10-29**
+**2026-10-29 → 2026-10-30**
 
 **Ten sam projekt:** [Ami II - Opusdom](https://opusdom.pl/produkt/ami-ii/)
 
-**63 zmian w zapisanym zakresie.**
+**40 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
+Strony porównania: [1](opusdompl.md) · **2**
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://opusdom.pl/)
 
-**Odczyty:** 28.10.2026 08:28 → 29.10.2026 07:32 (czas polski).
+**Odczyty:** 29.10.2026 07:32 → 30.10.2026 08:19 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | <strong>Ron (Energo)</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>Mona</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Ester</strong> | [Otwórz stronę](https://opusdom.pl/#post-1259) |
-| Komunikacja sprzedażowa · Baner | <strong>Lili</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Alfi-L</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Baner | <strong>Granada</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Arkadia</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Sadyba wersja D</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Baner | <strong>Adam</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>WYBRANE PROJEKTY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Ester BL</strong> | [Otwórz stronę](https://opusdom.pl/#post-1259) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Alfi</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Nagłówek | Alfi<strong>-L</strong> | Alfi | [Otwórz stronę](https://opusdom.pl/#post-1259) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>DOMY NOWOCZESNE</strong> | [Otwórz stronę](https://opusdom.pl/#post-1259) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Ami II</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Arkadia II</strong> | [Otwórz stronę](https://opusdom.pl/#swiper-wrapper-ec72588a44269b59) |
-| Komunikacja sprzedażowa · Baner | <strong>Magnolia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>DOMY SZEREGOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Lars</strong> | [Otwórz stronę](https://opusdom.pl/#post-1259) |
+Pozostałe strony tego porównania zawierają 5 różnic tej strony; użyj numerów stron powyżej.
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opusdom.pl/produkt/ami-ii/)
 
-**Odczyty:** 28.10.2026 08:28 → 29.10.2026 07:32 (czas polski).
+**Odczyty:** 29.10.2026 07:32 → 30.10.2026 08:19 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Melka</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Arkadia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Filemon</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
-| Komunikacja sprzedażowa · Baner | <strong>Alfi-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Rino | Rino<strong> II</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Karmelia L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Nikola</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea) |
+| Komunikacja sprzedażowa · Baner | <strong>Salma</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Magnolia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | <strong>Granada-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filemon</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Fiona wersja B</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Anita</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+| Komunikacja sprzedażowa · Baner | <strong>Melka</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Arkadia II</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Sadyba wersja D</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+| Komunikacja sprzedażowa · Baner | <strong>Promyczek L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Nesta</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Syntia</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Lili -L</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+| Komunikacja sprzedażowa · Baner | <strong>Margo 2rodziny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
 
-Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
+Strony porównania: [1](opusdompl.md) · **2**
 

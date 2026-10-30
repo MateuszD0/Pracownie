@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektydomow.redcart.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowi…” → „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Karmelia L z Opusdom jest niedużym domem z użytkowym poddaszem i garażem. Prosta bryła i dwuspadowy dach sprawiają że dom jest łatwy w realizacji.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Istnieje możliwość innego podziału funkcjonalnego parteru i poddasza oraz wykonania wjazdu do garażu od elewacji szczytowej.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Na parterze znajduje się pokój dzienny, jadalnia, kuchnia, hall, wc oraz kotłownia z pom. gospodarczym i przyległym garażem dwustanowiskowym. Na piętrze znajdują się trzy sypialni…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Arkadia to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ś…”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo Pani Kamila pomogła stworzyć garaż oraz dodatkowe zadaszenia i pozwolenie na budowę. Jestem osobą, która chce wiedzieć jak najwięcej i zadaje pytania, szuka informacji.…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |

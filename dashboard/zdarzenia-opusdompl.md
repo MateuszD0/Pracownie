@@ -6,51 +6,89 @@
 
 [opusdom.pl — wszystkie odczyty](opusdompl.md)
 
-## Zdarzenie 0d9ee35479aac25e
+## Zdarzenie 0001e500293d847a
 
-**W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”.**
+**Pojawił się komunikat: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na szybkość budowy. Dom posiada ścianę szczy</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
 
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/)
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F0d9ee35479aac25e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EElis+L+z+Opusdom+jest+wygodnym+parterowym+domem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+ma+zwart%C4%85+bry%C5%82%C4%99+na+planie+prostok%C4%85ta+z+dwuspadowym+dachem.+Ma+to+bezpo%C5%9Bredni+wp%C5%82yw+na%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F0d9ee35479aac25e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EElis+L+z+Opusdom+jest+wygodnym+parterowym+domem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+ma+zwart%C4%85+bry%C5%82%C4%99+na+planie+prostok%C4%85ta+z+dwuspadowym+dachem.+Ma+to+bezpo%C5%9Bredni+wp%C5%82yw+na%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F0d9ee35479aac25e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EElis+L+z+Opusdom+jest+wygodnym+parterowym+domem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+ma+zwart%C4%85+bry%C5%82%C4%99+na+planie+prostok%C4%85ta+z+dwuspadowym+dachem.+Ma+to+bezpo%C5%9Bredni+wp%C5%82yw+na%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F0001e500293d847a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dla+4-6+osobowej+rodziny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F0001e500293d847a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dla+4-6+osobowej+rodziny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F0001e500293d847a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dla+4-6+osobowej+rodziny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 2656e9d43519673e
+## Zdarzenie 4b88c0ed1f7b09bc
 
-**Pojawił się komunikat: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”.**
+**„Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej…” → „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterze składa się z przedsionka, hallu, łazien</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filemon</strong> <strong>Dom</strong> <strong>wolno stojący</strong>, parterowy z użytkowym poddaszem<strong>,</strong> <strong>nie</strong> <strong>podpiwniczony</strong>, przeznaczony dla 4-<strong>5</strong> osobowej rodziny. | <strong>Anita</strong> <strong>to</strong> <strong>wygodny</strong>, parterowy<strong>, niepodpiwniczony dom</strong> z użytkowym poddaszem <strong>i</strong> <strong>wbudowanym garażem</strong>, przeznaczony dla 4-<strong>6</strong> osobowej rodziny. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea) |
 
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086)
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2656e9d43519673e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2656e9d43519673e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2656e9d43519673e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F4b88c0ed1f7b09bc%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EFilemon+Dom+wolno+stoj%C4%85cy%2C+parterowy+z+u%C5%BCytkowym+poddaszem%2C+nie+podpiwniczony%2C+przeznaczony+dla+4-5+osobowej%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F4b88c0ed1f7b09bc%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EFilemon+Dom+wolno+stoj%C4%85cy%2C+parterowy+z+u%C5%BCytkowym+poddaszem%2C+nie+podpiwniczony%2C+przeznaczony+dla+4-5+osobowej%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F4b88c0ed1f7b09bc%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EFilemon+Dom+wolno+stoj%C4%85cy%2C+parterowy+z+u%C5%BCytkowym+poddaszem%2C+nie+podpiwniczony%2C+przeznaczony+dla+4-5+osobowej%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EAnita+to+wygodny%2C+parterowy%2C+niepodpiwniczony+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczony+dl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 27107ef9492f0de8
+## Zdarzenie 5dee25639ce90b84
 
-**W nowym zapisie nie ma komunikatu: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”.**
+**„Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | <strong>Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiązań </strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Autor:<strong> arch.</strong> Marek Oczkowski | Autor: Marek Oczkowski | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5dee25639ce90b84%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowski%E2%80%9D+%E2%86%92+%E2%80%9EAutor%3A+Marek+Oczkowski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5dee25639ce90b84%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowski%E2%80%9D+%E2%86%92+%E2%80%9EAutor%3A+Marek+Oczkowski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5dee25639ce90b84%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowski%E2%80%9D+%E2%86%92+%E2%80%9EAutor%3A+Marek+Oczkowski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 5e62c4ee81b87b3b
+
+**W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejściem od frontu składa się na parterze z s</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
 [Karta projektu](https://opusdom.pl/produkt/ami-ii/)
 
@@ -58,171 +96,163 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 28.10.2026 08:28 | Po · 29.10.2026 07:32 |
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F27107ef9492f0de8%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAlfi+Nowoczesny%2C+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84+i%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F27107ef9492f0de8%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAlfi+Nowoczesny%2C+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84+i%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F27107ef9492f0de8%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAlfi+Nowoczesny%2C+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84+i%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5e62c4ee81b87b3b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMargo+2+rodziny+Dom+dwurodzinny%2C+dwupokoleniowy+podzielony+na+dwie+odr%C4%99bne+funkcjonalnie+cz%C4%99%C5%9Bci+z+osobnymi+wej%C5%9Bciami%2C+z+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Wi%C4%99ksza+cz%C4%99%C5%9B%C4%87+z+wej%C5%9B%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5e62c4ee81b87b3b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMargo+2+rodziny+Dom+dwurodzinny%2C+dwupokoleniowy+podzielony+na+dwie+odr%C4%99bne+funkcjonalnie+cz%C4%99%C5%9Bci+z+osobnymi+wej%C5%9Bciami%2C+z+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Wi%C4%99ksza+cz%C4%99%C5%9B%C4%87+z+wej%C5%9B%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F5e62c4ee81b87b3b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMargo+2+rodziny+Dom+dwurodzinny%2C+dwupokoleniowy+podzielony+na+dwie+odr%C4%99bne+funkcjonalnie+cz%C4%99%C5%9Bci+z+osobnymi+wej%C5%9Bciami%2C+z+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Wi%C4%99ksza+cz%C4%99%C5%9B%C4%87+z+wej%C5%9B%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 2931bb207e061b3b
+## Zdarzenie 6cc0583a1deb9700
 
-**„OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”.**
+**„Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | <strong>OLIWIA</strong> <strong>jest</strong> <strong>wygodnym,</strong> <strong>reprezentacyjnym</strong> <strong>domem</strong> <strong>parterowym</strong> z użytkowym poddaszem i wbudowanym garażem <strong>jednostanowiskowym</strong>. | <strong>Granada</strong> <strong>L</strong> <strong>z</strong> <strong>Opusdom</strong> <strong>to</strong> <strong>bardzo wygodny i funkcjonalny dom parterowy</strong> z użytkowym poddaszem i wbudowanym garażem <strong>dwustanowiskowym</strong>. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem <strong>przeznaczony</strong> <strong>dla</strong> <strong>rodziny</strong> <strong>2+ 2</strong> | Bardzo wygodny, reprezentacyjny<strong> dom</strong> parterowy dom z użytkowym poddaszem <strong>i</strong> <strong>wbudowanym</strong> <strong>garażem</strong> <strong>jednostanowiskowym.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea) |
 
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a)
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3543dafebc71a5ea)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 28.10.2026 08:28 | Po · 29.10.2026 07:32 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2931bb207e061b3b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EOLIWIA+jest+wygodnym%2C+reprezentacyjnym+domem+parterowym+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostano%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EGranada+L+z+Opusdom+to+bardzo+wygodny+i+funkcjonalny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2931bb207e061b3b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EOLIWIA+jest+wygodnym%2C+reprezentacyjnym+domem+parterowym+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostano%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EGranada+L+z+Opusdom+to+bardzo+wygodny+i+funkcjonalny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2931bb207e061b3b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EOLIWIA+jest+wygodnym%2C+reprezentacyjnym+domem+parterowym+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostano%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EGranada+L+z+Opusdom+to+bardzo+wygodny+i+funkcjonalny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6cc0583a1deb9700%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+parterowy+dom+z+u%C5%BCytkowym+poddaszem+przeznaczony+dla+rodziny+2%2B+2%E2%80%9D+%E2%86%92+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+dom+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6cc0583a1deb9700%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+parterowy+dom+z+u%C5%BCytkowym+poddaszem+przeznaczony+dla+rodziny+2%2B+2%E2%80%9D+%E2%86%92+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+dom+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6cc0583a1deb9700%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+parterowy+dom+z+u%C5%BCytkowym+poddaszem+przeznaczony+dla+rodziny+2%2B+2%E2%80%9D+%E2%86%92+%E2%80%9EBardzo+wygodny%2C+reprezentacyjny+dom+parterowy+dom+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3543dafebc71a5ea%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 2da2bbe6e63bbab3
+## Zdarzenie 6fa9b9e8b770dd48
 
-**Pojawił się komunikat: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”.**
+**W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbliżony na 3m od granicy działki lub zreali</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a) |
-
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 28.10.2026 08:28 | Po · 29.10.2026 07:32 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2da2bbe6e63bbab3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2da2bbe6e63bbab3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F2da2bbe6e63bbab3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 39f15bbea9d5c3ca
-
-**Pojawił się komunikat: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”.**
-
-**Zaobserwowana zmiana** · —
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością i nieskomplikowanym układem konstrukcyjny</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a) |
-
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-3c676448e9061d10a)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 28.10.2026 08:28 | Po · 29.10.2026 07:32 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-15-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F39f15bbea9d5c3ca%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F39f15bbea9d5c3ca%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F39f15bbea9d5c3ca%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-3c676448e9061d10a%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 40b6f2781e20521e
-
-**Pojawił się komunikat: „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”.**
-
-**Zaobserwowana zmiana** · —
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
-
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F40b6f2781e20521e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMagnolia+z+Opusdom+-bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanowiskowym.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F40b6f2781e20521e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMagnolia+z+Opusdom+-bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanowiskowym.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F40b6f2781e20521e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EMagnolia+z+Opusdom+-bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanowiskowym.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 58162ac704d6b331
-
-**„Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowi…” → „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…”.**
-
-**Zaobserwowana zmiana** · —
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem <strong>jednostanowiskowym</strong>. | Rino<strong> II</strong> to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem <strong>dwustanowiskowym</strong>. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086) |
-
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a3bfbf7b944de086)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F58162ac704d6b331%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9ERino+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowi%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9ERino+II+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F58162ac704d6b331%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9ERino+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowi%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9ERino+II+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F58162ac704d6b331%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+%E2%80%9ERino+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowi%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9ERino+II+to+bardzo+wygodny%2C+reprezentacyjny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+dwustanow%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a3bfbf7b944de086%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 6286c0e32dca9d91
-
-**W nowym zapisie nie ma komunikatu: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”.**
-
-**Zaobserwowana zmiana** · —
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterze składa się z przedsionka, hallu, łazien</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
 [Karta projektu](https://opusdom.pl/produkt/ami-ii/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F6286c0e32dca9d91%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMagda+L+z+Opusdom+jest+funkcjonalnym+pi%C4%99trowym+domem+z+gara%C5%BCem+dwustanowiskowym.+Ze+wzgl%C4%99du+na+ma%C5%82%C4%85+szeroko%C5%9B%C4%87+domu+mo%C5%BCliwe+jest+usytuowanie+go+na+w%C4%85skiej+dzia%C5%82ce.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F6286c0e32dca9d91%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMagda+L+z+Opusdom+jest+funkcjonalnym+pi%C4%99trowym+domem+z+gara%C5%BCem+dwustanowiskowym.+Ze+wzgl%C4%99du+na+ma%C5%82%C4%85+szeroko%C5%9B%C4%87+domu+mo%C5%BCliwe+jest+usytuowanie+go+na+w%C4%85skiej+dzia%C5%82ce.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F6286c0e32dca9d91%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMagda+L+z+Opusdom+jest+funkcjonalnym+pi%C4%99trowym+domem+z+gara%C5%BCem+dwustanowiskowym.+Ze+wzgl%C4%99du+na+ma%C5%82%C4%85+szeroko%C5%9B%C4%87+domu+mo%C5%BCliwe+jest+usytuowanie+go+na+w%C4%85skiej+dzia%C5%82ce.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6fa9b9e8b770dd48%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6fa9b9e8b770dd48%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F6fa9b9e8b770dd48%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EBry%C5%82a+domu+przekryta+wielospadowym+dachem+z+lukarnami+jest+bardzo+atrakcyjna+wizualnie+i+b%C4%99dzie+wyr%C3%B3%C5%BCnia%C5%82a+si%C4%99+swoim+wygl%C4%85dem+w%C5%9Br%C3%B3d+s%C4%85siaduj%C4%85cej+zabudowy.+Cz%C4%99%C5%9B%C4%87+dzienna+na+parterz%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 63a07c79475bf6c2
+## Zdarzenie 73a80c3b4deb31e1
 
-**W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”.**
+**Pojawił się komunikat: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiąza</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153) |
+
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-322e610a5396e3153)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F73a80c3b4deb31e1%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EFiona+wersja+B+z+Opusdom+to+wygodny+dom+parterowy+z+u%C5%BCytkowym+poddaszem.+Zaletami+projektu+jest+funkcjonalno%C5%9B%C4%87%2C+zwarta+bry%C5%82a+i+koszt+realizacji.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F73a80c3b4deb31e1%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EFiona+wersja+B+z+Opusdom+to+wygodny+dom+parterowy+z+u%C5%BCytkowym+poddaszem.+Zaletami+projektu+jest+funkcjonalno%C5%9B%C4%87%2C+zwarta+bry%C5%82a+i+koszt+realizacji.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F73a80c3b4deb31e1%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EFiona+wersja+B+z+Opusdom+to+wygodny+dom+parterowy+z+u%C5%BCytkowym+poddaszem.+Zaletami+projektu+jest+funkcjonalno%C5%9B%C4%87%2C+zwarta+bry%C5%82a+i+koszt+realizacji.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-322e610a5396e3153%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 8e2c303a9a6a0d56
+
+**W nowym zapisie nie ma komunikatu: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością i nieskomplikowanym układem konstrukcyjny</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
 [Karta projektu](https://opusdom.pl/produkt/ami-ii/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F63a07c79475bf6c2%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EALFI+%E2%80%93+wygodny%2C+nowoczesny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F63a07c79475bf6c2%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EALFI+%E2%80%93+wygodny%2C+nowoczesny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-29%2F63a07c79475bf6c2%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EALFI+%E2%80%93+wygodny%2C+nowoczesny+dom+parterowy+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem+jednostanowiskowym.+Dom+zosta%C5%82+zaprojektowany+z+naciskiem+na+funkcjonalno%C5%9B%C4%87%2C+prostot%C4%99+rozwi%C4%85za%C5%84%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F8e2c303a9a6a0d56%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F8e2c303a9a6a0d56%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F8e2c303a9a6a0d56%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMelka+jest+wygodnym+niepodpiwniczonym+domem+w+zabudowie+wolno+stoj%C4%85cej+z+u%C5%BCytkowym+poddaszem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+charakteryzuje+si%C4%99+du%C5%BC%C4%85+funkcjonalno%C5%9Bci%C4%85%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 96fc4a188aed25d2
+
+**W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F96fc4a188aed25d2%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EPromyczek+L+z+Opusdom+to+niewielki%2C+ale+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem.+Zalety+tego+domu%3A+prostota%2C+funkcjonalno%C5%9B%C4%87+i+wygoda.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F96fc4a188aed25d2%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EPromyczek+L+z+Opusdom+to+niewielki%2C+ale+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem.+Zalety+tego+domu%3A+prostota%2C+funkcjonalno%C5%9B%C4%87+i+wygoda.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F96fc4a188aed25d2%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EPromyczek+L+z+Opusdom+to+niewielki%2C+ale+wygodny%2C+parterowy+dom+z+u%C5%BCytkowym+poddaszem.+Zalety+tego+domu%3A+prostota%2C+funkcjonalno%C5%9B%C4%87+i+wygoda.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 99d369ff804a63f9
+
+**W nowym zapisie nie ma komunikatu: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbliżony na 3m od granicy działki lub zreali</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 29.10.2026 07:32 | Po · 30.10.2026 08:19 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-31-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F99d369ff804a63f9%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F99d369ff804a63f9%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-30%2F99d369ff804a63f9%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EMona+z+gara%C5%BCem+jest+niedu%C5%BCym+parterowym+domem+z+u%C5%BCytkowym+poddaszem+i+wbudowanym+gara%C5%BCem%2C+przeznaczonym+dla+4-5+osobowej+rodziny.+Dom+jest+funkcjonalny+i+wygodny.+Dom+mo%C5%BCe+by%C4%87+zbl%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-26 → 2026-10-27**
+**2026-10-29 → 2026-10-30**
 
 **Ten sam projekt:** [TRYPOLIS 7 szkielet drewniany](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
@@ -18,7 +18,7 @@ Strony porównania: [1](pro-artepl.md) · **2**
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/)
 
-**Odczyty:** 26.10.2026 08:03 → 27.10.2026 06:45 (czas polski).
+**Odczyty:** 29.10.2026 07:33 → 30.10.2026 08:20 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,13 +26,13 @@ Strony porównania: [1](pro-artepl.md) · **2**
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-**Odczyty:** 26.10.2026 08:03 → 27.10.2026 06:46 (czas polski).
+**Odczyty:** 29.10.2026 07:33 → 30.10.2026 08:20 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>176 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-27/2026-10-27-2026-10-27t201010.388175-0000-format-43536363-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
 
 Strony porównania: [1](pro-artepl.md) · **2**
 

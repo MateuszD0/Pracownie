@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-28 → 2026-10-29**
+**2026-10-29 → 2026-10-30**
 
 **Ten sam projekt:** [APS 343 POROTHERM](https://archi-projekt.com.pl/product/aps-343-porotherm/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**2 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,43 +16,97 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archi-projekt.com.pl/)
 
-**Odczyty:** 28.10.2026 08:25 → 29.10.2026 07:29 (czas polski).
+**Odczyty:** 29.10.2026 07:29 → 30.10.2026 08:15 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Farchi-projekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchi-projekt.com.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Farchi-projekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchi-projekt.com.pl%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Baner | <strong>Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archi-projekt.com.pl/) |
+| Promocje i rabaty · Baner | <strong>Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archi-projekt.com.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-po.jpg)
+**Wynik sprawdzenia oferty:** Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „GRATIS”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): GRATIS
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): Pakiet dodatków o wartości:
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): GRATIS
+- [Sprawdzona strona](https://archi-projekt.com.pl/) · 30.10.2026 08:15 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/product/aps-343-porotherm/) · 30.10.2026 08:16 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/) · 30.10.2026 08:25 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/product/aps-343-porotherm/) · 30.10.2026 08:25 · odczyt poprawny
+
+To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego obowiązywania konkretnej wcześniejszej promocji.
+
+</details>
+
+**Wynik sprawdzenia oferty:** Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „GRATIS”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): GRATIS
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): Pakiet dodatków o wartości:
+- [Warunki oferty](https://archi-projekt.com.pl/product/aps-343-porotherm/#product-704986): GRATIS
+- [Sprawdzona strona](https://archi-projekt.com.pl/) · 30.10.2026 08:15 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/product/aps-343-porotherm/) · 30.10.2026 08:16 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/) · 30.10.2026 08:25 · odczyt poprawny
+- [Sprawdzona strona](https://archi-projekt.com.pl/product/aps-343-porotherm/) · 30.10.2026 08:25 · odczyt poprawny
+
+To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego obowiązywania konkretnej wcześniejszej promocji.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-4-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 28.10.2026 08:25 | Po · 29.10.2026 07:29 |
+| Przed · 29.10.2026 07:29 | Po · 30.10.2026 08:15 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-dowod-4-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-### Grafika i wygląd — różnica do obejrzenia
+<details><summary>Obserwacje pomocnicze (10) — nie są ustaloną zmianą oferty</summary>
 
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 
-Porównanie: 28.10.2026 08:25 → 29.10.2026 07:29 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Przykłady z zapisów:
 
-[Otwórz stronę](https://archi-projekt.com.pl/)
+- https://archi-projekt.com.pl/wp-content/uploads/2019/10/Reaslizacja\_APS-107\_04.jpg → https://archi-projekt.com.pl/wp-content/uploads/2019/10/Reaslizacja\_APS-107\_04-jpg.webp
+- https://archi-projekt.com.pl/wp-content/uploads/2022/02/slider03\_domy-w-ktorych.jpg → https://archi-projekt.com.pl/wp-content/uploads/2022/02/slider03\_domy-w-ktorych-jpg.webp
+- https://archi-projekt.com.pl/wp-content/uploads/2019/10/Realizacja\_APS-105\_01.jpg → https://archi-projekt.com.pl/wp-content/uploads/2019/10/Realizacja\_APS-105\_01-jpg.webp
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-dowod-39-po.jpg)
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://archi-projekt.com.pl/product/aps-343-porotherm/)
 
-**Odczyty:** 28.10.2026 08:25 → 29.10.2026 07:29 (czas polski).
+**Odczyty:** 29.10.2026 07:29 → 30.10.2026 08:16 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-29%2Farchi-projekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchi-projekt.com.pl%2Fproduct%2Faps-343-porotherm%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-10-30%2Farchi-projekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchi-projekt.com.pl%2Fproduct%2Faps-343-porotherm%2F%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-29/2026-10-29-2026-10-29t094708.631371-0000-09d8e685-porownanie.html)
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+
+Przykłady z zapisów:
+
+- Poprzednia najniższa cena: 4 299,00 zł z ostatnich 30 dni → brak
+- 4 799,00 zł Pierwotna cena wynosiła: 4 799,00 zł, 4 299,00 zł Aktualna cena wynosi: 4 299,00 zł, → brak
+- https://archi-projekt.com.pl/wp-content/uploads/2022/04/APS\_343\_Front1\_Logo.jpg → https://archi-projekt.com.pl/wp-content/uploads/2022/04/APS\_343\_Front1\_Logo-1155x828.jpg
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t071503.888801-0000-12ecd99b-porownanie.html)
 

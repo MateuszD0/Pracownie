@@ -1,0 +1,10 @@
+<!-- pracownie-monitor:v1 -->
+
+# Zdarzenia · 2026-10-30
+
+[← Odprawa dnia](../DASHBOARD.md)
+
+| Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
+| --- | --- | --- | --- |
+| **projekty.nordarchitekci.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](zdarzenia-projektynordarchitekcipl-2.md#zdarzenie-bccff326ca8794e6)<br>[Otwórz stronę](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| **projekty.nordarchitekci.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Pobierz bezpłatnie”. | **Priorytet: Wysoki**<br>promocja, dodatek lub warunki oferty<br>**Do sprawdzenia**<br>Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia. | [Przed / po →](zdarzenia-projektynordarchitekcipl-2.md#zdarzenie-fd4a7a26a0983fb4)<br>[Otwórz stronę](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |

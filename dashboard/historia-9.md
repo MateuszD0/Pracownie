@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| 3ddom.pl · 2026-10-28 | Zmiana komunikatu oferty: „Promocja od 25.10.2026 koniec za” → „Promocja od 26.10.2026 koniec za” | Sprawdzono w serwisie |
-| zbudujsamdom.pl · 2026-10-27 | „Otrzymujesz komplet instrukcji budowy” → „Zajrzyj do środka instrukcji”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Najniższa cena z 30 dni przed obniżką: 499 zł.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „KUP PAKIET – 333 ZŁ”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | „Dom 70 m², który możesz zbudować” → „Budowa krok po kroku”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | „Dom murowany czy szkieletowy?” → „Zobacz ten projekt w rzeczywistości”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA PAKIETU PRO”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji zostało:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie.”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy murowanego”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Tylko do poniedziałku 26.10.2026, godz. 23:59”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | „Zobacz, jak może wyglądać gotowy dom 70 m²” → „Otrzymujesz komplet instrukcji budowy”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy szkieletowego”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Cena pakietu:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „WYBIERAM PAKIET PRO ZA 333 ZŁ →”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg" alt="Pro…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg.rss.webp"…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |

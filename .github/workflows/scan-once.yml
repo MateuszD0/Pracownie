@@ -1,0 +1,34 @@
+name: Jednorazowy skan o wybranej godzinie
+run-name: "Jednorazowy skan: ${{ inputs.start_at }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_at:
+        description: 'Termin ze strefą, maks. 2 godziny naprzód, np. 2026-10-30T09:00:00+01:00'
+        type: string
+        required: true
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 130
+    # Waiting must not hold the report writer's concurrency lock.
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          ref: main
+      - name: Poczekaj do wskazanej godziny
+        run: python3 src/pracownie/one_off.py
+        env:
+          SCAN_START_AT: ${{ inputs.start_at }}
+      - name: Uruchom świeży skan wszystkich pracowni
+        run: gh workflow run monitor.yml --repo "$GH_REPO" --ref main -f scope=full -f rescan=true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}

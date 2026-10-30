@@ -56,7 +56,7 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej
 
 Pozostałe strony tego porównania zawierają 1 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej-propl-4.md)
 

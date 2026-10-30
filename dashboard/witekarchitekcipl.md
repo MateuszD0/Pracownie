@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://witekarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 30.10.2026 09:55 (czas polski).
+**Odczyty:** brak odczytu → 30.10.2026 10:54 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://witekarchitekci.pl/index-g56)
 
-**Odczyty:** brak odczytu → 30.10.2026 09:56 (czas polski).
+**Odczyty:** brak odczytu → 30.10.2026 10:54 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-porownanie.html)
 

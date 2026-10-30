@@ -29,13 +29,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Baza <strong>&lt;br&gt;</strong>wiedzy | Baza wiedzy | [Otwórz stronę](https://alexanderstudio.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Budynki <strong>&lt;br&gt;</strong>usługowe | Budynki usługowe | [Otwórz stronę](https://alexanderstudio.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 29.10.2026 07:28 | Po · 30.10.2026 09:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -49,7 +49,7 @@ Porównanie: 29.10.2026 07:28 → 30.10.2026 09:03 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://alexanderstudio.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-27-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-27-po.jpg)
 
 ## Karta projektu
 
@@ -98,13 +98,13 @@ To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego ob
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 29.10.2026 07:28 | Po · 30.10.2026 09:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -131,7 +131,7 @@ Porównanie: 29.10.2026 07:28 → 30.10.2026 09:03 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-dowod-2-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-dowod-2-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-porownanie.html)
 

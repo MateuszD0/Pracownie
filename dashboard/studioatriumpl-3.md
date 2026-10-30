@@ -55,7 +55,7 @@ Strony porównania: [1](studioatriumpl.md) · [2](studioatriumpl-2.md) · **3**
 | Zmiany wyglądu · Układ · Wypełnij ankietę i poznaj koszty budowy domu Rodrigo SZ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>75 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html#data-box) |
 | Zmiany wyglądu · Układ · PARTER80,45 m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>76 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html#sketch-box) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t095350.828305-0000-1b3f0b63-porownanie.html)
 
 Strony porównania: [1](studioatriumpl.md) · [2](studioatriumpl-2.md) · **3**
 

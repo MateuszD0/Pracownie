@@ -14,29 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A20.102.47.196%3A1793349928.097)
+[Otwórz stronę źródłową](https://tipitom.space/)
 
-**Odczyty:** 29.10.2026 10:47 → 30.10.2026 09:45 (czas polski).
+**Odczyty:** 29.10.2026 10:47 → 30.10.2026 09:55 (czas polski).
 
-**Częściowe · 2 zgodnych tekstów**
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 29.10.2026 10:47 → 30.10.2026 09:45 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://www.tipitom.space/.well-known/sgcaptcha/?r=%2F&y=ipr%3A20.102.47.196%3A1793349928.097)
-
-
+**Niepełny zakres porównania**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://tipitom.space/produkt/tt-1-merkury-murowany/)
 
-**Odczyty:** brak odczytu → 30.10.2026 09:09 (czas polski).
+**Odczyty:** brak odczytu → 30.10.2026 09:56 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t084501.133827-0000-d17781cd-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-30/2026-10-30-2026-10-30t085523.188249-0000-1243bf2f-porownanie.html)
 

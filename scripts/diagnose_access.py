@@ -86,6 +86,8 @@ async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projec
                                 except Exception as exc:
                                     probe['error'] = str(exc)[:1600]
                                 await page.wait_for_timeout(2000)
+                                probe['consent_state'] = {c['name']: c['value'] for c in await context.cookies()
+                                    if c['name'] in {'cmplz_marketing', 'cmplz_statistics', 'cmplz_preferences', 'cmplz_functional', 'cmplz_banner-status'}}
                                 probe['panels'] = await page.locator('[role=dialog],#cn-close-notice,.cmplz-deny').evaluate_all("""es => es.map(e=>({
                                   html:e.outerHTML.slice(0,1800),visible:e.checkVisibility({visibilityProperty:true,opacityProperty:true}),
                                   rect:JSON.stringify(e.getBoundingClientRect()),

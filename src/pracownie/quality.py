@@ -16,7 +16,8 @@ def only_font_styles(urls: list[str]) -> bool:
 
 
 def captured_challenge(snapshot: Snapshot) -> bool:
-    return access_challenge({**snapshot.document.get('payload', {}), 'url': snapshot.url, 'title': snapshot.title})
+    payload = snapshot.document.get('payload', {})
+    return access_challenge({**payload, 'url': snapshot.url, 'title': snapshot.title + ' ' + payload.get('title', '')})
 
 
 def communication_usable(snapshot: Snapshot) -> bool:

@@ -73,6 +73,21 @@ async def test_visible_complianz_refusal_is_used_instead_of_hidden_template(exec
 
 
 @pytest.mark.browser
+async def test_optout_complianz_uses_actual_refusal_handler_without_accepting(executable):
+    async with BrowserScanner(executable) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('''<div class="cmplz-cookiebanner optout" hidden>
+          <button class="cmplz-deny" onclick="window.wrongTemplate=true">Odrzuć</button></div>
+          <div class="cmplz-cookiebanner optout" role="dialog">Pliki cookies
+          <button class="cmplz-deny" hidden onclick="window.marketing=false;this.parentElement.remove()">Odrzuć</button>
+          <button onclick="window.accepted=true">Akceptuję</button></div>
+          <script>window.marketing=true</script>''')
+        await scanner.cookies(page)
+        assert await page.locator('[role=dialog]').count() == 0
+        assert await page.evaluate('marketing === false && !window.accepted && !window.wrongTemplate')
+
+
+@pytest.mark.browser
 async def test_font_only_history_compares_text_preserves_price_baseline_and_survives_restore(sample_site, executable, tmp_path, monkeypatch):
     original_enter = BrowserScanner.__aenter__
 

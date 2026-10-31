@@ -342,6 +342,23 @@ class BrowserScanner:
     async def cookies(self, page: Page, site: Site | None = None):
         frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
         for frame in frames:
+            # Complianz opt-out banners can hide their real refusal control
+            # while showing only acceptance. Use that specific refusal action
+            # on the active banner, never its hidden template or accept button.
+            banners = frame.locator('.cmplz-cookiebanner.optout').filter(visible=True)
+            for index in range(await banners.count()):
+                banner = banners.nth(index)
+                deny = banner.locator('button.cmplz-deny')
+                if await deny.count() != 1 or not COOKIE_NAMES.fullmatch((await deny.text_content() or '').strip()):
+                    continue
+                for attempt in range(2):
+                    await deny.evaluate('e => e.click()')
+                    try:
+                        await banner.wait_for(state='hidden', timeout=1500)
+                        return
+                    except BrowserError:
+                        if attempt:
+                            break
             # Known CMP selectors avoid traversing the accessibility tree of advertisement frames.
             for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button", "#cn-close-notice", ".cmplz-cookiebanner .cmplz-deny"):
                 button = frame.locator(selector).filter(visible=True).first

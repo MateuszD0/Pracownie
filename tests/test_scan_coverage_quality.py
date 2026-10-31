@@ -196,6 +196,29 @@ def test_historical_challenge_cannot_poison_either_baseline():
     assert StateStore.previous_communication(state, snapshot.key) is None
 
 
+@pytest.mark.parametrize('source', ['url', 'payload'])
+def test_failed_retry_does_not_restore_challenge_from_observation_metadata(tmp_path, source):
+    from pracownie.model import Result
+    from pracownie.pipeline import preserve_same_day_reads
+
+    observed = '2026-10-31T06:00:00+00:00'
+    old = Result('test.pl', 'glowna', 'podstawowy', 'unchanged', 'https://test.pl/',
+                 observed_at=observed, data_quality='ok')
+    metadata = {'observed_at': observed}
+    if source == 'url':
+        old.url += '.well-known/sgcaptcha/'
+    else:
+        metadata['document'] = {'payload': {'text': 'Checking the site connection security'}}
+    folder = tmp_path / 'old/2026-10-31/test.pl/glowna/podstawowy'
+    folder.mkdir(parents=True)
+    (folder / 'po.png').write_bytes(b'challenge')
+    rows = [Result('test.pl', 'glowna', 'podstawowy', 'error', 'https://test.pl/', error='HTTP 503')]
+    retained = preserve_same_day_reads(rows, [old], {'snapshots': {'test.pl/glowna/podstawowy': metadata}},
+                                      [Site('test.pl', 'https://test.pl/')], tmp_path / 'old', tmp_path / 'new', '2026-10-31')
+    assert not retained and len(rows) == 1
+    assert not (tmp_path / 'new').exists()
+
+
 async def test_rate_limited_discovery_stops_after_first_candidate(tmp_path):
     from types import SimpleNamespace
 

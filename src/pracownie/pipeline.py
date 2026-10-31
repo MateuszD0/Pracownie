@@ -67,7 +67,9 @@ def preserve_same_day_reads(results: list[Result], previous: list[Result], state
         if local_day(datetime.fromisoformat(old.observed_at)) != day:
             continue
         snapshot = state["snapshots"].get(f"{old.domain}/{old.page}/podstawowy", {})
-        if snapshot and captured_challenge(Snapshot.from_dict(snapshot)):
+        if captured_challenge({'url': old.url}):
+            continue
+        if snapshot.get('observed_at') == old.observed_at and captured_challenge(snapshot):
             continue
         if old.offer.get("field_key") in configured[old.domain].unreliable_price_keys:
             continue
@@ -88,6 +90,8 @@ def preserve_same_day_reads(results: list[Result], previous: list[Result], state
                 if manifest.get("owner") != "pracownie-monitor:v1" or digest(source) != record["sha256"]:
                     continue
                 if any(archived.get(k) != v for k, v in {"domain": old.domain, "page": old.page, "scenario": "podstawowy", "observed_at": old.observed_at, "quality": old.data_quality}.items()):
+                    continue
+                if captured_challenge(archived):
                     continue
             except (OSError, KeyError, ValueError):
                 continue

@@ -15,9 +15,15 @@ def only_font_styles(urls: list[str]) -> bool:
     )
 
 
-def captured_challenge(snapshot: Snapshot) -> bool:
-    payload = snapshot.document.get('payload', {})
-    return access_challenge({**payload, 'url': snapshot.url, 'title': snapshot.title + ' ' + payload.get('title', '')})
+def captured_challenge(snapshot: Snapshot | dict) -> bool:
+    # Recovery can have only observation metadata. Detect a challenge without
+    # requiring unrelated fields/prices to deserialize a complete Snapshot.
+    if isinstance(snapshot, dict):
+        document, url, title = snapshot.get('document', {}), snapshot.get('url', ''), snapshot.get('title', '')
+    else:
+        document, url, title = snapshot.document, snapshot.url, snapshot.title
+    payload = document.get('payload', {})
+    return access_challenge({**payload, 'url': url, 'title': title + ' ' + payload.get('title', '')})
 
 
 def communication_usable(snapshot: Snapshot) -> bool:

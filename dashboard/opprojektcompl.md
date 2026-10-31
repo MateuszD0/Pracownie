@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/)
 
-**Odczyty:** 30.10.2026 09:07 → 31.10.2026 08:34 (czas polski).
+**Odczyty:** 30.10.2026 09:07 → 31.10.2026 09:26 (czas polski).
 
-**Częściowe · 47 zgodnych tekstów**
+**Częściowe · 48 zgodnych tekstów**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/projekt-livia)
 
-**Odczyty:** 30.10.2026 09:07 → 31.10.2026 08:35 (czas polski).
+**Odczyty:** 30.10.2026 09:07 → 31.10.2026 09:26 (czas polski).
 
 **Częściowe · 36 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t073109.690999-0000-5cada84d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t082529.327462-0000-7c4903fc-porownanie.html)
 

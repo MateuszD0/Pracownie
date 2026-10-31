@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://tipitom.space/)
 
-**Odczyty:** 30.10.2026 09:45 → 31.10.2026 08:36 (czas polski).
+**Odczyty:** 30.10.2026 09:45 → 31.10.2026 09:26 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://tipitom.space/produkt/tt-1-merkury-murowany/)
 
-**Odczyty:** 30.10.2026 08:21 → 31.10.2026 08:36 (czas polski).
+**Odczyty:** 30.10.2026 08:21 → 31.10.2026 09:26 (czas polski).
 
 **Częściowe · 27 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t073109.690999-0000-5cada84d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t082529.327462-0000-7c4903fc-porownanie.html)
 

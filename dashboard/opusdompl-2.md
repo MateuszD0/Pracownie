@@ -57,7 +57,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Magnolia II</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Sadyba II</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-ca42b2805b881b9c) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t073109.690999-0000-5cada84d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t082529.327462-0000-7c4903fc-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 

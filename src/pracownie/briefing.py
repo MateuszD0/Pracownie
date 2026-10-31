@@ -161,9 +161,20 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
         if issues:
             gaps.append({'domain': row['domain'], 'issues': issues})
     return {'events': events, 'total': len(view['rows']), 'complete_domains': complete, 'gaps': gaps,
+            'read_pages': sum(bool(p.get('current_read')) for p in pages),
+            'partial_pages': sum(bool(p.get('current_read')) and p.get('data_quality') == 'partial' for p in pages),
+            'text_only_pages': sum(bool(p.get('communication', {}).get('text_only')) for p in pages),
             'pending_domains':[r['domain'] for r in view['rows'] if r.get('scan_pending')],
             'paired_pages': sum(bool(p.get('communication', {}).get('daily')) for p in pages),
             'expected_pages': len(pages)}
+
+
+def coverage_text(data: dict) -> str:
+    read = data.get('read_pages', 0)
+    expected = data.get('expected_pages', 0)
+    return (f"Dzisiejsze odczyty: {read}/{expected} stron "
+            f"(w tym częściowe: {data.get('partial_pages', 0)}). Bez odczytu: {expected - read}. "
+            "Porównanie dzień do dnia wymaga także zapisu z wczoraj.")
 
 
 def delivery_text(view: dict) -> str:
@@ -213,6 +224,9 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
     out = ['<section id="briefing" aria-labelledby="brief-title"><h2 id="brief-title">Odprawa dnia</h2>',
            '<p class="brief-coverage" id="brief-coverage">Porównano obie strony: <strong>' + str(len(data['complete_domains'])) + '/' + str(data['total']) + ' pracowni</strong> · <a href="#brief-gaps">' + str(len(data['gaps'])) + ' wymaga uwagi</a></p>',
            '<p class="small" id="brief-delivery">' + esc(delivery_text(view)) + ' · czas polski</p>']
+    out += ['<p class="small" id="brief-reads">' + esc(coverage_text(data)) + '</p>']
+    if data.get('text_only_pages'):
+        out += ['<p class="small">Dla ' + str(data['text_only_pages']) + ' stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.</p>']
     if data['pending_domains']:
         pending = len(data['pending_domains'])
         out[1] = '<p class="brief-coverage" id="brief-coverage">Porównano obie strony: <strong>' + str(len(data['complete_domains'])) + '/' + str(data['total']) + ' pracowni</strong> · ' + str(pending) + ' oczekuje na pierwszy skan · <a href="#brief-gaps">Pozostałe braki: ' + str(len(data['gaps'])-pending) + '</a></p>'

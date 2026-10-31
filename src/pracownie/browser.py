@@ -28,6 +28,7 @@ from .extract import (
 )
 from .model import Field, Scenario, Site, Snapshot, now_iso, slug
 from .observations import CONTRACT
+from .quality import only_font_styles
 
 EXTRACT = files("pracownie").joinpath("extract.js").read_text()
 VISUALS = files("pracownie").joinpath("visuals.js").read_text()
@@ -192,11 +193,15 @@ def project_candidates(site: Site, payload: dict) -> list[tuple[int, dict]]:
         named_link = bool(link.get("text")) and not re.match(r"^(projekty|domy|zobacz|więcej|szczegóły|czytaj|przejdź)\b", link["text"], re.I)
         strong_detail = bool(re.search(r"^/projekt/[^/]+/?$|^/projekt-domu-[^/]+/?$|^/produkt/[^/]+/?$|^/product/[^/]+/?$|^/projects/[^/]+/?$", path))
         named_image = link.get("image") and named_link
-        if not (strong_detail or detail or (price or surface) and (link.get("image") or named_link) or named_image):
+        # Some studios use named text links without a thumbnail or a price.
+        # Require a specific card-like URL AND explicit house-project context;
+        # every candidate still passes the product-content validation below.
+        named_house = named_link and bool(re.search(r'\bprojekt domu\b', context)) and bool(re.search(r'/[^/]+\.html$', path))
+        if not (strong_detail or detail or (price or surface) and (link.get("image") or named_link) or named_image or named_house):
             continue
         if not strong_detail and not site.product_url_pattern:
             card_signal = bool(price or surface or re.search(r"powierzch", context))
-            if not card_signal and not named_image:
+            if not card_signal and not named_image and not named_house:
                 continue
         confidence_penalty = 0 if strong_detail else 1000 if price and link.get("image") else 3000
         rank = 4
@@ -338,15 +343,15 @@ class BrowserScanner:
         frames = [page.main_frame] + [frame for frame in page.frames if frame != page.main_frame and re.search(r"cookie|consent|privacy|cmp", frame.url, re.I)]
         for frame in frames:
             # Known CMP selectors avoid traversing the accessibility tree of advertisement frames.
-            for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button", "#cn-close-notice"):
-                button = frame.locator(selector).first
+            for selector in ("#CybotCookiebotDialogBodyButtonDecline", "#onetrust-reject-all-handler", "#didomi-notice-disagree-button", "#cn-close-notice", ".cmplz-cookiebanner .cmplz-deny"):
+                button = frame.locator(selector).filter(visible=True).first
                 if await button.count() and await button.is_visible():
                     try:
                         await button.click(timeout=2500)
                     except Exception:
                         # A recognized refusal control may be covered by the CMP's animation.
                         await button.evaluate("e => e.click()")
-                    if selector == '#cn-close-notice':
+                    if selector in {'#cn-close-notice', '.cmplz-cookiebanner .cmplz-deny'}:
                         # Cached HTML can expose this control before its async
                         # click handler is installed. A no-op click is not consent
                         # dismissal; allow initialization and try the real control.
@@ -617,6 +622,7 @@ class BrowserScanner:
             failed_styles = {url for url, kind in failed_resources.items() if kind == 'stylesheet'}
             unresolved_styles = await self.unresolved_styles(page, failed_styles, successful_styles)
             relevant_styles = [url for url in unresolved_styles if urlsplit(url).hostname not in site.ignore_resource_hosts]
+            text_ready = data_ready and (not relevant_styles or only_font_styles(relevant_styles))
             relevant_failed = {urlsplit(url).hostname for url, kind in failed_resources.items() if kind == 'image'}
             relevant_failed |= {urlsplit(url).hostname for url in relevant_styles}
             relevant_failed -= set(site.ignore_resource_hosts)
@@ -682,6 +688,7 @@ class BrowserScanner:
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "verified_project_identity", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document['unresolved_styles'] = relevant_styles
+            document['readability'] = {'text_complete': text_ready, 'font_styles_only': only_font_styles(relevant_styles)}
             document["communication"] = communication
             if len(json.dumps(document).encode()) > 2_000_000:
                 document = {"visual": visual_document, "communication": communication, "ignore_patterns": site.ignore_patterns}

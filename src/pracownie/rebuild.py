@@ -48,8 +48,8 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
             raw = state.get("snapshots", {}).get(key)
         if not raw or raw.get("observed_at") != result.observed_at or (raw.get("domain"), raw.get("page"), raw.get("scenario")) != (result.domain, result.page, result.scenario):
             continue
-        prior = state.get("anchor", {}).get(key)
-        before = Snapshot.from_dict(prior) if prior and prior.get("observed_at") == result.compared_at else None
+        prior = StateStore.previous_communication(state, key)
+        before = prior if prior and prior.observed_at == result.compared_at else None
         result.communication, changes = measure(before, Snapshot.from_dict(raw))
         checks = {(c.field_key, c.before, c.after, c.before_at, c.after_at, c.url): c.details['commercial_check']
                   for c in result.changes if c.details.get('commercial_check')}
@@ -107,6 +107,8 @@ def enrich_visual_results(results: list[Result], output: Path, store: StateStore
         new = Snapshot(result.domain, result.page, result.scenario, result.url, result.observed_at or "", "", {}, [], "", "")
         for name, candidate, at in [("anchor",old,result.compared_at),("snapshots",new,result.observed_at)]:
             raw = state.get(name,{}).get(f"{result.domain}/{result.page}/{result.scenario}")
+            if not raw or raw.get('observed_at') != at:
+                raw = state.get('communication_' + name, {}).get(f"{result.domain}/{result.page}/{result.scenario}")
             if raw and raw.get("observed_at") == at:
                 candidate.quality = raw.get("quality","unknown")
                 candidate.warnings = raw.get("warnings",[])

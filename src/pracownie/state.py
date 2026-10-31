@@ -14,6 +14,8 @@ from pathlib import Path
 
 from .model import SCHEMA, Snapshot, digest, json_bytes, local_day, safe_path
 
+SNAPSHOT_SECTIONS = ('snapshots', 'anchor', 'communication_snapshots', 'communication_anchor')
+
 
 def atomic_write(path: Path, content: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -31,7 +33,7 @@ def atomic_write(path: Path, content: bytes) -> None:
 def referenced_images(data: dict) -> set[str]:
     return {
         snapshot["image"]
-        for section in ("snapshots", "anchor")
+        for section in SNAPSHOT_SECTIONS
         for snapshot in data.get(section, {}).values()
         if snapshot.get("image")
     }
@@ -73,11 +75,12 @@ class StateStore:
             raise ValueError("Nie można zapisać starszego dnia ponad nowszym stanem")
         if data["day"] != day:
             data["anchor"] = copy.deepcopy(data["snapshots"])
+            data['communication_anchor'] = copy.deepcopy(data.get('communication_snapshots', {}))
         data["day"] = day
         cutoff = (date.fromisoformat(day) - timedelta(days=retention)).isoformat()
-        for section in ("snapshots", "anchor"):
+        for section in SNAPSHOT_SECTIONS:
             data[section] = {
-                key: value for key, value in data[section].items() if local_day(datetime.fromisoformat(value["observed_at"])) > cutoff
+                key: value for key, value in data.get(section, {}).items() if local_day(datetime.fromisoformat(value["observed_at"])) > cutoff
             }
             for snapshot in data[section].values():
                 # A missing section may retain an older field inside a newer snapshot.
@@ -152,3 +155,12 @@ class StateStore:
     def previous(data: dict, key: str) -> Snapshot | None:
         value = data["anchor"].get(key)
         return Snapshot.from_dict(value) if value else None
+
+    @staticmethod
+    def previous_communication(data: dict, key: str) -> Snapshot | None:
+        from .quality import communication_usable
+
+        candidates = [Snapshot.from_dict(value) for section in ('anchor', 'communication_anchor')
+                      if (value := data.get(section, {}).get(key))]
+        candidates = [s for s in candidates if communication_usable(s)]
+        return max(candidates, key=lambda s: datetime.fromisoformat(s.observed_at)) if candidates else None

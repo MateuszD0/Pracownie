@@ -31,8 +31,9 @@ from .images import image_difference, ocr_context, visual_evidence, visual_text
 from .model import Change, Result, Scenario, Site, Snapshot, digest, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
+from .quality import communication_usable
 from .report import install_outputs, resume_data, write_outputs
-from .state import StateStore
+from .state import SNAPSHOT_SECTIONS, StateStore
 
 
 @dataclass
@@ -147,9 +148,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
             async def record(capture: Capture):
                 snapshot = capture.snapshot
                 excluded_prices = sites_by_domain[snapshot.domain].unreliable_price_keys
-                before = store.previous(state, snapshot.key)
+                price_before = store.previous(state, snapshot.key)
                 snapshot.image = store.image(capture.screenshot)
-                changes, retained = compare(before, snapshot, excluded_prices)
+                changes, retained = compare(price_before, snapshot, excluded_prices)
+                price_changes = list(changes)
+                before = store.previous_communication(state, snapshot.key) or price_before
                 communication, copy_changes = measure(before, snapshot)
                 changes.extend(copy_changes)
                 folder = staging / day / slug(snapshot.domain) / snapshot.page / slug(snapshot.scenario)
@@ -201,17 +204,29 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 elif difference_path.exists():
                     difference_path.unlink()
                 for change in changes:
-                    change.evidence = evidence
+                    change.evidence = dict(evidence)
+                if price_before and before and price_before.observed_at != before.observed_at and price_changes:
+                    price_before_path = folder / 'przed-oferta.png'
+                    shutil.copy2(store.root / price_before.image, price_before_path)
+                    # Price fields retain their own trusted baseline. A newer
+                    # text-only capture must never relabel an older price proof.
+                    for change in price_changes:
+                        change.evidence = {'przed': price_before_path.relative_to(staging).as_posix(), 'po': evidence['po']}
                 status = "baseline" if before is None else "review" if changes and all(c.kind == "review" for c in changes) else "changed" if changes else "unchanged"
                 if result_warnings:
                     status = "partial"
                 results.append(Result(snapshot.domain, snapshot.page, snapshot.scenario, status, snapshot.url, changes, result_warnings, observed_at=snapshot.observed_at, evidence=evidence,
                                       data_quality=snapshot.quality, scenario_label=capture.payload.get("scenario_label", snapshot.scenario),
                                       offer=primary_offer(snapshot, excluded_prices) if snapshot.page == "projekt" else {},
-                                      before_offer=primary_offer(before, excluded_prices) if snapshot.page == "projekt" else {},
+                                      before_offer=primary_offer(price_before, excluded_prices) if snapshot.page == "projekt" else {},
                                       compared_at=before.observed_at if before else None, variant=capture.payload.get("variant", ""), communication=communication))
-                if snapshot.quality == "ok" or snapshot.quality == "visual" and (before is None or not before.fields):
+                if snapshot.quality == "ok" or snapshot.quality == "visual" and (price_before is None or not price_before.fields):
                     state["snapshots"][snapshot.key] = retained.to_dict()
+                    state.setdefault('communication_snapshots', {}).pop(snapshot.key, None)
+                elif communication_usable(snapshot):
+                    # Separate text history preserves the last fully trusted
+                    # offer/graphics observation during a font-only failure.
+                    state.setdefault('communication_snapshots', {})[snapshot.key] = snapshot.to_dict()
 
             async def interactions(site: Site, kind: str, url: str, base: Capture, work: Path):
                 explicit = [s for s in site.scenarios if s.page == kind]
@@ -309,7 +324,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     metadata.setdefault("selection_corrections", []).append({"domain": site.domain, "from": selection, "reason": correction["reason"]})
                     state.setdefault("selection_corrections", {})[site.domain] = {"from": selection, "reason": correction["reason"], "corrected_at": now_iso()}
                     del state["selections"][site.domain]
-                    for group in ("snapshots", "anchor"):
+                    for group in SNAPSHOT_SECTIONS:
                         state[group] = {key: value for key, value in state[group].items() if not key.startswith(site.domain + "/projekt/")}
                     selection = None
                 project = None

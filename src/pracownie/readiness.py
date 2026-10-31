@@ -7,6 +7,8 @@ from .model import WARSAW, local_day
 
 
 def repair_domains(quality: dict) -> list[str]:
+    if quality.get('retry_policy_version') == 2:
+        return sorted(set(quality.get('retry_domains', [])))
     # Also repair partial reads in manifests produced before this was persisted.
     return sorted(set(quality.get('retry_domains', [])) | {
         key.split('/')[0] for key in quality.get('limited', [])
@@ -14,7 +16,7 @@ def repair_domains(quality: dict) -> list[str]:
 
 
 def base_readiness(day: str, results: list[dict], domains: list[str]) -> dict:
-    fresh, missing, blocked, limited, retry = [], [], [], [], set()
+    fresh, missing, blocked, limited, retry, manual = [], [], [], [], set(), []
     for domain in domains:
         for page in ('glowna', 'projekt'):
             rows = [r for r in results if r['domain'] == domain and r['page'] == page and r['scenario'] == 'podstawowy']
@@ -25,7 +27,10 @@ def base_readiness(day: str, results: list[dict], domains: list[str]) -> dict:
                 if not any(r.get("data_quality") in {"ok", "visual"} and r.get("observed_at")
                            and local_day(datetime.fromisoformat(r["observed_at"])) == day and not r.get("error") for r in rows):
                     limited.append(key)
-                    retry.add(domain)
+                    if any(r.get('communication', {}).get('ready') and r.get('communication', {}).get('text_only') for r in rows):
+                        manual.append(key)
+                    else:
+                        retry.add(domain)
                 continue
             missing.append(key)
             errors = ' '.join(str(r.get('error') or '') for r in rows)
@@ -33,7 +38,8 @@ def base_readiness(day: str, results: list[dict], domains: list[str]) -> dict:
                 blocked.append(key)
             else:
                 retry.add(domain)
-    return {'expected': len(domains) * 2, 'fresh': len(fresh), 'missing': missing,
+    return {'retry_policy_version': 2, 'manual_review': manual,
+            'expected': len(domains) * 2, 'fresh': len(fresh), 'missing': missing,
             'blocked': blocked, 'retry_domains': sorted(retry), 'limited': limited, 'complete': not missing and not limited}
 
 

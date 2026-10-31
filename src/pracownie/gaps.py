@@ -12,7 +12,11 @@ def page_gap(page: dict, day: str) -> dict:
     status = 'Odczyt nieudany'
     action = 'Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma.'
     if current:
-        if page.get('data_quality') == 'partial' or communication.get('status') == 'partial':
+        if communication.get('ready') and communication.get('text_only') and not page.get('compared_at'):
+            category, status = 'history', 'Zapisano tekst; grafika ograniczona'
+            reason = 'Brak zewnętrznej czcionki ogranicza ocenę wyglądu. Tekst zapisano poprawnie; brakuje wcześniejszego porównywalnego zapisu.'
+            action = 'Porównanie tekstu możliwe po kolejnym poprawnym skanie. Ograniczenie grafiki pozostaje jawne.'
+        elif page.get('data_quality') == 'partial' or communication.get('status') == 'partial':
             status = 'Odczyt częściowy'
             notes = page.get('quality_notes', [])
             reason = '; '.join(notes) if notes else reason

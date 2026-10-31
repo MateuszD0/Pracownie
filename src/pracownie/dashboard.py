@@ -5,7 +5,7 @@ import html
 import re
 from urllib.parse import quote
 
-from .briefing import build_briefing, delivery_text, markdown_briefing, markdown_event
+from .briefing import build_briefing, coverage_text, delivery_text, markdown_briefing, markdown_event
 from .journal import safe_source
 from .management import brief, build_management, page_finding
 from .presentation import when
@@ -97,6 +97,9 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
              f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.** · " + gap_status, '',
              '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '']
+    lines += [coverage_text(briefing), '']
+    if briefing.get('text_only_pages'):
+        lines += [f"Dla {briefing['text_only_pages']} stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.", '']
     if observed:
         lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski. Późniejsze uzupełnienia nie są porannym skanem.", '']
     feedback = view.get('metadata', {}).get('feedback')

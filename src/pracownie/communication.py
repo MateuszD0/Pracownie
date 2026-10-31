@@ -13,6 +13,7 @@ from urllib.parse import urlsplit
 
 from .extract import MONEY, canonical_url, money_text, normalize
 from .model import Change, Snapshot
+from .quality import communication_usable
 
 CONTRACT = "communication-v1"
 NOISE = re.compile(r"cookies|ciastecz|polity[kc].{0,12}prywatno|ustawienia prywatno|privacy policy|privacy settings|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
@@ -132,7 +133,8 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     old_text, new_text = text_fragments(before) if before else set(), text_fragments(after)
     output = {
         "contract": CONTRACT, "status": "baseline", "comparable": False,
-        "ready": bool(current) and after.quality in {"ok", "visual"} and not after.document.get("communication", {}).get("truncated"),
+        "ready": bool(current) and communication_usable(after) and not after.document.get("communication", {}).get("truncated"),
+        "text_only": any(s and s.quality == 'partial' and communication_usable(s) for s in (before, after)),
         "scope": "nagłówki, banery, CTA i treść; rotatory jako zestaw slajdów",
         "before_at": before.observed_at if before else None, "after_at": after.observed_at,
         "fragments_before": len(old_text), "fragments_after": len(current) or len(new_text),
@@ -151,10 +153,10 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     old_adapter = before.document.get("communication", {}).get("adapter")
     new_adapter = after.document.get("communication", {}).get("adapter")
     same_adapter = bool(old_adapter) and old_adapter == new_adapter
-    complete = old and current and same and same_browser and same_adapter and all(s.quality in {"ok", "visual"} for s in (before, after)) and not any(s.document.get("communication", {}).get("truncated") for s in (before, after))
+    complete = old and current and same and same_browser and same_adapter and all(communication_usable(s) for s in (before, after)) and not any(s.document.get("communication", {}).get("truncated") for s in (before, after))
     if not complete:
         output["status"] = "partial"
-        if any(s.quality not in {"ok", "visual"} for s in (before, after)):
+        if any(not communication_usable(s) for s in (before, after)):
             output["reason"] = "Jeden z odczytów jest częściowy; nie ustalono zmian komunikacji."
         elif not old:
             output["reason"] = "Starszy skan zapisał wybrane teksty, bez pełnego zestawu nagłówków i banerów. Zgodne fragmenty nie oznaczają braku zmian na całej stronie."

@@ -4,7 +4,7 @@ Cel pozostaje ten sam: codziennie czytać stronę główną i tę samą kartę p
 
 ## Punkt wyjścia
 
-Zatwierdzony raport z 31.10 obejmuje 112 pracowni i 224 oczekiwane strony. Są 206 odczyty: 191 poprawnej jakości i 15 częściowych; 18 stron pozostaje bez odczytu. Obie strony dzień do dnia porównano u 94 pracowni. Wszystkie 112 pracowni są w zakresie skanu — liczba porównań nie jest liczbą podjętych prób.
+Zatwierdzony raport z 31.10 obejmuje 112 pracowni i 224 oczekiwane strony. Jest 206 odczytów: 191 poprawnej jakości i 15 częściowych; 18 stron pozostaje bez odczytu. Obie strony dzień do dnia porównano u 94 pracowni. Wszystkie 112 pracowni są w zakresie skanu — liczba porównań nie jest liczbą podjętych prób.
 
 Odczyty częściowe: Agrobisp (2 strony), DomPP (2), House Collection (2), Machoń (2), OPprojekt (1), Malachit (2), TipiTom (2), Witek (2).
 
@@ -23,11 +23,13 @@ Bez odczytu: ArchBB (2), Archido (2), Biryło (karta), Domy Ciekawe (2), Domy i 
 
 ## Co pozostaje do zrobienia
 
-- **Adresy pracowni:** potrzebne jest potwierdzenie aktualnych adresów Biryło, Domy Ciekawe i IMprojekty. Dotychczasowe kontrole wskazywały odpowiednio inne portfolio, brak DNS i serwis obrotu domenami. Nie wolno zastępować ich zgadywanymi adresami.
+- **Adresy pracowni:** potrzebne jest potwierdzenie aktualnych adresów Biryło, Domy Ciekawe i IMprojekty. Dotychczasowe kontrole wskazywały odpowiednio inne portfolio, brak DNS i serwis obrotu domenami. Użytkownik nie ma aktualnych adresów. Pozostają do weryfikacji — nie oznaczamy tych firm jako niemających strony i nie zastępujemy ich zgadywanymi adresami.
 - **Odmowy dostępu:** Archido, Domy i Garaże, Domy z Miętą i LK-Projekt wymagają uzgodnionego dostępu lub źródła udostępnionego przez właściciela. HTTP 403 nie jest informacją „bez zmian”.
 - **ArchBB:** diagnostyka 31.10 ponownie potwierdziła HTTP 500. To nie jest błąd wyboru projektu po stronie monitora.
 - **Horyzont:** zwykły klient HTTP otrzymuje treść, lecz Chromium nadal zgłasza błąd protokołu dla adresów z www i bez www. Wyłączenie HTTP/2 daje pustą odpowiedź. Ewentualny dodatkowy odczyt HTTP powinien mieć osobno oznaczony zakres, bez deklarowania sprawdzenia renderowania i interakcji.
 - **Brakujące style stron:** Agrobisp, House Collection, Machoń, OPprojekt i Malachit mają konkretne nierozwiązane adresy CSS. Nie wszystkie te pliki są fontami; nie wyłączamy dla nich kontroli jakości bez inspekcji ich wpływu na ofertę.
+- **TipiTom:** poprawiono odczyt karty projektu. Ostatnia próba strony głównej zwróciła stronę weryfikacji dostępu, więc zachowano wcześniejszy częściowy odczyt z 31.10, z jego oryginalną godziną. Komunikat o cookies dotyczy tego wcześniejszego zapisu, a osobny wiersz ponowienia zawiera aktualny błąd. Nie potwierdzono jeszcze poprawnego odczytu obu stron w jednym skanie.
+- **Forteca:** odstęp 30 sekund nie usunął HTTP 429 przy karcie. Poprawka rozpoznaje i zachowuje właściwą przyczynę oraz przerywa dalsze próby w okresie ograniczenia, ale dostęp do karty nadal nie został uzyskany.
 - **Termin 08:00:** dzisiejsza pierwsza publikacja była o 08:57. Cron GitHuba wciąż bywa opóźniony; zmiana ekstraktora nie naprawia punktualności wywołań. Osobnym usprawnieniem jest zewnętrzne wywoływanie istniejącego workflow przed porannym terminem, z kontrolą świeżości i zapisem rzeczywistej publikacji.
 
 ## Weryfikacja
@@ -42,3 +44,20 @@ Bez odczytu: ArchBB (2), Archido (2), Biryło (karta), Domy Ciekawe (2), Domy i 
 - Nowa historia tekstu nie dopisuje odczytu z wczoraj. Gdy nie istnieje wcześniejsza porównywalna baza, dzisiejszy zapis jest pierwszym punktem odniesienia.
 
 Wynik skanu po wdrożeniu należy oceniać na podstawie zatwierdzonego raportu; sukces testów nie jest dowodem odzyskania dostępu do zewnętrznego serwisu.
+
+## Wynik końcowego wdrożenia
+
+- Kod: `398ae39`; pełne CI: https://github.com/MateuszD0/Pracownie/actions/runs/41190819636 — sukces. Lokalnie: 372 testy przeszły, 1 test trybu graficznego pominięty z powodu braku Xvfb. Kontrola stylu kodu przeszła.
+- Skan naprawczy: https://github.com/MateuszD0/Pracownie/actions/runs/41191250369 — sukces; zatwierdzony identyfikator `2026-10-31T100644.264445-0000-e99d11cd`.
+- Raport obejmuje **112 pracowni, 206/224 odczytane strony, w tym 15 częściowych; 18 stron bez odczytu. Porównanie obu stron dzień do dnia: 94/112 pracowni.** Liczba porównań dziennych jeszcze nie wzrosła — nowe poprawne zapisy nie odtwarzają brakującej historii.
+- Cztery strony DomPP i Witek mają wiarygodny zapis tekstu przy ograniczonej grafice. Karta TipiTom przeszła z odczytu częściowego do poprawnego. Weryfikacja dostępu nie zastąpiła treści oferty w historii.
+- Względem zatwierdzonego raportu bezpośrednio przed końcowym skanem zachowano wszystkie **206 wcześniejszych odczytów i 103 zamrożone wybory projektów**, a liczba odczytów poprawnej jakości wzrosła ze 190 do 191. Przed tą próbą automatyczne ponowienie obniżyło jakość strony głównej OPprojekt z powodu CSS; dlatego punkt wyjścia końcowego porównania różni się od pierwszego raportu w tym dokumencie.
+- Sprawdzono opublikowany `DASHBOARD.md`: pokazuje te same liczby, ograniczenie grafiki dla czterech stron i rzeczywisty zakres godzin odczytu. Późniejszych napraw nie przedstawia jako porannego skanu.
+
+## Kolejność dalszych usprawnień
+
+1. Zbadać wpływ brakujących CSS w pięciu pracowniach na widoczność tekstu. Ewentualne dopuszczenie komunikacji powinno wynikać z testów konkretnych stron, bez automatycznego ignorowania wszystkich błędów stylów.
+2. Rozważyć osobno oznaczony odczyt HTML dla Horyzontu, jeśli nie uda się naprawić zgodności przeglądarki. Taki odczyt nie zastąpi sprawdzenia grafiki ani interakcji.
+3. Doprecyzować prezentację nieudanego ponowienia obok zachowanego wcześniejszego odczytu, aby od razu było widać ostatni błąd i godzinę dostępnej treści.
+4. Sprawdzić stabilność karuzel, rekomendowanych projektów i animowanych tekstów przed nadaniem ich zmianom wysokiego priorytetu. Rotacja elementu może zmieniać zapis bez zmiany oferty.
+5. Zapewnić niezależne wywołanie przed 08:00 i kontrolę publikacji. Sam harmonogram GitHuba nie zapewnia punktualności.

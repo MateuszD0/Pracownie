@@ -7,7 +7,7 @@
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
 | [domyzmieta.pl](domyzmietapl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
-| [fortecaklimatyczna.pl](fortecaklimatycznapl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
+| [fortecaklimatyczna.pl](fortecaklimatycznapl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [horyzont.com](horyzontcom.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [horyzont.com](horyzontcom.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [housecollection.pl](housecollectionpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: housecollection.pl; Wykryto niezaładowane obrazy; porównanie wizualne może być niepełne. | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
@@ -23,4 +23,3 @@
 | [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [projektymalachit.pl](projektymalachitpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [tipitom.space](tipitomspace.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera. | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
-| [tipitom.space](tipitomspace.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Widoczny panel cookies może zasłaniać ofertę; potrzebna reguła adaptera.; Niezaładowane obrazy/style z hostów: connect.facebook.net | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |

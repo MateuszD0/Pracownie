@@ -8,7 +8,11 @@
 
 <!-- delivery:2026-10-31 -->Pierwsza publikacja: 08:57 — po terminie 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Odczyty: 31.10.2026 08:31 – 31.10.2026 09:35, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 16). Bez odczytu: 18. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+
+Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
+
+Odczyty: 31.10.2026 08:31 – 31.10.2026 10:37, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/468 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
@@ -30,13 +34,12 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | **domenadom.pl**<br>Strona główna | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-domenadompl.md#zdarzenie-88016eff1f463888)<br>[Otwórz stronę](https://domenadom.pl/#slick-slide00) |
 | **dominanta.pl**<br>Strona główna | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-dominantapl.md#zdarzenie-a27c0733880df7ab)<br>[Otwórz stronę](https://www.dominanta.pl/#gallery) |
 
-<details><summary>Pozostałe ważne zmiany (40)</summary>
+<details><summary>Pozostałe ważne zmiany (39)</summary>
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
 | **e-domy.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-accaf43bb773e6de)<br>[Otwórz stronę](https://www.e-domy.pl/) |
 | **ecodomy.pl**<br>Strona główna | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-ecodomypl.md#zdarzenie-4c760e7fe171d70c)<br>[Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
-| **opprojekt.com.pl**<br>Strona główna | Pojawił się komunikat: „Nowość w naszej bazie: Poznaj projekt Grala – elegancki dom z poddaszem użytkowym i garażem! 30 października 2026 Szukasz domu z poddaszem, który połączy tradycyjny urok z nowocze…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opprojektcompl.md#zdarzenie-a7b0279c21c8fe4f)<br>[Otwórz stronę](https://opprojekt.com.pl/#element_193_content) |
 | **opusdom.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-0d9ee35479aac25e)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | **planujdom.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-planujdompl.md#zdarzenie-0c9041648e8937c8)<br>[Otwórz stronę](https://planujdom.pl/) |
 | **projektyka.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektykapl.md#zdarzenie-c0d867542f3e5382)<br>[Otwórz stronę](https://projektyka.pl/) |
@@ -54,6 +57,7 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | **opusdom.pl**<br>Karta projektu | Pojawił się komunikat: „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-164bbb8c538e86d8)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e8710d64f9cba108aa) |
 | **opusdom.pl**<br>Karta projektu | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-2ba2ecfde5cc0aba)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e8710d64f9cba108aa) |
 | **opusdom.pl**<br>Karta projektu | Pojawił się komunikat: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-34e0212b5a892367)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-ca42b2805b881b9c) |
+| **opusdom.pl**<br>Karta projektu | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowa…”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-opusdompl.md#zdarzenie-4440b9584e598852)<br>[Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-ca42b2805b881b9c) |
 
 Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md)
 
@@ -86,7 +90,16 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md)
 
 **18 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
-### Problemy wymagające naprawy · 33 stron
+### Odczyt działa — potrzebna historia · 4 stron
+
+| Pracownia / strona | Stan odczytu | Co dalej |
+| --- | --- | --- |
+| [dompp.pl](dashboard/dompppl.md#strona-główna)<br>Strona główna | **Zapisano tekst; grafika ograniczona**<br>Brak zewnętrznej czcionki ogranicza ocenę wyglądu. Tekst zapisano poprawnie; brakuje wcześniejszego porównywalnego zapisu. | Porównanie tekstu możliwe po kolejnym poprawnym skanie. Ograniczenie grafiki pozostaje jawne. |
+| [dompp.pl](dashboard/dompppl.md#karta-projektu)<br>Karta projektu | **Zapisano tekst; grafika ograniczona**<br>Brak zewnętrznej czcionki ogranicza ocenę wyglądu. Tekst zapisano poprawnie; brakuje wcześniejszego porównywalnego zapisu. | Porównanie tekstu możliwe po kolejnym poprawnym skanie. Ograniczenie grafiki pozostaje jawne. |
+| [witekarchitekci.pl](dashboard/witekarchitekcipl.md#strona-główna)<br>Strona główna | **Zapisano tekst; grafika ograniczona**<br>Brak zewnętrznej czcionki ogranicza ocenę wyglądu. Tekst zapisano poprawnie; brakuje wcześniejszego porównywalnego zapisu. | Porównanie tekstu możliwe po kolejnym poprawnym skanie. Ograniczenie grafiki pozostaje jawne. |
+| [witekarchitekci.pl](dashboard/witekarchitekcipl.md#karta-projektu)<br>Karta projektu | **Zapisano tekst; grafika ograniczona**<br>Brak zewnętrznej czcionki ogranicza ocenę wyglądu. Tekst zapisano poprawnie; brakuje wcześniejszego porównywalnego zapisu. | Porównanie tekstu możliwe po kolejnym poprawnym skanie. Ograniczenie grafiki pozostaje jawne. |
+
+### Problemy wymagające naprawy · 30 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
@@ -97,13 +110,13 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md)
 | [archido.pl](dashboard/archidopl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [archido.pl](dashboard/archidopl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [birylo.pl](dashboard/birylopl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
-| [dompp.pl](dashboard/dompppl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: fonts.googleapis.com | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
-| [dompp.pl](dashboard/dompppl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: fonts.googleapis.com | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [domyciekawe.pl](dashboard/domyciekawepl.md#strona-główna)<br>Strona główna | **Adres WWW nie działa**<br>Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony. | Zweryfikować aktualny adres pracowni; ponowienie nie odtworzy brakującej historii. |
 | [domyciekawe.pl](dashboard/domyciekawepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
+| [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
+| [domyzmieta.pl](dashboard/domyzmietapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 
-[Dalsze strony 13–33](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–30](dashboard/odczyty-repair-2.md)
 
 
 
@@ -183,12 +196,14 @@ Historia zdarzeń (468): [1](dashboard/historia-1.md) · [2](dashboard/historia-
 
 - [31.10.2026 08:56](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t073109.690999-0000-5cada84d-porownanie.html)
 - [31.10.2026 09:31](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t082529.327462-0000-7c4903fc-porownanie.html)
+- [31.10.2026 09:40](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-porownanie.html)
+- [31.10.2026 10:33](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-porownanie.html)
 
 </details>
 
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 97/112; stałe karty: 94/112; łącznie 191/224 stron z porównaniem.
+Strony główne: 96/112; stałe karty: 94/112; łącznie 190/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -207,15 +222,15 @@ różnice obrazu bez jednoznacznego opisu: **16 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-39-po.jpg) |
-| [coolhouses.studio](dashboard/coolhousesstudio.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-40-po.jpg) |
+| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-38-po.jpg) |
+| [coolhouses.studio](dashboard/coolhousesstudio.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-39-po.jpg) |
 | [dobredomy.pl](dashboard/dobredomypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [domideaprojekt.pl](dashboard/domideaprojektpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-8-po.jpg) |
+| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-8-po.jpg) |
 | [kbprojekt.pl](dashboard/kbprojektpl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-29-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-dowod-28-po.jpg) |
 | [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [nanostudio.pl](dashboard/nanostudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [nowoczesne-projektydomow.pl](dashboard/nowoczesne-projektydomowpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -254,7 +269,6 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [homekoncept.pl](dashboard/homekonceptpl.md) · **KRX** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | 1 zmian · Komunikacja sprzedażowa · obraz do obejrzenia | 3 zmian · Komunikacja sprzedażowa · obraz do obejrzenia |
 | [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | 1 zmian · Komunikacja sprzedażowa | Częściowe · 36 zgodnych tekstów |
 | [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Bez ustalonej zmiany · obserwacje w szczegółach | 18 zmian · Komunikacja sprzedażowa |
 | [partero.pl](dashboard/parteropl.md) · **ZGE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [planujdom.pl](dashboard/planujdompl.md) · **ABP** | 4 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
@@ -277,7 +291,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [dompasja.pl](dashboard/dompasjapl.md) · **BBE** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [dompp.pl](dashboard/dompppl.md) · **WRG** | Niepełny zakres porównania | Niepełny zakres porównania |
+| [dompp.pl](dashboard/dompppl.md) · **WRG** | Zapisano tekst do porównań · grafika ograniczona (czcionki) | Zapisano tekst do porównań · grafika ograniczona (czcionki) |
 | [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domy21.pl](dashboard/domy21pl.md) · **WSA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Brak odczytu · Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony. | Brak odczytu · Nie ustalono poprawnej karty projektu. |
@@ -304,6 +318,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
+| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Częściowe · 48 zgodnych tekstów | Częściowe · 36 zgodnych tekstów |
 | [opushome.pl](dashboard/opushomepl.md) · **KZM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [pracowniaprojektowa.info](dashboard/pracowniaprojektowainfo.md) · **WWC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -316,7 +331,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Niepełny zakres porównania | Częściowe · 27 zgodnych tekstów |
 | [uarchitekta.pl](dashboard/uarchitektapl.md) · **WCB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Niepełny zakres porównania | Niepełny zakres porównania |
+| [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Zapisano tekst do porównań · grafika ograniczona (czcionki) | Zapisano tekst do porównań · grafika ograniczona (czcionki) |
 | **Niewspółpracujące z nami** · 32 serwisów | | |
 | [1001studio.pl](dashboard/1001studiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [domoweklimaty.pl](dashboard/domoweklimatypl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |

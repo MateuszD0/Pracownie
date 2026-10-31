@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://witekarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 31.10.2026 09:35 (czas polski).
+**Odczyty:** brak odczytu → 31.10.2026 10:28 (czas polski).
 
-**Niepełny zakres porównania**
+**Zapisano tekst do porównań · grafika ograniczona (czcionki)**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://witekarchitekci.pl/index-g56)
 
-**Odczyty:** brak odczytu → 31.10.2026 09:35 (czas polski).
+**Odczyty:** brak odczytu → 31.10.2026 10:28 (czas polski).
 
-**Niepełny zakres porównania**
+**Zapisano tekst do porównań · grafika ograniczona (czcionki)**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t093638.090294-0000-cf376677-porownanie.html)
 

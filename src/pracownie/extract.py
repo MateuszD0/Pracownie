@@ -156,10 +156,19 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
     return fields, sections
 
 
+def access_challenge(payload: dict) -> bool:
+    path = urlsplit(payload.get('url', '')).path.lower()
+    if '/.well-known/sgcaptcha' in path or path.startswith('/cdn-cgi/challenge-platform/'):
+        return True
+    challenge = r'just a moment|access denied|attention required|verify you are human|sprawdź.*człowiekiem|checking (?:the site connection security|your browser)'
+    text = payload.get('text') or ' '.join(b.get('text', '') for b in payload.get('blocks', []))
+    return bool(re.search(challenge, payload.get('title', ''), re.I)
+                or len(text) < 2000 and re.search(challenge, text, re.I))
+
+
 def validate_payload(payload: dict, product: bool = False) -> None:
     text = payload.get("text", "")
-    challenge = r"just a moment|access denied|attention required|verify you are human|sprawdź.*człowiekiem"
-    if re.search(challenge, payload.get("title", ""), re.I) or len(text) < 80 and re.search(challenge, text, re.I):
+    if access_challenge(payload):
         raise ValueError("Strona blokady lub weryfikacji zamiast oferty")
     if len(text) < 40:
         raise ValueError("Pusta lub niekompletna strona")

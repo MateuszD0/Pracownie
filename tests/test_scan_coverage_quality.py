@@ -157,3 +157,54 @@ async def test_cookie_or_missing_layout_still_disqualifies_text(sample_site, exe
         captured = await scanner.capture(site, 'glowna', site.home_url, Scenario('podstawowy', 'Strona główna'), tmp_path / 'page.png')
         assert captured.snapshot.quality == 'partial'
         assert not communication_usable(captured.snapshot)
+
+
+@pytest.mark.parametrize('payload', [
+    {'url': 'https://test.pl/.well-known/sgcaptcha/?r=%2F', 'text': 'Checking the site connection security'},
+    {'title': 'test.pl', 'text': 'Checking the site connection security. Please wait while your connection is verified.'},
+    {'url': 'https://test.pl/cdn-cgi/challenge-platform/check', 'text': 'Verifying the connection to this website.'},
+])
+def test_verification_screen_is_not_a_successful_capture(payload):
+    from pracownie.extract import validate_payload
+    with pytest.raises(ValueError, match='weryfikacji'):
+        validate_payload(payload)
+
+
+def test_historical_challenge_cannot_poison_either_baseline():
+    from test_communication import BEFORE, capture
+    snapshot = capture(BEFORE, [('heading', 'heading', 'Checking the site connection security')])
+    snapshot.url = 'https://test.pl/.well-known/sgcaptcha/'
+    snapshot.quality = 'ok'  # Misclassified by the older scanner.
+    state = {'anchor': {snapshot.key: snapshot.to_dict()}}
+    assert not communication_usable(snapshot)
+    assert StateStore.previous(state, snapshot.key) is None
+    assert StateStore.previous_communication(state, snapshot.key) is None
+
+
+async def test_rate_limited_discovery_stops_after_first_candidate(tmp_path):
+    from types import SimpleNamespace
+
+    from pracownie.browser import TransientFetchError
+
+    calls = []
+    class Scanner(BrowserScanner):
+        async def capture(self, site, page, url, *args):
+            calls.append(url)
+            raise TransientFetchError('Przejściowy błąd HTTP 429', 300)
+    site = Site('test.pl', 'https://test.pl/')
+    home = SimpleNamespace(payload={'links': [
+        {'url': 'https://test.pl/a.html', 'text': 'Dom A', 'context': 'projekt domu'},
+        {'url': 'https://test.pl/b.html', 'text': 'Dom B', 'context': 'projekt domu'},
+    ]}, snapshot=SimpleNamespace(url=site.home_url))
+    with pytest.raises(TransientFetchError) as error:
+        await Scanner().discover_project(site, home, tmp_path)
+    assert error.value.retry_after == 300 and calls == ['https://test.pl/a.html']
+    rows = [{'domain': site.domain, 'page': 'projekt', 'scenario': 'podstawowy',
+             'error': 'Wybór karty wstrzymany: Przejściowy błąd HTTP 429'}]
+    assert repair_domains(base_readiness('2026-10-31', rows, [site.domain])) == [site.domain]
+
+
+@pytest.mark.parametrize('interval', [0, -1, 61, '30', float('nan')])
+def test_request_pacing_configuration_is_bounded(interval):
+    with pytest.raises(ValueError, match='Odstęp'):
+        Site.from_dict({'domain': 'test.pl', 'home_url': 'https://test.pl', 'request_interval_seconds': interval})

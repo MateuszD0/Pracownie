@@ -26,7 +26,7 @@ DETAIL = r"""() => ({
 })"""
 
 
-async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projects=False, disable_http2=False, extra_urls=None):
+async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projects=False, disable_http2=False, extra_urls=None, probe_cookies=False):
     output = {"observed_at": now_iso(), "sites": []}
     async with async_playwright() as manager:
         browser = await manager.chromium.launch(headless=not headed, args=['--disable-http2'] if disable_http2 else [])
@@ -75,6 +75,23 @@ async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projec
                         if check['navigation']:
                             check['status'] = check['navigation'][-1]['status']
                         check.update(await page.evaluate(DETAIL))
+                        if probe_cookies:
+                            from pracownie.browser import BrowserScanner
+                            scanner = BrowserScanner()
+                            check['cookie_probes'] = []
+                            for attempt in range(3):
+                                probe = {'attempt': attempt + 1}
+                                try:
+                                    await scanner.cookies(page, site)
+                                except Exception as exc:
+                                    probe['error'] = str(exc)[:1600]
+                                await page.wait_for_timeout(2000)
+                                probe['panels'] = await page.locator('[role=dialog],#cn-close-notice,.cmplz-deny').evaluate_all("""es => es.map(e=>({
+                                  html:e.outerHTML.slice(0,1800),visible:e.checkVisibility({visibilityProperty:true,opacityProperty:true}),
+                                  rect:JSON.stringify(e.getBoundingClientRect()),
+                                  controls:[...e.querySelectorAll('button,a')].map(b=>({html:b.outerHTML.slice(0,700),visible:b.checkVisibility({visibilityProperty:true,opacityProperty:true})}))
+                                }))""")
+                                check['cookie_probes'].append(probe)
                     except Exception as exc:
                         check.update(error=str(exc).splitlines()[0], url=page.url)
                     row["checks"].append(check)
@@ -98,6 +115,7 @@ if __name__ == "__main__":
     parser.add_argument("--headed", action="store_true")
     parser.add_argument("--discover", action="store_true")
     parser.add_argument("--disable-http2", action="store_true")
+    parser.add_argument("--probe-cookies", action="store_true")
     parser.add_argument("--extra-urls", default="{}", help="Publiczne adresy do diagnostyki: obiekt domena → lista URL")
     args = parser.parse_args()
     if not 0 <= args.verification_wait <= 60:
@@ -110,7 +128,7 @@ if __name__ == "__main__":
     from pracownie.browser import allowed_url
     if not isinstance(extra_urls, dict) or set(extra_urls) - selected or any(not isinstance(extra_urls.get(site.domain, []), list) or len(extra_urls.get(site.domain, [])) > 4 or any(not isinstance(url, str) or not allowed_url(site, url) for url in extra_urls.get(site.domain, [])) for site in sites):
         raise SystemExit('Diagnostyka dopuszcza do czterech adresów na domenę z konfiguracji')
-    result = asyncio.run(inspect(sites, verification_wait=args.verification_wait, headed=args.headed, discover_projects=args.discover, disable_http2=args.disable_http2, extra_urls=extra_urls))
+    result = asyncio.run(inspect(sites, verification_wait=args.verification_wait, headed=args.headed, discover_projects=args.discover, disable_http2=args.disable_http2, extra_urls=extra_urls, probe_cookies=args.probe_cookies))
     path = Path(".monitor/access-diagnostics.json")
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

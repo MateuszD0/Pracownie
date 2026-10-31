@@ -163,10 +163,13 @@ class Site:
     user_agent: str | None = None
     cookie_continue_selector: str | None = None
     browser_headed: bool = False
+    request_interval_seconds: float = 2
 
     @classmethod
     def from_dict(cls, data: dict) -> Site:
         data = dict(data)
+        if not isinstance(data.get('request_interval_seconds', 2), (int, float)) or not 2 <= data.get('request_interval_seconds', 2) <= 60:
+            raise ValueError('Odstęp między wejściami musi wynosić od 2 do 60 sekund')
         data["scenarios"] = [Scenario(**item) for item in data.get("scenarios", [])]
         return cls(**data)
 

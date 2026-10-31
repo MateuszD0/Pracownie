@@ -453,7 +453,7 @@ class BrowserScanner:
         pause = self.next_read.get(site.domain, 0) - time.monotonic()
         if pause > 0:
             await asyncio.sleep(pause)
-        self.next_read[site.domain] = time.monotonic() + 2
+        self.next_read[site.domain] = time.monotonic() + site.request_interval_seconds
         proxy = None if urlsplit(url).hostname in {"localhost", "127.0.0.1", "::1"} else proxy_settings()
         browser = self.browser
         if site.browser_headed:
@@ -716,6 +716,10 @@ class BrowserScanner:
                 for _, candidate in project_candidates(site, listing.payload):
                     candidate.update(source=url, basis=f"Pierwszy poprawny projekt z sekcji: {listing.snapshot.title}. Ranking/ekspozycja nie potwierdza liczby sprzedaży.")
                     ranked_candidates.append((0, candidate))
+            except TransientFetchError:
+                # A server-requested cooldown applies to every URL on this
+                # host, not just the failed catalogue. Stop the discovery pass.
+                raise
             except Exception as exc:
                 warnings.append(f"Nie udało się odczytać katalogu {url}: {str(exc).splitlines()[0][:180]}")
         candidates = ranked_candidates + candidates
@@ -732,6 +736,8 @@ class BrowserScanner:
                     raise ValueError("Kandydat przekierował na stronę główną zamiast karty projektu")
                 selection["name"] = capture.snapshot.title
                 return selection, capture, warnings
+            except TransientFetchError:
+                raise
             except Exception as exc:
                 warnings.append(f"Kandydat niepotwierdzony: {selection['url']} ({str(exc).splitlines()[0][:180]})")
         return None, None, warnings + ["Nie wybrano poprawnej karty projektu; wymagane sprawdzenie domeny."]

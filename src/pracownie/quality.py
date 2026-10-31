@@ -1,6 +1,7 @@
 """Keep readable offer text separate from an incomplete graphical rendering."""
 from urllib.parse import urlsplit
 
+from .extract import access_challenge
 from .model import Snapshot
 
 
@@ -14,7 +15,13 @@ def only_font_styles(urls: list[str]) -> bool:
     )
 
 
+def captured_challenge(snapshot: Snapshot) -> bool:
+    return access_challenge({**snapshot.document.get('payload', {}), 'url': snapshot.url, 'title': snapshot.title})
+
+
 def communication_usable(snapshot: Snapshot) -> bool:
+    if captured_challenge(snapshot):
+        return False
     if snapshot.quality in {'ok', 'visual'}:
         return True
     # Older partial captures and arbitrary missing CSS remain untrusted. The

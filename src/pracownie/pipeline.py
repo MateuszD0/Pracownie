@@ -31,7 +31,7 @@ from .images import image_difference, ocr_context, visual_evidence, visual_text
 from .model import Change, Result, Scenario, Site, Snapshot, digest, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
-from .quality import communication_usable
+from .quality import captured_challenge, communication_usable
 from .report import install_outputs, resume_data, write_outputs
 from .state import SNAPSHOT_SECTIONS, StateStore
 
@@ -67,6 +67,8 @@ def preserve_same_day_reads(results: list[Result], previous: list[Result], state
         if local_day(datetime.fromisoformat(old.observed_at)) != day:
             continue
         snapshot = state["snapshots"].get(f"{old.domain}/{old.page}/podstawowy", {})
+        if snapshot and captured_challenge(Snapshot.from_dict(snapshot)):
+            continue
         if old.offer.get("field_key") in configured[old.domain].unreliable_price_keys:
             continue
         folder = Path(day) / slug(old.domain) / old.page / "podstawowy"
@@ -328,6 +330,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         state[group] = {key: value for key, value in state[group].items() if not key.startswith(site.domain + "/projekt/")}
                     selection = None
                 project = None
+                discovery_error = None
                 if site.project_url:
                     if selection and selection["url"] != site.project_url and page_identity(selection["url"]) == page_identity(site.project_url):
                         metadata.setdefault("source_address_updates", []).append({"domain": site.domain, "before": selection["url"], "after": site.project_url})
@@ -336,7 +339,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         raise ValueError("Konfiguracja zmienia zapamiętany projekt. Wymagana jawna migracja punktu odniesienia.")
                     selection = selection or {"url": site.project_url, "name": site.project_name or site.project_url, "basis": site.selection.get("basis", "Jawny wybór w konfiguracji"), "source": site.selection.get("source", site.home_url), "selected_at": now_iso()}
                 if not selection and home:
-                    selection, project, selection_warnings = await scanner.discover_project(site, home, work)
+                    try:
+                        selection, project, selection_warnings = await scanner.discover_project(site, home, work)
+                    except TransientFetchError as exc:
+                        discovery_error = 'Wybór karty wstrzymany: ' + str(exc)
+                        selection_warnings = [discovery_error]
                     if selection_warnings:
                         results.append(Result(site.domain, "projekt", "wybor", "partial", site.home_url, warnings=selection_warnings))
                 if selection:
@@ -354,7 +361,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         results.append(Result(site.domain, "projekt", "podstawowy", "error", selection["url"], error=str(exc).splitlines()[0][:600], before_offer=primary_offer(previous, site.unreliable_price_keys), compared_at=previous.observed_at if previous else None))
                         project = None
                 else:
-                    results.append(Result(site.domain, "projekt", "podstawowy", "unavailable", site.home_url, error="Nie ustalono karty projektu. Nie zastąpiono jej losowym adresem."))
+                    results.append(Result(site.domain, "projekt", "podstawowy", "unavailable", site.home_url, error=discovery_error or "Nie ustalono karty projektu. Nie zastąpiono jej losowym adresem."))
                 pending[site.domain] = (site, home, project, selection, work)
                 if site.inspection != "verified":
                     results.append(Result(site.domain, "zakres", "inspekcja-adaptera", "partial", site.home_url, warnings=["Adapter nie ma potwierdzonej inspekcji tej domeny. Automatyczny odczyt nie oznacza pełnego pokrycia wszystkich interakcji."]))

@@ -153,8 +153,11 @@ class StateStore:
 
     @staticmethod
     def previous(data: dict, key: str) -> Snapshot | None:
+        from .quality import captured_challenge
+
         value = data["anchor"].get(key)
-        return Snapshot.from_dict(value) if value else None
+        snapshot = Snapshot.from_dict(value) if value else None
+        return snapshot if snapshot and not captured_challenge(snapshot) else None
 
     @staticmethod
     def previous_communication(data: dict, key: str) -> Snapshot | None:

@@ -1070,7 +1070,8 @@
       "selection": {
         "source": "https://www.fortecaklimatyczna.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
-      }
+      },
+      "request_interval_seconds": 30
     },
     {
       "domain": "galeriadomow.pl",

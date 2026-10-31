@@ -30,6 +30,7 @@ from .model import (
 from .observations import visual_description
 from .offers import primary_offer
 from .pipeline import preserve_same_day_reads
+from .quality import captured_challenge
 from .report import bundle_report, restore_report, verify_outputs, write_outputs
 from .state import StateStore
 
@@ -150,7 +151,7 @@ def recover_from_snapshots(results: list[Result], store: StateStore, output: Pat
         if not raw:
             continue
         snapshot = Snapshot.from_dict(raw)
-        if snapshot.quality != "ok" or local_day(datetime.fromisoformat(snapshot.observed_at)) != day:
+        if snapshot.quality != "ok" or captured_challenge(snapshot) or local_day(datetime.fromisoformat(snapshot.observed_at)) != day:
             continue
         snapshot.fields = {key: field for key, field in snapshot.fields.items() if (field.observed_at or snapshot.observed_at) == snapshot.observed_at}
         excluded = configured[snapshot.domain].unreliable_price_keys

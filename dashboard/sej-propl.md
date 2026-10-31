@@ -50,13 +50,13 @@ Strony porównania: **1** · [2](sej-propl-2.md)
 | Zmiany wyglądu · Układ · Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>319 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Układ · Inspiracje i wiedza | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>319 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-36-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-dowod-36-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 30.10.2026 09:08 | Po · 31.10.2026 08:36 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-dowod-36-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-dowod-36-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -111,7 +111,7 @@ Porównanie: 30.10.2026 09:08 → 31.10.2026 08:36 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md)
 

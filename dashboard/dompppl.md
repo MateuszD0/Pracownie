@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompp.pl/)
 
-**Odczyty:** brak odczytu → 31.10.2026 09:35 (czas polski).
+**Odczyty:** brak odczytu → 31.10.2026 10:28 (czas polski).
 
-**Niepełny zakres porównania**
+**Zapisano tekst do porównań · grafika ograniczona (czcionki)**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://dompp.pl/projekty-domow/house-x21/)
 
-**Odczyty:** brak odczytu → 31.10.2026 09:35 (czas polski).
+**Odczyty:** brak odczytu → 31.10.2026 10:28 (czas polski).
 
-**Niepełny zakres porównania**
+**Zapisano tekst do porównań · grafika ograniczona (czcionki)**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t083515.509385-0000-fef43d24-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t092816.280522-0000-2bfe127e-porownanie.html)
 

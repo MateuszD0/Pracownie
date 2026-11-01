@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,21 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 31.10.2026 09:25 → 01.11.2026 10:43 (czas polski).
+**Odczyty:** 31.10.2026 09:25 → 01.11.2026 10:52 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-01%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → Kompletna dokumentacja, którą Państwo zamawiacie składa się z czterech egzemplarzy projektu pełnobranżowego, w skład którego wchodzi:
-- brak → – część konstrukcyjna z wynikami obliczeń statyczno-wytrzymałościowych, z rzutami fundamentów, stropów oraz opisem;
-- brak → – część instalacyjna tj. instalacje wewnętrzne: elektryczne, gazowe, c.o. oraz wodno-kanalizacyjne.
+- brak → przesunąć lub zlikwidować ściany działowe;
+- brak → wymiary fundamentów wynikające z dostosowania obiektu do warunków gruntowych;
+- brak → instalacje wodno-kanalizacyjną, gazową, CO, elektryczną – przy zachowaniu obowiązujących norm;
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +40,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 31.10.2026 09:25 → brak odczytu (czas polski).
+**Odczyty:** 31.10.2026 09:25 → 01.11.2026 10:53 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-01%2Fhbstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2Fprojekt%2Fgroszek-dach-dwuspadowy%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t095238.491436-0000-5f2ca384-porownanie.html)
 

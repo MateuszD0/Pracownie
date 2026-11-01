@@ -46,5 +46,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-porownanie.html)
 

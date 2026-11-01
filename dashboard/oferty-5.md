@@ -25,7 +25,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domenadom.pl | PROMOCJA -300 zł | Obecna w zapisie · 01.11.2026 10:12 · 01.11.2026 10:12<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domenadom.pl | Kosztorys | Obecna w zapisie · 01.11.2026 10:12<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domenadom.pl | Szczegóły Opis Kosztorys Technologie Pliki do pobrania Dodatki | Obecna w zapisie · 01.11.2026 10:12<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domideaprojekt.pl | W cenie projektu: | Obecna w zapisie · 31.10.2026 08:32<br>[Źródło](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
+| domideaprojekt.pl | W cenie projektu: | Obecna w zapisie · 01.11.2026 10:43<br>[Źródło](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
 | dominanta.pl | projekty w promocji | Obecna w zapisie · 01.11.2026 10:12<br>[Źródło](https://www.dominanta.pl/) |
 | dominanta.pl | BEZPŁATNY KATALOG ! | Obecna w zapisie · 01.11.2026 10:12<br>[Źródło](https://www.dominanta.pl/) |
 | dominanta.pl | TO JEST GRATIS! | Obecna w zapisie · 01.11.2026 10:12 · 01.11.2026 10:13<br>[Źródło](https://www.dominanta.pl/) · [Źródło](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |

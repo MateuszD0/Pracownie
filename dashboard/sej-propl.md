@@ -49,13 +49,13 @@ Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md) · [4](s
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>441 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 | Zmiany wyglądu · Położenie i rozmiar: Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026 (123 px w lewo, 263 px w górę) | <strong>186</strong> × 57 px; położenie: <strong>824</strong> px od lewej, <strong>4018</strong> px od góry | <strong>173</strong> × 57 px; położenie: <strong>701</strong> px od lewej, <strong>3755</strong> px od góry | [Otwórz stronę](https://www.sej-pro.pl/#page) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-35-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-35-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 31.10.2026 08:36 | Po · 01.11.2026 10:17 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-35-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-35-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -88,13 +88,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 | --- | --- | --- | --- |
 | Warunki oferty · Warunki zakupu | <strong>http</strong>://schema.org/InStock | <strong>https</strong>://schema.org/InStock | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-6-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-6-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 31.10.2026 08:36 | Po · 01.11.2026 10:17 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-6-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -114,7 +114,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-porownanie.html)
 
 Strony porównania: **1** · [2](sej-propl-2.md) · [3](sej-propl-3.md) · [4](sej-propl-4.md)
 

@@ -56,7 +56,7 @@ Strony porównania: [1](opusdompl.md) · **2**
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Salma</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-73f75e80467605d9) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Mona</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-73f75e80467605d9) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2**
 

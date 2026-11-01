@@ -24,13 +24,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | PROJEKTUJEMY MIEJSCA DO <strong>ŻYCI</strong>\| | PROJEKTUJEMY MIEJSCA DO <strong>R</strong>\| | [Otwórz stronę](https://kowalscypracownia.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-28-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-28-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 31.10.2026 08:34 | Po · 01.11.2026 10:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-28-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-28-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -67,13 +67,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 | Zmiany wyglądu · Układ · dom parterowy z dachem dwuspadowym KP-101 LUSTRO 2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>585 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
 | Zmiany wyglądu · Układ · dom parterowy z dachem dwuspadowym KP-101 LUSTRO 6 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>585 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 31.10.2026 08:34 | Po · 01.11.2026 10:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -92,5 +92,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t094310.206141-0000-64fb0b57-porownanie.html)
 

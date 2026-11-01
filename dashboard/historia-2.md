@@ -18,8 +18,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl · 2026-11-01 | „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-01 | „Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-01 | „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,9 m, główne połacie dachu mają nachylenie 37 stopni.…” → „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,95 m, główne połacie dachu mają nachylenie 37 stopni.…”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |

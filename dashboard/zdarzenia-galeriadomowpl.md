@@ -6,15 +6,15 @@
 
 [galeriadomow.pl — wszystkie odczyty](galeriadomowpl.md)
 
-## Zdarzenie 648366bbaf7a1f08
+## Zdarzenie bca0242ce2cb1d6e
 
-**„wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”.**
+**„wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Warunki oferty · Opis i argumenty oferty | wysyłka <strong>już</strong> <strong>dzisiaj</strong> koszty dostawy: 0,00 zł | wysyłka <strong>w</strong> <strong>dniu 2 listopada 2026</strong> koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
+| Warunki oferty · Opis i argumenty oferty | wysyłka <strong>w</strong> <strong>dniu 2 listopada 2026</strong> koszty dostawy: 0,00 zł | wysyłka <strong>już</strong> <strong>jutro</strong> koszty dostawy: 0,00 zł | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa) |
 
 [Karta projektu](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html#dostawa)
 
@@ -22,15 +22,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 30.10.2026 09:05 | Po · 31.10.2026 08:33 |
+| Przed · 31.10.2026 08:33 | Po · 01.11.2026 10:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t100644.264445-0000-e99d11cd-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t100644.264445-0000-e99d11cd-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-5-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F648366bbaf7a1f08%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+dzisiaj+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F648366bbaf7a1f08%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+dzisiaj+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F648366bbaf7a1f08%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+dzisiaj+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fbca0242ce2cb1d6e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+jutro+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fbca0242ce2cb1d6e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+jutro+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fbca0242ce2cb1d6e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+galeriadomow.pl%0AZdarzenie%3A+%E2%80%9Ewysy%C5%82ka+w+dniu+2+listopada+2026+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9Ewysy%C5%82ka+ju%C5%BC+jutro+koszty+dostawy%3A+0%2C00+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.galeriadomow.pl%2Fprojekty-domow%2Fprojekt-dom-przy-bukowej-14.html%23dostawa%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

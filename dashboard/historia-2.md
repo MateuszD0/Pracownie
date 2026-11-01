@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCI\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-10-31 | „Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 C2NOWOŚĆ”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-10-31 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-31 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-31 | „D439 WT2021 wersja drewniana” → „D57AD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D444 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| architeka.pl · 2026-10-31 | „Najniższa cena z 30 dni:” → „Najniższa cena z 30 dni: \[wc\_price\_history\]”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-30 | „Budowa domu murowanego 80 m2 we Wrocławiu – poszukiwana firma budowlana” → „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
-| tipitom.space · 2026-10-30 | „"Times New Roman"” → „Montserrat, sans-serif”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-30 | „Wszystkie projekty (71) →” → „Wszystkie projekty (74) →”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO ŻYCI\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kbprojekt.pl · 2026-11-01 | „Tak niską cenę gwarantujemy do 31 października 2026” → „Tak niską cenę gwarantujemy do 10 listopada 2026”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-01 | „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,9 m, główne połacie dachu mają nachylenie 37 stopni.…” → „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,95 m, główne połacie dachu mają nachylenie 37 stopni.…”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| dom-projekt.pl · 2026-11-01 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 27.10.2026 roku do dnia 29.10.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D340 wersja drewniana Wt2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | „D57AD WT2021 wersja drewniana” → „D332 WT2021 wersja drewniana”. | Zaobserwowana zmiana |

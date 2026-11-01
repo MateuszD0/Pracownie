@@ -6,31 +6,31 @@
 
 [kbprojekt.pl — wszystkie odczyty](kbprojektpl.md)
 
-## Zdarzenie 984e323f2a1d8f75
+## Zdarzenie 56c5a92e201ecef3
 
-**„Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”.**
+**„Tak niską cenę gwarantujemy do 31 października 2026” → „Tak niską cenę gwarantujemy do 10 listopada 2026”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Sklep internetowy Shoper<strong>.pl</strong> | Sklep internetowy Shoper<strong> Premium</strong> | [Otwórz stronę](https://www.kbprojekt.pl/) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | Tak niską cenę gwarantujemy do <strong>31</strong> <strong>października</strong> 2026 | Tak niską cenę gwarantujemy do <strong>10</strong> <strong>listopada</strong> 2026 | [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main) |
 
-[Strona główna](https://www.kbprojekt.pl/) · [Karta projektu](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912)
+[Karta projektu](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main)
 
-Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 30.10.2026 09:06 | Po · 31.10.2026 08:33 |
+| Przed · 31.10.2026 08:34 | Po · 01.11.2026 10:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t100644.264445-0000-e99d11cd-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-31/2026-10-31-2026-10-31t100644.264445-0000-e99d11cd-dowod-12-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t091117.262609-0000-e5b26b47-dowod-27-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F984e323f2a1d8f75%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ESklep+internetowy+Shoper.pl%E2%80%9D+%E2%86%92+%E2%80%9ESklep+internetowy+Shoper+Premium%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F984e323f2a1d8f75%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ESklep+internetowy+Shoper.pl%E2%80%9D+%E2%86%92+%E2%80%9ESklep+internetowy+Shoper+Premium%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-10-31%2F984e323f2a1d8f75%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ESklep+internetowy+Shoper.pl%E2%80%9D+%E2%86%92+%E2%80%9ESklep+internetowy+Shoper+Premium%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F56c5a92e201ecef3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+31+pa%C5%BAdziernika+2026%E2%80%9D+%E2%86%92+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+10+listopada+2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F56c5a92e201ecef3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+31+pa%C5%BAdziernika+2026%E2%80%9D+%E2%86%92+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+10+listopada+2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F56c5a92e201ecef3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+31+pa%C5%BAdziernika+2026%E2%80%9D+%E2%86%92+%E2%80%9ETak+nisk%C4%85+cen%C4%99+gwarantujemy+do+10+listopada+2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

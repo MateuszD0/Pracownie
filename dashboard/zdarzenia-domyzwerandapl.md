@@ -6,67 +6,143 @@
 
 [domyzweranda.pl — wszystkie odczyty](domyzwerandapl.md)
 
-## Zdarzenie 6f78353c373e84d0
+## Zdarzenie 502b2920b4aedb95
 
-**„Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”.**
+**Pojawił się komunikat: „Relacja oparta na zaufaniu”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek · Karta projektu · Zawartość projektu | Uroczy Komfort <strong>130</strong> | Uroczy Komfort <strong>125 m² z garażem</strong> | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Relacja oparta na zaufaniu</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
 
-[Karta projektu](https://domyzweranda.pl/projekty/uroczy-klasyczny-82)
+[Strona główna](https://domyzweranda.pl/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 31.10.2026 08:41 | Po · 01.11.2026 10:23 |
+| Przed · 01.11.2026 10:13 | Po · 02.11.2026 09:18 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t102214.568963-0000-628ed49a-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-01/2026-11-01-2026-11-01t102214.568963-0000-628ed49a-dowod-13-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6f78353c373e84d0%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EUroczy+Komfort+130%E2%80%9D+%E2%86%92+%E2%80%9EUroczy+Komfort+125+m%C2%B2+z+gara%C5%BCem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6f78353c373e84d0%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EUroczy+Komfort+130%E2%80%9D+%E2%86%92+%E2%80%9EUroczy+Komfort+125+m%C2%B2+z+gara%C5%BCem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6f78353c373e84d0%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EUroczy+Komfort+130%E2%80%9D+%E2%86%92+%E2%80%9EUroczy+Komfort+125+m%C2%B2+z+gara%C5%BCem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F502b2920b4aedb95%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ERelacja+oparta+na+zaufaniu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F502b2920b4aedb95%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ERelacja+oparta+na+zaufaniu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F502b2920b4aedb95%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ERelacja+oparta+na+zaufaniu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 6e344ea5a998bef5
+## Zdarzenie 7aea4f4a69cb917f
 
-**„Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”.**
+**Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty · Karta projektu · Pytania / Jak wysoki jest ten dom? | Minimalna działka pod ten dom to 20,4 m szerokości i <strong>21</strong>,<strong>9</strong> m głębokości. Sama bryła ma 12,39 x 9 m, reszta to wymagane odległości od granic działki. Powierzchnia zabudowy wynosi 100,8 m². Ostateczne wymagania wynikają z p… | Minimalna działka pod ten dom to 20,4 m szerokości i <strong>17</strong>,<strong>8</strong> m głębokości. Sama bryła ma 12,39 x 9 m, reszta to wymagane odległości od granic działki. Powierzchnia zabudowy wynosi 100,8 m². Ostateczne wymagania wynikają z p… | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82#panel-pytania) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Kompletna dokumentacja bez kompromisów</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
 
-[Karta projektu](https://domyzweranda.pl/projekty/uroczy-klasyczny-82#panel-pytania)
+[Strona główna](https://domyzweranda.pl/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6e344ea5a998bef5%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+21%2C9+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+17%2C8+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6e344ea5a998bef5%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+21%2C9+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+17%2C8+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2F6e344ea5a998bef5%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+21%2C9+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EMinimalna+dzia%C5%82ka+pod+ten+dom+to+20%2C4+m+szeroko%C5%9Bci+i+17%2C8+m+g%C5%82%C4%99boko%C5%9Bci.+Sama+bry%C5%82a+ma+12%2C39+x+9+m%2C+reszta+to%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 01.11.2026 10:13 | Po · 02.11.2026 09:18 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F7aea4f4a69cb917f%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EKompletna+dokumentacja+bez+kompromis%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F7aea4f4a69cb917f%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EKompletna+dokumentacja+bez+kompromis%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F7aea4f4a69cb917f%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EKompletna+dokumentacja+bez+kompromis%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie d9b192da42441d17
+## Zdarzenie 9e70ab6c603db2eb
 
-**„Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,9 m, główne połacie dachu mają nachylenie 37 stopni.…” → „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,95 m, główne połacie dachu mają nachylenie 37 stopni.…”.**
+**Pojawił się komunikat: „Profesjonalizm na każdym kroku”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty · Karta projektu · Pytania / Jak wysoki jest ten dom? | …ysokość w kalenicy to 6,85 m, okap jest na wysokości 2,<strong>9</strong> m, główne połacie dachu mają nachylenie 37 stopni. W środku, na parterze, wysokość w świetle wynosi 2,7 m. Warto porównać te liczby z limitem wysokości w planie mi… | …ysokość w kalenicy to 6,85 m, okap jest na wysokości 2,<strong>95</strong> m, główne połacie dachu mają nachylenie 37 stopni. W środku, na parterze, wysokość w świetle wynosi 2,7 m. Warto porównać te liczby z limitem wysokości w planie m… | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82#panel-pytania) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Profesjonalizm na każdym kroku</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
 
-[Karta projektu](https://domyzweranda.pl/projekty/uroczy-klasyczny-82#panel-pytania)
+[Strona główna](https://domyzweranda.pl/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fd9b192da42441d17%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C9+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C95+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fd9b192da42441d17%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C9+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C95+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-01%2Fd9b192da42441d17%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C9+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D+%E2%86%92+%E2%80%9EWysoko%C5%9B%C4%87+w+kalenicy+to+6%2C85+m%2C+okap+jest+na+wysoko%C5%9Bci+2%2C95+m%2C+g%C5%82%C3%B3wne+po%C5%82acie+dachu+maj%C4%85+nachylenie+37+stopni.%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2Fprojekty%2Furoczy-klasyczny-82%23panel-pytania%0A%0AOpcjonalny+komentarz%3A)
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 01.11.2026 10:13 | Po · 02.11.2026 09:18 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F9e70ab6c603db2eb%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProfesjonalizm+na+ka%C5%BCdym+kroku%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F9e70ab6c603db2eb%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProfesjonalizm+na+ka%C5%BCdym+kroku%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2F9e70ab6c603db2eb%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProfesjonalizm+na+ka%C5%BCdym+kroku%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie be9d59160732258b
+
+**Pojawił się komunikat: „Weranda to strzał w dziesiątkę”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Weranda to strzał w dziesiątkę</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+
+[Strona główna](https://domyzweranda.pl/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 01.11.2026 10:13 | Po · 02.11.2026 09:18 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fbe9d59160732258b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EWeranda+to+strza%C5%82+w+dziesi%C4%85tk%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fbe9d59160732258b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EWeranda+to+strza%C5%82+w+dziesi%C4%85tk%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fbe9d59160732258b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EWeranda+to+strza%C5%82+w+dziesi%C4%85tk%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie e3ed66e412556224
+
+**Pojawił się komunikat: „Spełnienie marzeń o własnym domu”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Spełnienie marzeń o własnym domu</strong> | [Otwórz stronę](https://domyzweranda.pl/) |
+
+[Strona główna](https://domyzweranda.pl/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 01.11.2026 10:13 | Po · 02.11.2026 09:18 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-3-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fe3ed66e412556224%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESpe%C5%82nienie+marze%C5%84+o+w%C5%82asnym+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fe3ed66e412556224%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESpe%C5%82nienie+marze%C5%84+o+w%C5%82asnym+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-02%2Fe3ed66e412556224%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domyzweranda.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESpe%C5%82nienie+marze%C5%84+o+w%C5%82asnym+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomyzweranda.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

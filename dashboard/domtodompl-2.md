@@ -38,7 +38,7 @@ Strony porównania: [1](domtodompl.md) · **2**
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t093743.727641-0000-6ba47b8c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t105332.143221-0000-2c72d095-porownanie.html)
 
 Strony porównania: [1](domtodompl.md) · **2**
 

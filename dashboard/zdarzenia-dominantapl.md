@@ -24,7 +24,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 01.11.2026 10:12 | Po · 02.11.2026 09:18 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-9-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-9-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

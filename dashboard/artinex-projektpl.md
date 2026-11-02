@@ -29,13 +29,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>DM4 wersja drewniana</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>DM10B wersja drewniana</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-8-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-8-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 01.11.2026 10:12 | Po · 02.11.2026 09:17 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-8-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-8-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -51,5 +51,5 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-porownanie.html)
 

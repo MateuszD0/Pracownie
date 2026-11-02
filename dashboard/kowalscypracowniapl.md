@@ -24,13 +24,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | PROJEKTUJEMY MIEJSCA DO <strong>R</strong>\| | PROJEKTUJEMY MIEJSCA DO <strong>ŻYCIA</strong>\| | [Otwórz stronę](https://kowalscypracownia.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 01.11.2026 10:14 | Po · 02.11.2026 09:19 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -56,7 +56,7 @@ Porównanie: 01.11.2026 10:14 → 02.11.2026 09:19 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://kowalscypracownia.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-22-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-22-po.jpg)
 
 ## Karta projektu
 
@@ -76,13 +76,13 @@ Porównanie: 01.11.2026 10:14 → 02.11.2026 09:19 (czas polski). Różnica zrzu
 | Zmiany wyglądu · Układ · dom parterowy z dachem dwuspadowym KP-101 LUSTRO 6 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>585 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
 | Zmiany wyglądu · Układ · dom parterowy z dachem dwuspadowym KP-101 LUSTRO 1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>585 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-18-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-18-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 01.11.2026 10:14 | Po · 02.11.2026 09:19 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-dowod-18-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-dowod-18-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -102,5 +102,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t081639.896373-0000-d6241055-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-porownanie.html)
 

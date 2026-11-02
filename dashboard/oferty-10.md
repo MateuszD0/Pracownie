@@ -31,5 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl | więcej o dodatkach » | Obecna w zapisie · 02.11.2026 09:19<br>[Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | gutarchitektura.pl | KOSZTORYS (KOSZTORYS AKTUALNY NA 9.04.2024) | Obecna w zapisie · 02.11.2026 09:19<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
 | gutarchitektura.pl | Zamów kosztorys - cena 600 zł | Obecna w zapisie · 02.11.2026 09:19<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
-| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 01.11.2026 10:53<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
+| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 02.11.2026 10:27<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 02.11.2026 09:19<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |

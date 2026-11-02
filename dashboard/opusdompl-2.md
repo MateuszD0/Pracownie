@@ -57,7 +57,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Lars</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-453c2b812b2e386f) |
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Syntia wersja C</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-453c2b812b2e386f) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t092642.470938-0000-f33596b4-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t093743.727641-0000-6ba47b8c-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 

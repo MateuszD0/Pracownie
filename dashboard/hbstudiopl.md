@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 02.11.2026 10:27 → 03.11.2026 11:01 (czas polski).
+**Odczyty:** 02.11.2026 10:27 → 03.11.2026 11:12 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
 
@@ -28,9 +28,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
+- – część architektoniczna wraz z rysunkami elewacji, rzutami kondygnacji, rzutami dachu i więźby dachowej, przekrojami, zestawieniem stolark… → brak
 - – część instalacyjna tj. instalacje wewnętrzne: elektryczne, gazowe, c.o. oraz wodno-kanalizacyjne. → brak
-- brak → Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1…
-- Do każdej dokumentacji dołączamy uprawnienia wszystkich projektantów i ich aktualne wpisy do izb branżowych. → brak
+- brak → Istnieje możliwość jednokrotnej wymiany projektu zakupionego w Pracowni Projektowej HB Studio na inny z jej oferty, przy czym wymianę należ…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +40,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 02.11.2026 10:27 → brak odczytu (czas polski).
+**Odczyty:** 02.11.2026 10:27 → 03.11.2026 11:12 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fhbstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2Fprojekt%2Fgroszek-dach-dwuspadowy%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
 

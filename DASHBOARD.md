@@ -4,15 +4,15 @@
 
 **2026-11-02 → 2026-11-03** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 95/112 pracowni.** · **17 wymaga uwagi.**
+**Porównano obie strony: 96/112 pracowni.** · **16 wymaga uwagi.**
 
 <!-- delivery:2026-11-03 -->Pierwsza publikacja: 10:59 — po terminie 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 205/224 stron (w tym częściowe: 16). Bez odczytu: 19. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 16). Bez odczytu: 18. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 03.11.2026 10:30 – 03.11.2026 11:02, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 03.11.2026 10:30 – 03.11.2026 11:12, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/647 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
@@ -106,9 +106,9 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 
 ## Braki porównania
 
-**17 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**16 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
-### Problemy wymagające naprawy · 31 stron
+### Problemy wymagające naprawy · 30 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
@@ -125,7 +125,7 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [domyzmieta.pl](dashboard/domyzmietapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 
-[Dalsze strony 13–31](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–30](dashboard/odczyty-repair-2.md)
 
 
 
@@ -158,7 +158,7 @@ Te pracownie nie mają stron WWW; są w wykazie partnerów i nie są skanowane.
 
 </details>
 
-Komunikaty ofert w ostatnim odczycie (659): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md) · [27](dashboard/oferty-27.md)
+Komunikaty ofert w ostatnim odczycie (658): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md) · [27](dashboard/oferty-27.md)
 
 Historia zdarzeń (647): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md) · [4](dashboard/historia-4.md) · [5](dashboard/historia-5.md) · [6](dashboard/historia-6.md) · [7](dashboard/historia-7.md) · [8](dashboard/historia-8.md) · [9](dashboard/historia-9.md) · [10](dashboard/historia-10.md) · [11](dashboard/historia-11.md) · [12](dashboard/historia-12.md) · [13](dashboard/historia-13.md) · [14](dashboard/historia-14.md) · [15](dashboard/historia-15.md) · [16](dashboard/historia-16.md) · [17](dashboard/historia-17.md) · [18](dashboard/historia-18.md) · [19](dashboard/historia-19.md) · [20](dashboard/historia-20.md) · [21](dashboard/historia-21.md) · [22](dashboard/historia-22.md) · [23](dashboard/historia-23.md) · [24](dashboard/historia-24.md) · [25](dashboard/historia-25.md) · [26](dashboard/historia-26.md)
 
@@ -200,12 +200,13 @@ Historia zdarzeń (647): [1](dashboard/historia-1.md) · [2](dashboard/historia-
 <details><summary>Wcześniejsze wydania tego dnia</summary>
 
 - [03.11.2026 10:58](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+- [03.11.2026 11:07](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 
 </details>
 
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 98/112; stałe karty: 95/112; łącznie 193/224 stron z porównaniem.
+Strony główne: 98/112; stałe karty: 96/112; łącznie 194/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -224,7 +225,7 @@ różnice obrazu bez jednoznacznego opisu: **17 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-2-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-2-po.jpg) |
 | [archand.pl](dashboard/archandpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [archi-projekt.com.pl](dashboard/archi-projektcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -243,7 +244,7 @@ różnice obrazu bez jednoznacznego opisu: **17 pracowni**.
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-13-po.jpg) |
+| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-13-po.jpg) |
 | [teaprojekt.pl](dashboard/teaprojektpl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
@@ -354,7 +355,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [klimatdrewna.pl](dashboard/klimatdrewnapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [kreodom.pl](dashboard/kreodompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |

@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.fortecaklimatyczna.pl/)
 
-**Odczyty:** 02.11.2026 11:53 → 03.11.2026 11:01 (czas polski).
+**Odczyty:** 02.11.2026 11:53 → 03.11.2026 11:12 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Ffortecaklimatyczna.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.fortecaklimatyczna.pl%2F%0A%0AOpis%3A)
 
@@ -26,7 +26,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 02.11.2026 11:53 → 03.11.2026 11:01 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 02.11.2026 11:53 → 03.11.2026 11:12 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://www.fortecaklimatyczna.pl/)
 
@@ -42,5 +42,5 @@ Adres karty zostanie podany po poprawnym wyborze projektu.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
 

@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl | Pakiet jest skierowany również do inwestorów planujących budowę systemem gospodarczym. W takim modelu część prac można organizować samodzielnie, zlecając poszczególne etapy wybranym wykonawcom, a część – w zależności od wiedzy, doświadczenia i wymagań prawnych – wykonywać we własnym zakresie. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Jak wygląda dostawa Pakietu PRO? | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Jeżeli planujesz budowę domu 70 m² i chcesz porównać wariant murowany ze szkieletowym, Pakiet PRO pozwala zebrać projekty, instrukcje i dodatkowe materiały w jednym miejscu. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Projekt domu 70 m² bez pozwolenia – kompletny Pakiet PRO · https://www.zbudujsamdom.pl/wp-content/uploads/2026/09/projekt-domu-70m2-bez-pozwolenia-pakiet-pro.webp | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |

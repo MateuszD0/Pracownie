@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl | domy tanie w budowie \| domy parterowe \| domy dla rodziny 2+2 \| domy szkieletowe \| promocje \| domy od 70 m² do 100 m² \| najlepsze parterówki \| projekty domów parterowych bez garażu \| projekty domów parterowych z dachem dwuspadowym \| najlepsze małe domy parterowe \| projekty domów do 120 m² | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
 | studiokrajobrazy.pl | bezpłatna dostawa projektu | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/) |
 | studiokrajobrazy.pl | z kosztorysem | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/) |
 | studiokrajobrazy.pl | dostawa kurier 48h - GRATIS! | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | uarchitekta.pl | PROJEKT DOMU Z KOSZTORYSEM – CO ZAWIERA I JAK KONTROLOWAĆ BUDŻET? | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.uarchitekta.pl/) |
 | uarchitekta.pl | Kosztorys do projektu pomaga porównywać rozwiązania i planować finansowanie, ale nie jest gwarancją ostatecznej ceny budowy. Zobacz, jak czytać jego zakres, kiedy go aktualizować i jak wykorzyst | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.uarchitekta.pl/) |
 | uarchitekta.pl | Możliwość dokupienia dodatków i wprowadzenia zmian w projekcie, by dopasować go do swoich potrzeb, | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.uarchitekta.pl/) |
+| uarchitekta.pl | Wybudowanie swojego wymarzonego domu może być dużym wydatkiem. Gdy liczą się jak najniższe koszty, zapraszamy do sprawdzenia projektów domów tanich w budowie. Na koszty wybudowania domu jednorodzinnego wpływa wiele czynników, między innymi metraż budynku, technologia budowy, wykorzystane materiały, liczba jego kondygnacji, rodzaj konstrukcji dachu, zastosowane instalacje. Aby obniżyć koszty reali… | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.uarchitekta.pl/) |

@@ -16,8 +16,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl | więcej o dodatkach » | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | gutarchitektura.pl | KOSZTORYS (KOSZTORYS AKTUALNY NA 9.04.2024) | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
 | gutarchitektura.pl | Zamów kosztorys - cena 600 zł | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
-| hbstudio.pl | Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamówienia który znajduje się na naszej stronie internetowej. Przy zamawianiu projektu prosimy Państwa o podanie: imienia i nazwiska (bądź nazwy firmy; ulicy, numeru domu, kodu pocztow… | Obecna w zapisie · 03.11.2026 11:01<br>[Źródło](https://hbstudio.pl/) |
-| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 02.11.2026 10:27<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
+| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 03.11.2026 11:12<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 03.11.2026 10:32<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) · [Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) · [Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | 16 marca rozpoczęła się promocja na metalowe domki i skrzynie ogrodowe JUNO firmy Hörmann. W ramach akcji klienci mogą skorzystać z atrakcyjnych rabatów – 1000 zł brutto przy zakupie domku oraz 200 zł brutto przy zakupie skrzyni. | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Rozwiązania do domu w promocji Hörmann | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) · [Źródło](https://lipinscy.pl/) |

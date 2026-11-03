@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pollio.pl | Standardy realizacji i pakiety budowy | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Kierownik budowy i dziennik budowy w cenie | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego — nasi architekci i inżynierowie bezpłatnie uwzględnią Twoje wytyczne w projekcie i kosztorysie. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Szczegółowy kosztorys inwestorski jest wiążący przez cały okres realizacji, chroniąc Cię przed inflacją i wzrostem cen materiałów. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pro-arte.pl | KOSZTORYS | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | Kosztorys orientacyjny brutto | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | GRATIS | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |

@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/)
 
-**Odczyty:** 02.11.2026 10:38 → 03.11.2026 11:02 (czas polski).
+**Odczyty:** 02.11.2026 10:38 → 03.11.2026 11:12 (czas polski).
 
 **Częściowe · 49 zgodnych tekstów**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/projekt-livia)
 
-**Odczyty:** 30.10.2026 09:07 → 03.11.2026 11:02 (czas polski).
+**Odczyty:** 30.10.2026 09:07 → 03.11.2026 11:12 (czas polski).
 
 **Luka 4 dni · brak porównania z wczoraj**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
 

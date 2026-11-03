@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet energooszczędny | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | modernhouse-projekty.pl | Do każdego zamówienia dołączamy komplet praktycznych dodatków, które ułatwią Ci start budowy: elegancką teczkę na dokumentację, profesjonalną tablicę informacyjną wymaganą na placu budowy oraz darmową dostawę kurierem InPost na terenie całej Polski. | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kupując projekt w Modern House – otrzymujesz bezpłatny dostęp do wiedzy i doświadczenia jego autora. Masz pytania, wątpliwości lub potrzebujesz wsparcia? Skontaktuj się bezpośrednio z projektantem. Służymy pomocą zarówno przed zakupem, jak i podczas adaptacji, budowy czy ewentualnych zmian – jesteśmy z Tobą przez cały proces. | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Pakiet korzyści COMFORT | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Pakiet korzyści BENEFIT | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Pakiet korzyści PRESTIGE | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kosztorys projektu | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

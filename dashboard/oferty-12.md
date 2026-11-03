@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| lipinscy.pl | Rozwiązania do domu w promocji Hörmann | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) · [Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Promocja firmy Hörmann od miesięcy cieszy się zainteresowaniem inwestorów i właścicieli domów. Wszyscy, którzy nie zdążyli z niej skorzystać mają jeszcze szansę, ponieważ oferta została przedłużona do 26 lutego 2026 roku. W atrakcyjnych cenach można zamówić bramę garażową z napędem, drzwi zewnętrzne i wewnętrzne, a także domek oraz skrzynię ogrodową. | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział w promocji. | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38212\_articles\_mainSection.jpeg | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | gratis | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | PAKIET KOSZTORYS INWESTORSKI | Obecna w zapisie · 03.11.2026 10:33 · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) · [Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kominek z DGP 500 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej ? 600 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

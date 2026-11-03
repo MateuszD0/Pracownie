@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| modernhouse-projekty.pl | Kosztorys projektu | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Nowoczesny parterowy dom z biało - grafitową elewacją z dodatkami drewna Modern House NewHouse 761 · https://modernhouse-projekty.pl/wp-content/uploads/2024/10/21\_Gotowy\_proejkt\_domu\_z\_dachem\_wielospadowym\_garaz\_na\_dwa\_auta\_nowoczesna\_bryla\_NewHouse\_761\_Modern\_House-1920x960.webp | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl | W przypadku zamówień realizowanych na terenie Polski jest ona całkowicie bezpłatna dla naszych klientów. Gdy przesyłka ma być dostarczona za granicę, jej koszt jest indywidualnie ustalany z klientem w zależności od lokalizacji, do której wszystkie egzemplarze projektu mają zostać wysłane. | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.moj-dom-projekty.pl/) |
 | moj-dom-projekty.pl | PROMOCJE!!! Zadzwoń. Kupując projekt możesz otrzymać różne korzyści!!! Zobacz więcej | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.moj-dom-projekty.pl/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Kosztorys budowlany | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Budowa domu - bezpłatna wycena firmy Wolf Haus | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | BEZPŁATNA WYCENA | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |

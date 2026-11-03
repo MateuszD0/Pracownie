@@ -60,13 +60,13 @@ Strony porównania: **1** · [2](domydlanaspl-2.md)
 | Zmiany wyglądu · Układ · N53-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>281 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
 | Zmiany wyglądu · Układ · N22-G1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-40-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-40-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 02.11.2026 09:18 | Po · 03.11.2026 10:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-40-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-40-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-40-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-40-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -87,7 +87,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
 
 Strony porównania: **1** · [2](domydlanaspl-2.md)
 

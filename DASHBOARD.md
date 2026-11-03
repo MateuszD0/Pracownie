@@ -12,7 +12,7 @@ Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 16). Bez odczytu: 18. Por�
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 03.11.2026 10:30 – 03.11.2026 11:12, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 03.11.2026 10:30 – 03.11.2026 11:45, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/647 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
@@ -201,6 +201,7 @@ Historia zdarzeń (647): [1](dashboard/historia-1.md) · [2](dashboard/historia-
 
 - [03.11.2026 10:58](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
 - [03.11.2026 11:07](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
+- [03.11.2026 11:18](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
 
 </details>
 
@@ -225,7 +226,7 @@ różnice obrazu bez jednoznacznego opisu: **17 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-2-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-2-po.jpg) |
 | [archand.pl](dashboard/archandpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [archi-projekt.com.pl](dashboard/archi-projektcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -244,7 +245,7 @@ różnice obrazu bez jednoznacznego opisu: **17 pracowni**.
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-dowod-13-po.jpg) |
+| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-13-po.jpg) |
 | [teaprojekt.pl](dashboard/teaprojektpl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
@@ -312,7 +313,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Brak odczytu · Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony. | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md) · **PKA** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Częściowe · 43 zgodnych tekstów | Częściowe · 43 zgodnych tekstów |
+| [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Częściowe · 43 zgodnych tekstów | Częściowe · 41 zgodnych tekstów |
 | [ekoarchitekci.pl](dashboard/ekoarchitekcipl.md) · **KKE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [faberarchitektura.com](dashboard/faberarchitekturacom.md) · **LUC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md) · **LOB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |

@@ -34,7 +34,7 @@ Strony porównania: [1](domoweklimatypl.md) · **2**
 | Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord VII G2 136,51 m² – wizualizacja (27 px w lewo, 149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: <strong>955</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: <strong>928</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
 | Zmiany wyglądu · Układ · POMOC W WYBORZE PROJEKTU | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t101202.362771-0000-89b37904-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
 
 Strony porównania: [1](domoweklimatypl.md) · **2**
 

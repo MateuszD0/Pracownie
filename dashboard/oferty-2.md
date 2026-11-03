@@ -12,8 +12,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | alexanderstudio.pl | ZAMÓW PEŁNY KOSZTORYS - 549 ZŁ | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 | alexanderstudio.pl | Promocja od 2026-11-03, koniec za: | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 | alexanderstudio.pl | BEZPŁATNE POZWOLENIE NA ZMIANY | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
-| archand.pl | Sprawdź dodatki GRATIS | Obecna w zapisie · 03.11.2026 10:31<br>[Źródło](https://www.archand.pl/projekty/perfetto-3-modern/) |
-| archand.pl | Dostawa GRATIS | Obecna w zapisie · 03.11.2026 10:31<br>[Źródło](https://www.archand.pl/projekty/perfetto-3-modern/) |
+| archand.pl | Sprawdź dodatki GRATIS | Obecna w zapisie · 03.11.2026 11:02<br>[Źródło](https://www.archand.pl/projekty/perfetto-3-modern/) |
+| archand.pl | Dostawa GRATIS | Obecna w zapisie · 03.11.2026 11:02<br>[Źródło](https://www.archand.pl/projekty/perfetto-3-modern/) |
 | archdesign.pl | Jedna z ostatnich realizacji domu na indywidualne zamówienie w Piastowie. Nasza pracownia projektowa zaprojektowała dom piętrowy o prostej, ekonomicznej i funkcjonalnej bryle, bez zbędnych i kosztownych dodatków na elewacji , bez załamań ścian bryły głównej i stosując prostą bryłę dachu nad garażem i domem osiągnięto bardzo dobry efekt. W Piastowie posiadamy kilka realizacji podobnych domów piętr… | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](http://www.archdesign.pl/) |
 | archdom.pl | Bezpłatna dostawa | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](https://archdom.pl/) |
 | archdom.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 03.11.2026 10:30<br>[Źródło](https://archdom.pl/) |

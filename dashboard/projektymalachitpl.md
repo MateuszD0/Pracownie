@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.projektymalachit.pl/)
 
-**Odczyty:** brak odczytu → 03.11.2026 10:34 (czas polski).
+**Odczyty:** brak odczytu → 03.11.2026 11:02 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.projektymalachit.pl/domy-nowoczesne)
 
-**Odczyty:** brak odczytu → 03.11.2026 10:34 (czas polski).
+**Odczyty:** brak odczytu → 03.11.2026 11:02 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 

@@ -45,17 +45,17 @@ Porównanie: 02.11.2026 09:19 → 03.11.2026 10:33 (czas polski). Różnica zrzu
 | Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Zobacz koszyk</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#:~:text=Zobacz%20koszyk) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Zobacz koszyk</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-25-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-25-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 02.11.2026 09:28 | Po · 03.11.2026 10:44 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-25-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-25-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 

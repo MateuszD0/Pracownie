@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Położenie i rozmiar: 6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799 (77 px w lewo, 15 px w dół) | <strong>82</strong> × <strong>32</strong> px; położenie: <strong>717</strong> px od lewej, <strong>6213</strong> px od góry | <strong>159</strong> × <strong>56</strong> px; położenie: <strong>640</strong> px od lewej, <strong>6228</strong> px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
 | Zmiany wyglądu · Rozmiar: Ka288 | 816 × <strong>612</strong> px; położenie: <strong>85</strong> px od lewej, 141 px od góry | 816 × <strong>640</strong> px; położenie: <strong>901</strong> px od lewej, 141 px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-36-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-36-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 02.11.2026 09:20 | Po · 03.11.2026 10:34 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-36-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-36-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -73,5 +73,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 

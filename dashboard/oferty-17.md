@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| planujdom.pl | WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt; | Obecna w zapisie · 03.11.2026 10:34 · 03.11.2026 10:34<br>[Źródło](https://planujdom.pl/) · [Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! | Obecna w zapisie · 03.11.2026 10:34 · 03.11.2026 10:34<br>[Źródło](https://planujdom.pl/) · [Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | GRATIS | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Zamów bezpłatną wycenę budowy | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Przemyślany podział na strefę dzienną, sypialną oraz gospodarczą. Możliwość bezpłatnych modyfikacji ścian działowych. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Standardy realizacji i pakiety budowy | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |

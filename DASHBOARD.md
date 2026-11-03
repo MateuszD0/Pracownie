@@ -4,15 +4,15 @@
 
 **2026-11-02 → 2026-11-03** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 94/112 pracowni.** · **18 wymaga uwagi.**
+**Porównano obie strony: 95/112 pracowni.** · **17 wymaga uwagi.**
 
 <!-- delivery:2026-11-03 -->Pierwsza publikacja: 10:59 — po terminie 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 204/224 stron (w tym częściowe: 16). Bez odczytu: 20. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 205/224 stron (w tym częściowe: 16). Bez odczytu: 19. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 03.11.2026 10:30 – 03.11.2026 10:35, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 03.11.2026 10:30 – 03.11.2026 11:02, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/647 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
@@ -106,15 +106,14 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 
 ## Braki porównania
 
-**18 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**17 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
-### Problemy wymagające naprawy · 32 stron
+### Problemy wymagające naprawy · 31 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
 | [agrobisp.pl](dashboard/agrobisppl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.agrobisp.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [agrobisp.pl](dashboard/agrobisppl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.agrobisp.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
-| [archand.pl](dashboard/archandpl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Strona lub kontrolka nie odpowiedziała w limicie czasu. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [archbb.pl](dashboard/archbbpl.md#strona-główna)<br>Strona główna | **Błąd serwera pracowni**<br>Przejściowy błąd HTTP 500 | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [archbb.pl](dashboard/archbbpl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [archido.pl](dashboard/archidopl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
@@ -124,8 +123,9 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | [domyciekawe.pl](dashboard/domyciekawepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
+| [domyzmieta.pl](dashboard/domyzmietapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 
-[Dalsze strony 13–32](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–31](dashboard/odczyty-repair-2.md)
 
 
 
@@ -158,7 +158,7 @@ Te pracownie nie mają stron WWW; są w wykazie partnerów i nie są skanowane.
 
 </details>
 
-Komunikaty ofert w ostatnim odczycie (658): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md) · [27](dashboard/oferty-27.md)
+Komunikaty ofert w ostatnim odczycie (659): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md) · [27](dashboard/oferty-27.md)
 
 Historia zdarzeń (647): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md) · [4](dashboard/historia-4.md) · [5](dashboard/historia-5.md) · [6](dashboard/historia-6.md) · [7](dashboard/historia-7.md) · [8](dashboard/historia-8.md) · [9](dashboard/historia-9.md) · [10](dashboard/historia-10.md) · [11](dashboard/historia-11.md) · [12](dashboard/historia-12.md) · [13](dashboard/historia-13.md) · [14](dashboard/historia-14.md) · [15](dashboard/historia-15.md) · [16](dashboard/historia-16.md) · [17](dashboard/historia-17.md) · [18](dashboard/historia-18.md) · [19](dashboard/historia-19.md) · [20](dashboard/historia-20.md) · [21](dashboard/historia-21.md) · [22](dashboard/historia-22.md) · [23](dashboard/historia-23.md) · [24](dashboard/historia-24.md) · [25](dashboard/historia-25.md) · [26](dashboard/historia-26.md)
 
@@ -196,9 +196,16 @@ Historia zdarzeń (647): [1](dashboard/historia-1.md) · [2](dashboard/historia-
 - **projekty.nordarchitekci.pl**: Kosztorys nie obejmuje kosztów zagospodarowania działki. · od 2026-10-30; następna próba: 2026-11-04
 - **zbudujsamdom.pl**: CENA PROMOCYJNA PAKIETU PRO · od 2026-10-27; następna próba: 2026-11-04
 - **mgprojekt.com.pl**: Promocja w MGPROJEKT · od 2026-10-30; następna próba: 2026-11-04
+
+<details><summary>Wcześniejsze wydania tego dnia</summary>
+
+- [03.11.2026 10:58](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+
+</details>
+
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 97/112; stałe karty: 95/112; łącznie 192/224 stron z porównaniem.
+Strony główne: 98/112; stałe karty: 95/112; łącznie 193/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -211,13 +218,14 @@ Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracow
 
 Opisane zmiany wyglądu są powyżej; przesunięcia sekcji w rozwijanych szczegółach. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.
 
-różnice obrazu bez jednoznacznego opisu: **16 pracowni**.
+różnice obrazu bez jednoznacznego opisu: **17 pracowni**.
 
 <details><summary>Rozwiń dodatkowe obserwacje wyglądu</summary>
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-2-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-2-po.jpg) |
+| [archand.pl](dashboard/archandpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [archi-projekt.com.pl](dashboard/archi-projektcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [domideaprojekt.pl](dashboard/domideaprojektpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -235,7 +243,7 @@ różnice obrazu bez jednoznacznego opisu: **16 pracowni**.
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-13-po.jpg) |
+| [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-13-po.jpg) |
 | [teaprojekt.pl](dashboard/teaprojektpl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
@@ -286,7 +294,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [uarchitekta.pl](dashboard/uarchitektapl.md) · **WCB** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [agrobisp.pl](dashboard/agrobisppl.md) · **KRA** | Niepełny zakres porównania | Niepełny zakres porównania |
 | [ajrstudio.pl](dashboard/ajrstudiopl.md) · **WOJ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [archand.pl](dashboard/archandpl.md) · **WOF** | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [archand.pl](dashboard/archandpl.md) · **WOF** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [archbb.pl](dashboard/archbbpl.md) · **BBH** | Brak odczytu · Przejściowy błąd HTTP 500 | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [archipelag.pl](dashboard/archipelagpl.md) · **WRC** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [architeka.pl](dashboard/architekapl.md) · **WBE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -318,7 +326,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Częściowe · 50 zgodnych tekstów | Luka 4 dni · brak porównania z wczoraj |
+| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Częściowe · 49 zgodnych tekstów | Luka 4 dni · brak porównania z wczoraj |
 | [opushome.pl](dashboard/opushomepl.md) · **KZM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [postawdom24.pl](dashboard/postawdom24pl.md) · **JGC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -346,7 +354,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez zmian w zapisanej komunikacji | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [klimatdrewna.pl](dashboard/klimatdrewnapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [kreodom.pl](dashboard/kreodompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |

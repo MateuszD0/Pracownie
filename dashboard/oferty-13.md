@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej ? 600 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kosztorys inwestorski ? 600 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe ? 550 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Pakiet gruntowa pompa ciepła | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet odkurzacz centralny | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet płaszcz wodny | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

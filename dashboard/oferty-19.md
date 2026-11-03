@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Rzetelny kosztorys budowlany pomaga zaplanować budżet inwestycji, porównać oferty wykonawców i kontrolować wydatki na każdym etapie realizacji. Oferujemy kosztorysowanie robót budowlanych dla domów jednorodzinnych oraz innych inwestycji, a także doradztwo w zakresie szacowania i planowania kosztów budowy. Przygotowujemy kosztorysy, które wspierają inwestorów już na etapie wyboru projektu i planow… | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Unikalna usługa: koncepcja kosztorysowa | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Do projektów dostępne są pakiety kosztorysowe, które pomagają lepiej przygotować się do budowy i porównać różne warianty jeszcze przed rozpoczęciem inwestycji. | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Zobacz kosztorysy → | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |

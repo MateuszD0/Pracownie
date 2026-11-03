@@ -60,13 +60,13 @@ Strony porównania: **1** · [2](domoweklimatypl-2.md)
 | Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Krewetka 110,14 m² – wizualizacja (36 px w lewo, 149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: <strong>1241</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: <strong>1205</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
 | Zmiany wyglądu · Układ · BEZPŁATNE DODATKI | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-18-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-18-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 02.11.2026 09:18 | Po · 03.11.2026 10:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-dowod-18-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-dowod-18-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -88,7 +88,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 
 Strony porównania: **1** · [2](domoweklimatypl-2.md)
 

@@ -8,17 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl · 2026-11-03 | „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana” → „Budowa domu murowanego 35m2 z antresolą w Ostrowitem – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-11-03 | „Zapłać za pomocą banku” → „Zapłać za pomocą banku lub raty”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-11-03 | „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana” → „Budowa domu murowanego 35m2 z antresolą w Ostrowitem – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-03 | „Projekty spełniają aktualne warunki techniczne, z charakterystyką energetyczną budynku.” → „Projekty spełniają aktualnie obowiązujące warunki techniczne, z charakterystyką energetyczną budynku.”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-03 | „Zgodność z warunkami technicznymi WT 2021” → „Zgodność z aktualnymi warunkami technicznymi”. | Zaobserwowana zmiana |
 | sprytnaoaza.pl · 2026-11-03 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-11-03 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-11-03 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-03 | Pojawił się komunikat: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-03 | Pojawił się komunikat: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |

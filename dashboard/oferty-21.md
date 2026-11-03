@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projekty.nordarchitekci.pl | Dodatkowa opcja Dostępność Cena BIOZ Natychmiast BEZPŁATNIE Charakterystyka energetyczna Natychmiast BEZPŁATNIE Zgoda na zmiany w projekcie Natychmiast BEZPŁATNIE | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projektydomow.redcart.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://projektydomow.redcart.pl/) |
 | projektydomow.redcart.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://projektydomow.redcart.pl/) |
 | projektydomow.redcart.pl | Rzetelny kosztorys budowlany pomaga zaplanować budżet inwestycji, porównać oferty wykonawców i kontrolować wydatki na każdym etapie realizacji. Oferujemy kosztorysowanie robót budowlanych dla domów jednorodzinnych oraz innych inwestycji, a także doradztwo w zakresie szacowania i planowania kosztów budowy. Przygotowujemy kosztorysy, które wspierają inwestorów już na etapie wyboru projektu i planow… | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://projektydomow.redcart.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl | ZAMÓW BEZPŁATNĄ ANALIZĘ | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Kosztorys | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Szacunkowy koszt do stanu surowego zamkniętego, obliczony na podstawie rzeczywistych kosztorysów naszych projektów. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | POBIERZ UPROSZCZONY KOSZTORYS W SYSTEMIE GOSPODARCZYM | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |

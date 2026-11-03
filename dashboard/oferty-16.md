@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mtmstyl.com.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Najniższa cena 30 dni przed promocją 5649 zł | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Do końca PROMOCJI pozostało | Obecna w zapisie · 03.11.2026 10:33<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | penthus.pl | Kosztorys | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | penthus.pl | Rzuty Dane techniczne Opis Kosztorys Dodatki Pliki do pobrania Analiza | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 03.11.2026 10:34<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
-| planujdom.pl | WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt; | Obecna w zapisie · 03.11.2026 10:34 · 03.11.2026 10:34<br>[Źródło](https://planujdom.pl/) · [Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |

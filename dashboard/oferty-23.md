@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Bezpłatne pozwolenie na zmiany | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Extra dodatki i rabaty Pakiet dodatków o wartości 4100 zł za 1 zł i rabaty do marketów budowlanych. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 03.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |

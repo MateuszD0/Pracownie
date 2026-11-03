@@ -45,7 +45,7 @@ Strony porównania: [1](opusdompl.md) · **2**
 | Komunikacja sprzedażowa · Baner | <strong>Lars</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Arkadia-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t092958.863638-0000-1955b5fc-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t100137.908089-0000-6aa1fe21-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2**
 

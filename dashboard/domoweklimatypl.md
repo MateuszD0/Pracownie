@@ -4,23 +4,21 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-02 → 2026-11-03**
+**2026-11-03 → 2026-11-04**
 
 **Ten sam projekt:** [PROJEKT DOMU AKORD 14 T](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/)
 
-**28 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
-
-Strony porównania: **1** · [2](domoweklimatypl-2.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://www.domoweklimaty.pl/)
 
-**Odczyty:** 02.11.2026 09:18 → 03.11.2026 10:31 (czas polski).
+**Odczyty:** 03.11.2026 10:31 → 04.11.2026 11:16 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fdomoweklimaty.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domoweklimaty.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2Fdomoweklimaty.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domoweklimaty.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -28,67 +26,11 @@ Strony porównania: **1** · [2](domoweklimatypl-2.md)
 
 [Otwórz stronę źródłową](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/)
 
-**Odczyty:** 02.11.2026 09:18 → 03.11.2026 10:31 (czas polski).
+**Odczyty:** 03.11.2026 10:31 → 04.11.2026 11:16 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fdomoweklimaty.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domoweklimaty.pl%2Fprojekt%2Fprojekt-domu-akord-14-t%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2Fdomoweklimaty.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domoweklimaty.pl%2Fprojekt%2Fprojekt-domu-akord-14-t%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Warunki oferty · Warunki zakupu | Nie odnotowano w tym odczycie | <strong>https://schema.org/InStock</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dodaj komentarz</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#product-details-content) |
-| Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord 131,15 m² – wizualizacja (9 px w lewo, 149 px w dół) | <strong>267</strong> × <strong>171</strong> px; położenie: <strong>382</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>166</strong> px; położenie: <strong>373</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
-| Zmiany wyglądu · Układ · NASI PARTNERZY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Układ · Najczęściej zadawane pytanie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#faq-content) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Układ · KONTAKT Z AUTOREM | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
-| Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord 12 128,08 m² – wizualizacja (18 px w lewo, 149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: <strong>668</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: <strong>650</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
-| Zmiany wyglądu · Układ · MOŻLIWA OBSŁUGA POSPRZEDAŻNA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
-| Zmiany wyglądu · Położenie i rozmiar: CENA (24 px w dół) | <strong>134</strong> × 28 px; położenie: 870 px od lewej, <strong>703</strong> px od góry | <strong>125</strong> × 28 px; położenie: 870 px od lewej, <strong>727</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
-| Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord VII 115,73 m² – wizualizacja (149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: 95 px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: 95 px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
-| Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord 14 132,3 m² – wizualizacja (9 px w prawo, 149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: -<strong>191</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: -<strong>182</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
-| Zmiany wyglądu · Rozmiar: PROJEKT DOMU AKORD 14 T | <strong>298</strong> × 51 px; położenie: 870 px od lewej, 366 px od góry | <strong>280</strong> × 51 px; położenie: 870 px od lewej, 366 px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
-| Zmiany wyglądu · Położenie i rozmiar: 5 000,00 ZŁ (9 px w lewo, 24 px w dół) | <strong>134</strong> × 28 px; położenie: <strong>1034</strong> px od lewej, <strong>703</strong> px od góry | <strong>125</strong> × 28 px; położenie: <strong>1025</strong> px od lewej, <strong>727</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
-| Zmiany wyglądu · Układ · PODOBNE PROJEKTY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>149 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#silimar-projects-desktop) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Położenie i rozmiar: Zamów projekt (24 px w dół) | <strong>298</strong> × 50 px; położenie: 870 px od lewej, <strong>769</strong> px od góry | <strong>280</strong> × 50 px; położenie: 870 px od lewej, <strong>793</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#order-submit-858) |
-| Zmiany wyglądu · Układ · Co zyskujesz kupując u nas? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
-| Zmiany wyglądu · Układ · BEZPŁATNA, SZYBKA WYSYŁKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
-| Zmiany wyglądu · Układ · ATRAKCYJNE RABATY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
-| Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Krewetka 110,14 m² – wizualizacja (36 px w lewo, 149 px w dół) | <strong>267</strong> × <strong>150</strong> px; położenie: <strong>1241</strong> px od lewej, <strong>5194</strong> px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: <strong>1205</strong> px od lewej, <strong>5343</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
-| Zmiany wyglądu · Układ · BEZPŁATNE DODATKI | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
+**Bez zmian w zapisanej komunikacji**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-18-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 02.11.2026 09:18 | Po · 03.11.2026 10:31 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-18-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
-
-Przykłady z zapisów:
-
-- brak → Akord 14 T to projekt domu z poddaszem o powierzchni użytkowej 130,73 m², z garażem, przeznaczony na działki o minimalnej szerokości 17,32…
-- brak → Brak komentarzy. Bądź pierwszy :)
-- Akord → Podobny projekt domu Akord 131,15 m² – wizualizacja
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
-
-Strony porównania: **1** · [2](domoweklimatypl-2.md)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
 

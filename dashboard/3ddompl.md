@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-02 → 2026-11-03**
+**2026-11-03 → 2026-11-04**
 
 **Ten sam projekt:** [Dom na Majowej](https://3ddom.pl/produkt/dom-na-majowej/)
 
-**1 zmian w zapisanym zakresie.**
+**3 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,46 +16,22 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://3ddom.pl/)
 
-**Odczyty:** 02.11.2026 09:16 → 03.11.2026 10:30 (czas polski).
+**Odczyty:** 03.11.2026 10:30 → 04.11.2026 11:14 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2F3ddom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2F%0A%0AOpis%3A)
-
-**Bez zmian w zapisanej komunikacji**
-
-## Karta projektu
-
-[Otwórz stronę źródłową](https://3ddom.pl/produkt/dom-na-majowej/)
-
-**Odczyty:** 02.11.2026 09:17 → 03.11.2026 10:30 (czas polski).
-
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2F3ddom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2F3ddom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Promocja od 31.10.2026 koniec za</strong> | [Otwórz stronę](https://3ddom.pl/produkt/dom-na-majowej/#product-63) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>255 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://3ddom.pl/#swiper-wrapper-c857911d58c10b106e) |
+| Zmiany wyglądu · Układ · DOM NA MAJOWEJ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>255 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://3ddom.pl/#swiper-wrapper-c857911d58c10b106e) |
 
-**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „Promocja od 31.10.2026 koniec za”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://3ddom.pl/produkt/dom-na-majowej/): Promocja od 31.10.2026 koniec za
-- [Sprawdzona strona](https://3ddom.pl/) · 03.11.2026 10:30 · odczyt poprawny
-- [Sprawdzona strona](https://3ddom.pl/produkt/dom-na-majowej/) · 03.11.2026 10:30 · odczyt poprawny
-- [Sprawdzona strona](https://3ddom.pl/) · 03.11.2026 10:38 · odczyt poprawny
-- [Sprawdzona strona](https://3ddom.pl/produkt/dom-na-majowej/) · 03.11.2026 10:38 · odczyt poprawny
-- [Sprawdzona strona](https://3ddom.pl/dodatki-do-projektu/) · 03.11.2026 10:38 · odczyt poprawny
-
-Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-36-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 02.11.2026 09:17 | Po · 03.11.2026 10:30 |
+| Przed · 03.11.2026 10:30 | Po · 04.11.2026 11:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-36-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -63,16 +39,68 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 <details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 
 Przykłady z zapisów:
 
-- brak → Promocja od 31.10.2026 koniec za
-- brak → Promocja od 31.10.2026 koniec za
+- brak → https://3ddom.pl/wp-content/uploads/2026/06/Dom-w-Zaciszu-Komfort-W1-1300x774.jpg
+- https://3ddom.pl/wp-content/uploads/2025/06/Dom-na-Majowej\_W3-800x450.jpg → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
+## Karta projektu
+
+[Otwórz stronę źródłową](https://3ddom.pl/produkt/dom-na-majowej/)
+
+**Odczyty:** 03.11.2026 10:30 → 04.11.2026 11:15 (czas polski).
+
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2F3ddom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%0A%0AOpis%3A)
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Opis i argumenty oferty | Promocja od <strong>31</strong>.<strong>10</strong>.2026 koniec za | Promocja od <strong>02</strong>.<strong>11</strong>.2026 koniec za | [Otwórz stronę](https://3ddom.pl/produkt/dom-na-majowej/#product-63) |
+
+**Wynik sprawdzenia oferty:** Zmiana komunikatu oferty: „Promocja od 31.10.2026 koniec za” → „Promocja od 02.11.2026 koniec za”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://3ddom.pl/produkt/dom-na-majowej/): Promocja od 02.11.2026 koniec za
+- [Sprawdzona strona](https://3ddom.pl/) · 04.11.2026 11:14 · odczyt poprawny
+- [Sprawdzona strona](https://3ddom.pl/produkt/dom-na-majowej/) · 04.11.2026 11:15 · odczyt poprawny
+- [Sprawdzona strona](https://3ddom.pl/produkt/dom-na-majowej/) · 04.11.2026 11:23 · odczyt poprawny
+- [Sprawdzona strona](https://3ddom.pl/dodatki-do-projektu/) · 04.11.2026 11:23 · odczyt poprawny
+
+Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-1-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 03.11.2026 10:30 | Po · 04.11.2026 11:15 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-1-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- brak → 1 dzień \[licznik\]
+- brak → 1 dzień \[licznik\]
+- brak → 1 dzień \[licznik\]
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
 

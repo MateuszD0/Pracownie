@@ -6,31 +6,31 @@
 
 [domywstylu.pl — wszystkie odczyty](domywstylupl.md)
 
-## Zdarzenie 0b0e5ee68d0e8694
+## Zdarzenie 359658fadd31a21c
 
-**Zauważono etykietę: „PROMOCJI”.**
+**„Katalog 06/26:” → „Katalog 08/26:”.**
 
-**Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
+**Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJI</strong> | [Otwórz stronę](https://www.domywstylu.pl/projekt-domu-malutki_12.php#clockdiv-wrapper) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | Katalog <strong>06</strong>/26: | Katalog <strong>08</strong>/26: | [Otwórz stronę](https://www.domywstylu.pl/#main) |
 
-[Karta projektu](https://www.domywstylu.pl/projekt-domu-malutki_12.php#clockdiv-wrapper)
+[Strona główna](https://www.domywstylu.pl/#main)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 02.11.2026 09:18 | Po · 03.11.2026 10:32 |
+| Przed · 03.11.2026 10:31 | Po · 04.11.2026 11:16 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-34-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-34-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2F0b0e5ee68d0e8694%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJI%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2Fprojekt-domu-malutki_12.php%23clockdiv-wrapper%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2F0b0e5ee68d0e8694%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJI%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2Fprojekt-domu-malutki_12.php%23clockdiv-wrapper%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2F0b0e5ee68d0e8694%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJI%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2Fprojekt-domu-malutki_12.php%23clockdiv-wrapper%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F359658fadd31a21c%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+%E2%80%9EKatalog+06%2F26%3A%E2%80%9D+%E2%86%92+%E2%80%9EKatalog+08%2F26%3A%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F359658fadd31a21c%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+%E2%80%9EKatalog+06%2F26%3A%E2%80%9D+%E2%86%92+%E2%80%9EKatalog+08%2F26%3A%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F359658fadd31a21c%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domywstylu.pl%0AZdarzenie%3A+%E2%80%9EKatalog+06%2F26%3A%E2%80%9D+%E2%86%92+%E2%80%9EKatalog+08%2F26%3A%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domywstylu.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

@@ -6,31 +6,31 @@
 
 [eg-domy.pl — wszystkie odczyty](eg-domypl.md)
 
-## Zdarzenie a226a2fd573a48f6
+## Zdarzenie 137a34d8caac825a
 
-**Zauważono etykietę: „Promocja”.**
+**W nowym zapisie nie ma etykiety: „Promocja”.**
 
 **Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>Promocja</strong> | [Otwórz stronę](https://eg-domy.pl/) |
+| Promocje i rabaty · Baner | <strong>Promocja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://eg-domy.pl/) |
 
-[Strona główna](https://eg-domy.pl/) · [Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/#warianty) · [Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/#product-7795)
+[Strona główna](https://eg-domy.pl/) · [Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
 Liczba źródłowych obserwacji: 3. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 02.11.2026 09:18 | Po · 03.11.2026 10:32 |
+| Przed · 03.11.2026 10:32 | Po · 04.11.2026 11:17 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-7-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2Fa226a2fd573a48f6%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2Fa226a2fd573a48f6%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-03%2Fa226a2fd573a48f6%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F137a34d8caac825a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+etykiety%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F137a34d8caac825a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+etykiety%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2F137a34d8caac825a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+eg-domy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+etykiety%3A+%E2%80%9EPromocja%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-02 → 2026-11-03**
+**2026-11-03 → 2026-11-04**
 
 **Ten sam projekt:** [Ami II - Opusdom](https://opusdom.pl/produkt/ami-ii/)
 
-**39 zmian w zapisanym zakresie.**
+**41 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,47 +18,47 @@ Strony porównania: **1** · [2](opusdompl-2.md)
 
 [Otwórz stronę źródłową](https://opusdom.pl/)
 
-**Odczyty:** 02.11.2026 09:20 → 03.11.2026 10:33 (czas polski).
+**Odczyty:** 03.11.2026 10:33 → 04.11.2026 11:18 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fopusdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2Fopusdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opusdom.pl/produkt/ami-ii/)
 
-**Odczyty:** 02.11.2026 09:20 → 03.11.2026 10:33 (czas polski).
+**Odczyty:** 03.11.2026 10:33 → 04.11.2026 11:19 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-03%2Fopusdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-04%2Fopusdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się: wiatrołap, , hall, kuchnia, salon z jadal</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner | <strong>Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Bardzo</strong> <strong>wygodny, reprezentacyjny dom parterowy dom</strong> z <strong>użytkowym</strong> poddaszem i wbudowanym garażem<strong> jednostanowiskowym</strong>. | <strong>Laura</strong> <strong>L</strong> z <strong>Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym</strong> poddaszem i wbudowanym <strong>dwustanowiskowym </strong>garażem. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Amelia</strong> to <strong>funkcjonalny</strong>, <strong>wygodny</strong> dom parterowy<strong> dom</strong> z użytkowym poddaszem i wbudowanym garażem <strong>jednostanowiskowym</strong>. | <strong>Magnolia II L</strong> to <strong>bardzo wygodny</strong>, <strong>reprezentacyjny</strong> dom parterowy z użytkowym poddaszem i wbudowanym garażem <strong>dwustanowiskowym</strong>. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Piotruś</strong> jest <strong>niewielkim,</strong> <strong>ale wygodnym, parterowym</strong> domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. | <strong>Sara</strong> jest <strong>wygodnym</strong> <strong>niepodpiwniczonym</strong> domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner | <strong>Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety projektu.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym. | Magnolia II<strong> L</strong> to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Arkadia L to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ściany dwuwarstwowej z betonu komórkoweg</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner | <strong>Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powierzchni, zlokalizowana jest od frontu nato</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | <strong>Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | Autor:<strong> arch.</strong> Marek Oczkowski | Autor: Marek Oczkowski | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6f77d3ff5ef2e4c6) |
-| Komunikacja sprzedażowa · Baner | <strong>Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiązań energooszczędnych. Prosta, ale </strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Autor: arch. Marek Oczkowwski</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>FILIP</strong> <strong>–</strong> <strong>Energooszczędny,</strong> wygodny, <strong>parterowy</strong> dom z użytkowym poddaszem <strong>polecany</strong> dla rodziny o schemacie 2+2. | <strong>Kasia</strong> <strong>to</strong> <strong>bardzo</strong> wygodny, <strong>reprezentacyjny</strong> dom<strong> parterowy</strong> z użytkowym poddaszem<strong>,</strong> <strong>przeznaczony</strong> dla rodziny o schemacie 2+ 2<strong> lub 2+3</strong>. | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner | <strong>Klaudia 2rodziny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Syntia-L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Piotruś</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Sara</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filip (Energo)</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Ron L</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-e44177a378b3eee2) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner | <strong>Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety tego domu: prostota, funkcjonalność i wygoda.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner | <strong>Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | <strong>Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiązań </strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwustanowiskowym garażem.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejściem od frontu składa się na parterze z s</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner | <strong>LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Sara</strong> jest wygodnym <strong>niepodpiwniczonym</strong> domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny<strong>.</strong> | <strong>Promyk</strong> jest <strong>niewielkim, ale funkcjonalnym i </strong>wygodnym<strong>,</strong> <strong>parterowym</strong> domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o schemacie 2+ 2 lub 2+3.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | <strong>Autor: arch. Marek Oczkowwski</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbliżony na 3m od granicy działki lub zrea</strong>… | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner | <strong>Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się: wiatrołap, , hall, kuchnia, salon z jadal</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabudowie bliźniaczej lub szeregowej.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Syntia II wersja B</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner | <strong>Malwina L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Komunikacja sprzedażowa · Baner | Amelia | Amelia<strong>-L</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-6925410eab261c7fb) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filemon</strong> z garażem<strong>-</strong> L | <strong>Mona</strong> z garażem L | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
 
 <details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>
 
@@ -66,56 +66,53 @@ Strony porównania: **1** · [2](opusdompl-2.md)
 
 **Było:** brak
 
-**Jest:** Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się: wiatrołap, , hall, kuchnia, salon z jadalnią, Łazienka z piecem gazowym, pom. gospodarcze i garaż jednostanowiskowy. Na poddaszu mamy: hall, trzy wygodne sypialnie, w tym dwie z balkonami, a jedna z własną garderobą oraz ogólnodostępna łazienka.
+**Jest:** Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiązań energooszczędnych.
 
 **Baner**
 
-**Było:** Arkadia L to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ściany dwuwarstwowej z betonu komórkowego docieplonej wełną mineralną fasadową, ze stropem gęstożebrowym. Dach o konstrukcji drewnianej kryty dachówką ceramiczną.
+**Było:** brak
 
-**Jest:** brak
-
-**Baner**
-
-**Było:** Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powierzchni, zlokalizowana jest od frontu natomiast część seniorów znajduje się w tylnej częśc domu i posiada odrębne wejście z boku.
-
-**Jest:** brak
+**Jest:** Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejściem od frontu składa się na parterze z salonu kominkowego, kuchni, jadalni, hallu, wc, kotłowni oraz garażu. Mniejsza część składa się z pokoju dziennego, kuchni, hallu, wc z pralnią.
 
 **Baner**
 
-**Było:** Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie rozwiązań energooszczędnych. Prosta, ale jednocześnie nowoczesna forma domu sprawia, że jest łatwy w realizacji. Funkcja na parterze składa się z obszernego wiatrołapu, Pomieszczenia gospodarczego z kotłownią, hallu, kuchni otwartej na wygodny salon z dużym tarasem, komunikacji oraz dwóch pokoi, garderoby i łazienki. Na poddaszu znajduje się antresola z widokiem na salon oraz duża sypialnia. Sypialnia jest doświetlon…
+**Było:** brak
+
+**Jest:** Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbliżony na 3m od granicy działki lub zrealizowany jako bliźniak.
+
+**Baner**
+
+**Było:** Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się: wiatrołap, , hall, kuchnia, salon z jadalnią, Łazienka z piecem gazowym, pom. gospodarcze i garaż jednostanowiskowy. Na poddaszu mamy: hall, trzy wygodne sypialnie, w tym dwie z balkonami, a jedna z własną garderobą oraz ogólnodostępna łazienka.
 
 **Jest:** brak
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-33-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-15-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-15-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 02.11.2026 09:20 | Po · 03.11.2026 10:33 |
+| Przed · 03.11.2026 10:45 | Po · 04.11.2026 11:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-33-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-dowod-33-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-dowod-15-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-- Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.
 
 Przykłady z zapisów:
 
-- brak → Projekt RON L z Opusdom.pl jest niedużym, kompaktowym, ale wygodnym, piętrowym domem o charakterystycznej, nowoczesnej architekturze.
-- Amelia → brak
-- brak → Amelia
+- Projekt RON L z Opusdom.pl jest niedużym, kompaktowym, ale wygodnym, piętrowym domem o charakterystycznej, nowoczesnej architekturze. → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
 
 Strony porównania: **1** · [2](opusdompl-2.md)
 

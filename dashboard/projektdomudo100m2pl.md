@@ -76,5 +76,5 @@ Porównanie: 03.11.2026 10:34 → 04.11.2026 11:20 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-porownanie.html)
 

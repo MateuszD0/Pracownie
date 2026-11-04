@@ -47,7 +47,7 @@ Strony porównania: [1](opusdompl.md) · **2**
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Lars</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Promyk</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2**
 

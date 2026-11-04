@@ -34,7 +34,7 @@ Strony porównania: [1](domydlanaspl.md) · **2**
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>300 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-17-1-1) |
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>300 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-21-2-1) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t101434.658698-0000-2c3253de-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-porownanie.html)
 
 Strony porównania: [1](domydlanaspl.md) · **2**
 

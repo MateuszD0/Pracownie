@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-01 → 2026-11-02**
+**2026-11-04 → 2026-11-05**
 
 **Ten sam projekt:** [Ami II - Opusdom](https://opusdom.pl/produkt/ami-ii/)
 
-**53 zmian w zapisanym zakresie.**
+**69 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,23 +18,39 @@ Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 
 [Otwórz stronę źródłową](https://opusdom.pl/)
 
-**Odczyty:** 01.11.2026 10:15 → 02.11.2026 09:20 (czas polski).
+**Odczyty:** 04.11.2026 11:18 → 05.11.2026 08:28 (czas polski).
 
-Pozostałe strony tego porównania zawierają 6 różnic tej strony; użyj numerów stron powyżej.
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opusdom.pl/produkt/ami-ii/)
 
-**Odczyty:** 01.11.2026 10:15 → 02.11.2026 09:20 (czas polski).
+**Odczyty:** 04.11.2026 11:19 → 05.11.2026 08:28 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Malwina bl</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | <strong>Malwina L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
-| Komunikacja sprzedażowa · Baner | <strong>Lili II</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
+| Zmiany wyglądu · Układ · Idź do slajdu 4 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Elewacja lewa | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
+| Zmiany wyglądu · Układ · ZOBACZ PROJEKT | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
+| Zmiany wyglądu · Położenie i rozmiar: Dane techniczne (120 px w prawo, 65 px w górę) | <strong>1240</strong> × 42 px; położenie: <strong>20</strong> px od lewej, <strong>1218</strong> px od góry | <strong>1000</strong> × 42 px; położenie: <strong>140</strong> px od lewej, <strong>1153</strong> px od góry | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#opc-dane) |
+| Zmiany wyglądu · Położenie i rozmiar: Ami II (117 px w lewo, 40 px w górę) | <strong>357</strong> × <strong>35</strong> px; położenie: <strong>903</strong> px od lewej, <strong>250</strong> px od góry | <strong>474</strong> × <strong>40</strong> px; położenie: <strong>786</strong> px od lewej, <strong>210</strong> px od góry | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Malwina L | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
+| Zmiany wyglądu · Układ · Elewacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>264 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#opc-elewacje) |
+| Zmiany wyglądu · Układ · Zobacz więcej | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>120 px</strong> w <strong>lewo,</strong> <strong>64 px w górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#moreBtn1) |
+| Zmiany wyglądu · Układ · Malwina L | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
+| Zmiany wyglądu · Rozmiar tekstu: Cena projektu: | <strong>22px</strong> | <strong>15px</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Elewacja prawa | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
+| Zmiany wyglądu · Układ · Idź do slajdu 5 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Lili | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
+| Zmiany wyglądu · Układ · Elewacja front | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
+| Zmiany wyglądu · Położenie i rozmiar: Dodaj do koszyka (117 px w lewo, 215 px w górę) | <strong>166</strong> × <strong>36</strong> px; położenie: <strong>903</strong> px od lewej, <strong>695</strong> px od góry | <strong>474</strong> × <strong>48</strong> px; położenie: <strong>786</strong> px od lewej, <strong>480</strong> px od góry | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Podobne projekty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Idź do slajdu 3 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
+| Zmiany wyglądu · Układ · Karmel BL | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
+| Zmiany wyglądu · Układ · Elewacja od ogrodu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-02/2026-11-02-2026-11-02t105332.143221-0000-2c72d095-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 

@@ -6,31 +6,39 @@
 
 [opusdom.pl — wszystkie odczyty](opusdompl.md)
 
-## Zdarzenie f50fff1ade34b69d
+## Zdarzenie eaddafb1ced55354
 
-**Pojawił się komunikat: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”.**
+**W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e) |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 
-[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-718dd393abf105c5e)
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Feaddafb1ced55354%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalno%C5%9B%C4%87+i+prostota+rozwi%C4%85za%C5%84%2C+przy+jednoczesnym+nowoczesnym+wygl%C4%85dzie+domu+oraz+zastosowaniu+rozwi%C4%85za%C5%84+energooszcz%C4%99dnych+to+podstawowe+zalety+tego+projektu.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Feaddafb1ced55354%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalno%C5%9B%C4%87+i+prostota+rozwi%C4%85za%C5%84%2C+przy+jednoczesnym+nowoczesnym+wygl%C4%85dzie+domu+oraz+zastosowaniu+rozwi%C4%85za%C5%84+energooszcz%C4%99dnych+to+podstawowe+zalety+tego+projektu.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Feaddafb1ced55354%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalno%C5%9B%C4%87+i+prostota+rozwi%C4%85za%C5%84%2C+przy+jednoczesnym+nowoczesnym+wygl%C4%85dzie+domu+oraz+zastosowaniu+rozwi%C4%85za%C5%84+energooszcz%C4%99dnych+to+podstawowe+zalety+tego+projektu.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%0A%0AOpcjonalny+komentarz%3A)
 
-| Przed · 03.11.2026 10:45 | Po · 04.11.2026 11:31 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-dowod-15-przed.jpg) |
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+## Zdarzenie ffdc7c39eefe6b26
 
-</details>
+**Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”.**
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2Ff50fff1ade34b69d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESadyba+z+Opusdom+jest+przestronnym+domem+z+poddaszem+u%C5%BCytkowym%2C+kt%C3%B3ry+ma+niepowtarzalny+styl%2C+wyr%C3%B3%C5%BCniaj%C4%85cy+si%C4%99+w%C5%9Br%C3%B3d+zabudowy+s%C4%85siaduj%C4%85cej.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-718dd393abf105c5e%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2Ff50fff1ade34b69d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESadyba+z+Opusdom+jest+przestronnym+domem+z+poddaszem+u%C5%BCytkowym%2C+kt%C3%B3ry+ma+niepowtarzalny+styl%2C+wyr%C3%B3%C5%BCniaj%C4%85cy+si%C4%99+w%C5%9Br%C3%B3d+zabudowy+s%C4%85siaduj%C4%85cej.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-718dd393abf105c5e%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-04%2Ff50fff1ade34b69d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESadyba+z+Opusdom+jest+przestronnym+domem+z+poddaszem+u%C5%BCytkowym%2C+kt%C3%B3ry+ma+niepowtarzalny+styl%2C+wyr%C3%B3%C5%BCniaj%C4%85cy+si%C4%99+w%C5%9Br%C3%B3d+zabudowy+s%C4%85siaduj%C4%85cej.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-718dd393abf105c5e%0A%0AOpcjonalny+komentarz%3A)
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Autor: arch. Marek Oczkowwski</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a98ce96fa10a59888) |
+
+[Karta projektu](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-a98ce96fa10a59888)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fffdc7c39eefe6b26%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowwski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a98ce96fa10a59888%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fffdc7c39eefe6b26%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowwski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a98ce96fa10a59888%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fffdc7c39eefe6b26%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+opusdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EAutor%3A+arch.+Marek+Oczkowwski%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopusdom.pl%2Fprodukt%2Fami-ii%2F%23swiper-wrapper-a98ce96fa10a59888%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Autorskie gotowe projekty domów”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów - sprawdź naszą ofertę”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Tanie w budowie 36 projektów”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów jednorodzinnych - TeA Projekt - Biuro projektowe”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Nie wiesz, który projekt wybrać?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Wszystkie projekty (71) →”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy gotowy projekt trzeba adaptować?”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyka.pl · 2026-10-29 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-10-29 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-10-29 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
-| projektydomow.redcart.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-29 | „DOM MISTRZA ALEKSANDRA (WERSJA PODSTAWOWA)” → „DOM MISTRZA ALEKSANDRA (MUROWANY)”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |

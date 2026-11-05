@@ -4,17 +4,17 @@
 
 **2026-11-04 → 2026-11-05** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 93/112 pracowni.** · **19 wymaga uwagi.**
+**Porównano obie strony: 94/112 pracowni.** · **18 wymaga uwagi.**
 
 <!-- delivery:2026-11-05 -->Pierwsza publikacja: 08:53 — po terminie 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 204/224 stron (w tym częściowe: 16). Bez odczytu: 20. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 205/224 stron (w tym częściowe: 16). Bez odczytu: 19. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 05.11.2026 08:24 – 05.11.2026 08:30, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 05.11.2026 08:24 – 05.11.2026 10:27, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
-Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/770 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
+Oceny alertów z ostatnich 180 dni: brak ocen trafny/nietrafny; oceniono 0/774 zapisanych alertów; nie wiem: 0; zgłoszenia pominiętych zmian: 0.
 
 Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.
 
@@ -73,7 +73,7 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | **studioatrium.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-studioatriumpl.md#zdarzenie-3f4007a36ae201bf)<br>[Otwórz stronę](https://www.studioatrium.pl/) |
 | **teaprojekt.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-1741ace1804f9037)<br>[Otwórz stronę](https://teaprojekt.pl/) |
 
-<details><summary>Pozostałe ważne zmiany (15)</summary>
+<details><summary>Pozostałe ważne zmiany (19)</summary>
 
 | Pracownia / miejsce | Co się zmieniło | Priorytet i pewność | Dowód |
 | --- | --- | --- | --- |
@@ -83,15 +83,19 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | **hexagreen.pl**<br>Strona główna | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-hexagreenpl.md#zdarzenie-bce2f4c5705a13f4)<br>[Otwórz stronę](https://hexagreen.pl/#primary) |
 | **projektygebala.com**<br>Strona główna | „Jak powstaje projekt na zamówienie” → „Jak powstaje projekt indywidualny”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektygebalacom.md#zdarzenie-e5c3d25a0698e79d)<br>[Otwórz stronę](https://projektygebala.com/#na-zamowienie) |
 | **studioatrium.pl**<br>Strona główna | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-studioatriumpl.md#zdarzenie-f85ce4cf162125e8)<br>[Otwórz stronę](https://www.studioatrium.pl/#review) |
+| **teaprojekt.pl**<br>Karta projektu | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-1dc3e7783db039ff)<br>[Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#tab-description) |
+| **teaprojekt.pl**<br>Karta projektu | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-4f5ff35c537d31d4)<br>[Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#tab-description) |
 | **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-58831c655252e050)<br>[Otwórz stronę](https://teaprojekt.pl/#content) |
 | **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-7bee6c0d0630b7a4)<br>[Otwórz stronę](https://teaprojekt.pl/#content) |
 | **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | **Priorytet: Wysoki**<br>nagłówek, baner lub wezwanie do działania<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-ae1eb786202bd7a4)<br>[Otwórz stronę](https://teaprojekt.pl/#content) |
 | **projektygebala.com**<br>Karta projektu | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektygebalacom.md#zdarzenie-0e3dfad548d3900b)<br>[Otwórz stronę](https://projektygebala.com/projekt/Nowoczesna%20Stodo%C5%82a%20Regulice) |
 | **projektygebala.com**<br>Strona główna | „Dostajesz komplet dokumentacji. Prowadzimy sprawy urzędowe do uzyskania pozwolenia na budowę.” → „Dostajesz komplet dokumentacji. Na podstawie pełnomocnictwa prowadzimy sprawy urzędowe aż do uzyskania pozwol…”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-projektygebalacom.md#zdarzenie-725bff1c773118d6)<br>[Otwórz stronę](https://projektygebala.com/#na-zamowienie) |
+| **teaprojekt.pl**<br>Karta projektu | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-5056f7638bada422)<br>[Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#:~:text=Czym%20r%C3%B3%C5%BCni%20si%C4%99%20opcja%20EKO%20od%20STANDARD%20w%20projekcie%20domu%20AR-22%20P%3F) |
 | **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-6e21ddc74e794476)<br>[Otwórz stronę](https://teaprojekt.pl/#:~:text=Czy%20przed%20zakupem%20oceni%C4%99%20koszt%20budowy%20domu%3F) |
 | **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-800c1a3ae6c2019d)<br>[Otwórz stronę](https://teaprojekt.pl/#:~:text=Ile%20kosztuje%20adaptacja%20projektu%3F) |
-| **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-bc6451631a3231be)<br>[Otwórz stronę](https://teaprojekt.pl/#:~:text=Co%20zawiera%20gotowy%20projekt%20domu%3F%20Czy%20wystarczy%20do%20pozwolenia%20na%20budow%C4%99%3F) |
-| **teaprojekt.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-e6fb5e5bca373981)<br>[Otwórz stronę](https://teaprojekt.pl/) |
+| **teaprojekt.pl**<br>Karta projektu | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl.md#zdarzenie-81ea35e48b78617d)<br>[Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| **teaprojekt.pl**<br>Strona główna | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl-2.md#zdarzenie-bc6451631a3231be)<br>[Otwórz stronę](https://teaprojekt.pl/#:~:text=Co%20zawiera%20gotowy%20projekt%20domu%3F%20Czy%20wystarczy%20do%20pozwolenia%20na%20budow%C4%99%3F) |
+| **teaprojekt.pl**<br>Strona główna | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | **Priorytet: Standardowy**<br>pozostała obserwacja<br>**Zaobserwowana zmiana** | [Przed / po →](dashboard/zdarzenia-teaprojektpl-2.md#zdarzenie-e6fb5e5bca373981)<br>[Otwórz stronę](https://teaprojekt.pl/) |
 
 </details>
 
@@ -113,7 +117,7 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 
 ## Braki porównania
 
-**19 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**18 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
 ### Odczyt działa — potrzebna historia · 1 stron
 
@@ -121,7 +125,7 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | --- | --- | --- |
 | [sprytnaoaza.pl](dashboard/sprytnaoazapl.md#karta-projektu)<br>Karta projektu | **Dzisiejszy odczyt działa; luka historii**<br>Poprzedni zapis pochodzi sprzed 2 dni. | Zachowano dzisiejszy zapis. Do porównania dzień do dnia potrzebny jest kolejny poprawny skan. |
 
-### Problemy wymagające naprawy · 32 stron
+### Problemy wymagające naprawy · 31 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
@@ -138,7 +142,7 @@ Dalsze zdarzenia: [Część 2](dashboard/zmiany-partner-2.md) · [Część 3](da
 | [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [domyzmieta.pl](dashboard/domyzmietapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 
-[Dalsze strony 13–32](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–31](dashboard/odczyty-repair-2.md)
 
 
 
@@ -173,7 +177,7 @@ Te pracownie nie mają stron WWW; są w wykazie partnerów i nie są skanowane.
 
 Komunikaty ofert w ostatnim odczycie (659): [1](dashboard/oferty-1.md) · [2](dashboard/oferty-2.md) · [3](dashboard/oferty-3.md) · [4](dashboard/oferty-4.md) · [5](dashboard/oferty-5.md) · [6](dashboard/oferty-6.md) · [7](dashboard/oferty-7.md) · [8](dashboard/oferty-8.md) · [9](dashboard/oferty-9.md) · [10](dashboard/oferty-10.md) · [11](dashboard/oferty-11.md) · [12](dashboard/oferty-12.md) · [13](dashboard/oferty-13.md) · [14](dashboard/oferty-14.md) · [15](dashboard/oferty-15.md) · [16](dashboard/oferty-16.md) · [17](dashboard/oferty-17.md) · [18](dashboard/oferty-18.md) · [19](dashboard/oferty-19.md) · [20](dashboard/oferty-20.md) · [21](dashboard/oferty-21.md) · [22](dashboard/oferty-22.md) · [23](dashboard/oferty-23.md) · [24](dashboard/oferty-24.md) · [25](dashboard/oferty-25.md) · [26](dashboard/oferty-26.md) · [27](dashboard/oferty-27.md)
 
-Historia zdarzeń (770): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md) · [4](dashboard/historia-4.md) · [5](dashboard/historia-5.md) · [6](dashboard/historia-6.md) · [7](dashboard/historia-7.md) · [8](dashboard/historia-8.md) · [9](dashboard/historia-9.md) · [10](dashboard/historia-10.md) · [11](dashboard/historia-11.md) · [12](dashboard/historia-12.md) · [13](dashboard/historia-13.md) · [14](dashboard/historia-14.md) · [15](dashboard/historia-15.md) · [16](dashboard/historia-16.md) · [17](dashboard/historia-17.md) · [18](dashboard/historia-18.md) · [19](dashboard/historia-19.md) · [20](dashboard/historia-20.md) · [21](dashboard/historia-21.md) · [22](dashboard/historia-22.md) · [23](dashboard/historia-23.md) · [24](dashboard/historia-24.md) · [25](dashboard/historia-25.md) · [26](dashboard/historia-26.md) · [27](dashboard/historia-27.md) · [28](dashboard/historia-28.md) · [29](dashboard/historia-29.md) · [30](dashboard/historia-30.md) · [31](dashboard/historia-31.md)
+Historia zdarzeń (774): [1](dashboard/historia-1.md) · [2](dashboard/historia-2.md) · [3](dashboard/historia-3.md) · [4](dashboard/historia-4.md) · [5](dashboard/historia-5.md) · [6](dashboard/historia-6.md) · [7](dashboard/historia-7.md) · [8](dashboard/historia-8.md) · [9](dashboard/historia-9.md) · [10](dashboard/historia-10.md) · [11](dashboard/historia-11.md) · [12](dashboard/historia-12.md) · [13](dashboard/historia-13.md) · [14](dashboard/historia-14.md) · [15](dashboard/historia-15.md) · [16](dashboard/historia-16.md) · [17](dashboard/historia-17.md) · [18](dashboard/historia-18.md) · [19](dashboard/historia-19.md) · [20](dashboard/historia-20.md) · [21](dashboard/historia-21.md) · [22](dashboard/historia-22.md) · [23](dashboard/historia-23.md) · [24](dashboard/historia-24.md) · [25](dashboard/historia-25.md) · [26](dashboard/historia-26.md) · [27](dashboard/historia-27.md) · [28](dashboard/historia-28.md) · [29](dashboard/historia-29.md) · [30](dashboard/historia-30.md) · [31](dashboard/historia-31.md)
 
 ### Nierozstrzygnięte z wcześniejszych dni
 
@@ -206,9 +210,16 @@ Historia zdarzeń (770): [1](dashboard/historia-1.md) · [2](dashboard/historia-
 - **zbudujsamdom.pl**: CENA PROMOCYJNA PAKIETU PRO · od 2026-10-27; następna próba: 2026-11-06
 - **dobredomy.pl**: Promocja do –300 zł na wybrane projekty · od 2026-10-28; następna próba: 2026-11-06
 - **mgprojekt.com.pl**: Promocja w MGPROJEKT · od 2026-10-30; następna próba: 2026-11-06
+
+<details><summary>Wcześniejsze wydania tego dnia</summary>
+
+- [05.11.2026 08:52](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-porownanie.html)
+
+</details>
+
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 98/112; stałe karty: 93/112; łącznie 191/224 stron z porównaniem.
+Strony główne: 98/112; stałe karty: 94/112; łącznie 192/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -227,16 +238,16 @@ różnice obrazu bez jednoznacznego opisu: **13 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-31-po.jpg) |
-| [archetyp.pl](dashboard/archetyppl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-32-po.jpg) |
-| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-33-po.jpg) |
-| [domywstylu.pl](dashboard/domywstylupl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-34-po.jpg) |
-| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-35-po.jpg) |
-| [kbprojekt.pl](dashboard/kbprojektpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-38-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-32-po.jpg) |
+| [archetyp.pl](dashboard/archetyppl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-33-po.jpg) |
+| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-34-po.jpg) |
+| [domywstylu.pl](dashboard/domywstylupl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-35-po.jpg) |
+| [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-36-po.jpg) |
+| [kbprojekt.pl](dashboard/kbprojektpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-39-po.jpg) |
 | [kbprojekt.pl](dashboard/kbprojektpl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-23-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-23-po.jpg) |
-| [mtmstyl.com.pl](dashboard/mtmstylcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-39-po.jpg) |
-| [nanostudio.pl](dashboard/nanostudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-dowod-40-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-24-po.jpg) |
+| [mtmstyl.com.pl](dashboard/mtmstylcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-dowod-40-po.jpg) |
+| [nanostudio.pl](dashboard/nanostudiopl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [penthus.pl](dashboard/penthuspl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [planujdom.pl](dashboard/planujdompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [projekty.nordarchitekci.pl](dashboard/projektynordarchitekcipl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -314,7 +325,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Częściowe · 50 zgodnych tekstów | Luka 6 dni · brak porównania z wczoraj |
+| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Częściowe · 49 zgodnych tekstów | Luka 6 dni · brak porównania z wczoraj |
 | [opushome.pl](dashboard/opushomepl.md) · **KZM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [partero.pl](dashboard/parteropl.md) · **ZGE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -343,7 +354,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [nowoczesne-projektydomow.pl](dashboard/nowoczesne-projektydomowpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [projektygebala.com](dashboard/projektygebalacom.md) | 3 zmian · Komunikacja sprzedażowa | 1 zmian · Komunikacja sprzedażowa |
 | [studioatrium.pl](dashboard/studioatriumpl.md) | 2 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
-| [teaprojekt.pl](dashboard/teaprojektpl.md) | 8 zmian · Komunikacja sprzedażowa, Funkcjonalności | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [teaprojekt.pl](dashboard/teaprojektpl.md) | 8 zmian · Komunikacja sprzedażowa, Funkcjonalności | 4 zmian · Komunikacja sprzedażowa, Funkcjonalności |
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |

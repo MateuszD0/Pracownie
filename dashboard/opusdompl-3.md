@@ -50,7 +50,7 @@ Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 | Zmiany wyglądu · Układ · Karmel BL | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#swiper-wrapper-37cf3bcdd3f9137d) |
 | Zmiany wyglądu · Układ · Elewacja od ogrodu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>263 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t072425.955616-0000-aa00fbb6-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t092710.548159-0000-8b2bfd09-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3**
 

@@ -56,7 +56,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 | Zmiany wyglądu · Położenie i rozmiar: Powierzchnia: 167.1 m2 (117 px w lewo, 67 px w górę) | <strong>357</strong> × 32 px; położenie: <strong>903</strong> px od lewej, <strong>325</strong> px od góry | <strong>474</strong> × 32 px; położenie: <strong>786</strong> px od lewej, <strong>258</strong> px od góry | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
 | Zmiany wyglądu · Położenie i rozmiar: Cena projektu: (117 px w lewo, 161 px w górę) | <strong>170</strong> × <strong>29</strong> px; położenie: <strong>903</strong> px od lewej, <strong>595</strong> px od góry | <strong>118</strong> × <strong>23</strong> px; położenie: <strong>786</strong> px od lewej, <strong>434</strong> px od góry | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md)
 

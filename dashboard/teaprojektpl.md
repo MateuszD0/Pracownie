@@ -31,13 +31,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Co zawiera gotowy projekt domu?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://teaprojekt.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?</strong> | [Otwórz stronę](https://teaprojekt.pl/#content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-4-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-4-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 04.11.2026 11:20 | Po · 05.11.2026 10:27 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-4-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -58,13 +58,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Czy mogę wprowadzić zmiany w projekcie domu AR-22 P? | Nie odnotowano w tym odczycie | <strong>Adaptacja i zmiany w projekcie</strong> | [Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#tab-description) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Czym różni się opcja EKO od STANDARD? | Czym różni się opcja EKO od STANDARD<strong> w projekcie domu AR-22 P</strong>? | [Otwórz stronę](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#tab-description) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-5-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-5-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 04.11.2026 11:20 | Po · 05.11.2026 10:27 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -84,5 +84,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-porownanie.html)
 

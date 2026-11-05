@@ -32,13 +32,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 04.11.2026 11:15 | Po · 05.11.2026 08:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -52,7 +52,7 @@ Porównanie: 04.11.2026 11:15 → 05.11.2026 08:24 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-dowod-32-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-32-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-porownanie.html)
 

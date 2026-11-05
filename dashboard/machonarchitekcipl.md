@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 05.11.2026 10:38 (czas polski).
+**Odczyty:** brak odczytu → 05.11.2026 11:43 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
-**Odczyty:** brak odczytu → 05.11.2026 10:38 (czas polski).
+**Odczyty:** brak odczytu → 05.11.2026 11:43 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t093751.123341-0000-cedf8a35-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-porownanie.html)
 

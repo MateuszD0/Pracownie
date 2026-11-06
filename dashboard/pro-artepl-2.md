@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-02 → 2026-11-03**
+**2026-11-05 → 2026-11-06**
 
 **Ten sam projekt:** [TRYPOLIS 7 szkielet drewniany](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-**26 zmian w zapisanym zakresie.**
+**28 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,7 +18,7 @@ Strony porównania: [1](pro-artepl.md) · **2**
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/)
 
-**Odczyty:** 02.11.2026 09:20 → 03.11.2026 10:34 (czas polski).
+**Odczyty:** 05.11.2026 08:29 → 06.11.2026 10:26 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,13 +26,15 @@ Strony porównania: [1](pro-artepl.md) · **2**
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-**Odczyty:** 02.11.2026 09:20 → 03.11.2026 10:34 (czas polski).
+**Odczyty:** 05.11.2026 08:29 → 06.11.2026 10:26 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 7 SZKIELET DREWNIANY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| Zmiany wyglądu · Układ · Komentarze | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany#opinie) |
+| Zmiany wyglądu · Układ · Realizacja projektu domu TRYPOLIS 3 - wnętrza | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-03/2026-11-03-2026-11-03t104422.698720-0000-5ed0e67e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-porownanie.html)
 
 Strony porównania: [1](pro-artepl.md) · **2**
 

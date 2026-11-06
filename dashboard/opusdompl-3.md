@@ -56,7 +56,7 @@ Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3** · [4](opu
 
 Pozostałe strony tego porównania zawierają 42 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t102057.727296-0000-bb5bf113-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · **3** · [4](opusdompl-4.md)
 

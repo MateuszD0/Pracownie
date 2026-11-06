@@ -26,13 +26,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Nagłówek | Gospodarcze <strong>307</strong> | Gospodarcze <strong>308</strong> | [Otwórz stronę](https://www.kupprojekt.pl/#page_content_wrapper) |
 | Komunikacja sprzedażowa · Nagłówek | Garaże wielostanowiskowe <strong>88</strong> | Garaże wielostanowiskowe <strong>89</strong> | [Otwórz stronę](https://www.kupprojekt.pl/#page_content_wrapper) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-20-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-20-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 05.11.2026 08:27 | Po · 06.11.2026 10:25 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-20-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-20-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -48,5 +48,5 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
 

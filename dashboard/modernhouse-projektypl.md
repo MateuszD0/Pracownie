@@ -34,5 +34,5 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | Wielospadowy kryty dachówką ceramiczną, odwodnienie systemowe GALECO | Wielospadowy kryty dachówką ceramiczną<strong> Röben Bergamo</strong>, odwodnienie systemowe GALECO | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
 

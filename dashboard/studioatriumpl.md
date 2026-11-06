@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Układ · WSPIERAMY POTRZEBUJĄCYCH | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>142 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.studioatrium.pl/) |
 | Zmiany wyglądu · Rozmiar: Projekt Siena w budowie | 426 × <strong>284</strong> px; położenie: 852 px od lewej, 14520 px od góry | 426 × <strong>426</strong> px; położenie: 852 px od lewej, 14520 px od góry | [Otwórz stronę](https://www.studioatrium.pl/#real-grid) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-35-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-35-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 05.11.2026 08:30 | Po · 06.11.2026 10:27 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-dowod-35-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-35-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-dowod-35-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -100,5 +100,5 @@ Porównanie: 05.11.2026 08:30 → 06.11.2026 10:27 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
 

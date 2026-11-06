@@ -57,7 +57,7 @@ Strony porównania: [1](planujdompl.md) · **2** · [3](planujdompl-3.md)
 | Zmiany wyglądu · Układ · Elewacja frontowa | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#elewacja-frontowa) |
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#przekroj) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t092140.988259-0000-007eccdb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
 
 Strony porównania: [1](planujdompl.md) · **2** · [3](planujdompl-3.md)
 

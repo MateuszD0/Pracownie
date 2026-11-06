@@ -57,7 +57,7 @@ Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md) · [4](opu
 | Komunikacja sprzedażowa · Baner · Karta projektu · Dodaj do koszyka | <strong>Filemon z garażem- L</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/) |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | Strona główna &gt;&gt; <strong>Produkty</strong> &gt;&gt; Ami II | Strona główna &gt;&gt; <strong>Projekty domów</strong> &gt;&gt; Ami II | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#breadcrumbs) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t102057.727296-0000-bb5bf113-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · **2** · [3](opusdompl-3.md) · [4](opusdompl-4.md)
 

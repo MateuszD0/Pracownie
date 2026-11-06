@@ -44,7 +44,7 @@ Pozostałe strony tego porównania zawierają 46 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Idź do slajdu 6 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>112 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#content) |
 | Zmiany wyglądu · Układ · Elewacja lewa | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>89 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://opusdom.pl/produkt/ami-ii/#gallery-1) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t100958.008291-0000-7de0f9cd-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t102057.727296-0000-bb5bf113-porownanie.html)
 
 Strony porównania: [1](opusdompl.md) · [2](opusdompl-2.md) · [3](opusdompl-3.md) · **4**
 

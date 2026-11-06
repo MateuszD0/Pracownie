@@ -8,11 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| teaprojekt.pl | Do każdego projektu dołączamy oficjalne, bezpłatne oświadczenie z szerokim zakresem zgody na modyfikacje. Twój lokalny architekt adaptujący może dostosować projekt do warunków gruntowych na działce, zmienić układ ścian działowych, układ okien czy technologię materiałową według Twoich wytycznych. | Obecna w zapisie · 05.11.2026 10:27<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
-| teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 05.11.2026 10:27<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
-| teaprojekt.pl | Szczegóły : Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów dla opcji Standard i EKO | Obecna w zapisie · 05.11.2026 10:27<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
-| teaprojekt.pl | Jak szybko otrzymam projekt i czy mogę zamówić kosztorys? | Obecna w zapisie · 05.11.2026 10:27<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
-| teaprojekt.pl | bezpłatna zgoda na zmiany zmiany w projekcie &gt;&gt; | Obecna w zapisie · 05.11.2026 10:27<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Do każdego projektu dołączamy oficjalne, bezpłatne oświadczenie z szerokim zakresem zgody na modyfikacje. Twój lokalny architekt adaptujący może dostosować projekt do warunków gruntowych na działce, zmienić układ ścian działowych, układ okien czy technologię materiałową według Twoich wytycznych. | Obecna w zapisie · 06.11.2026 11:21<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 06.11.2026 11:21<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Szczegóły : Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów dla opcji Standard i EKO | Obecna w zapisie · 06.11.2026 11:21<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Jak szybko otrzymam projekt i czy mogę zamówić kosztorys? | Obecna w zapisie · 06.11.2026 11:21<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | bezpłatna zgoda na zmiany zmiany w projekcie &gt;&gt; | Obecna w zapisie · 06.11.2026 11:21<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | uarchitekta.pl | Będziemy informować o nowych projektach, promocjach i aktualnościach | Obecna w zapisie · 06.11.2026 10:27<br>[Źródło](https://www.uarchitekta.pl/) |
 | uarchitekta.pl | PROJEKT DOMU Z KOSZTORYSEM – CO ZAWIERA I JAK KONTROLOWAĆ BUDŻET? | Obecna w zapisie · 06.11.2026 10:27<br>[Źródło](https://www.uarchitekta.pl/) |
 | uarchitekta.pl | Kosztorys do projektu pomaga porównywać rozwiązania i planować finansowanie, ale nie jest gwarancją ostatecznej ceny budowy. Zobacz, jak czytać jego zakres, kiedy go aktualizować i jak wykorzyst | Obecna w zapisie · 06.11.2026 10:27<br>[Źródło](https://www.uarchitekta.pl/) |

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-05 → 2026-11-06**
+**2026-11-06 → 2026-11-07**
 
 **Ten sam projekt:** [Eco 53 - ECODOMY](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**9 zmian w zapisanym zakresie.**
+**4 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,24 +16,24 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://ecodomy.pl/)
 
-**Odczyty:** 05.11.2026 08:26 → 06.11.2026 10:24 (czas polski).
+**Odczyty:** 06.11.2026 10:24 → 07.11.2026 09:46 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-06%2Fecodomy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-07%2Fecodomy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Wiatrołap – małe pomieszczenie, duże znaczenie</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Jak zaplanować komunikację na osiedlu domów jednorodzinnych?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Czytaj więcej...</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Wiatrołap – małe pomieszczenie, duże znaczenie</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Jak zaplanować komunikację na osiedlu domów jednorodzinnych?</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Czytaj więcej...</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-31-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-11-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 05.11.2026 08:26 | Po · 06.11.2026 10:24 |
+| Przed · 06.11.2026 10:24 | Po · 07.11.2026 09:46 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-31-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-11-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -45,7 +45,7 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- 29 wrzesień 2026 → brak
+- brak → 29 wrzesień 2026
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -55,17 +55,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**Odczyty:** 05.11.2026 08:27 → 06.11.2026 10:24 (czas polski).
+**Odczyty:** 06.11.2026 10:24 → 07.11.2026 09:46 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-06%2Fecodomy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2Fnasze-projekty%2Fjednorodzinne%2Feco-53%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-07%2Fecodomy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2Fnasze-projekty%2Fjednorodzinne%2Feco-53%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>SYTUACJA NA DZIAŁCE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>PRZEKRÓJ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ZUŻYCIE ENERGII</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>SZACUNKOWE KOSZTY BUDOWY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>TECHNOLOGIA I KONSTRUKCJA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-porownanie.html)
 

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-05 → 2026-11-06**
+**2026-11-06 → 2026-11-07**
 
 **Ten sam projekt:** [Dom drewniany: Anegdota](https://www.drewnex.biz/domy-drewniane-caloroczne/anegdota/)
 
@@ -16,17 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.drewnex.biz/)
 
-**Odczyty:** 02.11.2026 09:18 → 06.11.2026 11:43 (czas polski).
+**Odczyty:** 02.11.2026 09:18 → 07.11.2026 09:46 (czas polski).
 
-**Luka 4 dni · brak porównania z wczoraj**
+**Luka 5 dni · brak porównania z wczoraj**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.drewnex.biz/domy-drewniane-caloroczne/anegdota/)
 
-**Odczyty:** 02.11.2026 09:18 → 06.11.2026 11:43 (czas polski).
+**Odczyty:** 02.11.2026 09:18 → 07.11.2026 09:46 (czas polski).
 
-**Luka 4 dni · brak porównania z wczoraj**
+**Luka 5 dni · brak porównania z wczoraj**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-porownanie.html)
 

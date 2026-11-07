@@ -6,31 +6,59 @@
 
 [archiportal.pl — wszystkie odczyty](archiportalpl.md)
 
-## Zdarzenie 5fb78be98fcf387c
+## Zdarzenie 8bfcba2ff60bc33d
 
-**„Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”.**
+**W nowym zapisie nie ma komunikatu: „Dom parterowy z wbudowanym garażem i wysokim sufitem nad strefą dzienną.”.**
 
 **Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | Tracja 11 Strop drewniany wersja podstawowa 4 199 <strong>zł4 099 </strong>zł | Tracja 11 Strop drewniany wersja podstawowa 4 199 zł | [Otwórz stronę](https://archiportal.pl/projekt-tracja11-sd) |
+| Komunikacja sprzedażowa · Baner | <strong>Dom parterowy z wbudowanym garażem i wysokim sufitem nad strefą dzienną.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://archiportal.pl/) |
 
-[Karta projektu](https://archiportal.pl/projekt-tracja11-sd)
+[Strona główna](https://archiportal.pl/)
 
-Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 05.11.2026 08:25 | Po · 06.11.2026 10:22 |
+| Przed · 06.11.2026 10:22 | Po · 07.11.2026 09:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-25-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-7-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F5fb78be98fcf387c%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%824+099+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2Fprojekt-tracja11-sd%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F5fb78be98fcf387c%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%824+099+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2Fprojekt-tracja11-sd%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F5fb78be98fcf387c%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%824+099+z%C5%82%E2%80%9D+%E2%86%92+%E2%80%9ETracja+11+Strop+drewniany+wersja+podstawowa+4+199+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2Fprojekt-tracja11-sd%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2F8bfcba2ff60bc33d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDom+parterowy+z+wbudowanym+gara%C5%BCem+i+wysokim+sufitem+nad+stref%C4%85+dzienn%C4%85.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2F8bfcba2ff60bc33d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDom+parterowy+z+wbudowanym+gara%C5%BCem+i+wysokim+sufitem+nad+stref%C4%85+dzienn%C4%85.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2F8bfcba2ff60bc33d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDom+parterowy+z+wbudowanym+gara%C5%BCem+i+wysokim+sufitem+nad+stref%C4%85+dzienn%C4%85.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie d8c1a358c27fc64a
+
+**Pojawił się komunikat: „Dwurodzinny budynek z wbudowanym garażem.”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dwurodzinny budynek z wbudowanym garażem.</strong> | [Otwórz stronę](https://archiportal.pl/#myCarousel) |
+
+[Strona główna](https://archiportal.pl/#myCarousel)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 06.11.2026 10:22 | Po · 07.11.2026 09:45 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t084431.382514-0000-8796f116-dowod-7-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2Fd8c1a358c27fc64a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDwurodzinny+budynek+z+wbudowanym+gara%C5%BCem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%23myCarousel%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2Fd8c1a358c27fc64a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDwurodzinny+budynek+z+wbudowanym+gara%C5%BCem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%23myCarousel%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-07%2Fd8c1a358c27fc64a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+archiportal.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDwurodzinny+budynek+z+wbudowanym+gara%C5%BCem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchiportal.pl%2F%23myCarousel%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

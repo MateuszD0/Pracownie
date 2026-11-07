@@ -30,13 +30,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Nagłówek | <strong>BLIŹNIACZE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
 | Komunikacja sprzedażowa · Nagłówek | <strong>BEZ GARAŻU</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t092334.409272-0000-6537ce59-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t092334.409272-0000-6537ce59-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 06.11.2026 10:27 | Po · 07.11.2026 09:49 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t092334.409272-0000-6537ce59-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t092334.409272-0000-6537ce59-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -76,5 +76,5 @@ Porównanie: 06.11.2026 10:27 → 07.11.2026 09:49 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t092334.409272-0000-6537ce59-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-porownanie.html)
 

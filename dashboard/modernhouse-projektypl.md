@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-06 → 2026-11-07**
+**2026-11-07 → 2026-11-08**
 
 **Ten sam projekt:** [NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**6 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,43 +16,52 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://modernhouse-projekty.pl/)
 
-**Odczyty:** 06.11.2026 10:25 → 07.11.2026 09:47 (czas polski).
+**Odczyty:** 07.11.2026 09:47 → 08.11.2026 07:46 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-07%2Fmodernhouse-projekty.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fmodernhouse-projekty.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fmodernhouse-projekty.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fmodernhouse-projekty.pl%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Zmiany wyglądu · Kolor tła: Slajd 2 | <strong>przezroczysty</strong> | <strong>#D44222</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#mdh-page) |
+| Zmiany wyglądu · Układ · 4.Izabela Jarosz architekt scaled 1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>337 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#swiper-wrapper-d54d9ae0115783be) |
+| Zmiany wyglądu · Układ · 2.Magdalena Jozwik Dyrektor Zarzadzajacy scaled 1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>337 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#swiper-wrapper-d54d9ae0115783be) |
+| Zmiany wyglądu · Układ · 1.Jacek Niebieszczanski CEO glowny architekt 1 scaled 1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>337 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#swiper-wrapper-d54d9ae0115783be) |
+| Zmiany wyglądu · Kolor tła: Slajd 1 | <strong>#D44222</strong> | <strong>przezroczysty</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#mdh-page) |
+| Zmiany wyglądu · Układ · 3.Agnieszka Furtek architekt scaled 1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>337 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/#swiper-wrapper-d54d9ae0115783be) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-23-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-23-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 06.11.2026 10:25 | Po · 07.11.2026 09:47 |
+| Przed · 07.11.2026 09:47 | Po · 08.11.2026 07:46 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-23-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-23-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-### Grafika i wygląd — różnica do obejrzenia
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
 
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 
-Porównanie: 06.11.2026 10:25 → 07.11.2026 09:47 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Przykłady z zapisów:
 
-[Otwórz stronę](https://modernhouse-projekty.pl/)
+- brak → https://modernhouse-projekty.pl/wp-content/uploads/2025/03/5.Agata-Zychal-asystentka-architekta-scaled-1-1366x2048.webp
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-dowod-39-po.jpg)
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
-**Odczyty:** 06.11.2026 10:25 → 07.11.2026 09:48 (czas polski).
+**Odczyty:** 07.11.2026 09:48 → 08.11.2026 07:46 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-07%2Fmodernhouse-projekty.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fmodernhouse-projekty.pl%2Fprojekt%2Fnewhouse-761%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fmodernhouse-projekty.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fmodernhouse-projekty.pl%2Fprojekt%2Fnewhouse-761%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-07/2026-11-07-2026-11-07t095452.457526-0000-b0a49e21-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-porownanie.html)
 

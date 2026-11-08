@@ -6,31 +6,115 @@
 
 [planujdom.pl — wszystkie odczyty](planujdompl.md)
 
-## Zdarzenie 43c70171f5aa3a89
+## Zdarzenie 0f89367465794247
 
-**Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy”**
+**Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”.**
 
-**Do sprawdzenia** · Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia.
+**Zaobserwowana zmiana** · —
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Baner | <strong>WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | Nie odnotowano w tym odczycie | <strong>Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.</strong> | [Otwórz stronę](https://planujdom.pl/#content) |
 
-[Strona główna](https://planujdom.pl/) · [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
+[Strona główna](https://planujdom.pl/#content)
 
-Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 05.11.2026 08:29 | Po · 06.11.2026 10:26 |
+| Przed · 07.11.2026 10:00 | Po · 08.11.2026 08:00 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-06/2026-11-06-2026-11-06t104248.329269-0000-a2df9de1-dowod-11-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F43c70171f5aa3a89%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F43c70171f5aa3a89%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-06%2F43c70171f5aa3a89%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2F0f89367465794247%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProjektant+godny+polecenia%2C+szybki+i+solidny.+Jestem+zadowolona+ze+wsp%C3%B3%C5%82pracy.Polecam+z+ca%C5%82ego+serca.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2F0f89367465794247%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProjektant+godny+polecenia%2C+szybki+i+solidny.+Jestem+zadowolona+ze+wsp%C3%B3%C5%82pracy.Polecam+z+ca%C5%82ego+serca.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2F0f89367465794247%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EProjektant+godny+polecenia%2C+szybki+i+solidny.+Jestem+zadowolona+ze+wsp%C3%B3%C5%82pracy.Polecam+z+ca%C5%82ego+serca.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie b065d81cb1bc1014
+
+**Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | Nie odnotowano w tym odczycie | <strong>Bardzo fachowa i uczciwa pomoc. Godna polecenia firma</strong> | [Otwórz stronę](https://planujdom.pl/#content) |
+
+[Strona główna](https://planujdom.pl/#content)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 07.11.2026 10:00 | Po · 08.11.2026 08:00 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fb065d81cb1bc1014%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+fachowa+i+uczciwa+pomoc.+Godna+polecenia+firma%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fb065d81cb1bc1014%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+fachowa+i+uczciwa+pomoc.+Godna+polecenia+firma%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fb065d81cb1bc1014%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+fachowa+i+uczciwa+pomoc.+Godna+polecenia+firma%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie dd9714f8b3cc3220
+
+**Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | Nie odnotowano w tym odczycie | <strong>Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem</strong> | [Otwórz stronę](https://planujdom.pl/#content) |
+
+[Strona główna](https://planujdom.pl/#content)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 07.11.2026 10:00 | Po · 08.11.2026 08:00 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fdd9714f8b3cc3220%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalna+obs%C5%82uga.+Architekt+z+du%C5%BC%C4%85+wiedz%C4%85+i+do%C5%9Bwiadczeniem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fdd9714f8b3cc3220%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalna+obs%C5%82uga.+Architekt+z+du%C5%BC%C4%85+wiedz%C4%85+i+do%C5%9Bwiadczeniem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Fdd9714f8b3cc3220%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalna+obs%C5%82uga.+Architekt+z+du%C5%BC%C4%85+wiedz%C4%85+i+do%C5%9Bwiadczeniem%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie f75d4f812af88e25
+
+**Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”.**
+
+**Zaobserwowana zmiana** · —
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | Nie odnotowano w tym odczycie | <strong>Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam</strong> | [Otwórz stronę](https://planujdom.pl/#content) |
+
+[Strona główna](https://planujdom.pl/#content)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 07.11.2026 10:00 | Po · 08.11.2026 08:00 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t064241.424746-0000-99178637-dowod-8-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Ff75d4f812af88e25%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalne+i+konkretne+podej%C5%9Bcie+do+klienta.+Szybki+kontakt.+Polecam%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Ff75d4f812af88e25%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalne+i+konkretne+podej%C5%9Bcie+do+klienta.+Szybki+kontakt.+Polecam%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-08%2Ff75d4f812af88e25%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBardzo+profesjonalne+i+konkretne+podej%C5%9Bcie+do+klienta.+Szybki+kontakt.+Polecam%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23content%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

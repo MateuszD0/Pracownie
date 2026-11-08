@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hbstudio.pl | Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamówienia który znajduje się na naszej stronie internetowej. Przy zamawianiu projektu prosimy Państwa o podanie: imienia i nazwiska (bądź nazwy firmy; ulicy, numeru domu, kodu pocztow… | Obecna w zapisie · 08.11.2026 10:06<br>[Źródło](https://hbstudio.pl/) |
 | hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 07.11.2026 10:13<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 08.11.2026 07:45<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 08.11.2026 07:45<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38206\_articles\_mainSection.jpeg | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/) |
-| lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |

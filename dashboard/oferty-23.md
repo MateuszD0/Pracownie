@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | 10% RABATU | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | po uruchomieniu kredytu na budowę domu, dokonamy częściowego zwrotu kosztów zakupu naszego projektu na zasadach opisanych w Regulaminie promocji. | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl | PROJEKTY DOMÓW Z KOSZTORYSEM | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztów budowy domów. Takie rozwiązanie świetnie sprawdza się w przypadku Inwestorów, którym zależy na dokładnej kontroli budżetu. Jest to również możliwość do lepszego rozplanowania etapów budowy i płynnego zarządzania zapleczem finansowym. Jeżeli budujesz dom po r… | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | Zarejestruj się i korzystaj z dogodnych narzędzi wszędzie gdzie jesteś. Będziemy także zawiadamiać Cię o rabatach i promocjach. Dodatkowo otrzymujesz od nas 100 zł na zakup projektu domu. | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |
-| studioatrium.pl | bezpłatną zgodę na zmiany | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |

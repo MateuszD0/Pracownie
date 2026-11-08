@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| postawdom24.pl | Dostawa i Dodatki | Obecna w zapisie · 08.11.2026 07:47 · 08.11.2026 07:47<br>[Źródło](https://postawdom24.pl/) · [Źródło](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416) |
 | postawdom24.pl | Prezentujemy gotowe projekty domów jednorodzinnych. Nasze propozycje dostępne są z kosztorysem szacunkowym, uwzględniającym przewidywaną kwotę wykonania obiektu w stanie surowym zamkniętym, deweloperskim lub pod klucz. Prezentujemy starannie opracowane koncepcje budynków jednorodzinnych oraz dwurodzinnych i bliźniaków, rezydencji, obiektów agroturystycznych i usługowych, a także altan, budynków g… | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://postawdom24.pl/) |
 | pracowniaprojektowa.info | 03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.pracowniaprojektowa.info/) |
 | pracowniaprojektowa.info | Cieszymy się, że poświęcasz swój czas naszej ofercie. Chętnie udzielimy Ci szczegółowych odpowiedzi na pytania dotyczące prezentowanego projektu. Dostępne są również rysunki szczegółowe, które udostępniamy bezpłatnie. Jeśli chciałbyś wprowadzić w projekcie zmiany, chętnie się tego podejmiemy. Jeśli masz wątpliwości co do możliwości wybudowania prezentowanego projektu na Twojej działce, możemy wyk… | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.pracowniaprojektowa.info/Projekt_garazu_BK10) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | kosztorys | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorys — 30 zł | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Dla każdego projektu możesz kupić kompletny pakiet: kosztorys inwestorski PDF, wersję uproszczoną oraz zestawienie materiałów XLS. | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Zobacz wszystkie kosztorysy → | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://www.projektdomudo100m2.pl/) |

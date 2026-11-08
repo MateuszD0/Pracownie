@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| pollio.pl | Energooszczędna nowoczesna stodoła zrealizowana w surowym klimacie Islandii. Konstrukcja wzmocniona na wiatry do 160 km/h, pokrycie blachą na rąbek, izolacja PIR i trzyszybowe pakiety termoizolacyjne. | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | W cenie obsługi | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | ZAMÓW PRECYZYJNY KOSZTORYS → | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | Nie sprzedajemy projektów na papierze do samodzielnej budowy. Wznosimy domy w standardzie generalnego wykonawstwa — pełna dokumentacja, adaptacja i formalności za 0 zł w cenie umowy budowlanej z 10-letnią pisemną gwarancją. | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://pollio.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | Pełna elastyczność materiałowa dla inwestora: Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego — nasi architekci i inżynierowie bezpłatnie uwzględnią Twoje wytyczne w projekcie i kosztorysie. | Obecna w zapisie · 08.11.2026 07:47<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | polskiedomki.pl | Największy w Polsce pakiet rabatów i dodatków! | Obecna w zapisie · 08.11.2026 07:47 · 08.11.2026 07:47<br>[Źródło](https://www.polskiedomki.pl/) · [Źródło](https://www.polskiedomki.pl/produkt/lk1322_4124.html) |
 | polskiedomki.pl | Pakiet rabatów i dodatków | Obecna w zapisie · 08.11.2026 07:47 · 08.11.2026 07:47<br>[Źródło](https://www.polskiedomki.pl/) · [Źródło](https://www.polskiedomki.pl/produkt/lk1322_4124.html) |
-| postawdom24.pl | Dostawa i Dodatki | Obecna w zapisie · 08.11.2026 07:47 · 08.11.2026 07:47<br>[Źródło](https://postawdom24.pl/) · [Źródło](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416) |

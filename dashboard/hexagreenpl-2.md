@@ -66,7 +66,7 @@ Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4]
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t085738.650290-0000-d957caa0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-porownanie.html)
 
 Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4](hexagreenpl-4.md)
 

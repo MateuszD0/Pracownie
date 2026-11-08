@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła ? 750 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet odkurzacz centralny ? 550 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet płaszcz wodny ? 550 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet instalacja solarna ? 550 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Każdy gotowy projekt domu zawiera katalog dopuszczalnych zmiany w projekcie niewymagających dodatkowej zgody projektanta. Jeżeli chcesz wprowadzić zmiany, których nie ma na poniższej liście skontaktuj się z nami a wystawimy Ci bezpłatnie dodatkową zgodę na zmiany. | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/) |
 | modernhouse-projekty.pl | Aby skorzystać ze zwrotu lub wymiany, należy w wymaganym terminie poinformować nas o swojej decyzji drogą mailową, a następnie postępować zgodnie z procedurą opisaną w regulaminie oraz formularzu zwrotu lub wymiany. Kosztorysy przekazywane w formie elektronicznej nie podlegają zwrotowi. | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/) |
 | modernhouse-projekty.pl | Zyskaj 5% rabatu w 2 minuty | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

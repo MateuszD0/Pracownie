@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Wszystko, czego potrzebujesz – w cenie projektu! | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](http://www.mtmstyl.com.pl/) |
-| mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](http://www.mtmstyl.com.pl/) |

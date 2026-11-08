@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyka.pl | Dziennik budowy 1,- Tablica budowy 1,- Projekt wentylacji mechanicznej 1200,- Projekt pompy ciepła 800,- Kotłownia na paliwo stałe 550,- Pakiet szamba szczelnego 300,- Przydomowa oczyszczalnia ścieków 500,- Kosztorys inwestorski 550,- Dodatkowy papierowy egzemplarz projektu 600,- | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://projektyka.pl/projekty/ka288) |
 | projektyprestige.pl | PROMOCJA - MINUS 100 PLN! | Obecna w zapisie · 08.11.2026 07:48 · 08.11.2026 07:48<br>[Źródło](https://projektyprestige.pl/) · [Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
 | projektyprestige.pl | Przy składaniu zamówienia na projekt domu istnieje możliwość zamówienia szczegółowego kosztorysu. Dodatkowy koszt takiego opracowania wynosi od 400 do 600 zł brutto. Zamawiając projekt wystarczy zgłosić chęć zamówienia kosztorysu (wpisując to w polu „komentarz”). | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
 | projektyzwizja.pl | BEZPŁATNA ANALIZA DZIAŁKI | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | W cenie projektu 3 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/) |
 | sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | PDF · bezpłatnie | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

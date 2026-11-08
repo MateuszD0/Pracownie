@@ -29,13 +29,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom parterowy z garażem</strong> | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 | Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki20</strong>,<strong>3</strong> m | Min. szer.<strong>działki22</strong>,<strong>0</strong> m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-6-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-6-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 07.11.2026 09:46 | Po · 08.11.2026 07:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-6-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -69,5 +69,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-porownanie.html)
 

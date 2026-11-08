@@ -26,13 +26,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Aksamitka dr-S</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.domywstylu.pl/) |
 | Zmiany wyglądu · Rozmiar: baner | <strong>145</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | <strong>77</strong> × 30 px; położenie: 37 px od lewej, 461 px od góry | [Otwórz stronę](https://www.domywstylu.pl/#root-main) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-12-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-12-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 07.11.2026 09:46 | Po · 08.11.2026 07:44 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-dowod-12-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -62,5 +62,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t090633.408591-0000-13daf5ac-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-porownanie.html)
 

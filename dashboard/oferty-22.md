@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | PDF · bezpłatnie | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.slonecznedomy.pl/) |

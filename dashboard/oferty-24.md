@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl | bezpłatną zgodę na zmiany | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | darmowe dodatki o wartości 1000zł | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu. | Obecna w zapisie · 08.11.2026 07:48 · 08.11.2026 07:49<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
 | studioatrium.pl | Dodatki do projektów | Obecna w zapisie · 08.11.2026 07:48 · 08.11.2026 07:49<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl | Podaj swój e-mail i zasubskrybuj, jeśli chcesz otrzymywać informację o nadchodzących promocjach i nowych projektach. | Obecna w zapisie · 08.11.2026 07:48<br>[Źródło](https://teaprojekt.pl/) |
 | teaprojekt.pl | 3 egzemplarze typowego wielobranżowego projektu technicznego (architektura, konstrukcja, instalacje wewnętrzne). To najważniejsza część przeznaczona dla Twojego kierownika budowy i ekip wykonawczych. Zawiera pełne rysunki konstrukcyjne oraz instalacyjne dostosowane do wybranego przez Ciebie pakietu (STANDARD lub EKO). | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Do każdego projektu dołączamy oficjalne, bezpłatne oświadczenie z szerokim zakresem zgody na modyfikacje. Twój lokalny architekt adaptujący może dostosować projekt do warunków gruntowych na działce, zmienić układ ścian działowych, układ okien czy technologię materiałową według Twoich wytycznych. | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |

@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy z kosztorysem | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy jednorodzinne z kosztorysem | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl | Jako autorska pracownia architektoniczna możemy zagwarantować najniższe ceny projektów. Dodatkowo, do każdego zamówionego bezpośrednio projektu domu dołączamy bezpłatnie zestaw dodatków o wartości ponad 2000 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe ? 750 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna ? 550 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet klimatyzacja w domu ? 550 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła ? 750 zł | Obecna w zapisie · 08.11.2026 07:46<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

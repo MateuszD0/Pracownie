@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Szczegóły : Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów dla opcji Standard i EKO | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Jak szybko otrzymam projekt i czy mogę zamówić kosztorys? | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | bezpłatna zgoda na zmiany zmiany w projekcie &gt;&gt; | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl | Dla kogo jest ten pakiet? | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Obie instrukcje otrzymujesz w cenie pakietu. | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Czy pakiet jest dla osoby bez doświadczenia budowlanego? | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| zbudujsamdom.pl | Ten pakiet został przygotowany dla osób planujących budowę domu 70 m², które chcą porównać dwie popularne technologie budowy i mieć pod ręką praktyczne materiały pomocne podczas realizacji. | Obecna w zapisie · 08.11.2026 07:49<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |

@@ -14,10 +14,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |

@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [KP-101](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/)
 
-**1 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -22,13 +22,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:45 | Po · 09.11.2026 16:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -55,7 +55,7 @@ Porównanie: 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://kowalscypracownia.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-31-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-30-po.jpg)
 
 ## Karta projektu
 
@@ -65,25 +65,24 @@ Porównanie: 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski). Różnica zrzu
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fkowalscypracownia.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fkowalscypracownia.pl%2Fproduct%2Fgotowy-projekt-domu-parterowego-kp-101%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodatkowe informacje | <strong>ZGADZAM SIĘ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-10-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 08.11.2026 07:56 | Po · 09.11.2026 16:04 |
+| Przed · 08.11.2026 07:46 | Po · 09.11.2026 16:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-10-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
 
 - Animowany lub niestabilny tekst; nie potwierdzono zmiany komunikatu.
+- Kontrolka zgód lub ustawień sesji; nie zmiana komunikacji oferty.
 
 Przykłady z zapisów:
 
@@ -103,7 +102,7 @@ Porównanie: 08.11.2026 07:46 → 09.11.2026 16:03 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/)
 
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-dowod-31-po.jpg)
 
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t151709.134734-0000-format-4c5cba6d-porownanie.html)
 

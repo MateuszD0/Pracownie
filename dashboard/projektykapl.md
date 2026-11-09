@@ -30,13 +30,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Nagłówek | <strong>BLIŹNIACZE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
 | Komunikacja sprzedażowa · Nagłówek | <strong>LETNISKOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-16-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-12-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:48 | Po · 09.11.2026 10:49 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-16-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-12-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -66,6 +66,18 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 08.11.2026 07:48 | Po · 09.11.2026 10:49 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
@@ -74,7 +86,7 @@ Porównanie: 08.11.2026 07:48 → 09.11.2026 10:49 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://projektyka.pl/projekty/ka288)
 
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-38-po.jpg)
 
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-porownanie.html)
 

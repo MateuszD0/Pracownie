@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | Pojawił się komunikat: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-30 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
 | mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |

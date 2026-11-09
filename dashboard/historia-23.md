@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
 | dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
 | domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
 | sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom stodoła: wady, zalety i koszt budowy w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |

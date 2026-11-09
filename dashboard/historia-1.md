@@ -17,6 +17,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
@@ -24,12 +25,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Dodatkowo Pani Kamila pomogła stworzyć garaż oraz dodatkowe zadaszenia i pozwolenie na budowę. Jestem osobą, która chce wiedzieć jak najwięcej i zadaje pytania, szuka informacji.…”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |

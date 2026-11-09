@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o schemacie 2+ 2 lub 2+3.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |

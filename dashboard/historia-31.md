@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Nowości”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki i miejscowego planu.” | Sprawdzono w serwisie |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Oświadczenie z szerokim zakresem zmian dla architekta adaptującego – w cenie projektu.” | Sprawdzono w serwisie |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czym różni się opcja STANDARD od EKO?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Wybór projektu - parametry”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |

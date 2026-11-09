@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
+| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł”. W sprawdzonym serwisie znaleziono również: „GRATIS” | Do sprawdzenia |
 | archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zgoda na zmiany gratis” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |

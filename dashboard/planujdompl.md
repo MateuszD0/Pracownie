@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu PLANUJDOM 072](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
 
-**8 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,30 +16,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://planujdom.pl/)
 
-**Odczyty:** 08.11.2026 07:47 → 09.11.2026 10:48 (czas polski).
+**Odczyty:** 08.11.2026 07:47 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fplanujdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo fachowa i uczciwa pomoc. Godna polecenia firma</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Edyta Kowalczyk</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Wioletta Winiarska</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Anna Bukalska</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Tomasz Ośka</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-8-przed.jpg)
+<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Treść opinii klienta; nie jest deklaracją warunków oferty pracowni.
 
-| Przed · 08.11.2026 08:00 | Po · 09.11.2026 11:01 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-8-przed.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- Bardzo fachowa i uczciwa pomoc. Godna polecenia firma → brak
+- Edyta Kowalczyk → brak
+- Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
@@ -47,11 +40,11 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 [Otwórz stronę źródłową](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
 
-**Odczyty:** 08.11.2026 07:47 → 09.11.2026 10:48 (czas polski).
+**Odczyty:** 08.11.2026 07:47 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fplanujdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2Fprojekty-domow%2Fprojekt-domu-d-072%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-porownanie.html)
 

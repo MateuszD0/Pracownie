@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-06 | „salon + 4 pokoje garaż: brak 120.00 m²” → „salon + 3 pokoje garaż: brak 88.00 m²”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-06 | „D237D WT2021 wersja drewniana” → „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-06 | „D295D WT2021 wersja drewniana” → „D421 wersja drewniana”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-06 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
-| archipelag.pl · 2026-11-06 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |

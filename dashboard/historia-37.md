@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domdlaciebie.com.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
 | domato.pl · 2026-10-28 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
 | dobredomy.pl · 2026-10-28 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | dobredomy.pl · 2026-10-28 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Tylko do poniedziałku 26.10.2026, godz. 23:59”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | „Zobacz, jak może wyglądać gotowy dom 70 m²” → „Otrzymujesz komplet instrukcji budowy”. | Zaobserwowana zmiana |

@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
 | kupprojekt.pl · 2026-11-05 | „Ciężarowe i dostawcze 148” → „Ciężarowe i dostawcze 149”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO PRAC\|”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | dompp.pl · 2026-11-05 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
 | dominanta.pl · 2026-11-05 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-05 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |

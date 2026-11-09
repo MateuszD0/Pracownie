@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Mona jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpły…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Sadyba wersja D jest powiększoną wersją popularnej Sadyby z salonem doświetlonym od strony frontowej, co pozwala zrealizować projekt również na działce z wjazdem od południa. Tak…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kbprojekt.pl · 2026-11-01 | „Tak niską cenę gwarantujemy do 31 października 2026” → „Tak niską cenę gwarantujemy do 10 listopada 2026”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-11-01 | „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |

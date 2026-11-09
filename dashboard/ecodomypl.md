@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Eco 53 - ECODOMY](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**4 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,36 +16,20 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://ecodomy.pl/)
 
-**Odczyty:** 08.11.2026 07:45 → 09.11.2026 10:46 (czas polski).
+**Odczyty:** 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fecodomy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Wiatrołap – małe pomieszczenie, duże znaczenie</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Jak zaplanować komunikację na osiedlu domów jednorodzinnych?</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Czytaj więcej...</strong> | [Otwórz stronę](https://ecodomy.pl/#sppb-addon-1613120340836) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-7-przed.jpg)
+<details><summary>Obserwacje pomocnicze (9) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 08.11.2026 07:45 | Po · 09.11.2026 10:46 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-7-przed.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (5) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
+- Artykuł lub poradnik; obserwacja treści redakcyjnej, nie zmiana warunków oferty.
 
 Przykłady z zapisów:
 
-- zadowolonych Klientów → brak
+- realizacji → brak
 - zaprzyjaźnionych Partnerów → brak
 - gotowych projektów → brak
 
@@ -57,11 +41,24 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**Odczyty:** 08.11.2026 07:45 → 09.11.2026 10:46 (czas polski).
+**Odczyty:** 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fecodomy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2Fnasze-projekty%2Fjednorodzinne%2Feco-53%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-porownanie.html)
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
+
+Przykłady z zapisów:
+
+- RZUT PARTERU → brak
+- ELEWACJE → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-porownanie.html)
 

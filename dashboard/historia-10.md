@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-11-05 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
+| projektygebala.com · 2026-11-05 | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | Zaobserwowana zmiana |
 | projektygebala.com · 2026-11-05 | Pojawił się komunikat: „Jak to wygląda krok po kroku”. | Zaobserwowana zmiana |
 | projektygebala.com · 2026-11-05 | „Dostajesz komplet dokumentacji. Prowadzimy sprawy urzędowe do uzyskania pozwolenia na budowę.” → „Dostajesz komplet dokumentacji. Na podstawie pełnomocnictwa prowadzimy sprawy urzędowe aż do uzyskania pozwol…”. | Zaobserwowana zmiana |
 | projektygebala.com · 2026-11-05 | „Jak powstaje projekt na zamówienie” → „Jak powstaje projekt indywidualny”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | Pojawił się komunikat: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |

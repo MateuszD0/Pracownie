@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „STANDARD PASYWNY – PRZEMYŚLANA ARCHITEKTURA”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PODDASZE – PRYWATNA STREFA DOMOWNIKÓW”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „Strop nad parterem (między-kondygnacyjny) zaprojektowano jako monolityczny żelbetowy o grubości 17 cm zbrojon…” → „Strop międzykondygnacyjny zaprojektowano jako monolityczny strop żelbetowy o grubości 17 cm, zbrojony prętami…”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | „Fiona z garażem z Opusdom to wygodny parterowy dom z nieużytkowym poddaszem i dwustanowiskowym garażem. Funkc…” → „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |

@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | „Piotruś jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…” → „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| dompp.pl · 2026-11-03 | Pojawił się komunikat: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |

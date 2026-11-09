@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domenadom.pl · 2026-11-09 | Pojawił się komunikat: „Domena 171 C5NOWOŚĆ”. | Potwierdzono ponownym odczytem |
+| artinex-projekt.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D424A Zabudowa bliźniacza - segmenty dwulokalowe WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D350 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-09 | „D322D WT2021 wersja drewniana” → „DM5 wersja drewniana”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |

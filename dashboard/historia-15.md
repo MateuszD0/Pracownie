@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-11-03 | Pojawił się komunikat: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
 | projektydomowzbali.pl · 2026-11-03 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
 | projektydomowzbali.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektstodola.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwus…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |

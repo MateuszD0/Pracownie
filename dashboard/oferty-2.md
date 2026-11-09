@@ -23,9 +23,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl | Promocja 200 zł na zakupy w Empiku | Obecna w zapisie · 09.11.2026 10:44 · 09.11.2026 10:44<br>[Źródło](https://archeton.pl/) · [Źródło](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
 | archeton.pl | Pobierz kosztorys uproszczony arrow\_forward | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
 | archeton.pl | Pobierz kosztorys uproszczony (plik PDF) | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
-| archetyp.pl | DODATKOWE PAKIETY | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
-| archetyp.pl | Zapytaj o bezpłatną wycenę budowy | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
-| archetyp.pl | Kosztorys | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
+| archetyp.pl | DODATKOWE PAKIETY | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
+| archetyp.pl | Zapytaj o bezpłatną wycenę budowy | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
+| archetyp.pl | Kosztorys | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://archetyp.pl/projekt/lifi/) |
 | archi-projekt.com.pl | Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archi-projekt.com.pl/) |
 | archi-projekt.com.pl | GRATIS | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archi-projekt.com.pl/product/aps-343-porotherm/) |
 | archi-projekt.com.pl | Pakiet dodatków o wartości: | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archi-projekt.com.pl/product/aps-343-porotherm/) |

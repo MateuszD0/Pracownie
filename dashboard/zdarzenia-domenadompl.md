@@ -10,7 +10,7 @@
 
 **Pojawił się komunikat: „Domena 171 C5NOWOŚĆ”.**
 
-**Zaobserwowana zmiana** · —
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
@@ -22,9 +22,9 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 08.11.2026 07:44 | Po · 09.11.2026 10:45 |
+| Przed · 08.11.2026 07:44 | Po · 09.11.2026 16:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-2-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

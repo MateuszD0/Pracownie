@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domato.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-05 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-05 | „D341 Zabudowa bliźniacza WT2021” → „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-05 | Pojawił się komunikat: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-05 | „DM3 WT2021 wersja drewniana” → „D237D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zab…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwustanowiskowym garażem.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |

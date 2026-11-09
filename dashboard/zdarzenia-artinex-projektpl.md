@@ -24,7 +24,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -52,7 +52,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -80,7 +80,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -108,7 +108,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -136,7 +136,7 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

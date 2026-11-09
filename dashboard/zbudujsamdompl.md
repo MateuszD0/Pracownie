@@ -27,13 +27,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Rozmiar: Budowa domu murowanego 70m2 w Łączniku – poszukiwana firma budowlana | 353 × <strong>71</strong> px; położenie: 463 px od lewej, 3786 px od góry | 353 × <strong>47</strong> px; położenie: 463 px od lewej, 3786 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
 | Zmiany wyglądu · Rozmiar: Budowa domu szkieletowego 70m2 z poddaszem – woj. dolnośląskie – poszukiwana firma budowlana | 353 × <strong>47</strong> px; położenie: 80 px od lewej, 3786 px od góry | 353 × <strong>71</strong> px; położenie: 80 px od lewej, 3786 px od góry | [Otwórz stronę](https://www.zbudujsamdom.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-17-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-17-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:49 | Po · 09.11.2026 10:50 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-17-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-17-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -78,5 +78,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-porownanie.html)
 

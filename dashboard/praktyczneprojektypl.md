@@ -22,13 +22,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:47 | Po · 09.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -54,7 +54,7 @@ Porównanie: 08.11.2026 07:47 → 09.11.2026 10:48 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://praktyczneprojekty.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-38-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-38-po.jpg)
 
 ## Karta projektu
 
@@ -66,13 +66,13 @@ Porównanie: 08.11.2026 07:47 → 09.11.2026 10:48 (czas polski). Różnica zrzu
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-39-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-39-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:47 | Po · 09.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-39-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-39-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -90,5 +90,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-porownanie.html)
 

@@ -30,13 +30,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>D427 z garażem WT2021</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>DM22</strong> wersja drewniana | <strong>DM8</strong> wersja drewniana | [Otwórz stronę](https://artinex-projekt.pl/#project-list) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-5-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-5-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -52,13 +52,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-28-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-28-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-dowod-28-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-dowod-28-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -77,5 +77,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t101654.486556-0000-6b43e4ec-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t102628.172113-0000-cf482ffb-porownanie.html)
 

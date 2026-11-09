@@ -55,6 +55,8 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
         checks = {(c.field_key, c.before, c.after, c.before_at, c.after_at, c.url):
                   {k: c.details[k] for k in ('commercial_check', 'communication_check') if k in c.details}
                   for c in result.changes if c.details.get('commercial_check') or c.details.get('communication_check')}
+        confirmations = {(c.field_key, c.before, c.after, c.before_at, c.after_at, c.url): c.evidence['potwierdzenie']
+                         for c in result.changes if c.evidence.get('potwierdzenie')}
         # Rebuild is idempotent and keeps the original source evidence.
         result.changes = [c for c in result.changes if not c.field_key.startswith("communication:")]
         for change in changes:
@@ -62,6 +64,8 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
             identity = (change.field_key, change.before, change.after, change.before_at, change.after_at, change.url)
             if identity in checks:
                 change.details.update(checks[identity])
+            if identity in confirmations and safe_path(output, confirmations[identity]).is_file():
+                change.evidence['potwierdzenie'] = confirmations[identity]
         result.changes.extend(changes)
 
 

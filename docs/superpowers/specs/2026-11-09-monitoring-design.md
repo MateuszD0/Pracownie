@@ -23,3 +23,11 @@ Zakres zatwierdzony przez użytkownika 9.11.2026: ograniczyć przypadkowe alerty
 Kontekst źródeł i testy → potwierdzanie komunikacji → podsumowanie i profile stron → replay oraz przegląd mobilny → CI, publikacja, skan kontrolny.
 
 Niezależne wywołanie przed 08:00 pozostaje osobnym zadaniem infrastrukturalnym. Obecny cron GitHuba nie daje gwarancji terminu; ten zakres nie deklaruje usunięcia opóźnień wywołania.
+
+## Reguły i źródła wdrożenia
+
+- Profile DOM: opinie HexaGreen (`.reviews-section__slide-text`, `.reviews-content-swiper`), opinie Planujdom, katalog Artinex (`#project-list`) i sekcja artykułów Ecodomy. Źródła: zachowane dokumenty raportu 9.11 oraz [diagnostyka pięciu witryn](https://github.com/MateuszD0/Pracownie/actions/runs/42636567395). Selektory historyczne służą również ocenie wcześniejszych zapisów; nie oznaczają zweryfikowania wszystkich interakcji witryny.
+- Dwie próbki tekstu w odstępie 350 ms oznaczają niestabilne fragmenty, zachowując obie próbki. Dodatkowa nawigacja potwierdza kandydatów zmian komunikacji, maksymalnie raz na zmienioną stronę, z budżetem 30 sekund na pracownię. Wynik i dokument kontrolny zapisują się w `weryfikacja-komunikacji.json`, zrzut w archiwum dowodów. Brak udanej kontroli nie zmienia się w potwierdzenie.
+- Reguły kontekstu nie zmieniają zakresu zebranego tekstu ani stałego projektu, dlatego same nie resetują porównania. Przebudowa zachowuje weryfikację i zrzut tylko dla dokładnie tej samej obserwacji i dat.
+- Zbiorcze listy nazw i metraży na stronie głównej trafiają do obserwacji pomocniczych. Wyjątek obejmuje treści zawierające warunki promocji lub dodatków; dane stałej karty nie podlegają temu filtrowi.
+- Replay zachowuje cały dziennik: 1210 obserwacji. Na niezmienionych danych 9.11 główne podsumowanie zmniejsza się z 51 do 10 zdarzeń, a 47 wysokich priorytetów do 0. To kontrola klasyfikacji zachowanych danych, nie wynik nowego skanu ani ocena wykrywalności wszystkich zmian.

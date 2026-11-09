@@ -451,6 +451,11 @@
       "selection": {
         "source": "http://www.artinex-projekt.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "communication_context_selectors": {
+        "catalogue": [
+          "#project-list"
+        ]
       }
     },
     {
@@ -1012,6 +1017,11 @@
       "selection": {
         "source": "http://www.ecodomy.pl/",
         "basis": "Adres z przekazanej listy współpracujących pracowni. Stały projekt zostanie wybrany po poprawnym odczycie karty; preferowany bestseller lub projekt wyróżniony."
+      },
+      "communication_context_selectors": {
+        "editorial": [
+          "#sppb-addon-1613120340836"
+        ]
       }
     },
     {
@@ -1164,7 +1174,13 @@
           "primary": true,
           "optional": true
         }
-      ]
+      ],
+      "communication_context_selectors": {
+        "testimonials": [
+          ".reviews-section__slide-text",
+          ".reviews-content-swiper"
+        ]
+      }
     },
     {
       "domain": "hgatelier.com.pl",
@@ -1821,7 +1837,13 @@
         "source": "https://planujdom.pl",
         "browser_verified_at": "2026-10-19T19:46:55.535310+00:00"
       },
-      "project_name": "Projekt domu PLANUJDOM 072"
+      "project_name": "Projekt domu PLANUJDOM 072",
+      "communication_context_selectors": {
+        "testimonials": [
+          ".ti-widget",
+          "#content > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2)"
+        ]
+      }
     },
     {
       "domain": "pollio.pl",

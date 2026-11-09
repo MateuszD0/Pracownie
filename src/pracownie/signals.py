@@ -60,7 +60,11 @@ def supporting_reason(item: dict) -> str:
     offer_claim = any(re.search(r'\brabat|\bgratis|\bpakiet|\bdodat|\bpromocj|\bw cenie\b|\bbezpłat', t, re.I) for t in texts)
     if texts and not offer_claim and all(re.match(r'(?i)^(?:projekt\b|projekty dom|więcej informacji o projekcie|domy z |dom z |dom bez |nasza stodoła)', t) for t in texts) and item['category'] in {'komunikacja', 'funkcje', 'tresc'}:
         return 'Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.'
-    if texts and all(re.search(r'\d\s*m[²2]', t) for t in texts) and item.get('communication_role') in {'banner', 'heading', 'cta'}:
+    if (texts and not offer_claim and item.get('page') == 'glowna' and item.get('category') == 'tresc'
+            and all(len(re.findall(r'\d+(?:[.,]\d+)?\s*m[²2]\b', t)) >= 5
+                    and len(t.splitlines()) >= 5 for t in texts)):
+        return 'Zbiorcza lista projektów i metraży na stronie głównej; nie ustalono zmiany komunikatu oferty.'
+    if texts and not offer_claim and all(re.search(r'\d\s*m[²2]', t) for t in texts) and item.get('communication_role') in {'banner', 'heading', 'cta'}:
         return 'Zmiana pozycji lub parametrów w prezentowanym katalogu; nie ustalono zmiany stałego projektu.'
     if texts and all(re.fullmatch(r'(?:mój )?koszyk(?: \d+)?|zamówienie|rzuty|przekroje', t, re.I) for t in texts):
         return 'Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.'

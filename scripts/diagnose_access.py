@@ -80,9 +80,10 @@ async def inspect(sites, *, verification_wait=1.5, headed=False, discover_projec
                             from pracownie.communication import mark_unstable
                             await BrowserScanner().cookies(page, site)
                             kind = 'glowna' if url == site.home_url else 'projekt'
-                            first = await page.evaluate(COMMUNICATION, kind)
+                            options = {'page': kind, 'context_selectors': site.communication_context_selectors}
+                            first = await page.evaluate(COMMUNICATION, options)
                             await page.wait_for_timeout(350)
-                            second = await page.evaluate(COMMUNICATION, kind)
+                            second = await page.evaluate(COMMUNICATION, options)
                             check['copy_probe'] = mark_unstable(first, second, 350)
                             check['copy_containers'] = await page.locator('h1,h2,h3,p').evaluate_all('''es => es.filter(e=>e.innerText?.length>25).slice(0,120).map(e=>{
                               const parents=[];for(let p=e;p&&p!==document.body&&parents.length<7;p=p.parentElement)parents.push({tag:p.tagName,id:p.id,classes:p.className});

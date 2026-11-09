@@ -160,6 +160,7 @@ class Site:
     ignore_resource_hosts: list[str] = field(default_factory=list)
     inspection: str = "pending"
     communication_ignore_selectors: list[str] = field(default_factory=list)
+    communication_context_selectors: dict[str, list[str]] = field(default_factory=dict)
     user_agent: str | None = None
     cookie_continue_selector: str | None = None
     browser_headed: bool = False
@@ -168,6 +169,10 @@ class Site:
     @classmethod
     def from_dict(cls, data: dict) -> Site:
         data = dict(data)
+        contexts = data.get('communication_context_selectors', {})
+        if (not isinstance(contexts, dict) or any(k not in {'testimonials', 'editorial', 'catalogue', 'dynamic'}
+                or not isinstance(v, list) or not all(isinstance(s, str) and s.strip() for s in v) for k, v in contexts.items())):
+            raise ValueError('Niepoprawne selektory kontekstu komunikacji')
         if not isinstance(data.get('request_interval_seconds', 2), (int, float)) or not 2 <= data.get('request_interval_seconds', 2) <= 60:
             raise ValueError('Odstęp między wejściami musi wynosić od 2 do 60 sekund')
         data["scenarios"] = [Scenario(**item) for item in data.get("scenarios", [])]

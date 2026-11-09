@@ -33,7 +33,8 @@
   };
   const items=[], seen=new Set(); let truncated=false, characters=0;
   const context = e => {
-    if(e.closest('[itemtype$="/Review"],[class*=testimonial i],[class*=reviews-slider i],.ti-widget,#review,#reviews,#opinie,.google-reviews'))return 'testimonials';
+    for(const [kind,selectors] of Object.entries(typeof input==='string'?{}:input.context_selectors||{}))if(selectors.some(s=>e.closest(s)))return kind;
+    if(e.closest('[itemtype$="/Review"],[class*=testimonial i],[class*=reviews-slider i],.ti-widget,#review,#reviews,#opinie,.google-reviews,.reviews-section__slide-text'))return 'testimonials';
     if(e.closest('[class*=blog i],.sppb-addon-articles,[data-context=editorial]'))return 'editorial';
     if(e.closest('#project-list,#similar-projects,.related,.upsells,.cross-sells,[data-context=catalogue]'))return 'catalogue';
     if(e.closest('.typed,.typed-text,[data-typed-items],[data-typewriter]') || e.querySelector('.typed-cursor') || e.parentElement?.querySelector(':scope > .typed-cursor'))return 'dynamic';

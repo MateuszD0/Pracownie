@@ -28,6 +28,12 @@ def event_value(event: dict, side: str) -> str:
     return 'Nie odnotowano w tym zapisie' if normalized(value) in EMPTY else short(value, 170)
 
 
+def event_label(event: dict) -> str:
+    # Preserve checked meanings such as a future campaign, an ended offer or
+    # terms found elsewhere; raw before/after text alone can mislead here.
+    return short(event['sentence'], 240) if event['lead'].get('commercial_check') else event['kind']
+
+
 def technical(item: dict) -> bool:
     text = normalized(item.get('description'))
     if item['category'] == 'obraz' and re.match(r'(przesunięcie|położenie|rozmiar|czcionka|kolor|odstęp)', text):
@@ -257,7 +263,7 @@ def render_briefing(view: dict, data: dict | None = None) -> str:
         selected = [e for e in data['events'] if e['tier'] == tier]
         out += ['<section class="brief-section" id="brief-' + tier + '" data-brief-section="' + tier + '"><h3>' + title + '</h3><div class="table-box"><table class="business-table brief-table"><thead><tr><th>Pracownia / miejsce</th><th>Było</th><th>Jest</th><th>Ważność / weryfikacja</th><th>Dowód</th></tr></thead><tbody>']
         for index, event in enumerate(selected):
-            out += ['<tr data-brief-id="' + event['id'] + '"' + (' hidden data-brief-extra' if tier == 'main' and index >= 5 else '') + '><td data-label="Pracownia / miejsce"><strong>' + esc(event['domain']) + '</strong><br><span data-brief-places class="small">' + ' · '.join(LABELS[p] for p in event['pages']) + '</span><p class="topic">' + esc(event['kind']) + '</p></td>']
+            out += ['<tr data-brief-id="' + event['id'] + '"' + (' hidden data-brief-extra' if tier == 'main' and index >= 5 else '') + '><td data-label="Pracownia / miejsce"><strong>' + esc(event['domain']) + '</strong><br><span data-brief-places class="small">' + ' · '.join(LABELS[p] for p in event['pages']) + '</span><p class="topic">' + esc(event_label(event)) + '</p></td>']
             for side, label in [('before', 'Było'), ('after', 'Jest')]:
                 out += ['<td data-label="' + label + '"><p>' + esc(event_value(event, side)) + '</p><small>' + esc(when(event['lead'][side + '_at'])) + '</small></td>']
             out += ['<td data-label="Ważność / weryfikacja"><strong>Priorytet: ' + esc(event['priority']) + '</strong><p class="small">' + esc(event['priority_reason']) + '</p><strong class="certainty ' + tier + '">' + esc(event['confidence']) + '</strong><p class="small">' + esc(event['note']) + '</p></td><td data-label="Dowód"><a href="#zdarzenie-' + event['id'] + '">Przed / po →</a></td></tr>']
@@ -309,7 +315,7 @@ def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_doc
     def row(event):
         checked = event['lead'].get('commercial_check', {}).get('sources', [])
         return '| ' + ' | '.join([
-            '**' + cell(event['domain']) + '**<br>' + ' · '.join(LABELS[p] for p in event['pages']) + '<br>' + cell(event['kind']),
+            '**' + cell(event['domain']) + '**<br>' + ' · '.join(LABELS[p] for p in event['pages']) + '<br>' + cell(event_label(event)),
             cell(event_value(event, 'before')) + '<br><sub>' + cell(when(event['lead']['before_at'])) + '</sub>',
             cell(event_value(event, 'after')) + '<br><sub>' + cell(when(event['lead']['after_at'])) + '</sub>',
             '**Priorytet: ' + cell(event['priority']) + '**<br>**' + cell(event['confidence']) + '**' + ('<br>' + cell(event['note']) if event['note'] else ''),

@@ -71,6 +71,26 @@ async def test_one_repeat_per_changed_page_and_no_repeat_for_testimonials(tmp_pa
     assert 'communication_check' not in noise.details
 
 
+def test_rebuild_preserves_confirmation_and_proof_only_for_same_observation(tmp_path):
+    from pracownie.rebuild import enrich_communication
+    old, current, change = snapshots()
+    change.details['communication_check'] = {'status': 'confirmed', 'checked_at': '2026-10-21T06:00:15+00:00'}
+    proof = '2026-10-21/test.pl/potwierdzenie.webp'
+    (tmp_path/proof).parent.mkdir(parents=True)
+    (tmp_path/proof).write_bytes(b'proof')
+    change.evidence['potwierdzenie'] = proof
+    row = Result('test.pl','glowna','podstawowy','changed',current.url,[change],observed_at=AFTER,compared_at=BEFORE)
+    state = {'anchor':{old.key:old.to_dict()},'snapshots':{current.key:current.to_dict()}}
+    for _ in range(2):
+        enrich_communication([row],tmp_path,state)
+        assert row.changes[0].details['communication_check']['status'] == 'confirmed'
+        assert row.changes[0].evidence['potwierdzenie'] == proof
+    row.changes[0].after = 'Inny komunikat'
+    enrich_communication([row],tmp_path,state)
+    assert 'communication_check' not in row.changes[0].details
+    assert 'potwierdzenie' not in row.changes[0].evidence
+
+
 def test_context_keeps_catalogue_promotions_but_not_testimonial_extras():
     quoted = {'context': 'testimonials', 'text': 'Dodatkowo dostaliśmy kosztorys gratis. Polecam!'}
     assert context_reason('test.pl', None, quoted, page='glowna')
@@ -130,3 +150,21 @@ async def test_dom_context_and_actual_changes_survive_to_executive_view(executab
         assert any('garaż' in e['after'] for e in view['journal'])
         soup = BeautifulSoup(render_html(view),'html.parser')
         assert [x.text for x in soup.select('#brief-main thead th')] == ['Pracownia / miejsce','Było','Jest','Ważność / weryfikacja','Dowód']
+
+
+@pytest.mark.browser
+async def test_reviewed_site_profile_annotates_only_the_target_section(executable):
+    # Container captured in live HexaGreen diagnosis, 2026-11-09.
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        page = await scanner.browser.new_page()
+        await page.set_content('''<section class="reviews-content-swiper"><div class="reviews-section__slide-text"><h3>Wyjątkowa współpraca</h3><p>Dodatkowo dostaliśmy garaż gratis</p></div></section>
+           <section id="sale"><h2>Kosztorys gratis przy zakupie projektu</h2></section>''')
+        data = await page.evaluate(COMMUNICATION, {'page':'glowna', 'context_selectors':{'testimonials':['.reviews-section__slide-text']}})
+        assert next(i for i in data['items'] if 'garaż' in i['text'])['context']=='testimonials'
+        assert next(i for i in data['items'] if 'Kosztorys' in i['text'])['context']==''
+
+
+@pytest.mark.parametrize('config', [{'unknown':['#x']},{'testimonials':'#x'},{'dynamic':[None]}])
+def test_malformed_context_config_is_rejected(config):
+    with pytest.raises(ValueError,match='kontekstu'):
+        Site.from_dict({'domain':'test.pl','home_url':'https://test.pl','communication_context_selectors':config})

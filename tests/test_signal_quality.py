@@ -83,3 +83,13 @@ def test_export_carries_the_business_vs_supporting_classification():
     first = next(r for r in rows if r['Co się zmieniło'] == 'Źródło grafiki')
     assert first['Ocena'] == 'Obserwacja pomocnicza'
     assert 'nie ustalono zmiany wyglądu' in first['Wyjaśnienie']
+
+
+def test_home_catalogue_inventory_is_supporting_but_promotions_and_project_parameters_remain():
+    catalogue = '\n'.join(f'Dom {i} {100+i},50m2' for i in range(6))
+    item = event(page='glowna', category='tresc', before=catalogue, after='brak')
+    assert 'lista projektów' in supporting_reason(item)
+    assert not supporting_reason(dict(item, page='projekt'))
+    assert not supporting_reason(dict(item, before=catalogue + '\nKosztorys gratis'))
+    assert not supporting_reason(event(page='glowna', communication_role='heading',
+                                      before='brak', after='Dom 100 m2 — rabat 20%'))

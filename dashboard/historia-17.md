@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domywstylu.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| dompp.pl · 2026-11-03 | Pojawił się komunikat: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-03 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | dom-projekt.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
 | artinex-projekt.pl · 2026-11-03 | „DM20 WT2021 wersja drewniana” → „D153BD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „FILIP – Energooszczędny, wygodny, parterowy dom z użytkowym poddaszem polecany dla rodziny o schemacie 2+2.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Arkadia L to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej…”. | Zaobserwowana zmiana |

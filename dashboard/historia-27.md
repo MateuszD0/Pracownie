@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |

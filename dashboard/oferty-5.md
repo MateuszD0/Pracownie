@@ -23,10 +23,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domdlaciebie.com.pl | Kosztorys: | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domdlaciebie.com.pl | Pobierz wyciąg z kosztorysu | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domdlaciebie.com.pl | DODATKI (12) | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domenadom.pl | PROMOCJA -300 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | PROMOCJA -300 zł | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | Kosztorys | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | Szczegóły Opis Kosztorys Technologie Pliki do pobrania Dodatki | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | PROMOCJA -300 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie · 09.11.2026 16:03 · 09.11.2026 16:03<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | PROMOCJA -300 zł | Obecna w zapisie · 09.11.2026 16:03 · 09.11.2026 16:03<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | Kosztorys | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | Szczegóły Opis Kosztorys Technologie Pliki do pobrania Dodatki | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domideaprojekt.pl | W cenie projektu: | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
 | dominanta.pl | projekty w promocji | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.dominanta.pl/) |
 | dominanta.pl | BEZPŁATNY KATALOG ! | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.dominanta.pl/) |

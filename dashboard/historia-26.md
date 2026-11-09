@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | lipinscy.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW DUŻYCH OD 150M² DO 200M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
 | kreodom.pl · 2026-10-30 | Pojawił się komunikat: „KIEDY KOCIOŁ NA PELLET Z ZEWNĘTRZNYM PALNIKIEM SPRAWDZI SIĘ LEPIEJ NIŻ TRADYCYJNY PIEC?”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |

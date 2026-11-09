@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kbprojekt.pl · 2026-11-02 | „\| 1,2 tys. opinii \| stan na: 26.10.2026” → „\| 1,2 tys. opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |
+| kbprojekt.pl · 2026-11-02 | „\| 794 opinii \| stan na: 26.10.2026” → „\| 794 opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-02 | „ZOBACZ NOWY PROJEKT ECO 52” → „ZOBACZ NOWY PROJEKT ECO 53”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-02 | Pojawił się komunikat: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Mona jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpły…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |

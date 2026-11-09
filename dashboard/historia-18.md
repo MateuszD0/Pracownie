@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Arkadia L to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCIA\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-11-02 | „\| 1,2 tys. opinii \| stan na: 26.10.2026” → „\| 1,2 tys. opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-11-02 | „\| 794 opinii \| stan na: 26.10.2026” → „\| 794 opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |

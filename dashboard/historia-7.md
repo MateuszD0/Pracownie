@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | „Strona główna &gt;&gt; Produkty &gt;&gt; Ami II” → „Strona główna &gt;&gt; Projekty domów &gt;&gt; Ami II”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-06 | „salon + 4 pokoje garaż: brak 120.00 m²” → „salon + 3 pokoje garaż: brak 88.00 m²”. | Zaobserwowana zmiana |

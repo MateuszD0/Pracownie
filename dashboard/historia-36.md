@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-28 | „Fiona z garażem z Opusdom to wygodny parterowy dom z nieużytkowym poddaszem i dwustanowiskowym garażem. Funkc…” → „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Sadyba wersja D jest powiększoną wersją popularnej Sadyby z salonem doświetlonym od strony frontowej, co pozwala zrealizować projekt również na działce z wjazdem od południa. Tak…”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |

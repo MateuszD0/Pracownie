@@ -24,9 +24,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | architeka.pl | Kupon rabatowy na kolejny projekt | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://budujdom.pl/projekty-domow/tk275/) |
 | architeka.pl | Kosztorys inwestorski z przedmiarem robót i zestawieniem materiałów | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl | Kosztorys | Obecna w zapisie · 09.11.2026 10:44<br>[Źródło](https://archstodola.pl/) |
-| artinex-projekt.pl | Projekt wnętrza w promocyjnej cenie! | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://artinex-projekt.pl/) |
-| artinex-projekt.pl | Promocje % | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://artinex-projekt.pl/) · [Źródło](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
-| artinex-projekt.pl | Poinformujemy Cię o wszystkich nowościach i promocjach: | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://artinex-projekt.pl/) · [Źródło](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
+| artinex-projekt.pl | Projekt wnętrza w promocyjnej cenie! | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://artinex-projekt.pl/) |
+| artinex-projekt.pl | Promocje % | Obecna w zapisie · 09.11.2026 16:03 · 09.11.2026 16:03<br>[Źródło](https://artinex-projekt.pl/) · [Źródło](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
+| artinex-projekt.pl | Poinformujemy Cię o wszystkich nowościach i promocjach: | Obecna w zapisie · 09.11.2026 16:03 · 09.11.2026 16:03<br>[Źródło](https://artinex-projekt.pl/) · [Źródło](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
 | dobredomy.pl | Projekty domów z bezpłatną pomocą architekta | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://www.dobredomy.pl/) · [Źródło](https://www.dobredomy.pl/projekt/jantarVII/) |
 | dobredomy.pl | Dodatki do projektów | Obecna w zapisie · 09.11.2026 10:45 · 09.11.2026 10:45<br>[Źródło](https://www.dobredomy.pl/) · [Źródło](https://www.dobredomy.pl/projekt/jantarVII/) |
 | dobredomy.pl | Bezpłatna pomoc architekta | Obecna w zapisie · 09.11.2026 10:45<br>[Źródło](https://www.dobredomy.pl/) |

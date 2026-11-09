@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak kupić gotowy projekt domu – krok po kroku”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Nowoczesna stodoła 32 projekty”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Nowości”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki i miejscowego planu.” | Sprawdzono w serwisie |

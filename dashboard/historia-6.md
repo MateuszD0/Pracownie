@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |

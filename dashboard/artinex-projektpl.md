@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [D292B - WT2021](https://artinex-projekt.pl/projekty-domow/d292b-wt2021)
 
-**7 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,29 +16,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://artinex-projekt.pl/)
 
-**Odczyty:** 08.11.2026 07:43 → 09.11.2026 10:45 (czas polski).
+**Odczyty:** 08.11.2026 07:43 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fartinex-projekt.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fartinex-projekt.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>D292A Gabinet, pracownia z niezależnym wejściem WT2021</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>D322D WT2021</strong> wersja drewniana | <strong>DM5</strong> wersja drewniana | [Otwórz stronę](https://artinex-projekt.pl/#project-list) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>D350 Segment do zbliźniaczenia WT2021</strong> | [Otwórz stronę](https://artinex-projekt.pl/#project-list) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>D424A Zabudowa bliźniacza - segmenty dwulokalowe WT2021</strong> | [Otwórz stronę](https://artinex-projekt.pl/#project-list) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>D427 z garażem WT2021</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://artinex-projekt.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>DM22</strong> wersja drewniana | <strong>DM8</strong> wersja drewniana | [Otwórz stronę](https://artinex-projekt.pl/#project-list) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-5-przed.jpg)
+<details><summary>Obserwacje pomocnicze (8) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Element listy lub polecanych projektów; nie potwierdza nowej kampanii ani zmiany stałej karty.
 
-| Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-5-przed.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- brak → D439 WT2021 wersja drewniana
+- D322D WT2021 wersja drewniana → D445 WT2021 wersja drewniana
+- brak → DM1 WT2021 wersja drewniana
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
@@ -46,36 +40,33 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 [Otwórz stronę źródłową](https://artinex-projekt.pl/projekty-domow/d292b-wt2021)
 
-**Odczyty:** 08.11.2026 07:43 → 09.11.2026 10:45 (czas polski).
+**Odczyty:** 08.11.2026 07:43 → 09.11.2026 16:03 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fartinex-projekt.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fartinex-projekt.pl%2Fprojekty-domow%2Fd292b-wt2021%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-28-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 08.11.2026 07:43 | Po · 09.11.2026 10:45 |
+| Przed · 08.11.2026 07:43 | Po · 09.11.2026 16:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-dowod-28-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+### Grafika i wygląd — różnica do obejrzenia
 
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Przykłady z zapisów:
+Porównanie: 08.11.2026 07:43 → 09.11.2026 16:03 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
-- https://artinex-projekt.pl/i?img=/res/projekty/412/main\_1.jpg&amp;w=980&amp;h=624&amp;fit=crop → brak
-- brak → https://artinex-projekt.pl/i?img=/res/projekty/412/main\_2.jpg&amp;w=980&amp;h=624&amp;fit=crop
+[Otwórz stronę](https://artinex-projekt.pl/projekty-domow/d292b-wt2021)
 
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-dowod-24-po.jpg)
 
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t111746.700531-0000-3db36a14-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t150246.416503-0000-46a33537-porownanie.html)
 

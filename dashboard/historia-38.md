@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Twój dom zaczyna się od dobrego planu.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | „Zobacz, jak może wyglądać gotowy dom 70 m²” → „Otrzymujesz komplet instrukcji budowy”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy szkieletowego”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Cena pakietu:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-10-27 | „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć” → „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-10-27 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |

@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-29 | Pojawił się komunikat: „Mały dom na planie kwadratu”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-29 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-10-29 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | domato.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „„Tania budowa w 10 punktach””. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |

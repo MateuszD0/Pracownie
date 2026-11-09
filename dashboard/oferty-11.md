@@ -9,9 +9,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
 | hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 09.11.2026 11:17<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
-| hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
-| hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
-| hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
+| hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
+| hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
+| hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 16:03<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | homekoncept.pl | Projekt domu w promocji | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://homekoncept.com.pl/) |
 | homekoncept.pl | Projekty domów z kosztorysem | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://homekoncept.com.pl/) |
 | homekoncept.pl | KOSZTORYS | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://homekoncept.com.pl/produkt/homekoncept-149-b2/) |

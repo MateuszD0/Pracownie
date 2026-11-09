@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
 | domywstylu.pl · 2026-11-04 | „Katalog 06/26:” → „Katalog 08/26:”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-03 | Pojawił się komunikat: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-03 | Pojawił się komunikat: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |

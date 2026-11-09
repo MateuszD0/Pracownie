@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-08 | Pojawił się komunikat: „Optymalny dom na wąskie działki”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-08 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D322D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-07 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |

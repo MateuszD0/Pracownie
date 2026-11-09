@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 29.10.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”. | Zaobserwowana zmiana |

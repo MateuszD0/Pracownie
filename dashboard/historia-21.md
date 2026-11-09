@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-01 | „Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-01 | „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,9 m, główne połacie dachu mają nachylenie 37 stopni.…” → „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,95 m, główne połacie dachu mają nachylenie 37 stopni.…”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowa…”. | Zaobserwowana zmiana |

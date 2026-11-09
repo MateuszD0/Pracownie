@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Zaobserwowana zmiana |
@@ -31,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archiportal.pl · 2026-10-30 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
 | archipelag.pl · 2026-10-30 | Pojawił się komunikat: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
 | archipelag.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja październikowa! 20% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł”. W sprawdzonym serwisie znaleziono również: „GRATIS” | Do sprawdzenia |

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcje PDF + wideo”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PAKIET PRO”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały dodatkowe”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | „Dla kogo jest ten pakiet?” → „Zobacz, jak może wyglądać gotowy dom 70 m²”. | Zaobserwowana zmiana |
-| sprytnaoaza.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026” → „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026” → „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Budowa domu krok po kroku: etapy i ile trwają w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | Pojawił się komunikat: „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | „Koszt budowy domu 100 m² w 2026: stan surowy i deweloperski” → „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-27 | „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć” → „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-10-27 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „Promocja kończy się: 29.10.2026” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| pro-arte.pl · 2026-10-27 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
-| mtmstyl.com.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-10-27 | „\| 792 opinii \| stan na: 19.10.2026” → „\| 794 opinii \| stan na: 26.10.2026”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Sadyba wersja D jest powiększoną wersją popularnej Sadyby z salonem doświetlonym od strony frontowej, co pozwala zrealizować projekt również na działce z wjazdem od południa. Tak…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Istnieje możliwość innego podziału funkcjonalnego parteru i poddasza oraz wykonania wjazdu do garażu od elewacji szczytowej.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustan…” → „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Karmelia L z Opusdom jest niedużym domem z użytkowym poddaszem i garażem. Prosta bryła i dwuspadowy dach sprawiają że dom jest łatwy w realizacji.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
+| mgprojekt.com.pl · 2026-10-28 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| kreodom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „TRÓJNIK STALOWY I PRZECIEK, KTÓRY POJAWIA SIĘ DOPIERO PO TYGODNIU”. | Zaobserwowana zmiana |
+| kreodom.pl · 2026-10-28 | Pojawił się komunikat: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-28 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-28 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-28 | „salon + 5 pokoi garaż: 2 159.90 m²” → „salon + 3 pokoje garaż: 1 101.67 m²”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-28 | Pojawił się komunikat: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |

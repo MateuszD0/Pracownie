@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-07 → 2026-11-08**
+**2026-11-08 → 2026-11-09**
 
 **Ten sam projekt:** [Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektydomow.redcart.pl/)
 
-**Odczyty:** 07.11.2026 09:48 → 08.11.2026 07:47 (czas polski).
+**Odczyty:** 08.11.2026 07:47 → 09.11.2026 10:49 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fprojektydomow.redcart.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektydomow.redcart.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fprojektydomow.redcart.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektydomow.redcart.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,25 +26,25 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html)
 
-**Odczyty:** 07.11.2026 09:49 → 08.11.2026 07:48 (czas polski).
+**Odczyty:** 08.11.2026 07:48 → 09.11.2026 10:49 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fprojektydomow.redcart.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektydomow.redcart.pl%2Fp%2F23%2F9883%2Fprojekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fprojektydomow.redcart.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektydomow.redcart.pl%2Fp%2F23%2F9883%2Fprojekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
 
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- PROJEKT DOMU ENERGOOSZCZĘDNEGO - DOM STANISŁAWA → brak
-- brak → PROJEKT DOMU PREFABRYKOWANEGO - DOM ALEKSANDRA (WERSJA LUSTRZANEGO ODBICIA)
-- PROJEKT DOMU PASYWNEGO LIGHT PS-GA-70-20 POW. 124,50 M2 → brak
+- brak → PROJEKT DOMU NOWOCZESNEGO PS-GA-70-20G2 POW. 155,06 M2
+- brak → PROJEKT DOMU ENERGOOSZCZĘDNEGO - DOM STANISŁAWA
+- PROJEKT NOWOCZESNEGO DOMU ENERGOOSZCZĘDNEGO NF40-GJ-70-20-2G-V6 POW. 164 M2 → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-porownanie.html)
 

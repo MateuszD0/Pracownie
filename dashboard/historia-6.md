@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domywstylu.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| domywstylu.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| dompp.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
-| domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'MerchantReturnPolicy', 'applicableCountry': 'PL', 'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow', 'merchantReturnDays': 14, 'returnMethod…”. | Zaobserwowana zmiana |
-| domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'OfferShippingDetails', 'shippingRate': {'@type': 'MonetaryAmount', 'value': '0.00', 'currency': 'PLN'}, 'shippingDestination': {'@type': 'DefinedRegion', 'addressCountr…”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-06 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-06 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| dom-projekt.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 03.11.2026 roku do dnia 05.11.2026 roku.” | Do sprawdzenia |
-| dom-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
-| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| artinex-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-06 | „D237D WT2021 wersja drewniana” → „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-06 | „D295D WT2021 wersja drewniana” → „D421 wersja drewniana”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-06 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
-| archipelag.pl · 2026-11-06 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| archipelag.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
-| archi-projekt.com.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Dom parterowy z wbudowanym garażem i wysokim sufitem nad strefą dzienną.”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-07 | Pojawił się komunikat: „Dwurodzinny budynek z wbudowanym garażem.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-06 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-06 | Pojawił się komunikat: „Badania geotechniczne gruntu pod dom: kiedy są potrzebne i ile kosztują w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 05.11.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
+| projektydomowzbali.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| pro-arte.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
+| planujdom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |

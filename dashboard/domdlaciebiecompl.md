@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-07 → 2026-11-08**
+**2026-11-08 → 2026-11-09**
 
 **Ten sam projekt:** [Klara IV](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
 
-**1 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.domdlaciebie.com.pl/)
 
-**Odczyty:** 07.11.2026 09:45 → 08.11.2026 07:44 (czas polski).
+**Odczyty:** 08.11.2026 07:44 → 09.11.2026 10:45 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fdomdlaciebie.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fdomdlaciebie.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,21 +26,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
 
-**Odczyty:** 07.11.2026 09:45 → 08.11.2026 07:44 (czas polski).
+**Odczyty:** 08.11.2026 07:44 → 09.11.2026 10:45 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-08%2Fdomdlaciebie.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fdomdlaciebie.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie · Kondygnacje parterowy parterowy z poddaszem użytkowym parterowy z poddaszem do adaptacji piętrowy piętrowy podpiwniczony: parterowy z poddaszem użytkowym | Nie odnotowano w tym odczycie | <strong>Zamów bezpłatny katalog</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-3-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-3-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-dowod-33-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 07.11.2026 09:53 | Po · 08.11.2026 07:52 |
+| Przed · 08.11.2026 07:44 | Po · 09.11.2026 10:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-dowod-3-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-dowod-33-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-dowod-33-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -48,19 +46,19 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 <details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
 
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- brak → https://www.domdlaciebie.com.pl/projekty/klara-iv/projekt-klara-iv-przekroj.gif
-- 250 × 41 px; położenie: 990 px od lewej, 3658 px od góry → 250 × 41 px; położenie: 990 px od lewej, 3682 px od góry
-- 250 × 41 px; położenie: 390 px od lewej, 3658 px od góry → 250 × 41 px; położenie: 390 px od lewej, 3682 px od góry
+- 1280 × 4007 px; położenie: 0 px od lewej, 0 px od góry → 1280 × 3983 px; położenie: 0 px od lewej, 0 px od góry
+- https://www.domdlaciebie.com.pl/projekty/klara-iv/projekt-klara-iv-sytuacja.gif → brak
+- https://www.domdlaciebie.com.pl/projekty/klara-iv/projekt-klara-iv-rzut-parteru.gif → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-porownanie.html)
 

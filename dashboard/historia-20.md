@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „Olga to wygodny, funkcjonalny parterowy dom z nieużytkowym poddaszem i wiatą garażową.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „Autor: Marek Oczkowski” → „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednosta…” → „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Ami II z Opusdom to wygodny dom z użytkowym poddaszem i garażem dwustanowiskowym. Atrakcyjna bryła domu oraz funkcjonalność to główne zalety projektu.”. | Zaobserwowana zmiana |
-| opprojekt.com.pl · 2026-10-31 | Pojawił się komunikat: „Nowość w naszej bazie: Poznaj projekt Grala – elegancki dom z poddaszem użytkowym i garażem! 30 października 2026 Szukasz domu z poddaszem, który połączy tradycyjny urok z nowocze…”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCI\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-10-31 | „Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 C2NOWOŚĆ”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-10-31 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Sadyba wersja D jest powiększoną wersją popularnej Sadyby z salonem doświetlonym od strony frontowej, co pozwala zrealizować projekt również na działce z wjazdem od południa. Tak…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustan…” → „LILI II z Opusdom to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | „Ami II z Opusdom to wygodny dom z użytkowym poddaszem i garażem dwustanowiskowym. Atrakcyjna bryła domu oraz…” → „Malwina z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz fun…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o sche…” → „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Olga to wygodny, funkcjonalny parterowy dom z nieużytkowym poddaszem i wiatą garażową.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpływ na…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO ŻYCI\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kbprojekt.pl · 2026-11-01 | „Tak niską cenę gwarantujemy do 31 października 2026” → „Tak niską cenę gwarantujemy do 10 listopada 2026”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-01 | „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |

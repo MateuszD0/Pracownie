@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-07 → 2026-11-08**
+**2026-11-08 → 2026-11-09**
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
@@ -18,43 +18,43 @@ Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4]
 
 [Otwórz stronę źródłową](https://hexagreen.pl/)
 
-**Odczyty:** 07.11.2026 09:46 → 08.11.2026 07:45 (czas polski).
+**Odczyty:** 08.11.2026 07:45 → 09.11.2026 10:46 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy to biuro, a nie inne. Dla mnie tylko jedna</strong>… | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>ponownie wybrałbym Hexa Green</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Ten projekt był strzałem w 10-tkę!</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Serdecznie polecam Hexa Green Architekt!</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Zaawansowany standard energetyczny domu wysoce energooszczędnego</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>W dużym skrócie, bardzo gorąco polecam!</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Opinie naszych zaufanych i świadomych inwestorów</strong> | [Otwórz stronę](https://hexagreen.pl/#opinie) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Hambar44</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Inwestorka Pani Ania</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Orientacja</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Technologia</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Inwestor Pan Grzegorz</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Realizacje #domyHexaGreen</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Odzysk ciepła</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>1 Weryfikacja otoczenia</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Niskotemperaturowe ogrzewanie podłogowe</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Domy samowystarczalne</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Inwestorka Pani Elżbieta</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Instalacje energooszczędne</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Parametry</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>strzałem w 10-tkę!</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>2 Lokalizacja wjazdu</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>HG 04 II energo+</strong> | [Otwórz stronę](https://hexagreen.pl/#swiper-wrapper-7f790fc2a6ddd222) |
+| Komunikacja sprzedażowa · Baner | <strong>\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delivering great results. Her ideas improved th</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Hexa Green projekt HG 08 energo+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Ten projekt był strzałem w 10-tkę!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Opinie naszych zaufanych i świadomych inwestorów</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>ponownie wybrałbym Hexa Green</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>była wyjątkowa pod każdym względem.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Sprawdź pełną ofertę</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Inwestorka Pani Ania</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Współpraca z Kamilą nad</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Instalacje energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Okna i drzwi</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Technologia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Domy samowystarczalne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>HG 04 II energo+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>HG 01 passive</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>bardzo gorąco polecam!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Dowiedz się więcej</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>sześciu zasadach</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>1 Weryfikacja otoczenia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>2 Lokalizacja wjazdu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>strzałem w 10-tkę!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Serdecznie polecam</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 <details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>
 
 **Baner**
 
-**Było:** brak
+**Było:** \[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delivering great results. Her ideas improved the project far beyond what I initially envisioned, and her professionalism made the whole process smooth and enjoyable. I wholeheartedly recommend her to anyone looking for a talented and reliable architect. Thanks!
 
-**Jest:** Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy to biuro, a nie inne. Dla mnie tylko jedna rzecz w projekcie nie była jasna, więc zadzwoniłem do biura po odpowiedź i uzyskałem ją. Dla ekip budowlanych projekt był czytelny i nie zgłaszali żadnych problemów, tak samo jak dla kierownika budowy. W sumie minął niecały rok i możemy już mieszkać!
+**Jest:** brak
 
 </details>
 
@@ -62,11 +62,11 @@ Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4]
 
 [Otwórz stronę źródłową](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**Odczyty:** 07.11.2026 09:47 → 08.11.2026 07:45 (czas polski).
+**Odczyty:** 08.11.2026 07:45 → 09.11.2026 10:46 (czas polski).
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-08/2026-11-08-2026-11-08t101001.900675-0000-684b7db8-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t094348.034419-0000-1d197cff-porownanie.html)
 
 Strony porównania: [1](hexagreenpl.md) · **2** · [3](hexagreenpl-3.md) · [4](hexagreenpl-4.md)
 

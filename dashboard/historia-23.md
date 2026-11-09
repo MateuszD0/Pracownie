@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednosta…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Nikola to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
-| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| lipinscy.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW DUŻYCH OD 150M² DO 200M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
-| kreodom.pl · 2026-10-30 | Pojawił się komunikat: „KIEDY KOCIOŁ NA PELLET Z ZEWNĘTRZNYM PALNIKIEM SPRAWDZI SIĘ LEPIEJ NIŻ TRADYCYJNY PIEC?”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
+| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 C2NOWOŚĆ”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-10-31 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-31 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | „D439 WT2021 wersja drewniana” → „D57AD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D444 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| architeka.pl · 2026-10-31 | „Najniższa cena z 30 dni:” → „Najniższa cena z 30 dni: \[wc\_price\_history\]”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-30 | „Budowa domu murowanego 80 m2 we Wrocławiu – poszukiwana firma budowlana” → „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
+| tipitom.space · 2026-10-30 | „"Times New Roman"” → „Montserrat, sans-serif”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-30 | „Wszystkie projekty (71) →” → „Wszystkie projekty (74) →”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-30 | „Arial, sans-serif” → „Arial, Helvetica, sans-serif”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-30 | „pogrubiony (700)” → „600”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-10-30 | Zauważono etykietę: „promocje”. | Do sprawdzenia |
+| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „RABAT 250” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom stodoła: wady, zalety i koszt budowy w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |

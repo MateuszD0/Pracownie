@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-03, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| 3ddom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 04.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-05 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-05 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | Pojawił się komunikat: „Jak to wygląda krok po kroku”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | „Dostajesz komplet dokumentacji. Prowadzimy sprawy urzędowe do uzyskania pozwolenia na budowę.” → „Dostajesz komplet dokumentacji. Na podstawie pełnomocnictwa prowadzimy sprawy urzędowe aż do uzyskania pozwol…”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | „Jak powstaje projekt na zamówienie” → „Jak powstaje projekt indywidualny”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zab…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | „Strona główna &gt;&gt; Produkty &gt;&gt; Ami II” → „Strona główna &gt;&gt; Projekty domów &gt;&gt; Ami II”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| nowoczesne-projektydomow.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Projekt Architektoniczno-Konstrukcyjny Domu B651 - wersja bez instalacji - Gratis Dodatki”. W sprawdzonym serwisie znaleziono również: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
+| modernhouse-projekty.pl · 2026-11-06 | „Wielospadowy kryty dachówką ceramiczną, odwodnienie systemowe GALECO” → „Wielospadowy kryty dachówką ceramiczną Röben Bergamo, odwodnienie systemowe GALECO”. | Zaobserwowana zmiana |
+| kupprojekt.pl · 2026-11-06 | „Ciężarowe i dostawcze 149” → „Ciężarowe i dostawcze 150”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO \|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PR\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-06 | „salon + 4 pokoje garaż: brak 120.00 m²” → „salon + 3 pokoje garaż: brak 88.00 m²”. | Zaobserwowana zmiana |

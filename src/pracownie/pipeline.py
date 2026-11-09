@@ -34,6 +34,8 @@ from .offers import primary_offer
 from .quality import captured_challenge, communication_usable
 from .report import install_outputs, resume_data, write_outputs
 from .state import SNAPSHOT_SECTIONS, StateStore
+from .verification import candidate as copy_candidate
+from .verification import verify_copy
 
 
 @dataclass
@@ -160,6 +162,9 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 price_changes = list(changes)
                 before = store.previous_communication(state, snapshot.key) or price_before
                 communication, copy_changes = measure(before, snapshot)
+                for change in copy_changes:
+                    if copy_candidate(change):
+                        change.details['communication_check'] = {'status': 'unverified', 'summary': 'Nie zakończono dodatkowego odczytu komunikacji.'}
                 changes.extend(copy_changes)
                 folder = staging / day / slug(snapshot.domain) / snapshot.page / slug(snapshot.scenario)
                 folder.mkdir(parents=True, exist_ok=True)
@@ -388,6 +393,7 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                                             if (old := store.previous(state, f'{site.domain}/{kind}/podstawowy'))]
                                 await verify_offers(site, [home, project], results, previous, scanner,
                                                     work, staging / day / slug(site.domain), pending=state.get("verification_queue"))
+                                await verify_copy(site, results, scanner, work, staging / day / slug(site.domain))
                                 if project and selection:
                                     await interactions(site, "projekt", selection["url"], project, work)
                                 if home:

@@ -653,6 +653,12 @@ class BrowserScanner:
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
             communication = await page.evaluate(COMMUNICATION, {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors})
+            # Compare two bounded inventories in this same session. CSS motion
+            # suppression alone does not stop JavaScript typewriters/widgets.
+            from .communication import mark_unstable
+            await page.wait_for_timeout(350)
+            repeated_copy = await page.evaluate(COMMUNICATION, {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors})
+            communication = mark_unstable(communication, repeated_copy, 350)
             payload['commercial_context'] = await page.evaluate(COMMERCIAL)
             communication["observed_at"] = timestamp
             communication_rules = {"masks": site.masks, "ignore": site.ignore_patterns, "scenario": [asdict(s) for s in site.scenarios if s.id == scenario.id and s.page == page_kind]}

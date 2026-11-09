@@ -11,6 +11,7 @@ import re
 from difflib import SequenceMatcher
 from urllib.parse import urlsplit
 
+from .contexts import context_reason, item_context
 from .extract import MONEY, canonical_url, money_text, normalize
 from .model import Change, Snapshot
 from .quality import communication_usable
@@ -52,6 +53,24 @@ def records(snapshot: Snapshot) -> list[dict]:
             output.append({**item, "text": value})
             seen.add(identity)
     return output
+
+
+def mark_unstable(first: dict, second: dict, interval_ms: int) -> dict:
+    """Keep both text samples for changing DOM slots, without inventing an end value."""
+    def inventory(document):
+        values = {}
+        for item in document.get('items', []):
+            values.setdefault((item['key'], item['role']), set()).add(clean(item.get('text', '')))
+        return values
+    a, b = inventory(first), inventory(second)
+    changed = {key for key in a.keys() | b.keys() if a.get(key, set()) != b.get(key, set())}
+    for item in second.get('items', []):
+        if (item['key'], item['role']) in changed:
+            item['unstable'] = True
+    second['stability'] = {'interval_ms': interval_ms, 'changed': [
+        {'key': key, 'role': role, 'before': sorted(a.get((key, role), set())), 'after': sorted(b.get((key, role), set()))}
+        for key, role in sorted(changed)]}
+    return second
 
 
 def text_fragments(snapshot: Snapshot) -> set[str]:
@@ -97,6 +116,9 @@ def supporting_reason(snapshot: Snapshot, item: dict | None) -> str:
     """Annotate only source-backed peripheral inventory, keeping the records."""
     if not item:
         return ""
+    reason = context_reason(snapshot.domain, None, item, page=snapshot.page)
+    if reason:
+        return reason
     key = item.get("key", "").removeprefix("body > ")
     if key == "#similar-projects" or key.startswith("#similar-projects > "):
         return "Element sekcji podobnych projektów; nie dotyczy stałej karty projektu."
@@ -190,6 +212,8 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
             "communication": True, "role": item["role"],
             "unmatched": not (a and b),
             "element_before": (a or {}).get("key", ""), "element_after": (b or {}).get("key", ""),
+            "context_before": item_context(before.domain, a) if a else '',
+            "context_after": item_context(after.domain, b) if b else '',
             "pairing": "identity" if a and b and a.get("key") == b.get("key") and stable_element_key(a.get("key", "")) else "similarity" if a and b else "inventory",
             "basis": "Dwa zapisy tego samego zakresu komunikacji; porównano zestaw komunikatów, nie aktywny slajd",
         }

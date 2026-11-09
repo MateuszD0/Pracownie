@@ -26,6 +26,11 @@ def supporting_reason(item: dict) -> str:
     description = item.get('description', '')
     if item.get('supporting_reason'):
         return item['supporting_reason']
+    from .contexts import observation_reason
+    if reason := observation_reason(item):
+        return reason
+    if item.get('communication_check', {}).get('status') == 'unstable':
+        return 'Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.'
     # Verified theme script: /wp-content/themes/hexagreen/js/info-section-counter.js.
     # It animates these headline numbers. Archived text and visual measurements
     # from the same capture even disagree (139 vs 138; 133 vs 130).
@@ -82,6 +87,11 @@ def supporting_reason(item: dict) -> str:
 def classify(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     # The same control text moving between field/context keys is not a new
     # promotion. Require the same page URL, category and exact normalized value.
+    from .contexts import observation_reason
+    def capture_key(item):
+        return (item['domain'], item['page'], item.get('before_at'), item.get('after_at'),
+                normalized(item.get('before')), normalized(item.get('after')))
+    context_reasons = {capture_key(item): reason for item in entries if (reason := observation_reason(item))}
     movements = {}
     for item in entries:
         if item['category'] not in {'funkcje', 'komunikacja'}:
@@ -98,7 +108,7 @@ def classify(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     primary, supporting = [], []
     for original in entries:
         item = dict(original)
-        reason = supporting_reason(item) or ('Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.'
+        reason = supporting_reason(item) or context_reasons.get(capture_key(item), '') or ('Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.'
                   if item['id'] in moved else '')
         if reason:
             item['supporting_reason'] = reason

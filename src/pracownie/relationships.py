@@ -90,7 +90,7 @@ def group_html(document: str, view: dict) -> str:
         original_empty = body.select_one('[data-brief-empty]')
         body.clear()
         for group in LABELS:
-            body.append(heading(group))
+            body.append(heading(group, columns=5))
             selected = [tr for tr in entries if group_for(view, events[tr['data-brief-id']]['domain']) == group]
             for index, tr in enumerate(selected):
                 tr['data-rel-group'] = group
@@ -102,7 +102,7 @@ def group_html(document: str, view: dict) -> str:
             empty = soup.new_tag('tr', attrs={'data-relationship-empty':group, 'data-relationship-area':tier})
             if selected:
                 empty['hidden'] = ''
-            cell = soup.new_tag('td', colspan='4')
+            cell = soup.new_tag('td', colspan='5')
             cell.string = 'Nie ustalono zmian w tej grupie.' if tier == 'main' else 'Brak ważnych nierozstrzygniętych sygnałów w tej grupie.'
             empty.append(cell)
             body.append(empty)

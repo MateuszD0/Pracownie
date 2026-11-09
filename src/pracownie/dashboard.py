@@ -105,7 +105,7 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     feedback = view.get('metadata', {}).get('feedback')
     if feedback:
         from .feedback import summary_text
-        lines += [summary_text(feedback), '', 'Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.', '']
+        lines += ['<details><summary>Oceny trafności alertów</summary>', '', summary_text(feedback), '', 'Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.', '', '</details>', '']
     lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
     if downloads.get('web'):
         lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']

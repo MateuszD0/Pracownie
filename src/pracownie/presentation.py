@@ -209,6 +209,8 @@ def _event(change, result: Result) -> dict:
         "unmatched": change.details.get("unmatched", False),
         "supporting_reason": change.details.get("supporting_reason", ""),
         "commercial_check": display_check(change.details.get("commercial_check", {}), old, new),
+        "communication_check": change.details.get("communication_check", {}),
+        **{k: change.details.get(k, '') for k in ('element_before', 'element_after', 'context_before', 'context_after')},
     }
 
 

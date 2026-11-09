@@ -26,6 +26,10 @@ on:
         description: Sprawdź rzeczywisty przycisk odmowy i widoczność paneli cookies
         type: boolean
         default: false
+      probe_copy:
+        description: Sprawdź kontekst sekcji i stabilność komunikacji
+        type: boolean
+        default: false
       extra_urls:
         description: 'Dodatkowe publiczne adresy: JSON domena → lista URL (maks. 4 na domenę)'
         type: string
@@ -59,6 +63,7 @@ jobs:
           if [[ "$DISCOVER" == 'true' ]]; then args+=(--discover); fi
           if [[ "$DISABLE_HTTP2" == 'true' ]]; then args+=(--disable-http2); fi
           if [[ "$PROBE_COOKIES" == 'true' ]]; then args+=(--probe-cookies); fi
+          if [[ "$PROBE_COPY" == 'true' ]]; then args+=(--probe-copy); fi
           if [[ "$HEADED" == 'true' ]]; then
             if [[ "$RUNNER_OS" == 'Linux' ]]; then
               xvfb-run -a uv run python scripts/diagnose_access.py "${args[@]}" --headed
@@ -76,4 +81,5 @@ jobs:
           DISCOVER: ${{ inputs.discover }}
           DISABLE_HTTP2: ${{ inputs.disable_http2 }}
           PROBE_COOKIES: ${{ inputs.probe_cookies }}
+          PROBE_COPY: ${{ inputs.probe_copy }}
           EXTRA_URLS: ${{ inputs.extra_urls || '{}' }}

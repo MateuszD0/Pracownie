@@ -55,7 +55,7 @@ def supporting_reason(item: dict) -> str:
                 return 'Drobne przesunięcie układu; nie ustalono zmiany komunikacji.'
     if 'ue_push_dialog' in item.get('source', ''):
         return 'Okno powiadomień mogło pojawić się zależnie od sesji.'
-    if texts and all(normalized(t) in {'odrzucać', 'odrzuć', 'dostosuj', 'akceptuj', 'akceptuj wszystko', 'zaakceptuj wszystko', 'akceptuj wszystkie', 'zaakceptuj wszystkie'} for t in texts):
+    if texts and all(normalized(t) in {'odrzucać', 'odrzuć', 'dostosuj', 'akceptuj', 'akceptuj wszystko', 'zaakceptuj wszystko', 'akceptuj wszystkie', 'zaakceptuj wszystkie', 'zgadzam się'} for t in texts):
         return 'Kontrolka zgód lub ustawień sesji; nie zmiana komunikacji oferty.'
     offer_claim = any(re.search(r'\brabat|\bgratis|\bpakiet|\bdodat|\bpromocj|\bw cenie\b|\bbezpłat', t, re.I) for t in texts)
     if texts and not offer_claim and all(re.match(r'(?i)^(?:projekt\b|projekty dom|więcej informacji o projekcie|domy z |dom z |dom bez |nasza stodoła)', t) for t in texts) and item['category'] in {'komunikacja', 'funkcje', 'tresc'}:

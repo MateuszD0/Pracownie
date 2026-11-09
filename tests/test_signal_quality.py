@@ -93,3 +93,9 @@ def test_home_catalogue_inventory_is_supporting_but_promotions_and_project_param
     assert not supporting_reason(dict(item, before=catalogue + '\nKosztorys gratis'))
     assert not supporting_reason(event(page='glowna', communication_role='heading',
                                       before='brak', after='Dom 100 m2 — rabat 20%'))
+
+
+def test_generic_consent_button_is_not_an_unresolved_business_alert():
+    item = event(category='komunikacja', before='ZGADZAM SIĘ', after='brak',
+                 communication_check={'status':'unverified'})
+    assert 'Kontrolka zgód' in supporting_reason(item)

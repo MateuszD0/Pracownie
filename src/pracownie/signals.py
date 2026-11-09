@@ -94,8 +94,9 @@ def classify(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     from .contexts import observation_reason
     def capture_key(item):
         return (item['domain'], item['page'], item.get('before_at'), item.get('after_at'),
-                normalized(item.get('before')), normalized(item.get('after')))
+                urldefrag(item.get('source', ''))[0], normalized(item.get('before')), normalized(item.get('after')))
     context_reasons = {capture_key(item): reason for item in entries if (reason := observation_reason(item))}
+    copy_checks = {capture_key(item): item['communication_check'] for item in entries if item.get('communication_check')}
     movements = {}
     for item in entries:
         if item['category'] not in {'funkcje', 'komunikacja'}:
@@ -112,6 +113,10 @@ def classify(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     primary, supporting = [], []
     for original in entries:
         item = dict(original)
+        # A second extractor of the same text/capture must not reintroduce
+        # a finding already rejected by a real repeat of that page.
+        if not item.get('communication_check') and capture_key(item) in copy_checks:
+            item['communication_check'] = copy_checks[capture_key(item)]
         reason = supporting_reason(item) or context_reasons.get(capture_key(item), '') or ('Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.'
                   if item['id'] in moved else '')
         if reason:

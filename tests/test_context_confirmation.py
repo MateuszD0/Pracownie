@@ -139,6 +139,26 @@ def test_heading_alone_is_not_high_priority_and_failed_repeat_is_separate():
     assert not build_briefing(view)['events']
 
 
+@pytest.mark.parametrize('status,tier', [('unstable',None),('unverified','review'),('confirmed','main')])
+def test_duplicate_visual_copy_cannot_bypass_the_repeat_verdict(status,tier):
+    from pracownie.signals import classify
+    view = management_view()
+    visual = dict(view['journal'][0], id='visual', category='obraz', description='Widoczny nagłówek: sekcja',
+                  before='Dom dla każdego', after='Dom z pełnym wsparciem architekta', commercial_check={}, specific=True)
+    text = dict(visual, id='copy', category='komunikacja', description='Nagłówek', communication_role='heading',
+                communication_check={'status':status,'summary':'Wynik ponownego odczytu'})
+    view['journal'] = [visual,text]
+    events = build_briefing(view)['events']
+    if tier:
+        assert events and all(e['tier']==tier for e in events)
+    else:
+        assert not events
+    other_source = dict(visual, source='https://test.pl/inny-projekt')
+    primary,_ = classify([other_source,text])
+    assert next(i for i in primary if i['id']=='visual').get('communication_check') in (None,{})
+    assert not visual.get('communication_check'), 'Source journal must stay intact'
+
+
 @pytest.mark.browser
 async def test_dom_context_and_actual_changes_survive_to_executive_view(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

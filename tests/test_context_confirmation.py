@@ -159,6 +159,25 @@ def test_duplicate_visual_copy_cannot_bypass_the_repeat_verdict(status,tier):
     assert not visual.get('communication_check'), 'Source journal must stay intact'
 
 
+def test_old_followups_reclassified_only_with_matching_source_evidence():
+    from pracownie.intelligence import update_intelligence
+    view = management_view()
+    item = dict(view['journal'][0], category='dodatki', before='Dodatkowo otrzymaliśmy garaż gratis',
+                after='brak', context_before='testimonials')
+    view['journal'] = [item, dict(item, id='unresolved-offer', before='Rabat 20% z kodem DOM',
+                                 context_before='', category='promocje', unmatched=True, communication_role='text')]
+    queued = {'id':'quote','domain':item['domain'],'page':item['page'],'url':item['source'],
+              'before':item['before'],'after':item['after'],'category':'dodatki','label':'Treść',
+              'first_seen':view['day'],'last_seen':view['day'],'status':'open'}
+    state = {'verification_queue':{'quote':queued, 'other':dict(queued,id='other',url='https://test.pl/inna-strona'),
+                                  'offer':dict(queued,id='offer',before='Rabat 20% z kodem DOM')}}
+    for _ in range(2):
+        data = update_intelligence(state, view)
+        assert {q['id'] for q in data['pending']} == {'other','offer'}
+        assert state['verification_queue']['quote']['status'] == 'supporting'
+        assert state['verification_queue']['quote']['before'] == item['before']
+
+
 @pytest.mark.browser
 async def test_dom_context_and_actual_changes_survive_to_executive_view(executable):
     async with BrowserScanner(executable, settle_ms=0) as scanner:

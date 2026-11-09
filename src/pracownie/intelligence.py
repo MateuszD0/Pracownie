@@ -6,7 +6,9 @@ from datetime import date, timedelta
 
 from .briefing import build_briefing
 from .commercial import document, expired_end, future_start, not_started
+from .contexts import REASONS, observation_reason
 from .model import Snapshot
+from .signals import normalized, supporting_reason
 
 
 def update_intelligence(state: dict, view: dict) -> dict:
@@ -30,6 +32,28 @@ def update_intelligence(state: dict, view: dict) -> dict:
                           'url': item['source'], 'before': item['before'], 'after': item['after'], 'category': item['category'],
                           'label': item['description'], 'before_at': item['before_at'], 'first_seen': prior.get('first_seen', day), 'last_seen': day,
                           'next_check': event['next_check'], 'status': prior.get('status', 'open') if prior.get('last_seen') == day else 'open'}
+    # Reclassify stale follow-ups only when the same recorded text on the same
+    # page is now source-backed peripheral context. Absence from today's scan
+    # never resolves a queue item, and the original record remains retained.
+    from urllib.parse import urldefrag
+    def identity(item, source):
+        return (item['domain'], item['page'], urldefrag(item[source])[0],
+                normalized(item['before']), normalized(item['after']))
+    observations = {}
+    for item in view.get('journal', []):
+        observations.setdefault(identity(item, 'source'), []).append(item)
+    for item in queue.values():
+        matches = observations.get(identity(item, 'url'), [])
+        reasons = []
+        for match in matches:
+            context = observation_reason(match)
+            reason = supporting_reason(match)
+            # Unmatched/unstable copy is still unresolved; it must not close
+            # a commercial follow-up merely because it is outside the digest.
+            reasons.append(context if context in {REASONS[k] for k in ('testimonials','editorial','catalogue')}
+                           else reason if reason.startswith('Kontrolka zgód') else '')
+        if item['status'] == 'open' and reasons and all(reasons):
+            item.update(status='supporting', supporting_reason=reasons[0], reclassified_at=day)
     offers = {}
     for key, raw in state.get('snapshots', {}).items():
         if raw['domain'] not in domains or not key.endswith('/podstawowy') or raw.get('page') not in {'glowna', 'projekt'}:

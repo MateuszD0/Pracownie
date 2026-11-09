@@ -8,10 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hbstudio.pl | Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniżej przedstawiamy listę dodatkowych projektów uzupełniających: | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hbstudio.pl/) |
-| hbstudio.pl | 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hbstudio.pl/) |
-| hbstudio.pl | Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu. \* Zastosowanie dodatkowych instalacji może mieć wpływ na konieczność dokonania zmian w projekcie katalogowym. Dodatkowe pakiety instalacji są wykonywane jako usługa i nie podlegają zwrotowi oraz wymianie. | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hbstudio.pl/) |
-| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 08.11.2026 11:10<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
+| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 09.11.2026 11:17<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 09.11.2026 10:46<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | lipinscy.pl | Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział w promocji. | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38212\_articles\_mainSection.jpeg | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38206\_articles\_mainSection.jpeg | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |

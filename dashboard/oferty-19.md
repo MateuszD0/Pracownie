@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | Kosztorys — 30 zł | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Dla każdego projektu możesz kupić kompletny pakiet: kosztorys inwestorski PDF, wersję uproszczoną oraz zestawienie materiałów XLS. | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Zobacz wszystkie kosztorysy → | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Dobry projekt to nie tylko układ pomieszczeń i wygląd domu. Przed rozpoczęciem inwestycji warto wiedzieć, jakiego budżetu może wymagać budowa wybranego projektu. Dlatego dla projektów Rodzina na Swoim przygotowaliśmy kompletne pakiety kosztorysowe. | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Wybierz kosztorys swojego domu → | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Czy muszę kupić projekt, aby wcześniej sprawdzić kosztorys? | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Porównaj projekty od 76 do 145 m², wybierz odpowiedni metraż, dach i wariant, zobacz prawdziwe realizacje i sprawdź kosztorys. Wszystko, czego potrzebujesz do wyboru projektu, znajdziesz w jednym miejscu. | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Zobacz kosztorysy budowy | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | CENA 30 zł za kompletny pakiet | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Dostawa elektroniczna Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys budowy projektu RNS100C | Obecna w zapisie · 09.11.2026 10:49<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |

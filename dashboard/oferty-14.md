@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| modernhouse-projekty.pl | Aby skorzystać ze zwrotu lub wymiany, należy w wymaganym terminie poinformować nas o swojej decyzji drogą mailową, a następnie postępować zgodnie z procedurą opisaną w regulaminie oraz formularzu zwrotu lub wymiany. Kosztorysy przekazywane w formie elektronicznej nie podlegają zwrotowi. | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://modernhouse-projekty.pl/) |
-| modernhouse-projekty.pl | Zyskaj 5% rabatu w 2 minuty | Obecna w zapisie · 09.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 09.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Wszystko, czego potrzebujesz – w cenie projektu! | Obecna w zapisie · 09.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 09.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 09.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | moj-dom-projekty.pl | PROMOCJE!!! Zadzwoń. Kupując projekt możesz otrzymać różne korzyści!!! Zobacz więcej | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://www.moj-dom-projekty.pl/) |
 | moj-dom-projekty.pl | Szacunkowy koszt budowy w stanie deweloperskim: 554 000 PLN Szacunkowy koszt stanu surowego zamknietego: 398 880 PLN Koszty nie obejmują budowy piwnicy. Podane koszty są szacunkowe i nie mogą zastąpić rzeczywistego kosztorysu. | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 | mtmstyl.com.pl | Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
+| mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |

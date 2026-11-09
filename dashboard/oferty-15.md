@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mtmstyl.com.pl | Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację. | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
-| mtmstyl.com.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
-| mtmstyl.com.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/) |
 | mtmstyl.com.pl | GRATIS ! | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bezpłatna wysyłka | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
 | nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |
+| nowoczesne-projektydomow.pl | Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki | Obecna w zapisie · 09.11.2026 10:47<br>[Źródło](http://www.nowoczesne-projektydomow.pl/) |

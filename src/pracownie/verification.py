@@ -31,9 +31,12 @@ def assess_copy(change, snapshot, url: str) -> dict:
     if not inventory:
         return result
     texts = {i['text'] for i in inventory if not i.get('unstable')}
+    all_texts = {i['text'] for i in inventory}
     old, new = clean(change.before or ''), clean(change.after or '')
-    confirms = (bool(new) and new in texts and (not old or old not in texts)
-                or not new and bool(old) and old not in {i['text'] for i in inventory})
+    # An old message still present in a changing widget is not evidence of
+    # withdrawal, even when the new message is stable elsewhere on the page.
+    confirms = (bool(new) and new in texts and (not old or old not in all_texts)
+                or not new and bool(old) and old not in all_texts)
     if confirms:
         result.update(status='confirmed', summary='Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.')
     else:

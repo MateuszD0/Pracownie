@@ -37,6 +37,17 @@ def test_confirmation_requires_later_complete_same_page_same_day_capture():
     assert assess_copy(change, current, current.url)['status'] == 'unverified'
 
 
+def test_old_message_in_unstable_widget_cannot_confirm_its_replacement_or_removal():
+    _, current, change = snapshots()
+    current.observed_at = (datetime.fromisoformat(AFTER) + timedelta(seconds=15)).isoformat()
+    current.document['communication']['observed_at'] = current.observed_at
+    current.document['communication']['items'].append(
+        {'key':'rotator','role':'heading','text':change.before,'unstable':True})
+    assert assess_copy(change, current, current.url)['status'] == 'unstable'
+    change.after = None
+    assert assess_copy(change, current, current.url)['status'] == 'unstable'
+
+
 async def test_failed_confirmation_retains_observation_and_records_reason(tmp_path):
     _, current, change = snapshots()
     row = Result('test.pl', 'glowna', 'podstawowy', 'changed', current.url, [change], observed_at=AFTER)

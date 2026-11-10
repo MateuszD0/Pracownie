@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-08 → 2026-11-09**
+**2026-11-09 → 2026-11-10**
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
@@ -16,20 +16,22 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 08.11.2026 11:10 → 09.11.2026 11:17 (czas polski).
+**Odczyty:** 09.11.2026 11:17 → 10.11.2026 05:29 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
 
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro…
-- Istnieje możliwość jednokrotnej wymiany projektu zakupionego w Pracowni Projektowej HB Studio na inny z jej oferty, przy czym wymianę należ… → brak
+- brak → materiały wykończeniowe: posadzki, tynki, dachówki, izolacje cieplne i przeciwwilgociowe, przy zachowaniu niezbędnych parametrów wytrzymało…
+- brak → rozwiązania funkcjonalne wewnątrz budynku;
+- brak → wprowadzić częściowe lub całkowite podpiwniczenie budynku – przy zachowaniu poziomu posadzki parteru na wysokości nie przekraczającej 50 cm…
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -39,11 +41,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 08.11.2026 11:10 → 09.11.2026 11:17 (czas polski).
+**Odczyty:** 09.11.2026 11:17 → 10.11.2026 05:29 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-09%2Fhbstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2Fprojekt%2Fgroszek-dach-dwuspadowy%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fhbstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2Fprojekt%2Fgroszek-dach-dwuspadowy%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t152653.795323-0000-format-0e3baf3d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t042627.398779-0000-b670e51c-porownanie.html)
 

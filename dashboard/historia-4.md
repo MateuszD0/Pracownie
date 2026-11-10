@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-08 | „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniż…” | Sprawdzono w serwisie |
+| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Sprawdzono w serwisie |
+| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Mały dom z poddaszem nieużytkowym”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | „Optymalny dom na wąskie działki” → „Dom dwuspadowy na wąskie działki”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Rezydencja dla licznej rodziny”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Optymalny dom na wąskie działki”. | Potwierdzono ponownym odczytem |
+| domenadom.pl · 2026-11-09 | Pojawił się komunikat: „Domena 171 C5NOWOŚĆ”. | Potwierdzono ponownym odczytem |
+| artinex-projekt.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D424A Zabudowa bliźniacza - segmenty dwulokalowe WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D350 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-09 | „D322D WT2021 wersja drewniana” → „DM5 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „D292A Gabinet, pracownia z niezależnym wejściem WT2021”. | Zaobserwowana zmiana |
+| archetyp.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „111,37m2 113,98m2 116,96m2 119,94m2 125,15m2 131,14m2 133,14m2 134,13m2 136,83m2 137,99m2 140,52m2 143,77m2 148,08m2 149,96m2 150,50m2 154,38m2 155,16m2 158,86m2 166,58m2 168,81m2…”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-08 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-08 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-08 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-08 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-08 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-08 | „PROJEKTUJEMY MIEJSCA DO \|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-08 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PRAC\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-08 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |

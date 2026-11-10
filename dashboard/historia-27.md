@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-30 | „salon + 3 pokoje garaż: brak 100.00 m²” → „salon + 4 pokoje garaż: brak 120.00 m²”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Często nowi potencjalni klienci zastanawiają się jak wygląda proces sporządzania projektu indywidualnego i co taki projekt zawiera. Żeby…”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
-| eg-domy.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
-| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednosta…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Nikola to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| lipinscy.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW DUŻYCH OD 150M² DO 200M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
+| kreodom.pl · 2026-10-30 | Pojawił się komunikat: „KIEDY KOCIOŁ NA PELLET Z ZEWNĘTRZNYM PALNIKIEM SPRAWDZI SIĘ LEPIEJ NIŻ TRADYCYJNY PIEC?”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO P\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |

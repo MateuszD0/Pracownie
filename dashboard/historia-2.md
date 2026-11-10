@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu. \* Zastosowanie dodatkowych instalacji może mieć wpływ na konieczność dokonania z…” | Sprawdzono w serwisie |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniż…” | Sprawdzono w serwisie |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Sprawdzono w serwisie |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Mały dom z poddaszem nieużytkowym”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | „Optymalny dom na wąskie działki” → „Dom dwuspadowy na wąskie działki”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Rezydencja dla licznej rodziny”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Optymalny dom na wąskie działki”. | Potwierdzono ponownym odczytem |
+| archipelag.pl · 2026-11-10 | Pojawił się komunikat: „Badanie: co decyduje o komforcie na poddaszu? Polacy wskazali 6 kluczowych czynników”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-10 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
+| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
+| alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
+| alexanderstudio.pl · 2026-11-10 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 07.11.2026 koniec za” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-09 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
+| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |

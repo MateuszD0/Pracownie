@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł”. W sprawdzonym serwisie znaleziono również: „GRATIS” | Do sprawdzenia |
-| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja mikołajkowa” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-10-27, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-10-30 | „Garaże i budynki &lt;br&gt;gospodarcze” → „Garaże i budynki gospodarcze”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-30 | „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe” → „Bliźniaki i jednorodzinne dwulokalowe”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 28.10.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Więcej o naszych projektach”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zadzwoń lub napisz – bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki.” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji.” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Dlaczego warto kupić projekt u nas”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „GOTOWE PROJEKTY DOMÓW - OD CZEGO ZACZĄĆ WYBÓR PROJEKTU”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „14 dni na zwrot, 30 na wymianę”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Zobacz wszystkie nowości →”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czym różni się opcja STANDARD od EKO?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Zbuduj dom z TeA Projekt”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zgoda na zmiany gratis” | Sprawdzono w serwisie |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-30 | „salon + 3 pokoje garaż: brak 100.00 m²” → „salon + 4 pokoje garaż: brak 120.00 m²”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Często nowi potencjalni klienci zastanawiają się jak wygląda proces sporządzania projektu indywidualnego i co taki projekt zawiera. Żeby…”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
+| eg-domy.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
+| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-10-30 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-10-30 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D - projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
+| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D odbicie lustrzane- projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
+| dompasja.pl · 2026-10-30 | „DomPasja 56 - projekt domu z poddaszem użytkowym” → „Dompasja 61 D - projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „1xBet Промокод 2026 — Акция: 100% Бонус до 32 500 руб”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |

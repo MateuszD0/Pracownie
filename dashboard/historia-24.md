@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 29.10.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
-| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
-| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „4249,- 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys inwestorski to dokument finansowy, uwzględniający wszystkie koszty budowy domu – w tym przede wszystkim koszty zakup materiałów i ich rodzaj, robociznę (określaną w form…”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys nie obejmuje kosztów zagospodarowania działki.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowy egzemplarz projektu”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Kosztorys”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowe opcje przy zakupie projektu”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dane techniczne i kosztorys”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys w opracowaniu.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo można znaleźć informację o kosztach budowy stanu surowego zamkniętego metodą gospodarczą, wtedy koszt robocizny i koszty pośrednie pomniejszamy o 70% natomiast koszt mat…”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Pobierz bezpłatnie”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pobierz bezpłatnie”. | Do sprawdzenia |
-| pro-arte.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCI\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kbprojekt.pl · 2026-10-31 | „Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
+| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 C2NOWOŚĆ”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-10-31 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
+| domato.pl · 2026-10-31 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | „D439 WT2021 wersja drewniana” → „D57AD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-31 | Pojawił się komunikat: „D444 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| architeka.pl · 2026-10-31 | „Najniższa cena z 30 dni:” → „Najniższa cena z 30 dni: \[wc\_price\_history\]”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-30 | „Budowa domu murowanego 80 m2 we Wrocławiu – poszukiwana firma budowlana” → „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
+| tipitom.space · 2026-10-30 | „"Times New Roman"” → „Montserrat, sans-serif”. | Zaobserwowana zmiana |

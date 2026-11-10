@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu AR-22 P](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://teaprojekt.pl/)
 
-**Odczyty:** 09.11.2026 10:50 → 10.11.2026 05:32 (czas polski).
+**Odczyty:** 09.11.2026 10:50 → 10.11.2026 10:49 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fteaprojekt.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fteaprojekt.pl%2F%0A%0AOpis%3A)
 
@@ -26,11 +26,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/)
 
-**Odczyty:** 09.11.2026 10:50 → brak odczytu (czas polski).
+**Odczyty:** 09.11.2026 10:50 → 10.11.2026 10:49 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fteaprojekt.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fteaprojekt.pl%2Fgotowe-projekty-domow%2Fprojekt-domu-ar-22-p%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t042627.398779-0000-b670e51c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t094823.596016-0000-40c1bd03-porownanie.html)
 

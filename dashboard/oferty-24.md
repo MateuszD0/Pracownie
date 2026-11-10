@@ -29,7 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studiokrajobrazy.pl | bezpłatna zgoda na zmiany | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | aktualny kosztorys na zamówienie | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | zielony pakiet – GRATIS! | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
-| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://teaprojekt.pl/) |
-| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://teaprojekt.pl/) |
-| teaprojekt.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 10.11.2026 05:32 · 09.11.2026 10:50<br>[Źródło](https://teaprojekt.pl/) · [Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
-| teaprojekt.pl | Oświadczenie z szerokim zakresem zmian dla architekta adaptującego – w cenie projektu. | Obecna w zapisie · 10.11.2026 05:32<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 10.11.2026 10:49<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 10.11.2026 10:49<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 10.11.2026 10:49 · 10.11.2026 10:49<br>[Źródło](https://teaprojekt.pl/) · [Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | Oświadczenie z szerokim zakresem zmian dla architekta adaptującego – w cenie projektu. | Obecna w zapisie · 10.11.2026 10:49<br>[Źródło](https://teaprojekt.pl/) |

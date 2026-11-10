@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.drewnex.biz/)
 
-**Odczyty:** 02.11.2026 09:18 → 10.11.2026 05:28 (czas polski).
+**Odczyty:** 02.11.2026 09:18 → 10.11.2026 10:48 (czas polski).
 
 **Luka 8 dni · brak porównania z wczoraj**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.drewnex.biz/domy-drewniane-caloroczne/anegdota/)
 
-**Odczyty:** 02.11.2026 09:18 → 10.11.2026 05:29 (czas polski).
+**Odczyty:** 02.11.2026 09:18 → 10.11.2026 10:48 (czas polski).
 
 **Luka 8 dni · brak porównania z wczoraj**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t042627.398779-0000-b670e51c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t094823.596016-0000-40c1bd03-porownanie.html)
 

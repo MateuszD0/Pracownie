@@ -24,12 +24,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
 | domywstylu.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | dompp.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
 | domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
 | domdlaciebie.com.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | archiportal.pl · 2026-11-10 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Okno dachowe nie musi być zawsze takie samo. Poznaj inne rozwiązania FAKRO”. | Potwierdzono ponownym odczytem |

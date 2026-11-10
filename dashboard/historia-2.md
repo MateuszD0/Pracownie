@@ -9,13 +9,13 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
 | archipelag.pl · 2026-11-10 | Pojawił się komunikat: „Badanie: co decyduje o komforcie na poddaszu? Polacy wskazali 6 kluczowych czynników”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-10 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Potwierdzono ponownym odczytem |
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
-| alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
 | alexanderstudio.pl · 2026-11-10 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
 | 3ddom.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 07.11.2026 koniec za” | Sprawdzono w serwisie |
 | studioatrium.pl · 2026-11-09 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
 | studioatrium.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |

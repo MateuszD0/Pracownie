@@ -36,7 +36,7 @@ Strony porównania: [1](archetonpl.md) · **2**
 | Zmiany wyglądu · Układ ·  | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#content-wrapper) |
 | Zmiany wyglądu · Układ · Projekt domu Ara 100 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1922) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t100123.835743-0000-73159947-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-porownanie.html)
 
 Strony porównania: [1](archetonpl.md) · **2**
 

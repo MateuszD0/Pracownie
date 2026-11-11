@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 29 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Następne zdjęcie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 | Zmiany wyglądu · Układ · Ile kosztuje budowa domu SEJ-PRO 016 ENERGO? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#faq) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t092028.362577-0000-28d8aa97-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · [2](sej-propl-2.md) · **3** · [4](sej-propl-4.md)
 

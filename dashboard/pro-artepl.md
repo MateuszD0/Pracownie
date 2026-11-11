@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-09 → 2026-11-10**
+**2026-11-10 → 2026-11-11**
 
 **Ten sam projekt:** [TRYPOLIS 7 szkielet drewniany](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-**25 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/)
 
-**Odczyty:** 09.11.2026 10:48 → 10.11.2026 05:31 (czas polski).
+**Odczyty:** 10.11.2026 05:31 → 11.11.2026 09:29 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fpro-arte.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pro-arte.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fpro-arte.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pro-arte.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,80 +26,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-**Odczyty:** 09.11.2026 10:48 → 10.11.2026 05:31 (czas polski).
+**Odczyty:** 10.11.2026 05:31 → 11.11.2026 09:29 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fpro-arte.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pro-arte.pl%2Fprojekty-domow%2F1025%2Ftrypolis-7-szkielet-drewniany%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fpro-arte.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pro-arte.pl%2Fprojekty-domow%2F1025%2Ftrypolis-7-szkielet-drewniany%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>RABAT 300 ZŁ</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Funkcjonalności · Opcja na stronie · Karta projektu · KUP TERAZ | <strong>MÓJ KOSZYK 3599 zł</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.pro-arte.pl/cart) |
-| Funkcjonalności · Opcja na stronie · Karta projektu · KUP TERAZ | Nie odnotowano w tym odczycie | <strong>MÓJ KOSZYK 3299 zł</strong> | [Otwórz stronę](https://www.pro-arte.pl/cart#:~:text=M%C3%93J%20KOSZYK%203299%20z%C5%82) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>213 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>139 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>250 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>472 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Realizacja projektu domu TRYPOLIS 3 - wnętrza | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 3 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Przekrój szkielet drewniany - ściana | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>324 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Wizualizacja wnętrz domu - TRYPOLIS 2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 3 klient indywidualny | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>361 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Rzut strychu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>176 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 7 SZKIELET DREWNIANY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>102 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>287 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>435 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>398 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 7 SZKIELET DREWNIANY, zielony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Konfigurator produktów techniki grzewczej | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| Zmiany wyglądu · Układ · Rzut przyziemia | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+**Bez zmian w zapisanej komunikacji**
 
-**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „RABAT 300 ZŁ”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany): RABAT 300 ZŁ
-- [Sprawdzona strona](https://www.pro-arte.pl/) · 10.11.2026 05:31 · odczyt poprawny
-- [Sprawdzona strona](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) · 10.11.2026 05:31 · odczyt poprawny
-- [Sprawdzona strona](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) · 10.11.2026 05:45 · odczyt poprawny
-- [Sprawdzona strona](https://www.pro-arte.pl/projekty-domow/1007/trypolis-6) · 10.11.2026 05:45 · odczyt poprawny
-- [Sprawdzona strona](https://www.pro-arte.pl/projekty-domow/1008/trypolis-7) · 10.11.2026 05:45 · odczyt poprawny
-
-Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-9-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 09.11.2026 10:48 | Po · 10.11.2026 05:31 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-9-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
-- Treść opinii klienta; nie jest deklaracją warunków oferty pracowni.
-
-Przykłady z zapisów:
-
-- brak → Cena obowiązuje od 2026-11-10 do 2026-11-12
-- brak → Najniższa cena z ostatnich 30 dni: 3599 zł
-- 1280 × 7046 px; położenie: 0 px od lewej, 0 px od góry → 1280 × 7111 px; położenie: 0 px od lewej, 0 px od góry
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-porownanie.html)
 

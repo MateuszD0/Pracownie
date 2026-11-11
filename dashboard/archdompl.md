@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-09 → 2026-11-10**
+**2026-11-10 → 2026-11-11**
 
 **Ten sam projekt:** [AKSAMITKA 1](https://archdom.pl/produkt/projekt-domu-aksamitka/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**8 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archdom.pl/)
 
-**Odczyty:** 09.11.2026 10:44 → 10.11.2026 05:27 (czas polski).
+**Odczyty:** 10.11.2026 05:27 → 11.11.2026 09:25 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Farchdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchdom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Farchdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchdom.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,11 +26,32 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archdom.pl/produkt/projekt-domu-aksamitka/)
 
-**Odczyty:** 09.11.2026 10:44 → 10.11.2026 05:27 (czas polski).
+**Odczyty:** 10.11.2026 05:27 → 11.11.2026 09:25 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Farchdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchdom.pl%2Fprodukt%2Fprojekt-domu-aksamitka%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Farchdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchdom.pl%2Fprodukt%2Fprojekt-domu-aksamitka%2F%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>STODOŁA MINI 3 BG UNI EKO</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>RUMIANEK 1</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>KONWALIA</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>STODOŁA MINI 3 BG EKO</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>RUMIANEK MAŁY</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>ASTER 3</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>HORTENSJA EKO</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>AMARANTUS 1 EKO</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/#product-3911) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-porownanie.html)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-dowod-17-przed.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 10.11.2026 05:27 | Po · 11.11.2026 09:25 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-dowod-17-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-porownanie.html)
 

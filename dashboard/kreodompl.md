@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-09 → 2026-11-10**
+**2026-11-10 → 2026-11-11**
 
 **Ten sam projekt:** [PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706](https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html)
 
@@ -16,21 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.kreodom.pl/)
 
-**Odczyty:** 09.11.2026 10:47 → 10.11.2026 05:30 (czas polski).
+**Odczyty:** 10.11.2026 05:30 → 11.11.2026 09:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fkreodom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kreodom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fkreodom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kreodom.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (43) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (52) — nie są ustaloną zmianą oferty</summary>
 
 - Element zakładki katalogu projektów; nie zmiana oferty stałego projektu.
 
 Przykłady z zapisów:
 
-- PDJ-5085 → PDJ-9085
-- LISANDRA XS → brak
-- brak → Ambrozja 7
+- brak → Dalia 2
+- Ambrozja 7 → Ambrozja 9
+- brak → Synezjusz 3
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +40,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html)
 
-**Odczyty:** 09.11.2026 10:47 → 10.11.2026 05:30 (czas polski).
+**Odczyty:** 10.11.2026 05:30 → 11.11.2026 09:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Fkreodom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kreodom.pl%2Fprojekt%2Fprojekt-domu-dwurodzinnego-kornel-v-energo-9121.html%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fkreodom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kreodom.pl%2Fprojekt%2Fprojekt-domu-dwurodzinnego-kornel-v-energo-9121.html%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-porownanie.html)
 

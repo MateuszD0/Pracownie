@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-09 → 2026-11-10**
+**2026-11-10 → 2026-11-11**
 
 **Ten sam projekt:** [WYSZUKANY D64 wariant II](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
-**3 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,100 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://eg-domy.pl/)
 
-**Odczyty:** 09.11.2026 10:46 → 10.11.2026 05:29 (czas polski).
+**Odczyty:** 10.11.2026 05:29 → 11.11.2026 09:27 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Feg-domy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Feg-domy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>Promocja</strong> | [Otwórz stronę](https://eg-domy.pl/) |
-
-**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „Promocja”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://eg-domy.pl/): Promocja
-- [Sprawdzona strona](https://eg-domy.pl/) · 10.11.2026 05:29 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) · 10.11.2026 05:29 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/) · 10.11.2026 05:39 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) · 10.11.2026 05:39 · odczyt poprawny
-
-—
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-5-przed.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 09.11.2026 10:46 | Po · 10.11.2026 05:29 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-5-przed.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
-**Odczyty:** 09.11.2026 10:46 → 10.11.2026 05:29 (czas polski).
+**Odczyty:** 10.11.2026 05:29 → 11.11.2026 09:27 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-10%2Feg-domy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2Fprojekty-gotowe%2Fwyszukany-d64-wariant-ii%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Feg-domy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Feg-domy.pl%2Fprojekty-gotowe%2Fwyszukany-d64-wariant-ii%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJA</strong> | [Otwórz stronę](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/#product-7795) |
-| Promocje i rabaty · Baner · Karta projektu · Warianty projektu | Nie odnotowano w tym odczycie | <strong>Promocja</strong> | [Otwórz stronę](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/#warianty) |
+**Bez zmian w zapisanej komunikacji**
 
-**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „PROMOCJA”
-
-<details><summary>Źródła i zakres weryfikacji</summary>
-
-- [Warunki oferty](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/): PROMOCJA
-- [Sprawdzona strona](https://eg-domy.pl/) · 10.11.2026 05:29 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) · 10.11.2026 05:29 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/) · 10.11.2026 05:39 · odczyt poprawny
-- [Sprawdzona strona](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) · 10.11.2026 05:39 · odczyt poprawny
-
-—
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 09.11.2026 10:46 | Po · 10.11.2026 05:29 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-
-Przykłady z zapisów:
-
-- brak → 5949 zł Pierwotna cena wynosiła: 5949 zł. 5699 zł Aktualna cena wynosi: 5699 zł.
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 09.11.2026 10:46 → 10.11.2026 05:29 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
-
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-dowod-6-po.jpg)
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-10/2026-11-10-2026-11-10t105935.477791-0000-41ca9a80-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t082445.560462-0000-0d6bfac1-porownanie.html)
 

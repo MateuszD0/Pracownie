@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-07 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-07 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-07 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Dom parterowy z wbudowanym garażem i wysokim sufitem nad strefą dzienną.”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-07 | Pojawił się komunikat: „Dwurodzinny budynek z wbudowanym garażem.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-06 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-06 | Pojawił się komunikat: „Badania geotechniczne gruntu pod dom: kiedy są potrzebne i ile kosztują w 2026”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 05.11.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-08 | „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-08 | Pojawił się komunikat: „Optymalny dom na wąskie działki”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-08 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D322D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
+| archetyp.pl · 2026-11-08 | Pojawił się komunikat: „111,37m2 113,98m2 116,96m2 119,94m2 125,15m2 131,14m2 133,14m2 134,13m2 136,83m2 137,99m2 140,52m2 143,77m2 148,08m2 149,96m2 150,50m2 154,38m2 155,16m2 158,86m2 166,58m2 168,81m2…”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-11-07 | „Budowa domu murowanego 93m2 z garażem w Kościerzynie – poszukiwana firma budowlana” → „Budowa domu murowanego 170m2 w Golczewie – poszukiwana firma budowlana”. | Zaobserwowana zmiana |

@@ -57,7 +57,7 @@ Strony porównania: [1](planujdompl.md) · **2** · [3](planujdompl-3.md)
 | Zmiany wyglądu · Układ · Dodaj do ulubionych | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#content) |
 | Zmiany wyglądu · Układ · Go to last slide | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#splide01) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t093247.815968-0000-9b313753-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-porownanie.html)
 
 Strony porównania: [1](planujdompl.md) · **2** · [3](planujdompl-3.md)
 

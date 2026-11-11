@@ -57,7 +57,7 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej
 | Zmiany wyglądu · Układ · Dodaj do porównywarki | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 | Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t092028.362577-0000-28d8aa97-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t093247.815968-0000-9b313753-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej-propl-4.md)
 

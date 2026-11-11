@@ -45,7 +45,7 @@ Strony porównania: [1](studioatriumpl.md) · [2](studioatriumpl-2.md) · **3**
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t092028.362577-0000-28d8aa97-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t093247.815968-0000-9b313753-porownanie.html)
 
 Strony porównania: [1](studioatriumpl.md) · [2](studioatriumpl-2.md) · **3**
 

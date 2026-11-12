@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 29.10.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
+| projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
+| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „4249,- 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Zaobserwowana zmiana |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF.”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys inwestorski to dokument finansowy, uwzględniający wszystkie koszty budowy domu – w tym przede wszystkim koszty zakup materiałów i ich rodzaj, robociznę (określaną w form…”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys nie obejmuje kosztów zagospodarowania działki.”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowy egzemplarz projektu”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Kosztorys”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pro-arte.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
 | planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej…” → „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |

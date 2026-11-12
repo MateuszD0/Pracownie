@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-10 → 2026-11-11**
+**2026-11-11 → 2026-11-12**
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
@@ -16,23 +16,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hexagreen.pl/)
 
-**Odczyty:** 10.11.2026 05:29 → 11.11.2026 09:27 (czas polski).
+**Odczyty:** 11.11.2026 09:27 → 12.11.2026 05:14 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fhexagreen.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Fhexagreen.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>projektuję domy wysoce energooszczędne</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>#6 zasad</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dowiedz się więcej</strong> | [Otwórz stronę](https://hexagreen.pl/#primary) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>projektuję domy wysoce energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>#6 zasad</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Dowiedz się więcej</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-21-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-7-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 10.11.2026 05:29 | Po · 11.11.2026 09:27 |
+| Przed · 11.11.2026 09:27 | Po · 12.11.2026 05:14 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-21-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-7-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -40,14 +40,14 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 <details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → i wysoce energooszczędnych
-- brak → Jako Ambasador i Certyfikowany Europejski Projektant Budownictwa Pasywnego (Passive House Institute, Darmstadt) już od 10 lat projektuję do…
-- brak → ARCHITEKTURA PRZYSZŁOŚCI
+- Projekty domów pasywnych i wysoce energooszczędnych → brak
+- Przyczyniając się tym do zrównoważonego i inteligentnego rozwoju kraju, tworzenie projektów domów wysoce energooszczędnych, w tym domów pas… → brak
+- 4 Buildings Awards 2019 i Eko Strateg 2019 oraz Polskiej Nagrody Inteligentnego Rozwoju 2018 co szczególnie cieszy zespół Hexa Green, że to… → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -57,23 +57,25 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**Odczyty:** 10.11.2026 05:29 → 11.11.2026 09:27 (czas polski).
+**Odczyty:** 11.11.2026 09:27 → 12.11.2026 05:14 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fhexagreen.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2Fprodukt%2Fprojekt-domu-dom-pasywny-hg-01-premium%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Fhexagreen.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2Fprodukt%2Fprojekt-domu-dom-pasywny-hg-01-premium%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- Produkt dodano do koszyka → brak
+- brak → Produkt dodano do koszyka
+- Brak produktów w koszyku → brak
+- brak → Brak produktów w koszyku
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-porownanie.html)
 

@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-04 | „Katalog 06/26:” → „Katalog 08/26:”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Great reading too 180 faster”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| dobredomy.pl · 2026-11-04 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| dobredomy.pl · 2026-11-04 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| artinex-projekt.pl · 2026-11-04 | „D331A Zabudowa bliźniacza WT2021” → „D341 Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-04 | „D153BD WT2021 wersja drewniana” → „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „D292C WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | 3ddom.pl · 2026-11-04 | Zmiana komunikatu oferty: „Promocja od 31.10.2026 koniec za” → „Promocja od 02.11.2026 koniec za” | Sprawdzono w serwisie |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl · 2026-11-03 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-03 | Pojawił się komunikat: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-03 | Pojawił się komunikat: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| projektydomowzbali.pl · 2026-11-03 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
-| projektydomowzbali.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Zaobserwowana zmiana |
-| pro-arte.pl · 2026-11-03 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
-| pracowniaprojektowa.info · 2026-11-03 | Zmiana komunikatu oferty: „13.10.2026-22.10.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-03 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-03 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-03 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |

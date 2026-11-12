@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| dompp.pl · 2026-11-11 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | „"Work Sans"” → „"Montserrat Thin"”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | „normalny (400)” → „300”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
 | dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
 | dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl · 2026-11-10 | Pojawił się komunikat: „Najczęściej zadawane pytania o budowę domu z Generalnym Wykonawcą”. | Potwierdzono ponownym odczytem |
 | mtmstyl.com.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | lipinscy.pl · 2026-11-10 | Nie odnotowano wcześniejszego komunikatu: „Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział…”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
-| eg-domy.pl · 2026-11-10 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dom piętrowy z bocznym tarasem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
-| domywstylu.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| dompp.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |

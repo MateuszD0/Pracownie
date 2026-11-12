@@ -1,6 +1,6 @@
 <!-- pracownie-monitor:v1 -->
 
-# Problemy wymagające naprawy · 2026-11-11
+# Problemy wymagające naprawy · 2026-11-12
 
 [← Odprawa dnia](../DASHBOARD.md)
 

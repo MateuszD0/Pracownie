@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domdlaciebie.com.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Dom parterowy z wbudowanym garażem i wysokim sufitem nad strefą dzienną.”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-07 | Pojawił się komunikat: „Dwurodzinny budynek z wbudowanym garażem.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-06 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
 | sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-11-06 | Pojawił się komunikat: „Badania geotechniczne gruntu pod dom: kiedy są potrzebne i ile kosztują w 2026”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | „Strona główna &gt;&gt; Produkty &gt;&gt; Ami II” → „Strona główna &gt;&gt; Projekty domów &gt;&gt; Ami II”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
-| nowoczesne-projektydomow.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Projekt Architektoniczno-Konstrukcyjny Domu B651 - wersja bez instalacji - Gratis Dodatki”. W sprawdzonym serwisie znaleziono również: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” | Do sprawdzenia |

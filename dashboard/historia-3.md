@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| eg-domy.pl · 2026-11-10 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dom piętrowy z bocznym tarasem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
+| domywstylu.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| dompp.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
 | domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
 | alexanderstudio.pl · 2026-11-10 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
 | alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
-| 3ddom.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 07.11.2026 koniec za” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-09 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |

@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl · 2026-11-08 | „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-08 | Pojawił się komunikat: „Optymalny dom na wąskie działki”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-08 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D348 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D322D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
-| archetyp.pl · 2026-11-08 | Pojawił się komunikat: „111,37m2 113,98m2 116,96m2 119,94m2 125,15m2 131,14m2 133,14m2 134,13m2 136,83m2 137,99m2 140,52m2 143,77m2 148,08m2 149,96m2 150,50m2 154,38m2 155,16m2 158,86m2 166,58m2 168,81m2…”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-11-07 | „Budowa domu murowanego 93m2 z garażem w Kościerzynie – poszukiwana firma budowlana” → „Budowa domu murowanego 170m2 w Golczewie – poszukiwana firma budowlana”. | Zaobserwowana zmiana |

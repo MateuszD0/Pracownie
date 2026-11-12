@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-29 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-29 | Pojawił się komunikat: „Mały dom na planie kwadratu”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-29 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-10-29 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-29 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-29 | „D324 WT2021 wersja drewniana” → „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „D330A Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-10-29 | Zmiana komunikatu oferty: „Promocja od 26.10.2026 koniec za” → „Promocja od 28.10.2026 koniec za” | Sprawdzono w serwisie |
-| sprytnaoaza.pl · 2026-10-28 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |

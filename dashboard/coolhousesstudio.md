@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-10 → 2026-11-11**
+**2026-11-11 → 2026-11-12**
 
 **Ten sam projekt:** [Dom Aria](https://coolhouses.studio/produkt/dom-aria/)
 
-**3 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,49 +16,43 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://coolhouses.studio/)
 
-**Odczyty:** 10.11.2026 05:27 → 11.11.2026 09:26 (czas polski).
+**Odczyty:** 11.11.2026 09:26 → 12.11.2026 05:13 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fcoolhouses.studio%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fcoolhouses.studio%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Fcoolhouses.studio%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fcoolhouses.studio%2F%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-## Karta projektu
-
-[Otwórz stronę źródłową](https://coolhouses.studio/produkt/dom-aria/)
-
-**Odczyty:** 10.11.2026 05:27 → 11.11.2026 09:26 (czas polski).
-
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-11%2Fcoolhouses.studio%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fcoolhouses.studio%2Fprodukt%2Fdom-aria%2F%0A%0AOpis%3A)
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie · Karta projektu · DODAJ DO KOSZYKA | <strong>Usuń Dom Aria z koszyka</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://coolhouses.studio/produkt/dom-aria/) |
-| Funkcjonalności · Opcja na stronie · Karta projektu · DODAJ DO KOSZYKA | <strong>+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://coolhouses.studio/produkt/dom-aria/) |
-| Funkcjonalności · Opcja na stronie · Karta projektu · DODAJ DO KOSZYKA | <strong>ZOBACZ KOSZYK</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://coolhouses.studio/produkt/dom-aria/) |
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-13-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 10.11.2026 05:37 | Po · 11.11.2026 09:35 |
+| Przed · 11.11.2026 09:26 | Po · 12.11.2026 05:13 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+### Grafika i wygląd — różnica do obejrzenia
 
-- Różnica podstawowej kontrolki interfejsu; nie ustalono nowej funkcjonalności.
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Przykłady z zapisów:
+Porównanie: 11.11.2026 09:26 → 12.11.2026 05:13 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
-- ZAMÓWIENIE → brak
+[Otwórz stronę](https://coolhouses.studio/)
 
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-25-po.jpg)
 
-</details>
+## Karta projektu
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-11/2026-11-11-2026-11-11t104130.339728-0000-6233c871-porownanie.html)
+[Otwórz stronę źródłową](https://coolhouses.studio/produkt/dom-aria/)
+
+**Odczyty:** 11.11.2026 09:26 → 12.11.2026 05:13 (czas polski).
+
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Fcoolhouses.studio%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fcoolhouses.studio%2Fprodukt%2Fdom-aria%2F%0A%0AOpis%3A)
+
+**Bez zmian w zapisanej komunikacji**
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-porownanie.html)
 

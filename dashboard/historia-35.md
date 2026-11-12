@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Karmelia L z Opusdom jest niedużym domem z użytkowym poddaszem i garażem. Prosta bryła i dwuspadowy dach sprawiają że dom jest łatwy w realizacji.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Istnieje możliwość innego podziału funkcjonalnego parteru i poddasza oraz wykonania wjazdu do garażu od elewacji szczytowej.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Na parterze znajduje się pokój dzienny, jadalnia, kuchnia, hall, wc oraz kotłownia z pom. gospodarczym i przyległym garażem dwustanowiskowym. Na piętrze znajdują się trzy sypialni…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Arkadia to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ś…”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-29 | „PROJEKTUJEMY MIEJSCA DO \|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-29 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PR\|”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |

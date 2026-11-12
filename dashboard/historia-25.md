@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowa…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…” → „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o sche…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „Olga to wygodny, funkcjonalny parterowy dom z nieużytkowym poddaszem i wiatą garażową.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | „Autor: Marek Oczkowski” → „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednosta…” → „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-10-31 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 CNOWOŚĆ”. | Zaobserwowana zmiana |
-| domenadom.pl · 2026-10-31 | Pojawił się komunikat: „Domena 171 C2NOWOŚĆ”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-10-31 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| domato.pl · 2026-10-31 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-31 | „D439 WT2021 wersja drewniana” → „D57AD WT2021 wersja drewniana”. | Zaobserwowana zmiana |

@@ -10,7 +10,7 @@
 
 **Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”.**
 
-**Zaobserwowana zmiana** · —
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
@@ -22,15 +22,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 04.11.2026 11:16 | Po · 05.11.2026 08:26 |
+| Przed · 11.11.2026 09:26 | Po · 12.11.2026 05:13 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-05/2026-11-05-2026-11-05t104231.720101-0000-17985ddd-dowod-11-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t041214.693342-0000-f0e92f82-dowod-4-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fa27c0733880df7ab%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fa27c0733880df7ab%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-05%2Fa27c0733880df7ab%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-12%2Fa27c0733880df7ab%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-12%2Fa27c0733880df7ab%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-12%2Fa27c0733880df7ab%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dominanta.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ESYPIEMY+NOWO%C5%9ACIAMI+%21Lolek+II+Nelegancka+nowoczesno%C5%9B%C4%87+%C2%BB%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dominanta.pl%2F%23gallery%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

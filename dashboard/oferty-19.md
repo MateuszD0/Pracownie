@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Do projektów dostępne są pakiety kosztorysowe, które pomagają lepiej przygotować się do budowy i porównać różne warianty jeszcze przed rozpoczęciem inwestycji. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Zobacz kosztorysy → | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Projekt, warianty, kosztorys, zdjęcia z realizacji i kolejne informacje możesz sprawdzić bez konieczności szukania ich w wielu niezależnych serwisach. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektstodola.pl | W CENIE PROJEKTU ZYSKUJESZ: | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | projektstodola.pl | BEZPŁATNA DOSTAWA KURIEREM | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | projektstodola.pl | KOSZTORYS | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
-| projekty.nordarchitekci.pl | Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
-| projekty.nordarchitekci.pl | Pobierz bezpłatnie | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
-| projekty.nordarchitekci.pl | Dane techniczne i kosztorys | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |

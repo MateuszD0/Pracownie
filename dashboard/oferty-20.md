@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projekty.nordarchitekci.pl | Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Pobierz bezpłatnie | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Dane techniczne i kosztorys | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projekty.nordarchitekci.pl | Kosztorys | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projekty.nordarchitekci.pl | Dodatkowa opcja Dostępność Cena BIOZ Natychmiast BEZPŁATNIE Charakterystyka energetyczna Natychmiast BEZPŁATNIE Zgoda na zmiany w projekcie Natychmiast BEZPŁATNIE | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projektydomow.redcart.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektydomow.redcart.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl | Poza minimalnymi wymiarami działki oraz odpowiednim nasłonecznieniem istotne są również przypisane do nieruchomości warunki zabudowy lub ograniczenia określone w Miejscowym Planie Zagospodarowania Przestrzennego. Jeśli masz wątpliwości, oferujemy bezpłatną analizę warunków zabudowy. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | ZAMÓW BEZPŁATNĄ ANALIZĘ | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Kosztorys | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Szacunkowy koszt do stanu surowego zamkniętego, obliczony na podstawie rzeczywistych kosztorysów naszych projektów. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | POBIERZ UPROSZCZONY KOSZTORYS W SYSTEMIE GOSPODARCZYM | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | KOSZTORYS (450 ZŁ) | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |

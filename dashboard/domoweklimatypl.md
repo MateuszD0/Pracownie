@@ -29,13 +29,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Rozmiar: Wąska działka | 269 × <strong>167</strong> px; położenie: 652 px od lewej, 769 px od góry | 269 × <strong>151</strong> px; położenie: 652 px od lewej, 769 px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/) |
 | Zmiany wyglądu · Rozmiar: Nowoczesna stodoła - parter | 269 × <strong>167</strong> px; położenie: 945 px od lewej, 769 px od góry | 269 × <strong>151</strong> px; położenie: 945 px od lewej, 769 px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-29-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-29-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 12.11.2026 05:13 | Po · 13.11.2026 10:31 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-29-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-29-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -103,5 +103,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-porownanie.html)
 

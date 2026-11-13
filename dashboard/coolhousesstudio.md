@@ -46,13 +46,13 @@ Porównanie: 12.11.2026 05:13 → 13.11.2026 10:31 (czas polski). Różnica zrzu
 | Funkcjonalności · Opcja na stronie · Karta projektu · DODAJ DO KOSZYKA | Nie odnotowano w tym odczycie | <strong>ZOBACZ KOSZYK</strong> | [Otwórz stronę](https://coolhouses.studio/produkt/dom-aria/#:~:text=ZOBACZ%20KOSZYK) |
 | Funkcjonalności · Opcja na stronie · Karta projektu · DODAJ DO KOSZYKA | Nie odnotowano w tym odczycie | <strong>+</strong> | [Otwórz stronę](https://coolhouses.studio/produkt/dom-aria/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 12.11.2026 05:20 | Po · 13.11.2026 10:39 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -70,5 +70,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-porownanie.html)
 

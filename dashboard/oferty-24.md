@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studiokrajobrazy.pl | zielony pakiet – GRATIS! | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
+| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
 | teaprojekt.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 13.11.2026 11:03 · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) · [Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Oświadczenie z szerokim zakresem zmian dla architekta adaptującego – w cenie projektu. | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
 | teaprojekt.pl | Bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki i miejscowego planu. | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | uarchitekta.pl | - Instalacje w budynku – centralnego ogrzewania, elektryczna, gazowa, wodno-kanalizacyjna, teletechniczna. Dodatkowo w naszym biurze architektonicznym można zamówić bardziej szczegółowe kosztorysy związane z budową domu, które będą pomocne przy ubieganiu się o kredyt hipoteczny. Aby zamówić dokładny kosztorys do projektu, wystarczy, że dodasz go do swojego koszyka przy składaniu zamówienia. | Obecna w zapisie · 13.11.2026 10:36<br>[Źródło](https://www.uarchitekta.pl/) |
 | uarchitekta.pl | Kosztorys szacunkowy (murowany) | Obecna w zapisie · 13.11.2026 10:36<br>[Źródło](https://www.uarchitekta.pl/projekt/uA441,6969) |
 | zbudujsamdom.pl | PAKIET PRO 70 m2 | Obecna w zapisie · 13.11.2026 10:36 · 13.11.2026 10:36 · 13.11.2026 10:36 · 13.11.2026 10:36<br>[Źródło](https://www.zbudujsamdom.pl/) · [Źródło](https://www.zbudujsamdom.pl/) · [Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) · [Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
-| zbudujsamdom.pl | PAKIET PRO Planujesz budowę domu? Zacznij od Pakietu PRO. Dwa projekty domu 70 m2 + instrukcje budowy krok po kroku + materiały dodatkowe. 333! zł ZOBACZ PAKIET PRO → | Obecna w zapisie · 13.11.2026 10:36<br>[Źródło](https://www.zbudujsamdom.pl/) |
-| zbudujsamdom.pl | Ekipa czy własne ręce? Przygotuj się do budowy z Pakietem PRO · https://www.zbudujsamdom.pl/wp-content/uploads/2026/10/845924399\_1601558364771075\_7124119039493362381\_n.jpg | Obecna w zapisie · 13.11.2026 10:36<br>[Źródło](https://www.zbudujsamdom.pl/) |
-| zbudujsamdom.pl | PAKIET PRO | Obecna w zapisie · 13.11.2026 10:36<br>[Źródło](https://www.zbudujsamdom.pl/) |

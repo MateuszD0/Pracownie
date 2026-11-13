@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| pro-arte.pl | KOSZT WYSYŁKI W CENIE PROJEKTU | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| pro-arte.pl | KOSZTORYS | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
+| pro-arte.pl | Kosztorys orientacyjny brutto | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | GRATIS | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | profesjonalne-projekty-domow.pl | FORMALNOŚCI · KOSZTORYSY · INWENTARYZACJE · DORADZTWO | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
 | profesjonalne-projekty-domow.pl | Kosztorysy budowlane i kontrola kosztów inwestycji | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://profesjonalne-projekty-domow.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Znajdź kosztorys dla swojego projektu → | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Zamiast przeglądać setki przypadkowych projektów, stworzyliśmy spójną kolekcję domów o różnych metrażach i wariantach. Możesz porównać układ, rodzaj dachu, garaż, kosztorys oraz zobaczyć prawdziwe realizacje wybranych projektów. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.projektdomudo100m2.pl/) |

@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://lipinscy.pl/) |
+| lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
+| lipinscy.pl | Domy z kosztorysem | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy jednorodzinne z kosztorysem | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl | Promocja w MGPROJEKT | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/) |
 | mgprojekt.com.pl | Serdecznie zapraszamy do skorzystania z Promocji w MG Projekt - Teraz wszystkie projekty domów można kupić w niższej cenie! | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe ? 550 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP ? 550 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe ? 750 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna ? 550 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet klimatyzacja w domu ? 550 zł | Obecna w zapisie · 13.11.2026 10:33<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

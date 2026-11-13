@@ -57,7 +57,7 @@ Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · [3](dobredom
 | Zmiany wyglądu · Układ · Jantar III | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/#available-projects) |
 | Zmiany wyglądu · Układ · Projekt domu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · [3](dobredomypl-3.md) · **4** · [5](dobredomypl-5.md) · [6](dobredomypl-6.md)
 

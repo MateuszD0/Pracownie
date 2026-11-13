@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| pollio.pl | Pozwolenie na budowę: W cenie obsługi | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | Bezpłatna analiza działki | Obecna w zapisie · 13.11.2026 10:34 · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/) · [Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
+| pollio.pl | GRATIS | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Zamów bezpłatną wycenę budowy | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Przemyślany podział na strefę dzienną, sypialną oraz gospodarczą. Możliwość bezpłatnych modyfikacji ścian działowych. | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Standardy realizacji i pakiety budowy | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | praktyczneprojekty.pl | , dobrze ocieplony. Mieszkania bardzo tanie w eksploatacji. - Dodatkiem "extra" jest przestronny strych, który zaspokoi potrzeby magazynowe dla wyposażenia i artykułów sezonowych | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://praktyczneprojekty.pl/b11___75m2lok.html) |
 | pro-arte.pl | Kup taniej, okresowe promocje | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/) |
 | pro-arte.pl | Kup w promocji | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/) |
-| pro-arte.pl | KOSZT WYSYŁKI W CENIE PROJEKTU | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| pro-arte.pl | KOSZTORYS | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
-| pro-arte.pl | Kosztorys orientacyjny brutto | Obecna w zapisie · 13.11.2026 10:34<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |

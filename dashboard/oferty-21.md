@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyzwizja.pl | Szacunkowy koszt do stanu surowego zamkniętego, obliczony na podstawie rzeczywistych kosztorysów naszych projektów. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | POBIERZ UPROSZCZONY KOSZTORYS W SYSTEMIE GOSPODARCZYM | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | KOSZTORYS (450 ZŁ) | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | W celu poprawienia energooszczędności budynku oferujemy dodatkowe opracowania instalacyjne. Dodatkowe opracowania możesz zamówić łącznie z projektem lub oddzielnie korzystając z formularza zamówienia projektu. Jeżeli któryś z dodatków ma podany dłuższy czas realizacji niż projekt domu to wysyłamy go w określonym terminie oddzielną, bezpłatną przesyłką. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Bezpłatną zgodę na zmiany | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Sprawdź informacje o technologii budowy, zawartości dokumentacji, warunkach zabudowy, zmianach i adaptacji, kosztorysach oraz zasadach zakupu | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Kosztorys inwestorski | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Bezpłatne pozwolenie na zmiany | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

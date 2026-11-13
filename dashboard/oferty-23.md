@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | W projekcie zaprojektowano wentylację grawitacyjną. Możliwość zmiany na wentylację mechaniczną z rekuperatorem po zakupie dodatku do projektu (patrz dodatki do projektu). | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | sprytnaoaza.pl | Sprytny projekt: Dom w cenie mieszkania | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://sprytnaoaza.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studiokrajobrazy.pl | dostawa kurier 48h - GRATIS! | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | bezpłatna zgoda na zmiany | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | aktualny kosztorys na zamówienie | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
-| studiokrajobrazy.pl | zielony pakiet – GRATIS! | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
-| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
-| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |

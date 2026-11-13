@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-11 → 2026-11-12**
+**2026-11-12 → 2026-11-13**
 
 **Ten sam projekt:** [Dom na zgłoszenie 70m2](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 12.11.2026 11:53 (czas polski).
+**Odczyty:** brak odczytu → 13.11.2026 10:33 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
-**Odczyty:** brak odczytu → 12.11.2026 11:54 (czas polski).
+**Odczyty:** brak odczytu → 13.11.2026 10:33 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-porownanie.html)
 

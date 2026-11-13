@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
-| eg-domy.pl · 2026-11-10 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dom piętrowy z bocznym tarasem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
-| domywstylu.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| dompp.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-10 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Potwierdzono ponownym odczytem |
-| archipelag.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Okno dachowe nie musi być zawsze takie samo. Poznaj inne rozwiązania FAKRO”. | Potwierdzono ponownym odczytem |
-| archipelag.pl · 2026-11-10 | Pojawił się komunikat: „Badanie: co decyduje o komforcie na poddaszu? Polacy wskazali 6 kluczowych czynników”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
-| alexanderstudio.pl · 2026-11-10 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653” | Sprawdzono w serwisie |
+| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-13 | Zmiana komunikatu oferty: „PROMOCJA NA PROJEKTY DOMÓW NA ZGŁOSZENIE DO 70 M P.Z.” → „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²” | Sprawdzono w serwisie |
+| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „Do końca promocji”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-13 | „15 970 zł z VAT” → „15 570 zł z VAT 15 970 zł”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Termoizolacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Odzysk ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Orientacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Okna i drzwi”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Zyski cieplne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |

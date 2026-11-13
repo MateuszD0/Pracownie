@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-01 | Pojawił się komunikat: „Dom parterowy na planie kwadratu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-01 | „Minimalna działka pod ten dom to 20,4 m szerokości i 21,9 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…” → „Minimalna działka pod ten dom to 20,4 m szerokości i 17,8 m głębokości. Sama bryła ma 12,39 x 9 m, reszta to…”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-01 | „Uroczy Komfort 130” → „Uroczy Komfort 125 m² z garażem”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-01 | „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,9 m, główne połacie dachu mają nachylenie 37 stopni.…” → „Wysokość w kalenicy to 6,85 m, okap jest na wysokości 2,95 m, główne połacie dachu mają nachylenie 37 stopni.…”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-01 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| dom-projekt.pl · 2026-11-01 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 27.10.2026 roku do dnia 29.10.2026 roku.” | Do sprawdzenia |
-| dom-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
-| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D340 wersja drewniana Wt2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | „D57AD WT2021 wersja drewniana” → „D332 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| architeka.pl · 2026-11-01 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| projektyka.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| dompp.pl · 2026-11-03 | Pojawił się komunikat: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-03 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| dom-projekt.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
+| artinex-projekt.pl · 2026-11-03 | „DM20 WT2021 wersja drewniana” → „D153BD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-03 | „D292B WT2021 wersja drewniana” → „D292C WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-03 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Zaobserwowana zmiana |
+| archi-projekt.com.pl · 2026-11-03 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-03 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
+| alexanderstudio.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja od 2026-11-03, koniec za:” | Sprawdzono w serwisie |
+| alexanderstudio.pl · 2026-11-03 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja od 31.10.2026 koniec za” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-02 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |

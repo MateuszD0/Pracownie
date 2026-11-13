@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-11 → 2026-11-12**
+**2026-11-12 → 2026-11-13**
 
 **Ten sam projekt:** [Carmen Magdalena A](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**2 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://alexanderstudio.pl/)
 
-**Odczyty:** 11.11.2026 09:25 → 12.11.2026 05:12 (czas polski).
+**Odczyty:** 12.11.2026 05:12 → 13.11.2026 10:30 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Falexanderstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-13%2Falexanderstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,21 +26,65 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-**Odczyty:** 11.11.2026 09:25 → 12.11.2026 05:12 (czas polski).
+**Odczyty:** 12.11.2026 05:12 → 13.11.2026 10:30 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-12%2Falexanderstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-13%2Falexanderstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Falexanderstudio.pl%2Fprodukt%2Fcarmen-magdalena-a%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Baner | <strong>Promocja!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
+| Promocje i rabaty · Opis i argumenty oferty | <strong>Promocja od 2026-11-10, koniec za:</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-po.jpg)
+**Wynik sprawdzenia oferty:** Komunikat nadal występuje po ponownym odczycie: „Promocja!”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Promocja!
+- [Sprawdzona strona](https://alexanderstudio.pl/) · 13.11.2026 10:30 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 13.11.2026 10:30 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 13.11.2026 10:38 · odczyt poprawny
+
+—
+
+</details>
+
+**Wynik sprawdzenia oferty:** Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „Dostawa gratis”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Dostawa gratis
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Dziennik budowy gratis
+- [Warunki oferty](https://alexanderstudio.pl/produkt/carmen-magdalena-a/): Bezpłatna zgoda na zmiany
+- [Sprawdzona strona](https://alexanderstudio.pl/) · 13.11.2026 10:30 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 13.11.2026 10:30 · odczyt poprawny
+- [Sprawdzona strona](https://alexanderstudio.pl/produkt/carmen-magdalena-a/) · 13.11.2026 10:38 · odczyt poprawny
+
+To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego obowiązywania konkretnej wcześniejszej promocji.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 11.11.2026 09:25 | Po · 12.11.2026 05:12 |
+| Przed · 12.11.2026 05:12 | Po · 13.11.2026 10:30 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- Najniższa cena z 30 dni przed obniżką: 5270zł. → brak
+- 6200zł Pierwotna cena wynosiła: 6200zł. 5270zł Aktualna cena wynosi: 5270zł. → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
@@ -48,11 +92,11 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 11.11.2026 09:25 → 12.11.2026 05:12 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 12.11.2026 05:12 → 13.11.2026 10:30 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://alexanderstudio.pl/produkt/carmen-magdalena-a/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-dowod-21-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-dowod-2-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-12/2026-11-12-2026-11-12t105331.273430-0000-c06ac381-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t093002.403006-0000-61bd60b8-porownanie.html)
 

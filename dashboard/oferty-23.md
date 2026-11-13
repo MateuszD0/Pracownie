@@ -31,5 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studiokrajobrazy.pl | bezpłatna zgoda na zmiany | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | aktualny kosztorys na zamówienie | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | studiokrajobrazy.pl | zielony pakiet – GRATIS! | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
-| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://teaprojekt.pl/) |
-| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 13.11.2026 10:35<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji. | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |
+| teaprojekt.pl | Zgoda na zmiany gratis | Obecna w zapisie · 13.11.2026 11:03<br>[Źródło](https://teaprojekt.pl/) |

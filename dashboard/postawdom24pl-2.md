@@ -39,7 +39,7 @@ Strony porównania: [1](postawdom24pl.md) · **2**
 | Zmiany wyglądu · Układ · bw-36 wariant 5 front.jpg | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#318) |
 | Zmiany wyglądu · Układ · Projekt domu BW-36 wariant 15 bez garażu - Pow. użytkowa 106,60m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#385) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t100237.799870-0000-98f1a10c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-porownanie.html)
 
 Strony porównania: [1](postawdom24pl.md) · **2**
 

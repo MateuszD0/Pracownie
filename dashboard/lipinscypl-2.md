@@ -43,7 +43,7 @@ Pozostałe strony tego porównania zawierają 1 różnic tej strony; użyj numer
 | Zmiany wyglądu · Układ · Gotowy projekt domu Ford | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/) |
 | Zmiany wyglądu · Układ · Budowa domu energooszczędnego z generalnym wykonawcą - Dom Pełen Energii | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t100237.799870-0000-98f1a10c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t101236.046011-0000-220dcffb-porownanie.html)
 
 Strony porównania: [1](lipinscypl.md) · **2**
 

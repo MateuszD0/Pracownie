@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Funkcjonalności · Opcja na stronie · Zabudowa wolnostojąca szeregowa do szeregówki bliźniacza do zbliźniaczenia: do szeregówki | Nie odnotowano w tym odczycie | <strong>Zamów bezpłatny katalog</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-9-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-9-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 13.11.2026 10:41 | Po · 14.11.2026 08:11 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-9-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-9-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -56,5 +56,5 @@ Porównanie: 13.11.2026 10:31 → 14.11.2026 08:02 (czas polski). Różnica zrzu
 
 
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-porownanie.html)
 

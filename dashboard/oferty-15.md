@@ -22,7 +22,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl | PROMOCJA NA ADAPTACJĘ | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://opusdom.pl/) |
 | opusdom.pl | Specjalnie dla Inwestorów, którzy chcą kupić projekt z oferty OPUSDOM i zacząć budowę na wiosnę, mamy adaptację projektu z rabatem - zapytaj o Adaptację w Promocji | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://opusdom.pl/) |
 | opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
-| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 14.11.2026 08:05 · 13.11.2026 10:34<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |
+| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 14.11.2026 09:58 · 13.11.2026 10:34<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |
 | penthus.pl | Kosztorys | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | penthus.pl | Rzuty Dane techniczne Opis Kosztorys Dodatki Pliki do pobrania Analiza | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |

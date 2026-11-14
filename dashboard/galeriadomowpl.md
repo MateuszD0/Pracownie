@@ -29,13 +29,13 @@ Strony porównania: **1** · [2](galeriadomowpl-2.md)
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Dom przy Pastelowej 30 bis to kolejny przedstawiciel kolekcji, którą tworzą projekty domów parterowych z dachem dwuspadowym lub czterospadowym. Poza pierwszymi dwoma propozycjami, są to...</strong> | [Otwórz stronę](https://www.galeriadomow.pl/) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Co nowego przy Pastelowej? - Dom przy Pastelowej 30 bis</strong> | [Otwórz stronę](https://www.galeriadomow.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-13-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-13-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 13.11.2026 10:32 | Po · 14.11.2026 08:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-13-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -73,13 +73,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 | Zmiany wyglądu · Układ · Pobierz obrys w skali 1:500 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | Zmiany wyglądu · Układ · Edytuj projekt | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-8-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-8-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-8-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 13.11.2026 10:32 | Po · 14.11.2026 08:03 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-dowod-8-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-dowod-8-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -100,7 +100,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-porownanie.html)
 
 Strony porównania: **1** · [2](galeriadomowpl-2.md)
 

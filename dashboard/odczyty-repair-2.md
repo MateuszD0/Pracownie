@@ -25,5 +25,3 @@
 | [projektstodola.pl](projektstodolapl.md#karta-projektu)<br>Karta projektu | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [projektymalachit.pl](projektymalachitpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
-| [tipitom.space](tipitomspace.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Strona blokady lub weryfikacji zamiast oferty | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
-| [tipitom.space](tipitomspace.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Strona blokady lub weryfikacji zamiast oferty | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |

@@ -33,7 +33,7 @@ Pozostałe strony tego porównania zawierają 4 różnic tej strony; użyj numer
 | Zmiany wyglądu · Układ · Dom przy Bukowej 14 - przekrój | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | Zmiany wyglądu · Układ · Zgoda na zmiany | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>143 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t070121.672477-0000-f21147b2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t085742.227452-0000-c1a87c6c-porownanie.html)
 
 Strony porównania: [1](galeriadomowpl.md) · **2**
 

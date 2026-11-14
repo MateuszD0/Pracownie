@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet powietrzna pompa ciepła | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Sprawdzimy to dla Ciebie bezpłatnie! | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Szczegółowy kosztorys inwestorski | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| modernhouse-projekty.pl | Szczegółowy kosztorys inwestorski | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kosztorysy MODERN HOUSE aktualizowane są dwa razy do roku a podane koszty budowy są wartościami netto. | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | W kosztorysach domów MODERN HOUSE nie uwzględniamy elementów wykończeniowych na elewacji takich jak np. okładzin drewnianych, kamiennych czy płyt betonowych. Zakładamy ocieplenie ścian styropianem i wykończenie tynkiem, wiedząc, że każdy może chcieć zrealizować swój dom według odmiennych upodobań. | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kupując kosztorys otrzymujesz go w wersji elektronicznej w formacie PDF oraz excel, przesyłany jest na podany w zamówieniu adres e-mail. | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 14.11.2026 08:04<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |

@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| planujdom.pl | GRATIS Dziennik budowy | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna konsultacja z architektem | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatnie sprawdzimy projekt pod Twoją działkę | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | pollio.pl | Projekt budowlany i adaptacja: 0 zł w cenie generalnego wykonawstwa Projekt X35. Nowoczesna stodoła Kategoria Domy w stylu stodoły Standard Generalne wykonawstwo pod klucz | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://pollio.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | Szczegółowy kosztorys inwestorski jest wiążący przez cały okres realizacji, chroniąc Cię przed inflacją i wzrostem cen materiałów. | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | BEZPŁATNA WERYFIKACJA I WYCENA | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
 | pollio.pl | Podaj lokalizację lub numer działki, a nasi inżynierowie bezpłatnie przeanalizują Miejscowy Plan Zagospodarowania Przestrzennego (MPZP) i przygotują precyzyjną kalkulację kosztów budowy. | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Otrzymaj bezpłatną wycenę budowy → | Obecna w zapisie · 14.11.2026 08:05<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |

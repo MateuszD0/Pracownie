@@ -8,6 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl | Zarejestruj się i korzystaj z dogodnych narzędzi wszędzie gdzie jesteś. Będziemy także zawiadamiać Cię o rabatach i promocjach. Dodatkowo otrzymujesz od nas 100 zł na zakup projektu domu. | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | RABAT 250 | Obecna w zapisie · 14.11.2026 08:06 · 14.11.2026 08:06<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
 | studioatrium.pl | bezpłatną zgodę na zmiany | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | darmowe dodatki o wartości 1000zł | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://www.studioatrium.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl | Koszt budowy małego domu 60–100 m2 w 2026 – kosztorys kontra prawdziwe budowy | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://teaprojekt.pl/) |
 | teaprojekt.pl | Zadzwoń lub napisz – bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki. | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://teaprojekt.pl/) |
 | teaprojekt.pl | Podaj swój e-mail i zasubskrybuj, jeśli chcesz otrzymywać informację o nadchodzących promocjach i nowych projektach. | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://teaprojekt.pl/) |
-| teaprojekt.pl | 3 egzemplarze typowego wielobranżowego projektu technicznego (architektura, konstrukcja, instalacje wewnętrzne). To najważniejsza część przeznaczona dla Twojego kierownika budowy i ekip wykonawczych. Zawiera pełne rysunki konstrukcyjne oraz instalacyjne dostosowane do wybranego przez Ciebie pakietu (STANDARD lub EKO). | Obecna w zapisie · 14.11.2026 08:06<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |

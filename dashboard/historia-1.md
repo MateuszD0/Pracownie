@@ -25,8 +25,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
 | domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | archstodola.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
 | sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
 | sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Poradnik od czego zacząć budowę domu”. | Potwierdzono ponownym odczytem |

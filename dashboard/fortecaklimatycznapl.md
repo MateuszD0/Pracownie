@@ -6,7 +6,7 @@
 
 **2026-11-14 → 2026-11-15**
 
-**Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
+**Ten sam projekt:** [Duo-line](https://www.fortecaklimatyczna.pl/duo-line.html)
 
 **Niepełne porównanie — sprawdź zakres obu stron.**
 
@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.fortecaklimatyczna.pl/)
 
-**Odczyty:** 14.11.2026 11:04 → 15.11.2026 10:52 (czas polski).
+**Odczyty:** 14.11.2026 11:04 → 15.11.2026 11:01 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Ffortecaklimatyczna.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.fortecaklimatyczna.pl%2F%0A%0AOpis%3A)
 
@@ -24,13 +24,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Karta projektu
 
-Adres karty zostanie podany po poprawnym wyborze projektu.
+[Otwórz stronę źródłową](https://www.fortecaklimatyczna.pl/duo-line.html)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 15.11.2026 11:02 (czas polski).
 
-**Brak odczytu**
+**Pierwszy zapis · brak porównywalnej bazy**
 
-Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-porownanie.html)
 

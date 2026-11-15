@@ -16,20 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 14.11.2026 10:06 → 15.11.2026 10:52 (czas polski).
+**Odczyty:** 14.11.2026 10:06 → 15.11.2026 11:01 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
 
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
+- brak → Wszystkie wprowadzone zmiany, powinny być naniesione w dokumentacji projektowej trwałą techniką graficzną w kolorze czerwonym lub dołączone…
 - Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1… → brak
-- brak → Adaptacja gotowego projektu domu polega na odpowiednim umiejscowieniu budynku na działce. Wymaga to wrysowania budynku na mapę do celów pro…
+- brak → przesunąć lub zlikwidować ściany działowe;
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -45,5 +46,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-porownanie.html)
 

@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
 | Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-dowod-19-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-dowod-19-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 14.11.2026 08:05 | Po · 15.11.2026 10:22 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-dowod-19-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-dowod-19-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -68,5 +68,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t095207.302094-0000-caa3c9f7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t100122.514464-0000-332f174f-porownanie.html)
 

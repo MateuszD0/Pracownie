@@ -18,6 +18,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | ecodomy.pl | POBIERZ PRZYKŁADOWY KOSZTORYS | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53) |
 | ekoarchitekci.pl | Kosztorys | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://ekoarchitekci.pl/properties/eko-typowy-85/) |
 | faberarchitektura.com | Użyj w koszyku kuponu UY99DWVR i uzyskaj rabat | Obecna w zapisie · 15.11.2026 10:21 · 15.11.2026 10:21<br>[Źródło](https://faberarchitektura.com/) · [Źródło](https://faberarchitektura.com/produkt/kp-100/) |
+| fortecaklimatyczna.pl | Nie zachęcamy gratisami, stałymi pseudo-promocjami, dodatkami. Przekazujemy UNIKATOWE ROZWIĄZANIA DOPRACOWANE W KAŻDYM SZCZEGÓLE wybranych technologii, systemów i konkretnych urządzeń oraz producentów z licznymi certyfikowanymi ekipami wykonawczymi. Nasze projekty to nie tylko koncepcja oraz standard branżowy do celów uzyskania pozwolenia na budowę, ale gotowe rozwiązanie budowy domu samowystarcz… | Obecna w zapisie · 15.11.2026 11:02<br>[Źródło](https://www.fortecaklimatyczna.pl/duo-line.html) |
 | galeriadomow.pl | Pobierz BEZPŁATNY E-KATALOG | Obecna w zapisie · 15.11.2026 10:21 · 15.11.2026 10:21 · 15.11.2026 10:21<br>[Źródło](https://www.galeriadomow.pl/) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | galeriadomow.pl | Projekty domów w promocji | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://www.galeriadomow.pl/) |
 | galeriadomow.pl | Zamów bezpłatny katalog · https://www.galeriadomow.pl/img/banner/4.png | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://www.galeriadomow.pl/) |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
-| homekoncept.pl | Projekt domu w promocji | Obecna w zapisie · 15.11.2026 10:21<br>[Źródło](https://homekoncept.com.pl/) |

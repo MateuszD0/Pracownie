@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-08 → 2026-11-09**
+**2026-11-14 → 2026-11-15**
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**38 zmian w zapisanym zakresie.**
+**27 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,33 +18,22 @@ Strony porównania: [1](hexagreenpl.md) · **2**
 
 [Otwórz stronę źródłową](https://hexagreen.pl/)
 
-**Odczyty:** 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski).
+**Odczyty:** 14.11.2026 08:03 → 15.11.2026 10:21 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Niskotemperaturowe ogrzewanie podłogowe</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>HG Premium</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Parametry</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Domy pasywne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Co nas wyróżnia?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Orientacja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Realizacje #domyHexaGreen</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>autorską kolekcję projektów</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Zyski cieplne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>zrealizowanych już 150+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>6-krotnie mniej energii</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Technologia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Energooszczędna pompa ciepła</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Odzysk ciepła</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>1 Weryfikacja otoczenia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**Odczyty:** 08.11.2026 07:45 → 09.11.2026 16:03 (czas polski).
+**Odczyty:** 14.11.2026 08:04 → 15.11.2026 10:21 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t152653.795323-0000-format-0e3baf3d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-porownanie.html)
 
 Strony porównania: [1](hexagreenpl.md) · **2**
 

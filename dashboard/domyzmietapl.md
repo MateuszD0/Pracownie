@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-13 → 2026-11-14**
+**2026-11-14 → 2026-11-15**
 
 **Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
 
@@ -32,5 +32,5 @@ Adres karty zostanie podany po poprawnym wyborze projektu.
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-porownanie.html)
 

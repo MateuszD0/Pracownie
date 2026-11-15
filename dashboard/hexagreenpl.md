@@ -4,62 +4,78 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-13 → 2026-11-14**
+**2026-11-14 → 2026-11-15**
 
 **Ten sam projekt:** [HG 01 Premium](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**1 zmian w zapisanym zakresie.**
+**27 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
+
+Strony porównania: **1** · [2](hexagreenpl-2.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://hexagreen.pl/)
 
-**Odczyty:** 13.11.2026 10:32 → 14.11.2026 08:03 (czas polski).
+**Odczyty:** 14.11.2026 08:03 → 15.11.2026 10:21 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-14%2Fhexagreen.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fhexagreen.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Strona główna · Next slide | <strong>Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasowany do Twoich oczekiwań i potrzeb. To roz</strong>… | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Funkcjonalności · Opcja na stronie | <strong>Przejdź do oferty</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Funkcjonalności · Opcja na stronie | <strong>Instalacje energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Funkcjonalności · Opcja na stronie | <strong>Technologia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Jak wybrać optymalną działkę dla domu wysoce energooszczędnego</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>4 Optymalne ustawienie domu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Ostatnie tygodnie były niezwykle pracowite! W t</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>3 Analiza nasłonecznienia i zacienienia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Zaawansowany standard energetyczny domu wysoce energooszczędnego</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Wentylacja mechaniczna z rekuperacją</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Bądź na bieżąco z naszymi nowościami</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Nowe Warunki Techniczne przynoszą istotne zmiany w</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Uff, jak gorąco! Jak uchronić dom przed upałem?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Energooszczędna pompa ciepła</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Instalacje energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>HG Premium</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Parametry</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Orientacja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Zyski cieplne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Technologia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Szczelność</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>2 Lokalizacja wjazdu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Termoizolacja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Niskotemperaturowe ogrzewanie podłogowe</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>Okna i drzwi</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Przejdź do oferty</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
-<details><summary>Rozwinięte teksty — do 600 znaków; pełna treść w plikach raportu</summary>
-
-**Baner**
-
-**Było:** Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasowany do Twoich oczekiwań i potrzeb. To rozwiązanie „szyte na miarę”, które połączy architekturę Twoich marzeń z maksymalną efektywnością energetyczną oraz specyfiką działki.
-
-**Jest:** brak
-
-</details>
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-dowod-15-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-dowod-15-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-dowod-5-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 13.11.2026 10:43 | Po · 14.11.2026 08:14 |
+| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-dowod-15-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-dowod-15-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-dowod-5-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (168) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (130) — nie są ustaloną zmianą oferty</summary>
 
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Treść opinii klienta; nie jest deklaracją warunków oferty pracowni.
 - Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.
-- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-- Animowany licznik na stronie; odczyt w trakcie animacji nie potwierdza zmiany liczby projektów ani realizacji.
+- Animowany lub niestabilny tekst; nie potwierdzono zmiany komunikatu.
 
 Przykłady z zapisów:
 
-- brak → Inwestorka Pani Paulina
-- Co nas wyróżnia? → brak
-- Domy pasywne → brak
+- Na podstawie zebranych danych wskazujemy najlepszą orientację budynku, jego układ funkcjonalny oraz rozwiązania zwiększające energooszczędn… → brak
+- i wysoce energooszczędnych → brak
+- 20+ autorskich projektów domów → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -69,23 +85,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/)
 
-**Odczyty:** 13.11.2026 10:32 → 14.11.2026 08:04 (czas polski).
+**Odczyty:** 14.11.2026 08:04 → 15.11.2026 10:21 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-14%2Fhexagreen.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2Fprodukt%2Fprojekt-domu-dom-pasywny-hg-01-premium%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fhexagreen.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2Fprodukt%2Fprojekt-domu-dom-pasywny-hg-01-premium%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+**Bez zmian w zapisanej komunikacji**
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t091818.082955-0000-2bdc142f-porownanie.html)
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-
-Przykłady z zapisów:
-
-- brak → Brak produktów w koszyku
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-14/2026-11-14-2026-11-14t100434.652373-0000-af7f3a6f-porownanie.html)
+Strony porównania: **1** · [2](hexagreenpl-2.md)
 

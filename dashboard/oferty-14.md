@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Szczegółowy kosztorys inwestorski | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kosztorysy MODERN HOUSE aktualizowane są dwa razy do roku a podane koszty budowy są wartościami netto. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | W kosztorysach domów MODERN HOUSE nie uwzględniamy elementów wykończeniowych na elewacji takich jak np. okładzin drewnianych, kamiennych czy płyt betonowych. Zakładamy ocieplenie ścian styropianem i wykończenie tynkiem, wiedząc, że każdy może chcieć zrealizować swój dom według odmiennych upodobań. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |

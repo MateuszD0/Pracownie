@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| teaprojekt.pl | Do każdego projektu dołączamy oficjalne, bezpłatne oświadczenie z szerokim zakresem zgody na modyfikacje. Twój lokalny architekt adaptujący może dostosować projekt do warunków gruntowych na działce, zmienić układ ścian działowych, układ okien czy technologię materiałową według Twoich wytycznych. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Szczegóły : Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów dla opcji Standard i EKO | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Jak szybko otrzymam projekt i czy mogę zamówić kosztorys? | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl | Kompletny pakiet dla osób, które chcą zbudować dom samodzielnie – od projektu aż po realizację krok po kroku. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Dla kogo jest ten pakiet? | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
 | zbudujsamdom.pl | Obie instrukcje otrzymujesz w cenie pakietu. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |
+| zbudujsamdom.pl | Czy pakiet jest dla osoby bez doświadczenia budowlanego? | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/) |

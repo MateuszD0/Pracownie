@@ -29,7 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | galeriadomow.pl | więcej o dodatkach » | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | gutarchitektura.pl | KOSZTORYS (KOSZTORYS AKTUALNY NA 9.04.2024) | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
 | gutarchitektura.pl | Zamów kosztorys - cena 600 zł | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
-| hbstudio.pl | Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamówienia który znajduje się na naszej stronie internetowej. Przy zamawianiu projektu prosimy Państwa o podanie: imienia i nazwiska (bądź nazwy firmy; ulicy, numeru domu, kodu pocztow… | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://hbstudio.pl/) |
 | hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 14.11.2026 10:06<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
+| hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |

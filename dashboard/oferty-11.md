@@ -8,7 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl | 1x bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | homekoncept.pl | Projekt domu w promocji | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://homekoncept.com.pl/) |
 | homekoncept.pl | Projekty domów z kosztorysem | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://homekoncept.com.pl/) |
 | homekoncept.pl | KOSZTORYS | Obecna w zapisie · 16.11.2026 10:37<br>[Źródło](https://homekoncept.com.pl/produkt/homekoncept-149-b2/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | lipinscy.pl | Domy jednorodzinne z kosztorysem | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl | Jako autorska pracownia architektoniczna możemy zagwarantować najniższe ceny projektów. Dodatkowo, do każdego zamówionego bezpośrednio projektu domu dołączamy bezpłatnie zestaw dodatków o wartości ponad 2000 zł | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/) |
 | mgprojekt.com.pl | Czasem wystarczy drobna modyfikacja projektu domu – niewielka zmiana kąta nachylenia dachu, przesunięcie okna czy ograniczenie wysokości budynku – aby nowy dom spełniał wymagania urzędu, a my mogli spać spokojnie. Każda gmina ma swoje specyficzne reguły, więc nie istnieje jeden uniwersalny sposób na realizację projektu domu bez zaglądania w przepisy. Doskonale to rozumiemy, dlatego do każdego got… | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/) |
+| mgprojekt.com.pl | Sam projekt domu powinien być także oceniany przez pryzmat kosztów budowy domu. Nawet jeśli sam projekt budowlany wydaje się stosunkowo tani, ostateczny koszt inwestycji może być wysoki, jeśli bryła budynku jest zbyt złożona lub zastosowane rozwiązania techniczne okazują się kosztowne w wykonaniu. Gotowe projekty domów z naszej oferty uwzględniają optymalne ekonomicznie technologie, co pozwala na… | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/) |

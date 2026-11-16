@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-14 → 2026-11-15**
+**2026-11-15 → 2026-11-16**
 
 **Ten sam projekt:** [Malutki 12](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
@@ -16,35 +16,37 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://www.mtmstyl.com.pl/)
 
-**Odczyty:** 14.11.2026 08:04 → 15.11.2026 10:22 (czas polski).
+**Odczyty:** 15.11.2026 10:22 → 16.11.2026 10:38 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fmtmstyl.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fmtmstyl.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Trakt</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://www.mtmstyl.com.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Aksamitka dr-S</strong> | [Otwórz stronę](http://www.mtmstyl.com.pl/#root-main) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-10-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-17-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:04 | Po · 15.11.2026 10:22 |
+| Przed · 15.11.2026 10:22 | Po · 16.11.2026 10:38 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-10-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-17-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (13) — nie są ustaloną zmianą oferty</summary>
 
-- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
 
 Przykłady z zapisów:
 
-- Trakt → Mały dom bez kompromisów – 7 rzeczy, na które warto zwrócić uwagę przy wyborze projektu
-- http://www.mtmstyl.com.pl/theme/images/home-page/banners-new/trakt-desktop.webp?v=2 → http://www.mtmstyl.com.pl/theme/images/home-page/banners-new/artykul-maly-dom-desktop.webp?v=1
+- Projekt domu JEMIOŁA 2 → Projekt domu ELKA 5
+- Projekt domu MALUTKI 2 → Projekt domu SZPAK DR-S
+- Projekt domu MALINOWY → Projekt domu ALBIT
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -54,11 +56,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php)
 
-**Odczyty:** 14.11.2026 08:04 → 15.11.2026 10:22 (czas polski).
+**Odczyty:** 15.11.2026 10:22 → 16.11.2026 10:38 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fmtmstyl.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2Fprojekt-domu-malutki_12.php%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fmtmstyl.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fwww.mtmstyl.com.pl%2Fprojekt-domu-malutki_12.php%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-porownanie.html)
 

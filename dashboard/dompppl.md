@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-14 → 2026-11-15**
+**2026-11-15 → 2026-11-16**
 
 **Ten sam projekt:** [House X21](https://dompp.pl/projekty-domow/house-x21/)
 
@@ -16,21 +16,22 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://dompp.pl/)
 
-**Odczyty:** 14.11.2026 08:03 → 15.11.2026 10:20 (czas polski).
+**Odczyty:** 15.11.2026 10:20 → 16.11.2026 10:36 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fdompp.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompp.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fdompp.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompp.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
 
 - Artykuł lub poradnik; obserwacja treści redakcyjnej, nie zmiana warunków oferty.
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 
 Przykłady z zapisów:
 
-- brak → W pierwszej części naszego cyklu o pompach ciepła poruszamy kwestię wyboru dolnego źródła ciepła, jego wpływ na funkcjonowanie instalacji o…
-- brak → Pompa ciepła, będąca połączeniem oszczędności na kosztach ogrzewania, wygody użytkowania i odpowiedzialności za środowisko naturalne, to pr…
-- brak → POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA
+- POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA → brak
+- W pierwszej części naszego cyklu o pompach ciepła poruszamy kwestię wyboru dolnego źródła ciepła, jego wpływ na funkcjonowanie instalacji o… → brak
+- TWOJA WIZJA, NASZA PASJA → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +41,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://dompp.pl/projekty-domow/house-x21/)
 
-**Odczyty:** 14.11.2026 08:03 → 15.11.2026 10:20 (czas polski).
+**Odczyty:** 15.11.2026 10:20 → 16.11.2026 10:36 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2Fdompp.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompp.pl%2Fprojekty-domow%2Fhouse-x21%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fdompp.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdompp.pl%2Fprojekty-domow%2Fhouse-x21%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-porownanie.html)
 

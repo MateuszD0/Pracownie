@@ -1,12 +1,14 @@
 <!-- pracownie-monitor:v1 -->
 
-# Problemy wymagające naprawy · 2026-11-15
+# Problemy wymagające naprawy · 2026-11-16
 
 [← Odprawa dnia](../DASHBOARD.md)
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
+| [domyzmieta.pl](domyzmietapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [domyzmieta.pl](domyzmietapl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
+| [fortecaklimatyczna.pl](fortecaklimatycznapl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [hbstudio.pl](hbstudiopl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [horyzont.com](horyzontcom.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [horyzont.com](horyzontcom.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
@@ -18,5 +20,9 @@
 | [lk-projekt.pl](lk-projektpl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 | [machonarchitekci.pl](machonarchitekcipl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: machonarchitekci.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [machonarchitekci.pl](machonarchitekcipl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: machonarchitekci.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
+| [partero.pl](parteropl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.partero.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
+| [pracowniaprojektowa.info](pracowniaprojektowainfo.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Strona lub kontrolka nie odpowiedziała w limicie czasu. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
+| [projektstodola.pl](projektstodolapl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
+| [projektstodola.pl](projektstodolapl.md#karta-projektu)<br>Karta projektu | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [projektymalachit.pl](projektymalachitpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |

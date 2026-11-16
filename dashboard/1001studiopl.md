@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-14 → 2026-11-15**
+**2026-11-15 → 2026-11-16**
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**5 zmian w zapisanym zakresie.**
+**12 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,42 +16,49 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/)
 
-**Odczyty:** 14.11.2026 08:01 → 15.11.2026 10:18 (czas polski).
+**Odczyty:** 15.11.2026 10:18 → 16.11.2026 10:35 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2F1001studio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2F1001studio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>MGProjekt</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_864060685) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_864060685) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_864060685) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>126 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_864060685) |
-| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_864060685) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>53 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>53 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
+| Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>55 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_1471209300) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-7-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-20-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:01 | Po · 15.11.2026 10:18 |
+| Przed · 15.11.2026 10:18 | Po · 16.11.2026 10:35 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-7-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-20-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (67) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (72) — nie są ustaloną zmianą oferty</summary>
 
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
 - Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- Projekt domu MOCA 2 A OC dom letniskowy na zgłoszenie do 35m2 → brak
-- Projekt domu uAG3 → brak
-- brak → Projekt domu BERGAMO C dom mieszkalny, całoroczny szkielet drewniany
+- brak → Projekt domu Klementynka G1
+- Projekt domu BARBADOS C dom mieszkalny, całoroczny ogrzewanie gaz → brak
+- Projekt domu uA23 → Projekt domu Czaruś
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -61,11 +68,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Odczyty:** 14.11.2026 08:01 → 15.11.2026 10:18 (czas polski).
+**Odczyty:** 15.11.2026 10:18 → 16.11.2026 10:35 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-15%2F1001studio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2Fproduct%2Fprojekt-domu-bolonia-blizniak-dla-jednego-segmentu%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2F1001studio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2Fproduct%2Fprojekt-domu-bolonia-blizniak-dla-jednego-segmentu%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-porownanie.html)
 

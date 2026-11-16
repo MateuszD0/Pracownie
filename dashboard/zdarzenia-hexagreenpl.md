@@ -6,15 +6,15 @@
 
 [hexagreen.pl — wszystkie odczyty](hexagreenpl.md)
 
-## Zdarzenie 3fa70cd974b05884
+## Zdarzenie 14d79f6d02c2357b
 
-**W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”.**
+**W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Zaawansowany standard energetyczny domu wysoce energooszczędnego</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>autorską kolekcję projektów</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -22,27 +22,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F3fa70cd974b05884%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EZaawansowany+standard+energetyczny+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F3fa70cd974b05884%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EZaawansowany+standard+energetyczny+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F3fa70cd974b05884%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EZaawansowany+standard+energetyczny+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14d79f6d02c2357b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eautorsk%C4%85+kolekcj%C4%99+projekt%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14d79f6d02c2357b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eautorsk%C4%85+kolekcj%C4%99+projekt%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14d79f6d02c2357b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eautorsk%C4%85+kolekcj%C4%99+projekt%C3%B3w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 49dfb2b99e361d68
+## Zdarzenie 14efbc113d6318f6
 
-**W nowym zapisie nie ma komunikatu: „Uff, jak gorąco! Jak uchronić dom przed upałem?”.**
+**W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Uff, jak gorąco! Jak uchronić dom przed upałem?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>zrealizowanych już 150+</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -50,27 +50,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F49dfb2b99e361d68%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EUff%2C+jak+gor%C4%85co%21+Jak+uchroni%C4%87+dom+przed+upa%C5%82em%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F49dfb2b99e361d68%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EUff%2C+jak+gor%C4%85co%21+Jak+uchroni%C4%87+dom+przed+upa%C5%82em%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F49dfb2b99e361d68%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EUff%2C+jak+gor%C4%85co%21+Jak+uchroni%C4%87+dom+przed+upa%C5%82em%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14efbc113d6318f6%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Ezrealizowanych+ju%C5%BC+150%2B%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14efbc113d6318f6%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Ezrealizowanych+ju%C5%BC+150%2B%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F14efbc113d6318f6%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Ezrealizowanych+ju%C5%BC+150%2B%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 633d6e73007f51a3
+## Zdarzenie 16fcb1ae31671523
 
-**W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”.**
+**W nowym zapisie nie ma komunikatu: „sześciu zasadach”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>3 Analiza nasłonecznienia i zacienienia</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>sześciu zasadach</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -78,27 +78,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F633d6e73007f51a3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E3+Analiza+nas%C5%82onecznienia+i+zacienienia%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F633d6e73007f51a3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E3+Analiza+nas%C5%82onecznienia+i+zacienienia%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F633d6e73007f51a3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E3+Analiza+nas%C5%82onecznienia+i+zacienienia%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F16fcb1ae31671523%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Esze%C5%9Bciu+zasadach%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F16fcb1ae31671523%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Esze%C5%9Bciu+zasadach%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F16fcb1ae31671523%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Esze%C5%9Bciu+zasadach%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 6c00902daf336017
+## Zdarzenie 381a602c44947cb4
 
-**W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”.**
+**W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Jak wybrać optymalną działkę dla domu wysoce energooszczędnego</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Domy samowystarczalne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -106,27 +106,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F6c00902daf336017%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EJak+wybra%C4%87+optymaln%C4%85+dzia%C5%82k%C4%99+dla+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F6c00902daf336017%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EJak+wybra%C4%87+optymaln%C4%85+dzia%C5%82k%C4%99+dla+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F6c00902daf336017%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EJak+wybra%C4%87+optymaln%C4%85+dzia%C5%82k%C4%99+dla+domu+wysoce+energooszcz%C4%99dnego%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F381a602c44947cb4%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+samowystarczalne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F381a602c44947cb4%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+samowystarczalne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F381a602c44947cb4%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+samowystarczalne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 7a1d14c50e39f97a
+## Zdarzenie 65432e5f7bd2224a
 
-**W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”.**
+**W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Ostatnie tygodnie były niezwykle pracowite! W t</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Co nas wyróżnia?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -134,27 +134,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F7a1d14c50e39f97a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EOstatnie+tygodnie+by%C5%82y+niezwykle+pracowite%21+W+t%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F7a1d14c50e39f97a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EOstatnie+tygodnie+by%C5%82y+niezwykle+pracowite%21+W+t%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F7a1d14c50e39f97a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EOstatnie+tygodnie+by%C5%82y+niezwykle+pracowite%21+W+t%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F65432e5f7bd2224a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ECo+nas+wyr%C3%B3%C5%BCnia%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F65432e5f7bd2224a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ECo+nas+wyr%C3%B3%C5%BCnia%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F65432e5f7bd2224a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ECo+nas+wyr%C3%B3%C5%BCnia%3F%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 80ce1c2cba6368b3
+## Zdarzenie 696523637e6b081d
 
-**W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”.**
+**W nowym zapisie nie ma komunikatu: „Domy pasywne”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Nowe Warunki Techniczne przynoszą istotne zmiany w</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Domy pasywne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -162,27 +162,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F80ce1c2cba6368b3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowe+Warunki+Techniczne+przynosz%C4%85+istotne+zmiany+w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F80ce1c2cba6368b3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowe+Warunki+Techniczne+przynosz%C4%85+istotne+zmiany+w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2F80ce1c2cba6368b3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowe+Warunki+Techniczne+przynosz%C4%85+istotne+zmiany+w%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F696523637e6b081d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+pasywne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F696523637e6b081d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+pasywne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F696523637e6b081d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+pasywne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie c6efc1a731ebfdaa
+## Zdarzenie 6cb1e33ddabf318e
 
-**W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”.**
+**W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>4 Optymalne ustawienie domu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Domy niskoenergetyczne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -190,27 +190,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fc6efc1a731ebfdaa%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E4+Optymalne+ustawienie+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fc6efc1a731ebfdaa%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E4+Optymalne+ustawienie+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fc6efc1a731ebfdaa%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E4+Optymalne+ustawienie+domu%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F6cb1e33ddabf318e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+niskoenergetyczne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F6cb1e33ddabf318e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+niskoenergetyczne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F6cb1e33ddabf318e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EDomy+niskoenergetyczne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie e22755eed6fe9da7
+## Zdarzenie 938d82d8cfe65c51
 
-**W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”.**
+**W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Bądź na bieżąco z naszymi nowościami</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Nagłówek · Strona główna · Next slide | <strong>Realizacje #domyHexaGreen</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -218,27 +218,27 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe22755eed6fe9da7%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EB%C4%85d%C5%BA+na+bie%C5%BC%C4%85co+z+naszymi+nowo%C5%9Bciami%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe22755eed6fe9da7%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EB%C4%85d%C5%BA+na+bie%C5%BC%C4%85co+z+naszymi+nowo%C5%9Bciami%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe22755eed6fe9da7%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EB%C4%85d%C5%BA+na+bie%C5%BC%C4%85co+z+naszymi+nowo%C5%9Bciami%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F938d82d8cfe65c51%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ERealizacje+%23domyHexaGreen%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F938d82d8cfe65c51%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ERealizacje+%23domyHexaGreen%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F938d82d8cfe65c51%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ERealizacje+%23domyHexaGreen%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie e816fe015df38364
+## Zdarzenie 9b5d9f8660653260
 
-**W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”.**
+**W nowym zapisie nie ma komunikatu: „#6 zasad”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Wentylacja mechaniczna z rekuperacją</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>#6 zasad</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
 
 [Strona główna](https://hexagreen.pl/)
 
@@ -246,15 +246,43 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 14.11.2026 08:03 | Po · 15.11.2026 10:21 |
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-15/2026-11-15-2026-11-15t104013.698649-0000-bbf0d70f-dowod-4-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe816fe015df38364%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EWentylacja+mechaniczna+z+rekuperacj%C4%85%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe816fe015df38364%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EWentylacja+mechaniczna+z+rekuperacj%C4%85%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-15%2Fe816fe015df38364%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EWentylacja+mechaniczna+z+rekuperacj%C4%85%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F9b5d9f8660653260%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E%236+zasad%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F9b5d9f8660653260%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E%236+zasad%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F9b5d9f8660653260%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9E%236+zasad%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie bde1bfb488925b5e
+
+**W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”.**
+
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Strona główna · Next slide | <strong>projektuję domy wysoce energooszczędne</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://hexagreen.pl/) |
+
+[Strona główna](https://hexagreen.pl/)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 15.11.2026 10:33 | Po · 16.11.2026 10:48 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t093438.886649-0000-814e252b-dowod-4-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2Fbde1bfb488925b5e%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eprojektuj%C4%99+domy+wysoce+energooszcz%C4%99dne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2Fbde1bfb488925b5e%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eprojektuj%C4%99+domy+wysoce+energooszcz%C4%99dne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2Fbde1bfb488925b5e%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+hexagreen.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9Eprojektuj%C4%99+domy+wysoce+energooszcz%C4%99dne%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhexagreen.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

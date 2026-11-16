@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://skahus.pl/) |
 | slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.slonecznedomy.pl/) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sprytnaoaza.pl | Sprytny projekt: Dom w cenie mieszkania | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://sprytnaoaza.pl/) |
 | sprytnaoaza.pl | Samodzielnie doświadczyliśmy całego procesu: od załatwiania pozwoleń po sprzątanie po parapetówce. Dzielimy się naszymi przygodami w serii filmów „Dom w cenie mieszkania” na kanale YouTube, pokazując każdy etap realizacji projektu. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://sprytnaoaza.pl/) |
 | sprytnaoaza.pl | Ulotka z dedykowaną promocją TYLKO dla tych, którzy zakupili projekt i będą budować się z DPE | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://sprytnaoaza.pl/products/projekt-sprytna-oaza) |
-| studioatrium.pl | Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.studioatrium.pl/) |
-| studioatrium.pl | Zarejestruj się i korzystaj z dogodnych narzędzi wszędzie gdzie jesteś. Będziemy także zawiadamiać Cię o rabatach i promocjach. Dodatkowo otrzymujesz od nas 100 zł na zakup projektu domu. | Obecna w zapisie · 16.11.2026 10:40<br>[Źródło](https://www.studioatrium.pl/) |
-| studioatrium.pl | RABAT 250 | Obecna w zapisie · 16.11.2026 10:40 · 16.11.2026 10:40<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |

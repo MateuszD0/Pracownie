@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl | Pakiet instalacja solarna ? 550 zł | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet energooszczędny ? 0 zł | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Koszt wysyłki: gratis | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Wszystko, czego potrzebujesz – w cenie projektu! | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Sprawdzimy to dla Ciebie bezpłatnie! | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
-| modernhouse-projekty.pl | Kosztorys | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

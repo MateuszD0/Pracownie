@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mtmstyl.com.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Kosztorys budowlany uwzględnia wyłącznie część budowlaną robót – bez instalacji. Instalacje zostały uwzględnione jedynie wskaźnikowo w tabelach elementów zapisanych w formacie programu Excel. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Bezpłatny PAKIET DODATKÓW | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna charakterystyka energetyczna | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Tablica budowy | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Dziennik budowy | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna konsultacja z architektem | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |

@@ -29,3 +29,21 @@ W archiwum potwierdzono dwa zrzuty okna Domy dla nas, jego metadane w obu odczyt
 Sekcja finansowa zawiera 70 świeżych jednoznacznych cen, 69 par dzień do dnia oraz 40 komunikatów z konkretnym rabatem/kodem. Obecność tych komunikatów nie oznacza 40 nowych promocji. Kod E-domy `KUPTANIEJ` zachowano dosłownie wraz z cytatem o rabacie 10% i źródłem.
 
 W końcowej kontroli wykryto pominiętą flagę `priceSpecification.valueAddedTaxIncluded="false"` w schemacie Domidea. Kwota 4593,50 jest ceną netto; widoczna na stronie kwota 5650 jest ceną brutto. Parser zachowuje odtąd jawne oznaczenia netto/brutto. Starsze pola i raporty są uzupełniane wyłącznie z zachowanego schematu tego samego odczytu, identyfikatora, kwoty i waluty; nie zakłada się stawki VAT, nie przelicza kwot i nie przenosi dzisiejszej flagi na wczorajszy zapis bez dowodu. Taka korekta metadanych nie jest zmianą oferty.
+
+## Wynik końcowy
+
+Po dodatkowym automatycznym ponowieniu i [końcowej publikacji](https://github.com/MateuszD0/Pracownie/actions/runs/44061656670) zweryfikowano edycję `2026-11-17T100918.576078-0000-format-ed1a02d3`:
+
+| Miara | Przed naprawą | Wynik końcowy |
+| --- | --- | --- |
+| Odczytane strony | 175/224 | 204/224 |
+| Pełne porównanie obu stron pracowni | 81/112 | 94/112 |
+| Strony w tabeli problemów | 56 | 30 |
+| Jednoznaczne świeże ceny | 65 | 72 |
+| Porównywalne pary cen dzień do dnia | 64 | 71 |
+
+Odzyskano 29 wcześniej nieodczytanych stron. Obie strony 1001studio i Domy dla nas mają jakość `ok`. Zachowano wybrane projekty oraz odczyty spoza kolejnych zakresów naprawy. W archiwum są dwa zrzuty okna Domy dla nas i dziewięć dzienników nieudanych prób z ostatniej edycji. Pierwsza publikacja dnia pozostaje o 06:12 czasu polskiego; uzupełnienia wykonano później.
+
+Sprawdzono rzeczywiste pliki GitHuba `DASHBOARD.md` i `dashboard/ceny-i-rabaty.md`: zawierają kod `KUPTANIEJ`, datowane źródła rabatów, grafikę z okna oraz cenę Domidea `4 593,50 zł netto + VAT` i odpowiadającą jej wczorajszą cenę netto. Kwoty zachowano bez przeliczenia. Do porównania nie włączono cen o różnym lub niepotwierdzonym oznaczeniu VAT. Wszystkie [testy finalnej wersji](https://github.com/MateuszD0/Pracownie/actions/runs/44061180073) przeszły pomyślnie. Dodatkowe testy VAT i dotychczasowej obsługi cen: 56 zaliczonych; kontrola mobilna i komputerowa: brak błędów JavaScript i poziomego rozsuwania dokumentu.
+
+Pozostaje 20 stron bez odczytu, 12 odczytów częściowych i 18 pracowni bez pełnego dziennego porównania. To różne miary. Wśród potwierdzonych zewnętrznych przyczyn są HTTP 500 w ArchBB, odmowa pobrania CSS w Agrobisp, blokady dostępu oraz nieaktualne adresy. Nie oznaczono ich jako poprawnych i nie uzupełniono brakującej historii domysłem.

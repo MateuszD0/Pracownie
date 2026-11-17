@@ -10,7 +10,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 
 | Pracownia / projekt | Cena | Odczyt | Źródło |
 | --- | --- | --- | --- |
-| 3ddom.pl<br>Dom na Majowej | 4 199,00 zł | 17.11.2026 05:48 | [Karta projektu](https://3ddom.pl/produkt/dom-na-majowej/) |
+| 3ddom.pl<br>Dom na Majowej | 4 199,00 zł netto + VAT | 17.11.2026 05:48 | [Karta projektu](https://3ddom.pl/produkt/dom-na-majowej/) |
 | archand.pl<br>Perfetto 3 modern | 5 699,00 zł | 17.11.2026 05:48 | [Karta projektu](https://www.archand.pl/projekty/perfetto-3-modern/) |
 | archeton.pl<br>Celia Mini | 3 990,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
 | archetyp.pl<br>Lifi- projekt domu | 6 400,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archetyp.pl/projekt/lifi/) |
@@ -20,16 +20,16 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 17.11.2026 10:58 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl<br>STODOŁA CHALET | 4 800,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archstodola.pl/stodola-chalet-p-14.html) |
 | artinex-projekt.pl<br>D292B - WT2021 | 4 899,00 zł | 17.11.2026 10:47 | [Karta projektu](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
-| coolhouses.studio<br>Dom Aria | 15 400,00 zł | 17.11.2026 05:49 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |
+| coolhouses.studio<br>Dom Aria | 15 400,00 zł netto + VAT | 17.11.2026 05:49 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |
 | dom-projekt.pl<br>gryfice 31 pcr | 5 480,00 zł | 17.11.2026 05:49 | [Karta projektu](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html) |
 | domdlaciebie.com.pl<br>Klara IV | 5 390,00 zł | 17.11.2026 05:49 | [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domenadom.pl<br>Domena 169 A1 | 4 950,00 zł | 17.11.2026 05:49 | [Karta projektu](https://domenadom.pl/p/domena-169-a1-i532) |
-| domideaprojekt.pl<br>domidea 1 w6 | 4 593,50 zł | 17.11.2026 10:47 | [Karta projektu](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
+| domideaprojekt.pl<br>domidea 1 w6 | 4 593,50 zł netto + VAT | 17.11.2026 10:47 | [Karta projektu](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
 | dominanta.pl<br>Lolek II N | 5 035,00 zł | 17.11.2026 05:49 | [Karta projektu](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
 | dompasja.pl<br>Dompasja 61B | 4 900,00 zł | 17.11.2026 05:49 | [Karta projektu](https://dompasja.pl/dompasja-61b.html) |
 | domywstylu.pl<br>MALUTKI 12 – projekt domu z poddaszem, 107 m² | 6 149,00 zł | 17.11.2026 05:49 | [Karta projektu](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domyzweranda.pl<br>Uroczy Klasyczny 82 | 4 590,00 zł | 17.11.2026 05:50 | [Karta projektu](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
-| drewnex.biz<br>Dom drewniany: Anegdota | 395 000,00 zł | 17.11.2026 05:49 | [Karta projektu](https://www.drewnex.biz/domy-drewniane-caloroczne/anegdota/) |
+| drewnex.biz<br>Dom drewniany: Anegdota | 395 000,00 zł netto + VAT | 17.11.2026 05:49 | [Karta projektu](https://www.drewnex.biz/domy-drewniane-caloroczne/anegdota/) |
 | e-domy.pl<br>E-268a Dom parterowy na planie kwadratu | 5 990,00 zł | 17.11.2026 05:50 | [Karta projektu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | eg-domy.pl<br>WYSZUKANY D64 wariant II | 5 949,00 zł | 17.11.2026 05:50 | [Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) |
 | faberarchitektura.com<br>KP-100 | 3 400,00 zł | 17.11.2026 05:50 | [Karta projektu](https://faberarchitektura.com/produkt/kp-100/) |
@@ -51,7 +51,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | projektydomowzbali.pl<br>L-188 PROJEKT DOMU CAŁOROCZNEGO | 3 900,00 zł | 17.11.2026 05:52 | [Karta projektu](https://www.projektydomowzbali.pl/product/169,l-188) |
 | projektyka.pl<br>Ka288 | 5 649,00 zł | 17.11.2026 05:52 | [Karta projektu](https://projektyka.pl/projekty/ka288) |
 | projektyzwizja.pl<br>Idealny M3 | 6 740,00 zł | 17.11.2026 05:52 | [Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 697,00 zł | 17.11.2026 05:52 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 697,00 zł brutto | 17.11.2026 05:52 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | studiokrajobrazy.pl<br>Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L | 8 095,00 zł | 17.11.2026 05:53 | [Karta projektu](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
 | tipitom.space<br>TT 01 – „Merkury” – Murowany | 4 450,00 zł | 17.11.2026 10:59 | [Karta projektu](https://tipitom.space/produkt/tt-1-merkury-murowany/) |
 | uarchitekta.pl<br>Projekt domu z poddaszem i garażem dwustanowiskowym uA441 | 6 290,00 zł | 17.11.2026 05:53 | [Karta projektu](https://www.uarchitekta.pl/projekt/uA441,6969) |
@@ -70,7 +70,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | kreatywnedomy.pl<br>KD\_2402M | 6 500,00 zł | 17.11.2026 05:50 | [Karta projektu](https://kreatywnedomy.pl/projekt/kd_2402m/) |
 | kreodom.pl<br>PROJEKT DOMU DWURODZINNEGO KORNEL V ENERGO, PDJ-8706 | 3 400,00 zł | 17.11.2026 05:50 | [Karta projektu](https://www.kreodom.pl/projekt/projekt-domu-dwurodzinnego-kornel-v-energo-9121.html) |
 | mtmstyl.com.pl<br>Malutki 12 | 6 149,00 zł | 17.11.2026 05:51 | [Karta projektu](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| myhome.eco<br>DOM MOD 1 | 6 300,00 zł | 17.11.2026 05:51 | [Karta projektu](https://myhome.eco/produkt/dom-mod-1/) |
+| myhome.eco<br>DOM MOD 1 | 6 300,00 zł brutto | 17.11.2026 05:51 | [Karta projektu](https://myhome.eco/produkt/dom-mod-1/) |
 | nowoczesne-projektydomow.pl<br>B640 | 4 500,00 zł netto + VAT | 17.11.2026 05:51 | [Karta projektu](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
 | ototwojdom.pl<br>OTO70 Piętrowy — schody w korytarzu | 2 460,00 zł netto + VAT | 17.11.2026 05:51 | [Karta projektu](https://ototwojdom.pl/oto70pietrowy-wariant-schody-korytarz/) |
 | penthus.pl<br>HUS 167 | 9 500,00 zł | 17.11.2026 05:51 | [Karta projektu](https://www.penthus.pl/projects/hus-167) |

@@ -51,7 +51,7 @@ Pozostałe strony tego porównania zawierają 12 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · przekrój: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-8-0-0) |
 | Zmiany wyglądu · Układ · N25-G1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t100918.576078-0000-format-ed1a02d3-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
 
 Strony porównania: [1](domydlanaspl.md) · **2**
 

@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
-| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 17.11.2026 10:48 · 16.11.2026 11:17<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |
-| penthus.pl | Kosztorys | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | penthus.pl | Rzuty Dane techniczne Opis Kosztorys Dodatki Pliki do pobrania Analiza | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.penthus.pl/projects/hus-167) |
 | pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | Pełna elastyczność materiałowa dla inwestora: Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | Pozwolenie na budowę: W cenie obsługi | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | Bezpłatna analiza działki | Obecna w zapisie · 17.11.2026 05:51 · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/) · [Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
+| pollio.pl | GRATIS | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
+| pollio.pl | Zamów bezpłatną wycenę budowy | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
+| pollio.pl | Przemyślany podział na strefę dzienną, sypialną oraz gospodarczą. Możliwość bezpłatnych modyfikacji ścian działowych. | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |

@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | Extra dodatki i rabaty Pakiet dodatków o wartości 4100 zł za 1 zł i rabaty do marketów budowlanych. | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów 10% rabatu przez 12 mies. 10% zwrotu na kartę OBI | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | rabatu na 1 dzień zakupów | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | rabatu przez 12 mies. | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Galeria Rzuty Koszty budowy Parametry W cenie Opis projektu Pytania Forum | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | W cenie | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
 | slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
+| slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |

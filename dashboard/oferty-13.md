@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP ? 550 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe ? 750 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna ? 550 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet klimatyzacja w domu ? 550 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet gruntowa pompa ciepła ? 750 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet energooszczędny | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | modernhouse-projekty.pl | Do każdego zamówienia dołączamy komplet praktycznych dodatków, które ułatwią Ci start budowy: elegancką teczkę na dokumentację, profesjonalną tablicę informacyjną wymaganą na placu budowy oraz darmową dostawę kurierem InPost na terenie całej Polski. | Obecna w zapisie · 17.11.2026 10:47 · 17.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Kupując projekt w Modern House – otrzymujesz bezpłatny dostęp do wiedzy i doświadczenia jego autora. Masz pytania, wątpliwości lub potrzebujesz wsparcia? Skontaktuj się bezpośrednio z projektantem. Służymy pomocą zarówno przed zakupem, jak i podczas adaptacji, budowy czy ewentualnych zmian – jesteśmy z Tobą przez cały proces. | Obecna w zapisie · 17.11.2026 10:47 · 17.11.2026 10:48<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Idea „mniej znaczy więcej” wymaga od nas dyscypliny oraz świadomości. Intencjonalnie rezygnując ze zbędnych elementów, unikamy taniej efektowności. W zamian, zbliżamy się do rzeczywistego piękna, które nie potrzebuje żadnych dodatków ani ozdób. | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://modernhouse-projekty.pl/) |
+| modernhouse-projekty.pl | Każdy gotowy projekt domu zawiera katalog dopuszczalnych zmiany w projekcie niewymagających dodatkowej zgody projektanta. Jeżeli chcesz wprowadzić zmiany, których nie ma na poniższej liście skontaktuj się z nami a wystawimy Ci bezpłatnie dodatkową zgodę na zmiany. | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://modernhouse-projekty.pl/) |

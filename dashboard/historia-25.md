@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl · 2026-11-04 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO PRA\|” → „PROJEKTUJEMY MIEJSCA DO P\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYC\|”. | Zaobserwowana zmiana |

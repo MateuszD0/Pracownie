@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domato.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-06 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
+| dom-projekt.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 03.11.2026 roku do dnia 05.11.2026 roku.” | Do sprawdzenia |
 | dom-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
 | dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
 | dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
@@ -29,7 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-05 | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |

@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO ŻYCI\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-01 | „D57AD WT2021 wersja drewniana” → „D332 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| architeka.pl · 2026-11-01 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| projektyka.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |

@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-11-08 | „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO RE\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO RE\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-07 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-07 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |

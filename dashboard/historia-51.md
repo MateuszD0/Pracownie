@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl · 2026-10-27 | „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026” → „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-27 | „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026” → „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-27 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
 | sej-pro.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Budowa domu krok po kroku: etapy i ile trwają w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-27 | Pojawił się komunikat: „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-27 | „Koszt budowy domu 100 m² w 2026: stan surowy i deweloperski” → „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-10-27 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
 | domywstylu.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | dom-projekt.pl · 2026-10-27 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-27 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |

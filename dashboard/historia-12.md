@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Potwierdzono ponownym odczytem |
+| projektydomowzbali.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektstodola.pl · 2026-11-10 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
 | projektstodola.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
 | pro-arte.pl · 2026-11-10 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
 | pollio.pl · 2026-11-10 | Pojawił się komunikat: „Najczęściej zadawane pytania o budowę domu z Generalnym Wykonawcą”. | Potwierdzono ponownym odczytem |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domdlaciebie.com.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | archiportal.pl · 2026-11-10 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Okno dachowe nie musi być zawsze takie samo. Poznaj inne rozwiązania FAKRO”. | Potwierdzono ponownym odczytem |
-| archipelag.pl · 2026-11-10 | Pojawił się komunikat: „Badanie: co decyduje o komforcie na poddaszu? Polacy wskazali 6 kluczowych czynników”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |

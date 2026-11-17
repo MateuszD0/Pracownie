@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-11-03 | „Zgodność z warunkami technicznymi WT 2021” → „Zgodność z aktualnymi warunkami technicznymi”. | Zaobserwowana zmiana |
+| sprytnaoaza.pl · 2026-11-03 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-03 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-11-03 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | „FILIP – Energooszczędny, wygodny, parterowy dom z użytkowym poddaszem polecany dla rodziny o schemacie 2+2.” → „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o sche…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…” → „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwu…”. | Zaobserwowana zmiana |

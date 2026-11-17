@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-30 | „Wszystkie projekty (71) →” → „Wszystkie projekty (74) →”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-30 | „Arial, sans-serif” → „Arial, Helvetica, sans-serif”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-30 | „pogrubiony (700)” → „600”. | Zaobserwowana zmiana |
 | studioatrium.pl · 2026-10-30 | Zauważono etykietę: „promocje”. | Do sprawdzenia |
 | studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „RABAT 250” | Sprawdzono w serwisie |
 | studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026” | Sprawdzono w serwisie |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowe opcje przy zakupie projektu”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dane techniczne i kosztorys”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys w opracowaniu.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo można znaleźć informację o kosztach budowy stanu surowego zamkniętego metodą gospodarczą, wtedy koszt robocizny i koszty pośrednie pomniejszamy o 70% natomiast koszt mat…”. | Zaobserwowana zmiana |

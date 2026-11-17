@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | Projekty, kosztorysy i realizacje w jednym miejscu. | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Do projektów dostępne są pakiety kosztorysowe, które pomagają lepiej przygotować się do budowy i porównać różne warianty jeszcze przed rozpoczęciem inwestycji. | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Zobacz kosztorysy → | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Projekt, warianty, kosztorys, zdjęcia z realizacji i kolejne informacje możesz sprawdzić bez konieczności szukania ich w wielu niezależnych serwisach. | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Projekty, kosztorysy i budowy w jednym ekosystemie. | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Sam metraż nie wystarcza do oceny budżetu. Na koszt budowy wpływają m.in. konstrukcja, rodzaj dachu, garaż, standard wykonania, ceny materiałów i robocizny. Dlatego przed podjęciem decyzji warto sprawdzić kosztorys przygotowany dla konkretnego projektu. | Obecna w zapisie · 17.11.2026 10:48<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektstodola.pl | KOSZTORYS | Obecna w zapisie · 15.11.2026 10:23<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | projekty.nordarchitekci.pl | Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF. | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projekty.nordarchitekci.pl | Pobierz bezpłatnie | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Dane techniczne i kosztorys | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Kosztorys | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projekty.nordarchitekci.pl | Dodatkowa opcja Dostępność Cena BIOZ Natychmiast BEZPŁATNIE Charakterystyka energetyczna Natychmiast BEZPŁATNIE Zgoda na zmiany w projekcie Natychmiast BEZPŁATNIE | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |

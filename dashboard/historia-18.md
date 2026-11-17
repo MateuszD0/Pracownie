@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-11-07 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-07 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-07 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 05.11.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
-| projektydomowzbali.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
-| pro-arte.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |

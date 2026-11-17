@@ -17,7 +17,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | archi-projekt.com.pl<br>APS 343 POROTHERM | 4 799,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archi-projekt.com.pl/product/aps-343-porotherm/) |
 | archipelag.pl<br>Alison III G2 | 6 900,00 zł | 17.11.2026 05:48 | [Karta projektu](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
 | archiportal.pl<br>Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł | 4 199,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archiportal.pl/projekt-tracja11-sd) |
-| architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 17.11.2026 10:47 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
+| architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 17.11.2026 10:58 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl<br>STODOŁA CHALET | 4 800,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archstodola.pl/stodola-chalet-p-14.html) |
 | artinex-projekt.pl<br>D292B - WT2021 | 4 899,00 zł | 17.11.2026 10:47 | [Karta projektu](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
 | coolhouses.studio<br>Dom Aria | 15 400,00 zł | 17.11.2026 05:49 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |
@@ -42,6 +42,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 17.11.2026 05:51 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |
 | modernhouse-projekty.pl<br>NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE | 5 890,00 zł | 17.11.2026 10:48 | [Karta projektu](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl<br>Projekt domu z bali A-154 "DOM PIASKOWA" | 4 299,00 zł | 17.11.2026 05:51 | [Karta projektu](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
+| partero.pl<br>PARTERO-01 | 4 700,00 zł | 17.11.2026 10:59 | [Karta projektu](https://www.partero.pl/partero-01) |
 | pioroarchitekci.pl<br>PióroArchitekci - 10 | 3 400,00 zł | 17.11.2026 05:51 | [Karta projektu](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl<br>Projekt domu PLANUJDOM 072 | 2 960,00 zł | 17.11.2026 05:51 | [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | postawdom24.pl<br>Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2 | 3 670,00 zł brutto | 17.11.2026 05:52 | [Karta projektu](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416) |
@@ -52,6 +53,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | projektyzwizja.pl<br>Idealny M3 | 6 740,00 zł | 17.11.2026 05:52 | [Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 697,00 zł | 17.11.2026 05:52 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | studiokrajobrazy.pl<br>Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L | 8 095,00 zł | 17.11.2026 05:53 | [Karta projektu](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
+| tipitom.space<br>TT 01 – „Merkury” – Murowany | 4 450,00 zł | 17.11.2026 10:59 | [Karta projektu](https://tipitom.space/produkt/tt-1-merkury-murowany/) |
 | uarchitekta.pl<br>Projekt domu z poddaszem i garażem dwustanowiskowym uA441 | 6 290,00 zł | 17.11.2026 05:53 | [Karta projektu](https://www.uarchitekta.pl/projekt/uA441,6969) |
 ## Niewspółpracujące z nami
 

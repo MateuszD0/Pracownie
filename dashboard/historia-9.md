@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archiportal.pl · 2026-11-13 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja listopadowa! 15% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | archipelag.pl · 2026-11-13 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
-| archi-projekt.com.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |

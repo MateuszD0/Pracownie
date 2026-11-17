@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/09/Projekt-domu-homekoncept-166-g1-b-zdjecie-glo…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/09/Projekt-domu-homekoncept-166-g1-b-zdjecie-glo…”. | Zaobserwowana zmiana |
+| homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne…”. | Zaobserwowana zmiana |
+| homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg" alt="Pro…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg.rss.webp"…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |

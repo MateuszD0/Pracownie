@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kupprojekt.pl · 2026-11-06 | „Ciężarowe i dostawcze 149” → „Ciężarowe i dostawcze 150”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO \|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PR\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'MerchantReturnPolicy', 'applicableCountry': 'PL', 'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow', 'merchantReturnDays': 14, 'returnMethod…”. | Zaobserwowana zmiana |
 | domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'OfferShippingDetails', 'shippingRate': {'@type': 'MonetaryAmount', 'value': '0.00', 'currency': 'PLN'}, 'shippingDestination': {'@type': 'DefinedRegion', 'addressCountr…”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-06 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-06 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| dom-projekt.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 03.11.2026 roku do dnia 05.11.2026 roku.” | Do sprawdzenia |

@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domato.pl · 2026-11-14 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| archdom.pl · 2026-11-14 | Pojawił się komunikat: „STODOŁA MIKRO 1”. | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK KUPIĆ PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Odkryj wyjątkowy świat autorskich projektów Studia Atrium! Jesteśmy dla Ciebie w mediach społecznościowych, gdzie na bieżąco dzielimy się i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NOWOCZESNE PROJEKTY DOMÓW CZYLI PODĄŻANIE ZA TRENDAMI W ARCHITEKTURZE”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POMIESZCZENIA GOSPODARCZE - SPERSONALIZUJ WNĘTRZE WYBIERAJĄC PROJEKT WŁASNEGO DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |

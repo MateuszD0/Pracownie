@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-03 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…” → „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwu…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-11-03 | „salon + 3 pokoje garaż: 1 101.67 m²” → „salon + 3 pokoje garaż: 2 100.00 m²”. | Zaobserwowana zmiana |
 | eg-domy.pl · 2026-11-03 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| ecodomy.pl · 2026-11-03 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-03 | Pojawił się komunikat: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |

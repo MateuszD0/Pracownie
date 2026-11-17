@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652” | Sprawdzono w serwisie |
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636” | Sprawdzono w serwisie |
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |

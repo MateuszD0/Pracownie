@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYC\|”. | Zaobserwowana zmiana |
 | eg-domy.pl · 2026-11-04 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
 | e-domy.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl · 2026-11-03 | „Zapłać za pomocą banku” → „Zapłać za pomocą banku lub raty”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-11-03 | „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana” → „Budowa domu murowanego 35m2 z antresolą w Ostrowitem – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-03 | „Projekty spełniają aktualne warunki techniczne, z charakterystyką energetyczną budynku.” → „Projekty spełniają aktualnie obowiązujące warunki techniczne, z charakterystyką energetyczną budynku.”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-03 | „Zgodność z warunkami technicznymi WT 2021” → „Zgodność z aktualnymi warunkami technicznymi”. | Zaobserwowana zmiana |
-| sprytnaoaza.pl · 2026-11-03 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-03 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |

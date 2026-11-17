@@ -292,6 +292,12 @@ class BrowserScanner:
             await page.locator("body").wait_for(state="attached", timeout=5000)
         except BrowserError as exc:
             raise ValueError("Witryna nie zwróciła dokumentu HTML z treścią") from exc
+        # DOMContentLoaded can precede rendering of a public SPA/preloader.
+        # Wait for actual text without manufacturing content or hiding a block.
+        try:
+            await page.wait_for_function("() => (document.body?.innerText || '').trim().length >= 40", timeout=5000)
+        except BrowserError:
+            pass  # Final payload validation still rejects blank/challenge pages.
         await page.wait_for_timeout(self.settle_ms)
         try:
             await page.evaluate("() => Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 2500))])")
@@ -630,7 +636,16 @@ class BrowserScanner:
                 payload['verified_project_identity'] = {'url': page.url, 'name': name, 'selector': site.project_identity['selector']}
             payload["scenario_label"] = scenario.label
             payload["variant"] = scenario.label if any(a.get("action") in {"select", "check"} for a in scenario.actions) else ""
-            validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
+            try:
+                validate_payload(payload, product=page_kind == "projekt" and not any(a.get("cart") for a in scenario.actions))
+            except ValueError as exc:
+                if str(exc) != 'Pusta lub niekompletna strona':
+                    raise
+                detail = {'url':page.url, 'title':payload.get('title',''), 'text_length':len(payload.get('text','')),
+                          'text_sample':payload.get('text','')[:300], 'html_length':len(await page.content())}
+                error = TransientFetchError(f'Niekompletny dokument HTTP {response.status}: ' + json.dumps(detail, ensure_ascii=False), 2)
+                error.diagnostics = detail
+                raise error from exc
             if payload.get("truncated"):
                 warnings.append("Limit elementów DOM; odczyt częściowy.")
                 data_ready = False

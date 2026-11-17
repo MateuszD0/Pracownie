@@ -30,6 +30,10 @@ on:
         description: Sprawdź kontekst sekcji i stabilność komunikacji
         type: boolean
         default: false
+      probe_scan:
+        description: Sprawdź pełny odczyt produkcyjnym skanerem (bez zmiany stanu)
+        type: boolean
+        default: false
       extra_urls:
         description: 'Dodatkowe publiczne adresy: JSON domena → lista URL (maks. 4 na domenę)'
         type: string
@@ -64,6 +68,7 @@ jobs:
           if [[ "$DISABLE_HTTP2" == 'true' ]]; then args+=(--disable-http2); fi
           if [[ "$PROBE_COOKIES" == 'true' ]]; then args+=(--probe-cookies); fi
           if [[ "$PROBE_COPY" == 'true' ]]; then args+=(--probe-copy); fi
+          if [[ "$PROBE_SCAN" == 'true' ]]; then args+=(--probe-scan); fi
           if [[ "$HEADED" == 'true' ]]; then
             if [[ "$RUNNER_OS" == 'Linux' ]]; then
               xvfb-run -a uv run python scripts/diagnose_access.py "${args[@]}" --headed
@@ -82,4 +87,5 @@ jobs:
           DISABLE_HTTP2: ${{ inputs.disable_http2 }}
           PROBE_COOKIES: ${{ inputs.probe_cookies }}
           PROBE_COPY: ${{ inputs.probe_copy }}
+          PROBE_SCAN: ${{ inputs.probe_scan }}
           EXTRA_URLS: ${{ inputs.extra_urls || '{}' }}

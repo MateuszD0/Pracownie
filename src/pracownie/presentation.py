@@ -848,6 +848,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
 
 def render_html(view: dict) -> str:
     from .briefing import build_briefing, render_briefing, render_intelligence
+    from .financial import render_financial
     from .relationships import group_html
 
     # Recompute after enrichment too; archived views can predate this schema.
@@ -875,7 +876,7 @@ def render_html(view: dict) -> str:
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
         "__STATIC_JOURNAL__": render_journal_html(view, rows=[e for e in view['journal'] if e['id'] in source_ids]),
         "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
-        "__STATIC_MANAGEMENT__": render_briefing(view, view["briefing"]) + render_intelligence(view) + '<details id="technical-summary"><summary>Wszystkie obserwacje — szczegóły techniczne</summary>' + render_management(view) + '</details>',
+        "__STATIC_MANAGEMENT__": render_financial(view) + render_briefing(view, view["briefing"]) + render_intelligence(view) + '<details id="technical-summary"><summary>Wszystkie obserwacje — szczegóły techniczne</summary>' + render_management(view) + '</details>',
         "__STATIC_AVAILABILITY__": render_availability(view),
         "__STATIC_QUALITY__": render_quality_panel(view),
         "__STATIC_COMMUNICATION__": render_communication_table(view),

@@ -142,6 +142,12 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     try:
                         return await scanner.capture(site, kind, url, scenario, dest)
                     except Exception as exc:
+                        failure_path = staging / day / slug(site.domain) / kind / 'bledy-odczytu.json'
+                        failure_path.parent.mkdir(parents=True, exist_ok=True)
+                        failures = json.loads(failure_path.read_text()) if failure_path.is_file() else []
+                        failures.append({'observed_at':now_iso(), 'url':url, 'scenario':scenario.id, 'attempt':attempt + 1,
+                                         'error':str(exc).splitlines()[0][:600], 'details':getattr(exc,'diagnostics',{})})
+                        failure_path.write_bytes(json_bytes(failures))
                         # Permanent denials and invalid content do not improve with retries.
                         retryable = isinstance(exc, (TransientFetchError, BrowserTimeout)) or (
                             isinstance(exc, BrowserError) and any(code in str(exc) for code in (

@@ -109,6 +109,10 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
     if downloads.get('web'):
         lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']
+    from .financial import markdown_financial
+    financial_lines, financial_documents = markdown_financial(view, folder)
+    lines += financial_lines
+    digest_documents.update(financial_documents)
     lines += markdown_briefing(view, briefing, event_targets, digest_documents, folder, filename)
     from .relationships import LABELS as RELATIONSHIP_LABELS
     from .relationships import group_for, registry_markdown

@@ -8,29 +8,51 @@
 
 **Ten sam projekt:** [B11 — 75 m²/lokal](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://praktyczneprojekty.pl)
+[Otwórz stronę źródłową](https://praktyczneprojekty.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fpraktyczneprojekty.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fpraktyczneprojekty.pl%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
+**Bez ustalonej zmiany · obserwacje w szczegółach**
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Automatyczna aktualizacja kalendarza lub zegara.
+
+Przykłady z zapisów:
+
+- Poniedziałek, 16 listopada 2026, \[licznik\] → Wtorek, 17 listopada 2026, \[licznik\]
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://praktyczneprojekty.pl/)
+
+
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://praktyczneprojekty.pl/b11___75m2lok.html)
 
-**Odczyty:** 16.11.2026 10:39 → brak odczytu (czas polski).
+**Odczyty:** 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fpraktyczneprojekty.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fpraktyczneprojekty.pl%2Fb11___75m2lok.html%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t094707.191766-0000-c8b9daf8-porownanie.html)
 

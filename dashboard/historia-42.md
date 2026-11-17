@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Zobacz wszystkie nowości →”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czym różni się opcja STANDARD od EKO?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Zbuduj dom z TeA Projekt”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zgoda na zmiany gratis” | Sprawdzono w serwisie |
 | teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Wszystkie projekty (71) →”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy gotowy projekt trzeba adaptować?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Stodoła z garażem 20 projektów”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „NOWOŚĆ NOWOCZESNA STODOŁA”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „NOWOŚĆ”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy gotowy projekt trzeba adaptować?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Nowoczesna stodoła 32 projekty”. | Zaobserwowana zmiana |

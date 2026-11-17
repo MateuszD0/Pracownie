@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwus…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | ecodomy.pl · 2026-11-03 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-03 | Pojawił się komunikat: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |

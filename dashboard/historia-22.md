@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
 | studioatrium.pl · 2026-11-05 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-05 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
 | projektygebala.com · 2026-11-05 | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-05 | „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym d…” → „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety teg…” → „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prost…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |

@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://housecollection.pl)
+[Otwórz stronę źródłową](https://housecollection.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 17.11.2026 10:47 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
+**Niepełny zakres porównania**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 17.11.2026 10:48 (czas polski).
 
-**Brak odczytu**
+**Niepełny zakres porównania**
 
-Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t094707.191766-0000-c8b9daf8-porownanie.html)
 

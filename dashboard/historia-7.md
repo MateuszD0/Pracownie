@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Zobacz dodatki” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Nasz darmowy katalog”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA OFERTA STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
 | sej-pro.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
 | sej-pro.pl · 2026-11-13 | Nowa promocja w komunikacji: „Nadchodzi Black Friday, największa promocja roku 🔥” | Sprawdzono w serwisie |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676” | Sprawdzono w serwisie |
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657” | Sprawdzono w serwisie |
 | nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653” | Sprawdzono w serwisie |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |

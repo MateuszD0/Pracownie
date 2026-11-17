@@ -8,9 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-17 | „Dom namiotowy z 3 sypialniami” → „Dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
 | dompp.pl · 2026-11-17 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
 | dominanta.pl · 2026-11-17 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 103 243.09 m2 7 3 2 12177,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 1 w6 127.65 m2 4 3 0 6150,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
 | archstodola.pl · 2026-11-17 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Kontynuuj zakupy”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |

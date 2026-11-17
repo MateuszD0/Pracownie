@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-29 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |

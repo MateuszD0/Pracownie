@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
+| archand.pl · 2026-10-27 | „stan surowy zamknięty :” → „stan surowy zamknięty :{stawka\_numer\_1}”. | Zaobserwowana zmiana |
+| archand.pl · 2026-10-27 | „stan surowy zamknięty : {procent\_stawki\_numer\_1} zł stan wykończony: {procent\_stawki\_numer\_2} zł Koszty w sys…” → „Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny.”. | Zaobserwowana zmiana |
+| archand.pl · 2026-10-27 | „stawka stan surowy zamknięty : {stawka\_numer\_1} zł stan wykończony: {stawka\_numer\_2} zł” → „stawka stan surowy zamknięty :{stawka\_numer\_1} stan wykończony: {stawka\_numer\_2}”. | Zaobserwowana zmiana |
 | alexanderstudio.pl · 2026-10-27 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
 | alexanderstudio.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Promocja jeszcze się nie rozpoczęła.”. W sprawdzonym serwisie znaleziono również: „Promocja od 2026-10-27, koniec za:” | Do sprawdzenia |
 | projektstodola.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Działka pod budowę domu i usytuowanie domu na działce to pierwszy, najważniejszy element Waszego przyszłego miejsca do zamieszkania. Działka nierozerwalnie łączy się z projektem.…”. | Zaobserwowana zmiana |

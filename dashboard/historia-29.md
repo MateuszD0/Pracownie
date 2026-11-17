@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
 | domywstylu.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | dompp.pl · 2026-11-03 | Pojawił się komunikat: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-11-02 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
 | studioatrium.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
 | sprytnaoaza.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-02 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| projektydomowzbali.pl · 2026-11-02 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Piotruś jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „FILIP – Energooszczędny, wygodny, parterowy dom z użytkowym poddaszem polecany dla rodziny o schemacie 2+2.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |

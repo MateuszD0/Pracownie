@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Arkadia to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ś…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Na parterze znajduje się pokój dzienny, jadalnia, kuchnia, hall, wc oraz kotłownia z pom. gospodarczym i przyległym garażem dwustanowiskowym. Na piętrze znajdują się trzy sypialni…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | „Fiona z garażem z Opusdom to wygodny parterowy dom z nieużytkowym poddaszem i dwustanowiskowym garażem. Funkc…” → „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kreodom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „TRÓJNIK STALOWY I PRZECIEK, KTÓRY POJAWIA SIĘ DOPIERO PO TYGODNIU”. | Zaobserwowana zmiana |
 | kreodom.pl · 2026-10-28 | Pojawił się komunikat: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-28 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-28 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-28 | „salon + 5 pokoi garaż: 2 159.90 m²” → „salon + 3 pokoje garaż: 1 101.67 m²”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-28 | Pojawił się komunikat: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |

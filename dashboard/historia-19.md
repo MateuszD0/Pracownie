@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| planujdom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kupprojekt.pl · 2026-11-06 | „Ciężarowe i dostawcze 149” → „Ciężarowe i dostawcze 150”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO \|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PR\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |

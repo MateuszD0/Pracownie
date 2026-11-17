@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-10-28 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-28 | „salon + 5 pokoi garaż: 2 159.90 m²” → „salon + 3 pokoje garaż: 1 101.67 m²”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-28 | Pojawił się komunikat: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-28 | Pojawił się komunikat: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | domato.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | „Dom murowany czy szkieletowy?” → „Zobacz ten projekt w rzeczywistości”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA PAKIETU PRO”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji zostało:”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Dwa projekty, dwie technologie, instrukcje budowy i dodatkowe materiały w jednym pakiecie.”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcja budowy murowanego”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DO PONIEDZIAŁKU”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najniższa cena pakietu z 30 dni przed obniżką: 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |

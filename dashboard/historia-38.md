@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Nikola to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Piotrek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
 | mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
 | mtmstyl.com.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
 | mgprojekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo Pani Kamila pomogła stworzyć garaż oraz dodatkowe zadaszenia i pozwolenie na budowę. Jestem osobą, która chce wiedzieć jak najwięcej i zadaje pytania, szuka informacji.…”. | Do sprawdzenia |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |

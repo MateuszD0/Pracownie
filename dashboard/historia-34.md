@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowa…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCI\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-10-31 | „Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |

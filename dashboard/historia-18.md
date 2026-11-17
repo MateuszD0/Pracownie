@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-07 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-07 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-07 | Pojawił się komunikat: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-07 | W nowym zapisie nie ma komunikatu: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
 | projektydomowzbali.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
 | pro-arte.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
-| planujdom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |

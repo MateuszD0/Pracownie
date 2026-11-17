@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kbprojekt.pl · 2026-11-11 | „\| 1,2 tys. opinii \| stan na: 02.11.2026” → „\| 1,2 tys. opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-11 | „\| 794 opinii \| stan na: 02.11.2026” → „\| 794 opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-11 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dom parterowy z trzema sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
 | domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Potwierdzono ponownym odczytem |
 | projektydomowzbali.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektstodola.pl · 2026-11-10 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| pro-arte.pl · 2026-11-10 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
-| pollio.pl · 2026-11-10 | Pojawił się komunikat: „Najczęściej zadawane pytania o budowę domu z Generalnym Wykonawcą”. | Potwierdzono ponownym odczytem |
-| mtmstyl.com.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| lipinscy.pl · 2026-11-10 | Nie odnotowano wcześniejszego komunikatu: „Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział…”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |

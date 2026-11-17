@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-05 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-05 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | domato.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
 | domato.pl · 2026-11-05 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zab…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwustanowiskowym garażem.”. | Zaobserwowana zmiana |

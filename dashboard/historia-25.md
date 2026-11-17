@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zab…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwustanowiskowym garażem.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYC\|”. | Zaobserwowana zmiana |
-| eg-domy.pl · 2026-11-04 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |

@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| eg-domy.pl · 2026-11-04 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-11-03 | „Zgodność z warunkami technicznymi WT 2021” → „Zgodność z aktualnymi warunkami technicznymi”. | Zaobserwowana zmiana |
 | sprytnaoaza.pl · 2026-11-03 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-11-03 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-03 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
-| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |

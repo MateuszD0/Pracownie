@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
+| alexanderstudio.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-10, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
+| 3ddom.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 11.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
 | projektstodola.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom dla licznej rodziny”. | Potwierdzono ponownym odczytem |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-11-11 | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
 | mgprojekt.com.pl · 2026-11-11 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | kbprojekt.pl · 2026-11-11 | „Tak niską cenę gwarantujemy do 10 listopada 2026” → „Tak niską cenę gwarantujemy do 20 listopada 2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | „\| 1,2 tys. opinii \| stan na: 02.11.2026” → „\| 1,2 tys. opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | „\| 794 opinii \| stan na: 02.11.2026” → „\| 794 opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-11 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dom parterowy z trzema sypialniami”. | Potwierdzono ponownym odczytem |

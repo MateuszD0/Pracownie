@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo Pani Kamila pomogła stworzyć garaż oraz dodatkowe zadaszenia i pozwolenie na budowę. Jestem osobą, która chce wiedzieć jak najwięcej i zadaje pytania, szuka informacji.…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-10-30 | „salon + 3 pokoje garaż: brak 100.00 m²” → „salon + 4 pokoje garaż: brak 120.00 m²”. | Zaobserwowana zmiana |
 | ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Często nowi potencjalni klienci zastanawiają się jak wygląda proces sporządzania projektu indywidualnego i co taki projekt zawiera. Żeby…”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
-| eg-domy.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
-| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |

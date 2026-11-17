@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Mały dom z poddaszem nieużytkowym”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | „Optymalny dom na wąskie działki” → „Dom dwuspadowy na wąskie działki”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Rezydencja dla licznej rodziny”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Optymalny dom na wąskie działki”. | Potwierdzono ponownym odczytem |
 | domenadom.pl · 2026-11-09 | Pojawił się komunikat: „Domena 171 C5NOWOŚĆ”. | Potwierdzono ponownym odczytem |
 | artinex-projekt.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-08 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |

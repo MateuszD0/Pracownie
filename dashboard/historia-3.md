@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hbstudio.pl · 2026-11-15 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1…”. W sprawdzonym serwisie znaleziono również: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Do sprawdzenia |
-| galeriadomow.pl · 2026-11-15 | „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |

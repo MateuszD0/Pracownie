@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| dobredomy.pl · 2026-10-30 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| artinex-projekt.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-10-30 | „D434A wersja drewniana” → „D439 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-10-30 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
+| archipelag.pl · 2026-10-30 | Pojawił się komunikat: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
 | archipelag.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja październikowa! 20% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
 | archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł”. W sprawdzonym serwisie znaleziono również: „GRATIS” | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Dlaczego warto kupić projekt u nas”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „GOTOWE PROJEKTY DOMÓW - OD CZEGO ZACZĄĆ WYBÓR PROJEKTU”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „14 dni na zwrot, 30 na wymianę”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Zobacz wszystkie nowości →”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czym różni się opcja STANDARD od EKO?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Zbuduj dom z TeA Projekt”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |

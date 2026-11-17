@@ -39,6 +39,9 @@ def test_stale_partial_or_unpaired_prices_are_not_daily_change_claims():
 def test_codes_are_literal_and_discount_requires_specific_terms():
     assert codes("Rabat 20% z kodem JESIEN20 do 30.11.2026") == ["JESIEN20"]
     assert codes("Kod rabatowy: DOM2026") == ["DOM2026"]
+    assert codes("Kod: DOM2026") == ["DOM2026"]
+    assert codes("Kod=DOM2026") == ["DOM2026"]
+    assert not codes("Kodowanie DOM2026")
     assert not meaningful_discount("Nie zapomnij zapytać o rabat")
     assert not codes("Wpisz kod rabatowy w koszyku")
     assert not codes("Kod rabatowy znajdziesz w koszyku")

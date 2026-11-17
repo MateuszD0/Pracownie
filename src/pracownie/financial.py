@@ -10,7 +10,7 @@ from .journal import capture_day, safe_source
 from .relationships import group_for, groups
 
 CODE = re.compile(
-    r'\bkod(?:em|u)?\s+(?:(?:rabatow|promocyjn)(?:y|ego|ym)\s*)?[:=–-]?\s*[„"\']?([A-Za-z0-9][A-Za-z0-9_-]{2,30})',
+    r'\bkod(?:em|u)?\b\s*(?:(?:rabatow|promocyjn)(?:y|ego|ym)\s*)?[:=–-]?\s*[„"\']?([A-Za-z0-9][A-Za-z0-9_-]{2,30})',
     re.I,
 )
 STOP = {

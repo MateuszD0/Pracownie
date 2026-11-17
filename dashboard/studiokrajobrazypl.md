@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-15 → 2026-11-16**
+**2026-11-16 → 2026-11-17**
 
 **Ten sam projekt:** [Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l)
 
-**1 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,36 +16,34 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://studiokrajobrazy.pl/)
 
-**Odczyty:** 15.11.2026 10:24 → 16.11.2026 10:40 (czas polski).
+**Odczyty:** 16.11.2026 10:40 → 17.11.2026 05:53 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fstudiokrajobrazy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fstudiokrajobrazy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fstudiokrajobrazy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fstudiokrajobrazy.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Zmiany wyglądu · Położenie i rozmiar: Projekty domów do 70m2 zabudowy (9 px w dół) | 259 × <strong>36</strong> px; położenie: 637 px od lewej, <strong>1533</strong> px od góry | 259 × <strong>18</strong> px; położenie: 637 px od lewej, <strong>1542</strong> px od góry | [Otwórz stronę](https://studiokrajobrazy.pl/#column-right) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-28-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-39-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 15.11.2026 10:24 | Po · 16.11.2026 10:40 |
+| Przed · 16.11.2026 10:40 | Po · 17.11.2026 05:53 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-28-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-39-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (29) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
 
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 - Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 
 Przykłady z zapisów:
 
-- https://studiokrajobrazy.pl/media/projects/0/1323/default-thumb-rwd-projekt\_domu\_fortel\_wizualizacja\_6054862c364eb.jpg?refresh=1794734675 → https://studiokrajobrazy.pl/media/projects/0/1323/default-thumb-rwd-projekt\_domu\_fortel\_wizualizacja\_6054862c364eb.jpg?refresh=1794822020
-- https://studiokrajobrazy.pl/media/projects/0/1305/default-thumb-rwd-projekt\_domu\_malinowka\_wizualizacja\_5f5b550f0b873.jpg?refresh=1794734675 → https://studiokrajobrazy.pl/media/projects/0/1335/default-thumb-rwd-projekt\_domu\_jezowka\_wizualizacja\_60deeededfea7.jpg?refresh=1794822020
-- https://studiokrajobrazy.pl/media/projects/0/1458/default-thumb-rwd-projekt\_domu\_studio\_139\_wizualizacja\_6a7d96ed2730d.jpg?refresh=17947346… → https://studiokrajobrazy.pl/media/projects/0/1461/default-thumb-rwd-projekt\_domu\_krajobrazy\_160\_wizualizacja\_6aba2dba65622.jpg?refresh=1794…
+- Projekt domu parterowego typu stodoła z antresolą Studio 36 → Projekt gotowy parterowego domu jednorodzinnego do 120m2 Azory
+- https://studiokrajobrazy.pl/media/projects/0/1300/default-thumb-projekt\_domu\_studio\_36\_wizualizacja\_5efc8d192c734.jpg?refresh=1794822020 → https://studiokrajobrazy.pl/media/projects/0/1390/default-thumb-projekt\_domu\_azory\_wizualizacja\_65eb11f476b93.jpg?refresh=1794891179
+- https://studiokrajobrazy.pl/templates/responsive/images/lazybg.jpg → https://studiokrajobrazy.pl/media/projects/0/1202/default-thumb-rwd-projekt\_domu\_hibiskus\_wizualizacja\_6442571e83c5f.jpg?refresh=1794891179
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -55,11 +53,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l)
 
-**Odczyty:** 15.11.2026 10:24 → 16.11.2026 10:40 (czas polski).
+**Odczyty:** 16.11.2026 10:40 → 17.11.2026 05:53 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fstudiokrajobrazy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fstudiokrajobrazy.pl%2Fprojekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fstudiokrajobrazy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fstudiokrajobrazy.pl%2Fprojekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
 

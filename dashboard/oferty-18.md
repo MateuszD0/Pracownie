@@ -8,9 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| profesjonalne-projekty-domow.pl | Poproś o bezpłatną symulację kredytową. | Obecna w zapisie · 16.11.2026 10:39 · 16.11.2026 10:39<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
-| profesjonalne-projekty-domow.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 16.11.2026 10:39 · 16.11.2026 10:39<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
-| profesjonalne-projekty-domow.pl | Poproś o kupon rabatowy | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
+| profesjonalne-projekty-domow.pl | Poproś o bezpłatną analizę Twojej działki i wyboru projektu. | Obecna w zapisie · 17.11.2026 05:52 · 17.11.2026 05:52<br>[Źródło](https://profesjonalne-projekty-domow.pl/) · [Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
+| profesjonalne-projekty-domow.pl | Poproś o kupon rabatowy | Obecna w zapisie · 17.11.2026 05:52<br>[Źródło](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-murowany--domy-mistrzow.html) |
 | projektdomudo100m2.pl | Kosztorys budowy — 30 zł | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | kosztorys | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorys — 30 zł | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Sam metraż nie wystarcza do oceny budżetu. Na koszt budowy wpływają m.in. konstrukcja, rodzaj dachu, garaż, standard wykonania, ceny materiałów i robocizny. Dlatego przed podjęciem decyzji warto sprawdzić kosztorys przygotowany dla konkretnego projektu. | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Sprawdź kosztorysy → | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Na stronie znajdziesz gotowe projekty domów parterowych, warianty do 100 m² i większe, projekty z garażem, domy z dachem dwuspadowym i czterospadowym, a także projekty z użytkowym poddaszem. Każdy projekt możesz porównać z innymi wariantami, sprawdzić dostępny kosztorys oraz zobaczyć prawdziwe realizacje inwestorów. | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Co zawiera kosztorys budowy za 30 zł? | Obecna w zapisie · 16.11.2026 10:39<br>[Źródło](https://www.projektdomudo100m2.pl/) |

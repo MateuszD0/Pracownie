@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-15 → 2026-11-16**
+**2026-11-16 → 2026-11-17**
 
 **Ten sam projekt:** [Ka288](https://projektyka.pl/projekty/ka288)
 
-**8 zmian w zapisanym zakresie.**
+**18 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,44 +16,55 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektyka.pl/)
 
-**Odczyty:** 15.11.2026 10:24 → 16.11.2026 10:39 (czas polski).
+**Odczyty:** 16.11.2026 10:39 → 17.11.2026 05:52 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fprojektyka.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyka.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fprojektyka.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyka.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Autorskie projekty domów szyte na miarę</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>SZEREGOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>DWULOKALOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>BLIŹNIACZE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>BEZ GARAŻU</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>LETNISKOWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>PIĘTROWE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>Z PODDASZEM UŻYTKOWYM</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>DWULOKALOWE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>Z PODDASZEM UŻYTKOWYM</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>PIĘTROWE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Baner | <strong>SKORZYSTAJ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>SZEREGOWE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>PORADNIK PROJEKTYKI</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://projektyka.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>LETNISKOWE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>BLIŹNIACZE</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>BEZ GARAŻU</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Rozmiar tekstu: 9199,- | <strong>12px</strong> | <strong>27.008px</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Rozmiar: Ka301 | 816 × <strong>640</strong> px; położenie: -731 px od lewej, 141 px od góry | 816 × <strong>612</strong> px; położenie: -731 px od lewej, 141 px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Położenie i rozmiar: 9199,- (77 px w prawo, 16 px w górę) | <strong>159</strong> × <strong>56</strong> px; położenie: <strong>260</strong> px od lewej, <strong>6607</strong> px od góry | <strong>82</strong> × <strong>32</strong> px; położenie: <strong>337</strong> px od lewej, <strong>6591</strong> px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Rozmiar tekstu: 6799,- | <strong>12px</strong> | <strong>27.008px</strong> | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Położenie i rozmiar: Ka288 (32 px w górę) | <strong>190</strong> × 77 px; położenie: 117 px od lewej, <strong>569</strong> px od góry | <strong>493</strong> × 77 px; położenie: 117 px od lewej, <strong>537</strong> px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Położenie i rozmiar: 6799,- (77 px w prawo, 15 px w górę) | <strong>159</strong> × <strong>56</strong> px; położenie: <strong>640</strong> px od lewej, <strong>6228</strong> px od góry | <strong>82</strong> × <strong>32</strong> px; położenie: <strong>717</strong> px od lewej, <strong>6213</strong> px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
+| Zmiany wyglądu · Rozmiar: Ka288 | 816 × <strong>640</strong> px; położenie: <strong>901</strong> px od lewej, 141 px od góry | 816 × <strong>612</strong> px; położenie: <strong>85</strong> px od lewej, 141 px od góry | [Otwórz stronę](https://projektyka.pl/#home) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-11-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-10-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 15.11.2026 10:24 | Po · 16.11.2026 10:39 |
+| Przed · 16.11.2026 10:39 | Po · 17.11.2026 05:52 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-11-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-10-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (17) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (109) — nie są ustaloną zmianą oferty</summary>
 
-- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- Projekty domów → brak
-- GARAŻE → brak
-- brak → szyte na miarę
+- Najniższa cena z 30 dni przed obniżką: 6799 → brak
+- Najniższa cena z 30 dni przed obniżką: 9199 → brak
+- wiemy wszystko o domach → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -63,21 +74,33 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://projektyka.pl/projekty/ka288)
 
-**Odczyty:** 15.11.2026 10:24 → 16.11.2026 10:39 (czas polski).
+**Odczyty:** 16.11.2026 10:39 → 17.11.2026 05:52 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-16%2Fprojektyka.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyka.pl%2Fprojekty%2Fka288%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fprojektyka.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyka.pl%2Fprojekty%2Fka288%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 16.11.2026 10:39 | Po · 17.11.2026 05:52 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
 
 ### Grafika i wygląd — różnica do obejrzenia
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 15.11.2026 10:24 → 16.11.2026 10:39 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 16.11.2026 10:39 → 17.11.2026 05:52 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://projektyka.pl/projekty/ka288)
 
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-37-po.jpg)
 
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
 

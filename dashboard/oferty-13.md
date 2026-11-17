@@ -8,22 +8,21 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mgprojekt.com.pl | Pakiet instalacja solarna ? 550 zł | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet energooszczędny ? 0 zł | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Koszt wysyłki: gratis | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet klimatyzacja w domu | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet odkurzacz centralny | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet płaszcz wodny | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | Pakiet energooszczędny | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet energooszczędny ? 0 zł | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Koszt wysyłki: gratis | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet kominek z DGP | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet ogrzewanie podłogowe | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet kotłownia na paliwo stałe | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet instalacja fotowoltaiczna | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet klimatyzacja w domu | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet gruntowa pompa ciepła | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet odkurzacz centralny | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet płaszcz wodny | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet instalacja solarna | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet energooszczędny | Obecna w zapisie · 17.11.2026 05:51<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | modernhouse-projekty.pl | Do każdego zamówienia dołączamy komplet praktycznych dodatków, które ułatwią Ci start budowy: elegancką teczkę na dokumentację, profesjonalną tablicę informacyjną wymaganą na placu budowy oraz darmową dostawę kurierem InPost na terenie całej Polski. | Obecna w zapisie · 16.11.2026 10:38 · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Kupując projekt w Modern House – otrzymujesz bezpłatny dostęp do wiedzy i doświadczenia jego autora. Masz pytania, wątpliwości lub potrzebujesz wsparcia? Skontaktuj się bezpośrednio z projektantem. Służymy pomocą zarówno przed zakupem, jak i podczas adaptacji, budowy czy ewentualnych zmian – jesteśmy z Tobą przez cały proces. | Obecna w zapisie · 16.11.2026 10:38 · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/) · [Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Idea „mniej znaczy więcej” wymaga od nas dyscypliny oraz świadomości. Intencjonalnie rezygnując ze zbędnych elementów, unikamy taniej efektowności. W zamian, zbliżamy się do rzeczywistego piękna, które nie potrzebuje żadnych dodatków ani ozdób. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/) |
@@ -33,3 +32,4 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | modernhouse-projekty.pl | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Wszystko, czego potrzebujesz – w cenie projektu! | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | modernhouse-projekty.pl | Bezpłatna analiza działki i zgodności z WZ lub MPZP \* | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Bezpłatne wsparcie i kontakt z projektantem – na każdym etapie budowy | Obecna w zapisie · 16.11.2026 10:38<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/) |

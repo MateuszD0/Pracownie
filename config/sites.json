@@ -862,7 +862,10 @@
         "source": "https://domydlanas.pl/projekty-domow/",
         "http_verified_at": "2026-10-23"
       },
-      "project_name": "N55-G2"
+      "project_name": "N55-G2",
+      "popup_close_selectors": [
+        "#spu-37605 .spu-close"
+      ]
     },
     {
       "domain": "domyigaraze.pl",

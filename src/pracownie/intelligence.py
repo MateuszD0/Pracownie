@@ -54,11 +54,16 @@ def update_intelligence(state: dict, view: dict) -> dict:
                            else reason if reason.startswith('Kontrolka zgód') else '')
         if item['status'] == 'open' and reasons and all(reasons):
             item.update(status='supporting', supporting_reason=reasons[0], reclassified_at=day)
-    offers = {}
+    offers, graphics = {}, []
     for key, raw in state.get('snapshots', {}).items():
         if raw['domain'] not in domains or not key.endswith('/podstawowy') or raw.get('page') not in {'glowna', 'projekt'}:
             continue
         snap = Snapshot.from_dict(raw)
+        for popup in snap.document.get('popups', []):
+            for image in popup.get('images', []):
+                item = {'domain':snap.domain, 'url':popup['url'], 'image':image['url'], 'observed_at':popup['observed_at']}
+                if item not in graphics:
+                    graphics.append(item)
         for claim in document(snap)['claims']:
             identity = snap.domain, ' '.join(claim.split()).casefold()
             start = future_start(claim, day)
@@ -66,6 +71,6 @@ def update_intelligence(state: dict, view: dict) -> dict:
             offer = offers.setdefault(identity, {'domain': snap.domain, 'text': claim, 'status': status, 'start': start, 'sources': []})
             offer['sources'].append({'page': snap.page, 'url': snap.url, 'observed_at': snap.observed_at})
     state['business_ledger'], state['verification_queue'] = ledger, queue
-    return {'offers': list(offers.values()), 'history': sorted(ledger.values(), key=lambda r: (r['day'], r['domain']), reverse=True),
+    return {'offers': list(offers.values()), 'graphics':graphics, 'history': sorted(ledger.values(), key=lambda r: (r['day'], r['domain']), reverse=True),
             'pending': [q for q in queue.values() if q['status'] == 'open'],
             'checks': [q for q in queue.values() if q.get('check')]}

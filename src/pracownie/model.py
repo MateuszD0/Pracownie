@@ -163,6 +163,7 @@ class Site:
     communication_context_selectors: dict[str, list[str]] = field(default_factory=dict)
     user_agent: str | None = None
     cookie_continue_selector: str | None = None
+    popup_close_selectors: list[str] = field(default_factory=list)
     browser_headed: bool = False
     request_interval_seconds: float = 2
 

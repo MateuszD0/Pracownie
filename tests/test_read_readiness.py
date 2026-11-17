@@ -29,6 +29,11 @@ def delayed_site():
             if self.path == "/blank":
                 return
             content = body
+            if self.path == "/popup":
+                content += """<div class="spu-box" id="sale" style="position:fixed;inset:0;background:white;z-index:100">
+                  <h2>Rabat 20% z kodem DOM20 do 30 listopada</h2>
+                  <span class="spu-close" onclick="document.getElementById('sale').remove()">×</span></div>
+                  <div id="cookie-notice" role="dialog">Pliki cookies<button onclick="this.parentElement.remove()">Odrzuć</button></div>"""
             if self.path == "/delayed":
                 content = (
                     '<script>addEventListener("DOMContentLoaded",()=>setTimeout(()=>{document.body.innerHTML='
@@ -80,3 +85,19 @@ async def test_empty_200_is_retried_and_failure_evidence_survives(delayed_site, 
     assert len(failures) == 1
     data = json.loads(failures[0].read_text())
     assert data[0]["details"]["text_length"] == 0 and data[0]["attempt"] == 1
+
+
+@pytest.mark.browser
+async def test_popup_close_preserves_offer_and_image_before_cookie_refusal(
+    delayed_site, tmp_path, executable
+):
+    site = Site("127.0.0.1", delayed_site + "/popup", popup_close_selectors=["#sale .spu-close"])
+    async with BrowserScanner(executable, settle_ms=0) as scanner:
+        capture = await scanner.capture(
+            site, "glowna", site.home_url, Scenario("podstawowy", ""), tmp_path / "after.png"
+        )
+    assert capture.snapshot.quality == "ok"
+    assert capture.extra_images["popup_1"].is_file()
+    assert capture.snapshot.document["popups"][0]["evidence"] == "popup_1"
+    assert any("DOM20" in i["text"] for i in capture.snapshot.document["communication"]["items"])
+    assert not any("zasłaniać" in w for w in capture.snapshot.warnings)

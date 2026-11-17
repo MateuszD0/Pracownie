@@ -87,7 +87,12 @@ def financial_data(view: dict) -> dict:
                 }
             )
     offers.sort(key=lambda o: (o["group"] != "partner", not o["codes"], o["domain"], o["text"]))
-    return {"prices": prices, "changes": changes, "paired": paired, "offers": offers}
+    graphics = [
+        g
+        for g in view.get("metadata", {}).get("intelligence", {}).get("graphics", [])
+        if capture_day(g["observed_at"]) == view["day"]
+    ]
+    return {"prices": prices, "changes": changes, "paired": paired, "offers": offers, "graphics": graphics}
 
 
 def markdown_financial(view: dict, folder: str) -> tuple[list[str], dict[str, str]]:
@@ -216,6 +221,29 @@ def markdown_financial(view: dict, folder: str) -> tuple[list[str], dict[str, st
                 + " |"
             ]
         root += [""]
+    if data["graphics"]:
+        media = [
+            "### Grafiki z okien na stronie — sprawdź warunki",
+            "",
+            "Zachowano grafikę przed zamknięciem okna. Kwoty i kody z obrazu wymagają odczytania; nie zastąpiono ich domysłem.",
+            "",
+            "| Pracownia | Odczyt | Grafika | Strona |",
+            "| --- | --- | --- | --- |",
+        ]
+        media += [
+            "| "
+            + cell(g["domain"])
+            + " | "
+            + cell(when(g["observed_at"]))
+            + " | "
+            + link("Otwórz grafikę", g["image"])
+            + " | "
+            + link("Strona", g["url"])
+            + " |"
+            for g in data["graphics"]
+        ]
+        root += media + [""]
+        doc += media
     return root, {path: "\n".join(doc) + "\n"}
 
 
@@ -311,5 +339,23 @@ def render_financial(view: dict) -> str:
             + esc(safe_source(s["url"]), quote=True)
             + '">Oferta</a></td></tr>'
         ]
-    out += ["</tbody></table></div></details></section>"]
+    out += ["</tbody></table></div></details>"]
+    if data["graphics"]:
+        out += [
+            "<h3>Grafiki z okien na stronie — sprawdź warunki</h3><p>Grafikę zachowano przed zamknięciem okna; kwoty i kody wymagają odczytania.</p><ul>"
+        ]
+        for g in data["graphics"]:
+            out += [
+                '<li data-intelligence-domain="'
+                + esc(g["domain"])
+                + '">'
+                + esc(g["domain"])
+                + " · "
+                + esc(when(g["observed_at"]))
+                + ' · <a href="'
+                + esc(safe_source(g["image"]), quote=True)
+                + '">Otwórz grafikę</a></li>'
+            ]
+        out += ["</ul>"]
+    out += ["</section>"]
     return "".join(out)

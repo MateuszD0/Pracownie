@@ -184,6 +184,10 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         "warnings": snapshot.warnings,
                     }))
                 evidence = {}
+                for name, path in capture.extra_images.items():
+                    target = folder / (name + '.png')
+                    shutil.copy2(path, target)
+                    evidence[name] = target.relative_to(staging).as_posix()
                 result_warnings = list(snapshot.warnings)
                 after_path = folder / "po.png"
                 before_path = folder / "przed.png"

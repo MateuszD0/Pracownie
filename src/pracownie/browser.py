@@ -230,6 +230,7 @@ class Capture:
     payload: dict
     screenshot: Path
     controls: list[dict] = field(default_factory=list)
+    extra_images: dict[str, Path] = field(default_factory=dict)
 
 
 def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
@@ -242,6 +243,8 @@ def adapter_signature(site: Site, scenario: Scenario, page_kind: str) -> str:
         rules['browser_headed'] = True
     if site.cookie_continue_selector:
         rules['cookie_continue_selector'] = site.cookie_continue_selector
+    if site.popup_close_selectors:
+        rules['popup_close_selectors'] = site.popup_close_selectors
     return hashlib.sha256(json.dumps(rules, sort_keys=True).encode()).hexdigest()[:12]
 
 
@@ -446,6 +449,28 @@ class BrowserScanner:
                         await save.click(timeout=2500)
                         await advanced.wait_for(state="hidden", timeout=2500)
 
+    async def close_popups(self, page: Page, site: Site, destination: Path, previous: list[dict]) -> dict[str, Path]:
+        """Use inspected close controls, retaining what was actually displayed."""
+        images = {}
+        for selector in site.popup_close_selectors:
+            for button in await page.locator(selector).all():
+                if not await button.is_visible():
+                    continue
+                box = button.locator('xpath=ancestor::*[contains(concat(" ",normalize-space(@class)," ")," spu-box ") or @role="dialog"][1]')
+                if not await box.count():
+                    continue
+                item = await box.evaluate("e => ({key:e.id,text:e.innerText,images:[...e.querySelectorAll('img')].map(i=>({url:i.currentSrc||i.src,alt:i.alt}))})")
+                if not any(p['key']==item['key'] for p in previous):
+                    key = 'popup_' + str(len(previous)+1)
+                    screenshot = destination.with_name(destination.stem+'-'+key+'.png')
+                    screenshot.parent.mkdir(parents=True,exist_ok=True)
+                    await box.screenshot(path=str(screenshot),timeout=5000)
+                    item.update(observed_at=now_iso(),url=page.url,evidence=key)
+                    previous.append(item)
+                    images[key] = screenshot
+                await button.click(timeout=2500)
+        return images
+
     async def disable_motion(self, page: Page, warnings: list[str]):
         try:
             await page.add_style_tag(content="html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} [data-monitor-ignore]{visibility:hidden!important}")
@@ -502,6 +527,7 @@ class BrowserScanner:
                     failed_resources[request.url] = 'stylesheet'
         page.on('requestfinished', finished_request)
         warnings = []
+        popups, extra_images = [], {}
         data_ready = True
         response = None
 
@@ -548,6 +574,7 @@ class BrowserScanner:
             # Consent managers may depend on animationend/transitionend to finish
             # dismissal. Freeze motion only after the real controls have closed.
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: obsługa cookies"
+            extra_images.update(await self.close_popups(page,site,destination,popups))
             try:
                 await self.cookies(page, site)
             except BrowserError:
@@ -555,6 +582,7 @@ class BrowserScanner:
             self.phases[site.domain] = f"{page_kind}/{scenario.id}: przewijanie i oczekiwanie na zasoby"
             await self.settle(page)
             # Consent managers often appear asynchronously, after DOMContentLoaded.
+            extra_images.update(await self.close_popups(page,site,destination,popups))
             await page.wait_for_timeout(self.settle_ms)
             try:
                 await self.cookies(page, site)
@@ -676,6 +704,12 @@ class BrowserScanner:
             await page.wait_for_timeout(350)
             repeated_copy = await page.evaluate(COMMUNICATION, copy_options)
             communication = mark_unstable(communication, repeated_copy, 350)
+            for popup in popups:
+                text = ' '.join(popup['text'].split()).strip('× ')
+                if len(text) >= 3:
+                    communication['items'].append({'key':'popup:'+popup['key'],'role':'banner','text':text,'url':popup['url'],'context':''})
+                for image in popup['images']:
+                    communication['items'].append({'key':'popup:'+popup['key'],'role':'image','text':(image['alt']+' '+image['url']).strip(),'asset':image['url'],'url':popup['url'],'context':''})
             communication['context_selectors'] = site.communication_context_selectors
             payload['commercial_context'] = await page.evaluate(COMMERCIAL)
             communication["observed_at"] = timestamp
@@ -686,6 +720,8 @@ class BrowserScanner:
                 communication_rules['browser_headed'] = True
             if site.cookie_continue_selector:
                 communication_rules['cookie_continue_selector'] = site.cookie_continue_selector
+            if site.popup_close_selectors:
+                communication_rules['popup_close_selectors'] = site.popup_close_selectors
             if site.communication_ignore_selectors:
                 communication_rules["ignore_selectors"] = site.communication_ignore_selectors
             communication["adapter"] = hashlib.sha256(json.dumps(communication_rules, sort_keys=True).encode()).hexdigest()[:12]
@@ -728,6 +764,7 @@ class BrowserScanner:
             adapter = adapter_signature(site, scenario, page_kind)
             raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "verified_project_identity", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
+            document['popups'] = popups
             document['unresolved_styles'] = relevant_styles
             document['readability'] = {'text_complete': text_ready, 'font_styles_only': only_font_styles(relevant_styles)}
             document["communication"] = communication
@@ -741,7 +778,7 @@ class BrowserScanner:
                 quality="partial" if not data_ready else "ok" if fields else "visual",
                 contract=CONTRACT + ":" + adapter, document=document,
             )
-            return Capture(snapshot, payload, destination, payload.get("controls", []))
+            return Capture(snapshot, payload, destination, payload.get("controls", []), extra_images)
         finally:
             await context.close()
 

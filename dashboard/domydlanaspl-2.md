@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-03 → 2026-11-04**
+**2026-11-16 → 2026-11-17**
 
 **Ten sam projekt:** [N55-G2](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**28 zmian w zapisanym zakresie.**
+**45 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,23 +18,40 @@ Strony porównania: [1](domydlanaspl.md) · **2**
 
 [Otwórz stronę źródłową](https://domydlanas.pl/)
 
-**Odczyty:** 03.11.2026 10:31 → 04.11.2026 11:16 (czas polski).
+**Odczyty:** 16.11.2026 10:36 → 17.11.2026 10:47 (czas polski).
 
-**Bez zmian w zapisanej komunikacji**
+Pozostałe strony tego porównania zawierają 12 różnic tej strony; użyj numerów stron powyżej.
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**Odczyty:** 03.11.2026 10:31 → 04.11.2026 11:16 (czas polski).
+**Odczyty:** 16.11.2026 10:36 → 17.11.2026 10:47 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · N23-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>299 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>300 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-17-1-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>300 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-21-2-1) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-17-0-1) |
+| Zmiany wyglądu · Układ · N23-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-6-0-0) |
+| Zmiany wyglądu · Układ · N14-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-21-0-1) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-19-2-1) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-19-0-1) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-19-1-1) |
+| Zmiany wyglądu · Układ · rzuty: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-5-0-0) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-8-0-1) |
+| Zmiany wyglądu · Układ · N24-BG | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-21-2-1) |
+| Zmiany wyglądu · Układ · N3-BG | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · N22-G1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · podobne projekty: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-16-0-0) |
+| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-17-2-1) |
+| Zmiany wyglądu · Układ · nagłówek strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#post-53149) |
+| Zmiany wyglądu · Układ · N45-G1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
+| Zmiany wyglądu · Układ · przekrój: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-8-0-0) |
+| Zmiany wyglądu · Układ · N25-G1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-04/2026-11-04-2026-11-04t104938.418733-0000-0d4b2588-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t094707.191766-0000-c8b9daf8-porownanie.html)
 
 Strony porównania: [1](domydlanaspl.md) · **2**
 

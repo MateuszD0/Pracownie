@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCIA\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
 | kbprojekt.pl · 2026-11-02 | „\| 1,2 tys. opinii \| stan na: 26.10.2026” → „\| 1,2 tys. opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |
 | kbprojekt.pl · 2026-11-02 | „\| 794 opinii \| stan na: 26.10.2026” → „\| 794 opinii \| stan na: 02.11.2026”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
 | studioatrium.pl · 2026-11-01 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-01 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| projektstodola.pl · 2026-11-01 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |

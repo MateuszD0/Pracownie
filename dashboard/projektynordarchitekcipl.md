@@ -22,18 +22,6 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-36-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 16.11.2026 10:39 | Po · 17.11.2026 05:52 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-dowod-36-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
 <details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
 
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
@@ -58,5 +46,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t094707.191766-0000-c8b9daf8-porownanie.html)
 

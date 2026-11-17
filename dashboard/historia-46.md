@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-29 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Dom parterowy z bocznym tarasem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-29 | Pojawił się komunikat: „Mały dom na planie kwadratu”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „+ kompaktowa bryła budynku” → „✓ Zwarta, kompaktowa bryła budynku”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DLACZEGO WARTO WYBRAĆ DOM ALEKSANDRA?”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „Schody zaprojektowano jako żelbetowe monolityczne, zbrojone o grubości 15 cm.” → „Schody wewnętrzne zaprojektowano jako monolityczne żelbetowe, zbrojone, o grubości konstrukcyjnej 15 cm.”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PARTER – WYGODNA STREFA DZIENNA”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak dużych zadaszeń tarasów, ganków itp.” → „✓ Brak rozbudowanych zadaszeń tarasów”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | Zaobserwowana zmiana |

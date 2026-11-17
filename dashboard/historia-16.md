@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-08 | „wysyłka w dniu 9 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |

@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Zaobserwowana zmiana |
+| ekoarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Zaobserwowana zmiana |
+| eg-domy.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
+| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-30 | Pojawił się komunikat: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domato.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
 | domato.pl · 2026-10-30 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
 | dobredomy.pl · 2026-10-30 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-10-30 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| artinex-projekt.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-10-30 | „D434A wersja drewniana” → „D439 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-10-30 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
-| archipelag.pl · 2026-10-30 | Pojawił się komunikat: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |

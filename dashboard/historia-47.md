@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „Schody zaprojektowano jako żelbetowe monolityczne, zbrojone o grubości 15 cm.” → „Schody wewnętrzne zaprojektowano jako monolityczne żelbetowe, zbrojone, o grubości konstrukcyjnej 15 cm.”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „PARTER – WYGODNA STREFA DZIENNA”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak dużych zadaszeń tarasów, ganków itp.” → „✓ Brak rozbudowanych zadaszeń tarasów”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ brak lukarn, jaskółek itp.” → „✓ Brak lukarn i jaskółek”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „+ dach dwuspadowy” → „✓ Prosty dach dwuspadowy”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „„Tania budowa w 10 punktach””. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „EUco+w = 9,78 \[kWh/m2\*rok\]”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PODDASZA – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Melka bliźniak jest wygodnym niepodpiwniczonym domem w zabudowie bliźniaczej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się prostą konstrukc…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | „LILI II z Opusdom to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem…” → „Projekt Karmelia II z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i wbudowanym dwustanowisko…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Grand jest dużym, reprezentacyjnym nowoczesnym domem jednorodzinnym, który może służyć jako obszerny dom dla rodziny z dziećmi jak również jako dom dla dwóch pokoleń rodziny: np.…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Arkadia to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej ś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Na parterze znajduje się pokój dzienny, jadalnia, kuchnia, hall, wc oraz kotłownia z pom. gospodarczym i przyległym garażem dwustanowiskowym. Na piętrze znajdują się trzy sypialni…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |

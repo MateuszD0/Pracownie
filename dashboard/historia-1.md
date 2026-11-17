@@ -19,11 +19,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sprytnaoaza.pl · 2026-11-17 | „Koszyk” → „Koszyk 1 1 pozycja”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Realizuj zakup”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |
 | sej-pro.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Nadchodzi Black Friday, największa promocja roku 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
 | projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Potwierdzono ponownym odczytem |
 | projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Potwierdzono ponownym odczytem |
+| modernhouse-projekty.pl · 2026-11-17 | Pojawił się komunikat: „Röben – ceramika budowlana”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „FARBY, LAKIERY I SZPACHLE DO DREWNA – JAK PRAWIDŁOWO WYKOŃCZYĆ I NAPRAWIĆ STOLARKĘ DREWNIANĄ?”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-17 | Pojawił się komunikat: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
 | kbprojekt.pl · 2026-11-17 | „\| 1,2 tys. opinii \| stan na: 10.11.2026” → „\| 1,2 tys. opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „No items to show”. | Do sprawdzenia |
 | homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
 | homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „Saved For Later”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-17 | „Dom namiotowy z 3 sypialniami” → „Dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |

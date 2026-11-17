@@ -8,13 +8,13 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| 1001studio.pl | Zapytaj o rabat! | Obecna w zapisie · 16.11.2026 10:35 · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) · [Źródło](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu) |
-| 1001studio.pl | Kup swój wymarzony projekt z rabatem! 1001Studio to portal dzięki któremu oszczędzasz już na pierwszym etapie procesu budowlanego! | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) |
-| 1001studio.pl | Znalazłeś wymarzony projekt? Zapytaj o rabat! Każdemu należy się zniżka! | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) |
-| 1001studio.pl | Zapytaj o Rabat | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) |
-| 1001studio.pl | Projekty Gotowe Najtaniej Na Rynku! Wybierz projekt, który Cię interesuje, wyślij do nas zapytanie, a my wycenimy go dla Ciebie z uwzględnieniem korzystnego rabatu! | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) |
-| 1001studio.pl | https://www.1001studio.pl/wp-content/uploads/2018/07/Zapytajo-Rabat.png | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/) |
-| 1001studio.pl | Pliki za darmo! | Obecna w zapisie · 16.11.2026 10:35<br>[Źródło](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu) |
+| 1001studio.pl | Zapytaj o rabat! | Obecna w zapisie · 17.11.2026 10:47 · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) · [Źródło](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu) |
+| 1001studio.pl | Kup swój wymarzony projekt z rabatem! 1001Studio to portal dzięki któremu oszczędzasz już na pierwszym etapie procesu budowlanego! | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) |
+| 1001studio.pl | Znalazłeś wymarzony projekt? Zapytaj o rabat! Każdemu należy się zniżka! | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) |
+| 1001studio.pl | Zapytaj o Rabat | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) |
+| 1001studio.pl | Projekty Gotowe Najtaniej Na Rynku! Wybierz projekt, który Cię interesuje, wyślij do nas zapytanie, a my wycenimy go dla Ciebie z uwzględnieniem korzystnego rabatu! | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) |
+| 1001studio.pl | https://www.1001studio.pl/wp-content/uploads/2018/07/Zapytajo-Rabat.png | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/) |
+| 1001studio.pl | Pliki za darmo! | Obecna w zapisie · 17.11.2026 10:47<br>[Źródło](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu) |
 | 3ddom.pl | Tak, oczywiście. Każdy gotowy projekt można dostosować do indywidualnych potrzeb na etapie adaptacji projektu. Wszystkie nasze projekty zawierają standardową zgodę na wprowadzanie zmian, dzięki czemu architekt adaptujący może bez problemu nanieść modyfikacje. Jeśli inwestor lub architekt potrzebuje dodatkowej zgody na nietypowe modyfikacje, wystawiamy również bezpłatną pisemną zgodę na zmiany. | Obecna w zapisie · 17.11.2026 05:48<br>[Źródło](https://3ddom.pl/) |
 | 3ddom.pl | Zapraszamy do bezpłatnej konsultacji – wspólnie omówimy Twoje potrzeby i pomożemy dobrać projekt idealnie dopasowany do Twojej działki, budżetu i marzeń. | Obecna w zapisie · 17.11.2026 05:48 · 17.11.2026 05:48<br>[Źródło](https://3ddom.pl/) · [Źródło](https://3ddom.pl/produkt/dom-na-majowej/) |
 | 3ddom.pl | EXTRA GRATISY | Obecna w zapisie · 17.11.2026 05:48<br>[Źródło](https://3ddom.pl/produkt/dom-na-majowej/) |

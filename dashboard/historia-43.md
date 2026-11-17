@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „NOWOŚĆ NOWOCZESNA STODOŁA”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „NOWOŚĆ”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy gotowy projekt trzeba adaptować?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Nowoczesna stodoła 32 projekty”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
 | teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Nowości”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki i miejscowego planu.” | Sprawdzono w serwisie |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowi…” → „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |

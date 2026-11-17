@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
+| projektstodola.pl · 2026-11-01 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-01 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Mona jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpły…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO REL\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-01 | „PROJEKTUJEMY MIEJSCA DO ŻYCI\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-11-01 | „Tak niską cenę gwarantujemy do 31 października 2026” → „Tak niską cenę gwarantujemy do 10 listopada 2026”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-01 | „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |

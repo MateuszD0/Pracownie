@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Magnolia z Opusdom -bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | „Rino to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowi…” → „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Fiona L z Opusdom to wygodny parterowy dom, który może być zrealizowany na wąskiej działce. Funkcjonalnosć i wygoda to zalety tego domu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-29 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/09/Projekt-domu-homekoncept-166-g1-b-zdjecie-glo…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/09/Projekt-domu-homekoncept-166-g1-b-zdjecie-glo…”. | Zaobserwowana zmiana |
 | homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/10/Projekt-domu-homekoncept-139-b-zdjecie-glowne…”. | Zaobserwowana zmiana |
 | homekoncept.pl · 2026-10-29 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg" alt="Pro…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg.rss.webp"…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |

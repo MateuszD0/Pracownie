@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Szukałem projektu skrojonego na moje potrzeby i trafiłem na Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniż…” | Sprawdzono w serwisie |
 | hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Sprawdzono w serwisie |
 | ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Mały dom z poddaszem nieużytkowym”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | „Optymalny dom na wąskie działki” → „Dom dwuspadowy na wąskie działki”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Rezydencja dla licznej rodziny”. | Zaobserwowana zmiana |

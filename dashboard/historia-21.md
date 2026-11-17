@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| dom-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| artinex-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-06 | „D237D WT2021 wersja drewniana” → „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-06 | „D295D WT2021 wersja drewniana” → „D421 wersja drewniana”. | Zaobserwowana zmiana |
 | archiportal.pl · 2026-11-06 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
 | archipelag.pl · 2026-11-06 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |

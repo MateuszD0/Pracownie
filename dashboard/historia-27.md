@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-03 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja kończy się: 05.11.2026” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-03 | Pojawił się komunikat: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-03 | Pojawił się komunikat: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Zaobserwowana zmiana |
 | projektyka.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-03 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-03 | „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…” → „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwu…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |

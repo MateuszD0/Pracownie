@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
 | galeriadomow.pl · 2026-11-14 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
 | galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jedno z częstszych pytań pojawiających się wśród inwestorów szukających projektu przyszłego domu brzmi: czy można wybudować dom za 200 tysięcy złotych? Oczywiście chodzi tu o stan…”. | Potwierdzono ponownym odczytem |
 | galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jaki dom wybudujesz za 200 tysięcy złotych? Sekrety taniego domu z poddaszem.”. | Potwierdzono ponownym odczytem |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domato.pl · 2026-11-14 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
 | archdom.pl · 2026-11-14 | Pojawił się komunikat: „STODOŁA MIKRO 1”. | Do sprawdzenia |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK KUPIĆ PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „WARTO ZOBACZYĆ WSZYSTKIE PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „GOTOWY PROJEKT DOMU STUDIO ATRIUM I JEGO ADAPTACJA”. | Potwierdzono ponownym odczytem |

@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sej-pro.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Budowa domu krok po kroku: etapy i ile trwają w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-27 | Pojawił się komunikat: „Stan deweloperski domu: co obejmuje i ile kosztuje w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-27 | „Koszt budowy domu 100 m² w 2026: stan surowy i deweloperski” → „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-27 | „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć” → „Ławy fundamentowe czy płyta? Koszt i wybór fundamentu w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-10-27 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-10-27 | Pojawił się komunikat: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-10-27 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-10-27 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
-| archand.pl · 2026-10-27 | „stan surowy zamknięty :” → „stan surowy zamknięty :{stawka\_numer\_1}”. | Zaobserwowana zmiana |
-| archand.pl · 2026-10-27 | „stan surowy zamknięty : {procent\_stawki\_numer\_1} zł stan wykończony: {procent\_stawki\_numer\_2} zł Koszty w sys…” → „Koszty w systemie zleconym przez firmę budowlaną, przy minimalnej cenie materiałów i robocizny.”. | Zaobserwowana zmiana |
-| archand.pl · 2026-10-27 | „stawka stan surowy zamknięty : {stawka\_numer\_1} zł stan wykończony: {stawka\_numer\_2} zł” → „stawka stan surowy zamknięty :{stawka\_numer\_1} stan wykończony: {stawka\_numer\_2}”. | Zaobserwowana zmiana |

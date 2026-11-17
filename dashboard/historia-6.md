@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „WARTO ZOBACZYĆ WSZYSTKIE PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „GOTOWY PROJEKT DOMU STUDIO ATRIUM I JEGO ADAPTACJA”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POSIADAMY NAWET PROJEKTY DOMÓW PARTEROWYCH Z PODDASZEM UŻYTKOWYM LUB NIEUŻYTKOWYM (STRYCH)”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZREALIZOWANY PROJEKT BUDYNKU STUDIO ATRIUM - RECEPTA NA DOM, KTÓRY URZECZYWISTNIA MARZENIA”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „PROJEKTY W STYLU STODOŁY”. | Potwierdzono ponownym odczytem |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Zobacz dodatki” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Nasz darmowy katalog”. | Potwierdzono ponownym odczytem |

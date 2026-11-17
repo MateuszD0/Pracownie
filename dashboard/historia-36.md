@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl · 2026-10-30 | Zauważono etykietę: „promocje”. | Do sprawdzenia |
+| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „RABAT 250” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom stodoła: wady, zalety i koszt budowy w 2026”. | Zaobserwowana zmiana |
 | sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
 | sej-pro.pl · 2026-10-30 | Pojawił się komunikat: „Pompa ciepła w nowym domu: jaka moc i ile kosztuje ogrzewanie w 2026”. | Zaobserwowana zmiana |
 | projektyzwizja.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys w opracowaniu.”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo można znaleźć informację o kosztach budowy stanu surowego zamkniętego metodą gospodarczą, wtedy koszt robocizny i koszty pośrednie pomniejszamy o 70% natomiast koszt mat…”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Pobierz bezpłatnie”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pobierz bezpłatnie”. | Do sprawdzenia |
-| pro-arte.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |

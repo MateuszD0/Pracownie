@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-10-31 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kbprojekt.pl · 2026-10-31 | „Sklep internetowy Shoper.pl” → „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-31 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 2 listopada 2026 koszty dostawy: 0,00 zł”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
 | ecodomy.pl · 2026-10-31 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z garażem z boku”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-30 | „Wszystkie projekty (71) →” → „Wszystkie projekty (74) →”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-30 | „Arial, sans-serif” → „Arial, Helvetica, sans-serif”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-30 | „pogrubiony (700)” → „600”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-10-30 | Zauważono etykietę: „promocje”. | Do sprawdzenia |
-| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „RABAT 250” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-10-30 | Nowa promocja w komunikacji: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| sej-pro.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom stodoła: wady, zalety i koszt budowy w 2026”. | Zaobserwowana zmiana |

@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety teg…” → „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prost…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-05 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-11-05 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |

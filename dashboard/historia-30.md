@@ -8,6 +8,11 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-11-02 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
+| projektydomowzbali.pl · 2026-11-02 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Piotruś jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „FILIP – Energooszczędny, wygodny, parterowy dom z użytkowym poddaszem polecany dla rodziny o schemacie 2+2.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Klaudia jest domem dwurodzinnym, który może służyć jako dom przeznaczony dla dwóch pokoleń rodziny: np. rodziców z dziećmi oraz dziadków. Część rodziców z dziećmi o większej powie…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Arkadia L to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Budynek został zaprojektowany w technologii murowanej…”. | Zaobserwowana zmiana |
@@ -28,8 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Malwina z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-02 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYCIA\|”. | Zaobserwowana zmiana |

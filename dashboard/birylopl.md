@@ -16,11 +16,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://birylo.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 16.11.2026 10:35 → 17.11.2026 10:47 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fbirylo.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fbirylo.pl%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
@@ -32,5 +32,5 @@ Adres karty zostanie podany po poprawnym wyborze projektu.
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t044753.996798-0000-5abc3d81-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t094707.191766-0000-c8b9daf8-porownanie.html)
 

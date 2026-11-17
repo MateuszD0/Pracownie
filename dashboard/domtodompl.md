@@ -50,13 +50,13 @@ Strony porównania: **1** · [2](domtodompl-2.md)
 | Komunikacja sprzedażowa · Nagłówek | <strong>KOS 2</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 | Komunikacja sprzedażowa · Nagłówek | <strong>ALASKA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-17-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-17-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 16.11.2026 10:36 | Po · 17.11.2026 10:47 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-17-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-17-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -72,7 +72,7 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
 
 Strony porównania: **1** · [2](domtodompl-2.md)
 

@@ -84,13 +84,13 @@ To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego ob
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-4-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-4-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-4-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 16.11.2026 11:57 | Po · 17.11.2026 10:58 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-4-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-4-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-4-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -118,5 +118,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Luka 3 dni · brak porównania z wczoraj**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
 

@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Nagłówek · Panel klienta | Nie odnotowano w tym odczycie | <strong>STODOŁA CHALET Z BALA</strong> | [Otwórz stronę](https://archstodola.pl/stodola-chalet-p-14.html#SrodekKolumna) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-16-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-16-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 16.11.2026 10:44 | Po · 17.11.2026 05:56 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-16-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-16-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -63,5 +63,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
 

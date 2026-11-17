@@ -17,7 +17,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | archi-projekt.com.pl<br>APS 343 POROTHERM | 4 799,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archi-projekt.com.pl/product/aps-343-porotherm/) |
 | archipelag.pl<br>Alison III G2 | 6 900,00 zł | 17.11.2026 05:48 | [Karta projektu](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
 | archiportal.pl<br>Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł | 4 199,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archiportal.pl/projekt-tracja11-sd) |
-| architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 17.11.2026 11:49 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
+| architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 17.11.2026 12:43 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl<br>STODOŁA CHALET | 4 800,00 zł | 17.11.2026 05:48 | [Karta projektu](https://archstodola.pl/stodola-chalet-p-14.html) |
 | artinex-projekt.pl<br>D292B - WT2021 | 4 899,00 zł | 17.11.2026 10:47 | [Karta projektu](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
 | coolhouses.studio<br>Dom Aria | 15 400,00 zł netto + VAT | 17.11.2026 05:49 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |

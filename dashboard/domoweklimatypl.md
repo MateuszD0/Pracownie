@@ -22,13 +22,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 16.11.2026 10:36 | Po · 17.11.2026 05:49 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -42,7 +42,7 @@ Porównanie: 16.11.2026 10:36 → 17.11.2026 05:49 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.domoweklimaty.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-39-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-39-po.jpg)
 
 ## Karta projektu
 
@@ -69,13 +69,13 @@ Porównanie: 16.11.2026 10:36 → 17.11.2026 05:49 (czas polski). Różnica zrzu
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>278 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
 | Zmiany wyglądu · Układ · Co zyskujesz kupując u nas? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>278 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-27-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-27-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-27-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 16.11.2026 10:36 | Po · 17.11.2026 05:49 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-dowod-27-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-27-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-27-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -96,5 +96,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
 

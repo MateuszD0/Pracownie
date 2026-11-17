@@ -42,7 +42,7 @@ Strony porównania: [1](zbudujsamdompl.md) · **2**
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t104927.452620-0000-efbaf1d1-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
 
 Strony porównania: [1](zbudujsamdompl.md) · **2**
 

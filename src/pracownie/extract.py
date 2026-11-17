@@ -73,6 +73,16 @@ def page_identity(url: str) -> tuple:
     return ((parts.hostname or "").removeprefix("www."), parts.path.rstrip("/"), parts.query)
 
 
+def offer_tax(offer: dict) -> str:
+    """Only explicit schema VAT flags establish net/gross; never assume a rate."""
+    specs = offer.get('priceSpecification', [])
+    specs = specs if isinstance(specs, list) else [specs]
+    flags = {str(s['valueAddedTaxIncluded']).casefold() for s in specs if isinstance(s, dict)
+             and 'valueAddedTaxIncluded' in s and str(s.get('price', offer.get('price'))) == str(offer.get('price'))
+             and s.get('priceCurrency', offer.get('priceCurrency')) == offer.get('priceCurrency')}
+    return 'net' if flags == {'false'} else 'gross' if flags == {'true'} else ''
+
+
 def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] | None = None) -> tuple[dict[str, Field], list[str]]:
     fields: dict[str, Field] = {}
     sections = list(dict.fromkeys(["oferta"] + [slug(x) for x in payload.get("sections", [])]))
@@ -132,6 +142,7 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
                         amount=amount(raw), currency=currency or None, observed_at=observed_at,
                         source="jsonld", role={"price": "current", "lowPrice": "range_low", "highPrice": "range_high"}[key],
                         primary=payload.get("page") == "projekt" or len(payload.get("products", [])) == 1,
+                        tax=offer_tax(offer),
                     )
             for key in ("availability", "priceValidUntil", "shippingDetails", "hasMerchantReturnPolicy"):
                 if offer.get(key):

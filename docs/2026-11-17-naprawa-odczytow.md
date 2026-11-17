@@ -19,3 +19,13 @@ Raport poranny: 175/224 odczytanych stron, 49 bez odczytu, pełne porównanie ob
 - [Próby skanerem produkcyjnym](https://github.com/MateuszD0/Pracownie/actions/runs/44055709548): poprawne odczyty 1001studio, Artinex, Domato i Domidea. W Domy dla nas log kliknięcia jednoznacznie wskazał, że `.spu-bg` zasłania przycisk cookies. HTML serwisu potwierdził rzeczywisty przycisk `.spu-close` i grafikę `black_week_2026_600x645.jpg`.
 
 Zmiany nie rozwiązują awarii serwerów zewnętrznych, brakujących domen ani blokad dostępu. Zachowano stałe projekty i jasne rozróżnienie odczytu, jakości oraz dostępności porównania z wczoraj.
+
+## Weryfikacja opublikowanego skanu
+
+[Skan kontrolny](https://github.com/MateuszD0/Pracownie/actions/runs/44058302852) zakończył się powodzeniem. Zatwierdzony odczyt `2026-11-17T094707.191766-0000-c8b9daf8`: 201/224 stron zamiast 175, pełne porównanie obu stron 92/112 zamiast 81. Odzyskano 26 wcześniej nieodczytanych stron; tabela problemów zmalała z 56 do 34. Zachowano wszystkie dotychczas wybrane projekty i daty/jakość odczytów pracowni spoza zakresu naprawy.
+
+W archiwum potwierdzono dwa zrzuty okna Domy dla nas, jego metadane w obu odczytach oraz 12 dzienników nieudanych prób. Świeże odczyty obu stron Domy dla nas są poprawne. Cena może być odczytana poprawnie, choć pełne porównanie komunikacji nadal wymaga zgodnego zapisu z wczoraj; nie dorobiono brakującej historii.
+
+Sekcja finansowa zawiera 70 świeżych jednoznacznych cen, 69 par dzień do dnia oraz 40 komunikatów z konkretnym rabatem/kodem. Obecność tych komunikatów nie oznacza 40 nowych promocji. Kod E-domy `KUPTANIEJ` zachowano dosłownie wraz z cytatem o rabacie 10% i źródłem.
+
+W końcowej kontroli wykryto pominiętą flagę `priceSpecification.valueAddedTaxIncluded="false"` w schemacie Domidea. Kwota 4593,50 jest ceną netto; widoczna na stronie kwota 5650 jest ceną brutto. Parser zachowuje odtąd jawne oznaczenia netto/brutto. Starsze pola i raporty są uzupełniane wyłącznie z zachowanego schematu tego samego odczytu, identyfikatora, kwoty i waluty; nie zakłada się stawki VAT, nie przelicza kwot i nie przenosi dzisiejszej flagi na wczorajszy zapis bez dowodu. Taka korekta metadanych nie jest zmianą oferty.

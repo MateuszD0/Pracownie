@@ -89,6 +89,30 @@ def repair_archived_quotes(results: list[Result], output: Path, day: str) -> lis
     return corrected
 
 
+def annotate_archived_tax(results: list[Result], output: Path, day: str, state: dict) -> list[dict]:
+    corrected = []
+    for result in results:
+        key = f'{result.domain}/{result.page}/{result.scenario}'
+        for side, quote in [('offer',result.offer),('before_offer',result.before_offer)]:
+            if not quote or quote.get('tax') or quote.get('source') != 'jsonld':
+                continue
+            sources = [state.get(section,{}).get(key) for section in ('snapshots','anchor','communication_snapshots','communication_anchor')]
+            if side == 'offer':
+                path = output / day / slug(result.domain) / result.page / slug(result.scenario) / 'odczyt.json'
+                if path.is_file():
+                    sources.append(json.loads(path.read_text()))
+            for raw in sources:
+                if not raw or raw.get('observed_at') != quote.get('observed_at'):
+                    continue
+                candidate = primary_offer(Snapshot.from_dict(raw))
+                if (candidate.get('tax') and all(candidate.get(k)==quote.get(k) for k in ('field_key','amount','currency','unit'))):
+                    setattr(result,side,{**quote,'tax':candidate['tax']})
+                    corrected.append({'domain':result.domain,'side':side,'observed_at':quote['observed_at'],
+                        'tax':candidate['tax'],'basis':'Jawna flaga VAT w schemacie z tego samego zachowanego odczytu; kwota bez zmian.'})
+                    break
+    return corrected
+
+
 def enrich_visual_results(results: list[Result], output: Path, store: StateStore | None = None) -> None:
     """Describe actual archived image differences, without inventing site changes."""
     output = output.resolve()
@@ -246,6 +270,7 @@ def main():
                 for domain in removed:
                     shutil.rmtree(safe_path(output, day + "/" + slug(domain)), ignore_errors=True)
             metadata["source_price_corrections"] = metadata.get("source_price_corrections", []) + repair_archived_quotes(results, output, day)
+            metadata['source_tax_annotations'] = metadata.get('source_tax_annotations', []) + annotate_archived_tax(results,output,day,store.read())
             metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, [site for site in sites if site.domain in active])
             metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()

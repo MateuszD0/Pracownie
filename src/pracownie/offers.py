@@ -73,6 +73,16 @@ def primary_offer(snapshot: Snapshot | None, excluded_keys: list[str] | None = N
         return {}
     values = sorted({Decimal(field.amount) for _, field in candidates})
     key, field = candidates[0]
+    tax = field.tax
+    if not tax and field.source == 'jsonld':
+        # Legacy captures retain the exact source schema. Annotate only the
+        # same key, amount and currency, not a different product or quote.
+        from .extract import extract_fields
+        raw_fields, _ = extract_fields({'products':snapshot.document.get('payload', {}).get('products', []),
+                                       'page':snapshot.page}, snapshot.observed_at)
+        raw = raw_fields.get(key)
+        if raw and raw.amount == field.amount and raw.currency == field.currency:
+            tax = raw.tax
     return {
         "kind": "price" if len(values) == 1 else "range",
         "amount": str(values[0]) if len(values) == 1 else None,
@@ -83,7 +93,7 @@ def primary_offer(snapshot: Snapshot | None, excluded_keys: list[str] | None = N
         "field_key": key,
         "source": field.source or "jsonld",
         "observed_at": field.observed_at or snapshot.observed_at,
-        "tax": field.tax or ("net" if re.search(r"\bnetto\b|\+\s*VAT", field.label + " " + field.value, re.I) else ""),
+        "tax": tax or ("net" if re.search(r"\bnetto\b|\+\s*VAT", field.label + " " + field.value, re.I) else ""),
         "unit": field.unit,
         "quality": snapshot.quality,
     }

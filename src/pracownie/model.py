@@ -88,6 +88,15 @@ class Snapshot:
     def from_dict(cls, data: dict) -> Snapshot:
         values = dict(data)
         values["fields"] = {key: Field(**value) for key, value in values["fields"].items()}
+        products = values.get('document',{}).get('payload',{}).get('products',[])
+        if products and any(f.source=='jsonld' and not f.tax for f in values['fields'].values()):
+            from .extract import extract_fields
+            declared, _ = extract_fields({'products':products,'page':values['page']},values['observed_at'])
+            for key, original in values['fields'].items():
+                exact = declared.get(key)
+                if (original.source=='jsonld' and not original.tax and exact and exact.tax
+                        and original.amount==exact.amount and original.currency==exact.currency):
+                    original.tax = exact.tax
         return cls(**values)
 
 

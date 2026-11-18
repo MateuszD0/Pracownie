@@ -4,108 +4,48 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-16 → 2026-11-17**
+**2026-11-17 → 2026-11-18**
 
 **Ten sam projekt:** [N55-G2](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**45 zmian w zapisanym zakresie.**
+**2 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
-
-Strony porównania: **1** · [2](domydlanaspl-2.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://domydlanas.pl/)
 
-**Odczyty:** 16.11.2026 10:36 → 17.11.2026 10:47 (czas polski).
+**Odczyty:** 17.11.2026 10:47 → 18.11.2026 05:50 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-2-0-1) |
-| Zmiany wyglądu · Układ · nagłówek strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#masthead) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-2-1-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-3-0-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-2-2-1) |
-| Zmiany wyglądu · Układ · nagłówek strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#post-7) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-4-0-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-4-2-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-3-1-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-3-2-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-4-1-1) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/#panel-7-6-0-0) |
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fdomydlanas.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomydlanas.pl%2F%0A%0AOpis%3A)
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-28-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 16.11.2026 10:36 | Po · 17.11.2026 10:47 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-28-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-28-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
-
-Przykłady z zapisów:
-
-- 1280 × 1932 px; położenie: 0 px od lewej, 0 px od góry → 1280 × 2092 px; położenie: 0 px od lewej, 0 px od góry
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**Odczyty:** 16.11.2026 10:36 → 17.11.2026 10:47 (czas polski).
+**Odczyty:** 17.11.2026 10:47 → 18.11.2026 05:50 (czas polski).
+
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fdomydlanas.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomydlanas.pl%2Fprojekty-domow%2Fdomy-parterowe%2Fn55-g2%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-21-1-1) |
-| Zmiany wyglądu · Układ · N53-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#metaslider_53020) |
-| Zmiany wyglądu · Układ · nagłówek strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#masthead) |
-| Zmiany wyglądu · Układ · informacje dodatkowe: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#informacje-dadatkowe) |
-| Zmiany wyglądu · Układ · Następny | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#metaslider_53020) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-8-1-1) |
-| Zmiany wyglądu · Układ · N54-G2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#ddn-nagl-obrazka) |
-| Zmiany wyglądu · Układ · video: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-12-0-0) |
-| Zmiany wyglądu · Układ · główne dane: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#glowne-dane) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-17-1-1) |
-| Zmiany wyglądu · Układ · Poprzedni | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#metaslider_53020) |
-| Zmiany wyglądu · Układ · sytuacja: | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>160 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/#panel-53149-8-1-0) |
+| Komunikacja sprzedażowa · Baner | <strong>Previous</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/) |
+| Komunikacja sprzedażowa · Baner | <strong>Next</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-29-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-19-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-19-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 16.11.2026 10:36 | Po · 17.11.2026 10:47 |
+| Przed · 17.11.2026 10:47 | Po · 18.11.2026 05:50 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-dowod-29-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-19-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-19-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
-
-Przykłady z zapisów:
-
-- 1280 × 5235 px; położenie: 0 px od lewej, 0 px od góry → 1280 × 5395 px; położenie: 0 px od lewej, 0 px od góry
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
-
-Strony porównania: **1** · [2](domydlanaspl-2.md)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
 

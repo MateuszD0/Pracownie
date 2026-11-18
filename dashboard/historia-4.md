@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hbstudio.pl · 2026-11-15 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1…”. W sprawdzonym serwisie znaleziono również: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Do sprawdzenia |
-| galeriadomow.pl · 2026-11-15 | „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Poradnik od czego zacząć budowę domu”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Bezpłatna zgoda na zmiany”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pakiet extra dodatków o wartości 4100 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Extra dodatki za 1 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „PDF · bezpłatnie”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Bezpłatne pozwolenie na zmiany”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „NOWOCZESNA BALUSTRADA Z KSIĄŻKAMI – JAK POŁĄCZYĆ REGAŁ I BEZPIECZEŃSTWO?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „WSPÓŁPRACA Z ARCHITEKTEM – JAK SIĘ DO NIEJ PRZYGOTOWAĆ?”. | Potwierdzono ponownym odczytem |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | „Koszyk” → „Koszyk 1 1 pozycja”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Realizuj zakup”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Nadchodzi Black Friday, największa promocja roku 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Potwierdzono ponownym odczytem |
+| modernhouse-projekty.pl · 2026-11-17 | Pojawił się komunikat: „Röben – ceramika budowlana”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „FARBY, LAKIERY I SZPACHLE DO DREWNA – JAK PRAWIDŁOWO WYKOŃCZYĆ I NAPRAWIĆ STOLARKĘ DREWNIANĄ?”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-17 | Pojawił się komunikat: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | „\| 1,2 tys. opinii \| stan na: 10.11.2026” → „\| 1,2 tys. opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | „\| 794 opinii \| stan na: 10.11.2026” → „\| 794 opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „No items to show”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „Saved For Later”. | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| e-domy.pl · 2026-11-17 | „Dom namiotowy z 3 sypialniami” → „Dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |

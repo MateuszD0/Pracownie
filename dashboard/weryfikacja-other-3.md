@@ -1,0 +1,15 @@
+<!-- pracownie-monitor:v1 -->
+
+# Zdarzenia · 2026-11-18
+
+[← Odprawa dnia](../DASHBOARD.md)
+
+| Pracownia / miejsce | Było | Jest | Ważność / weryfikacja | Dowód |
+| --- | --- | --- | --- | --- |
+| **hexagreen.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Domy pasywne<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-4.md#zdarzenie-c6fff6c361c908f0)<br>[Otwórz stronę](https://hexagreen.pl/#primary) |
+| **hexagreen.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Co nas wyróżnia?<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-4.md#zdarzenie-c9ab316ef0af9611)<br>[Otwórz stronę](https://hexagreen.pl/#primary) |
+| **hexagreen.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | #6 zasad<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-5.md#zdarzenie-eb5bd7c829304b6c)<br>[Otwórz stronę](https://hexagreen.pl/#primary) |
+| **hexagreen.pl**<br>Strona główna<br>Funkcjonalności | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Technologia<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-5.md#zdarzenie-1f5a53041fbc57df)<br>[Otwórz stronę](https://hexagreen.pl/#:~:text=Technologia) |
+| **hexagreen.pl**<br>Strona główna<br>Funkcjonalności | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Instalacje energooszczędne<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-5.md#zdarzenie-4917e68b3c001963)<br>[Otwórz stronę](https://hexagreen.pl/#:~:text=Instalacje%20energooszcz%C4%99dne) |
+| **hexagreen.pl**<br>Strona główna<br>Funkcjonalności | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Sprawdź pełną ofertę<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-5.md#zdarzenie-4df99f06555c43f8)<br>[Otwórz stronę](https://hexagreen.pl/#:~:text=Sprawd%C5%BA%20pe%C5%82n%C4%85%20ofert%C4%99) |
+| **hexagreen.pl**<br>Strona główna<br>Funkcjonalności | Nie odnotowano w tym zapisie<br><sub>17.11.2026 05:59</sub> | Przejdź do oferty<br><sub>18.11.2026 06:02</sub> | **Priorytet: Standardowy**<br>**Do sprawdzenia**<br>Nie zakończono dodatkowego odczytu komunikacji. | [Przed / po →](zdarzenia-hexagreenpl-5.md#zdarzenie-87ed910c5bab6537)<br>[Otwórz stronę](https://hexagreen.pl/#:~:text=Przejd%C5%BA%20do%20oferty) |

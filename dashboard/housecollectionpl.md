@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-16 → 2026-11-17**
+**2026-11-17 → 2026-11-18**
 
 **Ten sam projekt:** [Dom w Toskanii](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
@@ -14,19 +14,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://housecollection.pl/)
+[Otwórz stronę źródłową](https://housecollection.pl)
 
-**Odczyty:** brak odczytu → 17.11.2026 12:42 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-**Niepełny zakres porównania**
+**Brak odczytu**
+
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_l
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
-**Odczyty:** brak odczytu → 17.11.2026 12:42 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-**Niepełny zakres porównania**
+**Brak odczytu**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/strona-glowna/dom-w-toskanii", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na we
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
 

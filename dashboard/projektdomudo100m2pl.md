@@ -4,55 +4,33 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-16 → 2026-11-17**
+**2026-11-17 → 2026-11-18**
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/)
+[Otwórz stronę źródłową](https://projektdomudo100m2.pl)
 
-**Odczyty:** 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fprojektdomudo100m2.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.projektdomudo100m2.pl%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
-
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Animowany lub niestabilny tekst; nie potwierdzono zmiany komunikatu.
-
-Przykłady z zapisów:
-
-- brak → Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu?
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://www.projektdomudo100m2.pl/)
-
-
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://projektdomudo100m2.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "htm
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Odczyty:** 16.11.2026 10:39 → 17.11.2026 10:48 (czas polski).
+**Odczyty:** 17.11.2026 10:48 → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-17%2Fprojektdomudo100m2.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.projektdomudo100m2.pl%2Fprojekt-domu-parterowego-100m2%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę cz
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-17/2026-11-17-2026-11-17t114232.822704-0000-25cbb20c-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
 

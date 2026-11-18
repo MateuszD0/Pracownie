@@ -57,7 +57,7 @@ Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej
 | Zmiany wyglądu · Układ · Projekt domu SEJ-PRO 060/1 ENERGO | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>51 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 | Zmiany wyglądu · Układ · Dodaj do porównywarki | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>51 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t102113.950242-0000-adae824a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
 
 Strony porównania: [1](sej-propl.md) · **2** · [3](sej-propl-3.md) · [4](sej-propl-4.md)
 

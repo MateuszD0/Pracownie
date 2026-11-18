@@ -43,6 +43,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |
 | modernhouse-projekty.pl<br>NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE | 5 890,00 zł | 18.11.2026 11:08 | [Karta projektu](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl<br>Projekt domu z bali A-154 "DOM PIASKOWA" | 4 299,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
+| partero.pl<br>PARTERO-01 | 4 700,00 zł | 18.11.2026 11:21 | [Karta projektu](https://www.partero.pl/partero-01) |
 | pioroarchitekci.pl<br>PióroArchitekci - 10 | 3 400,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl<br>Projekt domu PLANUJDOM 072 | 2 960,00 zł | 18.11.2026 05:53 | [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | postawdom24.pl<br>Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2 | 3 670,00 zł brutto | 18.11.2026 05:53 | [Karta projektu](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416) |

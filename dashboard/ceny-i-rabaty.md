@@ -24,6 +24,8 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | dom-projekt.pl<br>gryfice 31 pcr | 5 480,00 zł | 18.11.2026 05:49 | [Karta projektu](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html) |
 | domdlaciebie.com.pl<br>Klara IV | 5 390,00 zł | 18.11.2026 05:49 | [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domenadom.pl<br>Domena 169 A1 | 4 950,00 zł | 18.11.2026 05:49 | [Karta projektu](https://domenadom.pl/p/domena-169-a1-i532) |
+| domideaprojekt.pl<br>domidea 1 w6 | 4 593,50 zł netto + VAT | 18.11.2026 11:07 | [Karta projektu](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
+| dominanta.pl<br>Lolek II N | 5 035,00 zł | 18.11.2026 11:07 | [Karta projektu](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
 | dompasja.pl<br>Dompasja 61B | 4 900,00 zł | 18.11.2026 05:49 | [Karta projektu](https://dompasja.pl/dompasja-61b.html) |
 | domywstylu.pl<br>MALUTKI 12 – projekt domu z poddaszem, 107 m² | 6 149,00 zł | 18.11.2026 05:50 | [Karta projektu](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domyzweranda.pl<br>Uroczy Klasyczny 82 | 4 590,00 zł | 18.11.2026 05:50 | [Karta projektu](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
@@ -39,6 +41,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | lipinscy.pl<br>ANNECY 357,32m² | 15 570,00 zł | 18.11.2026 05:51 | [Karta projektu](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl<br>Projekt domu Amber 5 | 6 890,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.mgprojekt.com.pl/amber-5) |
 | mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |
+| modernhouse-projekty.pl<br>NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE | 5 890,00 zł | 18.11.2026 11:08 | [Karta projektu](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl<br>Projekt domu z bali A-154 "DOM PIASKOWA" | 4 299,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 | pioroarchitekci.pl<br>PióroArchitekci - 10 | 3 400,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl<br>Projekt domu PLANUJDOM 072 | 2 960,00 zł | 18.11.2026 05:53 | [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
@@ -50,11 +53,13 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | projektyzwizja.pl<br>Idealny M3 | 6 740,00 zł | 18.11.2026 05:54 | [Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 697,00 zł brutto | 18.11.2026 05:54 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | studiokrajobrazy.pl<br>Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L | 8 095,00 zł | 18.11.2026 05:54 | [Karta projektu](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
+| tipitom.space<br>TT 01 – „Merkury” – Murowany | 4 450,00 zł | 18.11.2026 11:08 | [Karta projektu](https://tipitom.space/produkt/tt-1-merkury-murowany/) |
 | uarchitekta.pl<br>Projekt domu z poddaszem i garażem dwustanowiskowym uA441 | 6 290,00 zł | 18.11.2026 05:55 | [Karta projektu](https://www.uarchitekta.pl/projekt/uA441,6969) |
 ## Niewspółpracujące z nami
 
 | Pracownia / projekt | Cena | Odczyt | Źródło |
 | --- | --- | --- | --- |
+| 1001studio.pl<br>Projekt domu BOLONIA – bliźniak (dla jednego segmentu) | 3 400,00 zł | 18.11.2026 11:07 | [Karta projektu](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu) |
 | archdesign.pl<br>DN 051 | 3 800,00 zł | 18.11.2026 05:48 | [Karta projektu](http://www.archdesign.pl/projekty/domy_pietrowe/dn_051,p348875120) |
 | archdom.pl<br>AKSAMITKA 1 | 5 500,00 zł | 18.11.2026 05:48 | [Karta projektu](https://archdom.pl/produkt/projekt-domu-aksamitka/) |
 | dobredomy.pl<br>Projekt domu Jantar VII | 4 540,00 zł | 18.11.2026 05:49 | [Karta projektu](https://www.dobredomy.pl/projekt/jantarVII) |
@@ -70,7 +75,9 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | ototwojdom.pl<br>OTO70 Piętrowy — schody w korytarzu | 2 460,00 zł netto + VAT | 18.11.2026 05:52 | [Karta projektu](https://ototwojdom.pl/oto70pietrowy-wariant-schody-korytarz/) |
 | penthus.pl<br>HUS 167 | 9 500,00 zł | 18.11.2026 05:52 | [Karta projektu](https://www.penthus.pl/projects/hus-167) |
 | polskiedomki.pl<br>LK&amp;1322 | 9 000,00 zł | 18.11.2026 05:53 | [Karta projektu](https://www.polskiedomki.pl/produkt/lk1322_4124.html) |
+| praktyczneprojekty.pl<br>B11 — 75 m²/lokal | 2 975,00 zł / lokal | 18.11.2026 11:08 | [Karta projektu](https://praktyczneprojekty.pl/b11___75m2lok.html) |
 | profesjonalne-projekty-domow.pl<br>Dom Mistrza Aleksandra — wersja podstawowa | 4 800,00 zł | 18.11.2026 05:53 | [Karta projektu](https://profesjonalne-projekty-domow.pl/p/34/9905/dom-mistrza-aleksandra-wersja-podstawowa--domy-mistrzow.html) |
+| projektdomudo100m2.pl<br>Projekt domu parterowego 100 m² – dach czterospadowy | 2 690,00 zł | 18.11.2026 11:08 | [Karta projektu](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektydomow.redcart.pl<br>Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2 | 5 300,00 zł | 18.11.2026 05:53 | [Karta projektu](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
 | projektygebala.com<br>Nowoczesna Stodoła Regulice | 3 500,00 zł | 18.11.2026 05:54 | [Karta projektu](https://projektygebala.com/projekt/Nowoczesna%20Stodo%C5%82a%20Regulice) |
 | projektyszkieletowe.pl<br>DOM—B55 | 4 899,00 zł brutto | 18.11.2026 05:54 | [Karta projektu](https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html) |
@@ -95,6 +102,10 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | archiportal.pl | Nie podano | UWAGA! Budując dom systemem gospodarczym można znacznie obniżyć koszty realizacji. System gospodarczy – inwestor sam lub z pomocą rodziny, w miarę możliwości, wykonuje niektóre prace budowlane, nadzoruje budowę, wyszukuje promocje na materiały i dowozi je wraz ze sprzętem na plac budowy. Szacunkowo można tą metodą zaoszczędzić 25-35% kosztów inwestycji. | Obecna w zapisie<br>18.11.2026 05:49 | [Oferta](https://archiportal.pl/projekt-tracja11-sd) |
 | domenadom.pl | Nie podano | PROMOCJA -300 zł | Obecna w zapisie<br>18.11.2026 05:49 | [Oferta](https://domenadom.pl/) |
 | domenadom.pl | Nie podano | PROMOCJA -300 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie<br>18.11.2026 05:49 | [Oferta](https://domenadom.pl/) |
+| domideaprojekt.pl | Nie podano | Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł | Obecna w zapisie<br>18.11.2026 11:07 | [Oferta](https://domideaprojekt.pl/) |
+| domideaprojekt.pl | Nie podano | Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł | Obecna w zapisie<br>18.11.2026 11:07 | [Oferta](https://domideaprojekt.pl/) |
+| domideaprojekt.pl | Nie podano | Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł | Obecna w zapisie<br>18.11.2026 11:07 | [Oferta](https://domideaprojekt.pl/) |
+| domideaprojekt.pl | Nie podano | Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł | Obecna w zapisie<br>18.11.2026 11:07 | [Oferta](https://domideaprojekt.pl/) |
 | e-domy.pl | Nie podano | Oferta WYŁĄCZNIE dla klientów indywidualnych, kupujących projekty naszego autorstwa bezpośrednio w naszej pracowni. Do zakupionego projektu oferujemy atrakcyjny PAKIET DODATKÓW w promocyjnej cenie 69zł. | Obecna w zapisie<br>18.11.2026 05:50 | [Oferta](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | Nie podano | PROMOCYJNIE! Zamawiając projekt domu z naszej kolekcji możecie Państwo zamówić dodatkowo Dodatkowy egz. projektu architektoniczno-budowlanego (TOM 1) w promocyjnej cenie 1 zł brutto. | Obecna w zapisie<br>18.11.2026 05:50 | [Oferta](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | Nie podano | PROMOCYJNIE! Zamawiając projekt domu z naszej pracowni możecie Państwo zamówić Kosztorys budowlany wraz z Przedmiarem robót w promocyjnej cenie 129 zł brutto. Standardowa cena to 649 zł. | Obecna w zapisie<br>18.11.2026 05:50 | [Oferta](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
@@ -104,6 +115,8 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | lipinscy.pl | Nie podano | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl | Obecna w zapisie<br>18.11.2026 05:51 | [Oferta](https://lipinscy.pl/) |
 | lipinscy.pl | Nie podano | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie<br>18.11.2026 05:51 | [Oferta](https://lipinscy.pl/) |
 | mgprojekt.com.pl | Nie podano | Pakiet energooszczędny ? 0 zł | Obecna w zapisie<br>18.11.2026 05:52 | [Oferta](https://www.mgprojekt.com.pl/amber-5) |
+| modernhouse-projekty.pl | Nie podano | Wypełnij krótką ankietę dot. naszych projektów, aby pomóc nam tworzyć domy lepiej dopasowane do Waszych potrzeb. W podziękowaniu za Twój czas otrzymasz 5% rabatu już dziś. | Obecna w zapisie<br>18.11.2026 11:08 | [Oferta](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
+| modernhouse-projekty.pl | Nie podano | Zyskaj 5% rabatu w 2 minuty | Obecna w zapisie<br>18.11.2026 11:08 | [Oferta](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | pracowniaprojektowa.info | Nie podano | 20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU | Obecna w zapisie<br>18.11.2026 05:53 | [Oferta](https://www.pracowniaprojektowa.info/) |
 | projektyprestige.pl | Nie podano | PROMOCJA - MINUS 100 PLN! | Obecna w zapisie<br>18.11.2026 05:54 | [Oferta](https://projektyprestige.pl/) |
 | sej-pro.pl | Nie podano | 10% rabatu przez 12 mies. | Obecna w zapisie<br>18.11.2026 05:54 | [Oferta](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

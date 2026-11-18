@@ -4,15 +4,15 @@
 
 **2026-11-17 → 2026-11-18** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 80/112 pracowni.** · **32 wymaga uwagi.**
+**Porównano obie strony: 94/112 pracowni.** · **18 wymaga uwagi.**
 
 <!-- delivery:2026-11-18 -->Pierwsza publikacja: 06:15 — przed 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 175/224 stron (w tym częściowe: 9). Bez odczytu: 49. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 13). Bez odczytu: 18. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 18.11.2026 05:48 – 18.11.2026 05:55, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 18.11.2026 05:48 – 18.11.2026 11:08, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 <details><summary>Oceny trafności alertów</summary>
 
@@ -26,7 +26,7 @@ Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny za
 
 ## Ceny, kody i rabaty
 
-Porównywalne ceny dzień do dnia: **63/112 projektów**. Dzisiejsze jednoznaczne ceny: **65**. Brak ceny nie oznacza braku zmian.
+Porównywalne ceny dzień do dnia: **70/112 projektów**. Dzisiejsze jednoznaczne ceny: **72**. Brak ceny nie oznacza braku zmian.
 
 | Pracownia / ten sam projekt | Cena wczoraj | Cena dziś | Zmiana zł / % | Źródło |
 | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Porównywalne ceny dzień do dnia: **63/112 projektów**. Dzisiejsze jednoznaczn
 
 [Wszystkie odczytane ceny, kody i warunki rabatów](dashboard/ceny-i-rabaty.md)
 
-Zapisane komunikaty z kodem lub konkretnym rabatem: **33**. Dostępne w tabeli pod linkiem powyżej; sama obecność nie potwierdza nowej promocji.
+Zapisane komunikaty z kodem lub konkretnym rabatem: **39**. Dostępne w tabeli pod linkiem powyżej; sama obecność nie potwierdza nowej promocji.
 
 ### Współpracujące z nami
 
@@ -154,7 +154,7 @@ Dalsze zdarzenia: [Część 2](dashboard/weryfikacja-other-2.md) · [Część 3]
 
 ## Braki porównania
 
-**32 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**18 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
 ### Odczyt działa — potrzebna historia · 2 stron
 
@@ -163,12 +163,10 @@ Dalsze zdarzenia: [Część 2](dashboard/weryfikacja-other-2.md) · [Część 3]
 | [architeka.pl](dashboard/architekapl.md#strona-główna)<br>Strona główna | **Dzisiejszy odczyt działa; luka historii**<br>Poprzedni zapis pochodzi sprzed 2 dni. | Zachowano dzisiejszy zapis. Do porównania dzień do dnia potrzebny jest kolejny poprawny skan. |
 | [horyzont.com](dashboard/horyzontcom.md#karta-projektu)<br>Karta projektu | **Zapisano pierwszy pełny odczyt**<br>Brak wcześniejszego poprawnego zapisu tej strony. | Porównanie możliwe po poprawnym skanie 2026-11-19. |
 
-### Problemy wymagające naprawy · 55 stron
+### Problemy wymagające naprawy · 28 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
-| [1001studio.pl](dashboard/1001studiopl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Niekompletny dokument HTTP 200: {"url": "https://1001studio.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
-| [1001studio.pl](dashboard/1001studiopl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Niekompletny dokument HTTP 200: {"url": "https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu", "title": "Proszę czekać…", "text\_length": 37, "text\_ | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [agrobisp.pl](dashboard/agrobisppl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.agrobisp.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [agrobisp.pl](dashboard/agrobisppl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.agrobisp.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [archbb.pl](dashboard/archbbpl.md#strona-główna)<br>Strona główna | **Błąd serwera pracowni**<br>Przejściowy błąd HTTP 500 | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
@@ -176,11 +174,13 @@ Dalsze zdarzenia: [Część 2](dashboard/weryfikacja-other-2.md) · [Część 3]
 | [archdom.pl](dashboard/archdompl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: archdom.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [archido.pl](dashboard/archidopl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [archido.pl](dashboard/archidopl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
-| [birylo.pl](dashboard/birylopl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Niekompletny dokument HTTP 200: {"url": "http://birylo.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length": 11 | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [birylo.pl](dashboard/birylopl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
-| [domato.pl](dashboard/domatopl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Niekompletny dokument HTTP 200: {"url": "https://www.domato.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
+| [domyciekawe.pl](dashboard/domyciekawepl.md#strona-główna)<br>Strona główna | **Adres WWW nie działa**<br>Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony. | Zweryfikować aktualny adres pracowni; ponowienie nie odtworzy brakującej historii. |
+| [domyciekawe.pl](dashboard/domyciekawepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
+| [domyigaraze.pl](dashboard/domyigarazepl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
+| [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 
-[Dalsze strony 13–36](dashboard/odczyty-repair-2.md) · [Dalsze strony 37–55](dashboard/odczyty-repair-3.md)
+[Dalsze strony 13–28](dashboard/odczyty-repair-2.md)
 
 
 
@@ -315,9 +315,16 @@ Historia zdarzeń (1364): [1](dashboard/historia-1.md) · [2](dashboard/historia
 - **hexagreen.pl**: brak · od 2026-11-13; następna próba: 2026-11-19
 - **dobredomy.pl**: Promocja do –300 zł na wybrane projekty · od 2026-10-28; następna próba: 2026-11-19
 - **mgprojekt.com.pl**: Promocja w MGPROJEKT · od 2026-10-30; następna próba: 2026-11-19
+
+<details><summary>Wcześniejsze wydania tego dnia</summary>
+
+- [18.11.2026 06:15](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
+
+</details>
+
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 85/112; stałe karty: 82/112; łącznie 167/224 stron z porównaniem.
+Strony główne: 99/112; stałe karty: 95/112; łącznie 194/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -330,19 +337,23 @@ Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracow
 
 Opisane zmiany wyglądu są powyżej; przesunięcia sekcji w rozwijanych szczegółach. Poniżej dodatkowe różnice zrzutów, dla których nie ustalono zmiany komunikatu lub oferty.
 
-różnice obrazu bez jednoznacznego opisu: **5 pracowni**.
+różnice obrazu bez jednoznacznego opisu: **8 pracowni**.
 
 <details><summary>Rozwiń dodatkowe obserwacje wyglądu</summary>
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-32-po.jpg) |
-| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-33-po.jpg) |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-35-po.jpg) |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-36-po.jpg) |
-| [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-37-po.jpg) |
-| [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-38-po.jpg) |
-| [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-dowod-40-po.jpg) |
+| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-35-po.jpg) |
+| [domato.pl](dashboard/domatopl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-36-po.jpg) |
+| [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-38-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-40-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-dowod-11-po.jpg) |
+| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona.  |
+| [projektyszkieletowe.pl](dashboard/projektyszkieletowepl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 
 </details>
 
@@ -361,6 +372,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [archstodola.pl](dashboard/archstodolapl.md) · **KRY** | Bez zmian w zapisanej komunikacji | 1 zmian · Komunikacja sprzedażowa |
 | [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md) · **WRF** | Bez zmian w zapisanej komunikacji | 1 zmian · Funkcjonalności |
 | [dompp.pl](dashboard/dompppl.md) · **WRG** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domydlanas.pl](dashboard/domydlanaspl.md) · **KKG** | Bez zmian w zapisanej komunikacji | 2 zmian · Komunikacja sprzedażowa |
 | [domywstylu.pl](dashboard/domywstylupl.md) · **BSA** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [e-domy.pl](dashboard/e-domypl.md) · **WAX** | 1 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
@@ -368,7 +380,6 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [galeriadomow.pl](dashboard/galeriadomowpl.md) · **KRK** | 3 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
 | [horyzont.com](dashboard/horyzontcom.md) · **WRD** | Bez ustalonej zmiany · obserwacje w szczegółach | Pierwszy zapis · brak porównywalnej bazy |
 | [kupprojekt.pl](dashboard/kupprojektpl.md) · **PRA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [partero.pl](dashboard/parteropl.md) · **ZGE** | Bez zmian w zapisanej komunikacji | Częściowe · 60 zgodnych tekstów |
 | [projektydomowzbali.pl](dashboard/projektydomowzbalipl.md) · **SLU** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [projektyka.pl](dashboard/projektykapl.md) · **PKT** | 2 zmian · Promocje i rabaty, Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
 | [sej-pro.pl](dashboard/sej-propl.md) · **ELW** | 1 zmian · Promocje i rabaty | 6 zmian · Promocje i rabaty, Dodatki i pakiety, Komunikacja sprzedażowa |
@@ -383,21 +394,20 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [archiportal.pl](dashboard/archiportalpl.md) · **WOE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [architeka.pl](dashboard/architekapl.md) · **WBE** | Luka 2 dni · brak porównania z wczoraj | Bez zmian w zapisanej komunikacji |
 | [artinex-projekt.pl](dashboard/artinex-projektpl.md) · **WAI** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
-| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "http://birylo.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length": 11 | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [birylo.pl](dashboard/birylopl.md) · **ZGD** | Bez zmian w zapisanej komunikacji | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [coolhouses.studio](dashboard/coolhousesstudio.md) · **POZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [dom-projekt.pl](dashboard/dom-projektpl.md) · **KRP** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
-| [domato.pl](dashboard/domatopl.md) · **KZB** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.domato.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://domato.pl/projekt/51/dopasowany-04", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żąd |
+| [domato.pl](dashboard/domatopl.md) · **KZB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [domek.net.pl](dashboard/domeknetpl.md) · **SLF** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domenadom.pl](dashboard/domenadompl.md) · **WRW** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://domideaprojekt.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_le | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://domideaprojekt.pl/projekt/domidea-1-w-6/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikac |
-| [dominanta.pl](dashboard/dominantapl.md) · **BSB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. |
+| [domideaprojekt.pl](dashboard/domideaprojektpl.md) · **WAC** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
+| [dominanta.pl](dashboard/dominantapl.md) · **BSB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [dompasja.pl](dashboard/dompasjapl.md) · **BBE** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [domtodom.pl](dashboard/domtodompl.md) · **SKA** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "http://domtodom.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length": | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "http://domtodom.pl/projekty-domow/projekt/20", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację ż |
 | [domy21.pl](dashboard/domy21pl.md) · **WSA** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [domyciekawe.pl](dashboard/domyciekawepl.md) · **GDA** | Brak odczytu · Adres domeny nie rozwiązuje się w DNS; nie można otworzyć strony. | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md) · **PKA** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domywzieleni.pl](dashboard/domywzielenipl.md) · **KKF** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "http://domyzmieta.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length" | Brak odczytu · Nie ustalono poprawnej karty projektu. |
+| [domyzmieta.pl](dashboard/domyzmietapl.md) · **KKD** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [domyzweranda.pl](dashboard/domyzwerandapl.md) · **DZW** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [drewnex.biz](dashboard/drewnexbiz.md) · **KDX** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [eg-domy.pl](dashboard/eg-domypl.md) · **WWB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -407,20 +417,21 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [gutarchitektura.pl](dashboard/gutarchitekturapl.md) · **KNT** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [hgatelier.com.pl](dashboard/hgateliercompl.md) · **KRM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [homekoncept.pl](dashboard/homekonceptpl.md) · **KRX** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [housecollection.pl](dashboard/housecollectionpl.md) · **BHC** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_l | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/strona-glowna/dom-w-toskanii", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na we |
+| [housecollection.pl](dashboard/housecollectionpl.md) · **BHC** | Niepełny zakres porównania | Niepełny zakres porównania |
 | [improjekty.pl](dashboard/improjektypl.md) · **SLO** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
 | [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md) · **LUB** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [lipinscy.pl](dashboard/lipinscypl.md) · **WOB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [lk-projekt.pl](dashboard/lk-projektpl.md) · **LKP** | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [machonarchitekci.pl](dashboard/machonarchitekcipl.md) · **SBM** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_ | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/dom-na-zgloszenie-70m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfi |
+| [machonarchitekci.pl](dashboard/machonarchitekcipl.md) · **SBM** | Niepełny zakres porównania | Niepełny zakres porównania |
 | [mgprojekt.com.pl](dashboard/mgprojektcompl.md) · **WAH** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [mjs-domy.pl](dashboard/mjs-domypl.md) · **WBD** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.modernhouse-projekty.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…" | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://modernhouse-projekty.pl/projekt/newhouse-761/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na wery |
+| [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md) · **BBD** | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
-| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. | Bez zmian w zapisanej komunikacji |
+| [nanostudio.pl](dashboard/nanostudiopl.md) · **PZB** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "http://www.opusdom.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://opusdom.pl/produkt/ami-ii/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", |
-| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. |
+| [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [opushome.pl](dashboard/opushomepl.md) · **KZM** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [partero.pl](dashboard/parteropl.md) · **ZGE** | Bez zmian w zapisanej komunikacji | Częściowe · 60 zgodnych tekstów |
 | [pioroarchitekci.pl](dashboard/pioroarchitekcipl.md) · **KZN** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [planujdom.pl](dashboard/planujdompl.md) · **ABP** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [postawdom24.pl](dashboard/postawdom24pl.md) · **JGC** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
@@ -430,22 +441,23 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [projektymalachit.pl](dashboard/projektymalachitpl.md) · **SLS** | Niepełny zakres porównania | Niepełny zakres porównania |
 | [projektyprestige.pl](dashboard/projektyprestigepl.md) · **BBG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [projektyzwizja.pl](dashboard/projektyzwizjapl.md) · **WAW** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [space4u.design](dashboard/space4udesign.md) · **BBI** | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.space4u.design/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_l | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.space4u.design/rota/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "h |
-| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. | Brak odczytu · Strona lub kontrolka nie odpowiedziała w limicie czasu. |
+| [space4u.design](dashboard/space4udesign.md) · **BBI** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
+| [studioarchitektury.com.pl](dashboard/studioarchitekturycompl.md) · **BSG** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [studiokrajobrazy.pl](dashboard/studiokrajobrazypl.md) · **WRN** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Brak odczytu · Strona blokady lub weryfikacji zamiast oferty | Brak odczytu · Strona blokady lub weryfikacji zamiast oferty |
+| [tipitom.space](dashboard/tipitomspace.md) · **GDE** | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [uarchitekta.pl](dashboard/uarchitektapl.md) · **WCB** | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [witekarchitekci.pl](dashboard/witekarchitekcipl.md) · **BSL** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | **Niewspółpracujące z nami** · 32 serwisów | | |
+| [1001studio.pl](dashboard/1001studiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [dobredomy.pl](dashboard/dobredomypl.md) | 2 zmian · Promocje i rabaty | 3 zmian · Promocje i rabaty, Komunikacja sprzedażowa |
 | [domoweklimaty.pl](dashboard/domoweklimatypl.md) | Bez zmian w zapisanej komunikacji | 4 zmian · Komunikacja sprzedażowa |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | 45 zmian · Funkcjonalności, Komunikacja sprzedażowa | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [kreatywnedomy.pl](dashboard/kreatywnedomypl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [kreodom.pl](dashboard/kreodompl.md) | 2 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
 | [mtmstyl.com.pl](dashboard/mtmstylcompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
+| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [studioatrium.pl](dashboard/studioatriumpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [zbudujsamdom.pl](dashboard/zbudujsamdompl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [1001studio.pl](dashboard/1001studiopl.md) | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://1001studio.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu", "title": "Proszę czekać…", "text\_length": 37, "text\_ |
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Częściowe · 56 zgodnych tekstów |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
@@ -458,9 +470,8 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [penthus.pl](dashboard/penthuspl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [pollio.pl](dashboard/polliopl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [polskiedomki.pl](dashboard/polskiedomkipl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md) | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://praktyczneprojekty.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "htm | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://praktyczneprojekty.pl/b11\_\_\_75m2lok.html", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikac |
+| [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md) | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia | Bez zmian w zapisanej komunikacji |
 | [profesjonalne-projekty-domow.pl](dashboard/profesjonalne-projekty-domowpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
-| [projektdomudo100m2.pl](dashboard/projektdomudo100m2pl.md) | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://projektdomudo100m2.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "htm | Brak odczytu · Niekompletny dokument HTTP 200: {"url": "https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę cz |
 | [projektstodola.pl](dashboard/projektstodolapl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Witryna blokuje dostęp ze skanera (403). |
 | [projektydomow.redcart.pl](dashboard/projektydomowredcartpl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [projektygebala.com](dashboard/projektygebalacom.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |

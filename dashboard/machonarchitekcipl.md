@@ -16,21 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 18.11.2026 11:08 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_
+**Niepełny zakres porównania**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 18.11.2026 11:08 (czas polski).
 
-**Brak odczytu**
+**Niepełny zakres porównania**
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/dom-na-zgloszenie-70m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfi
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-porownanie.html)
 

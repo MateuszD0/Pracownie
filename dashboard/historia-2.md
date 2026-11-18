@@ -8,6 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
@@ -19,6 +21,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Instalacje energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapisz się”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |

@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://housecollection.pl)
+[Otwórz stronę źródłową](https://housecollection.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 18.11.2026 11:07 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_l
+**Niepełny zakres porównania**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://housecollection.pl/strona-glowna/dom-w-toskanii)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** brak odczytu → 18.11.2026 11:08 (czas polski).
 
-**Brak odczytu**
+**Niepełny zakres porównania**
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://housecollection.pl/strona-glowna/dom-w-toskanii", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na we
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t044801.667057-0000-f80ea3a7-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t100714.625159-0000-b5c13c9c-porownanie.html)
 

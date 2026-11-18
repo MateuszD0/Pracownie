@@ -6,7 +6,7 @@
 
 **Porównano obie strony: 80/112 pracowni.** · **32 wymaga uwagi.**
 
-<!-- delivery:2026-11-18 -->Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-11-18 -->Pierwsza publikacja: 06:15 — przed 08:00 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
 Dzisiejsze odczyty: 175/224 stron (w tym częściowe: 9). Bez odczytu: 49. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 

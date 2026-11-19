@@ -258,5 +258,5 @@ def test_readiness_workflow_is_read_only_and_does_not_wait_for_scan_lock():
 
     workflow = yaml.load(Path('.github/workflows/readiness.yml').read_text(), Loader=yaml.BaseLoader)
     assert workflow['permissions'] == {'contents': 'read'}
-    assert workflow['on']['schedule'] == [{'cron': '50 5,6 * * *'}]
+    assert workflow['on']['schedule'] == [{'cron': '50 8,9 * * *'}]
     assert 'concurrency' not in workflow['jobs']['readiness']

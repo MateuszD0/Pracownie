@@ -8,7 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |

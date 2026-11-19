@@ -8,6 +8,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Do sprawdzenia |
@@ -30,6 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Odzysk ciepła”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zyski cieplne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |

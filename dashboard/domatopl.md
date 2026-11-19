@@ -32,5 +32,5 @@ Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://www.domat
 
 Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://domato.pl/projekt/51/dopasowany-04", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żąd
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t095243.922361-0000-format-bce89156-porownanie.html)
 

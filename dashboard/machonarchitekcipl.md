@@ -32,5 +32,5 @@ Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarc
 
 Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/dom-na-zgloszenie-70m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfi
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t095243.922361-0000-format-bce89156-porownanie.html)
 

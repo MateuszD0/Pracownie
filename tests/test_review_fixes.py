@@ -95,7 +95,7 @@ def test_recovery_retries_transient_base_failures_but_keeps_permanent_blocks(tmp
     remote.publish(store, output, DAY, archive, 'failed')
     record = remote.published_report(DAY)
     assert record['readiness']['fresh'] == 0 and not check_ready(record)[0]
-    decision = daily_gate(RECOVERY_CRON, datetime(2026, 10, 21, 6, 7, tzinfo=WARSAW), remote)
+    decision = daily_gate(RECOVERY_CRON, datetime(2026, 10, 21, 10, 30, tzinfo=WARSAW), remote)
     assert decision['run_scan'] and decision['repair_domains'] == ['test.pl']
     raw = [{'domain': 'test.pl', 'page': p, 'scenario': 'podstawowy', 'error': 'HTTP 403'} for p in ['glowna', 'projekt']]
     blocked = base_readiness(DAY, raw, ['test.pl'])

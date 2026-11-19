@@ -2,7 +2,7 @@ from pathlib import Path
 
 import yaml
 
-from pracownie.schedule import PRIMARY_CRON, RECOVERY_CRON
+from pracownie.schedule import STARTS
 
 WORKFLOWS = Path(__file__).resolve().parents[1] / ".github" / "workflows"
 
@@ -14,7 +14,7 @@ def workflow(name):
 
 def test_daily_scan_includes_weekends_and_uses_full_scope():
     config = workflow("monitor.yml")
-    assert config["on"]["schedule"] == [{"cron": PRIMARY_CRON}, {"cron": RECOVERY_CRON}]
+    assert config["on"]["schedule"] == [{"cron": expression} for expression in STARTS]
     assert all(slot["cron"].split()[2:] == ["*", "*", "*"] for slot in config["on"]["schedule"])
     scan = config["jobs"]["scan"]
     command = next(step for step in scan["steps"] if "SCAN_SCOPE" in step.get("env", {}))
@@ -106,7 +106,7 @@ def test_email_is_post_publication_and_never_sends_without_private_credentials()
 
 def test_recovery_has_its_own_frequent_trigger_and_can_dispatch_without_reading_smtp_password():
     config = workflow('recovery.yml')
-    assert config['on']['schedule'] == [{'cron': '41 * * * *'}, {'cron': '11,31,51 2-7 * * *'}]
+    assert config['on']['schedule'] == [{'cron': '41 * * * *'}, {'cron': '11,31,51 7-10 * * *'}]
     assert 'workflow_dispatch' in config['on']
     assert config['permissions'] == {'contents': 'read', 'actions': 'write'}
     assert config['concurrency'] == {'group': 'pracownie-recovery', 'cancel-in-progress': 'false'}
@@ -152,8 +152,8 @@ def test_morning_controller_has_no_scheduled_gap_over_twenty_minutes_in_poland()
     crons = workflow('recovery.yml')['on']['schedule']
     for offset in range(730):
         day = date(2026, 1, 1) + timedelta(days=offset)
-        start = datetime.combine(day, time(4, 17), WARSAW)
-        end = datetime.combine(day, time(8), WARSAW)
+        start = datetime.combine(day, time(9), WARSAW)
+        end = datetime.combine(day, time(12), WARSAW)
         events = {start, end}
         for slot in crons:
             minutes, hours, *calendar = slot['cron'].split()

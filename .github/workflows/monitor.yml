@@ -7,10 +7,12 @@ on:
     types: [completed]
     branches: [main]
   schedule:
-    # UTC covers both Polish offsets; the locked gate applies Europe/Warsaw,
-    # skips the early winter slot and skips already committed daily reports.
-    - cron: '17 2,3 * * *' # Primary: 04:17 Europe/Warsaw
-    - cron: '7 3,4 * * *' # Recovery: 05:07 Europe/Warsaw
+    # Separate UTC slots let the locked local-time gate reject the other
+    # season's event even when GitHub delivers it late. Runs every day.
+    - cron: '0 7 * * *' # 09:00 Europe/Warsaw, summer
+    - cron: '0 8 * * *' # 09:00 Europe/Warsaw, winter
+    - cron: '30 8 * * *' # 10:30 backup, summer
+    - cron: '30 9 * * *' # 10:30 backup, winter
   workflow_dispatch:
     inputs:
       automatic_recovery:

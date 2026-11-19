@@ -3,12 +3,12 @@ on:
   schedule:
     - cron: '41 * * * *'
     # Additional morning checks every 20 minutes, covering both Polish offsets.
-    - cron: '11,31,51 2-7 * * *'
+    - cron: '11,31,51 7-10 * * *'
   workflow_run:
     workflows:
       - Codzienny monitoring pracowni
       - Odśwież układ raportu bez skanowania
-      - Kontrola raportu — dane i termin 08:00
+      - Kontrola raportu — dane po skanie 09:00
     types: [completed]
     branches: [main]
   workflow_dispatch:

@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import os
 import sys
-from datetime import UTC, datetime, time
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -11,11 +11,14 @@ import httpx
 from .github import GitHubStore
 from .model import WARSAW
 from .readiness import repair_domains
+from .timing import BACKUP_START, PRIMARY_START
 
-PRIMARY_CRON = "17 2,3 * * *"
-RECOVERY_CRON = "7 3,4 * * *"
-PRIMARY_START = time(4, 17)
-STARTS = {PRIMARY_CRON: PRIMARY_START, RECOVERY_CRON: time(5, 7)}
+PRIMARY_CRON = "0 7 * * *"
+PRIMARY_WINTER_CRON = "0 8 * * *"
+RECOVERY_CRON = "30 8 * * *"
+RECOVERY_WINTER_CRON = "30 9 * * *"
+STARTS = {PRIMARY_CRON: PRIMARY_START, PRIMARY_WINTER_CRON: PRIMARY_START,
+          RECOVERY_CRON: BACKUP_START, RECOVERY_WINTER_CRON: BACKUP_START}
 
 
 def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
@@ -25,7 +28,13 @@ def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
         raise ValueError("Harmonogram wymaga daty ze strefą czasową")
     local = now.astimezone(WARSAW)
     day = local.date().isoformat()
-    result = {"day": day, "run_scan": False, "late": local.time() >= time(8)}
+    planned = datetime.combine(local.date(), STARTS[expression], WARSAW)
+    utc_planned = planned.astimezone(UTC)
+    minute, hour, *_ = expression.split()
+    result = {"day": day, "run_scan": False,
+              "late": local.replace(second=0,microsecond=0) > planned}
+    if (int(hour),int(minute)) != (utc_planned.hour,utc_planned.minute):
+        return dict(result, reason="Wywołanie dla innego przesunięcia UTC; właściwa pora startu jest liczona w Europe/Warsaw.")
     if local.time() < STARTS[expression]:
         return dict(result, reason="Wywołanie UTC przed polską porą startu; właściwy termin jest jeszcze przed nami.")
     record = remote.published_report(day)
@@ -45,7 +54,7 @@ def main() -> None:
         message = f"{result['day']}: {result['reason']}"
         print(message)
         if result["late"] and result["run_scan"]:
-            print("::warning title=Raport po terminie::Brak dzisiejszego raportu na 08:00 Europe/Warsaw; uruchamiam go teraz.")
+            print("Planowany start skanu: 09:00 Europe/Warsaw; ponowienie: 10:30. Przygotowanie środowiska lub kolejka zakończyły się później; uruchamiam brakujący zakres teraz.")
         if output := os.environ.get("GITHUB_OUTPUT"):
             with Path(output).open("a") as stream:
                 stream.write(f"run_scan={str(result['run_scan']).lower()}\nday={result['day']}\n")
@@ -53,7 +62,7 @@ def main() -> None:
                     stream.write("repair_domains=" + ",".join(result["repair_domains"]) + "\n")
         if summary := os.environ.get("GITHUB_STEP_SUMMARY"):
             with Path(summary).open("a") as stream:
-                stream.write(f"### Gotowość raportu na 08:00 Europe/Warsaw\n\n{message}\n")
+                stream.write(f"### Start skanu: 09:00 Europe/Warsaw\n\n{message}\n")
     except (ValueError, RuntimeError, OSError, httpx.HTTPError) as exc:
         # A failed read must fail visibly and leave the next attempt eligible.
         message = str(exc).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")

@@ -151,7 +151,7 @@ def test_polish_date_and_dst_used_for_attempt_limits():
     remote = Remote()
     assert recover(remote, datetime(2026, 12, 1, 3, 0, tzinfo=UTC), True)['action'] == 'early'
     assert not remote.calls
-    assert recover(Remote(), datetime(2026, 12, 1, 3, 30, tzinfo=UTC), True)['action'] == 'scan-dispatched'
+    assert recover(Remote(), datetime(2026, 12, 1, 8, 0, tzinfo=UTC), True)['action'] == 'scan-dispatched'
     with pytest.raises(ValueError, match='strefą'):
         recover(Remote(), datetime(2026, 10, 22, 6), True)
 
@@ -170,14 +170,14 @@ def test_post_rebuild_check_recovers_missed_scan_once_after_busy_morning_check()
     remote = Remote()
     remote.records['rebuild-report.yml'] = [run(status='in_progress')]
     remote.jobs['1'] = [{'name': 'rebuild', 'status': 'in_progress'}]
-    assert recover(remote, NOW.replace(hour=8, minute=27), False)['action'] == 'busy'
+    assert recover(remote, NOW.replace(hour=9, minute=27), False)['action'] == 'busy'
     assert not remote.writes
     remote.records['rebuild-report.yml'][0]['status'] = 'completed'
-    assert recover(remote, NOW.replace(hour=8, minute=28), False)['action'] == 'scan-dispatched'
+    assert recover(remote, NOW.replace(hour=9, minute=28), False)['action'] == 'scan-dispatched'
     assert remote.writes[0][1]['inputs']['scope'] == 'full'
     remote.records['monitor.yml'] = [run('2', RECOVERY_TITLE, status='queued')]
     remote.jobs['2'] = []
-    assert recover(remote, NOW.replace(hour=8, minute=29), False)['action'] == 'busy'
+    assert recover(remote, NOW.replace(hour=9, minute=29), False)['action'] == 'busy'
     assert len(remote.writes) == 1
 
 
@@ -186,3 +186,12 @@ def test_post_rebuild_check_does_not_rescan_an_already_published_day():
     remote.records['rebuild-report.yml'] = [run(status='completed')]
     assert recover(remote, NOW, False)['action'] == 'mail-unconfigured'
     assert not remote.writes
+
+
+@pytest.mark.parametrize('day', ['2026-11-20','2027-03-28','2027-10-31'])
+def test_no_automatic_scan_or_mail_read_before_nine(day):
+    remote=Remote()
+    before=datetime.fromisoformat(day+'T08:59:59').replace(tzinfo=WARSAW)
+    assert recover(remote,before,True)['action']=='early'
+    assert not remote.calls
+    assert recover(remote,before.replace(hour=9,minute=0,second=0),False)['action']=='scan-dispatched'

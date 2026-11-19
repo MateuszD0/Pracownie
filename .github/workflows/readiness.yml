@@ -1,7 +1,7 @@
-name: Kontrola raportu — dane i termin 08:00
+name: Kontrola raportu — dane po skanie 09:00
 on:
   schedule:
-    - cron: '50 5,6 * * *'
+    - cron: '50 8,9 * * *'
   workflow_dispatch:
   workflow_run:
     workflows:
@@ -13,7 +13,7 @@ permissions:
   contents: read
 jobs:
   readiness:
-    name: Kompletność danych i termin publikacji
+    name: Kompletność danych po skanie
     if: >-
       github.event_name != 'workflow_run' ||
       (github.event.workflow_run.head_repository.full_name == github.repository &&

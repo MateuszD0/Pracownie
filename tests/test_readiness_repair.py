@@ -23,7 +23,19 @@ def test_partial_pages_are_retried_even_from_a_legacy_commit_without_retry_domai
     result = recover(remote, NOW, False)
     assert result['repair_domains'] == ['partial.pl']
     assert remote.writes[0][1]['inputs']['rescan'] == 'false'
-    assert daily_gate(RECOVERY_CRON, NOW, remote)['repair_domains'] == ['partial.pl']
+    assert daily_gate(RECOVERY_CRON, NOW.replace(hour=10,minute=30), remote)['repair_domains'] == ['partial.pl']
+
+
+def test_new_schedule_has_no_publication_deadline_at_eight():
+    from pracownie.briefing import delivery_text
+    now=datetime(2026,11,20,10,50,tzinfo=WARSAW)
+    record={'readiness':{'expected':224,'fresh':224,'complete':True},'first_published_at':'2026-11-20T08:40:00+00:00'}
+    status=assess(record,now,'test/monitor')
+    assert status['ready'] and status['on_time'] is None
+    assert '09:00' in status['timing'] and '09:40' in status['timing']
+    assert '08:00' not in status['timing']
+    text=delivery_text({'day':'2026-11-20','metadata':{'delivery':{'first_published_at':record['first_published_at']}}})
+    assert '09:00' in text and '09:40' in text and '08:00' not in text
 
 
 def test_new_partial_capture_cannot_become_complete_and_keeps_its_repair_scope():

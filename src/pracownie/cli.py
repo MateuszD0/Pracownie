@@ -166,10 +166,12 @@ def execute(args) -> int:
             if remote:
                 published = remote.publish(store, args.output, day, archive, metadata["run_id"])
                 print(json.dumps(published, ensure_ascii=False))
-                deadline = datetime.fromisoformat(day + "T08:00:00").replace(tzinfo=WARSAW)
-                on_time = datetime.fromisoformat(published["published_at"]) <= deadline
-                timing = "Raport opublikowany przed 08:00 Europe/Warsaw." if on_time else "Raport opublikowany po celu 08:00 Europe/Warsaw."
-                if not on_time and os.environ.get("GITHUB_ACTIONS") == "true":
+                from .timing import publication_deadline
+                target = publication_deadline(day)
+                deadline = datetime.combine(datetime.fromisoformat(day).date(),target,WARSAW) if target else None
+                on_time = datetime.fromisoformat(published["published_at"]) <= deadline if deadline else None
+                timing = ("Raport opublikowany przed 08:00 Europe/Warsaw." if on_time else "Raport opublikowany po celu 08:00 Europe/Warsaw.") if deadline else "Planowany start skanu: 09:00 Europe/Warsaw; raport jest dostępny po zakończeniu skanu i publikacji."
+                if on_time is False and os.environ.get("GITHUB_ACTIONS") == "true":
                     print("::warning title=Termin publikacji::" + timing)
                 remote.cleanup(day, dry_run=False)
                 index_url = remote.update_index()

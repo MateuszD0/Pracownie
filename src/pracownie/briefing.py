@@ -201,13 +201,18 @@ def coverage_text(data: dict) -> str:
 
 
 def delivery_text(view: dict) -> str:
+    from .timing import publication_deadline
     delivery = view.get('metadata', {}).get('delivery', {})
     at = delivery.get('first_published_at')
-    parts = []
+    target = publication_deadline(view['day'])
+    parts = [] if target else ['Planowany start skanu: 09:00']
     if at:
         local = datetime.fromisoformat(at.replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/Warsaw'))
-        late = local > local.replace(hour=8, minute=0, second=0, microsecond=0)
-        parts.append('Pierwsza publikacja: ' + local.strftime('%H:%M') + (' — po terminie 08:00' if late else ' — przed 08:00'))
+        timing = ''
+        if target:
+            late = local > local.replace(hour=target.hour, minute=target.minute, second=0, microsecond=0)
+            timing = ' — po terminie 08:00' if late else ' — przed 08:00'
+        parts.append('Pierwsza publikacja: ' + local.strftime('%H:%M') + timing)
     else:
         parts.append('Termin publikacji: brak potwierdzonej godziny')
     parts.append('E-mail: ' + {'sent': 'przyjęty przez SMTP', 'pending': 'wynik wysyłki niepotwierdzony', 'not_configured': 'wysyłka niewłączona', 'waiting': 'oczekuje na wysyłkę'}.get(delivery.get('email'), 'brak potwierdzenia wysyłki'))

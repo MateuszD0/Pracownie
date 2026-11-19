@@ -12,7 +12,7 @@ from .github import GitHubStore
 from .mailer import receipt
 from .model import WARSAW
 from .readiness import repair_domains
-from .schedule import PRIMARY_START
+from .timing import PRIMARY_START
 
 RECOVERY_TITLE = 'Automatyczna naprawa odczytów'
 ACTIVE = {'queued', 'in_progress', 'waiting', 'pending', 'requested'}

@@ -4,6 +4,7 @@ from datetime import UTC, datetime, time
 from pathlib import Path
 
 from .model import WARSAW, local_day
+from .timing import READINESS_CHECK, publication_deadline
 
 
 def repair_domains(quality: dict) -> list[str]:
@@ -61,9 +62,13 @@ def assess(record: dict | None, now: datetime, repo: str) -> dict:
     quality = (record or {}).get('readiness', {})
     published = (record or {}).get('first_published_at')
     when = datetime.fromisoformat(published).astimezone(WARSAW) if published else None
-    deadline = datetime.combine(local.date(), time(8), WARSAW)
-    on_time = when <= deadline if when else None
-    if when:
+    target = publication_deadline(local.date().isoformat())
+    deadline = datetime.combine(local.date(), target, WARSAW) if target else None
+    on_time = when <= deadline if when and deadline else None
+    if deadline is None:
+        timing = 'Planowany start skanu: 09:00 Europe/Warsaw. '
+        timing += f'Pierwsza potwierdzona publikacja: {when:%H:%M:%S}.' if when else 'Raport nie jest jeszcze opublikowany.'
+    elif when:
         timing = ('Termin dotrzymany' if on_time else 'Termin 08:00 przekroczony') + f" — pierwsza potwierdzona publikacja: {when:%H:%M:%S}."
     elif record:
         timing = 'Nie ustalono godziny pierwszej publikacji; nie potwierdzono terminu 08:00.'
@@ -101,8 +106,9 @@ def main():
 
     now = datetime.now(UTC).astimezone(WARSAW)
     # Two UTC slots cover DST; the earlier winter slot is deliberately inert.
-    if now.time() < time(7, 50):
-        print('Kontrola gotowości odbędzie się o 07:50 czasu polskiego.')
+    check_time = READINESS_CHECK if publication_deadline(now.date().isoformat()) is None else time(7,50)
+    if now.time() < check_time:
+        print(f'Kontrola danych odbędzie się o {check_time:%H:%M} czasu polskiego.')
         return
     remote = GitHubStore(os.environ['GITHUB_REPOSITORY'], os.environ.get('GITHUB_TOKEN', ''))
     try:
@@ -117,7 +123,7 @@ def main():
             print('::error title=' + title + '::' + status['message'])
         if status['on_time'] is False:
             print('::error title=Przekroczony termin publikacji::' + status['timing'])
-        elif status['on_time'] is None and record:
+        elif status['on_time'] is None and record and publication_deadline(now.date().isoformat()):
             print('::warning title=Termin niepotwierdzony::' + status['timing'])
         if not status['ready'] or status['on_time'] is False:
             raise SystemExit(1)

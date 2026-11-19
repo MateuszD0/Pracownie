@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „1 Weryfikacja otoczenia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Niskotemperaturowe ogrzewanie podłogowe”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Technologia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Instalacje energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapisz się”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Aby odpowiedzieć na pytanie, jaki jest najczęściej kupowany projekt domu, trzeba racjonalnie określić kryteria wyboru. Nie sposób wskazać jednego projektu, stylu architektoniczneg…”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Jaki jest najczęściej kupowany projekt domu? Przegląd trendów w budownictwie jednorodzinnym.”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | Pojawił się komunikat: „Co nowego przy Imbirowej? NOWOŚĆ – Dom przy Imbirowej 11”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Potwierdzono ponownym odczytem |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Next”. | Do sprawdzenia |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Previous”. | Do sprawdzenia |

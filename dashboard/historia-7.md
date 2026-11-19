@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „NOWOCZESNA BALUSTRADA Z KSIĄŻKAMI – JAK POŁĄCZYĆ REGAŁ I BEZPIECZEŃSTWO?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „WSPÓŁPRACA Z ARCHITEKTEM – JAK SIĘ DO NIEJ PRZYGOTOWAĆ?”. | Potwierdzono ponownym odczytem |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | „Koszyk” → „Koszyk 1 1 pozycja”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Realizuj zakup”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Nadchodzi Black Friday, największa promocja roku 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Potwierdzono ponownym odczytem |
 | modernhouse-projekty.pl · 2026-11-17 | Pojawił się komunikat: „Röben – ceramika budowlana”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „FARBY, LAKIERY I SZPACHLE DO DREWNA – JAK PRAWIDŁOWO WYKOŃCZYĆ I NAPRAWIĆ STOLARKĘ DREWNIANĄ?”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-17 | Pojawił się komunikat: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
 | e-domy.pl · 2026-11-17 | „Dom namiotowy z 3 sypialniami” → „Dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
-| dompp.pl · 2026-11-17 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
-| dominanta.pl · 2026-11-17 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 103 243.09 m2 7 3 2 12177,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” | Sprawdzono w serwisie |
-| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 1 w6 127.65 m2 4 3 0 6150,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
-| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” | Sprawdzono w serwisie |
-| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
-| archstodola.pl · 2026-11-17 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Kontynuuj zakupy”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |

@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://artinex-projekt.pl/)
 
-**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 11:51 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fartinex-projekt.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fartinex-projekt.pl%2F%0A%0AOpis%3A)
 
@@ -28,9 +28,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Przykłady z zapisów:
 
-- DM16 wersja drewniana → D315D wersja drewniana
-- D348 Segment do zbliźniaczenia WT2021 → D438 Segment do zbliźniaczenia WT2021
-- DM23A wersja drewniana → D292D WT2021 wersja drewniana
+- DM10B wersja drewniana → D315D wersja drewniana
+- DM16 wersja drewniana → DM10A wersja drewniana
+- DM23A wersja drewniana → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +40,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://artinex-projekt.pl/projekty-domow/d292b-wt2021)
 
-**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 11:51 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fartinex-projekt.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fartinex-projekt.pl%2Fprojekty-domow%2Fd292b-wt2021%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 

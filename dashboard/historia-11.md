@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| galeriadomow.pl · 2026-11-14 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jedno z częstszych pytań pojawiających się wśród inwestorów szukających projektu przyszłego domu brzmi: czy można wybudować dom za 200 tysięcy złotych? Oczywiście chodzi tu o stan…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jaki dom wybudujesz za 200 tysięcy złotych? Sekrety taniego domu z poddaszem.”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Dom przy Pastelowej 30 bis to kolejny przedstawiciel kolekcji, którą tworzą projekty domów parterowych z dachem dwuspadowym lub czterospadowym. Poza pierwszymi dwoma propozycjami,…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Co nowego przy Pastelowej? - Dom przy Pastelowej 30 bis”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |
+| e-domy.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
 | domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
 | domywstylu.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann” | Sprawdzono w serwisie |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK KUPIĆ PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
 | studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „WARTO ZOBACZYĆ WSZYSTKIE PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „GOTOWY PROJEKT DOMU STUDIO ATRIUM I JEGO ADAPTACJA”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POSIADAMY NAWET PROJEKTY DOMÓW PARTEROWYCH Z PODDASZEM UŻYTKOWYM LUB NIEUŻYTKOWYM (STRYCH)”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZREALIZOWANY PROJEKT BUDYNKU STUDIO ATRIUM - RECEPTA NA DOM, KTÓRY URZECZYWISTNIA MARZENIA”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „PROJEKTY W STYLU STODOŁY”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nowy dodatek lub pakiet: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Projekty domów są rezultatem pracy grupy specjalistów, w której skład wchodzą eksperci z różnych dziedzin: architektury, budownictwa, insta…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztó…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „DLACZEGO WARTO ZDECYDOWAĆ SIĘ NA PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ODWIEDŹ NASZE FORUM DYSKUSYJNE”. | Potwierdzono ponownym odczytem |

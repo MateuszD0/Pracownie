@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [ATKA](http://domtodom.pl/projekty-domow/projekt/20)
 
@@ -18,27 +18,27 @@ Strony porównania: [1](domtodompl.md) · **2**
 
 [Otwórz stronę źródłową](http://domtodom.pl/)
 
-**Odczyty:** 17.11.2026 10:47 → 18.11.2026 11:07 (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:52 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>CANARI</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>KOLORADO</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>SAONA</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>JUKATAN</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>KOS 2</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>MERKURY</strong> | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>MARS</strong> | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>ALASKA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>ORINOKO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>KOMODO 1G</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>MARTYNIKA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>JURA N</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>SAONA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>GRENADA G2</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](http://domtodom.pl/projekty-domow/projekt/20)
 
-**Odczyty:** 17.11.2026 10:47 → 18.11.2026 11:07 (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:52 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 
 Strony porównania: [1](domtodompl.md) · **2**
 

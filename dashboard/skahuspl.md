@@ -14,21 +14,23 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://skahus.pl/)
+[Otwórz stronę źródłową](https://skahus.pl)
 
-**Odczyty:** 18.11.2026 05:54 → 19.11.2026 11:02 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fskahus.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fskahus.pl%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://skahus.pl/produkt/dom-jednorodzinny-parterowy-z-antresola-krzna-49c/)
 
-**Odczyty:** 18.11.2026 05:54 → 19.11.2026 11:02 (czas polski).
+**Odczyty:** 18.11.2026 05:54 → brak odczytu (czas polski).
 
-**Częściowe · 38 zgodnych tekstów**
+**Brak odczytu**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 

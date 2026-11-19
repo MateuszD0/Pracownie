@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Groszek — dach dwuspadowy](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,21 +16,22 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://hbstudio.pl/)
 
-**Odczyty:** 18.11.2026 05:51 → 19.11.2026 05:05 (czas polski).
+**Odczyty:** 18.11.2026 05:51 → 19.11.2026 11:53 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fhbstudio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (7) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (19) — nie są ustaloną zmianą oferty</summary>
 
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- brak → 1. Projekt Instalacji solarnej: Dzięki zastosowaniu instalacji solarnej zmienia się energię słoneczną na cieplną. Kolektory słoneczne (sola…
-- Klienci, którzy zakupili u nas dokumentację projektową bardzo rzadko informują nas o miejscach realizacji swoich domów. W związku z powyższ… → brak
-- brak → 2. Projekt pompy ciepła: Pompa ciepła to urządzenie grzewcze, które dostarcza energię ze źródeł naturalnych. Pobiera określoną ilość energi…
+- brak → Zgoda na inne zmiany, które nie zostały wymienione wyżej może zostać wydana na indywidualne życzenie inwestora lub osoby dokonującej adapta…
+- brak → materiały wykończeniowe: posadzki, tynki, dachówki, izolacje cieplne i przeciwwilgociowe, przy zachowaniu niezbędnych parametrów wytrzymało…
+- brak → przesunąć lub zlikwidować ściany działowe;
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -40,11 +41,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/)
 
-**Odczyty:** 18.11.2026 05:51 → 19.11.2026 05:05 (czas polski).
+**Odczyty:** 18.11.2026 05:51 → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fhbstudio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fhbstudio.pl%2Fprojekt%2Fgroszek-dach-dwuspadowy%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 

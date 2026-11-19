@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| artinex-projekt.pl · 2026-10-30 | „D434A wersja drewniana” → „D439 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-10-30 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
+| archipelag.pl · 2026-10-30 | Pojawił się komunikat: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
+| archipelag.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja październikowa! 20% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
+| archi-projekt.com.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 500 zł”. W sprawdzonym serwisie znaleziono również: „GRATIS” | Do sprawdzenia |
+| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja mikołajkowa” | Do sprawdzenia |
 | alexanderstudio.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-10-27, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
 | alexanderstudio.pl · 2026-10-30 | „Garaże i budynki &lt;br&gt;gospodarcze” → „Garaże i budynki gospodarcze”. | Zaobserwowana zmiana |
 | alexanderstudio.pl · 2026-10-30 | „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe” → „Bliźniaki i jednorodzinne dwulokalowe”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „14 dni na zwrot, 30 na wymianę”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Zobacz wszystkie nowości →”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czym różni się opcja STANDARD od EKO?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Zbuduj dom z TeA Projekt”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zgoda na zmiany gratis” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę wprowadzić zmiany w gotowym projekcie domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak kupić gotowy projekt domu – krok po kroku”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Więcej o naszych projektach”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |

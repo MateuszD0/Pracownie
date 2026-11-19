@@ -8,6 +8,17 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwus…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | „Piotruś jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…” → „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-11-03 | „Jerzy 2026-10-18 \[licznik\]” → „tOMASZ s 2026-10-27 \[licznik\]”. | Zaobserwowana zmiana |
 | mgprojekt.com.pl · 2026-11-03 | „Dariusz Zalewski 2026-10-23 \[licznik\]” → „Karol F 2026-10-28 \[licznik\]”. | Zaobserwowana zmiana |
 | mgprojekt.com.pl · 2026-11-03 | „Wiktoria Berol 2026-10-13 \[licznik\]” → „Aneta 2026-11-01 \[licznik\]”. | Zaobserwowana zmiana |
 | kupprojekt.pl · 2026-11-03 | „Ciężarowe i dostawcze 146” → „Ciężarowe i dostawcze 148”. | Zaobserwowana zmiana |
@@ -22,14 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| dompp.pl · 2026-11-03 | Pojawił się komunikat: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-03 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| dom-projekt.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
-| artinex-projekt.pl · 2026-11-03 | „DM20 WT2021 wersja drewniana” → „D153BD WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-03 | „D292B WT2021 wersja drewniana” → „D292C WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-03 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Zaobserwowana zmiana |

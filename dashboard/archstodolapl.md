@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archstodola.pl/)
 
-**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 11:51 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Farchstodola.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchstodola.pl%2F%0A%0AOpis%3A)
 
@@ -26,27 +26,28 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://archstodola.pl/stodola-chalet-p-14.html)
 
-**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 11:51 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Farchstodola.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Farchstodola.pl%2Fstodola-chalet-p-14.html%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (23) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (26) — nie są ustaloną zmianą oferty</summary>
 
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
 - Ten sam tekst dodano i usunięto przy innym kluczu lub kontekście formularza; nie potwierdzono zmiany oferty.
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 
 Przykłady z zapisów:
 
-- NASZA STODOŁA M pow. użytkowa 161,7 m2 + pow. garażu i kotłowni 25,00 m2 → NASZA STODOŁA S POWIĘKSZONA pow. użytkowa 121,0 m2 + pow. garażu i kotłowni 25,5 m2
 - STODOŁA CHALET Z BALA → brak
-- Do koszyka → brak
+- brak → NASZA STODOŁA pow. użytkowa 248,9 m2 + pow. garażu, kotłowni i sauny 55,3 m2
+- NASZA STODOŁA S POWIĘKSZONA pow. użytkowa 121,0 m2 + pow. garażu i kotłowni 25,5 m2 → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 

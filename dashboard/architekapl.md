@@ -8,7 +8,7 @@
 
 **Ten sam projekt:** [Projekt domu TK275](https://budujdom.pl/projekty-domow/tk275/)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,21 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://budujdom.pl/)
 
-**Odczyty:** 18.11.2026 05:48 → 19.11.2026 11:00 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Farchiteka.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fbudujdom.pl%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://budujdom.pl/projekty-domow/tk275/)
 
-**Odczyty:** 18.11.2026 05:49 → 19.11.2026 11:01 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Farchiteka.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fbudujdom.pl%2Fprojekty-domow%2Ftk275%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
 

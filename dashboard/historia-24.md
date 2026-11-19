@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| studioatrium.pl · 2026-11-06 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kierownik budowy: obowiązki, koszt i kiedy jest potrzebny w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-06 | Pojawił się komunikat: „Badania geotechniczne gruntu pod dom: kiedy są potrzebne i ile kosztują w 2026”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „PROJEKTY W NIŻSZEJ CENIE”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja kończy się: 05.11.2026”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
 | projektydomowzbali.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
-| nowoczesne-projektydomow.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Projekt Architektoniczno-Konstrukcyjny Domu B651 - wersja bez instalacji - Gratis Dodatki”. W sprawdzonym serwisie znaleziono również: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
-| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
-| mtmstyl.com.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |

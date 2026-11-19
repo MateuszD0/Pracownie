@@ -8,29 +8,64 @@
 
 **Ten sam projekt:** [Projekt domu BOLONIA – bliźniak (dla jednego segmentu)](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**5 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://1001studio.pl)
+[Otwórz stronę źródłową](https://www.1001studio.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:01 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2F1001studio.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://1001studio.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>CLOSE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.1001studio.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Pro-Arte</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.1001studio.pl/) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>90 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_452224034) |
+| Zmiany wyglądu · Rozmiar: nagłówek strony | <strong>1265</strong> × 134 px; położenie: 0 px od lewej, 0 px od góry | <strong>1280</strong> × 134 px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.1001studio.pl/#header) |
+| Zmiany wyglądu · Układ · DODAJ DO KOSZYKA | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>73 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.1001studio.pl/#section_452224034) |
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-dowod-12-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 18.11.2026 11:07 | Po · 19.11.2026 11:01 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-dowod-12-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (38) — nie są ustaloną zmianą oferty</summary>
+
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
+- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+- Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
+- Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
+
+Przykłady z zapisów:
+
+- brak → Projekt domu Rafael VI ECONOMIC
+- Projekt domu uA228 → brak
+- Projekt domu uA369 → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu)
 
-**Odczyty:** 18.11.2026 11:07 → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:01 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2F1001studio.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.1001studio.pl%2Fproduct%2Fprojekt-domu-bolonia-blizniak-dla-jednego-segmentu%0A%0AOpis%3A)
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://www.1001studio.pl/product/projekt-domu-bolonia-blizniak-dla-jednego-segmentu", "title": "Proszę czekać…", "text\_length": 37, "text\_
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t095243.922361-0000-format-bce89156-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
 

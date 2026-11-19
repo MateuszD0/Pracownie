@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domoweklimaty.pl · 2026-11-13 | Pojawił się komunikat: „Nowoczesna stodoła - parter”. | Potwierdzono ponownym odczytem |
+| dom-projekt.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 10.11.2026 roku do dnia 12.11.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| archstodola.pl · 2026-11-13 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| archiportal.pl · 2026-11-13 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Potwierdzono ponownym odczytem |
+| archipelag.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja listopadowa! 15% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | archipelag.pl · 2026-11-13 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
 | archi-projekt.com.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
 | archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl · 2026-11-12 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-12 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
 | dompp.pl · 2026-11-12 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
-| dominanta.pl · 2026-11-12 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-12 | Zmiana komunikatu oferty: „Promocja od 09.11.2026 koniec za” → „Promocja od 11.11.2026 koniec za” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-11 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| projektyka.pl · 2026-11-11 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-11 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
-| projektstodola.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-11 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |

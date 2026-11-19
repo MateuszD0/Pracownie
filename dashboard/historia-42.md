@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „4249,- 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Zaobserwowana zmiana |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF.”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys inwestorski to dokument finansowy, uwzględniający wszystkie koszty budowy domu – w tym przede wszystkim koszty zakup materiałów i ich rodzaj, robociznę (określaną w form…”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys nie obejmuje kosztów zagospodarowania działki.”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowy egzemplarz projektu”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Kosztorys”. | Zaobserwowana zmiana |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowe opcje przy zakupie projektu”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dane techniczne i kosztorys”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys w opracowaniu.”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | Do sprawdzenia |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej…” → „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |

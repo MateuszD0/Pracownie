@@ -10,6 +10,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | projektyka.pl · 2026-11-19 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-19 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dobry wybór dla Twojej rodziny. 10 wariantów w 3 technologiach”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup taniej, okresowe promocje”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
+| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup w promocji”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kolekcja wszystkich projektów ORLEAN”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „TRYPOLIS, który wybierzesz? Teraz taniej”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Małe domy z płaskim dachem”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE ZBIORNIKI NA GAZ PŁYNNY WYBRAĆ DO OGRZEWANIA DOMU”. | Do sprawdzenia |
 | kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Potwierdzono ponownym odczytem |
@@ -27,9 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Termoizolacja”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Okna i drzwi”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |

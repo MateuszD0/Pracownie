@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyzwizja.pl | Bezpłatną zgodę na zmiany | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-| projektyzwizja.pl | Sprawdź informacje o technologii budowy, zawartości dokumentacji, warunkach zabudowy, zmianach i adaptacji, kosztorysach oraz zasadach zakupu | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Czy dom Idealny M3 jest energooszczędny? Tak, projekt Idealny M3 został zaprojektowany z myślą o maksymalnej energooszczędności. W cenie projektu uwzględniono wentylację mechaniczną z rekuperatorem oraz kolektory słoneczne, które zapewniają wysoki komfort cieplny i ograniczają zużycie energii. Dodatkowo, na etapie adaptacji możesz zdecydować się na takie rozwiązania jak ogrzewanie podłogowe, pomp… | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | projektyzwizja.pl | Projekt energooszczędny z rekuperacją w standardzie i szeroką opcją dodatków poprawiających bilans energetyczny. | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | sej-pro.pl | Już 20.11 rusza Black Friday, największa promocja roku! 🔥 | Obecna w zapisie · 19.11.2026 05:09 · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Kosztorys inwestorski | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Extra dodatki i rabaty Pakiet dodatków o wartości 4100 zł za 1 zł i rabaty do marketów budowlanych. | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 15% rabatu na 1 dzień zakupów 10% rabatu przez 12 mies. 10% zwrotu na kartę OBI | Obecna w zapisie · 19.11.2026 05:09<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

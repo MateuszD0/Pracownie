@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| artinex-projekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „D330A Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
+| 3ddom.pl · 2026-10-29 | Zmiana komunikatu oferty: „Promocja od 26.10.2026 koniec za” → „Promocja od 28.10.2026 koniec za” | Sprawdzono w serwisie |
+| sprytnaoaza.pl · 2026-10-28 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-28 | Pojawił się komunikat: „Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Dom parterowy czy z poddaszem: co tańsze w budowie i utrzymaniu?”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
 | projektydomow.redcart.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „DOM MISTRZA FRYDERYKA (DOM XXI WIEKU)”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „+ kompaktowa bryła budynku” → „✓ Zwarta, kompaktowa bryła budynku”. | Zaobserwowana zmiana |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „Strop nad parterem (między-kondygnacyjny) zaprojektowano jako monolityczny żelbetowy o grubości 17 cm zbrojon…” → „Strop międzykondygnacyjny zaprojektowano jako monolityczny strop żelbetowy o grubości 17 cm, zbrojony prętami…”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „+ standardowe, prostokątne okna” → „✓ Standardowe, prostokątne okna”. | Zaobserwowana zmiana |
 | profesjonalne-projekty-domow.pl · 2026-10-28 | „Budynek zaprojektowany jako murowany z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku p…” → „Ściany zewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500 o deklarowanym współczynniku przew…”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „WENTYLACJA MECHANICZNA Z ODZYSKIEM CIEPŁA”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „W przypadku projektu „Dom Aleksandra”, zapotrzebowanie na energię użytkową do ogrzania i wentylacji wynosi:” → „Według obliczeń projektowych dla przyjętych warunków lokalizacyjnych w Krakowie zapotrzebowanie na energię uż…”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PARTERU – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „UKŁAD POMIESZCZEŃ – PRZEMYŚLANY DOM DLA RODZINY”. | Zaobserwowana zmiana |
-| profesjonalne-projekty-domow.pl · 2026-10-28 | „Ściany wewnętrzne zaprojektowano jako murowane z bloczków z betonu komórkowego klasy 500. Ściany wewnętrzne o…” → „Ściany wewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500. Grubość ścian wynosi 24 i 20 cm,…”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-28 | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
-| opusdom.pl · 2026-10-28 | „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…” → „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwn…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |

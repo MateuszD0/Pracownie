@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-10 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Okno dachowe nie musi być zawsze takie samo. Poznaj inne rozwiązania FAKRO”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-10 | Pojawił się komunikat: „Badanie: co decyduje o komforcie na poddaszu? Polacy wskazali 6 kluczowych czynników”. | Potwierdzono ponownym odczytem |
 | archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |

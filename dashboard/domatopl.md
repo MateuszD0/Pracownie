@@ -8,29 +8,29 @@
 
 **Ten sam projekt:** [DOPASOWANY 04](https://domato.pl/projekt/51/dopasowany-04)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.domato.pl/)
+[Otwórz stronę źródłową](https://domato.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:01 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fdomato.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2F%0A%0AOpis%3A)
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://www.domato.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domato.pl/projekt/51/dopasowany-04)
 
-**Odczyty:** 18.11.2026 11:07 → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 11:07 → 19.11.2026 11:01 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fdomato.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2Fprojekt%2F51%2Fdopasowany-04%0A%0AOpis%3A)
 
-Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://domato.pl/projekt/51/dopasowany-04", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żąd
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t095243.922361-0000-format-bce89156-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t100038.176397-0000-78e38e99-porownanie.html)
 

@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-01 | „Ami II z Opusdom to wygodny dom z użytkowym poddaszem i garażem dwustanowiskowym. Atrakcyjna bryła domu oraz…” → „Malwina z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz fun…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o sche…” → „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Olga to wygodny, funkcjonalny parterowy dom z nieużytkowym poddaszem i wiatą garażową.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpływ na…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | Pojawił się komunikat: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
 | dompp.pl · 2026-11-01 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| dom-projekt.pl · 2026-11-01 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 27.10.2026 roku do dnia 29.10.2026 roku.” | Do sprawdzenia |
-| dom-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
-| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D340 wersja drewniana Wt2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |

@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kbprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-05 | Pojawił się komunikat: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-05 | „Dom parterowy o prostej bryle” → „Dom parterowy z garażem”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-11-05 | „DM3 WT2021 wersja drewniana” → „D237D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-05 | Pojawił się komunikat: „D295D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | 3ddom.pl · 2026-11-05 | Zmiana komunikatu oferty: „Promocja od 02.11.2026 koniec za” → „Promocja od 04.11.2026 koniec za” | Sprawdzono w serwisie |
-| uarchitekta.pl · 2026-11-04 | Pojawił się komunikat: „TECHNOLOGIE BUDOWY DOMÓW SZKIELETOWYCH – PORÓWNANIE ROZWIĄZAŃ”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Dom szkieletowy czy murowany? Koszt, czas budowy i trwałość w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-04 | Pojawił się komunikat: „Zakończenie budowy domu: zawiadomienie czy pozwolenie na użytkowanie w 2026”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-04 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |

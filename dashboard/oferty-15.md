@@ -29,7 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 19.11.2026 05:07<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | mtmstyl.com.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 19.11.2026 05:07<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
 | nowoczesne-projektydomow.pl | Dopuszczamy zmiany zastosowanych materiałów, zmianę funkcji domu jak również gabarytów budynku. Do projektu dołączona jest bezpłatna zgoda Autorów domu na wprowadzenie dowolnych zmian. | Obecna w zapisie · 19.11.2026 05:07<br>[Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
-| opusdom.pl | PROMOCJA NA ADAPTACJĘ | Obecna w zapisie · 18.11.2026 11:08<br>[Źródło](https://opusdom.pl/) |
-| opusdom.pl | Specjalnie dla Inwestorów, którzy chcą kupić projekt z oferty OPUSDOM i zacząć budowę na wiosnę, mamy adaptację projektu z rabatem - zapytaj o Adaptację w Promocji | Obecna w zapisie · 18.11.2026 11:08<br>[Źródło](https://opusdom.pl/) |
-| opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 18.11.2026 11:08<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
-| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 19.11.2026 05:07 · 18.11.2026 11:21<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |
+| opusdom.pl | PROMOCJA NA ADAPTACJĘ | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://opusdom.pl/) |
+| opusdom.pl | Specjalnie dla Inwestorów, którzy chcą kupić projekt z oferty OPUSDOM i zacząć budowę na wiosnę, mamy adaptację projektu z rabatem - zapytaj o Adaptację w Promocji | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://opusdom.pl/) |
+| opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
+| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |

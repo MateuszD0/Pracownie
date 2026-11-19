@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archi-projekt.com.pl · 2026-10-28 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
+| archdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „DODATKI”. | Do sprawdzenia |
+| alexanderstudio.pl · 2026-10-28 | „Garaże i budynki gospodarcze” → „Garaże i budynki &lt;br&gt;gospodarcze”. | Zaobserwowana zmiana |
+| alexanderstudio.pl · 2026-10-28 | „Bliźniaki i jednorodzinne dwulokalowe” → „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe”. | Zaobserwowana zmiana |
+| 3ddom.pl · 2026-10-28 | Zmiana komunikatu oferty: „Promocja od 25.10.2026 koniec za” → „Promocja od 26.10.2026 koniec za” | Sprawdzono w serwisie |
+| zbudujsamdom.pl · 2026-10-27 | „Otrzymujesz komplet instrukcji budowy” → „Zajrzyj do środka instrukcji”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Najniższa cena z 30 dni przed obniżką: 499 zł.”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „KUP PAKIET – 333 ZŁ”. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | „Dom 70 m², który możesz zbudować” → „Budowa krok po kroku”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały PDF • ✓ Bezpieczna płatność”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | „Dom murowany czy szkieletowy?” → „Zobacz ten projekt w rzeczywistości”. | Zaobserwowana zmiana |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „\*Oszczędzasz 613 zł względem zakupu osobno wymienionych elementów za łącznie 946 zł.”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „WYBIERAM PAKIET PRO ZA 333 ZŁ →”. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „W pakiecie otrzymujesz komplet materiałów za jedną cenę.”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Najczęściej wybierane projekty i pakiety”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcje PDF + wideo”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PAKIET PRO”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały dodatkowe”. | Do sprawdzenia |
-| zbudujsamdom.pl · 2026-10-27 | „Dla kogo jest ten pakiet?” → „Zobacz, jak może wyglądać gotowy dom 70 m²”. | Zaobserwowana zmiana |

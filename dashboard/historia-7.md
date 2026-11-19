@@ -8,6 +8,14 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| modernhouse-projekty.pl · 2026-11-17 | Pojawił się komunikat: „Röben – ceramika budowlana”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „FARBY, LAKIERY I SZPACHLE DO DREWNA – JAK PRAWIDŁOWO WYKOŃCZYĆ I NAPRAWIĆ STOLARKĘ DREWNIANĄ?”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-17 | Pojawił się komunikat: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | „\| 1,2 tys. opinii \| stan na: 10.11.2026” → „\| 1,2 tys. opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | „\| 794 opinii \| stan na: 10.11.2026” → „\| 794 opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „No items to show”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
 | homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „Saved For Later”. | Do sprawdzenia |
 | hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
 | hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
@@ -25,11 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
 | sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | „Koszyk 1 1 pozycja” → „Koszyk”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizuj zakup”. | Do sprawdzenia |
-| projektyka.pl · 2026-11-16 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
-| pracowniaprojektowa.info · 2026-11-16 | Zmiana komunikatu oferty: „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-16 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „No items to show”. | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Saved For Later”. | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |

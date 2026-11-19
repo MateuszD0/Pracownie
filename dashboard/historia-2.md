@@ -8,6 +8,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Okna i drzwi”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Szczelność”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
@@ -27,9 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zapisz się”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Odzysk ciepła”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zyski cieplne”. | Do sprawdzenia |

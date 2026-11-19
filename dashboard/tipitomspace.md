@@ -14,13 +14,11 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.tipitom.space/)
+[Otwórz stronę źródłową](https://tipitom.space/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 11:08 → 19.11.2026 19:29 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Strona blokady lub weryfikacji zamiast oferty
+**Częściowe · 10 zgodnych tekstów**
 
 ## Karta projektu
 
@@ -30,7 +28,7 @@ Powód braku odczytu: Strona blokady lub weryfikacji zamiast oferty
 
 **Brak odczytu**
 
-Powód braku odczytu: Strona blokady lub weryfikacji zamiast oferty
+Powód braku odczytu: Witryna nie zwróciła czytelnej treści strony.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-porownanie.html)
 

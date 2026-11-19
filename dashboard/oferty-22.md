@@ -10,9 +10,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | sej-pro.pl | W cenie | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 19.11.2026 11:02<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 19.11.2026 11:02<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 19.11.2026 11:02<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
+| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
 | slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |

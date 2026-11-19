@@ -29,7 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Niskotemperaturowe ogrzewanie podłogowe”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |

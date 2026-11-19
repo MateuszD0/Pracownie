@@ -12,14 +12,17 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | --- | --- | --- | --- |
 | 3ddom.pl<br>Dom na Majowej | 4 199,00 zł netto + VAT | 19.11.2026 11:51 | [Karta projektu](https://3ddom.pl/produkt/dom-na-majowej/) |
 | archand.pl<br>Perfetto 3 modern | 5 699,00 zł | 19.11.2026 11:51 | [Karta projektu](https://www.archand.pl/projekty/perfetto-3-modern/) |
+| archeton.pl<br>Celia Mini | 3 990,00 zł | 19.11.2026 19:29 | [Karta projektu](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
 | archetyp.pl<br>Lifi- projekt domu | 6 400,00 zł | 19.11.2026 11:51 | [Karta projektu](https://archetyp.pl/projekt/lifi/) |
 | archi-projekt.com.pl<br>APS 343 POROTHERM | 4 799,00 zł | 19.11.2026 11:51 | [Karta projektu](https://archi-projekt.com.pl/product/aps-343-porotherm/) |
 | archipelag.pl<br>Alison III G2 | 6 900,00 zł | 19.11.2026 11:51 | [Karta projektu](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
 | archiportal.pl<br>Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł | 4 199,00 zł | 19.11.2026 11:51 | [Karta projektu](https://archiportal.pl/projekt-tracja11-sd) |
+| architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 19.11.2026 19:29 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl<br>STODOŁA CHALET | 4 800,00 zł | 19.11.2026 11:51 | [Karta projektu](https://archstodola.pl/stodola-chalet-p-14.html) |
 | artinex-projekt.pl<br>D292B - WT2021 | 4 899,00 zł | 19.11.2026 11:51 | [Karta projektu](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
 | coolhouses.studio<br>Dom Aria | 15 400,00 zł netto + VAT | 19.11.2026 11:51 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |
 | dom-projekt.pl<br>gryfice 31 pcr | 5 480,00 zł | 19.11.2026 11:51 | [Karta projektu](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html) |
+| domdlaciebie.com.pl<br>Klara IV | 5 390,00 zł | 19.11.2026 19:29 | [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domenadom.pl<br>Domena 169 A1 | 4 950,00 zł | 19.11.2026 11:52 | [Karta projektu](https://domenadom.pl/p/domena-169-a1-i532) |
 | domideaprojekt.pl<br>domidea 1 w6 | 4 593,50 zł netto + VAT | 19.11.2026 11:52 | [Karta projektu](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
 | dominanta.pl<br>Lolek II N | 5 035,00 zł | 19.11.2026 11:52 | [Karta projektu](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
@@ -32,15 +35,20 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | faberarchitektura.com<br>KP-100 | 3 400,00 zł | 19.11.2026 11:53 | [Karta projektu](https://faberarchitektura.com/produkt/kp-100/) |
 | homekoncept.pl<br>PROJEKT DOMU 149 B2 | 13 990,00 zł | 19.11.2026 11:53 | [Karta projektu](https://homekoncept.com.pl/produkt/homekoncept-149-b2/) |
 | horyzont.com<br>PROJEKT DOMU Z PODDASZEM O WĄSKIEJ BRYLE | 4 200,00 zł | 19.11.2026 11:54 | [Karta projektu](https://horyzont.com/projekty-domow/erni-2) |
+| kowalscypracownia.pl<br>KP-101 | 3 200,00 zł | 19.11.2026 19:29 | [Karta projektu](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
 | kupprojekt.pl<br>Dawid | 4,40 zł | 19.11.2026 11:54 | [Karta projektu](https://www.kupprojekt.pl/projekt/dawid/) |
 | lipinscy.pl<br>ANNECY 357,32m² | 15 570,00 zł | 19.11.2026 11:54 | [Karta projektu](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl<br>Projekt domu Amber 5 | 6 890,00 zł | 19.11.2026 11:54 | [Karta projektu](https://www.mgprojekt.com.pl/amber-5) |
+| mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 19.11.2026 19:29 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |
 | modernhouse-projekty.pl<br>NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE | 5 890,00 zł | 19.11.2026 11:54 | [Karta projektu](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl<br>Projekt domu z bali A-154 "DOM PIASKOWA" | 4 299,00 zł | 19.11.2026 11:54 | [Karta projektu](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 | partero.pl<br>PARTERO-01 | 4 700,00 zł | 19.11.2026 11:55 | [Karta projektu](https://www.partero.pl/partero-01) |
+| pioroarchitekci.pl<br>PióroArchitekci - 10 | 3 400,00 zł | 19.11.2026 19:29 | [Karta projektu](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl<br>Projekt domu PLANUJDOM 072 | 2 960,00 zł | 19.11.2026 11:55 | [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | postawdom24.pl<br>Projekt domu BW-36 wariant 18 bez garażu - Pow. użytkowa 99,00m2 | 3 670,00 zł brutto | 19.11.2026 11:55 | [Karta projektu](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416) |
+| pro-arte.pl<br>TRYPOLIS 7 szkielet drewniany | 3 599,00 zł | 19.11.2026 19:29 | [Karta projektu](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | projekty.nordarchitekci.pl<br>Nord Architekci - projekty gotowe | 4 500,00 zł | 19.11.2026 11:56 | [Karta projektu](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
+| projektydomowzbali.pl<br>L-188 PROJEKT DOMU CAŁOROCZNEGO | 3 900,00 zł | 19.11.2026 19:29 | [Karta projektu](https://www.projektydomowzbali.pl/product/169,l-188) |
 | projektyka.pl<br>Ka288 | 5 649,00 zł | 19.11.2026 11:56 | [Karta projektu](https://projektyka.pl/projekty/ka288) |
 | projektyzwizja.pl<br>Idealny M3 | 6 740,00 zł | 19.11.2026 11:57 | [Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 697,00 zł brutto | 19.11.2026 11:57 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -72,6 +80,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | projektydomow.redcart.pl<br>Projekt domu pasywnego LIGHT - Dom w Bronowicach o pow. 158,30 m2 | 5 300,00 zł | 19.11.2026 11:56 | [Karta projektu](https://projektydomow.redcart.pl/p/23/9883/projekt-domu-pasywnego-light-dom-w-bronowicach-o-pow-158-30-m2-projekty-domow-nf40.html) |
 | projektygebala.com<br>Nowoczesna Stodoła Regulice | 3 500,00 zł | 19.11.2026 11:56 | [Karta projektu](https://projektygebala.com/projekt/Nowoczesna%20Stodo%C5%82a%20Regulice) |
 | projektyszkieletowe.pl<br>DOM—B55 | 4 899,00 zł brutto | 19.11.2026 11:57 | [Karta projektu](https://www.projektyszkieletowe.pl/projekt-dom-b55-63.html) |
+| skahus.pl<br>Dom jednorodzinny parterowy z antresolą KRZNA 49C | 4 900,00 zł | 19.11.2026 19:30 | [Karta projektu](https://skahus.pl/produkt/dom-jednorodzinny-parterowy-z-antresola-krzna-49c/) |
 | slonecznedomy.pl<br>Sava B | 5 000,00 zł | 19.11.2026 11:57 | [Karta projektu](https://www.slonecznedomy.pl/projekty/sava-b) |
 | sprytnaoaza.pl<br>Sprytna Oaza | 1 950,00 zł | 19.11.2026 11:57 | [Karta projektu](https://sprytnaoaza.pl/products/projekt-sprytna-oaza) |
 | studioatrium.pl<br>Rodrigo SZ | 4 149,00 zł | 19.11.2026 11:57 | [Karta projektu](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
@@ -86,7 +95,7 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | e-domy.pl | KUPTANIEJ | 1. ZAKUP PROJEKTU Z DODATKOWYM RABATEM 10% - "KUPTANIEJ" Aby skorzytać z oferty należy wpisać kod rabatowy "KUPTANIEJ" podczas zamawiania projektu. 2. KOSZTORYS BUDOWLANY i PRZEDMIAR ROBÓT ZA 129zł. 3. DODATKOWY EGZEMPLARZ PROJEKTU ARCHITEKTONICZNO-BUDOWLANEGO ZA 1zł. 4. TABLICA I DZIENNIK... | Obecna w zapisie<br>19.11.2026 11:53 | [Oferta](https://www.e-domy.pl/) |
 | 3ddom.pl | Nie podano | 50% RABATU na projekt garażu przy zakupie projektu domu (aktualnie brak) | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://3ddom.pl/produkt/dom-na-majowej/) |
 | 3ddom.pl | Nie podano | 50% RABATU na projekt instalacji sanitarnych przy zakupie projektu domu | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://3ddom.pl/produkt/dom-na-majowej/) |
-| archeton.pl | Nie podano | Promocja 200 zł na zakupy w Empiku | Obecna w zapisie<br>19.11.2026 11:00 | [Oferta](https://archeton.pl/) |
+| archeton.pl | Nie podano | Promocja 200 zł na zakupy w Empiku | Obecna w zapisie<br>19.11.2026 19:29 | [Oferta](https://archeton.pl/) |
 | archi-projekt.com.pl | Nie podano | Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://archi-projekt.com.pl/) |
 | archipelag.pl | Nie podano | Promocja Black Week - 20% RABATU na projekty domów! | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://www.archipelag.pl/) |
 | archipelag.pl | Nie podano | Promocja Black Week! 20% RABATU na wszystkie projekty domów z naszej oferty! Nowoczesne domy parterowe, z poddaszem użytkowym, poddaszem do adaptacji i piętrowe. Energooszczędne, tanie w budowie, projekty domów na każdą działkę. Nie czekaj, skorzystaj z promocji i spełnij marzenie o własnym domu z tarasem i ogrodem \[...\] | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://www.archipelag.pl/) |
@@ -118,7 +127,7 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | dobredomy.pl | Nie podano | Przygotowanie projektu na zamówienie jest znacznie droższe niż zakup projektu dostępnego od ręki. Ceny tych drugich mieszczą się w przedziale 4-5 tys. złotych. Często też możesz zamówić projekty w promocyjnych cenach. W pracowni projektowej Dobre Domy rabaty mogą sięgać nawet 300 złotych! Natomiast koszt projektu na zamówienie jest trudny do wskazania. Architekci często wyceniają projekt na podstawie powierzchni domu (od 120 do nawet 300 zł za m2). W kosztorysie trzeba uwzględnić także opłaty za dodatkowe poprawki. | Obecna w zapisie<br>19.11.2026 11:51 | [Oferta](https://www.dobredomy.pl/) |
 | domoweklimaty.pl | Nie podano | Promocja: -500 zł na projekty domów! | Obecna w zapisie<br>19.11.2026 11:52 | [Oferta](https://www.domoweklimaty.pl/) |
 | domoweklimaty.pl | Nie podano | Zapisz się do newslettera i odbierz 300zł rabatu! | Obecna w zapisie<br>19.11.2026 11:52 | [Oferta](https://www.domoweklimaty.pl/) |
-| skahus.pl | Nie podano | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie<br>19.11.2026 11:02 | [Oferta](https://skahus.pl/) |
+| skahus.pl | Nie podano | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie<br>19.11.2026 19:29 | [Oferta](https://skahus.pl/) |
 | slonecznedomy.pl | Nie podano | 10% RABATU | Obecna w zapisie<br>19.11.2026 11:57 | [Oferta](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Nie podano | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie<br>19.11.2026 11:57 | [Oferta](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Nie podano | Rabat za zdjęcia -10% | Obecna w zapisie<br>19.11.2026 11:57 | [Oferta](https://www.slonecznedomy.pl/projekty/sava-b) |

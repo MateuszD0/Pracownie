@@ -8,29 +8,29 @@
 
 **Ten sam projekt:** [PióroArchitekci - 10](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html)
 
-**Niepełne porównanie — sprawdź zakres obu stron.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://pioroarchitekci.pl)
+[Otwórz stronę źródłową](https://www.pioroarchitekci.pl/projekty-domow-23)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 05:52 → 19.11.2026 19:29 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fpioroarchitekci.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pioroarchitekci.pl%2Fprojekty-domow-23%0A%0AOpis%3A)
 
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html)
 
-**Odczyty:** 18.11.2026 05:52 → brak odczytu (czas polski).
+**Odczyty:** 18.11.2026 05:52 → 19.11.2026 19:29 (czas polski).
 
-**Brak odczytu**
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fpioroarchitekci.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.pioroarchitekci.pl%2Fprojekty-domow%2F8-pa-10.html%0A%0AOpis%3A)
 
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t105042.333135-0000-1c230394-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-porownanie.html)
 

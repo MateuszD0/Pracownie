@@ -8,7 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
+| pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
 | planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
 | planujdom.pl | Bezpłatna charakterystyka energetyczna | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |

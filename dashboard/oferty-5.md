@@ -8,16 +8,16 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domdlaciebie.com.pl | Projekty domów w promocji | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | Jeśli chcesz otrzymać najnowsze informacje na temat projektów domów promocji, rozwiazań budowlanych wpisz swój adres e-mail. | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | BEZPŁATNY KATALOG | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | » Projekty domów w promocji | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | » Projekty domów » Zamów katalog » Promocje » Aktualności » Jak kupić projekt domu? » Aranżacja wnętrz » Nasze realizacje » Kolornik | Obecna w zapisie · 19.11.2026 11:01 · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | GRATIS dodatki \* | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | KOSZTORYS | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | Kosztorys: | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | Pobierz wyciąg z kosztorysu | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domdlaciebie.com.pl | DODATKI (12) | Obecna w zapisie · 19.11.2026 11:01<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | Projekty domów w promocji | Obecna w zapisie · 19.11.2026 19:29 · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | Jeśli chcesz otrzymać najnowsze informacje na temat projektów domów promocji, rozwiazań budowlanych wpisz swój adres e-mail. | Obecna w zapisie · 19.11.2026 19:29 · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | BEZPŁATNY KATALOG | Obecna w zapisie · 19.11.2026 19:29 · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | » Projekty domów w promocji | Obecna w zapisie · 19.11.2026 19:29 · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | » Projekty domów » Zamów katalog » Promocje » Aktualności » Jak kupić projekt domu? » Aranżacja wnętrz » Nasze realizacje » Kolornik | Obecna w zapisie · 19.11.2026 19:29 · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/) · [Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | GRATIS dodatki \* | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | KOSZTORYS | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | Kosztorys: | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | Pobierz wyciąg z kosztorysu | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+| domdlaciebie.com.pl | DODATKI (12) | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domenadom.pl | PROMOCJA -300 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie · 19.11.2026 11:52 · 19.11.2026 11:52<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domenadom.pl | PROMOCJA -300 zł | Obecna w zapisie · 19.11.2026 11:52 · 19.11.2026 11:52<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domenadom.pl | Kosztorys | Obecna w zapisie · 19.11.2026 11:52<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |

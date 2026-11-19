@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
-| dompp.pl · 2026-11-05 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-11-05 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-05 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-05 | „D341 Zabudowa bliźniacza WT2021” → „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-05 | Pojawił się komunikat: „D445 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-05 | „DM3 WT2021 wersja drewniana” → „D237D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-05 | Pojawił się komunikat: „D295D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-11-05 | Zmiana komunikatu oferty: „Promocja od 02.11.2026 koniec za” → „Promocja od 04.11.2026 koniec za” | Sprawdzono w serwisie |
-| uarchitekta.pl · 2026-11-04 | Pojawił się komunikat: „TECHNOLOGIE BUDOWY DOMÓW SZKIELETOWYCH – PORÓWNANIE ROZWIĄZAŃ”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Dom szkieletowy czy murowany? Koszt, czas budowy i trwałość w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-04 | Pojawił się komunikat: „Zakończenie budowy domu: zawiadomienie czy pozwolenie na użytkowanie w 2026”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-04 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Magnolia II L to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-04 | Pojawił się komunikat: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
+| studioatrium.pl · 2026-11-05 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
+| projektyka.pl · 2026-11-05 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
+| projektygebala.com · 2026-11-05 | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | Zaobserwowana zmiana |
+| projektygebala.com · 2026-11-05 | Pojawił się komunikat: „Jak to wygląda krok po kroku”. | Zaobserwowana zmiana |
+| projektygebala.com · 2026-11-05 | „Dostajesz komplet dokumentacji. Prowadzimy sprawy urzędowe do uzyskania pozwolenia na budowę.” → „Dostajesz komplet dokumentacji. Na podstawie pełnomocnictwa prowadzimy sprawy urzędowe aż do uzyskania pozwol…”. | Zaobserwowana zmiana |
+| projektygebala.com · 2026-11-05 | „Jak powstaje projekt na zamówienie” → „Jak powstaje projekt indywidualny”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „ESTER L z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zab…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowi…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |

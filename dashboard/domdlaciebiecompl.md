@@ -4,47 +4,33 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [Klara IV](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
 
-**1 zmian w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.domdlaciebie.com.pl/)
+[Otwórz stronę źródłową](https://domdlaciebie.com.pl)
 
-**Odczyty:** 17.11.2026 05:49 → 18.11.2026 05:49 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fdomdlaciebie.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-**Bez zmian w zapisanej komunikacji**
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
 
-**Odczyty:** 17.11.2026 05:49 → 18.11.2026 05:49 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fdomdlaciebie.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%0A%0AOpis%3A)
+**Brak odczytu**
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie · Typ domu dwupokoleniowe na wąską działkę nowoczesne typu stodoła nowoczesny rezydencje stylowy tradycyjne wille miejskie z dachem dwuspadowym z dachem płaskim z dachem wielospadowym bez kalenicy z dachem wielospadowym z kalenicą z dużą kotłownią z możliwością adaptacji do technologii szkieletowe z ogrzewaniem gazowym z ogrzewaniem na paliwo stałe z pokojem na parterze z serii ECO z wjazdem od południa z wydzieloną kotłownią ze stropem betonowym ze stropem drewnianym: stylowy | Nie odnotowano w tym odczycie | <strong>Zamów bezpłatny katalog</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
+Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-9-przed.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 17.11.2026 05:58 | Po · 18.11.2026 06:01 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-9-przed.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 

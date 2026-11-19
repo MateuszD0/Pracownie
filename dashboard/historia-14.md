@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| kbprojekt.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-11 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dom parterowy z trzema sypialniami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
-| dompp.pl · 2026-11-11 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-11 | „"Work Sans"” → „"Montserrat Thin"”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-11 | „normalny (400)” → „300”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
-| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
-| dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| archi-projekt.com.pl · 2026-11-11 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
-| archdom.pl · 2026-11-11 | Pojawił się komunikat: „STODOŁA MINI 3 BG UNI EKO”. | Potwierdzono ponownym odczytem |
-| 3ddom.pl · 2026-11-11 | Zmiana komunikatu oferty: „Promocja od 07.11.2026 koniec za” → „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Potwierdzono ponownym odczytem |
-| projektydomowzbali.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-10 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| pro-arte.pl · 2026-11-10 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
+| eg-domy.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Piętrowy dom na wąską działkę”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-13 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-13 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
+| domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| domoweklimaty.pl · 2026-11-13 | Pojawił się komunikat: „Nowoczesna stodoła - parter”. | Potwierdzono ponownym odczytem |
+| dom-projekt.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 10.11.2026 roku do dnia 12.11.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| archstodola.pl · 2026-11-13 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| archiportal.pl · 2026-11-13 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Potwierdzono ponownym odczytem |
+| archipelag.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja listopadowa! 15% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |

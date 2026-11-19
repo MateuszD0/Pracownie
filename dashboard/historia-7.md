@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| galeriadomow.pl · 2026-11-15 | „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Poradnik od czego zacząć budowę domu”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Bezpłatna zgoda na zmiany”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pakiet extra dodatków o wartości 4100 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Extra dodatki za 1 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „PDF · bezpłatnie”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Bezpłatne pozwolenie na zmiany”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
-| mtmstyl.com.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann” | Sprawdzono w serwisie |
-| mtmstyl.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację.”. W sprawdzonym serwisie znaleziono również: „Atrakcyjne PROMOCJE” | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-14 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
-| mgprojekt.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-17 | Pojawił się komunikat: „Saved For Later”. | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 157; pisząc do nas e-mail na adres: biuro@hbstudio.pl; wypełniając formularz zamó…” | Do sprawdzenia |
+| e-domy.pl · 2026-11-17 | „Dom namiotowy z 3 sypialniami” → „Dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
+| dompp.pl · 2026-11-17 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
+| dominanta.pl · 2026-11-17 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 103 243.09 m2 7 3 2 12177,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość Tylko u Autora domidea 1 w6 127.65 m2 4 3 0 6150,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” | Sprawdzono w serwisie |
+| domideaprojekt.pl · 2026-11-17 | Zmiana komunikatu oferty: „Nowość domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” | Sprawdzono w serwisie |
+| archstodola.pl · 2026-11-17 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Kontynuuj zakupy”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | „Koszyk 1 1 pozycja” → „Koszyk”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizuj zakup”. | Do sprawdzenia |
+| projektyka.pl · 2026-11-16 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
+| pracowniaprojektowa.info · 2026-11-16 | Zmiana komunikatu oferty: „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-16 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „No items to show”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Saved For Later”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |

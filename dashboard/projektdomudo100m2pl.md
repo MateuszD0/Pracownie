@@ -4,117 +4,33 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**6 zmian w zapisanym zakresie.**
+**Niepełne porównanie — sprawdź zakres obu stron.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/)
+[Otwórz stronę źródłową](https://projektdomudo100m2.pl)
 
-**Odczyty:** 17.11.2026 10:48 → 18.11.2026 11:08 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fprojektdomudo100m2.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.projektdomudo100m2.pl%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie | <strong>Open</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.projektdomudo100m2.pl/) |
-| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Open Asystent AI</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/) |
-
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 17.11.2026 10:48 | Po · 18.11.2026 11:08 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
-
-- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
-- Animowany lub niestabilny tekst; nie potwierdzono zmiany komunikatu.
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-
-Przykłady z zapisów:
-
-- brak → Dzień dobry! 👋 Jestem Asystentem AI firmy Brumar. Pomogę Ci wybrać projekt domu i odpowiem na pytania na podstawie sprawdzonych informacji.…
-- Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu? → brak
-- Masz pytanie o projekt? Napisz tutaj → brak
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
-
-Porównanie: 17.11.2026 10:48 → 18.11.2026 11:08 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://www.projektdomudo100m2.pl/)
-
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-11-po.jpg)
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://projektdomudo100m2.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "htm
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Odczyty:** 17.11.2026 10:48 → 18.11.2026 11:08 (czas polski).
+**Odczyty:** 18.11.2026 11:08 → brak odczytu (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-18%2Fprojektdomudo100m2.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.projektdomudo100m2.pl%2Fprojekt-domu-parterowego-100m2%2F%0A%0AOpis%3A)
+**Brak odczytu**
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie · Karta projektu · Open Asystent AI | Nie odnotowano w tym odczycie | <strong>Close Asystent AI</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Open Asystent AI</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| Funkcjonalności · Opcja na stronie | <strong>Open</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| Funkcjonalności · Opcja na stronie · Karta projektu · Open Asystent AI | <strong>Close</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę cz
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-12-po.jpg)
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 17.11.2026 10:50 | Po · 18.11.2026 11:11 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-dowod-12-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
-
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
-- Animowany lub niestabilny tekst; nie potwierdzono zmiany komunikatu.
-- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
-
-Przykłady z zapisów:
-
-- Masz pytanie o projekt? Napisz tutaj → brak
-- Dzień dobry! W czym mogę Ci pomóc przy wyborze projektu domu? → brak
-- brak → Dzień dobry! 👋 Jestem Asystentem AI firmy Brumar. Pomogę Ci wybrać projekt domu i odpowiem na pytania na podstawie sprawdzonych informacji.…
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
-
-### Grafika i wygląd — różnica do obejrzenia
-
-**Zmieniła się zawartość obrazu: górna część strony**
-
-Porównanie: 17.11.2026 10:48 → 18.11.2026 11:08 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
-
-[Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
-
-
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 

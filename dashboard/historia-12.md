@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
-| eg-domy.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Piętrowy dom na wąską działkę”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-13 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-13 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-13 | Pojawił się komunikat: „Nowoczesna stodoła - parter”. | Potwierdzono ponownym odczytem |
-| dom-projekt.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 10.11.2026 roku do dnia 12.11.2026 roku.” | Do sprawdzenia |
-| dom-projekt.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
-| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| archstodola.pl · 2026-11-13 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| archiportal.pl · 2026-11-13 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Potwierdzono ponownym odczytem |
-| archipelag.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja listopadowa! 15% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| archipelag.pl · 2026-11-13 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
-| archi-projekt.com.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POMIESZCZENIA GOSPODARCZE - SPERSONALIZUJ WNĘTRZE WYBIERAJĄC PROJEKT WŁASNEGO DOMU”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Zobacz dodatki” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Nasz darmowy katalog”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA OFERTA STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-13 | Nowa promocja w komunikacji: „Nadchodzi Black Friday, największa promocja roku 🔥” | Sprawdzono w serwisie |
+| projektydomowzbali.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| projektstodola.pl · 2026-11-13 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
+| pro-arte.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
+| postawdom24.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja trwa do 12 listopada 2026”. W sprawdzonym serwisie znaleziono również: „Dostawa i Dodatki” | Do sprawdzenia |
+| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „Nowość w naszej ofercie: Pierwszy projekt garażu 13 listopada 2026 Pierwszy projekt garażu Faro w nastrojowej, jesiennej odsłonie... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „FORMA – nowość wśród naszych projektów typowych 02 października 2026 FORMA to kolejna propozycja w naszej kolekcji projektów typowych – funkcjonalna, wyrazista i dopracowana w każ…”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „FORMA w artystycznej odsłonie – poznaj nasz projekt domu z innej perspektywy 06 listopada 2026 Poznaj projekt FORMA i zobacz go z zupełnie innej perspektywy.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „VIVIA – nowe spojrzenie 09 października 2026 Tym razem nie pokazujemy VIVII tylko jako gotowego domu, pozwalamy spojrzeć na nią jak na architektoniczny szkic, w którym forma,... C…”. | Potwierdzono ponownym odczytem |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636” | Sprawdzono w serwisie |

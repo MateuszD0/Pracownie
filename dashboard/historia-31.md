@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…” → „Laura L z Opusdom jest wygodnym, reprezentacyjnym parterowym domem z nieużytkowym poddaszem i wbudowanym dwus…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | „Piotruś jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej…” → „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-03 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
-| mtmstyl.com.pl · 2026-11-03 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-11-03 | „Jerzy 2026-10-18 \[licznik\]” → „tOMASZ s 2026-10-27 \[licznik\]”. | Zaobserwowana zmiana |
-| mgprojekt.com.pl · 2026-11-03 | „Dariusz Zalewski 2026-10-23 \[licznik\]” → „Karol F 2026-10-28 \[licznik\]”. | Zaobserwowana zmiana |
-| mgprojekt.com.pl · 2026-11-03 | „Wiktoria Berol 2026-10-13 \[licznik\]” → „Aneta 2026-11-01 \[licznik\]”. | Zaobserwowana zmiana |
-| kupprojekt.pl · 2026-11-03 | „Ciężarowe i dostawcze 146” → „Ciężarowe i dostawcze 148”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PRA\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO ŻYCIA\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-03 | „salon + 3 pokoje garaż: 1 101.67 m²” → „salon + 3 pokoje garaż: 2 100.00 m²”. | Zaobserwowana zmiana |
-| eg-domy.pl · 2026-11-03 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| ecodomy.pl · 2026-11-03 | „ZOBACZ NOWY PROJEKT ECO 53” → „ZOBACZ NOWY PROJEKT ECO 52”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-03 | Pojawił się komunikat: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-03 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO PRA\|” → „PROJEKTUJEMY MIEJSCA DO P\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-04 | „PROJEKTUJEMY MIEJSCA DO R\|” → „PROJEKTUJEMY MIEJSCA DO ŻYC\|”. | Zaobserwowana zmiana |
+| eg-domy.pl · 2026-11-04 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-04 | Pojawił się komunikat: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-04 | Pojawił się komunikat: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-04 | „Katalog 06/26:” → „Katalog 08/26:”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „Great reading too 180 faster”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| dobredomy.pl · 2026-11-04 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| dobredomy.pl · 2026-11-04 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| artinex-projekt.pl · 2026-11-04 | „D331A Zabudowa bliźniacza WT2021” → „D341 Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-04 | „D153BD WT2021 wersja drewniana” → „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-04 | W nowym zapisie nie ma komunikatu: „D292C WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| 3ddom.pl · 2026-11-04 | Zmiana komunikatu oferty: „Promocja od 31.10.2026 koniec za” → „Promocja od 02.11.2026 koniec za” | Sprawdzono w serwisie |
+| zbudujsamdom.pl · 2026-11-03 | „Zapłać za pomocą banku” → „Zapłać za pomocą banku lub raty”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-11-03 | „Budowa domu murowanego 104 m2 w Kamiennej Górze – poszukiwana firma budowlana” → „Budowa domu murowanego 35m2 z antresolą w Ostrowitem – poszukiwana firma budowlana”. | Zaobserwowana zmiana |

@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Stała karta projektu:** jeszcze nie wybrana — brak poprawnego odczytu.
 
@@ -20,7 +20,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Brak odczytu**
 
-Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "http://domyzmieta.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_length"
 
 ## Karta projektu
 
@@ -32,5 +32,5 @@ Adres karty zostanie podany po poprawnym wyborze projektu.
 
 Powód braku odczytu: Nie ustalono poprawnej karty projektu.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 

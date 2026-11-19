@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| artinex-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-06 | „D237D WT2021 wersja drewniana” → „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-06 | „D295D WT2021 wersja drewniana” → „D421 wersja drewniana”. | Zaobserwowana zmiana |
-| archiportal.pl · 2026-11-06 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
-| archipelag.pl · 2026-11-06 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| archipelag.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
-| archi-projekt.com.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-03, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| 3ddom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 04.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
+| projektyzwizja.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
+| projektydomowzbali.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
+| pro-arte.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
+| planujdom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Sara jest wygodnym niepodpiwniczonym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „LILI to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | Pojawił się komunikat: „Gotowe projekty domów Opusdom”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | „Strona główna &gt;&gt; Produkty &gt;&gt; Ami II” → „Strona główna &gt;&gt; Projekty domów &gt;&gt; Ami II”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| nowoczesne-projektydomow.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Projekt Architektoniczno-Konstrukcyjny Domu B651 - wersja bez instalacji - Gratis Dodatki”. W sprawdzonym serwisie znaleziono również: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
+| mtmstyl.com.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |

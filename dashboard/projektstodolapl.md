@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [Projekt Dwie Stodoły](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
 
@@ -32,5 +32,5 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 

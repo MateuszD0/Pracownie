@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Aby odpowiedzieć na pytanie, jaki jest najczęściej kupowany projekt domu, trzeba racjonalnie określić kryteria wyboru. Nie sposób wskazać jednego projektu, stylu architektoniczneg…”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Jaki jest najczęściej kupowany projekt domu? Przegląd trendów w budownictwie jednorodzinnym.”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | Pojawił się komunikat: „Co nowego przy Imbirowej? NOWOŚĆ – Dom przy Imbirowej 11”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Potwierdzono ponownym odczytem |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Next”. | Do sprawdzenia |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Previous”. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Nowoczesna stodoła z poddaszem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i dachem dwuspadowym”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i z gabinetem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem na wąską działkę”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-18 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| dobredomy.pl · 2026-11-18 | „Dodaj do ulubionych” → „Usuń z ulubionych”. | Do sprawdzenia |
-| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| archstodola.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „PARTEROWY DOM Z ZADASZONYM TARASEM – JAK WYBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DOM TRADYCYJNY CZY NOWOCZESNY? JAK WYBRAĆ STYL DOMU”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „STAN ZERO BUDYNKU – CO OBEJMUJE I JAK ZAPLANOWAĆ TEN ETAP?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DZIAŁKA POD BLIŹNIAKA – WYMIARY, WARUNKI ZABUDOWY I PODZIAŁ”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „BUDOWA DOMU NA SKARPIE – KIEDY MA SENS I JAK DOBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
+| dompp.pl · 2026-11-19 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
+| dominanta.pl · 2026-11-19 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | Nowy dodatek lub pakiet: „Dodatki oznaczone PDF wysyłamy e-mailem na adres podany w zamówieniu.” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-18 | „Projekty małej architektury 1700 zł W pakiecie” → „Projekty małej architektury 1700 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | „Bądź ENERGO 120 zł W pakiecie” → „Bądź ENERGO 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | Nowa promocja w komunikacji: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-18 | „Poradnik Inwestora 120 zł W pakiecie” → „Poradnik Inwestora 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | „Jak urządzić ogród 120 zł W pakiecie” → „Jak urządzić ogród 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-18 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-18 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-18 | Pojawił się komunikat: „KSZTAŁT DACHU A OCIEPLENIE PODDASZA PIANĄ PUR”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „JAKIE ZNACZENIE MA GEOTECHNIKA W PROCESIE BUDOWY DOMU”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Termoizolacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Parametry”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Odzysk ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Orientacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Okna i drzwi”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Technologia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zyski cieplne”. | Do sprawdzenia |

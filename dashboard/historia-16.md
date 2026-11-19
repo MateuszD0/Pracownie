@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| archeton.pl · 2026-11-10 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Potwierdzono ponownym odczytem |
-| alexanderstudio.pl · 2026-11-10 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 2026-11-10, koniec za:” | Sprawdzono w serwisie |
-| 3ddom.pl · 2026-11-10 | Nowa promocja w komunikacji: „Promocja od 07.11.2026 koniec za” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-09 | Pojawił się komunikat: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Pod koniec roku 2021 nawiązaliśmy współpracę z Panią Kamilą. Zdecydowaliśmy się na zakup projektu HG 01 passive Pani Kamila dokładnie dostosowała projekt do naszych potrzeb. Dziś,…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Dodatkowo Pani Kamila pomogła stworzyć garaż oraz dodatkowe zadaszenia i pozwolenie na budowę. Jestem osobą, która chce wiedzieć jak najwięcej i zadaje pytania, szuka informacji.…”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Gdybym miał wybierać jeszcze raz,”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila. Gdybym miał wybierać jeszcze raz, bez wahania zdecydowałbym się na ponowną współpracę. Pani Kami…”. | Zaobserwowana zmiana |
+| postawdom24.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja trwa do 12 listopada 2026” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-11 | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
+| mgprojekt.com.pl · 2026-11-11 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-11 | „Tak niską cenę gwarantujemy do 10 listopada 2026” → „Tak niską cenę gwarantujemy do 20 listopada 2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-11 | „\| 1,2 tys. opinii \| stan na: 02.11.2026” → „\| 1,2 tys. opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-11 | „\| 794 opinii \| stan na: 02.11.2026” → „\| 794 opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-11 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dom parterowy z trzema sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| dompp.pl · 2026-11-11 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | „"Work Sans"” → „"Montserrat Thin"”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | „normalny (400)” → „300”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| archi-projekt.com.pl · 2026-11-11 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
+| archdom.pl · 2026-11-11 | Pojawił się komunikat: „STODOŁA MINI 3 BG UNI EKO”. | Potwierdzono ponownym odczytem |

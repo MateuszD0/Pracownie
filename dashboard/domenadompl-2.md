@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-08 → 2026-11-09**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [Domena 169 A1](https://domenadom.pl/p/domena-169-a1-i532)
 
-**42 zmian w zapisanym zakresie.**
+**46 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,37 +18,41 @@ Strony porównania: [1](domenadompl.md) · **2**
 
 [Otwórz stronę źródłową](https://domenadom.pl/)
 
-**Odczyty:** 08.11.2026 07:44 → 09.11.2026 16:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:04 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie | <strong>12 of 14</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
-| Funkcjonalności · Opcja na stronie | <strong>10 of 14</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
-| Funkcjonalności · Opcja na stronie | <strong>2 of 14</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
-| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>14 of 15</strong> | [Otwórz stronę](https://domenadom.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Domena 171 C5NOWOŚĆ</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide00) |
-| Zmiany wyglądu · Układ · Domena 168 A | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>636 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide07) |
-| Zmiany wyglądu · Układ · Domena 169 A | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>636 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide06) |
-| Zmiany wyglądu · Położenie i rozmiar: Domena 171 C NOWOŚĆ (32 px w prawo) | <strong>416</strong> × 134 px; położenie: <strong>734</strong> px od lewej, 163 px od góry | <strong>384</strong> × 134 px; położenie: <strong>766</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide01) |
-| Zmiany wyglądu · Położenie i rozmiar: Domena 171 C3 (302 px w prawo) | <strong>384</strong> × 134 px; położenie: <strong>130</strong> px od lewej, 163 px od góry | <strong>416</strong> × 134 px; położenie: <strong>432</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide05) |
-| Zmiany wyglądu · Układ · Domena 169 A1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>604 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide03) |
-| Zmiany wyglądu · Położenie i rozmiar: Domena 171 C5 NOWOŚĆ (32 px w lewo) | <strong>384</strong> × 134 px; położenie: <strong>766</strong> px od lewej, 163 px od góry | <strong>416</strong> × 134 px; położenie: <strong>734</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide00) |
-| Zmiany wyglądu · Położenie i rozmiar: Domena 145 B2 (603 px w prawo) | <strong>384</strong> × 134 px; położenie: <strong>130</strong> px od lewej, 163 px od góry | <strong>417</strong> × 134 px; położenie: <strong>733</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide012) |
-| Zmiany wyglądu · Rozmiar: Domena 211 A | <strong>417</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | <strong>384</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide010) |
-| Zmiany wyglądu · Układ · Domena 171 C4 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>302 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide04) |
-| Zmiany wyglądu · Rozmiar: Domena 164 C | <strong>416</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | <strong>384</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide013) |
-| Zmiany wyglądu · Układ · Domena 171 C2 NOWOŚĆ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>604 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide02) |
-| Zmiany wyglądu · Układ · Domena 210 B1 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>603 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide011) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>6 of 11</strong> | [Otwórz stronę](https://domenadom.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Domena 169 A</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Domena 171 C3</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Domena 164 C</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
+| Komunikacja sprzedażowa · Baner | Domena <strong>145</strong> <strong>B2</strong> | Domena <strong>171</strong> <strong>C1</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide010) |
+| Komunikacja sprzedażowa · Baner | <strong>Domena 209 C1</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domenadom.pl/) |
+| Zmiany wyglądu · Układ · 2 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control01) |
+| Zmiany wyglądu · Układ · 1 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control00) |
+| Zmiany wyglądu · Rozmiar: Domena 210 B1 | <strong>384</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | <strong>417</strong> × 134 px; położenie: 130 px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide09) |
+| Zmiany wyglądu · Układ · 3 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control02) |
+| Zmiany wyglądu · Układ · Domena 212 A | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>636 px</strong> w <strong>lewo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide07) |
+| Zmiany wyglądu · Układ · 7 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control06) |
+| Zmiany wyglądu · Układ · 4 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control03) |
+| Zmiany wyglądu · Układ · 5 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control04) |
+| Zmiany wyglądu · Układ · 8 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control07) |
+| Zmiany wyglądu · Układ · 10 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control09) |
+| Zmiany wyglądu · Układ · 11 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control010) |
+| Zmiany wyglądu · Układ · 6 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control05) |
+| Zmiany wyglądu · Położenie i rozmiar: Domena 171 C1 (604 px w prawo) | <strong>384</strong> × 134 px; położenie: <strong>130</strong> px od lewej, 163 px od góry | <strong>416</strong> × 134 px; położenie: <strong>734</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide010) |
+| Zmiany wyglądu · Układ · 9 of 11 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>44 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://domenadom.pl/#slick-slide-control08) |
+| Zmiany wyglądu · Położenie i rozmiar: Domena 168 A (334 px w prawo) | <strong>416</strong> × 134 px; położenie: <strong>432</strong> px od lewej, 163 px od góry | <strong>384</strong> × 134 px; położenie: <strong>766</strong> px od lewej, 163 px od góry | [Otwórz stronę](https://domenadom.pl/#slick-slide05) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domenadom.pl/p/domena-169-a1-i532)
 
-**Odczyty:** 08.11.2026 07:44 → 09.11.2026 16:03 (czas polski).
+**Odczyty:** 18.11.2026 05:49 → 19.11.2026 05:04 (czas polski).
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+**Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-09/2026-11-09-2026-11-09t152653.795323-0000-format-0e3baf3d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 
 Strony porównania: [1](domenadompl.md) · **2**
 

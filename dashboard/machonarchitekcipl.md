@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-18 → 2026-11-19**
 
 **Ten sam projekt:** [Dom na zgłoszenie 70m2](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
@@ -16,17 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/)
 
-**Odczyty:** brak odczytu → 18.11.2026 11:21 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-**Niepełny zakres porównania**
+**Brak odczytu**
+
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfikację żądania…", "html\_
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://machonarchitekci.pl/dom-na-zgloszenie-70m2/)
 
-**Odczyty:** brak odczytu → 18.11.2026 11:21 (czas polski).
+**Odczyty:** brak odczytu → brak odczytu (czas polski).
 
-**Niepełny zakres porównania**
+**Brak odczytu**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+Powód braku odczytu: Niekompletny dokument HTTP 200: {"url": "https://machonarchitekci.pl/dom-na-zgloszenie-70m2/", "title": "Proszę czekać…", "text\_length": 37, "text\_sample": "Proszę czekać na weryfi
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t040222.492921-0000-b63be254-porownanie.html)
 

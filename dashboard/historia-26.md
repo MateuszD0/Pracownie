@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| opusdom.pl · 2026-11-05 | „Promyczek z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem, przeznaczonym. Zalety teg…” → „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prost…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Garaż OP1a to prosty budynek garażu jednostanowiskowego z pomieszczeniem gospodarczym polecany dla inwestorów posiadających dom bez garażu lub wąską działkę.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „KARMEL BL z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Został zaprojektowany z naciskiem na nowoczesny wygląd i funkcjonalność.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Lars z Opusdom jest wygodnym parterowym domem o nowoczesnej stylistyce. Dom ma prostą, zwartą bryłę z dwuspadowym dachem, co wpływa na szybkość budowy.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Funkcjonalność i prostota rozwiązań, przy jednoczesnym nowoczesnym wyglądzie domu oraz zastosowaniu rozwiązań energooszczędnych to podstawowe zalety tego projektu.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Autor: arch. Marek Oczkowwski”. | Zaobserwowana zmiana |
-| kupprojekt.pl · 2026-11-05 | „Ciężarowe i dostawcze 148” → „Ciężarowe i dostawcze 149”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO P\|” → „PROJEKTUJEMY MIEJSCA DO PRAC\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO ŻYC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO RELAK\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | Zaobserwowana zmiana |
-| kbprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-05 | Pojawił się komunikat: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-05 | „Dom parterowy o prostej bryle” → „Dom parterowy z garażem”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
+| domdlaciebie.com.pl · 2026-11-06 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-06 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |
+| dom-projekt.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 03.11.2026 roku do dnia 05.11.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-06 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| artinex-projekt.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „D331 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-06 | „D237D WT2021 wersja drewniana” → „D292D WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-06 | „D295D WT2021 wersja drewniana” → „D421 wersja drewniana”. | Zaobserwowana zmiana |
+| archiportal.pl · 2026-11-06 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Zaobserwowana zmiana |
+| archipelag.pl · 2026-11-06 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| archipelag.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Kiedy warto wybrać mur jednowarstwowy, a kiedy ścianę z ociepleniem?”. | Zaobserwowana zmiana |
+| archi-projekt.com.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł”. W sprawdzonym serwisie znaleziono również: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 600 zł” | Do sprawdzenia |
+| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
+| alexanderstudio.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-03, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
+| 3ddom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 04.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
+| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
+| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |

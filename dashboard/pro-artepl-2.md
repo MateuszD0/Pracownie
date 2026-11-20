@@ -33,7 +33,7 @@ Strony porównania: [1](pro-artepl.md) · **2**
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>250 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | Zmiany wyglądu · Układ · Realizacja projektu domu - TRYPOLIS 8 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>65 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 
 Strony porównania: [1](pro-artepl.md) · **2**
 

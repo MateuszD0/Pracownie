@@ -32,5 +32,5 @@ Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
 Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 

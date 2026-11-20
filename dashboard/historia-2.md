@@ -21,8 +21,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 390 zł”. | Potwierdzono ponownym odczytem |
 | archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 590 zł”. | Potwierdzono ponownym odczytem |
 | archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 190 zł”. | Potwierdzono ponownym odczytem |
-| archdom.pl · 2026-11-20 | Zauważono etykietę: „Promocja kończy się za:”. | Do sprawdzenia |
 | archdom.pl · 2026-11-20 | Pojawił się komunikat: „NOWOŚĆ”. | Do sprawdzenia |
+| archdom.pl · 2026-11-20 | Zauważono etykietę: „Promocja kończy się za:”. | Do sprawdzenia |
 | 3ddom.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-19 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-19 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |

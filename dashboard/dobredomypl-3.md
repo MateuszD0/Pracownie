@@ -56,7 +56,7 @@ Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · **3** · [4]
 
 Pozostałe strony tego porównania zawierają 46 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · **3** · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · [6](dobredomypl-6.md)
 

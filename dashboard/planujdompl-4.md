@@ -41,7 +41,7 @@ Pozostałe strony tego porównania zawierają 48 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Dodaj do ulubionych | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#content) |
 | Zmiany wyglądu · Układ · Szukaj | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>41 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#view) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 
 Strony porównania: [1](planujdompl.md) · [2](planujdompl-2.md) · [3](planujdompl-3.md) · **4**
 

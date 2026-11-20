@@ -42,7 +42,7 @@ Pozostałe strony tego porównania zawierają 9 różnic tej strony; użyj numer
 | Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>52 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archetyp.pl/projekt/lifi/#slider2) |
 | Zmiany wyglądu · Układ · OPIS PROJEKTU | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>51 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archetyp.pl/projekt/lifi/#project) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 
 Strony porównania: [1](archetyppl.md) · **2**
 

@@ -9,8 +9,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
 | sej-pro.pl · 2026-11-20 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-20 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4091,12 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-20 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4575,12 5199,- Najniższa cena z 30 dni przed obniżką: 5199”. | Potwierdzono ponownym odczytem |
 | pro-arte.pl · 2026-11-20 | Nowa promocja w komunikacji: „RABAT 500 ZŁ” | Sprawdzono w serwisie |
 | postawdom24.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja trwa do 30 listopada 2026” | Sprawdzono w serwisie |

@@ -4,15 +4,15 @@
 
 **2026-11-19 → 2026-11-20** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 94/112 pracowni.** · **18 wymaga uwagi.**
+**Porównano obie strony: 96/112 pracowni.** · **16 wymaga uwagi.**
 
 <!-- delivery:2026-11-20 -->Planowany start skanu: 09:00 · Pierwsza publikacja: 09:58 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 205/224 stron (w tym częściowe: 13). Bez odczytu: 19. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 12). Bez odczytu: 18. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 20.11.2026 09:22 – 20.11.2026 09:28, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 20.11.2026 09:22 – 20.11.2026 10:02, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 <details><summary>Oceny trafności alertów</summary>
 
@@ -107,7 +107,7 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | **archiportal.pl**<br>Karta projektu<br>Komunikacja sprzedażowa | Tracja 11 Strop drewniany wersja podstawowa 4 199 zł<br><sub>19.11.2026 11:51</sub> | Tracja 11 Strop drewniany wersja podstawowa 4 199 zł3 999 zł<br><sub>20.11.2026 09:22</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-archiportalpl.md#zdarzenie-ff62ea77ffccddd2)<br>[Otwórz stronę](https://archiportal.pl/projekt-tracja11-sd) |
 | **e-domy.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Nowoczesny dom z płaskim dachem<br><sub>19.11.2026 11:53</sub> | Nie odnotowano w tym zapisie<br><sub>20.11.2026 09:24</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-e-domypl.md#zdarzenie-70f4d6618f1adcd2)<br>[Otwórz stronę](https://www.e-domy.pl/) |
 | **eg-domy.pl**<br>Strona główna · Karta projektu<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>19.11.2026 11:53</sub> | BLACK WEEK Gotowe projekty domów - 400 PLN w dniach 20-30.11.2026<br><sub>20.11.2026 09:24</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-eg-domypl.md#zdarzenie-31606b8e6a10ca82)<br>[Otwórz stronę](https://eg-domy.pl/#swiper-wrapper-64ee4201db371867) |
-| **opprojekt.com.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Premiera w naszej bazie: Poznaj projekt Luna 2G – Twój ulubiony dom teraz w wersji z garażem! 16 października 2026 Zobacz Lunę 2G w jesiennej odsłonie.... Czytaj więcej<br><sub>19.11.2026 11:54</sub> | Nie odnotowano w tym zapisie<br><sub>20.11.2026 09:26</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-opprojektcompl.md#zdarzenie-2c784eb0bbf347ec)<br>[Otwórz stronę](https://opprojekt.com.pl/) |
+| **opprojekt.com.pl**<br>Strona główna<br>Komunikacja sprzedażowa | Premiera w naszej bazie: Poznaj projekt Luna 2G – Twój ulubiony dom teraz w wersji z garażem! 16 października 2026 Zobacz Lunę 2G w jesiennej odsłonie.... Czytaj więcej<br><sub>19.11.2026 11:54</sub> | Nie odnotowano w tym zapisie<br><sub>20.11.2026 10:02</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-opprojektcompl.md#zdarzenie-2c784eb0bbf347ec)<br>[Otwórz stronę](https://opprojekt.com.pl/) |
 | **archeton.pl**<br>Karta projektu<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>19.11.2026 19:29</sub> | Najniższa cena z ostatnich 30 dni 3 390 zł<br><sub>20.11.2026 09:22</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-831c8bd031f7240e)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932) |
 | **archeton.pl**<br>Karta projektu<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>19.11.2026 19:29</sub> | Najniższa cena z ostatnich 30 dni 3 590 zł<br><sub>20.11.2026 09:22</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-bdc9b13e59d4028a)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-835) |
 | **archeton.pl**<br>Karta projektu<br>Komunikacja sprzedażowa | Nie odnotowano w tym zapisie<br><sub>19.11.2026 19:29</sub> | Najniższa cena z ostatnich 30 dni 3 190 zł<br><sub>20.11.2026 09:22</sub> | **Priorytet: Standardowy**<br>**Potwierdzono ponownym odczytem**<br>Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony. | [Przed / po →](dashboard/zdarzenia-archetonpl.md#zdarzenie-cb5a87a2cf78025f)<br>[Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1534) |
@@ -154,7 +154,7 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 
 ## Braki porównania
 
-**18 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**16 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
 ### Odczyt działa — potrzebna historia · 2 stron
 
@@ -163,7 +163,7 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | [projektstodola.pl](dashboard/projektstodolapl.md#strona-główna)<br>Strona główna | **Dzisiejszy odczyt działa; luka historii**<br>Poprzedni zapis pochodzi sprzed 5 dni. | Zachowano dzisiejszy zapis. Do porównania dzień do dnia potrzebny jest kolejny poprawny skan. |
 | [projektstodola.pl](dashboard/projektstodolapl.md#karta-projektu)<br>Karta projektu | **Dzisiejszy odczyt działa; luka historii**<br>Poprzedni zapis pochodzi sprzed 5 dni. | Zachowano dzisiejszy zapis. Do porównania dzień do dnia potrzebny jest kolejny poprawny skan. |
 
-### Problemy wymagające naprawy · 29 stron
+### Problemy wymagające naprawy · 27 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
@@ -180,7 +180,7 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | [domyigaraze.pl](dashboard/domyigarazepl.md#strona-główna)<br>Strona główna | **Dostęp odrzucony przez serwis**<br>Witryna blokuje dostęp ze skanera (403). | Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło. |
 | [domyigaraze.pl](dashboard/domyigarazepl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
 
-[Dalsze strony 13–29](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–27](dashboard/odczyty-repair-2.md)
 
 
 
@@ -334,9 +334,16 @@ Historia zdarzeń (1480): [1](dashboard/historia-1.md) · [2](dashboard/historia
 - **hbstudio.pl**: 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto · od 2026-11-14; następna próba: 2026-11-21
 - **hexagreen.pl**: brak · od 2026-11-13; następna próba: 2026-11-21
 - **mgprojekt.com.pl**: Promocja w MGPROJEKT · od 2026-10-30; następna próba: 2026-11-21
+
+<details><summary>Wcześniejsze wydania tego dnia</summary>
+
+- [20.11.2026 09:57](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+
+</details>
+
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 99/112; stałe karty: 94/112; łącznie 193/224 stron z porównaniem.
+Strony główne: 99/112; stałe karty: 96/112; łącznie 195/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -360,8 +367,8 @@ różnice obrazu bez jednoznacznego opisu: **12 pracowni**.
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [domato.pl](dashboard/domatopl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-10-po.jpg) |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-11-po.jpg) |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-10-po.jpg) |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-11-po.jpg) |
 | [lipinscy.pl](dashboard/lipinscypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [nowoczesne-projektydomow.pl](dashboard/nowoczesne-projektydomowpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -399,7 +406,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [horyzont.com](dashboard/horyzontcom.md) · **WRD** | Bez ustalonej zmiany · obserwacje w szczegółach | 3 zmian · Promocje i rabaty |
 | [mgprojekt.com.pl](dashboard/mgprojektcompl.md) · **WAH** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md) · **KRZ** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
-| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | 1 zmian · Komunikacja sprzedażowa | Częściowe · 36 zgodnych tekstów |
+| [opprojekt.com.pl](dashboard/opprojektcompl.md) · **TBO** | 1 zmian · Komunikacja sprzedażowa | Bez zmian w zapisanej komunikacji |
 | [opusdom.pl](dashboard/opusdompl.md) · **WRY** | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [planujdom.pl](dashboard/planujdompl.md) · **ABP** | 1 zmian · Promocje i rabaty | 2 zmian · Promocje i rabaty, Komunikacja sprzedażowa |
 | [postawdom24.pl](dashboard/postawdom24pl.md) · **JGC** | Bez ustalonej zmiany · obserwacje w szczegółach | 1 zmian · Promocje i rabaty |
@@ -473,7 +480,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [studioatrium.pl](dashboard/studioatriumpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez zmian w zapisanej komunikacji | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [klimatdrewna.pl](dashboard/klimatdrewnapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [myhome.eco](dashboard/myhomeeco.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |

@@ -57,7 +57,7 @@ Strony porównania: [1](postawdom24pl.md) · [2](postawdom24pl-2.md) · **3** ·
 | Zmiany wyglądu · Układ · zobacz swój prezent | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#main) |
 | Zmiany wyglądu · Układ · bw-36 wariant 6 ogrod.jpg | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>54 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416#333) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
 
 Strony porównania: [1](postawdom24pl.md) · [2](postawdom24pl-2.md) · **3** · [4](postawdom24pl-4.md)
 

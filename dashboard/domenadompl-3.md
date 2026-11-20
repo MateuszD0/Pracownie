@@ -57,7 +57,7 @@ Strony porównania: [1](domenadompl.md) · [2](domenadompl-2.md) · **3** · [4]
 | Zmiany wyglądu · Układ · Elwewacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>70 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domenadom.pl/p/domena-169-a1-i532) |
 | Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>70 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://domenadom.pl/p/domena-169-a1-i532) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
 
 Strony porównania: [1](domenadompl.md) · [2](domenadompl-2.md) · **3** · [4](domenadompl-4.md)
 

@@ -40,13 +40,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-2-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-2-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 19.11.2026 11:51 | Po · 20.11.2026 09:22 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-2-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-2-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -83,13 +83,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 | Zmiany wyglądu · Układ · Go to slide 4 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>106 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/?PageSpeed=off#pg-thumbnails-3911-slide04) |
 | Zmiany wyglądu · Układ · Go to slide 3 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>106 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archdom.pl/produkt/projekt-domu-aksamitka/?PageSpeed=off#pg-thumbnails-3911-slide03) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-3-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-3-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-3-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-3-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 19.11.2026 12:00 | Po · 20.11.2026 09:32 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-3-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-3-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -111,5 +111,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
 

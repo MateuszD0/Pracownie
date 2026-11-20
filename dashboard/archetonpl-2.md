@@ -38,7 +38,7 @@ Strony porównania: [1](archetonpl.md) · **2**
 | Zmiany wyglądu · Układ ·  | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#content-wrapper) |
 | Zmiany wyglądu · Układ · zdjecie\_z\_logo\_glowne\_standard - Antałek: Projekt małego domu z poddaszem, z dachem dwuspadowym, bez garażu. - wizualiza | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1534) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
 
 Strony porównania: [1](archetonpl.md) · **2**
 

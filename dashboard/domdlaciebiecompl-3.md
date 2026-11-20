@@ -40,7 +40,7 @@ Pozostałe strony tego porównania zawierają 40 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · Klara IV - elewacja boczna | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>50 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#zakladki_tabopisContent) |
 | Zmiany wyglądu · Układ · NEWSLETTER | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>50 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#sec-footer) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
 
 Strony porównania: [1](domdlaciebiecompl.md) · [2](domdlaciebiecompl-2.md) · **3**
 

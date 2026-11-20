@@ -12,7 +12,7 @@ Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 12). Bez odczytu: 18. Por�
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 20.11.2026 09:22 – 20.11.2026 10:02, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 20.11.2026 09:22 – 20.11.2026 17:30, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 <details><summary>Oceny trafności alertów</summary>
 
@@ -338,6 +338,7 @@ Historia zdarzeń (1480): [1](dashboard/historia-1.md) · [2](dashboard/historia
 <details><summary>Wcześniejsze wydania tego dnia</summary>
 
 - [20.11.2026 09:57](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
+- [20.11.2026 10:07](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-porownanie.html)
 
 </details>
 
@@ -367,8 +368,8 @@ różnice obrazu bez jednoznacznego opisu: **12 pracowni**.
 | [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [domato.pl](dashboard/domatopl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [dominanta.pl](dashboard/dominantapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-10-po.jpg) |
-| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t090136.295628-0000-6a1dbbe5-dowod-11-po.jpg) |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-10-po.jpg) |
+| [domoweklimaty.pl](dashboard/domoweklimatypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-11-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-dowod-11-po.jpg) |
 | [lipinscy.pl](dashboard/lipinscypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [nowoczesne-projektydomow.pl](dashboard/nowoczesne-projektydomowpl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [praktyczneprojekty.pl](dashboard/praktyczneprojektypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |

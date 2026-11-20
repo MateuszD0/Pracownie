@@ -57,7 +57,7 @@ Strony porównania: [1](domdlaciebiecompl.md) · **2** · [3](domdlaciebiecompl-
 | Zmiany wyglądu · Układ · Poradnik Dom Dla Ciebie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>50 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#sec-bottom-menu) |
 | Zmiany wyglądu · Układ · Warunki zakupu projektu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>50 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#sec-bottom-menu) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
 
 Strony porównania: [1](domdlaciebiecompl.md) · **2** · [3](domdlaciebiecompl-3.md)
 

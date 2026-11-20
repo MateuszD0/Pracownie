@@ -56,7 +56,7 @@ Strony porównania: [1](domenadompl.md) · **2** · [3](domenadompl-3.md) · [4]
 
 Pozostałe strony tego porównania zawierają 49 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
 
 Strony porównania: [1](domenadompl.md) · **2** · [3](domenadompl-3.md) · [4](domenadompl-4.md)
 

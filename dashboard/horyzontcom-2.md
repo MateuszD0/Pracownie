@@ -41,7 +41,7 @@ Pozostałe strony tego porównania zawierają 6 różnic tej strony; użyj numer
 | Zmiany wyglądu · Układ · JAK KORZYSTAĆ ZE SCHEMATU | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>52 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://horyzont.com/projekty-domow/erni-2#hz-situation-help-117) |
 | Zmiany wyglądu · Układ · Projekt domu Erni — widok z przodu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>52 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://horyzont.com/projekty-domow/erni-2#uk-tab-11) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t163026.189015-0000-123c7322-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
 
 Strony porównania: [1](horyzontcom.md) · **2**
 

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-17 → 2026-11-18**
+**2026-11-19 → 2026-11-20**
 
 **Ten sam projekt:** [Celia Mini](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html)
 
-**26 zmian w zapisanym zakresie.**
+**32 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,21 +18,27 @@ Strony porównania: [1](archetonpl.md) · **2**
 
 [Otwórz stronę źródłową](https://archeton.pl/)
 
-**Odczyty:** 17.11.2026 05:48 → 18.11.2026 05:48 (czas polski).
+**Odczyty:** 19.11.2026 19:29 → 20.11.2026 09:22 (czas polski).
 
-Pozostałe strony tego porównania zawierają 13 różnic tej strony; użyj numerów stron powyżej.
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html)
 
-**Odczyty:** 17.11.2026 05:48 → 18.11.2026 05:48 (czas polski).
+**Odczyty:** 19.11.2026 19:29 → 20.11.2026 09:22 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>4 of 7</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html) |
+| Zmiany wyglądu · Układ · equalizer | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932) |
+| Zmiany wyglądu · Układ · equalizer | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-835) |
+| Zmiany wyglądu · Układ · zdjecie\_z\_logo\_glowne\_standard - Beza Duo: Projekt małego domu do zabudowy bliźniaczej, z poddaszem. - wizualizacje zewn | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-932) |
+| Zmiany wyglądu · Układ · Podobne projekty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#content-wrapper) |
+| Zmiany wyglądu · Układ · zdjecie\_z\_logo\_glowne\_standard - Alan: Projekt małego domu z poddaszem, z dachem dwuspadowym, z piwnicą . - wizualizacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-835) |
+| Zmiany wyglądu · Układ ·  | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#content-wrapper) |
+| Zmiany wyglądu · Układ · zdjecie\_z\_logo\_glowne\_standard - Antałek: Projekt małego domu z poddaszem, z dachem dwuspadowym, bez garażu. - wizualiza | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>57 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html#product-1534) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-18/2026-11-18-2026-11-18t113624.675308-0000-32017dd2-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
 
 Strony porównania: [1](archetonpl.md) · **2**
 

@@ -6,59 +6,59 @@
 
 [dobredomy.pl — wszystkie odczyty](dobredomypl.md)
 
-## Zdarzenie 1ee552d40ad2a8ce
+## Zdarzenie 1fe998854bf8e52f
 
-**W nowym zapisie nie ma komunikatu: „Nie, dziękuję”.**
+**Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty”**
 
-**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
+**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Dodaj do ulubionych | <strong>Nie, dziękuję</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Promocja do –300 zł na wybrane projekty</strong> | [Otwórz stronę](https://www.dobredomy.pl/#promotionalBanner) |
 
-[Karta projektu](https://www.dobredomy.pl/projekt/jantarVII/)
+[Strona główna](https://www.dobredomy.pl/#promotionalBanner) · [Karta projektu](https://www.dobredomy.pl/projekt/jantarVII/#promotionalBanner)
 
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 18.11.2026 06:00 | Po · 19.11.2026 12:01 |
+| Przed · 19.11.2026 11:51 | Po · 20.11.2026 09:23 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-14-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-5-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2F1ee552d40ad2a8ce%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENie%2C+dzi%C4%99kuj%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2F1ee552d40ad2a8ce%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENie%2C+dzi%C4%99kuj%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2F1ee552d40ad2a8ce%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENie%2C+dzi%C4%99kuj%C4%99%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F1fe998854bf8e52f%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+do+%E2%80%93300+z%C5%82+na+wybrane+projekty%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F1fe998854bf8e52f%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+do+%E2%80%93300+z%C5%82+na+wybrane+projekty%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F1fe998854bf8e52f%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+do+%E2%80%93300+z%C5%82+na+wybrane+projekty%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie f68377ff8d4f3d1f
+## Zdarzenie 3759cd5111d94fbe
 
-**W nowym zapisie nie ma komunikatu: „Chcę być na bieżąco”.**
+**Nowa promocja w komunikacji: „Do końca promocji pozostało:”**
 
-**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
+**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Dodaj do ulubionych | <strong>Chcę być na bieżąco</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Do końca promocji pozostało:</strong> | [Otwórz stronę](https://www.dobredomy.pl/#promotionalBanner) |
 
-[Karta projektu](https://www.dobredomy.pl/projekt/jantarVII/)
+[Strona główna](https://www.dobredomy.pl/#promotionalBanner) · [Karta projektu](https://www.dobredomy.pl/projekt/jantarVII/#promotionalBanner)
 
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 18.11.2026 06:00 | Po · 19.11.2026 12:01 |
+| Przed · 19.11.2026 11:51 | Po · 20.11.2026 09:23 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-14-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-14-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-5-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2Ff68377ff8d4f3d1f%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EChc%C4%99+by%C4%87+na+bie%C5%BC%C4%85co%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2Ff68377ff8d4f3d1f%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EChc%C4%99+by%C4%87+na+bie%C5%BC%C4%85co%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-19%2Ff68377ff8d4f3d1f%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EChc%C4%99+by%C4%87+na+bie%C5%BC%C4%85co%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2Fprojekt%2FjantarVII%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F3759cd5111d94fbe%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F3759cd5111d94fbe%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F3759cd5111d94fbe%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+dobredomy.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.dobredomy.pl%2F%23promotionalBanner%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

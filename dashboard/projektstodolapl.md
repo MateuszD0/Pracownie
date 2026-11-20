@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-18 → 2026-11-19**
+**2026-11-19 → 2026-11-20**
 
 **Ten sam projekt:** [Projekt Dwie Stodoły](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
 
@@ -14,23 +14,19 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 ## Strona główna
 
-[Otwórz stronę źródłową](https://projektstodola.pl)
+[Otwórz stronę źródłową](https://projektstodola.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 15.11.2026 10:23 → 20.11.2026 09:27 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
+**Luka 5 dni · brak porównania z wczoraj**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://projektstodola.pl/produkt/projekt-dwie-stodoly/)
 
-**Odczyty:** 15.11.2026 10:23 → brak odczytu (czas polski).
+**Odczyty:** 15.11.2026 10:23 → 20.11.2026 09:27 (czas polski).
 
-**Brak odczytu**
+**Luka 5 dni · brak porównania z wczoraj**
 
-Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
 

@@ -6,31 +6,59 @@
 
 [planujdom.pl — wszystkie odczyty](planujdompl.md)
 
-## Zdarzenie 43c70171f5aa3a89
+## Zdarzenie 506b56728b757964
 
-**Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy”**
+**Nowa promocja w komunikacji: „BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;”**
 
-**Do sprawdzenia** · Monitor sprawdzi ofertę ponownie; brak baneru nie potwierdza jej zakończenia.
+**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Baner | <strong>WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://planujdom.pl/) |
+| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;</strong> | [Otwórz stronę](https://planujdom.pl/#view) |
 
-[Strona główna](https://planujdom.pl/) · [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/)
+[Strona główna](https://planujdom.pl/#view) · [Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#view)
 
 Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 15.11.2026 10:23 | Po · 16.11.2026 10:38 |
+| Przed · 19.11.2026 11:55 | Po · 20.11.2026 09:26 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-16/2026-11-16-2026-11-16t105718.997829-0000-e2008025-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-17-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F43c70171f5aa3a89%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F43c70171f5aa3a89%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-16%2F43c70171f5aa3a89%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nie+odnotowano+wcze%C5%9Bniejszego+komunikatu%3A+%E2%80%9EWYBRANE+PROJEKTY+Z+RABATEM+-15%25+%C5%81ap+okazj%C4%99%21%21%21+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D.+W+sprawdzonym+serwisie+znaleziono+r%C3%B3wnie%C5%BC%3A+%E2%80%9EGRATIS+Tablica+budowy%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F506b56728b757964%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EBLACK+WEEK+%21%21%21+WSZYSTKIE+PROJEKTY+DOM%C3%93W+Z+RABATEM+-+20%25+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23view%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F506b56728b757964%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EBLACK+WEEK+%21%21%21+WSZYSTKIE+PROJEKTY+DOM%C3%93W+Z+RABATEM+-+20%25+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23view%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F506b56728b757964%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EBLACK+WEEK+%21%21%21+WSZYSTKIE+PROJEKTY+DOM%C3%93W+Z+RABATEM+-+20%25+Do+ko%C5%84ca+promocji%3A+%5Blicznik%5D+Zobacz+%3E%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2F%23view%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 582b3674843bebc0
+
+**Pojawił się komunikat: „Najniższa cena z 30 dni przed obniżką: 2960,00 zł.”.**
+
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Najniższa cena z 30 dni przed obniżką: 2960,00 zł.</strong> | [Otwórz stronę](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#content) |
+
+[Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#content)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 19.11.2026 11:55 | Po · 20.11.2026 09:26 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-18-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F582b3674843bebc0%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+2960%2C00+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2Fprojekty-domow%2Fprojekt-domu-d-072%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F582b3674843bebc0%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+2960%2C00+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2Fprojekty-domow%2Fprojekt-domu-d-072%2F%23content%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F582b3674843bebc0%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+planujdom.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENajni%C5%BCsza+cena+z+30+dni+przed+obni%C5%BCk%C4%85%3A+2960%2C00+z%C5%82.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fplanujdom.pl%2Fprojekty-domow%2Fprojekt-domu-d-072%2F%23content%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

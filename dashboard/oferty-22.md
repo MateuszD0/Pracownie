@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | W cenie | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Zamów bezpłatną analizę +48 577 667 541 | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| skahus.pl | Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%. | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatna analiza mpzp/wz dla działki pod nasz projekt domu szkieletowego | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
-| skahus.pl | Bezpłatny, uproszczony kosztorys dla naszego projektu domu szkieletowego | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://skahus.pl/) |
-| slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | 10% RABATU | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | po uruchomieniu kredytu na budowę domu, dokonamy częściowego zwrotu kosztów zakupu naszego projektu na zasadach opisanych w Regulaminie promocji. | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | GRATISY DO PROJEKTU: | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat za zdjęcia -10% | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Poinformuj nas o planowanych w projekcie domu zmianach, a my uwzględnimy je w treści dokumentu, który bezpłatnie dołączymy do zamówionego przez Ciebie projektu. | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | PŁATNE DODATKI DO PROJEKTU / RABATY | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat na pompę ciepła | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Rabat na kocioł gazowy | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | Kosztorys uproszczony | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| slonecznedomy.pl | W projekcie zaprojektowano wentylację grawitacyjną. Możliwość zmiany na wentylację mechaniczną z rekuperatorem po zakupie dodatku do projektu (patrz dodatki do projektu). | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
-| sprytnaoaza.pl | Sprytny projekt: Dom w cenie mieszkania | Obecna w zapisie · 19.11.2026 11:57<br>[Źródło](https://sprytnaoaza.pl/) |
+| projektyzwizja.pl | W celu poprawienia energooszczędności budynku oferujemy dodatkowe opracowania instalacyjne. Dodatkowe opracowania możesz zamówić łącznie z projektem lub oddzielnie korzystając z formularza zamówienia projektu. Jeżeli któryś z dodatków ma podany dłuższy czas realizacji niż projekt domu to wysyłamy go w określonym terminie oddzielną, bezpłatną przesyłką. | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Bezpłatną zgodę na zmiany | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Sprawdź informacje o technologii budowy, zawartości dokumentacji, warunkach zabudowy, zmianach i adaptacji, kosztorysach oraz zasadach zakupu | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Czy dom Idealny M3 jest energooszczędny? Tak, projekt Idealny M3 został zaprojektowany z myślą o maksymalnej energooszczędności. W cenie projektu uwzględniono wentylację mechaniczną z rekuperatorem oraz kolektory słoneczne, które zapewniają wysoki komfort cieplny i ograniczają zużycie energii. Dodatkowo, na etapie adaptacji możesz zdecydować się na takie rozwiązania jak ogrzewanie podłogowe, pomp… | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Projekt energooszczędny z rekuperacją w standardzie i szeroką opcją dodatków poprawiających bilans energetyczny. | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| sej-pro.pl | i bądź na bieżąco ze wszystkimi nowościami i promocjami. | Obecna w zapisie · 20.11.2026 09:27 · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Budujesz domy na sprzedaż? Wybierając nasze projekty SEJ-PRO stawiasz na sprawdzone i ekonomiczne rozwiązania. Posiadamy w ofercie projekty domów przeznaczone dla dewelopera. Mogą to być zarówno domy jednorodzinne, jak i bliźniacze, wielorodzinne czy tzw. szeregówki. Bez względu na to, na których z tych wariantów się zdecydujesz, współpraca z naszą firmą w tej formie zapewnia wiele różnorodnych k… | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | W cenie projektu | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | 3 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | pakiet extra dodatków | Obecna w zapisie · 20.11.2026 09:27 · 20.11.2026 09:27 · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/) · [Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | W cenie projektu 3 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków | Obecna w zapisie · 20.11.2026 09:27<br>[Źródło](https://www.sej-pro.pl/) |
+| sej-pro.pl | Już 20.11 rusza Black Friday, największa promocja roku! 🔥 | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Extra dodatki za 1 zł | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Dodatki oznaczone PDF wysyłamy e-mailem na adres podany w zamówieniu. | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Pakiet extra dodatków 1 zł | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | Kosztorys inwestorski 600 zł | Obecna w zapisie · 20.11.2026 09:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |

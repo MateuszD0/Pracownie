@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pioroarchitekci.pl | KOSZTORYS | Obecna w zapisie · 19.11.2026 19:29<br>[Źródło](https://www.pioroarchitekci.pl/projekty-domow/8-pa-10.html) |
-| planujdom.pl | Bezpłatna wymiana do 30 dni, zwrot do 14 dni | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna zgoda na zmiany w projekcie | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna charakterystyka energetyczna | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Tablica budowy | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | GRATIS Dziennik budowy | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatna konsultacja z architektem | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| planujdom.pl | Bezpłatnie sprawdzimy projekt pod Twoją działkę | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://planujdom.pl/projekty-domow/projekt-domu-d-072/) |
-| pollio.pl | Projekt budowlany i adaptacja: 0 zł w cenie generalnego wykonawstwa Projekt X35. Nowoczesna stodoła Kategoria Domy w stylu stodoły Standard Generalne wykonawstwo pod klucz | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Superenergooszczędne pakiety trzyszybowe z ciepłą ramką dystansową TGI. Eliminują mostki termiczne, ograniczają straty ciepła i zapewniają optymalne doświetlenie pomieszczeń. | Obecna w zapisie · 19.11.2026 11:55 · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) · [Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Energooszczędna nowoczesna stodoła zrealizowana w surowym klimacie Islandii. Konstrukcja wzmocniona na wiatry do 160 km/h, pokrycie blachą na rąbek, izolacja PIR i trzyszybowe pakiety termoizolacyjne. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | W cenie obsługi | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | ZAMÓW PRECYZYJNY KOSZTORYS → | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Nie sprzedajemy projektów na papierze do samodzielnej budowy. Wznosimy domy w standardzie generalnego wykonawstwa — pełna dokumentacja, adaptacja i formalności za 0 zł w cenie umowy budowlanej z 10-letnią pisemną gwarancją. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Od projektu do odbioru kluczy: bezpłatnie przeanalizujemy Twoją działkę (MPZP, warunki gruntowe, usytuowanie), zaadaptujemy projekt architektoniczny (0 zł w umowie), uzyskamy pozwolenie na budowę i wzniesiemy dom z 10-letnią gwarancją na konstrukcję nośną. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Zgłoś działkę do bezpłatnej analizy | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Projekt budowlany i adaptacja: 0 zł w cenie generalnego wykonawstwa | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Pełna elastyczność materiałowa dla inwestora: Powyższe zestawienie to nasza rekomendowana baza projektowa. Jeśli preferujesz innych producentów materiałów ściennych, izolacyjnych, stolarki lub pokrycia dachowego (np. silikaty, beton komórkowy, wełnę drzewną, okna aluminiowe) — nasi inżynierowie bezpłatnie uwzględnią Twoje wytyczne w kosztorysie budowy. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Pozwolenie na budowę: W cenie obsługi | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) |
-| pollio.pl | Bezpłatna analiza działki | Obecna w zapisie · 19.11.2026 11:55 · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/) · [Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | GRATIS | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Zamów bezpłatną wycenę budowy | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Przemyślany podział na strefę dzienną, sypialną oraz gospodarczą. Możliwość bezpłatnych modyfikacji ścian działowych. | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
-| pollio.pl | Standardy realizacji i pakiety budowy | Obecna w zapisie · 19.11.2026 11:55<br>[Źródło](https://pollio.pl/projekty-domow/projekt/xb8/) |
+| mtmstyl.com.pl | GRATIS ! | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatna wysyłka | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Ten dodatkowy koszt z pewnością znacząco nie nadszarpnie budżetu inwestycji, a pozwoli precyzyjnie wycenić poszczególne etapy prac budowlanych oraz będzie przydatne w negocjacjach z wykonawcą. Kosztorys może być również podstawą do ubiegania się o kredyt hipoteczny. Narzędzie to pozwala stworzyć harmonogram prac ściśle powiązany z własnymi możliwościami finansowymi. Zaletą kosztorysu w wersji ele… | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Kosztorys budowlany uwzględnia wyłącznie część budowlaną robót – bez instalacji. Instalacje zostały uwzględnione jedynie wskaźnikowo w tabelach elementów zapisanych w formacie programu Excel. | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatny PAKIET DODATKÓW | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatny | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | PAKIET DODATKÓW | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Dodatki w DOBREJ CENIE | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Kosztorys budowlany | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Budowa domu - bezpłatna wycena firmy Wolf Haus | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | BEZPŁATNA WYCENA | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Bezpłatna wycena poszczególnych etapów budowy | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Projekty domów w cenie mieszkania | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Najniższa cena 30 dni przed promocją 5749 zł | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| mtmstyl.com.pl | Do końca PROMOCJI pozostało | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
+| nowoczesne-projektydomow.pl | Dopuszczamy zmiany zastosowanych materiałów, zmianę funkcji domu jak również gabarytów budynku. Do projektu dołączona jest bezpłatna zgoda Autorów domu na wprowadzenie dowolnych zmian. | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
+| opusdom.pl | PROMOCJA NA ADAPTACJĘ | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](https://opusdom.pl/) |
+| opusdom.pl | Specjalnie dla Inwestorów, którzy chcą kupić projekt z oferty OPUSDOM i zacząć budowę na wiosnę, mamy adaptację projektu z rabatem - zapytaj o Adaptację w Promocji | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](https://opusdom.pl/) |
+| opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
+| partero.pl | Dołącz do klubu Partero! Zapisz się do newslettera by nie przegapić nowych projektów i promocji! Zapisz się | Obecna w zapisie · 20.11.2026 09:26 · 20.11.2026 09:26<br>[Źródło](https://www.partero.pl/) · [Źródło](https://www.partero.pl/partero-01) |
+| penthus.pl | Kosztorys | Obecna w zapisie · 20.11.2026 09:26<br>[Źródło](https://www.penthus.pl/projects/hus-167) |

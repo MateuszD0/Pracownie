@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-18 → 2026-11-19**
+**2026-11-19 → 2026-11-20**
 
 **Ten sam projekt:** [Zobacz podobne projekty](https://domywzieleni.pl/projekt/teseida/)
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domywzieleni.pl/)
 
-**Odczyty:** 18.11.2026 05:50 → 19.11.2026 11:53 (czas polski).
+**Odczyty:** 19.11.2026 11:53 → 20.11.2026 09:24 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fdomywzieleni.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomywzieleni.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomywzieleni.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomywzieleni.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,26 +26,26 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domywzieleni.pl/projekt/teseida/)
 
-**Odczyty:** 18.11.2026 05:50 → 19.11.2026 11:53 (czas polski).
+**Odczyty:** 19.11.2026 11:53 → 20.11.2026 09:24 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-19%2Fdomywzieleni.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomywzieleni.pl%2Fprojekt%2Fteseida%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomywzieleni.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomywzieleni.pl%2Fprojekt%2Fteseida%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>To Top</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Kontakt</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Aktualności</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>O Nas</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Wnętrza</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Oferta</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Wnętrza</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#menu-item-2233) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>O Nas</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#menu-item-2227) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Aktualności</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#menu-item-1867) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Kontakt</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#menu-item-1868) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>To Top</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#toc) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Oferta</strong> | [Otwórz stronę](https://domywzieleni.pl/projekt/teseida/#menu-item-2024) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-18-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-33-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 18.11.2026 05:50 | Po · 19.11.2026 11:53 |
+| Przed · 19.11.2026 11:53 | Po · 20.11.2026 09:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-dowod-18-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-33-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-dowod-33-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -58,12 +58,12 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 Przykłady z zapisów:
 
-- Projekty domów → brak
-- 1264 × 12580 px; położenie: 8 px od lewej, 16 px od góry → 1264 × 12277 px; położenie: 8 px od lewej, 16 px od góry
+- brak → Projekty domów
+- 1264 × 12277 px; położenie: 8 px od lewej, 16 px od góry → 1264 × 12580 px; położenie: 8 px od lewej, 16 px od góry
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-19/2026-11-19-2026-11-19t182854.073644-0000-811d1790-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t082146.584531-0000-f96e443f-porownanie.html)
 

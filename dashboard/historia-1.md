@@ -10,12 +10,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
 | studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
 | sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
 | sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
-| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
 | projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-11-21 | Nowa promocja w komunikacji: „% PROMOCJA” | Sprawdzono w serwisie |
 | projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
@@ -23,6 +23,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
 | horyzont.com · 2026-11-21 | „Tax (w tym 23%)” → „w tym VAT (23%)”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
@@ -32,4 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |

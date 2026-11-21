@@ -8,7 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
 | ecodomy.pl · 2026-11-21 | Pojawił się komunikat: „ELEWACJE”. | Do sprawdzenia |
 | e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy na planie kwadratu”. | Potwierdzono ponownym odczytem |

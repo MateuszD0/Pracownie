@@ -33,9 +33,13 @@ def normalize(text: str, ignore_patterns: list[str] | None = None) -> str:
     return text
 
 
-def amount(value: str) -> str | None:
+def amount(value: str, *, displayed: bool = False) -> str | None:
     text = re.sub(r"\s", "", value)
-    if "." in text and "," in text:
+    if displayed and re.fullmatch(r"[1-9]\d{0,2}([.,])\d{3}(?:\1\d{3})*", text):
+        # A localized currency label can group thousands with either separator.
+        # A machine-readable price such as JSON-LD 4.400 is a decimal number.
+        text = re.sub(r"[.,]", "", text)
+    elif "." in text and "," in text:
         text = text.replace(".", "").replace(",", ".") if text.rfind(",") > text.rfind(".") else text.replace(",", "")
     else:
         text = text.replace(",", ".")
@@ -43,6 +47,19 @@ def amount(value: str) -> str | None:
         return str(Decimal(text).quantize(Decimal("0.01")))
     except InvalidOperation:
         return None
+
+
+def restore_dom_field(field: Field) -> None:
+    """Apply current price semantics to the original visible currency token."""
+    if field.source != "dom" or field.category != "ceny":
+        return
+    match = MONEY.fullmatch(field.value)
+    if match and currency_code(match[2]) == field.currency:
+        field.amount = amount(match[1], displayed=True)
+    if field.label.count("[cena]") == 1 and re.match(r"^Cena widoczna:\s*[-−–]\s*\[cena\]", field.label):
+        field.category = "promocje"
+        field.role = "discount"
+        field.label = field.label.replace("Cena widoczna:", "Kwota rabatu:", 1)
 
 
 def currency_code(value: str) -> str:
@@ -105,7 +122,8 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
         )
     price_keys: dict[str, int] = {}
     for entry in payload.get("prices", []):
-        for match in MONEY.finditer(money_text(entry["text"])):
+        visible = money_text(entry["text"])
+        for match in MONEY.finditer(visible):
             label = normalize(money_text(entry.get("context") or entry["text"]), ignore_patterns)
             role = "poprzednia" if re.search(r"DEL|^S\b|old|regular|previous|line-through", entry.get("type", ""), re.I) else "widoczna"
             if "najniższa" in label.casefold() and len(MONEY.findall(label)) == 1:
@@ -116,10 +134,12 @@ def extract_fields(payload: dict, observed_at: str, ignore_patterns: list[str] |
             if price_keys[identifier] > 1:
                 identifier += f":{price_keys[identifier]}"
             currency = currency_code(match[2])
+            discount = visible[:match.start()].strip() in {"-", "−", "–"} or re.search(r"\bpriceDiscount\b", entry.get("type", ""), re.I)
             fields[identifier] = Field(
-                label=f"Cena {role}: {stable_label}", value=match[0], category="ceny", amount=amount(match[1]),
+                label=f"Kwota rabatu: {stable_label}" if discount else f"Cena {role}: {stable_label}",
+                value=match[0], category="promocje" if discount else "ceny", amount=amount(match[1], displayed=True),
                 currency=currency, section="oferta", observed_at=observed_at,
-                source="dom", role="regular" if role == "poprzednia" else "lowest30" if role == "najniższa z 30 dni" else "current",
+                source="dom", role="discount" if discount else "regular" if role == "poprzednia" else "lowest30" if role == "najniższa z 30 dni" else "current",
                 primary=bool(entry.get("primary")),
             )
     for product in payload.get("products", []):

@@ -19,6 +19,10 @@ on:
         description: Oznacz jako automatyczne ponowienie (limit 2 dziennie)
         type: boolean
         default: false
+      missing_report_day:
+        description: 'Kontroler: rozpocznij skan tylko, gdy nadal brakuje raportu z tego dnia (YYYY-MM-DD)'
+        type: string
+        default: ''
       scope:
         description: Zakres skanu (pilot ma oddzielne archiwum i stan)
         type: choice
@@ -72,20 +76,21 @@ jobs:
         run: uv sync --frozen
       - name: Sprawdź porę i gotowość dzisiejszego raportu
         id: schedule
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || (inputs.automatic_recovery && inputs.missing_report_day != '')
         run: uv run python -m pracownie.schedule
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
           SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
+          MISSING_REPORT_DAY: ${{ inputs.missing_report_day }}
       - name: Chromium i OCR
-        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
+        if: steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'
         run: |
           uv run playwright install --with-deps chromium
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-pol
       - name: Testy przed skanem
-        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
+        if: steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'
         run: uv run pytest -q -m 'not browser'
       - name: Zakres naprawy po wdrożeniu
         id: deployment
@@ -102,7 +107,7 @@ jobs:
                   output.write('repair_domains=' + match[1] + '\n')
           PY
       - name: Skan, raport i trwały zapis
-        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
+        if: steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPORT_EMAIL_CONFIGURED: ${{ secrets.REPORT_EMAIL_TO != '' && secrets.SMTP_PASSWORD != '' }}
@@ -137,7 +142,7 @@ jobs:
 
       - name: Sprawdź dostępność opcjonalnego adresu WWW
         id: pages
-        if: github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'
+        if: steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'
         run: uv run python -m pracownie.web --check-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

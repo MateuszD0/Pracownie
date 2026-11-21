@@ -11,7 +11,7 @@ import httpx
 from .github import GitHubStore
 from .model import WARSAW
 from .readiness import repair_domains
-from .timing import BACKUP_START, PRIMARY_START
+from .timing import BACKUP_START, MISSING_REPORT_CUTOFF, PRIMARY_START
 
 PRIMARY_CRON = "0 7 * * *"
 PRIMARY_WINTER_CRON = "0 8 * * *"
@@ -47,10 +47,27 @@ def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
     return dict(result, run_scan=True, reason="Brak zatwierdzonego dzisiejszego raportu. Uruchamiam pełny skan.")
 
 
+def missing_report_gate(day: str, now: datetime, remote: GitHubStore) -> dict:
+    if now.utcoffset() is None:
+        raise ValueError("Harmonogram wymaga daty ze strefą czasową")
+    local = now.astimezone(WARSAW)
+    today = local.date().isoformat()
+    result = {"day": today, "run_scan": False, "late": local.time() > PRIMARY_START}
+    if day != today or not PRIMARY_START <= local.time() < MISSING_REPORT_CUTOFF:
+        return dict(result, reason="Minęło okno odzyskania raportu dla wskazanego dnia.")
+    if remote.published_report(day):
+        return dict(result, reason="Dzisiejszy raport opublikowano w czasie oczekiwania na uruchomienie.")
+    return dict(result, run_scan=True, reason="Odzyskuję brakujący dzisiejszy raport.")
+
+
 def main() -> None:
     remote = GitHubStore(os.environ["GITHUB_REPOSITORY"], os.environ.get("GITHUB_TOKEN", ""))
     try:
-        result = daily_gate(os.environ.get("SCHEDULE_EXPRESSION", ""), datetime.now(UTC), remote)
+        now = datetime.now(UTC)
+        if day := os.environ.get("MISSING_REPORT_DAY"):
+            result = missing_report_gate(day, now, remote)
+        else:
+            result = daily_gate(os.environ.get("SCHEDULE_EXPRESSION", ""), now, remote)
         message = f"{result['day']}: {result['reason']}"
         print(message)
         if result["late"] and result["run_scan"]:

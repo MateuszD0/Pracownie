@@ -23,7 +23,11 @@ def normalized(value: str | None) -> str:
 
 def generic_offer_label(value: str | None) -> bool:
     """An isolated label/countdown is an observation, not offer terms."""
-    return bool(value and re.fullmatch(r'(?:promocj(?:a|e|i|ę|ą|om|ami|ach)|(?:do końca|koniec) promocji|promocja kończy się za)[\s!?.:»>→]*', value.strip(), re.I))
+    return bool(value and re.fullmatch(
+        r'(?:(?:%\s*)?promocj(?:a|e|i|ę|ą|om|ami|ach)|cena promocyjna|'
+        r'(?:do końca|koniec) promocji|promocja kończy się za)[\s!?.:»>→]*',
+        value.strip(), re.I,
+    ))
 
 
 def display_check(check: dict, before: str | None, after: str | None) -> dict:
@@ -38,7 +42,7 @@ def display_check(check: dict, before: str | None, after: str | None) -> dict:
 
 
 def concrete(text: str) -> bool:
-    return bool(CLAIM.search(text) and not NAVIGATION.fullmatch(text.strip())
+    return bool(CLAIM.search(text) and not generic_offer_label(text) and not NAVIGATION.fullmatch(text.strip())
                 and not re.search(r'<\s*/?\s*(?:img|div|script|span|iframe)\b', text, re.I))
 
 
@@ -162,7 +166,7 @@ def assess(change: Change, url: str, documents: list[dict], *, complete: bool) -
             if expired:
                 status, summary = 'expired', f'Komunikat z minionym terminem oferty ({expired}): ' + quote(change.after)
             proof = [{'url': repeat['url'], 'text': change.after, 'observed_at': repeat['observed_at']}]
-            if NAVIGATION.fullmatch((change.after or '').strip()):
+            if generic_offer_label(change.after) or NAVIGATION.fullmatch((change.after or '').strip()):
                 status, summary = 'label_only', 'Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: ' + quote(change.after)
         elif old and exact_record(repeat, old):
             status, summary = 'still_present', 'Komunikat nadal występuje po ponownym odczycie: ' + quote(change.before)

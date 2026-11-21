@@ -4,6 +4,8 @@ from datetime import time
 PRIMARY_START = time(9)
 BACKUP_START = time(10, 30)
 READINESS_CHECK = time(10, 50)
+REPAIR_CUTOFF = time(12)
+MISSING_REPORT_CUTOFF = time(21)  # Allow room for the 75-minute scan before local midnight.
 START_TIME_EFFECTIVE_DAY = '2026-11-20'
 
 

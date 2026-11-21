@@ -3,12 +3,23 @@ from __future__ import annotations
 
 import html
 import re
+from decimal import Decimal
 from urllib.parse import quote
 
-from .briefing import build_briefing, coverage_text, delivery_text, markdown_briefing, markdown_event
+from .briefing import (
+    LABELS,
+    build_briefing,
+    coverage_text,
+    delivery_text,
+    event_value,
+    markdown_briefing,
+    markdown_event,
+)
+from .financial import codes, financial_data, markdown_financial, meaningful_discount
 from .journal import safe_source
 from .management import brief, build_management, page_finding
-from .presentation import when
+from .presentation import money, when
+from .relationships import group_for
 
 
 def cell(value) -> str:
@@ -57,6 +68,79 @@ def proof_links(evidence: dict, previews: dict) -> str:
     return ' · '.join(link(label, previews[evidence[k]]) for k, label in fields if evidence.get(k) in previews)
 
 
+def markdown_daily_decisions(view: dict, financial: dict, events: list[dict], event_targets: dict) -> list[str]:
+    changes = financial['changes']
+    cheaper = [r for r in changes if Decimal(r['delta']) < 0]
+    dearer = [r for r in changes if Decimal(r['delta']) > 0]
+    lines = ['## Najważniejsze zmiany dnia', '']
+    if financial['paired']:
+        lines += [f"Obniżki **{len(cheaper)}** · podwyżki **{len(dearer)}** · "
+                  f"porównane ceny **{len(financial['paired'])}/{len(view['rows'])} projektów**.", '']
+    else:
+        lines += ['Brak porównywalnych cen z obu dni.', '']
+
+    def studio(domain):
+        label = {'partner': 'Współpracująca', 'other': 'Niewspółpracująca'}.get(group_for(view, domain))
+        return '**' + cell(domain) + '**' + (' · ' + label.lower() if label else '')
+
+    # Ordinary Markdown lists wrap within the viewport on GitHub mobile.
+    for movement, label in [(cheaper, 'Obniżka'), (dearer, 'Podwyżka')]:
+        if not movement:
+            continue
+        # Relative change remains comparable across currencies.
+        row = max(movement, key=lambda r: abs(Decimal(r.get('percent') or 0)))
+        percent = ''
+        if row.get('percent') is not None:
+            magnitude = abs(Decimal(row['percent'])).normalize()
+            percent = ' o ' + format(magnitude, 'f').replace('.', ',') + '%'
+        lines += [
+            '- **' + label + percent + '** · ' + studio(row['domain']) + '<br>'
+            + cell(row['name']) + '<br>'
+            + 'Wczoraj ' + cell(money(row['previous'])) + ' → **dziś ' + cell(money(row['current'])) + '**<br>'
+            + link('Otwórz kartę projektu', row['url']),
+            '',
+        ]
+
+    candidates = []
+    for event in events:
+        lead = event['lead']
+        check = lead.get('commercial_check', {}).get('status')
+        if event['tier'] != 'main' or not (
+            check in {'added', 'changed', 'scheduled', 'ended'}
+            or lead.get('communication_check', {}).get('status') == 'confirmed'
+        ):
+            continue
+        sides = [str(lead.get(key) or '') for key in ('before', 'after')]
+        if any(codes(t) for t in sides):
+            rank, topic = 0, 'Komunikat z kodem'
+        elif any(meaningful_discount(t) for t in sides):
+            rank, topic = 1, 'Komunikat o rabacie'
+        elif event['bucket'] == 'extras' and check:
+            rank, topic = 2, 'Dodatek do oferty'
+        else:
+            continue
+        candidates.append((rank, event, {'scheduled': 'Zapowiedź', 'ended': 'Zakończenie oferty'}.get(check, topic)))
+    # Show at most two distinct studios. All quotes remain in the detailed tables.
+    seen = set()
+    for _, event, topic in sorted(candidates, key=lambda c: (c[0], c[1]['group'] != 'partner', c[1]['domain'])):
+        if event['domain'] in seen:
+            continue
+        lines += [
+            '- **' + topic + '** · ' + studio(event['domain']) + '<br>'
+            + ', '.join(LABELS[p] for p in event['pages']) + '<br>'
+            + 'Wczoraj — ' + cell(event_value(event, 'before')) + '<br>'
+            + '**Dziś** — ' + cell(event_value(event, 'after')) + '<br>'
+            + '[Przed i po](' + event_targets[event['id']] + ') · ' + link('Otwórz ofertę', event['lead']['source']),
+            '',
+        ]
+        seen.add(event['domain'])
+        if len(seen) == 2:
+            break
+    if not candidates:
+        lines += ['W porównanych odczytach brak zweryfikowanej zmiany komunikatu z kodem, konkretnym rabatem lub dodatkiem.', '']
+    return lines
+
+
 def render_dashboard_documents(view: dict, report_url: str, downloads: dict | None = None, previews: dict | None = None, filename: str = 'DASHBOARD.md') -> dict[str, str]:
     downloads, previews = downloads or {}, previews or {}
     data = build_management(view)
@@ -91,26 +175,29 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
             digest_documents[path] = '\n'.join(content) + '\n'
 
     pending = len(briefing['pending_domains'])
-    gap_status = f"**{len(briefing['gaps'])} wymaga uwagi.**"
+    gap_status = f"[Braki porównania ({len(briefing['gaps'])})](#braki-porównania)" if briefing['gaps'] else ''
     if pending:
         gap_status = f"**{pending} oczekuje na pierwszy skan.** · **Pozostałe braki: {len(briefing['gaps'])-pending}.**"
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
-             f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.** · " + gap_status, '',
-             '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '']
-    lines += [coverage_text(briefing), '']
+             f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.**" + (' · ' + gap_status if gap_status else ''), '']
+    financial = financial_data(view)
+    lines += markdown_daily_decisions(view, financial, briefing['events'], event_targets)
+    lines += ['[Ceny i kody rabatowe](#ceny-kody-i-rabaty) · [Zmiany komunikacji](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
+    lines += ['<details><summary>Zakres, godziny i publikacja raportu</summary>', '',
+              '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '',
+              coverage_text(briefing), '']
     if briefing.get('text_only_pages'):
         lines += [f"Dla {briefing['text_only_pages']} stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.", '']
     if observed:
         lines += [f"Odczyty: {when(observed[0])} – {when(observed[-1])}, czas polski. Późniejsze uzupełnienia nie są porannym skanem.", '']
+    lines += ['</details>', '']
     feedback = view.get('metadata', {}).get('feedback')
     if feedback:
         from .feedback import summary_text
         lines += ['<details><summary>Oceny trafności alertów</summary>', '', summary_text(feedback), '', 'Wynik dotyczy tylko ocenionych alertów; nie mierzy pominiętych zmian. Oceny zapisuje się w publicznych zgłoszeniach GitHub; pojawią się w kolejnym raporcie.', '', '</details>', '']
-    lines += ['[Zmiany](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
     if downloads.get('web'):
         lines += [link('Otwórz dashboard z wyszukiwarką', downloads['web']), '']
-    from .financial import markdown_financial
-    financial_lines, financial_documents = markdown_financial(view, folder)
+    financial_lines, financial_documents = markdown_financial(view, folder, financial)
     lines += financial_lines
     digest_documents.update(financial_documents)
     lines += markdown_briefing(view, briefing, event_targets, digest_documents, folder, filename)

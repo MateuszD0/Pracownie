@@ -62,7 +62,9 @@ def test_missing_daily_cron_is_recovered_as_full_resumable_scan():
     assert result['action'] == 'scan-dispatched'
     url, payload = remote.writes[0]
     assert url.endswith('/monitor.yml/dispatches')
-    assert payload == {'ref': 'main', 'inputs': {'scope': 'full', 'rescan': 'false', 'automatic_recovery': 'true'}}
+    assert payload == {'ref': 'main', 'inputs': {
+        'scope': 'full', 'rescan': 'false', 'automatic_recovery': 'true', 'missing_report_day': '2026-10-22'
+    }}
 
 
 def test_transient_failures_only_retry_affected_domains_and_cap_attempts():
@@ -126,13 +128,25 @@ def test_existing_email_job_is_not_dispatched_again():
     assert not remote.writes
 
 
-def test_no_blind_scan_after_noon_but_late_mail_can_be_sent():
+def test_only_missing_report_is_recovered_after_noon_and_partial_report_can_be_mailed():
     remote = Remote()
     late = NOW.replace(hour=18)
-    assert recover(remote, late, True)['action'] == 'report-missing'
-    assert not remote.writes
+    assert recover(remote, late, True)['action'] == 'scan-dispatched'
+    assert remote.writes[0][1]['inputs'] == {
+        'scope': 'full', 'rescan': 'false', 'automatic_recovery': 'true', 'missing_report_day': '2026-10-22'
+    }
+    remote.writes.clear()
     remote.record = published(['hbstudio.pl'])
     assert recover(remote, late, True)['action'] == 'mail-dispatched'
+    assert all(url.endswith('/email.yml/dispatches') for url, _ in remote.writes)
+
+
+def test_late_first_scan_respects_evening_cutoff_and_shared_daily_attempt_limit():
+    remote = Remote()
+    assert recover(remote, NOW.replace(hour=21, minute=0), False)['action'] == 'report-missing'
+    remote.records['monitor.yml'] = [run('1', RECOVERY_TITLE), run('2', RECOVERY_TITLE)]
+    assert recover(remote, NOW.replace(hour=20, minute=59), False)['action'] == 'report-missing'
+    assert not remote.writes
 
 
 def test_dry_run_is_read_only():

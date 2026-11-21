@@ -29,7 +29,8 @@ def refresh_email_status(remote, day: str) -> bool:
         content = base64.b64decode(file['content']).decode()
         if OWNER_MARKER not in content or not pattern.search(content):
             return False
-        line = '<!-- delivery:' + day + ' -->' + delivery_text({'metadata': {'delivery': status}}) + ' · czas polski.<!-- /delivery -->'
+        view = {'day': day, 'metadata': {'delivery': status}}
+        line = '<!-- delivery:' + day + ' -->' + delivery_text(view) + ' · czas polski.<!-- /delivery -->'
         updated = pattern.sub(lambda _, replacement=line: replacement, content)
         if updated == content:
             return True

@@ -19,7 +19,12 @@ from .quality import communication_usable
 CONTRACT = "communication-v1"
 NOISE = re.compile(r"cookies|ciastecz|polity[kc].{0,12}prywatno|ustawienia prywatno|privacy policy|privacy settings|danych osobowych|wyrażam zgod|przetwarzani.*danych|rodo\b|sales intelligence|digitree|^\[licznik\]$", re.I)
 ROLES = {"heading": "Nagłówek", "banner": "Baner", "cta": "Wezwanie do działania", "text": "Treść", "image": "Źródło grafiki w zestawie banerów"}
-COUNTDOWN = re.compile(r"(?:\d+\s*(?:dni|dzień|days?)\s*)?(?:\d+\s*(?:godz\.?|h)\s*\d+\s*min\.?\s*\d+\s*(?:sek\.?|s)(?!\w)|\d{1,2}\s*:\s*\d{1,2}\s*:\s*\d{1,2}(?!\d))", re.I)
+COUNTDOWN = re.compile(
+    r"\b(?:\d+d:)?\d{1,2}h:\d{1,2}m:\d{1,2}s\b|"
+    r"(?:\d+\s*(?:dni|dzień|days?)\s*)?"
+    r"(?:\d+\s*(?:godz\.?|h)\s*\d+\s*min\.?\s*\d+\s*(?:sek\.?|s)(?!\w)|"
+    r"\d{1,2}\s*:\s*\d{1,2}\s*:\s*\d{1,2}(?!\d))", re.I,
+)
 # Some timers put each unit in a separate span. Match a whole fragment only:
 # delivery promises such as "Wysyłka w 24 godz." remain meaningful copy.
 TIMER_FRAGMENT = re.compile(r"^\d+\s*(?:godz\.?|min\.?|sek\.?)$", re.I)
@@ -203,8 +208,12 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     changes = []
     for a, b in pairs:
         old_value, new_value = a["text"] if a else "", b["text"] if b else ""
-        # Pure price changes belong to the separate price module.
-        if a and b and MONEY.sub("[kwota]", old_value) == MONEY.sub("[kwota]", new_value):
+        change_category = category(old_value, new_value)
+        # The price module covers the project's price, not the value of a
+        # discount, delivery fee, or extra advertised alongside it.
+        if (a and b and change_category == "komunikacja"
+                and not re.search(r"\btaniej\b|oszczęd|\bz kodem\b", new_value, re.I)
+                and MONEY.sub("[kwota]", old_value) == MONEY.sub("[kwota]", new_value)):
             continue
         item = b or a
         key = "communication:" + hashlib.sha256(repr((item["role"], old_value, new_value)).encode()).hexdigest()[:16]
@@ -223,7 +232,6 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
         if supporting:
             details["supporting_reason"] = supporting
         kind = "changed" if a and b else "added" if b else "removed"
-        change_category = category(old_value, new_value)
         if item["role"] == "image":
             # A CDN deployment may change every URL while keeping all pixels.
             # Keep the observation, without inferring a new feature/campaign

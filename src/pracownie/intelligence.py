@@ -6,6 +6,7 @@ from datetime import date, timedelta
 
 from .briefing import build_briefing
 from .commercial import document, expired_end, future_start, not_started
+from .communication import COUNTDOWN
 from .contexts import REASONS, observation_reason
 from .model import Snapshot
 from .signals import normalized, supporting_reason
@@ -65,11 +66,14 @@ def update_intelligence(state: dict, view: dict) -> dict:
                 if item not in graphics:
                     graphics.append(item)
         for claim in document(snap)['claims']:
-            identity = snap.domain, ' '.join(claim.split()).casefold()
+            offer_text = COUNTDOWN.sub('', claim).replace('[licznik]', '')
+            identity = snap.domain, ' '.join(offer_text.split()).casefold()
             start = future_start(claim, day)
             status = 'Zapowiedziana' if start or not_started(claim) else 'Termin minął' if expired_end(claim, day) else 'Obecna w zapisie'
             offer = offers.setdefault(identity, {'domain': snap.domain, 'text': claim, 'status': status, 'start': start, 'sources': []})
-            offer['sources'].append({'page': snap.page, 'url': snap.url, 'observed_at': snap.observed_at})
+            source = {'page': snap.page, 'url': snap.url, 'observed_at': snap.observed_at}
+            if source not in offer['sources']:
+                offer['sources'].append(source)
     state['business_ledger'], state['verification_queue'] = ledger, queue
     return {'offers': list(offers.values()), 'graphics':graphics, 'history': sorted(ledger.values(), key=lambda r: (r['day'], r['domain']), reverse=True),
             'pending': [q for q in queue.values() if q['status'] == 'open'],

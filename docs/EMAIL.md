@@ -38,8 +38,9 @@ potwierdzenia wysłania dzisiejszego raportu, zleca wysyłkę. Ręczna wysyłka 
 również dostępna w Actions: wskaż dzień bieżącego, najnowszego raportu
 (np. `2026-10-22`).
 
-Kontroler nadrabia też brak skanu od 09:00 do 12:00 czasu polskiego: uruchamia
-pełny skan z wznowieniem albo naprawia tylko wskazane brakujące domeny. Nie
+Kontroler może uruchomić pełny skan z wznowieniem od 09:00 do 21:00 czasu polskiego,
+jeżeli wciąż brakuje raportu z bieżącego dnia. Brakujące domeny w opublikowanym
+raporcie naprawia do 12:00. Nie
 uruchamia drugiego producenta podczas trwającego skanu lub przebudowy; pomija
 trwałe blokady i ogranicza dodatkowe próby do dwóch dziennie. Opcjonalne Pages
 oczekujące na zatwierdzenie nie blokują raportów. Samo zlecenie e-maila nie jest

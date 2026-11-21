@@ -111,3 +111,15 @@ def test_other_seasons_event_is_inert_even_if_delayed_and_report_needs_repair(da
             raise AssertionError('Wrong seasonal event must not read or rescan partial history')
     result=daily_gate(unused,datetime.fromisoformat(day+'T11:00:00').replace(tzinfo=WARSAW),Partial())
     assert not result['run_scan']
+
+
+def test_queued_missing_report_scan_checks_the_published_day_and_local_clock_again():
+    day = '2026-11-21'
+    remote = Publication()
+    late = datetime.fromisoformat(day + 'T20:59:59').replace(tzinfo=WARSAW)
+    assert schedule.missing_report_gate(day, late, remote)['run_scan']
+    remote.published = True
+    assert not schedule.missing_report_gate(day, late, remote)['run_scan']
+    assert remote.calls == [day, day]
+    for delayed in [late.replace(hour=21), late + timedelta(days=1)]:
+        assert not schedule.missing_report_gate(day, delayed, Publication())['run_scan']

@@ -95,11 +95,12 @@ def financial_data(view: dict) -> dict:
     return {"prices": prices, "changes": changes, "paired": paired, "offers": offers, "graphics": graphics}
 
 
-def markdown_financial(view: dict, folder: str) -> tuple[list[str], dict[str, str]]:
+def markdown_financial(view: dict, folder: str, data: dict | None = None) -> tuple[list[str], dict[str, str]]:
     from .dashboard import cell, link
     from .presentation import money, when
 
-    data = financial_data(view)
+    if data is None:
+        data = financial_data(view)
     path = folder + "/ceny-i-rabaty.md"
     root = [
         "## Ceny, kody i rabaty",
@@ -200,6 +201,8 @@ def markdown_financial(view: dict, folder: str) -> tuple[list[str], dict[str, st
         "Dostępne w tabeli pod linkiem powyżej; sama obecność nie potwierdza nowej promocji.",
         "",
     ]
+    if data["offers"]:
+        root += ["<details><summary>Komunikaty obecne dziś w ofertach</summary>", ""]
     for group, label in groups(view):
         chosen = [o for o in data["offers"] if o["group"] == group][:5]
         if not chosen:
@@ -221,6 +224,8 @@ def markdown_financial(view: dict, folder: str) -> tuple[list[str], dict[str, st
                 + " |"
             ]
         root += [""]
+    if data["offers"]:
+        root += ["</details>", ""]
     if data["graphics"]:
         media = [
             "### Grafiki z okien na stronie — sprawdź warunki",

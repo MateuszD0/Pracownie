@@ -12,10 +12,12 @@ from pathlib import Path
 
 from .communication import measure
 from .compare import compare
+from .extract import restore_dom_field
 from .github import GitHubStore
 from .images import image_difference, visual_evidence, visual_text
 from .model import (
     Change,
+    Field,
     Result,
     Site,
     Snapshot,
@@ -69,10 +71,56 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
         result.changes.extend(changes)
 
 
-def repair_archived_quotes(results: list[Result], output: Path, day: str) -> list[dict]:
-    """Correct the reviewed header parsing error from its original field text."""
+def repair_archived_dom_quotes(result: Result, captures: list[dict]) -> list[dict]:
+    target = (result.domain, result.page, result.scenario, result.url)
+    originals = {
+        raw["observed_at"]: raw["fields"] for raw in captures
+        if raw and (raw.get("domain"), raw.get("page"), raw.get("scenario"), raw.get("url")) == target
+    }
+    corrections = []
+    verified = set()
+    corrected_keys = set()
+    for side in ("offer", "before_offer"):
+        quote = getattr(result, side)
+        key = quote.get("field_key")
+        source = originals.get(quote.get("observed_at"), {}).get(key)
+        if not source or quote.get("source") != "dom" or quote.get("kind") != "price":
+            continue
+        field = Field(**source)
+        if (field.source, field.currency, field.observed_at) != ("dom", quote["currency"], quote["observed_at"]):
+            continue
+        verified.add(side)
+        restore_dom_field(field)
+        if field.role == "discount":
+            updated = {}
+        elif field.amount and field.amount != quote.get("amount"):
+            updated = {**quote, "amount": field.amount, "low": field.amount, "high": field.amount}
+        else:
+            continue
+        setattr(result, side, updated)
+        corrected_keys.add(key)
+        corrections.append({"domain": result.domain, "scenario": result.scenario, "side": side,
+                            "observed_at": field.observed_at, "before": quote["amount"], "after": updated.get("amount"),
+                            "basis": "Korekta ceny z zapisanego tekstu kwoty i jej roli na stronie."})
+    # Do not pair a repaired quote with an unverifiable legacy interpretation.
+    for side in ("offer", "before_offer"):
+        quote = getattr(result, side)
+        if side not in verified and quote.get("source") == "dom" and quote.get("field_key") in corrected_keys:
+            setattr(result, side, {})
+    return corrections
+
+
+def repair_archived_quotes(results: list[Result], output: Path, day: str, state: dict | None = None) -> list[dict]:
+    """Recheck saved quotes using only the capture for the corresponding day."""
     corrected = []
     for result in results:
+        if result.page == "projekt" and any(q.get("source") == "dom" for q in (result.offer, result.before_offer)):
+            key = f"{result.domain}/{result.page}/{result.scenario}"
+            captures = [(state or {}).get(section, {}).get(key) for section in ("anchor", "snapshots", "communication_anchor", "communication_snapshots")]
+            path = output / day / slug(result.domain) / result.page / slug(result.scenario) / "odczyt.json"
+            if path.is_file():
+                captures.append(json.loads(path.read_text()))
+            corrected.extend(repair_archived_dom_quotes(result, captures))
         if result.domain != "projektyszkieletowe.pl" or result.page != "projekt" or result.offer.get("field_key") != "adapter:cena-projektu":
             continue
         path = output / day / slug(result.domain) / result.page / slug(result.scenario) / "odczyt.json"
@@ -269,8 +317,10 @@ def main():
                 # stored captures remain available in their original archives.
                 for domain in removed:
                     shutil.rmtree(safe_path(output, day + "/" + slug(domain)), ignore_errors=True)
-            metadata["source_price_corrections"] = metadata.get("source_price_corrections", []) + repair_archived_quotes(results, output, day)
-            metadata['source_tax_annotations'] = metadata.get('source_tax_annotations', []) + annotate_archived_tax(results,output,day,store.read())
+            archived_state = store.read()
+            metadata["source_price_corrections"] = metadata.get("source_price_corrections", []) + repair_archived_quotes(results, output, day, archived_state)
+            metadata['source_tax_annotations'] = metadata.get('source_tax_annotations', []) + annotate_archived_tax(results,output,day,archived_state)
+            del archived_state
             metadata["retained_same_day_reads"] = metadata.get("retained_same_day_reads", []) + recover_from_snapshots(results, store, output, day, [site for site in sites if site.domain in active])
             metadata.setdefault("source_scan_run_id", metadata["run_id"])
             metadata["report_rendered_at"] = now_iso()

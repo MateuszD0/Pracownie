@@ -90,7 +90,7 @@ def test_unstable_or_next_day_reads_do_not_confirm_todays_new_offer():
     assert assess(c, URL, [later], complete=True)['status'] == 'unverified'
 
 
-@pytest.mark.parametrize('text', ['PROMOCJI', 'Do końca promocji:', 'Promocja!'])
+@pytest.mark.parametrize('text', ['PROMOCJI', 'Do końca promocji:', 'Promocja!', '% PROMOCJA', 'CENA PROMOCYJNA'])
 def test_repeated_bare_promotion_label_does_not_confirm_new_offer(text):
     c = change(None, text)
     assert relevant(c)

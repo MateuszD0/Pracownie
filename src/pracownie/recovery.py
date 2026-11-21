@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import argparse
 import os
-from datetime import UTC, datetime, time
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -12,7 +12,7 @@ from .github import GitHubStore
 from .mailer import receipt
 from .model import WARSAW
 from .readiness import repair_domains
-from .timing import PRIMARY_START
+from .timing import MISSING_REPORT_CUTOFF, PRIMARY_START, REPAIR_CUTOFF
 
 RECOVERY_TITLE = 'Automatyczna naprawa odczytów'
 ACTIVE = {'queued', 'in_progress', 'waiting', 'pending', 'requested'}
@@ -63,15 +63,19 @@ def recover(remote: GitHubStore, now: datetime, email_configured: bool, *, dry_r
     retry = repair_domains((record or {}).get('readiness', {}))
     needs_scan = not record or not record.get('readiness', {}).get('expected') or bool(retry)
     automatic = sum(r.get('display_title') == RECOVERY_TITLE and same_day(r, day) for r in scans)
-    if needs_scan and local.time() < time(12) and automatic < max_auto_scans:
+    cutoff = REPAIR_CUTOFF if record else MISSING_REPORT_CUTOFF
+    if needs_scan and local.time() < cutoff and automatic < max_auto_scans:
         inputs = {'scope': 'full', 'rescan': 'false', 'automatic_recovery': 'true'}
+        if not record:
+            # Recheck this exact day under the writer lock once the queued job starts.
+            inputs['missing_report_day'] = day
         if record and retry:
             inputs['repair_domains'] = ','.join(retry)
         dispatch(remote, 'monitor.yml', inputs, dry_run)
         return result('scan-dispatched', 'Nadrabiam brakujący raport lub odczyty; zachowuję poprawne wyniki.',
                       repair_domains=retry, automatic_attempt=automatic + 1)
     if not record:
-        return result('report-missing', 'Nie ma dzisiejszego raportu; limit prób naprawczych lub poranne okno zostały wyczerpane.')
+        return result('report-missing', 'Nie ma dzisiejszego raportu; wyczerpano limit prób lub minęła 21:00 czasu polskiego.')
     if not email_configured:
         return result('mail-unconfigured', 'Raport jest dostępny. Wysyłka wymaga sekretów REPORT_EMAIL_TO i SMTP_PASSWORD.',
                       scan_retries_exhausted=needs_scan and automatic >= max_auto_scans)

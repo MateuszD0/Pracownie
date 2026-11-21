@@ -27,14 +27,15 @@ def test_schedule_checks_committed_freshness_under_writer_lock_before_browser_in
     assert scan["concurrency"] == {"group": "pracownie-monitor", "cancel-in-progress": "false"}
     steps = scan["steps"]
     gate = next(s for s in steps if s.get("id") == "schedule")
-    assert gate["if"] == "github.event_name == 'schedule'"
+    assert gate["if"] == "github.event_name == 'schedule' || (inputs.automatic_recovery && inputs.missing_report_day != '')"
+    assert gate["env"]["MISSING_REPORT_DAY"] == "${{ inputs.missing_report_day }}"
     assert "pracownie.schedule" in gate["run"]
     assert gate["env"]["SCHEDULE_EXPRESSION"] == "${{ github.event.schedule }}"
     expensive = [s for s in steps if any(text in s.get("run", "") for text in ["playwright install", "pytest", "pracownie run", "--check-pages"])]
     assert len(expensive) == 4
     for step in expensive:
         assert steps.index(gate) < steps.index(step)
-        assert step["if"] == "github.event_name != 'schedule' || steps.schedule.outputs.run_scan == 'true'"
+        assert step["if"] == "steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'"
     command = next(s for s in steps if "SCAN_SCOPE" in s.get("env", {}))
     assert command["env"]["SCAN_DAY"] == "${{ steps.schedule.outputs.day }}"
     assert '--day "$SCAN_DAY"' in command["run"]

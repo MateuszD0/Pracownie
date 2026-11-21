@@ -158,6 +158,15 @@ def test_exact_stored_catalogue_link_is_supporting_but_contact_link_is_not():
     assert all(not change.details.get("supporting_reason") for change in measure(old, new)[1])
 
 
+def test_offer_with_unit_countdown_reports_discount_changes_only():
+    before = snapshot(BEFORE, "Promocja: -500 zł na projekty domów! 10d:14h:34m:58s")
+    after = snapshot(AFTER, "Promocja: -500 zł na projekty domów! 9d:12h:34m:19s")
+    assert not measure(before, after)[1]
+    after.document["communication"]["items"][0]["text"] = "Promocja: -700 zł na projekty domów! 9d:12h:34m:19s"
+    [change] = measure(before, after)[1]
+    assert change.category == "promocje" and "-500 zł" in change.before and "-700 zł" in change.after
+
+
 @pytest.mark.parametrize("key", [
     "#similar-projects > h3:nth-of-type(1)",
     "container:nth-of-type(1) > project-list:nth-of-type(2) > a:nth-of-type(1)",

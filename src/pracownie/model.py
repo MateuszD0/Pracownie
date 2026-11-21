@@ -88,6 +88,10 @@ class Snapshot:
     def from_dict(cls, data: dict) -> Snapshot:
         values = dict(data)
         values["fields"] = {key: Field(**value) for key, value in values["fields"].items()}
+        from .extract import restore_dom_field
+
+        for original in values["fields"].values():
+            restore_dom_field(original)
         products = values.get('document',{}).get('payload',{}).get('products',[])
         if products and any(f.source=='jsonld' and not f.tax for f in values['fields'].values()):
             from .extract import extract_fields

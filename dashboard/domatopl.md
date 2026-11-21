@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-20 → 2026-11-21**
 
 **Ten sam projekt:** [DOPASOWANY 04](https://domato.pl/projekt/51/dopasowany-04)
 
@@ -16,31 +16,36 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domato.pl/)
 
-**Odczyty:** 19.11.2026 11:51 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:23 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomato.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomato.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-### Grafika i wygląd — różnica do obejrzenia
+<details><summary>Obserwacje pomocnicze (6) — nie są ustaloną zmianą oferty</summary>
 
-**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
+- Zapisany link prowadzi do innego projektu lub katalogu; nie do stałej karty.
 
-Porównanie: 19.11.2026 11:51 → 20.11.2026 09:23 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Przykłady z zapisów:
 
-[Otwórz stronę](https://domato.pl/)
+- brak → POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?
+- Nowoczesne rozwiązania projektowe dla wymagających. → brak
+- PROJEKTY DOMÓW → brak
 
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://domato.pl/projekt/51/dopasowany-04)
 
-**Odczyty:** 19.11.2026 11:52 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:24 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomato.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2Fprojekt%2F51%2Fdopasowany-04%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomato.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomato.pl%2Fprojekt%2F51%2Fdopasowany-04%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-porownanie.html)
 

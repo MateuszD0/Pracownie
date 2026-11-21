@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-20 → 2026-11-21**
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-**3 zmian w zapisanym zakresie.**
+**6 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,42 +16,45 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/)
 
-**Odczyty:** 19.11.2026 11:53 → 20.11.2026 09:24 (czas polski).
+**Odczyty:** 20.11.2026 09:24 → 21.11.2026 11:25 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fe-domy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.e-domy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fe-domy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.e-domy.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | <strong>Nowoczesny dom z płaskim dachem</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Baner | <strong>Parterowy dom bez okapu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ADAPTACJA PROJEKTU</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Dom parterowy z 3 sypialniami</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Dom parterowy na planie kwadratu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Mały dom z garażem w bryle</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Mały dom parterowy</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Min. szer.<strong>działki23</strong>,6 m | Min. szer.<strong>działki20</strong>,6 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-29-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-13-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 19.11.2026 11:53 | Po · 20.11.2026 09:24 |
+| Przed · 20.11.2026 09:24 | Po · 21.11.2026 11:25 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-29-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-29-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-13-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (60) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (59) — nie są ustaloną zmianą oferty</summary>
 
 - Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 - Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
 - Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Zmiana pozycji lub parametrów w prezentowanym katalogu; nie ustalono zmiany stałego projektu.
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
+- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
 - Zmiana wymiarów całego dokumentu; nie wskazuje, który element projektu graficznego zmieniono.
 
 Przykłady z zapisów:
 
-- Powierzchniaużytkowa / netto111,3 m² / 119,0 m² → Powierzchniaużytkowa / netto116,1 m² / 150,6 m²
-- więcej informacji o projekcie domu E-269 → więcej informacji o projekcie domu E-155
-- brak → Mały dom parterowy
+- brak → Dom nowoczesny z podwójnym garażem
+- Wysokość w kalenicy - odległość w linii prostej od poziomu terenu do najwyższego punktu dachu, którym najczęściej jest najwyżej położona ka… → brak
+- więcej informacji o projekcie domu E-133 → więcej informacji o projekcie domu E-259
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -61,11 +64,35 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-**Odczyty:** 19.11.2026 11:53 → 20.11.2026 09:24 (czas polski).
+**Odczyty:** 20.11.2026 09:24 → 21.11.2026 11:25 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fe-domy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.e-domy.pl%2Fprojekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fe-domy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.e-domy.pl%2Fprojekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | cena: 5 990 PLN dostępność: 5 dni | cena:<strong> 5 690 PLN</strong> 5 990 PLN dostępność: 5 dni | [Otwórz stronę](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html#section-order) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 20.11.2026 09:24 | Po · 21.11.2026 11:25 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+### Grafika i wygląd — różnica do obejrzenia
+
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
+
+Porównanie: 20.11.2026 09:24 → 21.11.2026 11:25 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+
+[Otwórz stronę](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
+
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-22-po.jpg)
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-porownanie.html)
 

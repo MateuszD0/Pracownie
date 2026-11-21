@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-20 → 2026-11-21**
 
 **Ten sam projekt:** [ATKA](http://domtodom.pl/projekty-domow/projekt/20)
 
@@ -16,35 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](http://domtodom.pl/)
 
-**Odczyty:** 19.11.2026 11:52 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:24 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomtodom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fdomtodom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomtodom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fdomtodom.pl%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
-
-<details><summary>Obserwacje pomocnicze (32) — nie są ustaloną zmianą oferty</summary>
-
-- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
-
-Przykłady z zapisów:
-
-- brak → DWA POKOLENIA
-- brak → CARAVELA 2 G2
-- brak → ALASKA
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](http://domtodom.pl/projekty-domow/projekt/20)
 
-**Odczyty:** 19.11.2026 11:52 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:24 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fdomtodom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fdomtodom.pl%2Fprojekty-domow%2Fprojekt%2F20%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomtodom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+http%3A%2F%2Fdomtodom.pl%2Fprojekty-domow%2Fprojekt%2F20%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-porownanie.html)
 

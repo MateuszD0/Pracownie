@@ -6,115 +6,143 @@
 
 [domdlaciebie.com.pl — wszystkie odczyty](domdlaciebiecompl.md)
 
-## Zdarzenie 098f5d5c86037d6b
+## Zdarzenie 46d06c733ea62321
 
-**Nowa promocja w komunikacji: „Rabat do 500 zł na projekty domów!”**
+**Nowa promocja w komunikacji: „Rabat 500zł”**
 
 **Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Rabat do 500 zł na projekty domów!</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
+| Promocje i rabaty · Baner | Nie odnotowano w tym odczycie | <strong>Rabat 500zł</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/#slider) |
 
-[Strona główna](https://www.domdlaciebie.com.pl/) · [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
+[Strona główna](https://www.domdlaciebie.com.pl/#slider)
 
-Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 19.11.2026 19:29 | Po · 20.11.2026 09:23 |
+| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F098f5d5c86037d6b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+do+500+z%C5%82+na+projekty+dom%C3%B3w%21%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F098f5d5c86037d6b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+do+500+z%C5%82+na+projekty+dom%C3%B3w%21%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F098f5d5c86037d6b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+do+500+z%C5%82+na+projekty+dom%C3%B3w%21%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F46d06c733ea62321%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+500z%C5%82%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23slider%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F46d06c733ea62321%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+500z%C5%82%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23slider%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F46d06c733ea62321%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ERabat+500z%C5%82%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23slider%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 31209a73ff678420
+## Zdarzenie 4b481d589fbfbfc5
 
-**Nowa promocja w komunikacji: „PROMOCJA - RABAT 500ZŁ”**
+**W nowym zapisie nie ma komunikatu: „Nowy projekt - Majka A, już dostępny.”.**
 
-**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>PROMOCJA - RABAT 500ZŁ</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#sec-wiz-projektu) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Nowy projekt - Majka A, już dostępny.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
 
-[Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html#sec-wiz-projektu)
+[Strona główna](https://www.domdlaciebie.com.pl/)
 
-Liczba źródłowych obserwacji: 5. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 19.11.2026 19:29 | Po · 20.11.2026 09:23 |
+| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-9-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F31209a73ff678420%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPROMOCJA+-+RABAT+500Z%C5%81%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%23sec-wiz-projektu%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F31209a73ff678420%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPROMOCJA+-+RABAT+500Z%C5%81%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%23sec-wiz-projektu%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F31209a73ff678420%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPROMOCJA+-+RABAT+500Z%C5%81%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2Fprojekty-domow-parterowych%2Fklara-iv%2C1701.html%23sec-wiz-projektu%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b481d589fbfbfc5%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowy+projekt+-+Majka+A%2C+ju%C5%BC+dost%C4%99pny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b481d589fbfbfc5%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowy+projekt+-+Majka+A%2C+ju%C5%BC+dost%C4%99pny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b481d589fbfbfc5%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9ENowy+projekt+-+Majka+A%2C+ju%C5%BC+dost%C4%99pny.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 5a041e5d347b4fa8
+## Zdarzenie 4b723dcb41223cc6
 
-**Nowa promocja w komunikacji: „Do końca promocji pozostało:”**
+**W nowym zapisie nie ma komunikatu: „Agawa B-ZBL - nowy projekt domu!”.**
 
-**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Do końca promocji pozostało:</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Agawa B-ZBL - nowy projekt domu!</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
 
-[Strona główna](https://www.domdlaciebie.com.pl/) · [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
+[Strona główna](https://www.domdlaciebie.com.pl/)
 
-Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 19.11.2026 19:29 | Po · 20.11.2026 09:23 |
+| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F5a041e5d347b4fa8%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F5a041e5d347b4fa8%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F5a041e5d347b4fa8%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EDo+ko%C5%84ca+promocji+pozosta%C5%82o%3A%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b723dcb41223cc6%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAgawa+B-ZBL+-+nowy+projekt+domu%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b723dcb41223cc6%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAgawa+B-ZBL+-+nowy+projekt+domu%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F4b723dcb41223cc6%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EAgawa+B-ZBL+-+nowy+projekt+domu%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie 93ac1bd8fbfc6c5d
+## Zdarzenie b4442a8876ec4f6a
 
-**Nowa promocja w komunikacji: „Sprawdź projekty objęte promocją”**
+**W nowym zapisie nie ma komunikatu: „Funkcjonalny bliźniak z płaskim dachem.”.**
 
-**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Sprawdź projekty objęte promocją</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Funkcjonalny bliźniak z płaskim dachem.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.domdlaciebie.com.pl/) |
 
-[Strona główna](https://www.domdlaciebie.com.pl/) · [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html)
+[Strona główna](https://www.domdlaciebie.com.pl/)
 
-Liczba źródłowych obserwacji: 6. Pełne zapisy pozostają w szczegółach pracowni.
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 19.11.2026 19:29 | Po · 20.11.2026 09:23 |
+| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-dowod-8-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F93ac1bd8fbfc6c5d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ESprawd%C5%BA+projekty+obj%C4%99te+promocj%C4%85%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F93ac1bd8fbfc6c5d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ESprawd%C5%BA+projekty+obj%C4%99te+promocj%C4%85%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-20%2F93ac1bd8fbfc6c5d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ESprawd%C5%BA+projekty+obj%C4%99te+promocj%C4%85%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fb4442a8876ec4f6a%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalny+bli%C5%BAniak+z+p%C5%82askim+dachem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fb4442a8876ec4f6a%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalny+bli%C5%BAniak+z+p%C5%82askim+dachem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fb4442a8876ec4f6a%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EFunkcjonalny+bli%C5%BAniak+z+p%C5%82askim+dachem.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie e5b52dde692d19f7
+
+**Pojawił się komunikat: „Nowy projekt - Agawa B-ZBL”.**
+
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Nowy projekt - Agawa B-ZBL</strong> | [Otwórz stronę](https://www.domdlaciebie.com.pl/#sec-aktualnosci) |
+
+[Strona główna](https://www.domdlaciebie.com.pl/#sec-aktualnosci)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-3-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fe5b52dde692d19f7%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENowy+projekt+-+Agawa+B-ZBL%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23sec-aktualnosci%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fe5b52dde692d19f7%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENowy+projekt+-+Agawa+B-ZBL%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23sec-aktualnosci%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2Fe5b52dde692d19f7%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+domdlaciebie.com.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9ENowy+projekt+-+Agawa+B-ZBL%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.domdlaciebie.com.pl%2F%23sec-aktualnosci%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl · 2026-11-20 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4091,12 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Potwierdzono ponownym odczytem |
-| projektyka.pl · 2026-11-20 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4575,12 5199,- Najniższa cena z 30 dni przed obniżką: 5199”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-20 | Nowa promocja w komunikacji: „RABAT 500 ZŁ” | Sprawdzono w serwisie |
-| postawdom24.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja trwa do 30 listopada 2026” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-20 | Nowa promocja w komunikacji: „BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z 30 dni przed obniżką: 2960,00 zł.”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „Premiera w naszej bazie: Poznaj projekt Luna 2G – Twój ulubiony dom teraz w wersji z garażem! 16 października 2026 Zobacz Lunę 2G w jesiennej odsłonie.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
-| mtmstyl.com.pl · 2026-11-20 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-20 | Pojawił się komunikat: „JAK WYBRAĆ ROLETY ZEWNĘTRZNE NATYNKOWE DO SWOJEGO DOMU”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-20 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-20 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
-| horyzont.com · 2026-11-20 | Nowa promocja w komunikacji: „Cena regularna: 4 000 zł Cena promocyjna: 3 400 zł” | Sprawdzono w serwisie |
-| horyzont.com · 2026-11-20 | Nowa promocja w komunikacji: „Cena promocyjna:” | Sprawdzono w serwisie |
-| horyzont.com · 2026-11-20 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| eg-domy.pl · 2026-11-20 | Pojawił się komunikat: „BLACK WEEK Gotowe projekty domów - 400 PLN w dniach 20-30.11.2026”. | Potwierdzono ponownym odczytem |
-| eg-domy.pl · 2026-11-20 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| ecodomy.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „ELEWACJE”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z płaskim dachem”. | Potwierdzono ponownym odczytem |
-| domywstylu.pl · 2026-11-20 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-20 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-20 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Rabat do 500 zł na projekty domów!” | Sprawdzono w serwisie |
+| studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
+| studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-11-21 | Nowa promocja w komunikacji: „% PROMOCJA” | Sprawdzono w serwisie |
+| projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-11-21 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
+| horyzont.com · 2026-11-21 | „Tax (w tym 23%)” → „w tym VAT (23%)”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |

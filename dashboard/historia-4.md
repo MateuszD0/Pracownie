@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „1 Weryfikacja otoczenia”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Orientacja”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dołącz do naszego newslettera”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Niskotemperaturowe ogrzewanie podłogowe”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zapisz się”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Odzysk ciepła”. | Do sprawdzenia |
+| archiportal.pl · 2026-11-20 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł3 999 zł”. | Potwierdzono ponownym odczytem |
+| archi-projekt.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 650 zł” | Sprawdzono w serwisie |
+| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 2 990 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 390 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 590 zł”. | Potwierdzono ponownym odczytem |
+| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 190 zł”. | Potwierdzono ponownym odczytem |
+| archdom.pl · 2026-11-20 | Pojawił się komunikat: „NOWOŚĆ”. | Do sprawdzenia |
+| archdom.pl · 2026-11-20 | Zauważono etykietę: „Promocja kończy się za:”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-19 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-19 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dobry wybór dla Twojej rodziny. 10 wariantów w 3 technologiach”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kolekcja wszystkich projektów ORLEAN”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup taniej, okresowe promocje”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „TRYPOLIS, który wybierzesz? Teraz taniej”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Małe domy z płaskim dachem”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup w promocji”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-11-19 | „Tomasz 2026-10-25 \[licznik\]” → „Dariusz Z. 2026-11-12 \[licznik\]”. | Potwierdzono ponownym odczytem |
+| mgprojekt.com.pl · 2026-11-19 | „Karol F 2026-10-28 \[licznik\]” → „Marta 2026-11-12 \[licznik\]”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE ZBIORNIKI NA GAZ PŁYNNY WYBRAĆ DO OGRZEWANIA DOMU”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „JAKI SYSTEM SMART HOME WYBRAĆ I DLACZEGO?”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-19 | „20 lipca 2026” → „18 listopada 2026”. | Do sprawdzenia |

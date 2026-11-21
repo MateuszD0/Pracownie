@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-20 → 2026-11-21**
 
 **Ten sam projekt:** [Idealny M3](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
 
-**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
+**9 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,21 +16,151 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projektyzwizja.pl/)
 
-**Odczyty:** 19.11.2026 11:57 → 20.11.2026 09:27 (czas polski).
+**Odczyty:** 20.11.2026 09:27 → 21.11.2026 11:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fprojektyzwizja.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fprojektyzwizja.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2F%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJA KOŃCZY SIĘ ZA:</strong> | [Otwórz stronę](https://projektyzwizja.pl/#popup) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJA</strong> | [Otwórz stronę](https://projektyzwizja.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>BLACK WEEK</strong> | [Otwórz stronę](https://projektyzwizja.pl/#promotion-popup-title) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>ZAMKNIJ</strong> | [Otwórz stronę](https://projektyzwizja.pl/#popup-close-button) |
+
+**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „PROMOCJA KOŃCZY SIĘ ZA:”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://projektyzwizja.pl/): PROMOCJA KOŃCZY SIĘ ZA:
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:45 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:45 · odczyt poprawny
+
+—
+
+</details>
+
+**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „PROMOCJA”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://projektyzwizja.pl/): PROMOCJA
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:45 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:45 · odczyt poprawny
+
+—
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-9-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-9-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-9-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- NOWOŚĆ → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
 
-**Odczyty:** 19.11.2026 11:57 → 20.11.2026 09:27 (czas polski).
+**Odczyty:** 20.11.2026 09:27 → 21.11.2026 11:28 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-20%2Fprojektyzwizja.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fprojektyzwizja.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpis%3A)
 
-**Bez zmian w zapisanej komunikacji**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>CENA PROMOCYJNA</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJA KOŃCZY SIĘ ZA:</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3#popup) |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Promocja kończy się: 30.11.2026</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>BLACK WEEK</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3#promotion-popup-title) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>ZAMKNIJ</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3#popup-close-button) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „CENA PROMOCYJNA”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://projektyzwizja.pl/projekty-domow/193,idealny-m3): CENA PROMOCYJNA
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:45 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:45 · odczyt poprawny
+
+Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+
+</details>
+
+**Wynik sprawdzenia oferty:** Zmiana etykiety na stronie; nie ustalono nowych warunków oferty: „PROMOCJA KOŃCZY SIĘ ZA:”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://projektyzwizja.pl/projekty-domow/193,idealny-m3): PROMOCJA KOŃCZY SIĘ ZA:
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:45 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:45 · odczyt poprawny
+
+—
+
+</details>
+
+**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026”
+
+<details><summary>Źródła i zakres weryfikacji</summary>
+
+- [Warunki oferty](https://projektyzwizja.pl/projekty-domow/193,idealny-m3): Promocja kończy się: 30.11.2026
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:28 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/) · 21.11.2026 11:45 · odczyt poprawny
+- [Sprawdzona strona](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) · 21.11.2026 11:45 · odczyt poprawny
+
+Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+
+</details>
+
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-10-po.jpg)
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-dowod-10-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+
+- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+
+Przykłady z zapisów:
+
+- CENA → brak
+- brak → 1 011 zł taniej
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+
+</details>
+
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t102223.596488-0000-f54c218e-porownanie.html)
 

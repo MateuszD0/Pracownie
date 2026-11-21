@@ -208,7 +208,10 @@ def test_source_backed_article_carousel_is_not_a_current_campaign_card():
     shot = state["snapshots"]["test.pl/glowna/podstawowy"]
     shot["document"]["communication"]["items"][0]["key"] = "#slide-article > h3:nth-of-type(1)"
     shot["document"]["communication"]["items"].append({"key": "#slide-article > p:nth-of-type(1)", "role": "banner", "text": "Projekt kwietnia kosztuje teraz 20% taniej."})
-    shot["document"]["payload"] = {"commercial_context": {"links": [{"text": "Projekt kwietnia w promocji 20%", "url": "https://test.pl/aktualnosci/projekt-kwietnia"}]}}
+    shot["document"]["payload"] = {"commercial_context": {
+        "links": [{"text": "Projekt kwietnia w promocji 20%", "url": "https://test.pl/aktualnosci/projekt-kwietnia"}],
+        "items": [{"text": "PROJEKT KWIETNIA W PROMOCJI 20%", "url": "https://test.pl/#slide-article"}],
+    }}
     assert not build_campaign_cards(state, view)
 
 
@@ -217,3 +220,12 @@ def test_other_month_without_year_is_uncertain_not_invented_as_expired():
     card = build_campaign_cards(state, view)[0]
     assert card["scope"]["status"] == "unverified_period"
     assert "nie potwierdzono" in card["scope"]["text"] and not card["effective_price"]
+
+
+def test_heading_and_description_from_one_recorded_carousel_slide_form_one_card():
+    state, view = inputs(home="Projekt czerwca taniej o 20%")
+    items = state["snapshots"]["test.pl/glowna/podstawowy"]["document"]["communication"]["items"]
+    items[0]["url"] = "https://test.pl/#slick-slide04"
+    items.append({"key": "#slick-slide04 > p:nth-of-type(1)", "role": "banner", "text": "Avalon V: do końca czerwca kupisz go 20% taniej.", "url": "https://test.pl/#slick-slide04"})
+    cards = build_campaign_cards(state, view)
+    assert len(cards) == 1 and len(cards[0]["home"]) == 2

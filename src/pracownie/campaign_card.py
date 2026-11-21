@@ -78,7 +78,7 @@ def _campaign_key(text: str) -> str:
 
 
 def _article_source(source: str) -> bool:
-    parts = urlsplit(source)
+    parts = urlsplit(source or "")
     return bool(re.search(r"/(?:aktualnosci|aktualności|artykul|artykuly|blog|porady)/", parts.path, re.I)
                 or re.search(r"(?:^|[-_])(?:article|articles|news|blog|aktualnosci)(?:$|[-_])", parts.fragment, re.I))
 
@@ -124,7 +124,7 @@ def _claims(snapshot: Snapshot | None) -> list[dict]:
         if item.get("role") == "image" or item_context(snapshot.domain, item) in {"editorial", "testimonials", "dynamic"} or not _concrete_offer(quote):
             continue
         source = item.get("url") or snapshot.url
-        if _article_source(source):
+        if _article_source(source) or "#" + urlsplit(source).fragment in editorial_roots:
             continue
         identity = (quote, source)
         if _own_source(snapshot.domain, source) and _same_page(source, snapshot.url) and identity not in seen:
@@ -277,7 +277,9 @@ def build_campaign_cards(state: dict, view: dict, terms_rows: list[dict] | tuple
         project = _claims(project_snapshot)
         grouped = {}
         for claim in home:
-            identity = tuple(claim["codes"]) or (_campaign_key(claim["quote"]),)
+            fragment = urlsplit(claim["source"]).fragment
+            slide = fragment if re.fullmatch(r"slick-slide\d+", fragment) else ""
+            identity = tuple(claim["codes"]) or (("slide", slide) if slide else (_campaign_key(claim["quote"]),))
             grouped.setdefault(identity, []).append(claim)
         for identity, claims in grouped.items():
             terms = []

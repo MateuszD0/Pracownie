@@ -6,7 +6,7 @@
 
 **Porównano obie strony: 97/112 pracowni.** · **15 wymaga uwagi.**
 
-<!-- delivery:2026-11-21 -->Planowany start skanu: 09:00 · Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-11-21 -->Planowany start skanu: 09:00 · Pierwsza publikacja: 11:57 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
 Dzisiejsze odczyty: 206/224 stron (w tym częściowe: 12). Bez odczytu: 18. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 

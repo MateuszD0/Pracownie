@@ -109,7 +109,8 @@ def prepare_web(source: Path, day: str, destination: Path) -> dict:
                 visit(item)
         elif isinstance(value, dict):
             for key, item in value.items():
-                if key == "evidence":
+                # Screenshot pairs are maps. Campaign scope evidence is a list of dated quotations.
+                if key == "evidence" and isinstance(item, dict):
                     for name, path in list(item.items()):
                         if name not in {"przed", "po", "fragment_przed", "fragment_po", "zmieniony_obszar"}:
                             del item[name]

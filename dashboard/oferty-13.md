@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| lipinscy.pl | Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl · https://lipinscy.pl/upload/media/projects/33855/dcp406\_detal | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/) |
-| lipinscy.pl | Odkryj wiosenną promocję Hörmann na domki i skrzynie ogrodowe JUNO · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38206\_articles\_mainSection.jpeg | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/) |
-| lipinscy.pl | Rozwiązania do domu w promocji Hörmann · https://lipinscy.pl/upload/media/articles/0001/39/thumb\_38200\_articles\_mainSection.jpeg | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/) |
 | lipinscy.pl | WYCEŃ BEZPŁATNIE BUDOWĘ DOMU U WYKONAWCY | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy z kosztorysem | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
 | lipinscy.pl | Domy jednorodzinne z kosztorysem | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://lipinscy.pl/projekt/annecy/) |
@@ -29,7 +26,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl | Dodatki do projektów | Obecna w zapisie · 21.11.2026 11:26 · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/) · [Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | DODATKI I GRATISY | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | gratis | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
-| mgprojekt.com.pl | PAKIET KOSZTORYS INWESTORSKI | Obecna w zapisie · 21.11.2026 11:26 · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) · [Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | PAKIET KOSZTORYS INWESTORSKI | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kominek z DGP 500 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet rysunki w wersji elektronicznej ? 600 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
 | mgprojekt.com.pl | Pakiet kosztorys inwestorski ? 600 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet ogrzewanie podłogowe ? 550 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet powietrzna pompa ciepła ? 750 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |
+| mgprojekt.com.pl | Pakiet wentylacja mechaniczna i kominek DGP ? 550 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](https://www.mgprojekt.com.pl/amber-5) |

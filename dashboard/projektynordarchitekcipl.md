@@ -24,7 +24,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>% PROMOCJA</strong> | [Otwórz stronę](https://projekty.nordarchitekci.pl/#product_box_53) |
 
-**Wynik sprawdzenia oferty:** Nowa promocja w komunikacji: „% PROMOCJA”
+**Wynik sprawdzenia oferty:** Zauważono zmianę etykiety: „% PROMOCJA”
 
 <details><summary>Źródła i zakres weryfikacji</summary>
 
@@ -34,17 +34,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 - [Sprawdzona strona](https://projekty.nordarchitekci.pl/) · 21.11.2026 11:44 · odczyt poprawny
 - [Sprawdzona strona](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) · 21.11.2026 11:44 · odczyt poprawny
 
-Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-7-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-7-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-5-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-5-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-7-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-5-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-5-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -76,5 +76,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-porownanie.html)
 

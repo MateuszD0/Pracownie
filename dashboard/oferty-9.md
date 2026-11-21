@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domywstylu.pl | Bezpłatna wysyłka | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
-| domywstylu.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | POBIERZ BEZPŁATNIE | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | Bądź pierwszą osobą, która zamówi kosztorys do projektu Malutki 12. Zadzwoń: 577 007 206 | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
 | domywstylu.pl | Cena kosztorysu dla projektu Malutki 12 wynosi 550 zł. | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl | Kosztorys | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | domyzweranda.pl | Pierwszy dom „na start" w cenie mieszkania. | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | domyzweranda.pl | Bezpłatne rozwiązania detali do pobrania - rysunki i modele gotowe do użycia w adaptacji i własnych projektach. Biblioteka stale rośnie, obecnie 1 detal. | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
+| e-domy.pl | Jak autorzy projektów E-DOMY.PL zapraszamy Klientów indywidualnych do skorzystania z PROMOCJI: | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/) |
+| e-domy.pl | Połączyliśmy siły z renomowaną pracownią projektowania wnętrz Senstetik. Konsultacja w cenie projektu! | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/) |

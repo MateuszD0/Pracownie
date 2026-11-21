@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pracowniaprojektowa.info | 20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://www.pracowniaprojektowa.info/) |
-| pracowniaprojektowa.info | Cieszymy się, że poświęcasz swój czas naszej ofercie. Chętnie udzielimy Ci szczegółowych odpowiedzi na pytania dotyczące prezentowanego projektu. Dostępne są również rysunki szczegółowe, które udostępniamy bezpłatnie. Jeśli chciałbyś wprowadzić w projekcie zmiany, chętnie się tego podejmiemy. Jeśli masz wątpliwości co do możliwości wybudowania prezentowanego projektu na Twojej działce, możemy wyk… | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://www.pracowniaprojektowa.info/Projekt_garazu_BK10) |
-| praktyczneprojekty.pl | - Dwukondygnacyjność skutecznie izoluje akustycznie strefę dzienną (poziom parteru) od nocnej (poziom piętra), - Dom zaprojektowany w technologii energooszczędnej, dobrze ocieplony. Mieszkania bardzo tanie w eksploatacji. - Dodatkiem "extra" jest przestronny strych, który zaspokoi potrzeby magazynowe dla wyposażenia i artykułów sezonowych Podstawowe dane techniczne: Powierzchnia zabudowy budynku… | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://praktyczneprojekty.pl/b11___75m2lok.html) |
 | praktyczneprojekty.pl | , dobrze ocieplony. Mieszkania bardzo tanie w eksploatacji. - Dodatkiem "extra" jest przestronny strych, który zaspokoi potrzeby magazynowe dla wyposażenia i artykułów sezonowych | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://praktyczneprojekty.pl/b11___75m2lok.html) |
 | pro-arte.pl | RABAT 500 ZŁ | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
 | pro-arte.pl | KOSZT WYSYŁKI W CENIE PROJEKTU | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Zobacz wszystkie kosztorysy → | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Dobry projekt to nie tylko układ pomieszczeń i wygląd domu. Przed rozpoczęciem inwestycji warto wiedzieć, jakiego budżetu może wymagać budowa wybranego projektu. Dlatego dla projektów Rodzina na Swoim przygotowaliśmy kompletne pakiety kosztorysowe. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Wybierz kosztorys swojego domu → | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | Kosztorys budowy projektu Rodzina na Swoim | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
+| projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |

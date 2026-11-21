@@ -24,41 +24,13 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-10-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-8-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
 **Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F40c246794ce7c4b3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+ko%C5%84czy+si%C4%99%3A+30.11.2026%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F40c246794ce7c4b3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+ko%C5%84czy+si%C4%99%3A+30.11.2026%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F40c246794ce7c4b3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9EPromocja+ko%C5%84czy+si%C4%99%3A+30.11.2026%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 503e1b6289f6324b
-
-**Nowa promocja w komunikacji: „CENA PROMOCYJNA”**
-
-**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>CENA PROMOCYJNA</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
-
-[Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-10-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Nowa+promocja+w+komunikacji%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
@@ -80,13 +52,41 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-9-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-7-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
 **Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F3511e7d00fb8b95d%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F3511e7d00fb8b95d%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F3511e7d00fb8b95d%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2F%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 503e1b6289f6324b
+
+**Zauważono etykietę: „CENA PROMOCYJNA”.**
+
+**Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>CENA PROMOCYJNA</strong> | [Otwórz stronę](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+
+[Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-8-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-8-po.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-21%2F503e1b6289f6324b%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+projektyzwizja.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9ECENA+PROMOCYJNA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojektyzwizja.pl%2Fprojekty-domow%2F193%2Cidealny-m3%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
@@ -108,7 +108,7 @@ Liczba źródłowych obserwacji: 2. Pełne zapisy pozostają w szczegółach pra
 
 | Przed · 20.11.2026 09:27 | Po · 21.11.2026 11:28 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-9-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t110054.494136-0000-e1b13f0a-dowod-9-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-7-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t154433.912378-0000-42319fde-dowod-7-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 

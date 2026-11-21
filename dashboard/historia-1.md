@@ -15,9 +15,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „CENA PROMOCYJNA” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „CENA PROMOCYJNA”. | Do sprawdzenia |
 | projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-11-21 | Nowa promocja w komunikacji: „% PROMOCJA” | Sprawdzono w serwisie |
+| projekty.nordarchitekci.pl · 2026-11-21 | Zauważono etykietę: „% PROMOCJA”. | Do sprawdzenia |
 | projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
 | mgprojekt.com.pl · 2026-11-21 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |

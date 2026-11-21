@@ -8,12 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl | Dodatki do projektów | Obecna w zapisie · 21.11.2026 11:29 · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
-| studioatrium.pl | PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026 | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
-| studioatrium.pl | POWIADOM O DODATKOWEJ PROMOCJI | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
-| studioatrium.pl | instalacje: + ~20-25% wartości kosztorysu | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
-| studioatrium.pl | Szacunkowy kosztorys na II kwartał 2026 roku, podane ceny są cenami netto. Zobacz więcej » | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
-| studioatrium.pl | domy tanie w budowie \| domy parterowe \| domy dla rodziny 2+2 \| domy szkieletowe \| promocje \| domy od 70 m² do 100 m² \| najlepsze parterówki \| projekty domów parterowych bez garażu \| projekty domów parterowych z dachem dwuspadowym \| najlepsze małe domy parterowe \| projekty domów do 120 m² | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
 | studiokrajobrazy.pl | bezpłatna dostawa projektu | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://studiokrajobrazy.pl/) |
 | studiokrajobrazy.pl | z kosztorysem | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://studiokrajobrazy.pl/) |
 | studiokrajobrazy.pl | dostawa kurier 48h - GRATIS! | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
@@ -33,3 +27,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl | Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Szczegóły : Kosztorys inwestorski domu z zestawieniem niezbędnych materiałów dla opcji Standard i EKO | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
 | teaprojekt.pl | Jak szybko otrzymam projekt i czy mogę zamówić kosztorys? | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| teaprojekt.pl | bezpłatna zgoda na zmiany zmiany w projekcie &gt;&gt; | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/) |
+| uarchitekta.pl | Będziemy informować o nowych projektach, promocjach i aktualnościach | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.uarchitekta.pl/) |
+| uarchitekta.pl | PROJEKT DOMU Z KOSZTORYSEM – CO ZAWIERA I JAK KONTROLOWAĆ BUDŻET? | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.uarchitekta.pl/) |
+| uarchitekta.pl | Kosztorys do projektu pomaga porównywać rozwiązania i planować finansowanie, ale nie jest gwarancją ostatecznej ceny budowy. Zobacz, jak czytać jego zakres, kiedy go aktualizować i jak wykorzyst | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.uarchitekta.pl/) |
+| uarchitekta.pl | Możliwość dokupienia dodatków i wprowadzenia zmian w projekcie, by dopasować go do swoich potrzeb, | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.uarchitekta.pl/) |
+| uarchitekta.pl | Wybudowanie swojego wymarzonego domu może być dużym wydatkiem. Gdy liczą się jak najniższe koszty, zapraszamy do sprawdzenia projektów domów tanich w budowie. Na koszty wybudowania domu jednorodzinnego wpływa wiele czynników, między innymi metraż budynku, technologia budowy, wykorzystane materiały, liczba jego kondygnacji, rodzaj konstrukcji dachu, zastosowane instalacje. Aby obniżyć koszty reali… | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.uarchitekta.pl/) |

@@ -8,8 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl | Pakiet - Przydomowa oczyszczalnia ścieków - 399,00 PLN więcej | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
-| e-domy.pl | Pakiet - Szambo Szczelne - 349,00 PLN więcej | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | RZUTY I OPIS KOMENTARZE 0 TECHNOLOGIA DO POBRANIA DODATKI | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | UWAGA: Podana cena promocyjna jest najniższą w okresie 30 dni przed wprowadzeniem obniżki. | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | e-domy.pl | ZAMÓW PROJEKT Z PROMOCJĄ !!! | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
@@ -21,7 +19,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | ekoarchitekci.pl | Kosztorys | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://ekoarchitekci.pl/properties/eko-typowy-85/) |
 | faberarchitektura.com | Użyj w koszyku kuponu UY99DWVR i uzyskaj rabat | Obecna w zapisie · 21.11.2026 11:25 · 21.11.2026 11:25<br>[Źródło](https://faberarchitektura.com/) · [Źródło](https://faberarchitektura.com/produkt/kp-100/) |
 | fortecaklimatyczna.pl | Nie zachęcamy gratisami, stałymi pseudo-promocjami, dodatkami. Przekazujemy UNIKATOWE ROZWIĄZANIA DOPRACOWANE W KAŻDYM SZCZEGÓLE wybranych technologii, systemów i konkretnych urządzeń oraz producentów z licznymi certyfikowanymi ekipami wykonawczymi. Nasze projekty to nie tylko koncepcja oraz standard branżowy do celów uzyskania pozwolenia na budowę, ale gotowe rozwiązanie budowy domu samowystarcz… | Obecna w zapisie · 19.11.2026 05:06<br>[Źródło](https://www.fortecaklimatyczna.pl/duo-line.html) |
-| galeriadomow.pl | Pobierz BEZPŁATNY E-KATALOG | Obecna w zapisie · 18.11.2026 05:51 · 18.11.2026 05:51 · 18.11.2026 05:51<br>[Źródło](https://www.galeriadomow.pl/) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
+| galeriadomow.pl | Pobierz BEZPŁATNY E-KATALOG | Obecna w zapisie · 18.11.2026 05:51 · 18.11.2026 05:51<br>[Źródło](https://www.galeriadomow.pl/) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
 | galeriadomow.pl | Projekty domów w promocji | Obecna w zapisie · 18.11.2026 05:51<br>[Źródło](https://www.galeriadomow.pl/) |
 | galeriadomow.pl | Zamów bezpłatny katalog · https://www.galeriadomow.pl/img/banner/4.png | Obecna w zapisie · 18.11.2026 05:51<br>[Źródło](https://www.galeriadomow.pl/) |
 | galeriadomow.pl | PROJEKTY DOMÓW NOWOŚCI 2027 PROMOCJA KONTAKT | Obecna w zapisie · 18.11.2026 05:51 · 18.11.2026 05:51<br>[Źródło](https://www.galeriadomow.pl/) · [Źródło](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | gutarchitektura.pl | Zamów kosztorys - cena 600 zł | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://www.gutarchitektura.pl/produkt/projekt-czarna-stodola/) |
 | hbstudio.pl | Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniżej przedstawiamy listę dodatkowych projektów uzupełniających: | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://hbstudio.pl/) |
 | hbstudio.pl | 4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://hbstudio.pl/) |
+| hbstudio.pl | Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu. \* Zastosowanie dodatkowych instalacji może mieć wpływ na konieczność dokonania zmian w projekcie katalogowym. Dodatkowe pakiety instalacji są wykonywane jako usługa i nie podlegają zwrotowi oraz wymianie. | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://hbstudio.pl/) |
+| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 21.11.2026 11:25<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |

@@ -10,11 +10,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | domoweklimaty.pl | dodatków do projektu | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
 | domoweklimaty.pl | Na życzenie bezpłatnie proponujemy także: | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
-| domoweklimaty.pl | Promocja: -500 zł na projekty domów! | Obecna w zapisie · 21.11.2026 11:24 · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) · [Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | domoweklimaty.pl | Gratis | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
 | domoweklimaty.pl | Pakiet dodatków i gratisów tylko dla klientów bezpośrednich | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
 | domoweklimaty.pl | otowych, dostępnych na stronie materiałów promocyjnych | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
-| domoweklimaty.pl | Promocja: -500 zł na projekty domów! 9d:12h:34m:19s | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | domoweklimaty.pl | Zamów kosztorys | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | domoweklimaty.pl | Jak liczymy kosztorysy? | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | domoweklimaty.pl | KOSZTORYS RAZEM | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
@@ -33,3 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domywstylu.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | GRATIS ! | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
+| domywstylu.pl | Bezpłatna wysyłka | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |
+| domywstylu.pl | Jeśli chcesz otrzymać bezpłatne rysunki szczegółowe tego projektu, wypełnij formularz. Rysunki zostaną przesłane na podany adres e-mail. | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domywstylu.pl/projekt-domu-malutki_12.php) |

@@ -8,12 +8,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | kosztorys uproszczony PDF | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| projektdomudo100m2.pl | Kup kosztorys RNS100C → | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
-| projektstodola.pl | W CENIE PROJEKTU ZYSKUJESZ: | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | projektstodola.pl | BEZPŁATNA DOSTAWA KURIEREM | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
 | projektstodola.pl | KOSZTORYS | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |
-| projekty.nordarchitekci.pl | % PROMOCJA | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projekty.nordarchitekci.pl/) |
 | projekty.nordarchitekci.pl | Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projekty.nordarchitekci.pl | Pobierz bezpłatnie | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
 | projekty.nordarchitekci.pl | Dane techniczne i kosztorys | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29) |
@@ -33,3 +29,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyka.pl | Dziennik budowy 1,- Tablica budowy 1,- Projekt wentylacji mechanicznej 1200,- Projekt pompy ciepła 800,- Kotłownia na paliwo stałe 550,- Pakiet szamba szczelnego 300,- Przydomowa oczyszczalnia ścieków 500,- Kosztorys inwestorski 550,- Dodatkowy papierowy egzemplarz projektu 600,- | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektyka.pl/projekty/ka288) |
 | projektyprestige.pl | PROMOCJA - MINUS 100 PLN! | Obecna w zapisie · 21.11.2026 11:28 · 21.11.2026 11:28<br>[Źródło](https://projektyprestige.pl/) · [Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
 | projektyprestige.pl | Przy składaniu zamówienia na projekt domu istnieje możliwość zamówienia szczegółowego kosztorysu. Dodatkowy koszt takiego opracowania wynosi od 400 do 600 zł brutto. Zamawiając projekt wystarczy zgłosić chęć zamówienia kosztorysu (wpisując to w polu „komentarz”). | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektyprestige.pl/projekt/projekt-domu-wilson-iii/) |
+| projektyzwizja.pl | PROMOCJA KOŃCZY SIĘ ZA: 9d 12:30:21 | Obecna w zapisie · 21.11.2026 11:28 · 21.11.2026 11:28<br>[Źródło](https://projektyzwizja.pl/) · [Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Promocja kończy się: 30.11.2026 | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | BEZPŁATNA ANALIZA DZIAŁKI | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
+| projektyzwizja.pl | Sprawdzimy bezpłatnie, czy Twoje zmiany są możliwe i proste do wprowadzenia przez lokalnego projektanta adaptującego. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |

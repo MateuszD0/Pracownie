@@ -8,12 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
-| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | 10% RABATU | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | po uruchomieniu kredytu na budowę domu, dokonamy częściowego zwrotu kosztów zakupu naszego projektu na zasadach opisanych w Regulaminie promocji. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | GRATISY DO PROJEKTU: | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/projekty/sava-b) |
@@ -33,3 +27,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | studioatrium.pl | bezpłatną zgodę na zmiany | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | darmowe dodatki o wartości 1000zł | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/) |
 | studioatrium.pl | Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu. | Obecna w zapisie · 21.11.2026 11:29 · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | Dodatki do projektów | Obecna w zapisie · 21.11.2026 11:29 · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/) · [Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026 | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | POWIADOM O DODATKOWEJ PROMOCJI | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | instalacje: + ~20-25% wartości kosztorysu | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | Szacunkowy kosztorys na II kwartał 2026 roku, podane ceny są cenami netto. Zobacz więcej » | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |
+| studioatrium.pl | domy tanie w budowie \| domy parterowe \| domy dla rodziny 2+2 \| domy szkieletowe \| promocje \| domy od 70 m² do 100 m² \| najlepsze parterówki \| projekty domów parterowych bez garażu \| projekty domów parterowych z dachem dwuspadowym \| najlepsze małe domy parterowe \| projekty domów do 120 m² | Obecna w zapisie · 21.11.2026 11:29<br>[Źródło](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html) |

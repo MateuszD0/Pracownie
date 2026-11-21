@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektdomudo100m2.pl | KOMPLETNY PAKIET | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | Kosztorys budowy projektu Rodzina na Swoim | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
-| projektdomudo100m2.pl | za kompletny pakiet | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Pakiet jest wysyłany na adres e-mail podany podczas zamówienia po potwierdzeniu płatności. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Znajdź kosztorys dla swojego projektu → | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
 | projektdomudo100m2.pl | Kosztorysy dopasowane do konkretnych wariantów. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektdomudo100m2.pl | Kosztorys budowy projektu RNS100C | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektdomudo100m2.pl | Dla domu RNS100C z dachem czterospadowym dostępny jest osobny kosztorys uwzględniający materiały i zakres prac właściwy dla tego projektu. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
 | projektdomudo100m2.pl | pełny kosztorys inwestorski PDF | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | kosztorys uproszczony PDF | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektdomudo100m2.pl | Kup kosztorys RNS100C → | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/) |
+| projektstodola.pl | W CENIE PROJEKTU ZYSKUJESZ: | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://projektstodola.pl/produkt/projekt-dwie-stodoly/) |

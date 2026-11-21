@@ -30,6 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | dominanta.pl | projekty w promocji » | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
 | dominanta.pl | UWAGA: promocja dotyczy tylko klientów indywidualnych zamawiających projekt bezpośrednio u nas. | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
 | dominanta.pl | cena podstawowa: 5300,- cena w promocji: 5300,- | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
-| domoweklimaty.pl | Promocja: -500 zł na projekty domów! 9d:12h:34m:34s | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
+| domoweklimaty.pl | Promocja: -500 zł na projekty domów! \[licznik\] | Obecna w zapisie · 21.11.2026 11:24 · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) · [Źródło](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | domoweklimaty.pl | POBIERZ BEZPŁATNY KATALOG | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |
 | domoweklimaty.pl | Zapisz się do newslettera i odbierz 300zł rabatu! | Obecna w zapisie · 21.11.2026 11:24<br>[Źródło](https://www.domoweklimaty.pl/) |

@@ -8,9 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mtmstyl.com.pl | Najniższa cena 30 dni przed promocją 5749 zł | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| mtmstyl.com.pl | Do końca PROMOCJI pozostało | Obecna w zapisie · 21.11.2026 11:26<br>[Źródło](http://www.mtmstyl.com.pl/projekt-domu-malutki_12.php) |
-| nowoczesne-projektydomow.pl | Dopuszczamy zmiany zastosowanych materiałów, zmianę funkcji domu jak również gabarytów budynku. Do projektu dołączona jest bezpłatna zgoda Autorów domu na wprowadzenie dowolnych zmian. | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](http://www.nowoczesne-projektydomow.pl/projekty,10,0,223) |
 | opusdom.pl | PROMOCJA NA ADAPTACJĘ | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://opusdom.pl/) |
 | opusdom.pl | Specjalnie dla Inwestorów, którzy chcą kupić projekt z oferty OPUSDOM i zacząć budowę na wiosnę, mamy adaptację projektu z rabatem - zapytaj o Adaptację w Promocji | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://opusdom.pl/) |
 | opusdom.pl | bezpłatna wycena zmian i adaptacji | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://opusdom.pl/produkt/ami-ii/) |
@@ -33,3 +30,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | pollio.pl | Energooszczędna nowoczesna stodoła zrealizowana w surowym klimacie Islandii. Konstrukcja wzmocniona na wiatry do 160 km/h, pokrycie blachą na rąbek, izolacja PIR i trzyszybowe pakiety termoizolacyjne. | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | W cenie obsługi | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |
 | pollio.pl | ZAMÓW PRECYZYJNY KOSZTORYS → | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | Nie sprzedajemy projektów na papierze do samodzielnej budowy. Wznosimy domy w standardzie generalnego wykonawstwa — pełna dokumentacja, adaptacja i formalności za 0 zł w cenie umowy budowlanej z 10-letnią pisemną gwarancją. | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | Od projektu do odbioru kluczy: bezpłatnie przeanalizujemy Twoją działkę (MPZP, warunki gruntowe, usytuowanie), zaadaptujemy projekt architektoniczny (0 zł w umowie), uzyskamy pozwolenie na budowę i wzniesiemy dom z 10-letnią gwarancją na konstrukcję nośną. | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |
+| pollio.pl | Zgłoś działkę do bezpłatnej analizy | Obecna w zapisie · 21.11.2026 11:27<br>[Źródło](https://pollio.pl/) |

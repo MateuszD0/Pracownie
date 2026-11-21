@@ -8,12 +8,6 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sej-pro.pl | Bezpłatna zgoda na zmiany | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Rabaty w marketach budowlanych | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 15% rabatu na 1 dzień zakupów | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | 10% rabatu przez 12 mies. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Bezpłatna analiza działki | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
-| sej-pro.pl | Zamów bezpłatną analizę | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | W cenie otrzymasz | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Pakiet extra dodatków o wartości 4100 zł za 1 zł | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | sej-pro.pl | Dodatki oznaczone PDF wysyłamy e-mailem na adres podany w zamówieniu. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
@@ -33,3 +27,9 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | slonecznedomy.pl | FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | możesz skorzystać z wielu atrakcyjnych promocji. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
 | slonecznedomy.pl | Dodatki do projektów | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Dodatki, które ułatwią budowę Twojego domu. | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Kosztorys projektu | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Zobacz przykładowy kosztorys który możesz kupić wraz z projektem | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | umów się na spotkanie z doradcą za naszym pośrednictwem lub skorzystaj z infolinii Expander i poinformuj doradcę, że posiadasz projekt domu Pracowni Słoneczne Domy i chcesz skorzystać z promocji „ZWROT KOSZTÓW PROJEKTU PO UZYSKANIU KREDYTU ZA POŚREDNICTWEM EXPANDER ADVISORS SP. Z O.O.”, | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | projekty domów z kosztorysem | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |
+| slonecznedomy.pl | Rabat za zdjęcia · https://www.slonecznedomy.pl/files/banners/1505206843\_8.jpg | Obecna w zapisie · 21.11.2026 11:28<br>[Źródło](https://www.slonecznedomy.pl/) |

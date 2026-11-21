@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „I życzyłbym sobie oraz innym, aby było więcej takich projektantów jak Pani Kamila.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-08 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D411 Segment do zbliżniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-08 | Pojawił się komunikat: „D292A Gabinet, pracownia z niezależnym wejściem WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-08 | W nowym zapisie nie ma komunikatu: „D424 Segment dwulokalowy WT2021”. | Zaobserwowana zmiana |
-| archetyp.pl · 2026-11-08 | Pojawił się komunikat: „111,37m2 113,98m2 116,96m2 119,94m2 125,15m2 131,14m2 133,14m2 134,13m2 136,83m2 137,99m2 140,52m2 143,77m2 148,08m2 149,96m2 150,50m2 154,38m2 155,16m2 158,86m2 166,58m2 168,81m2…”. | Zaobserwowana zmiana |
-| zbudujsamdom.pl · 2026-11-07 | „Budowa domu murowanego 93m2 z garażem w Kościerzynie – poszukiwana firma budowlana” → „Budowa domu murowanego 170m2 w Golczewie – poszukiwana firma budowlana”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-07 | Zmiana komunikatu oferty: „4 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków” → „3 egzemplarze projektu, bezpłatna zgoda na zmiany, darmowa dostawa; przy zamówieniu na stronie pakiet extra dodatków” | Sprawdzono w serwisie |
-| mgprojekt.com.pl · 2026-11-07 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |

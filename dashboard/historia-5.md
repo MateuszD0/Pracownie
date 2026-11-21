@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „JAKI SYSTEM SMART HOME WYBRAĆ I DLACZEGO?”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-19 | „20 lipca 2026” → „18 listopada 2026”. | Do sprawdzenia |
 | kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „DLACZEGO GOTOWE DOMY Z PREFABRYKATÓW OD DANWOOD CIESZĄ SIĘ TAK DUŻĄ POPULARNOŚCIĄ?”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „1 Weryfikacja otoczenia”. | Do sprawdzenia |

@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| dom-projekt.pl · 2026-11-01 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 27.10.2026 roku do dnia 29.10.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D340 wersja drewniana Wt2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Rino II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…” → „Olga to wygodny, funkcjonalny parterowy dom z nieużytkowym poddaszem i wiatą garażową.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „Autor: Marek Oczkowski” → „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-31 | „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednosta…” → „Amelia to funkcjonalny, wygodny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |

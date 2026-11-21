@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| teaprojekt.pl · 2026-11-15 | „30 września 2026 · 9 min czytania” → „30 września 2026 · 10 min czytania”. | Potwierdzono ponownym odczytem |
+| teaprojekt.pl · 2026-11-15 | „28 września 2026 · 13 min czytania” → „28 września 2026 · 14 min czytania”. | Potwierdzono ponownym odczytem |
+| projektydomowzbali.pl · 2026-11-15 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Uff, jak gorąco! Jak uchronić dom przed upałem?”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
 | sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
 | sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Bezpłatna zgoda na zmiany”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pakiet extra dodatków o wartości 4100 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Extra dodatki za 1 zł” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „PDF · bezpłatnie”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |

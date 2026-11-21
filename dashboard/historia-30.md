@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domywstylu.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| domywstylu.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
 | dompp.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
 | domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'MerchantReturnPolicy', 'applicableCountry': 'PL', 'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow', 'merchantReturnDays': 14, 'returnMethod…”. | Zaobserwowana zmiana |
 | domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'OfferShippingDetails', 'shippingRate': {'@type': 'MonetaryAmount', 'value': '0.00', 'currency': 'PLN'}, 'shippingDestination': {'@type': 'DefinedRegion', 'addressCountr…”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-03, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| 3ddom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 04.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |

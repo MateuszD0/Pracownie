@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D - projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
+| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D odbicie lustrzane- projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
 | dompasja.pl · 2026-10-30 | „DomPasja 56 - projekt domu z poddaszem użytkowym” → „Dompasja 61 D - projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
 | dominanta.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
 | dominanta.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „1xBet Промокод 2026 — Акция: 100% Бонус до 32 500 руб”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | archeton.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja mikołajkowa” | Do sprawdzenia |
 | alexanderstudio.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-10-27, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-10-30 | „Garaże i budynki &lt;br&gt;gospodarcze” → „Garaże i budynki gospodarcze”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-30 | „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe” → „Bliźniaki i jednorodzinne dwulokalowe”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 28.10.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |

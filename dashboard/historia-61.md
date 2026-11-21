@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-27 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-10-27 | „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 marca 2026 r.” → „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 września 2026 r.”. | Zaobserwowana zmiana |
+| eg-domy.pl · 2026-10-27 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Rodzinny dom z sypialnią na parterze”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-27 | Pojawił się komunikat: „Prosty dom z czterema sypialniami”. | Zaobserwowana zmiana |
 | domywstylu.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
@@ -29,5 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-10-26 | Pojawił się komunikat: „Rodzinny dom z sypialnią na parterze”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-10-26 | W nowym zapisie nie ma komunikatu: „Parterowy dom z płaskim dachem”. | Zaobserwowana zmiana |
-| archand.pl · 2026-10-26 | „POLECANE KATEGORIE” → „ZNAJDŹ DOM W SWOIM STYLU”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-26 | Zapowiedź promocji od 2026-10-27. | Potwierdzona zapowiedź |

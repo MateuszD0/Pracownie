@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| alexanderstudio.pl · 2026-10-30 | „Garaże i budynki &lt;br&gt;gospodarcze” → „Garaże i budynki gospodarcze”. | Zaobserwowana zmiana |
+| alexanderstudio.pl · 2026-10-30 | „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe” → „Bliźniaki i jednorodzinne dwulokalowe”. | Zaobserwowana zmiana |
+| 3ddom.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 28.10.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
+| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Czy mogę zwrócić lub wymienić projekt?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Więcej o naszych projektach”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Zadzwoń lub napisz – bezpłatnie sprawdzimy, czy wybrany projekt pasuje do Twojej działki.” | Sprawdzono w serwisie |
 | teaprojekt.pl · 2026-10-29 | Nowy dodatek lub pakiet: „Nowoczesne domy parterowe i piętrowe, stodoły i domy tanie w budowie – kupujesz bezpośrednio u autora. Do każdego projektu bezpłatna zgoda na zmiany i pomoc w adaptacji.” | Sprawdzono w serwisie |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Więcej o naszych projektach”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Skąd mam wiedzieć, czy projekt pasuje do mojej działki?”. | Zaobserwowana zmiana |
 | teaprojekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów a uwarunkowania lokalne.”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Jak długo czeka się na projekt?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Projekty garaży 8 projektów”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Domy piętrowe 18 projektów”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-10-29 | Pojawił się komunikat: „Autorskie gotowe projekty domów”. | Zaobserwowana zmiana |

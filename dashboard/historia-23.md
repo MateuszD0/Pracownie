@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „To było półtora roku współpracy pełnej zrozumienia potrzeb klienta. Adaptowaliśmy projekt HG 06 passive ze sporą ilością zmian. Pani Kamila z cierpliwością i pełnym profesjonalizm…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |

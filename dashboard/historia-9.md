@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Next”. | Do sprawdzenia |
 | domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Previous”. | Do sprawdzenia |
 | domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Nowoczesna stodoła z poddaszem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i dachem dwuspadowym”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i z gabinetem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem na wąską działkę”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-18 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |

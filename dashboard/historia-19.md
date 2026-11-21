@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| dom-projekt.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 10.11.2026 roku do dnia 12.11.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
 | archstodola.pl · 2026-11-13 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
 | archiportal.pl · 2026-11-13 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł”. | Potwierdzono ponownym odczytem |
 | archipelag.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja listopadowa! 15% RABATU na projekty domów”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl · 2026-11-12 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
 | dompp.pl · 2026-11-12 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
 | dominanta.pl · 2026-11-12 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-12 | Zmiana komunikatu oferty: „Promocja od 09.11.2026 koniec za” → „Promocja od 11.11.2026 koniec za” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-11 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| projektyka.pl · 2026-11-11 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |

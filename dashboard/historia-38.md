@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| mgprojekt.com.pl · 2026-11-03 | „Wiktoria Berol 2026-10-13 \[licznik\]” → „Aneta 2026-11-01 \[licznik\]”. | Zaobserwowana zmiana |
+| kupprojekt.pl · 2026-11-03 | „Ciężarowe i dostawcze 146” → „Ciężarowe i dostawcze 148”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PRA\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO ŻYCIA\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-03 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELA\|”. | Zaobserwowana zmiana |
 | galeriadomow.pl · 2026-11-03 | „salon + 3 pokoje garaż: 1 101.67 m²” → „salon + 3 pokoje garaż: 2 100.00 m²”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-11-03 | „D292B WT2021 wersja drewniana” → „D292C WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | archiportal.pl · 2026-11-03 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Zaobserwowana zmiana |
 | archi-projekt.com.pl · 2026-11-03 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-03 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |

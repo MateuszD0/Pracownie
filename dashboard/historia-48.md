@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO P\|”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Łączy kreatywność z wiedzą techniczną, komunikuje się jasno i naprawdę zależy jej na osiągnięciu doskonałych rezultatów. Jej pomysły udoskonaliły projekt znacznie przekraczając mo…”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „bez wahania zdecydowałbym się na ponowną współpracę.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Opinie naszych zaufanych i świadomych inwestorów”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |

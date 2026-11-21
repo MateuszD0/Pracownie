@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpływ na…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Malwina Bl z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Prosta zwarta bryła z dwuspadowym dachem i funkcjonalność to podstawowe zalety projektu. Na parterze znajduje się…”. | Do sprawdzenia |
+| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Sadyba wersja D jest powiększoną wersją popularnej Sadyby z salonem doświetlonym od strony frontowej, co pozwala zrealizować projekt również na działce z wjazdem od południa. Tak…”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Dom parterowy z płaskim dachem”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
-| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
-| dominanta.pl · 2026-11-02 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |

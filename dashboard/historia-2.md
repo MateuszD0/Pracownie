@@ -16,6 +16,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
 | domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
 | domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 3551,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11177,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
 | domdlaciebie.com.pl · 2026-11-21 | Nowa promocja w komunikacji: „Rabat 500zł” | Sprawdzono w serwisie |
 | domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Nowy projekt - Majka A, już dostępny.”. | Potwierdzono ponownym odczytem |
 | domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Agawa B-ZBL - nowy projekt domu!”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | sej-pro.pl · 2026-11-20 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4091,12 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Potwierdzono ponownym odczytem |
 | projektyka.pl · 2026-11-20 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4575,12 5199,- Najniższa cena z 30 dni przed obniżką: 5199”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-20 | Nowa promocja w komunikacji: „RABAT 500 ZŁ” | Sprawdzono w serwisie |
-| postawdom24.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja trwa do 30 listopada 2026” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-20 | Nowa promocja w komunikacji: „BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |

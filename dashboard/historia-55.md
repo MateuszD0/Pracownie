@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jesteśmy zadowoleni z projektu HG 04 II energo+, który pod względem rozkładu i energooszczędności – poza paroma kosmetycznymi zmianami – idealnie nam odpowiadał, stąd wybraliśmy t…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Czuć, że dom jest świetnie ocieplony, bo gdy tylko włączyliśmy ogrzewanie dom szybciutko nagrzał się i trzymał ciepło długo po wyłączeniu. Mieszka się bardzo komfortowo. Polecamy!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Wymarzony dom. Wymarzona bryła. Eko oszczędnie! Poranna kawa lub wieczorne ziółka to moje ulubione momenty dnia na tarasie.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „W dużym skrócie, bardzo gorąco polecam!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-29 | Pojawił się komunikat: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domato.pl · 2026-10-29 | Pojawił się komunikat: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-10-29 | „D324 WT2021 wersja drewniana” → „DM3 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-10-29 | W nowym zapisie nie ma komunikatu: „D330A Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-10-29 | Zmiana komunikatu oferty: „Promocja od 26.10.2026 koniec za” → „Promocja od 28.10.2026 koniec za” | Sprawdzono w serwisie |
-| sprytnaoaza.pl · 2026-10-28 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-28 | Pojawił się komunikat: „Elektroniczny dziennik budowy: jak go założyć krok po kroku w 2026”. | Zaobserwowana zmiana |
-| sej-pro.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Dom parterowy czy z poddaszem: co tańsze w budowie i utrzymaniu?”. | Zaobserwowana zmiana |

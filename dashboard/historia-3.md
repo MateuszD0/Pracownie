@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4575,12 5199,- Najniższa cena z 30 dni przed obniżką: 5199”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-20 | Nowa promocja w komunikacji: „RABAT 500 ZŁ” | Sprawdzono w serwisie |
+| postawdom24.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja trwa do 30 listopada 2026” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-20 | Nowa promocja w komunikacji: „BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
 | planujdom.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z 30 dni przed obniżką: 2960,00 zł.”. | Potwierdzono ponownym odczytem |
 | opprojekt.com.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „Premiera w naszej bazie: Poznaj projekt Luna 2G – Twój ulubiony dom teraz w wersji z garażem! 16 października 2026 Zobacz Lunę 2G w jesiennej odsłonie.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
 | mtmstyl.com.pl · 2026-11-20 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „PROMOCJA - RABAT 500ZŁ” | Sprawdzono w serwisie |
 | domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
 | domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Sprawdź projekty objęte promocją” | Sprawdzono w serwisie |
-| dom-projekt.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 300 zł” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| archstodola.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |

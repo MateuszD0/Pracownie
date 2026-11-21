@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Mona z garażem jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być zbl…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Nesta to wygodny, przestronny parterowy dom z nieużytkowym poddaszem i wbudowanym jednostanowiskowym garażem.”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO R\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RELAKS\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PRACY\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO RELA\|” → „PROJEKTUJEMY MIEJSCA DO RELAK\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-10-30 | „PROJEKTUJEMY MIEJSCA DO PR\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |

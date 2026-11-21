@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
 | dompp.pl · 2026-11-19 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
 | dominanta.pl · 2026-11-19 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kreodom.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „JAKIE ZNACZENIE MA GEOTECHNIKA W PROCESIE BUDOWY DOMU”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Termoizolacja”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Parametry”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Odzysk ciepła”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Orientacja”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Okna i drzwi”. | Do sprawdzenia |

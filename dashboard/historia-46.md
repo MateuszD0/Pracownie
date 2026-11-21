@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF.”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys inwestorski to dokument finansowy, uwzględniający wszystkie koszty budowy domu – w tym przede wszystkim koszty zakup materiałów i ich rodzaj, robociznę (określaną w form…”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys nie obejmuje kosztów zagospodarowania działki.”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowy egzemplarz projektu”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Kosztorys”. | Zaobserwowana zmiana |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys”. | Do sprawdzenia |
 | projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowe opcje przy zakupie projektu”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-30 | „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej…” → „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | „Autor: arch. Marek Oczkowski” → „Autor: Marek Oczkowski”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Bryła domu przekryta wielospadowym dachem z lukarnami jest bardzo atrakcyjna wizualnie i będzie wyróżniała się swoim wyglądem wśród sąsiadującej zabudowy. Część dzienna na parterz…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Fiona wersja B z Opusdom to wygodny dom parterowy z użytkowym poddaszem. Zaletami projektu jest funkcjonalność, zwarta bryła i koszt realizacji.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Melka jest wygodnym niepodpiwniczonym domem w zabudowie wolno stojącej z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom charakteryzuje się dużą funkcjonalnością…”. | Zaobserwowana zmiana |

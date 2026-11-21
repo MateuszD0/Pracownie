@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
+| nowoczesne-projektydomow.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Projekt Architektoniczno-Konstrukcyjny Domu B651 - wersja bez instalacji - Gratis Dodatki”. W sprawdzonym serwisie znaleziono również: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
 | mtmstyl.com.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
 | mtmstyl.com.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
 | mtmstyl.com.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-06 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
 | domywstylu.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| domywstylu.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |

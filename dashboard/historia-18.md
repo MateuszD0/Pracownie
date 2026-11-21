@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Okna i drzwi”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Zyski cieplne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-13 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
 | domywstylu.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
 | domoweklimaty.pl · 2026-11-13 | Pojawił się komunikat: „Nowoczesna stodoła - parter”. | Potwierdzono ponownym odczytem |
-| dom-projekt.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 10.11.2026 roku do dnia 12.11.2026 roku.” | Do sprawdzenia |
-| dom-projekt.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
-| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-13 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |

@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustan…” → „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Karmelia L z Opusdom jest niedużym domem z użytkowym poddaszem i garażem. Prosta bryła i dwuspadowy dach sprawiają że dom jest łatwy w realizacji.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Fiona wersja B Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 5-6 osobowej rodziny. Dom jest bardzo wygodny i funkcjonalny.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Magda L z Opusdom jest funkcjonalnym piętrowym domem z garażem dwustanowiskowym. Ze względu na małą szerokość domu możliwe jest usytuowanie go na wąskiej działce.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Promyczek L z Opusdom to niewielki, ale wygodny, parterowy dom z użytkowym poddaszem. Zalety tego domu: prostota, funkcjonalność i wygoda.”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | artinex-projekt.pl · 2026-10-28 | Pojawił się komunikat: „D330A Zabudowa bliźniacza WT2021”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-10-28 | Pojawił się komunikat: „D324 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | archi-projekt.com.pl · 2026-10-28 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
-| archdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „DODATKI”. | Do sprawdzenia |
-| alexanderstudio.pl · 2026-10-28 | „Garaże i budynki gospodarcze” → „Garaże i budynki &lt;br&gt;gospodarcze”. | Zaobserwowana zmiana |
-| alexanderstudio.pl · 2026-10-28 | „Bliźniaki i jednorodzinne dwulokalowe” → „Bliźniaki i jednorodzinne &lt;br&gt;dwulokalowe”. | Zaobserwowana zmiana |
-| 3ddom.pl · 2026-10-28 | Zmiana komunikatu oferty: „Promocja od 25.10.2026 koniec za” → „Promocja od 26.10.2026 koniec za” | Sprawdzono w serwisie |

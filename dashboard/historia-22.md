@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
 | domdlaciebie.com.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | archiportal.pl · 2026-11-10 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | planujdom.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ZGADZAM SIĘ”. | Do sprawdzenia |
 | kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO REL\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO RELAKS\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| kowalscypracownia.pl · 2026-11-09 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Hexa Green projekt HG 08 energo+”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |

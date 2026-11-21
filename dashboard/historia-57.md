@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „W przypadku projektu „Dom Aleksandra”, zapotrzebowanie na energię użytkową do ogrzania i wentylacji wynosi:” → „Według obliczeń projektowych dla przyjętych warunków lokalizacyjnych w Krakowie zapotrzebowanie na energię uż…”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „RZUT PARTERU – POWIERZCHNIE POMIESZCZEŃ”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | Pojawił się komunikat: „UKŁAD POMIESZCZEŃ – PRZEMYŚLANY DOM DLA RODZINY”. | Zaobserwowana zmiana |
+| profesjonalne-projekty-domow.pl · 2026-10-28 | „Ściany wewnętrzne zaprojektowano jako murowane z bloczków z betonu komórkowego klasy 500. Ściany wewnętrzne o…” → „Ściany wewnętrzne zaprojektowano z bloczków z betonu komórkowego klasy 500. Grubość ścian wynosi 24 i 20 cm,…”. | Zaobserwowana zmiana |
 | planujdom.pl · 2026-10-28 | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
 | opusdom.pl · 2026-10-28 | „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dl…” → „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwn…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „LILI – L to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Ester SZ z Opusdom jest wygodnym domem w zabudowie szeregowej. Ciekawa architektura i funkcjonalne rozwiązania oraz możliwość zrealizowania wielu segmentów to podstawowe zalety pr…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Istnieje możliwość innego podziału funkcjonalnego parteru i poddasza oraz wykonania wjazdu do garażu od elewacji szczytowej.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Filemon z garażem Dom wolnostojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustan…” → „OLIWIA jest wygodnym, reprezentacyjnym domem parterowym z użytkowym poddaszem i wbudowanym garażem jednostano…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | Pojawił się komunikat: „Karmelia L z Opusdom jest niedużym domem z użytkowym poddaszem i garażem. Prosta bryła i dwuspadowy dach sprawiają że dom jest łatwy w realizacji.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-28 | W nowym zapisie nie ma komunikatu: „Autor: arch. Marek Oczkowski”. | Zaobserwowana zmiana |

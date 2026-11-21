@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| dom-projekt.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 300 zł” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| archstodola.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
 | archiportal.pl · 2026-11-20 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł3 999 zł”. | Potwierdzono ponownym odczytem |
 | archi-projekt.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 650 zł” | Sprawdzono w serwisie |
 | archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 2 990 zł”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mgprojekt.com.pl · 2026-11-19 | „Karol F 2026-10-28 \[licznik\]” → „Marta 2026-11-12 \[licznik\]”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
 | kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE ZBIORNIKI NA GAZ PŁYNNY WYBRAĆ DO OGRZEWANIA DOMU”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „JAKI SYSTEM SMART HOME WYBRAĆ I DLACZEGO?”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-19 | „20 lipca 2026” → „18 listopada 2026”. | Do sprawdzenia |

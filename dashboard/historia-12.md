@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizuj zakup”. | Do sprawdzenia |
+| projektyka.pl · 2026-11-16 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
+| pracowniaprojektowa.info · 2026-11-16 | Zmiana komunikatu oferty: „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-16 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
 | homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „No items to show”. | Do sprawdzenia |
 | homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Saved For Later”. | Do sprawdzenia |
 | homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
 | archstodola.pl · 2026-11-16 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-15 | „30 września 2026 · 9 min czytania” → „30 września 2026 · 10 min czytania”. | Potwierdzono ponownym odczytem |
-| teaprojekt.pl · 2026-11-15 | „28 września 2026 · 13 min czytania” → „28 września 2026 · 14 min czytania”. | Potwierdzono ponownym odczytem |
-| projektydomowzbali.pl · 2026-11-15 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |

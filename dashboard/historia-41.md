@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Profesjonalizm na każdym kroku”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Weranda to strzał w dziesiątkę”. | Zaobserwowana zmiana |
+| domyzweranda.pl · 2026-11-02 | Pojawił się komunikat: „Spełnienie marzeń o własnym domu”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-02 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-02 | „D332 WT2021 wersja drewniana” → „DM20 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-02 | „D340 wersja drewniana Wt2021” → „D292B WT2021 wersja drewniana”. | Zaobserwowana zmiana |
 | artinex-projekt.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-01 | „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustan…” → „LILI II z Opusdom to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-01 | „Ami II z Opusdom to wygodny dom z użytkowym poddaszem i garażem dwustanowiskowym. Atrakcyjna bryła domu oraz…” → „Malwina z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz fun…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Sadyba wersja B jest większą wersją popularnej Sadyby. Tak jak wersja podstawowa jest domem o niepowtarzalnym stylu, dodatkowo oferuje właścicielom większą powierzchnię na poddasz…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | Pojawił się komunikat: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „Mona z garażem L jest niedużym parterowym domem z użytkowym poddaszem i wbudowanym garażem, przeznaczonym dla 4-5 osobowej rodziny. Dom jest funkcjonalny i wygodny. Dom może być z…”. | Zaobserwowana zmiana |

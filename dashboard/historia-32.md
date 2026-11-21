@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Alfi Nowoczesny, wygodny, parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym.Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań i…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Filemon z garażem Dom wolno stojący, parterowy z użytkowym poddaszem i jednostanowiskowym garażem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Sadyba z Opusdom jest przestronnym domem z poddaszem użytkowym, który ma niepowtarzalny styl, wyróżniający się wśród zabudowy sąsiadującej.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | Pojawił się komunikat: „Promyk jest niewielkim, ale funkcjonalnym i wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Margo 2 rodziny Dom dwurodzinny, dwupokoleniowy podzielony na dwie odrębne funkcjonalnie części z osobnymi wejściami, z wbudowanym garażem jednostanowiskowym. Większa część z wejś…”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO ŻYC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
 | kowalscypracownia.pl · 2026-11-05 | „PROJEKTUJEMY MIEJSCA DO RELAK\|” → „PROJEKTUJEMY MIEJSCA DO \|”. | Zaobserwowana zmiana |
 | kbprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Sklep internetowy Shoper Premium”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-05 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |

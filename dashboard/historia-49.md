@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jesteśmy bardzo zadowoleni z wyboru projektu domu HG 01 energo+”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
 | hexagreen.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | e-domy.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dom parterowy o prostej bryle”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-10-30 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Zaobserwowana zmiana |
 | domyzweranda.pl · 2026-10-30 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Zaobserwowana zmiana |
-| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| domywstylu.pl · 2026-10-30 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D - projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |
-| dompasja.pl · 2026-10-30 | Pojawił się komunikat: „Dompasja 61 D odbicie lustrzane- projekt domu parterowego z dachem bezokapowym”. | Zaobserwowana zmiana |

@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Projekt + instrukcje + materiały dodatkowe w jednym zestawie”. | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Kupując osobno zapłaciłbyś 946 zł”. | Zaobserwowana zmiana |
+| zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „Po promocji cena wraca do 499 zł.”. W sprawdzonym serwisie znaleziono również: „PAKIET PRO” | Do sprawdzenia |
+| zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Instrukcje PDF + wideo”. | Zaobserwowana zmiana |
 | zbudujsamdom.pl · 2026-10-27 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PAKIET PRO”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „✓ Materiały dodatkowe”. | Do sprawdzenia |
 | zbudujsamdom.pl · 2026-10-27 | „Dla kogo jest ten pakiet?” → „Zobacz, jak może wyglądać gotowy dom 70 m²”. | Zaobserwowana zmiana |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | mtmstyl.com.pl · 2026-10-27 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | kbprojekt.pl · 2026-10-27 | „\| 792 opinii \| stan na: 19.10.2026” → „\| 794 opinii \| stan na: 26.10.2026”. | Zaobserwowana zmiana |
 | kbprojekt.pl · 2026-10-27 | „\| 1,2 tys. opinii \| stan na: 19.10.2026” → „\| 1,2 tys. opinii \| stan na: 26.10.2026”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-10-27 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-10-27 | „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 marca 2026 r.” → „OBWIESZCZENIE WOJEWODY OPOLSKIEGO z dnia 30 września 2026 r.”. | Zaobserwowana zmiana |
-| eg-domy.pl · 2026-10-27 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-10-27 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Zaobserwowana zmiana |

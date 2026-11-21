@@ -17,7 +17,6 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | archetyp.pl<br>Lifi- projekt domu | 6 400,00 zł | 21.11.2026 11:23 | [Karta projektu](https://archetyp.pl/projekt/lifi/) |
 | archi-projekt.com.pl<br>APS 343 POROTHERM | 4 199,00 zł | 21.11.2026 11:23 | [Karta projektu](https://archi-projekt.com.pl/product/aps-343-porotherm/) |
 | archipelag.pl<br>Alison III G2 | 5 520,00 zł | 21.11.2026 11:23 | [Karta projektu](https://www.archipelag.pl/projekty-domow/alison-iii-g2?Category=o77l35n0dtcdil&List=Size3) |
-| archiportal.pl<br>Tracja 11 Strop drewniany wersja podstawowa 4 199 zł4 099 zł | 200,00 zł | 21.11.2026 11:23 | [Karta projektu](https://archiportal.pl/projekt-tracja11-sd) |
 | architeka.pl<br>Projekt domu TK275 | 9 050,00 zł | 21.11.2026 11:23 | [Karta projektu](https://budujdom.pl/projekty-domow/tk275/) |
 | archstodola.pl<br>STODOŁA CHALET | 4 300,00 zł | 21.11.2026 11:23 | [Karta projektu](https://archstodola.pl/stodola-chalet-p-14.html) |
 | artinex-projekt.pl<br>D292B - WT2021 | 4 899,00 zł | 21.11.2026 11:23 | [Karta projektu](https://artinex-projekt.pl/projekty-domow/d292b-wt2021) |
@@ -37,7 +36,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | homekoncept.pl<br>PROJEKT DOMU 149 B2 | 13 990,00 zł | 21.11.2026 11:26 | [Karta projektu](https://homekoncept.com.pl/produkt/homekoncept-149-b2/) |
 | horyzont.com<br>PROJEKT DOMU Z PODDASZEM O WĄSKIEJ BRYLE | 4 200,00 zł | 21.11.2026 11:25 | [Karta projektu](https://horyzont.com/projekty-domow/erni-2) |
 | kowalscypracownia.pl<br>KP-101 | 3 200,00 zł | 21.11.2026 11:26 | [Karta projektu](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |
-| kupprojekt.pl<br>Dawid | 4,40 zł | 21.11.2026 11:26 | [Karta projektu](https://www.kupprojekt.pl/projekt/dawid/) |
+| kupprojekt.pl<br>Dawid | 4 400,00 zł | 21.11.2026 11:26 | [Karta projektu](https://www.kupprojekt.pl/projekt/dawid/) |
 | lipinscy.pl<br>ANNECY 357,32m² | 15 570,00 zł | 21.11.2026 11:26 | [Karta projektu](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl<br>Projekt domu Amber 5 | 5 167,50 zł | 21.11.2026 11:26 | [Karta projektu](https://www.mgprojekt.com.pl/amber-5) |
 | mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 21.11.2026 11:26 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |

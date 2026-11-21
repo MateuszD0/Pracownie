@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i dachem dwuspadowym”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i z gabinetem”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem na wąską działkę”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-18 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
 | dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | dobredomy.pl · 2026-11-18 | „Dodaj do ulubionych” → „Usuń z ulubionych”. | Do sprawdzenia |
 | dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „8799,- 9199,- Najniższa cena z 30 dni przed obniżką: 9199”. | Potwierdzono ponownym odczytem |
 | projektyka.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „6399,- 6799,- Najniższa cena z 30 dni przed obniżką: 6799”. | Potwierdzono ponownym odczytem |
 | modernhouse-projekty.pl · 2026-11-17 | Pojawił się komunikat: „Röben – ceramika budowlana”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-17 | W nowym zapisie nie ma komunikatu: „FARBY, LAKIERY I SZPACHLE DO DREWNA – JAK PRAWIDŁOWO WYKOŃCZYĆ I NAPRAWIĆ STOLARKĘ DREWNIANĄ?”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-17 | Pojawił się komunikat: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-17 | „\| 1,2 tys. opinii \| stan na: 10.11.2026” → „\| 1,2 tys. opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-17 | „\| 794 opinii \| stan na: 10.11.2026” → „\| 794 opinii \| stan na: 16.11.2026”. | Potwierdzono ponownym odczytem |

@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
+| archeton.pl · 2026-11-03 | Nowa promocja w komunikacji: „PROMOCJA -350 zł” | Sprawdzono w serwisie |
+| archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
 | archeton.pl · 2026-11-03 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
 | alexanderstudio.pl · 2026-11-03 | Nowa promocja w komunikacji: „Promocja od 2026-11-03, koniec za:” | Sprawdzono w serwisie |
 | alexanderstudio.pl · 2026-11-03 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Malwina L z Opusdom jest wygodnym parterowym domem z użytkowym poddaszem i garażem. Prosta konstrukcja oraz funkcjnalność to podstawowe zalety projektu. Na parterze znajdują się:…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | „Bardzo wygodny, reprezentacyjny parterowy dom z użytkowym poddaszem przeznaczony dla rodziny 2+ 2” → „Bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowanym garażem jednostanowiskow…”. | Zaobserwowana zmiana |
 | opusdom.pl · 2026-11-02 | „LILI II z Opusdom to niewielki, nowoczesny i wygodny parterowy dom z użytkowym poddaszem i wbudowanym garażem…” → „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „ESTER z Opusdom jest wygodnym domem, który ze względu na niewielką szerokość dom może być zrealizowany na wąskiej działce. Istnieją inne wersje zabudowy domu: jako budynek w zabud…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „jest niedużym, ale wygodnym parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę – na planie prostokąta, co ma bezpośredni wpływ na…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-11-02 | W nowym zapisie nie ma komunikatu: „Malwina Bl z Opusdom jest wygodnym domem w zabudowie bliźniaczej. Prosta zwarta bryła z dwuspadowym dachem i funkcjonalność to podstawowe zalety projektu. Na parterze znajduje się…”. | Do sprawdzenia |
-| opusdom.pl · 2026-11-02 | Pojawił się komunikat: „Kim z Opusdom to nowoczesny, wygodny, parterowy dom z użytkowym poddaszem. Dom zaprojektowaliśmy z naciskiem na funkcjonalność, prostotę rozwiązań i konstrukcji oraz zastosowanie…”. | Zaobserwowana zmiana |

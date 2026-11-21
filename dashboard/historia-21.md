@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | archi-projekt.com.pl · 2026-11-11 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
 | archdom.pl · 2026-11-11 | Pojawił się komunikat: „STODOŁA MINI 3 BG UNI EKO”. | Potwierdzono ponownym odczytem |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domywstylu.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
 | dompp.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
 | domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-10 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-10 | „"Montserrat Thin"” → „"Work Sans"”. | Zaobserwowana zmiana |

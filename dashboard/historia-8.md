@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Odzysk ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Orientacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Okna i drzwi”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Technologia”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zyski cieplne”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Instalacje energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Do sprawdzenia |

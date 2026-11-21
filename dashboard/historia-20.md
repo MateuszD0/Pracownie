@@ -8,6 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| archstodola.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-12 | Zmiana komunikatu oferty: „Promocja od 09.11.2026 koniec za” → „Promocja od 11.11.2026 koniec za” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-11 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
+| projektyka.pl · 2026-11-11 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
 | projektyka.pl · 2026-11-11 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
 | projektstodola.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
 | projektstodola.pl · 2026-11-11 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
@@ -29,7 +33,3 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
 | domideaprojekt.pl · 2026-11-11 | „normalny (400)” → „300”. | Zaobserwowana zmiana |
 | domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
-| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
-| dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |

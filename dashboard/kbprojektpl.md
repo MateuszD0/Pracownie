@@ -34,13 +34,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | --- | --- | --- | --- |
 | Komunikacja sprzedażowa · Opis i argumenty oferty | Tak niską cenę gwarantujemy do <strong>20</strong> listopada 2026 | Tak niską cenę gwarantujemy do <strong>30</strong> listopada 2026 | [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 20.11.2026 09:25 | Po · 21.11.2026 11:26 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -54,7 +54,7 @@ Porównanie: 20.11.2026 09:25 → 21.11.2026 11:26 (czas polski). Różnica zrzu
 
 [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-dowod-22-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-22-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t165529.760773-0000-e9795653-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-porownanie.html)
 

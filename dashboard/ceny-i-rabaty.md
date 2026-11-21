@@ -93,6 +93,8 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | Pracownia | Kod | Rabat / warunki — cytat | Stan / odczyt | Źródło |
 | --- | --- | --- | --- | --- |
 | e-domy.pl | KUPTANIEJ | 1. ZAKUP PROJEKTU Z DODATKOWYM RABATEM 10% - "KUPTANIEJ" Aby skorzytać z oferty należy wpisać kod rabatowy "KUPTANIEJ" podczas zamawiania projektu. 2. KOSZTORYS BUDOWLANY i PRZEDMIAR ROBÓT ZA 129zł. 3. DODATKOWY EGZEMPLARZ PROJEKTU ARCHITEKTONICZNO-BUDOWLANEGO ZA 1zł. 4. TABLICA I DZIENNIK... | Obecna w zapisie<br>21.11.2026 11:25 | [Oferta](https://www.e-domy.pl/) |
+| sej-pro.pl | BLACK500 | Kup ten projekt jeszcze taniej o 500 zł z kodem „BLACK500” 🔥 | Obecna w zapisie<br>21.11.2026 11:28 | [Oferta](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
+| sej-pro.pl | BLACK500 | Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥 | Obecna w zapisie<br>21.11.2026 11:28 | [Oferta](https://www.sej-pro.pl/) |
 | 3ddom.pl | Nie podano | 50% RABATU na projekt garażu przy zakupie projektu domu (aktualnie brak) | Obecna w zapisie<br>21.11.2026 11:23 | [Oferta](https://3ddom.pl/produkt/dom-na-majowej/) |
 | 3ddom.pl | Nie podano | 50% RABATU na projekt instalacji sanitarnych przy zakupie projektu domu | Obecna w zapisie<br>21.11.2026 11:23 | [Oferta](https://3ddom.pl/produkt/dom-na-majowej/) |
 | archeton.pl | Nie podano | Promocja 200 zł na zakupy w Empiku | Obecna w zapisie<br>21.11.2026 11:23 | [Oferta](https://archeton.pl/) |

@@ -1,0 +1,27 @@
+<!-- pracownie-monitor:v1 -->
+
+# Od baneru do ceny projektu
+
+[← Porównanie ofert](porownanie-ofert.md)
+
+2026-11-21
+
+- **archdom.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Bezpłatna dostawa” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>AKSAMITKA 1 · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Brak wiarygodnej ceny z dnia raportu<br>[Baner lub komunikat](https://archdom.pl/#post-6) · [Stała karta projektu](https://archdom.pl/produkt/projekt-domu-aksamitka/)
+
+- **archdom.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Bezpłatna zgoda na zmiany” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>AKSAMITKA 1 · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Brak wiarygodnej ceny z dnia raportu<br>[Baner lub komunikat](https://archdom.pl/#post-6) · [Stała karta projektu](https://archdom.pl/produkt/projekt-domu-aksamitka/)
+
+- **archdom.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Pakiet gratisów” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>AKSAMITKA 1 · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Brak wiarygodnej ceny z dnia raportu<br>[Baner lub komunikat](https://archdom.pl/#post-6) · [Stała karta projektu](https://archdom.pl/produkt/projekt-domu-aksamitka/)
+
+- **dobredomy.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Bezpłatna wysyłka” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>Projekt domu Jantar VII · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Cena bez zmian: 4 540,00 zł<br>[Baner lub komunikat](https://www.dobredomy.pl/) · [Stała karta projektu](https://www.dobredomy.pl/projekt/jantarVII)
+
+- **dobredomy.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „BEZPŁATNE KONSULTACJE” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>Projekt domu Jantar VII · Ten sam kod lub komunikat jest na karcie; zakres niepotwierdzony<br>Komunikat na karcie · „BEZPŁATNE KONSULTACJE” · 21.11.2026 11:24<br>Cena na karcie · Cena bez zmian: 4 540,00 zł<br>[Baner lub komunikat](https://www.dobredomy.pl/) · [Komunikat na karcie](https://www.dobredomy.pl/projekt/jantarVII/) · [Stała karta projektu](https://www.dobredomy.pl/projekt/jantarVII)
+
+- **dobredomy.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Na życzenie inwestora bezpłatnie udostępniamy w wersji elektronicznej zestawienia materiałów” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>Projekt domu Jantar VII · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Cena bez zmian: 4 540,00 zł<br>[Baner lub komunikat](https://www.dobredomy.pl/) · [Stała karta projektu](https://www.dobredomy.pl/projekt/jantarVII)
+
+- **dobredomy.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Promocja do –300 zł na wybrane projekty” · 21.11.2026 11:23<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>Projekt domu Jantar VII · Ten sam kod lub komunikat jest na karcie; zakres niepotwierdzony<br>Komunikat na karcie · „Promocja do –300 zł na wybrane projekty” · 21.11.2026 11:24<br>Cena na karcie · Cena bez zmian: 4 540,00 zł<br>[Baner lub komunikat](https://www.dobredomy.pl/#promotionalBanner) · [Komunikat na karcie](https://www.dobredomy.pl/projekt/jantarVII/#promotionalBanner) · [Stała karta projektu](https://www.dobredomy.pl/projekt/jantarVII)
+
+- **domoweklimaty.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Zapisz się do newslettera i odbierz 300zł rabatu!” · 21.11.2026 11:24<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>PROJEKT DOMU AKORD 14 T · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Cena bez zmian: 4 500,00 zł<br>[Baner lub komunikat](https://www.domoweklimaty.pl/) · [Stała karta projektu](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/)
+
+- **domoweklimaty.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Pakiet dodatków i gratisów tylko dla klientów bezpośrednich” · 21.11.2026 11:24<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>PROJEKT DOMU AKORD 14 T · Nie ustalono, czy kampania obejmuje stały projekt<br>Cena na karcie · Cena bez zmian: 4 500,00 zł<br>[Baner lub komunikat](https://www.domoweklimaty.pl/) · [Stała karta projektu](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/)
+
+- **domoweklimaty.pl · niewspółpracująca** · Oferta na stronie głównej<br>Strona główna · „Promocja: -500 zł na projekty domów! \[licznik\]” · 21.11.2026 11:24<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>PROJEKT DOMU AKORD 14 T · Ten sam kod lub komunikat jest na karcie; zakres niepotwierdzony<br>Komunikat na karcie · „Promocja: -500 zł na projekty domów! \[licznik\]” · 21.11.2026 11:24<br>Zapis zakresu · „Promocja: -500 zł na projekty domów!” · 21.11.2026 11:24<br>Cena na karcie · Cena bez zmian: 4 500,00 zł<br>[Baner lub komunikat](https://www.domoweklimaty.pl/) · [Komunikat na karcie](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) · [Źródło zakresu](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) · [Stała karta projektu](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/)

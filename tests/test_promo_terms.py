@@ -111,3 +111,9 @@ def test_nonstackable_coupon_is_a_condition_not_the_benefit_of_the_current_campa
     item = terms("Promocja nie łączy się z kodem rabatowym 5% za wypełnienie ankiety.")
     assert item["value"] == item["code"] == item["effective_price"] == ""
     assert item["stacking"] == "nie łączy się z kodem rabatowym 5% za wypełnienie ankiety"
+
+
+def test_long_stacking_exception_retains_its_decisive_final_words():
+    sentence = ("Bon nie łączy się z innymi rabatami procentowymi oraz innymi akcjami promocyjnymi "
+                "Organizatora, chyba że regulamin danej promocji stanowi inaczej.")
+    assert terms(sentence)["stacking"].endswith("chyba że regulamin danej promocji stanowi inaczej")

@@ -341,7 +341,10 @@ def html_report(view):
     if data.get('weekly'):
         blocks.append('<p><a href="#business-week">Porównaj dwa ostatnie tygodnie</a></p>')
     for key, rows in items.items():
-        blocks += ['<details data-offer-section><summary>' + TITLES[key] + f' (<span data-offer-count>{len(rows)}</span>)</summary>']
+        count = f'<span data-offer-count>{len(rows)}</span>'
+        if key == 'placement' and not data.get('placement_pages', {}).get('compared'):
+            count = 'brak porównania'
+        blocks += ['<details data-offer-section><summary>' + TITLES[key] + ' (' + count + ')</summary>']
         if rows:
             blocks += ['<p data-offer-empty hidden>Brak wpisów dla wybranych pracowni.</p>']
         if not rows or key == 'placement':

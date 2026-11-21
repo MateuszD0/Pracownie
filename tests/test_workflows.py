@@ -1,5 +1,8 @@
+import os
+import subprocess
 from pathlib import Path
 
+import pytest
 import yaml
 
 from pracownie.schedule import STARTS
@@ -166,3 +169,19 @@ def test_morning_controller_has_no_scheduled_gap_over_twenty_minutes_in_poland()
                         events.add(instant)
         ordered = sorted(events)
         assert max(b - a for a, b in zip(ordered, ordered[1:], strict=False)) <= timedelta(minutes=20), day
+
+@pytest.mark.parametrize(('second_count', 'available'), [(0, 'true'), (1, 'false')])
+def test_layout_rebuild_rechecks_a_queued_scan_before_deciding(tmp_path, second_count, available):
+    script = workflow('rebuild-report.yml')['jobs']['admission']['steps'][0]['run']
+    # The first API read sees a queued run. sleep advances the mock API state.
+    gh = tmp_path / 'gh'
+    gh.write_text(f'#!/bin/sh\nif test -f checked; then echo {second_count}; else echo 1; fi\n')
+    wait = tmp_path / 'sleep'
+    wait.write_text('#!/bin/sh\ntouch checked\n')
+    for command in (gh, wait):
+        command.chmod(0o755)
+    output = tmp_path / 'out'
+    env = dict(os.environ, PATH=str(tmp_path) + os.pathsep + os.environ['PATH'],
+               GITHUB_REPOSITORY='test/repo', GITHUB_OUTPUT=str(output), GITHUB_STEP_SUMMARY=str(tmp_path / 'summary'))
+    subprocess.run(['bash', '-eu', '-c', script], env=env, cwd=tmp_path, check=True)
+    assert output.read_text().strip() == 'available=' + available

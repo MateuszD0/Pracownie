@@ -21,6 +21,7 @@ def test_offer_comparison_reaches_all_published_formats_and_links_both_captures(
     panel = BeautifulSoup(html_report(view), 'html.parser').select_one('#offer-comparison')
     assert panel.select_one('a[href="https://test.pl/dom#dodatki"]')
     assert 'Brak pary pomiarów położenia' in panel.get_text()
+    assert 'Widoczność tej samej oferty (brak porównania)' in panel.get_text()
 
 
 def test_one_day_offer_register_keeps_baseline_out_of_alerts_and_escapes_quotes():

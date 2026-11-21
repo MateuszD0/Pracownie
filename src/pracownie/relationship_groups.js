@@ -26,7 +26,8 @@ function refreshRelationshipGroups(scope,counts){
 function refreshOfferCounts(){
  for(const section of document.querySelectorAll('[data-offer-section]')){
   const n=section.querySelectorAll('li[data-intelligence-domain]:not([hidden])').length;
-  section.querySelector('[data-offer-count]').textContent=String(n);
+  const count=section.querySelector('[data-offer-count]');
+  if(count)count.textContent=String(n);
   const empty=section.querySelector('[data-offer-empty]');
   if(empty)empty.hidden=n>0;
  }

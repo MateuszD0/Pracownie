@@ -36,7 +36,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          active=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/monitor.yml/runs?per_page=30" --jq '[.workflow_runs[] | select(.status == "queued" or .status == "pending" or .status == "in_progress" or .status == "waiting" or .status == "requested")] | length')
+          # Both workflows receive the same tests-completed event. An ineligible
+          # scan can briefly show as queued before GitHub skips its only job.
+          for attempt in 1 2 3; do
+            active=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/monitor.yml/runs?per_page=30" --jq '[.workflow_runs[] | select(.status == "queued" or .status == "pending" or .status == "in_progress" or .status == "waiting" or .status == "requested")] | length')
+            if [[ "$active" -eq 0 || "$attempt" -eq 3 ]]; then break; fi
+            sleep 15
+          done
           if [[ "$active" -gt 0 ]]; then
             echo 'available=false' >> "$GITHUB_OUTPUT"
             echo 'Odświeżenie odłożone: skan jest w toku lub oczekuje na publikację.' >> "$GITHUB_STEP_SUMMARY"

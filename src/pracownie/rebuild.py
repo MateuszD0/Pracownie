@@ -32,6 +32,7 @@ from .model import (
 from .observations import visual_description
 from .offers import primary_offer
 from .pipeline import preserve_same_day_reads
+from .prominence import attach_placement_crops
 from .quality import captured_challenge
 from .report import bundle_report, restore_report, verify_outputs, write_outputs
 from .state import StateStore
@@ -63,6 +64,8 @@ def enrich_communication(results: list[Result], output: Path, state: dict) -> No
         result.changes = [c for c in result.changes if not c.field_key.startswith("communication:")]
         for change in changes:
             change.evidence = dict(result.evidence)
+            if change.details.get("offer_placement"):
+                attach_placement_crops(change, output)
             identity = (change.field_key, change.before, change.after, change.before_at, change.after_at, change.url)
             if identity in checks:
                 change.details.update(checks[identity])
@@ -328,7 +331,9 @@ def main():
             enrich_visual_results(results, output, store)
             enrich_communication(results, output, store.read())
             results.sort(key=lambda r: (r.domain, r.page, r.scenario))
-            write_outputs(output, day, results, metadata, selections, domains)
+            metadata.pop('intelligence', None)
+            write_outputs(output, day, results, metadata, selections, domains,
+                          state=None if args.publish else store.read())
             verify_outputs(output, day)
             archive = args.root / "report.zip"
             bundle_report(output, day, archive)

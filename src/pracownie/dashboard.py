@@ -68,7 +68,7 @@ def proof_links(evidence: dict, previews: dict) -> str:
     return ' · '.join(link(label, previews[evidence[k]]) for k, label in fields if evidence.get(k) in previews)
 
 
-def markdown_daily_decisions(view: dict, financial: dict, events: list[dict], event_targets: dict) -> list[str]:
+def markdown_daily_decisions(view: dict, financial: dict, events: list[dict], event_targets: dict, shown: set[str] | None = None) -> list[str]:
     changes = financial['changes']
     cheaper = [r for r in changes if Decimal(r['delta']) < 0]
     dearer = [r for r in changes if Decimal(r['delta']) > 0]
@@ -121,16 +121,28 @@ def markdown_daily_decisions(view: dict, financial: dict, events: list[dict], ev
             continue
         candidates.append((rank, event, {'scheduled': 'Zapowiedź', 'ended': 'Zakończenie oferty'}.get(check, topic)))
     # Show at most two distinct studios. All quotes remain in the detailed tables.
-    seen = set()
+    seen = shown if shown is not None else set()
+    cards = view.get('metadata', {}).get('intelligence', {}).get('campaign_cards', [])
     for _, event, topic in sorted(candidates, key=lambda c: (c[0], c[1]['group'] != 'partner', c[1]['domain'])):
         if event['domain'] in seen:
             continue
+        event_codes = set(codes(event['lead'].get('after', '')))
+        card = next((c for c in cards if c['domain'] == event['domain']
+                     and event_codes.intersection(c['home'][0]['codes'])), None)
+        project = ''
+        if card:
+            specific = next((t.get('value') for t in card['terms'] if t['page'] == 'projekt' and t.get('value')), '')
+            if specific:
+                project += 'Komunikat na karcie podaje rabat ' + cell(specific) + '.<br>'
+            project += cell(card['project_name']) + ' · ' + cell(card['price']['text']) + '<br>'
+            if card['project_url']:
+                project += link('Karta projektu', card['project_url']) + ' · '
         lines += [
             '- **' + topic + '** · ' + studio(event['domain']) + '<br>'
             + ', '.join(LABELS[p] for p in event['pages']) + '<br>'
             + 'Wczoraj — ' + cell(event_value(event, 'before')) + '<br>'
             + '**Dziś** — ' + cell(event_value(event, 'after')) + '<br>'
-            + '[Przed i po](' + event_targets[event['id']] + ') · ' + link('Otwórz ofertę', event['lead']['source']),
+            + project + '[Przed i po](' + event_targets[event['id']] + ') · ' + link('Otwórz ofertę', event['lead']['source']),
             '',
         ]
         seen.add(event['domain'])
@@ -181,7 +193,12 @@ def render_dashboard_documents(view: dict, report_url: str, downloads: dict | No
     lines = ['# Co zmieniło się u pracowni?', '', f"**{cell(view['comparison']['before_day'])} → {cell(view['day'])}** · strona główna i ta sama karta projektu.", '',
              f"**Porównano obie strony: {complete_firms}/{len(view['rows'])} pracowni.**" + (' · ' + gap_status if gap_status else ''), '']
     financial = financial_data(view)
-    lines += markdown_daily_decisions(view, financial, briefing['events'], event_targets)
+    shown = set()
+    lines += markdown_daily_decisions(view, financial, briefing['events'], event_targets, shown)
+    from .business_report import markdown_documents
+    offer_summary, offer_documents = markdown_documents(view, folder, filename, previews, shown)
+    lines += offer_summary
+    digest_documents.update(offer_documents)
     lines += ['[Ceny i kody rabatowe](#ceny-kody-i-rabaty) · [Zmiany komunikacji](#zmiany-oferty-i-komunikacji) · [Ważne do sprawdzenia](#ważne-do-sprawdzenia) · [Wszystkie pracownie](#wszystkie-pracownie) · ' + link('Historia dni', history), '']
     lines += ['<details><summary>Zakres, godziny i publikacja raportu</summary>', '',
               '<!-- delivery:' + view['day'] + ' -->' + cell(delivery_text(view)) + ' · czas polski.<!-- /delivery -->', '',

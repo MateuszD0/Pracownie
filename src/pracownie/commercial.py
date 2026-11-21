@@ -9,6 +9,7 @@ from urllib.parse import urldefrag, urlsplit
 
 from .browser import allowed_url
 from .communication import records
+from .financial import codes
 from .model import Change, Scenario, Site, Snapshot, json_bytes, local_day, now_iso
 
 TOPICS = {'promocje', 'dodatki', 'pakiety'}
@@ -42,7 +43,7 @@ def display_check(check: dict, before: str | None, after: str | None) -> dict:
 
 
 def concrete(text: str) -> bool:
-    return bool(CLAIM.search(text) and not generic_offer_label(text) and not NAVIGATION.fullmatch(text.strip())
+    return bool((CLAIM.search(text) or codes(text)) and not generic_offer_label(text) and not NAVIGATION.fullmatch(text.strip())
                 and not re.search(r'<\s*/?\s*(?:img|div|script|span|iframe)\b', text, re.I))
 
 
@@ -71,6 +72,7 @@ def document(snapshot: Snapshot, *, repeated: bool = False) -> dict:
                         and not snapshot.document.get('communication', {}).get('truncated')
                         and context.get('contract') == 'commercial-v1' and not context.get('truncated'),
             'text': corpus, 'claims': claims, 'quality': snapshot.quality,
+            'unstable_claims': [i['text'] for i in all_items if i.get('unstable')],
             'fields': {key: field.value for key, field in snapshot.fields.items() if field.category in TOPICS},
             'claim_urls': {i['text']: i.get('url') or snapshot.url for i in all_items}}
 
@@ -89,7 +91,8 @@ def linked_pages(site: Site, snapshots: list[Snapshot], base_urls: set[str]) -> 
                 continue
             if re.search(r'/produkt/|/projekt(?:y)?/|projekt-domu-', urlsplit(url).path, re.I):
                 continue
-            candidates[url] = 0 if re.search(r'promoc|rabat|kupon', label, re.I) else 1
+            priority = 0 if re.search(r'regulamin|warunki', label + ' ' + urlsplit(url).path, re.I) else 1 if re.search(r'promoc|rabat|kupon', label, re.I) else 2
+            candidates[url] = min(candidates.get(url, priority), priority)
     ordered = sorted(candidates, key=lambda u: (candidates[u], u))
     html = [u for u in ordered if not re.search(r'\.(pdf|zip|jpe?g|png|webp)(?:\?|$)', u, re.I)]
     return html[:2], len(ordered) - len(html[:2])
@@ -223,12 +226,16 @@ async def verify_offers(site: Site, captures: list, results: list, previous: lis
                         item['before'], item['after'], item['before_at'], row.observed_at, item['url'], 'weryfikacja-oferty')
         targets.append((row, change))
         followups.append((item, change))
-    if not targets:
-        return
     current = [c.snapshot for c in captures if c is not None]
     documents = [document(s) for s in current]
     base_urls = {urldefrag(s.url)[0] for s in current}
-    linked, omitted = linked_pages(site, current + previous, base_urls)
+    linked, omitted = linked_pages(site, current + (previous if targets else []), base_urls)
+    if not targets:
+        from .promo_terms import source_frame
+        # Publishers can change a threshold or expiry in their public terms
+        # while keeping the original landing-page banner unchanged.
+        if not linked or not any(frame and frame['offers'] for doc in documents if (frame := source_frame(doc, 'projekt'))):
+            return
     urls = list(dict.fromkeys((r.url, r.page) for r, _ in targets)) + [(u, 'glowna') for u in linked]
     completed = 0
     try:

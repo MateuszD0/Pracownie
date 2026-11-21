@@ -14,6 +14,7 @@ from urllib.parse import urlsplit
 from .contexts import context_reason, item_context
 from .extract import MONEY, canonical_url, money_text, normalize
 from .model import Change, Snapshot
+from .prominence import compare_placements, offer_text, placement_measured, stable_placements
 from .quality import communication_usable
 
 CONTRACT = "communication-v1"
@@ -72,6 +73,9 @@ def mark_unstable(first: dict, second: dict, interval_ms: int) -> dict:
     for item in second.get('items', []):
         if (item['key'], item['role']) in changed:
             item['unstable'] = True
+    placement = stable_placements(first.get('placement_sample', {}), second.pop('placement_sample', {}))
+    if placement:
+        second['placement'] = placement
     second['stability'] = {'interval_ms': interval_ms, 'changed': [
         {'key': key, 'role': role, 'before': sorted(a.get((key, role), set())), 'after': sorted(b.get((key, role), set()))}
         for key, role in sorted(changed)]}
@@ -169,6 +173,7 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
         "same_visible_image": False,
         "reason": "Pierwszy zapis komunikacji; brak porównywalnej bazy z poprzedniego dnia.",
     }
+    output.update(placement_measured=output["ready"] and placement_measured(after), placement_compared=False, placement_matched=False)
     if before is None:
         return output, []
     old = records(before)
@@ -194,8 +199,13 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
     # do not establish a campaign change if the same messages remain present.
     first = {(e["role"], e["text"]): e for e in old}
     second = {(e["role"], e["text"]): e for e in current}
-    removed = [first[k] for k in sorted(first.keys() - second.keys())]
-    added = [second[k] for k in sorted(second.keys() - first.keys())]
+    # The same words can change DOM role when a studio moves an offer. Such a
+    # move alone must never introduce a "new promotion" or a "withdrawal".
+    missing, fresh = first.keys() - second.keys(), second.keys() - first.keys()
+    shared_text = {i['text'] for i in old} & {i['text'] for i in current}
+    moved_copy = {text for _, text in missing | fresh if text in shared_text and offer_text(text)}
+    removed = [first[k] for k in sorted(missing) if k[1] not in moved_copy]
+    added = [second[k] for k in sorted(fresh) if k[1] not in moved_copy]
     pairs = []
     for a in list(removed):
         options = [b for b in added if a["role"] == b["role"]]
@@ -205,7 +215,7 @@ def measure(before: Snapshot | None, after: Snapshot) -> tuple[dict, list[Change
             added.remove(b)
             pairs.append((a, b))
     pairs += [(a, None) for a in removed] + [(None, b) for b in added]
-    changes = []
+    output["placement_compared"], output["placement_matched"], changes = compare_placements(before, after, old, current)
     for a, b in pairs:
         old_value, new_value = a["text"] if a else "", b["text"] if b else ""
         change_category = category(old_value, new_value)

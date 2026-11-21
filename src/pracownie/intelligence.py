@@ -3,16 +3,22 @@ from __future__ import annotations
 
 import hashlib
 from datetime import date, timedelta
+from pathlib import Path
 
 from .briefing import build_briefing
+from .campaign_card import build_campaign_cards
 from .commercial import document, expired_end, future_start, not_started
 from .communication import COUNTDOWN
 from .contexts import REASONS, observation_reason
+from .extras import package_changes
 from .model import Snapshot
+from .prominence import placement_coverage
+from .promo_terms import compare_promo_terms
 from .signals import normalized, supporting_reason
+from .weekly import weekly_summary
 
 
-def update_intelligence(state: dict, view: dict) -> dict:
+def update_intelligence(state: dict, view: dict, evidence_dir: Path | None = None) -> dict:
     day = view['day']
     cutoff = (date.fromisoformat(day) - timedelta(days=180)).isoformat()
     domains = {r['domain'] for r in view['rows']}
@@ -75,6 +81,9 @@ def update_intelligence(state: dict, view: dict) -> dict:
             if source not in offer['sources']:
                 offer['sources'].append(source)
     state['business_ledger'], state['verification_queue'] = ledger, queue
-    return {'offers': list(offers.values()), 'graphics':graphics, 'history': sorted(ledger.values(), key=lambda r: (r['day'], r['domain']), reverse=True),
+    terms_rows = compare_promo_terms(state, view, evidence_dir)
+    return {'offers': list(offers.values()), 'graphics':graphics, 'promo_terms': terms_rows,
+            'campaign_cards': build_campaign_cards(state, view, terms_rows), 'package_changes': package_changes(view), 'placement_pages': placement_coverage(view),
+            'weekly': weekly_summary(state, view, briefing, offers=offers.values(), terms_rows=terms_rows), 'history': sorted(ledger.values(), key=lambda r: (r['day'], r['domain']), reverse=True),
             'pending': [q for q in queue.values() if q['status'] == 'open'],
             'checks': [q for q in queue.values() if q.get('check')]}

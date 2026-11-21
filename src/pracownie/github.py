@@ -30,7 +30,7 @@ RELEASE_PREVIEW_PAIRS = 40
 def proof_preview_pairs(items: list[dict], journal: list[dict], limit: int = RELEASE_PREVIEW_PAIRS) -> list[dict]:
     """One dated before/after pair per page, with business findings first."""
     pairs, seen = [], set()
-    candidates = [*items, *(item for item in journal if item.get("category") == "obraz")]
+    candidates = [*(item for item in journal if item.get("offer_placement")), *items, *(item for item in journal if item.get("category") == "obraz")]
     for item in candidates:
         if len(pairs) >= max(0, limit):
             break
@@ -305,9 +305,11 @@ class GitHubStore:
 
         delivery = delivery_status(self, day, previous_publication)
         from .intelligence import update_intelligence
+        from .weekly import seed_weekly_history
         state = store.read()
+        seed_weekly_history(state, day, self.repo, self.namespace)
         current_view = json.loads((output / day / 'oferty.json').read_text())
-        intelligence = update_intelligence(state, current_view)
+        intelligence = update_intelligence(state, current_view, output / day)
         from .feedback import read_feedback
         feedback = read_feedback(self, day, state['business_ledger'], {r['domain'] for r in current_view['rows']})
         annotate_report(output, day, delivery, intelligence, feedback)

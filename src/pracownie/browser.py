@@ -696,7 +696,7 @@ class BrowserScanner:
             fields, sections = extract_fields(payload, timestamp, site.ignore_patterns)
             visual_document = await page.evaluate(VISUALS)
             copy_options = {"page": page_kind, "ignore_selectors": site.communication_ignore_selectors,
-                            'context_selectors': site.communication_context_selectors}
+                            'context_selectors': site.communication_context_selectors, 'measure_placement': scenario.id == 'podstawowy'}
             communication = await page.evaluate(COMMUNICATION, copy_options)
             # Compare two bounded inventories in this same session. CSS motion
             # suppression alone does not stop JavaScript typewriters/widgets.
@@ -762,7 +762,7 @@ class BrowserScanner:
             height = min(await page.evaluate("document.documentElement.scrollHeight"), 24000)
             await page.screenshot(path=str(destination), animations="disabled", clip={"x": 0, "y": 0, "width": 1280, "height": max(900, height)}, timeout=15000)
             adapter = adapter_signature(site, scenario, page_kind)
-            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "verified_project_identity", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
+            raw_payload = {key: payload.get(key) for key in ["version", "page", "url", "title", "h1", "verified_project_identity", "scenario_label", "variant", "blocks", "prices", "products", "meta_price", "controls", "sections", "links", "discovery_links", "commercial_context"] if key in payload}
             document = {"raw_schema": "visible-v2", "observed_at": timestamp, "adapter": adapter, "ignore_patterns": site.ignore_patterns, "payload": raw_payload, "visual": visual_document, "consent": consent}
             document['popups'] = popups
             document['unresolved_styles'] = relevant_styles

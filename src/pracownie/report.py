@@ -127,7 +127,7 @@ def render_report(day: str, results: list[Result], metadata: dict, selections: d
     return render_text(build_view(day, results, metadata, selections, domains))
 
 
-def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str]) -> Path:
+def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict, selections: dict, domains: list[str], *, state: dict | None = None) -> Path:
     directory = staging / day
     directory.mkdir(parents=True, exist_ok=True)
     from .images import compact_evidence
@@ -141,11 +141,14 @@ def write_outputs(staging: Path, day: str, results: list[Result], metadata: dict
     metadata["image_compression"] = compact_evidence(staging, day, results)
     metadata["evidence_bytes"] = sum(p.stat().st_size for p in directory.rglob("*") if p.suffix in {".png", ".webp"})
     metadata["readiness"] = base_readiness(day, [asdict(r) for r in results], domains)
-    atomic_write(directory / "zmiany.json", json_bytes({"schema": 1, "metadata": metadata, "results": [asdict(r) for r in results]}))
     atomic_write(directory / "pokrycie.json", json_bytes(coverage(results, domains)))
     atomic_write(directory / "wybrane-projekty.json", json_bytes(selections))
     report = staging / f"{day}.txt"
     view = build_view(day, results, metadata, selections, domains)
+    if state is not None:
+        from .intelligence import update_intelligence
+        metadata['intelligence'] = update_intelligence(state, view, directory)
+    atomic_write(directory / "zmiany.json", json_bytes({"schema": 1, "metadata": metadata, "results": [asdict(r) for r in results]}))
     atomic_write(report, render_text(view).encode())
     atomic_write(directory / "index.html", render_html(view).encode())
     atomic_write(directory / "oferty.json", json_bytes(view))

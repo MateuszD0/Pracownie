@@ -32,6 +32,32 @@
     return parts.join(' > ');
   };
   const items=[], seen=new Set(); let truncated=false, characters=0;
+  const placements=[];
+  let placementTruncated=false;
+  const viewport=[innerWidth,innerHeight,devicePixelRatio];
+  const measurePlacement=typeof input==='string' || input.measure_placement!==false;
+  const recordPlacement=(e,text,role) => {
+    if(!measurePlacement || role==='image' || text.length>400 || !/rabat|kupon|promoc|kod(?:em)?\s|oszczęd|taniej|gratis|bezpłat|za darmo/i.test(text))return;
+    if(placements.length>=128){placementTruncated=true;return;}
+    const rect=e.getBoundingClientRect();
+    let zone='unknown';
+    if(window.scrollY===0 && window.scrollX===0 && !e.closest(rotator+', [role=dialog]') && !context(e) && shown(e) &&
+        rect.width>=12 && rect.height>=8 && rect.left>=0 && rect.right<=innerWidth+1){
+      // Leave a gap around the fold. A few pixels of layout drift do not
+      // establish that the offer moved onto or off the first screen.
+      if(rect.top>=0 && rect.bottom<=innerHeight*.90){
+        const hit=document.elementFromPoint(rect.left+rect.width/2,rect.top+rect.height/2);
+        if(hit && e.contains(hit))zone='first';
+      }else if(rect.top>=innerHeight*1.1 && rect.bottom<=24000){
+        zone='lower';
+        for(let p=e.parentElement;p && p!==document.body;p=p.parentElement){
+          const style=getComputedStyle(p), box=p.getBoundingClientRect();
+          if(/hidden|clip|auto|scroll/.test(style.overflowY) && (rect.top<box.top-1 || rect.bottom>box.bottom+1)){zone='unknown';break;}
+        }
+      }
+    }
+    placements.push({text,key:path(e),zone,rect:[rect.x,rect.y+scrollY,rect.width,rect.height].map(Math.round)});
+  };
   const context = e => {
     for(const [kind,selectors] of Object.entries(typeof input==='string'?{}:input.context_selectors||{}))if(selectors.some(s=>e.closest(s)))return kind;
     if(e.closest('[itemtype$="/Review"],[class*=testimonial i],[class*=reviews-slider i],.ti-widget,#review,#reviews,#opinie,.google-reviews,.reviews-section__slide-text'))return 'testimonials';
@@ -42,6 +68,9 @@
   };
   const put = (e,role,text) => {
     text=clean(text);if(!text||text.length<3)return;
+    // Keep duplicate and hidden slide occurrences for ambiguity checks even
+    // though the general copy inventory below de-duplicates by role and text.
+    recordPlacement(e,text,role);
     if(text.length>18000){truncated=true;return;}
     const identity=role+'\n'+text;if(seen.has(identity))return;
     if(items.length>=2200 || characters+text.length>500000){truncated=true;return;}seen.add(identity);characters+=text.length;
@@ -82,5 +111,6 @@
       const item=items.find(i=>i.key===path(e)&&i.role==='image');if(item)item.asset=asset;
     }
   }
-  return {contract:'communication-v1',items,truncated,page:pageKind};
+  return {contract:'communication-v1',items,truncated,page:pageKind,
+    placement_sample:measurePlacement?{viewport,items:placements,truncated:placementTruncated}:null};
 }

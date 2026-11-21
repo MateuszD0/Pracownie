@@ -31,6 +31,11 @@ STOP = {
     "otrzymania",
     "uzyskasz",
     "brak",
+    "blik",
+    "ean",
+    "isbn",
+    "iban",
+    "swift",
 }
 
 

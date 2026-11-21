@@ -29,6 +29,7 @@ function render(){
  $('brief-coverage').textContent='Porównano obie strony: '+paired+'/'+scope.length+' pracowni · '+(pending?pending+' oczekuje na pierwszy skan · Pozostałe braki: '+(scope.length-paired-pending):(scope.length-paired)+' wymaga uwagi');
  for(const [selector,key] of [['.day-domain','domain'],['[data-communication-domain]','communicationDomain'],['[data-journal-domain]','journalDomain'],['[data-availability-domain]','availabilityDomain'],['[data-firm-domain]','firmDomain']])for(const el of document.querySelectorAll(selector))el.hidden=!domains.has(el.dataset[key]);
  for(const el of document.querySelectorAll('[data-intelligence-domain]'))el.hidden=!scope.some(r=>r.domain===el.dataset.intelligenceDomain);
+ refreshOfferCounts();
  for(const el of document.querySelectorAll('[data-gap-domain]'))el.hidden=!scope.some(r=>r.domain===el.dataset.gapDomain);
  for(const el of document.querySelectorAll('.daily-page,[data-communication-page],[data-communication-header]'))el.hidden=page!=='all'&&(el.dataset.page||el.dataset.communicationPage||el.dataset.communicationHeader)!==page;
  for(const el of document.querySelectorAll('[data-filter]'))el.setAttribute('aria-pressed',String(el.dataset.filter===kind));

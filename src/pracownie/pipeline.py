@@ -27,10 +27,12 @@ from .commercial import verify_offers
 from .communication import measure
 from .compare import compare
 from .extract import is_listing_title, page_identity
+from .extras import mark_package_context
 from .images import image_difference, ocr_context, visual_evidence, visual_text
 from .model import Change, Result, Scenario, Site, Snapshot, digest, json_bytes, local_day, now_iso, slug
 from .observations import visual_description
 from .offers import primary_offer
+from .prominence import attach_placement_crops
 from .quality import captured_challenge, communication_usable
 from .report import install_outputs, resume_data, write_outputs
 from .state import SNAPSHOT_SECTIONS, StateStore
@@ -53,6 +55,7 @@ class RunOptions:
     ocr: bool = True
     resume: bool = False
     repair_domains: list[str] | None = None
+    defer_intelligence: bool = False  # GitHub enriches after restoring the published history.
 
 
 def preserve_same_day_reads(results: list[Result], previous: list[Result], state: dict, sites: list[Site], output: Path, staging: Path, day: str) -> list[dict]:
@@ -168,6 +171,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 price_changes = list(changes)
                 before = store.previous_communication(state, snapshot.key) or price_before
                 communication, copy_changes = measure(before, snapshot)
+                mark_package_context(price_before, snapshot, price_changes)
+                mark_package_context(before, snapshot, copy_changes)
                 for change in copy_changes:
                     if copy_candidate(change):
                         change.details['communication_check'] = {'status': 'unverified', 'summary': 'Nie zakończono dodatkowego odczytu komunikacji.'}
@@ -226,6 +231,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                     difference_path.unlink()
                 for change in changes:
                     change.evidence = dict(evidence)
+                    if change.details.get("offer_placement"):
+                        await asyncio.to_thread(attach_placement_crops, change, staging)
                 if price_before and before and price_before.observed_at != before.observed_at and price_changes:
                     price_before_path = folder / 'przed-oferta.png'
                     shutil.copy2(store.root / price_before.image, price_before_path)
@@ -448,7 +455,8 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
         metadata.update(finished_at=now_iso(), elapsed_seconds=round(time.monotonic() - started, 3), renderer=scanner.renderer)
         metadata["snapshot_bytes"] = sum((store.root / image).stat().st_size for image in {s["image"] for s in state["snapshots"].values()})
         metadata["evidence_bytes"] = sum(p.stat().st_size for p in (staging / day).rglob("*.png"))
-        write_outputs(staging, day, results, metadata, state["selections"], [site.domain for site in sites])
+        write_outputs(staging, day, results, metadata, state["selections"], [site.domain for site in sites],
+                      state=None if options.defer_intelligence else state)
         install_outputs(staging, output, day, slug(run_id))
         store.commit(state)
         store.collect(state)

@@ -116,7 +116,7 @@ def execute(args) -> int:
         budget_seconds=args.budget_seconds, max_scenarios=args.max_scenarios,
         retries=args.retries, browser_executable=args.browser_executable,
         navigation_timeout=args.navigation_timeout, settle_ms=args.settle_ms, ocr=not args.no_ocr, resume=args.resume,
-        repair_domains=repair_domains,
+        repair_domains=repair_domains, defer_intelligence=args.github,
     )
     store = StateStore(args.state_dir)
     remote = None

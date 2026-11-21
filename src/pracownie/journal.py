@@ -64,6 +64,8 @@ def build_journal(day: str, rows: list[dict]) -> list[dict]:
                 "context": event.get("variant") or event.get("context", ""),
                 "scenario": event.get("scenario", ""),
                 "field_key": event.get("field_key", ""),
+                **{k: event[k] for k in ("item_label", "package_context") if event.get(k)},
+                **({"offer_placement": event["offer_placement"]} if event.get("offer_placement") else {}),
                 "communication_role": event.get("communication_role", ""),
                 "unmatched": event.get("unmatched", False),
                 "supporting_reason": event.get("supporting_reason", ""),

@@ -163,7 +163,7 @@ def _event(change, result: Result) -> dict:
         else "current"
     )
     label = TITLES.get(change.category, change.label)
-    if change.details.get("communication"):
+    if change.details.get("communication") or change.details.get("offer_placement"):
         label = change.label
     if change.category == "ceny":
         label = (
@@ -184,7 +184,10 @@ def _event(change, result: Result) -> dict:
         context = ("Karta projektu" if result.page == "projekt" else "Strona główna") + " · " + context
     return {
         "category": change.category,
+        **({"item_label": change.label} if change.category in {"dodatki", "pakiety"} else {}),
+        **({"package_context": change.details["package_context"]} if change.details.get("package_context") else {}),
         "field_key": change.field_key,
+        **({"offer_placement": change.details["offer_placement"]} if change.details.get("offer_placement") else {}),
         "label": label,
         "context": context,
         "variant": result.variant,
@@ -424,6 +427,8 @@ def build_view(day: str, results: list[Result], metadata: dict, selections: dict
                 key = (
                     result.page,
                     result.variant,
+                    event.get("package_context", ""),
+                    event.get("item_label", ""),
                     change.category,
                     event["role"],
                     _amount_key(change.before) if change.category == "ceny" else normalize(change.before or ""),
@@ -510,6 +515,7 @@ def _delta_text(row: dict) -> str:
 
 def render_text(view: dict) -> str:
     from .briefing import build_briefing, delivery_text
+    from .business_report import text_report
     from .relationships import groups
 
     c = view["counts"]
@@ -527,7 +533,7 @@ def render_text(view: dict) -> str:
                 if event['tier'] == tier and (group == 'all' or event['group'] == group):
                     brief_lines += [event['domain'] + ' | ' + event['sentence'] + ' | ' + event['confidence'], event['lead']['source']]
         brief_lines += ['']
-    lines = brief_lines + [
+    lines = brief_lines + text_report(view) + [
         f"KOMUNIKACJA PRACOWNI — {view['day']}",
         assessment(view)["title"].upper(),
         *assessment(view)["lines"],
@@ -703,6 +709,8 @@ def render_csv(view: dict) -> str:
 
 
 def render_markdown(view: dict, images: dict | None = None, item_limit: int | None = None) -> str:
+    from .business_report import offer_overview
+
     c = view["counts"]
     pair = view["comparison"]
     management = build_management(view)
@@ -734,6 +742,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
         "",
         communication_summary(view),
         "",
+        *offer_overview(view),
         *business_lines,
         "### Najważniejsze zmiany dzień do dnia",
         "",
@@ -848,6 +857,7 @@ def render_markdown(view: dict, images: dict | None = None, item_limit: int | No
 
 def render_html(view: dict) -> str:
     from .briefing import build_briefing, render_briefing, render_intelligence
+    from .business_report import html_report
     from .financial import render_financial
     from .relationships import group_html
 
@@ -876,7 +886,7 @@ def render_html(view: dict) -> str:
         "__STATIC_ASSESSMENT__": render_assessment_html(view),
         "__STATIC_JOURNAL__": render_journal_html(view, rows=[e for e in view['journal'] if e['id'] in source_ids]),
         "__STATIC_SECONDARY__": render_journal_html(view, rows=view["management"]["secondary"], secondary=True),
-        "__STATIC_MANAGEMENT__": render_financial(view) + render_briefing(view, view["briefing"]) + render_intelligence(view) + '<details id="technical-summary"><summary>Wszystkie obserwacje — szczegóły techniczne</summary>' + render_management(view) + '</details>',
+        "__STATIC_MANAGEMENT__": html_report(view) + render_financial(view) + render_briefing(view, view["briefing"]) + render_intelligence(view) + '<details id="technical-summary"><summary>Wszystkie obserwacje — szczegóły techniczne</summary>' + render_management(view) + '</details>',
         "__STATIC_AVAILABILITY__": render_availability(view),
         "__STATIC_QUALITY__": render_quality_panel(view),
         "__STATIC_COMMUNICATION__": render_communication_table(view),

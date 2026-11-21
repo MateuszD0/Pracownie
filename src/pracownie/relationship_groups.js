@@ -1,6 +1,8 @@
 function relationshipScope(){return document.getElementById('relationship-filter')?.value||'all';}
 function refreshRelationshipGroups(scope,counts){
  const n=group=>scope.filter(r=>r.relationship===group).length;
+ for(const group of document.querySelectorAll('[data-week-group]'))
+  group.hidden=relationshipScope()!=='all'&&relationshipScope()!==group.dataset.weekGroup;
  for(const node of document.querySelectorAll('[data-relationship-heading]')){
   const group=node.dataset.relationshipHeading;node.hidden=!n(group);
   node.querySelector('[data-relationship-count]').textContent=n(group);
@@ -18,5 +20,14 @@ function refreshRelationshipGroups(scope,counts){
   block.hidden=!count;document.getElementById('without-websites-count').textContent=count;
   const note=document.getElementById('relationship-no-web-note');
   if(note){note.hidden=!(count&&query);note.textContent='Partnerzy bez strony WWW: '+count+'. Wykaz poniżej.';}
+ }
+}
+
+function refreshOfferCounts(){
+ for(const section of document.querySelectorAll('[data-offer-section]')){
+  const n=section.querySelectorAll('li[data-intelligence-domain]:not([hidden])').length;
+  section.querySelector('[data-offer-count]').textContent=String(n);
+  const empty=section.querySelector('[data-offer-empty]');
+  if(empty)empty.hidden=n>0;
  }
 }

@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-20 → 2026-11-21**
+**2026-11-21 → 2026-11-22**
 
 **Ten sam projekt:** [Domena 169 A1](https://domenadom.pl/p/domena-169-a1-i532)
 
-**2 zmian w zapisanym zakresie.**
+**3 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,35 +16,37 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domenadom.pl/)
 
-**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:24 (czas polski).
+**Odczyty:** 21.11.2026 11:24 → 22.11.2026 11:44 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomenadom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-22%2Fdomenadom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>10</strong> dni, \[licznik\] | <strong>9</strong> dni, \[licznik\] | [Otwórz stronę](https://domenadom.pl/#promo-timer) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>9</strong> dni, \[licznik\] | <strong>8</strong> dni, \[licznik\] | [Otwórz stronę](https://domenadom.pl/#promo-timer) |
+| Zmiany wyglądu · Położenie i rozmiar: a87ff679a2f3e71d9181a67b7542122c (25 px w lewo) | <strong>950</strong> × 100 px; położenie: <strong>165</strong> px od lewej, 2066 px od góry | <strong>1000</strong> × 100 px; położenie: <strong>140</strong> px od lewej, 2066 px od góry | [Otwórz stronę](https://domenadom.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-17-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-17-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
+| Przed · 21.11.2026 11:24 | Po · 22.11.2026 11:44 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-17-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (11) — nie są ustaloną zmianą oferty</summary>
 
-- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
 - Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
+- Inny podpis grafiki w zapisie; nie ustalono zmiany jej wyglądu.
 
 Przykłady z zapisów:
 
-- c4ca4238a0b923820dcc509a6f75849b → e4da3b7fbbce2345d7772b0674a318d5
-- https://domenadom.pl/userfiles/ads/1729599857.jpg → https://domenadom.pl/userfiles/ads/1706010178.jpg
+- brak → https://domenadom.pl/userfiles/projects/category/na-waska-dzialke.jpg
+- brak → https://domenadom.pl/userfiles/projects/category/domy-pietrowe.jpg
+- brak → https://domenadom.pl/userfiles/projects/category/do-zblizniaczenia.jpg
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -54,25 +56,25 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://domenadom.pl/p/domena-169-a1-i532)
 
-**Odczyty:** 20.11.2026 09:23 → 21.11.2026 11:24 (czas polski).
+**Odczyty:** 21.11.2026 11:24 → 22.11.2026 11:45 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-21%2Fdomenadom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2Fp%2Fdomena-169-a1-i532%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-22%2Fdomenadom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomenadom.pl%2Fp%2Fdomena-169-a1-i532%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>10</strong> dni, \[licznik\] | <strong>9</strong> dni, \[licznik\] | [Otwórz stronę](https://domenadom.pl/p/domena-169-a1-i532#promo-timer) |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | <strong>9</strong> dni, \[licznik\] | <strong>8</strong> dni, \[licznik\] | [Otwórz stronę](https://domenadom.pl/p/domena-169-a1-i532#promo-timer) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-25-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-18-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 20.11.2026 09:23 | Po · 21.11.2026 11:24 |
+| Przed · 21.11.2026 11:24 | Po · 22.11.2026 11:45 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-dowod-25-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-18-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-21/2026-11-21-2026-11-21t181811.702708-0000-format-6ae78454-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-porownanie.html)
 

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
-| studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „CENA PROMOCYJNA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-11-21 | Zauważono etykietę: „% PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-11-21 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
-| horyzont.com · 2026-11-21 | „Tax (w tym 23%)” → „w tym VAT (23%)”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
+| projektyka.pl · 2026-11-22 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-22 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
+| lipinscy.pl · 2026-11-22 | Pojawił się komunikat: „Black Friday w Lipińscy Domy to doskonała okazja, aby znaleźć wymarzony projekt domu w jeszcze lepszej cenie! Tylko przez kilka dni wszystkie projekty z naszej oferty kupisz o 600…”. | Potwierdzono ponownym odczytem |
+| lipinscy.pl · 2026-11-22 | Pojawił się komunikat: „Black Friday w Lipińscy Domy – tydzień wyjątkowych cen!”. | Potwierdzono ponownym odczytem |
+| lipinscy.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Energooszczędny projekt domu Alaska w typie nowoczesna stodoła o niewielkiej powierzchni, ale bogatym programie funkcjonalnym poleca się szczególnie na wąskie działki.”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „KSZTAŁT DACHU A OCIEPLENIE PODDASZA PIANĄ PUR”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-22 | Pojawił się komunikat: „FOLIA, TAŚMA ROZPRĘŻNA CZY FARTUCH EPDM? CZYM USZCZELNIĆ OKNO NA STYKU ZE ŚCIANĄ”. | Potwierdzono ponownym odczytem |
+| horyzont.com · 2026-11-22 | Pojawił się komunikat: „Zachowaj koszyk na później”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-22 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |

@@ -6,15 +6,71 @@
 
 [lipinscy.pl — wszystkie odczyty](lipinscypl.md)
 
-## Zdarzenie 1ccbffc10e83cbbe
+## Zdarzenie 6a51dccfc567bd97
 
-**Zmiana komunikatu oferty: „PROMOCJA NA PROJEKTY DOMÓW NA ZGŁOSZENIE DO 70 M P.Z.” → „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²”**
+**Pojawił się komunikat: „Black Friday w Lipińscy Domy to doskonała okazja, aby znaleźć wymarzony projekt domu w jeszcze lepszej cenie! Tylko przez kilka dni wszystkie projekty z naszej oferty kupisz o 600…”.**
 
-**Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Nagłówek | PROMOCJA NA PROJEKTY DOMÓW <strong>NA</strong> <strong>ZGŁOSZENIE</strong> <strong>DO 70 M P.Z.</strong> | PROMOCJA NA PROJEKTY DOMÓW <strong>PONAD</strong> <strong>200</strong> <strong>M²</strong> | [Otwórz stronę](https://lipinscy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Black Friday w Lipińscy Domy to doskonała okazja, aby znaleźć wymarzony projekt domu w jeszcze lepszej cenie! Tylko przez kilka dni wszystkie projekty z naszej oferty kupisz o 600 zł taniej.</strong> | [Otwórz stronę](https://lipinscy.pl/#slick-slide00) |
+
+[Strona główna](https://lipinscy.pl/#slick-slide00)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.11.2026 11:26 | Po · 22.11.2026 11:46 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6a51dccfc567bd97%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+to+doskona%C5%82a+okazja%2C+aby+znale%C5%BA%C4%87+wymarzony+projekt+domu+w+jeszcze+lepszej+cenie%21+Tylko+przez+kilka+dni+wszystkie+projekty+z+naszej+oferty+kupisz+o+600%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6a51dccfc567bd97%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+to+doskona%C5%82a+okazja%2C+aby+znale%C5%BA%C4%87+wymarzony+projekt+domu+w+jeszcze+lepszej+cenie%21+Tylko+przez+kilka+dni+wszystkie+projekty+z+naszej+oferty+kupisz+o+600%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6a51dccfc567bd97%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+to+doskona%C5%82a+okazja%2C+aby+znale%C5%BA%C4%87+wymarzony+projekt+domu+w+jeszcze+lepszej+cenie%21+Tylko+przez+kilka+dni+wszystkie+projekty+z+naszej+oferty+kupisz+o+600%E2%80%A6%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie 6c53baf153c43e86
+
+**Pojawił się komunikat: „Black Friday w Lipińscy Domy – tydzień wyjątkowych cen!”.**
+
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Black Friday w Lipińscy Domy – tydzień wyjątkowych cen!</strong> | [Otwórz stronę](https://lipinscy.pl/#slick-slide00) |
+
+[Strona główna](https://lipinscy.pl/#slick-slide00)
+
+Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
+
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+
+| Przed · 21.11.2026 11:26 | Po · 22.11.2026 11:46 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) |
+
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+
+</details>
+
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6c53baf153c43e86%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+%E2%80%93+tydzie%C5%84+wyj%C4%85tkowych+cen%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6c53baf153c43e86%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+%E2%80%93+tydzie%C5%84+wyj%C4%85tkowych+cen%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2F6c53baf153c43e86%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EBlack+Friday+w+Lipi%C5%84scy+Domy+%E2%80%93+tydzie%C5%84+wyj%C4%85tkowych+cen%21%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%23slick-slide00%0A%0AOpcjonalny+komentarz%3A)
+
+Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
+
+## Zdarzenie f85bbeee5110c377
+
+**W nowym zapisie nie ma komunikatu: „Energooszczędny projekt domu Alaska w typie nowoczesna stodoła o niewielkiej powierzchni, ale bogatym programie funkcjonalnym poleca się szczególnie na wąskie działki.”.**
+
+**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Baner | <strong>Energooszczędny projekt domu Alaska w typie nowoczesna stodoła o niewielkiej powierzchni, ale bogatym programie funkcjonalnym poleca się szczególnie na wąskie działki.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://lipinscy.pl/) |
 
 [Strona główna](https://lipinscy.pl/)
 
@@ -22,99 +78,15 @@ Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 12.11.2026 05:15 | Po · 13.11.2026 10:33 |
+| Przed · 21.11.2026 11:26 | Po · 22.11.2026 11:46 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-12-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-10-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1ccbffc10e83cbbe%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+NA+ZG%C5%81OSZENIE+DO+70+M+P.Z.%E2%80%9D+%E2%86%92+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+PONAD+200+M%C2%B2%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1ccbffc10e83cbbe%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+NA+ZG%C5%81OSZENIE+DO+70+M+P.Z.%E2%80%9D+%E2%86%92+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+PONAD+200+M%C2%B2%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1ccbffc10e83cbbe%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+NA+ZG%C5%81OSZENIE+DO+70+M+P.Z.%E2%80%9D+%E2%86%92+%E2%80%9EPROMOCJA+NA+PROJEKTY+DOM%C3%93W+PONAD+200+M%C2%B2%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 429ac2b8e634b341
-
-**Zauważono etykietę: „PROMOCJA”.**
-
-**Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>PROMOCJA</strong> | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/#single-project-view) |
-
-[Karta projektu](https://lipinscy.pl/projekt/annecy/#single-project-view)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 12.11.2026 05:15 | Po · 13.11.2026 10:33 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F429ac2b8e634b341%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F429ac2b8e634b341%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F429ac2b8e634b341%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EPROMOCJA%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie ea14391078d56e85
-
-**Zauważono etykietę: „Do końca promocji”.**
-
-**Do sprawdzenia** · Sama etykieta nie określa warunków ani nie potwierdza nowej lub zakończonej promocji.
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Nie odnotowano w tym odczycie | <strong>Do końca promocji</strong> | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/#single-project-view) |
-
-[Karta projektu](https://lipinscy.pl/projekt/annecy/#single-project-view)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 12.11.2026 05:15 | Po · 13.11.2026 10:33 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2Fea14391078d56e85%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EDo+ko%C5%84ca+promocji%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2Fea14391078d56e85%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EDo+ko%C5%84ca+promocji%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2Fea14391078d56e85%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+Zauwa%C5%BCono+etykiet%C4%99%3A+%E2%80%9EDo+ko%C5%84ca+promocji%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A)
-
-Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
-
-## Zdarzenie 1a144e545b092e37
-
-**„15 970 zł z VAT” → „15 570 zł z VAT 15 970 zł”.**
-
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
-
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | 15 <strong>970</strong> zł z VAT | 15 <strong>570</strong> zł z VAT<strong> 15 970 zł</strong> | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/#single-project-view) |
-
-[Karta projektu](https://lipinscy.pl/projekt/annecy/#single-project-view)
-
-Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
-
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
-
-| Przed · 12.11.2026 05:15 | Po · 13.11.2026 10:33 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-13/2026-11-13-2026-11-13t104903.414995-0000-abfbfd59-dowod-13-po.jpg) |
-
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
-
-</details>
-
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1a144e545b092e37%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+%E2%80%9E15+970+z%C5%82+z+VAT%E2%80%9D+%E2%86%92+%E2%80%9E15+570+z%C5%82+z+VAT+15+970+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1a144e545b092e37%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+%E2%80%9E15+970+z%C5%82+z+VAT%E2%80%9D+%E2%86%92+%E2%80%9E15+570+z%C5%82+z+VAT+15+970+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-13%2F1a144e545b092e37%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+%E2%80%9E15+970+z%C5%82+z+VAT%E2%80%9D+%E2%86%92+%E2%80%9E15+570+z%C5%82+z+VAT+15+970+z%C5%82%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%23single-project-view%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2Ff85bbeee5110c377%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EEnergooszcz%C4%99dny+projekt+domu+Alaska+w+typie+nowoczesna+stodo%C5%82a+o+niewielkiej+powierzchni%2C+ale+bogatym+programie+funkcjonalnym+poleca+si%C4%99+szczeg%C3%B3lnie+na+w%C4%85skie+dzia%C5%82ki.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2Ff85bbeee5110c377%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EEnergooszcz%C4%99dny+projekt+domu+Alaska+w+typie+nowoczesna+stodo%C5%82a+o+niewielkiej+powierzchni%2C+ale+bogatym+programie+funkcjonalnym+poleca+si%C4%99+szczeg%C3%B3lnie+na+w%C4%85skie+dzia%C5%82ki.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-22%2Ff85bbeee5110c377%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+lipinscy.pl%0AZdarzenie%3A+W+nowym+zapisie+nie+ma+komunikatu%3A+%E2%80%9EEnergooszcz%C4%99dny+projekt+domu+Alaska+w+typie+nowoczesna+stodo%C5%82a+o+niewielkiej+powierzchni%2C+ale+bogatym+programie+funkcjonalnym+poleca+si%C4%99+szczeg%C3%B3lnie+na+w%C4%85skie+dzia%C5%82ki.%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

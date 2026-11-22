@@ -29,13 +29,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Położenie i rozmiar: Projekt domu Della (18 px w górę) | 300 × <strong>188</strong> px; położenie: 650 px od lewej, <strong>880</strong> px od góry | 300 × <strong>225</strong> px; położenie: 650 px od lewej, <strong>862</strong> px od góry | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 | Zmiany wyglądu · Położenie i rozmiar: Projekt domu Driada (18 px w górę) | 300 × <strong>188</strong> px; położenie: 10 px od lewej, <strong>623</strong> px od góry | 300 × <strong>225</strong> px; położenie: 10 px od lewej, <strong>605</strong> px od góry | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-21-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-21-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-21-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 21.11.2026 11:23 | Po · 22.11.2026 11:44 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-21-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-21-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-21-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -66,13 +66,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-26-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-26-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-26-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 21.11.2026 11:23 | Po · 22.11.2026 11:44 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-26-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-26-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-26-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -90,5 +90,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-porownanie.html)
 

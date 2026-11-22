@@ -25,13 +25,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>255 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://3ddom.pl/#swiper-wrapper-e21de5fcfd882b1d) |
 | Zmiany wyglądu · Układ · DOM NA MAJOWEJ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>255 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://3ddom.pl/#swiper-wrapper-e21de5fcfd882b1d) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-20-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-20-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-20-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 21.11.2026 11:22 | Po · 22.11.2026 11:43 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-20-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-20-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-20-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -76,17 +76,17 @@ Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówieni
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-1-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 21.11.2026 11:23 | Po · 22.11.2026 11:43 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t104328.146113-0000-2ca4bea0-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t154633.701062-0000-cbc6c492-porownanie.html)
 

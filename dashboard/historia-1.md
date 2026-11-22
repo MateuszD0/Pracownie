@@ -20,6 +20,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „6-krotnie mniej energii”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
@@ -30,6 +31,5 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
 | e-domy.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-22 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |

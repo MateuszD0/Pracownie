@@ -33,6 +33,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | e-domy.pl<br>E-268a Dom parterowy na planie kwadratu | 5 690,00 zł | 22.11.2026 11:45 | [Karta projektu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html) |
 | eg-domy.pl<br>WYSZUKANY D64 wariant II | 5 549,00 zł | 22.11.2026 11:45 | [Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/) |
 | faberarchitektura.com<br>KP-100 | 3 400,00 zł | 22.11.2026 11:45 | [Karta projektu](https://faberarchitektura.com/produkt/kp-100/) |
+| fortecaklimatyczna.pl<br>Duo-line | 6 900,00 zł | 22.11.2026 16:47 | [Karta projektu](https://www.fortecaklimatyczna.pl/duo-line.html) |
 | homekoncept.pl<br>PROJEKT DOMU 149 B2 | 13 990,00 zł | 22.11.2026 11:46 | [Karta projektu](https://homekoncept.com.pl/produkt/homekoncept-149-b2/) |
 | horyzont.com<br>PROJEKT DOMU Z PODDASZEM O WĄSKIEJ BRYLE | 4 200,00 zł | 22.11.2026 11:46 | [Karta projektu](https://horyzont.com/projekty-domow/erni-2) |
 | kowalscypracownia.pl<br>KP-101 | 3 200,00 zł | 22.11.2026 11:46 | [Karta projektu](https://kowalscypracownia.pl/product/gotowy-projekt-domu-parterowego-kp-101/) |

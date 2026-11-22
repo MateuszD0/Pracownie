@@ -7,7 +7,6 @@
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
 | [domyzmieta.pl](domyzmietapl.md#karta-projektu)<br>Karta projektu | **Nie wybrano stałej karty**<br>Nie ustalono poprawnej karty projektu. | Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres. |
-| [fortecaklimatyczna.pl](fortecaklimatycznapl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [galeriadomow.pl](galeriadomowpl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [galeriadomow.pl](galeriadomowpl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [hbstudio.pl](hbstudiopl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |

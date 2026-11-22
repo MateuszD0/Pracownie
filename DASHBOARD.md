@@ -19,7 +19,7 @@ W porównanych odczytach brak zweryfikowanej zmiany komunikatu z kodem, konkretn
 
 <details><summary>Zakres, godziny i publikacja raportu</summary>
 
-<!-- delivery:2026-11-22 -->Planowany start skanu: 09:00 · Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-11-22 -->Planowany start skanu: 09:00 · Pierwsza publikacja: 12:12 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
 Dzisiejsze odczyty: 205/224 stron (w tym częściowe: 12). Bez odczytu: 19. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 

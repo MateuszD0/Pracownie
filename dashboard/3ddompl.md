@@ -48,17 +48,17 @@ Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówieni
 
 </details>
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-1-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-dowod-1-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-dowod-1-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 22.11.2026 11:43 | Po · 23.11.2026 09:32 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-porownanie.html)
 

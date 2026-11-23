@@ -9,8 +9,8 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
 | lipinscy.pl · 2026-11-23 | „od 13 do 23 listopada 2026” → „od 23 do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
-| lipinscy.pl · 2026-11-23 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
 | lipinscy.pl · 2026-11-23 | Pojawił się komunikat: „BLACK FRIDAY - BLACK WEEK 2026 - PROJEKT TWOJEGO DOMU O 600 ZŁ TANIEJ”. | Potwierdzono ponownym odczytem |
+| lipinscy.pl · 2026-11-23 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
 | kbprojekt.pl · 2026-11-23 | „\| 794 opinii \| stan na: 16.11.2026” → „\| 795 opinii \| stan na: 23.11.2026”. | Potwierdzono ponownym odczytem |
 | kbprojekt.pl · 2026-11-23 | „\| 1,2 tys. opinii \| stan na: 16.11.2026” → „\| 1,2 tys. opinii \| stan na: 23.11.2026”. | Potwierdzono ponownym odczytem |
 | homekoncept.pl · 2026-11-23 | „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg.rss.webp"…” → „&lt;img src="https://homekoncept.com.pl/wp-content/uploads/2026/01/HK-101-g1-b-miniatura-1-800x450.jpg" alt="Pro…”. | Potwierdzono ponownym odczytem |

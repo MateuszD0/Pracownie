@@ -6,7 +6,7 @@
 
 2026-11-23
 
-- **housecollection.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 10%<br>Zakres · na wszystkie projekty<br>„Posiadasz kartę Dużej Rodziny? W HouseCollection otrzymasz rabat 10% na wszystkie projekty” · 23.11.2026 10:05<br>[Strona warunków](https://housecollection.pl/#content)
+- **housecollection.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 10%<br>Zakres · na wszystkie projekty<br>„Posiadasz kartę Dużej Rodziny? W HouseCollection otrzymasz rabat 10% na wszystkie projekty” · 23.11.2026 22:45<br>[Strona warunków](https://housecollection.pl/#content)
 
 - **mgprojekt.com.pl · współpracująca** · Oferta · Strona warunków<br>Łączenie promocji · nie łączy się z innymi promocjami<br>„Przy składaniu zamówienia prosimy o informację o chęci skorzystania z Promocji. Oferta skierowana do Inwestorów bezpośrednio zamawiających w pracowni MG Projekt, oraz do wybranych przedstawicieli. Promocja ograniczona czasowo - trwa tylko od 20 do 30 listopada 2026 i nie łączy się z innymi promocjami! Promocją objęte są tylko projekty gotowe, w których nie są dokonywane żadne przeróbki w naszej pracowni.” · 23.11.2026 09:47<br>[Strona warunków](https://www.mgprojekt.com.pl/aktualnosci/promocja-cenowa#news)
 

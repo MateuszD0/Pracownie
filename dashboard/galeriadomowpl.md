@@ -20,7 +20,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 **Brak odczytu**
 
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
 ## Karta projektu
 
@@ -30,7 +30,7 @@ Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
 
 **Brak odczytu**
 
-Powód braku odczytu: Strona lub kontrolka nie odpowiedziała w limicie czasu.
+Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t090525.796723-0000-01bc0c3b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-porownanie.html)
 

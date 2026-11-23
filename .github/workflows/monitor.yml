@@ -7,12 +7,15 @@ on:
     types: [completed]
     branches: [main]
   schedule:
-    # Separate UTC slots let the locked local-time gate reject the other
-    # season's event even when GitHub delivers it late. Runs every day.
-    - cron: '0 7 * * *' # 09:00 Europe/Warsaw, summer
-    - cron: '0 8 * * *' # 09:00 Europe/Warsaw, winter
-    - cron: '30 8 * * *' # 10:30 backup, summer
-    - cron: '30 9 * * *' # 10:30 backup, winter
+    - cron: '0 9 * * *'
+      timezone: Europe/Warsaw
+    # Try off the hour if the 09:00 event was delayed or dropped.
+    - cron: '7 9 * * *'
+      timezone: Europe/Warsaw
+    - cron: '17 9 * * *'
+      timezone: Europe/Warsaw
+    - cron: '30 10 * * *'
+      timezone: Europe/Warsaw
   workflow_dispatch:
     inputs:
       automatic_recovery:

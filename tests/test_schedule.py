@@ -4,7 +4,7 @@ import pytest
 
 from pracownie import schedule
 from pracownie.model import WARSAW
-from pracownie.schedule import PRIMARY_CRON, PRIMARY_WINTER_CRON, RECOVERY_CRON, STARTS, daily_gate
+from pracownie.schedule import PRIMARY_CRON, RECOVERY_CRON, STARTS, daily_gate
 
 
 class Publication:
@@ -18,38 +18,31 @@ class Publication:
 
 
 def invocations(day):
-    # Expand the actual numeric UTC expressions, rather than an assumed timetable.
-    events = []
+    # Expand the local cron expressions and feed the gate UTC timestamps.
     for cron in STARTS:
-        minute, hours, *calendar = cron.split()
+        minute, hour, *calendar = cron.split()
         assert calendar == ["*", "*", "*"]
-        for hour in hours.split(","):
-            events.append((datetime.combine(day, time(int(hour), int(minute)), UTC), cron))
-    return sorted(events)
+        yield datetime.combine(day, time(int(hour), int(minute)), WARSAW).astimezone(UTC), cron
 
 
-def test_every_day_including_dst_and_weekends_starts_at_0900_with_recovery_at_1030():
+def test_daily_start_and_fallbacks_across_dst_and_weekends():
     for offset in range(730):
         day = date(2026, 1, 1) + timedelta(days=offset)
-        remote = Publication()
-        primary = []
-        recovery = []
-        for now, cron in invocations(day):
-            result = daily_gate(cron, now, remote)
-            assert result["day"] == day.isoformat()
-            if result["run_scan"]:
-                primary.append(now.astimezone(WARSAW).time())
-                remote.published = True
-            # Simulate a missing/failed first invocation; backup must be independent.
-            if STARTS[cron] == time(10,30) and daily_gate(cron, now, Publication())["run_scan"]:
-                recovery.append(now.astimezone(WARSAW).time())
-        assert primary == [time(9)], day
-        assert recovery == [time(10,30)], day
+        published = Publication(published=True)
+        slots = list(invocations(day))
+        assert [now.astimezone(WARSAW).time() for now, _ in slots] == [
+            time(9), time(9, 7), time(9, 17), time(10, 30),
+        ]
+        for now, cron in slots:
+            decision = daily_gate(cron, now, Publication())
+            assert decision["day"] == day.isoformat()
+            assert decision["run_scan"] and not decision["late"]
+            assert not daily_gate(cron, now, published)["run_scan"]
 
 
 def test_early_utc_invocation_never_reads_or_writes_remote_history():
     remote = Publication()
-    result = daily_gate(PRIMARY_WINTER_CRON, datetime(2026, 12, 5, 7, 59, tzinfo=UTC), remote)
+    result = daily_gate(PRIMARY_CRON, datetime(2026, 12, 5, 7, 59, tzinfo=UTC), remote)
     assert not result["run_scan"] and remote.calls == []
 
 
@@ -61,7 +54,7 @@ def test_backup_sees_completed_report_after_waiting_for_the_shared_writer_lock()
 
 
 def test_late_delivery_runs_instead_of_losing_another_day():
-    result = daily_gate(PRIMARY_WINTER_CRON, datetime(2026, 10, 25, 10, 30, tzinfo=WARSAW), Publication())
+    result = daily_gate(PRIMARY_CRON, datetime(2026, 10, 25, 10, 30, tzinfo=WARSAW), Publication())
     assert result["run_scan"] and result["late"] and result["day"] == "2026-10-25"
 
 
@@ -104,13 +97,15 @@ def test_actions_gate_exports_decision_and_summary(tmp_path, monkeypatch, publis
     assert closed == [True]
 
 
-@pytest.mark.parametrize('day,unused', [('2026-07-05',PRIMARY_WINTER_CRON),('2026-12-05',PRIMARY_CRON)])
-def test_other_seasons_event_is_inert_even_if_delayed_and_report_needs_repair(day,unused):
+@pytest.mark.parametrize('cron', [key for key in STARTS if key != RECOVERY_CRON])
+def test_delayed_start_skips_a_published_report_even_if_it_needs_repairs(cron):
     class Partial(Publication):
         def published_report(self, day):
-            raise AssertionError('Wrong seasonal event must not read or rescan partial history')
-    result=daily_gate(unused,datetime.fromisoformat(day+'T11:00:00').replace(tzinfo=WARSAW),Partial())
-    assert not result['run_scan']
+            return {"day": day, "readiness": {"retry_domains": ["test.pl"]}}
+
+    now = datetime(2026, 12, 5, 10, 32, tzinfo=WARSAW)
+    assert not daily_gate(cron, now, Partial())["run_scan"]
+    assert daily_gate(RECOVERY_CRON, now, Partial())["repair_domains"] == ["test.pl"]
 
 
 def test_queued_missing_report_scan_checks_the_published_day_and_local_clock_again():

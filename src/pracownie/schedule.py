@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import os
 import sys
-from datetime import UTC, datetime
+from datetime import UTC, datetime, time
 from pathlib import Path
 
 import httpx
@@ -13,13 +13,10 @@ from .model import WARSAW
 from .readiness import repair_domains
 from .timing import BACKUP_START, MISSING_REPORT_CUTOFF, PRIMARY_START
 
-PRIMARY_CRON = "0 7 * * *"
-PRIMARY_WINTER_CRON = "0 8 * * *"
-RECOVERY_CRON = "30 8 * * *"
-RECOVERY_WINTER_CRON = "30 9 * * *"
-STARTS = {PRIMARY_CRON: PRIMARY_START, PRIMARY_WINTER_CRON: PRIMARY_START,
-          RECOVERY_CRON: BACKUP_START, RECOVERY_WINTER_CRON: BACKUP_START}
-
+PRIMARY_CRON = "0 9 * * *"
+RECOVERY_CRON = "30 10 * * *"
+STARTS = {PRIMARY_CRON: PRIMARY_START, "7 9 * * *": time(9, 7),
+          "17 9 * * *": time(9, 17), RECOVERY_CRON: BACKUP_START}
 
 def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
     if expression not in STARTS:
@@ -29,15 +26,12 @@ def daily_gate(expression: str, now: datetime, remote: GitHubStore) -> dict:
     local = now.astimezone(WARSAW)
     day = local.date().isoformat()
     planned = datetime.combine(local.date(), STARTS[expression], WARSAW)
-    utc_planned = planned.astimezone(UTC)
-    minute, hour, *_ = expression.split()
-    result = {"day": day, "run_scan": False,
-              "late": local.replace(second=0,microsecond=0) > planned}
-    if (int(hour),int(minute)) != (utc_planned.hour,utc_planned.minute):
-        return dict(result, reason="Wywołanie dla innego przesunięcia UTC; właściwa pora startu jest liczona w Europe/Warsaw.")
-    if local.time() < STARTS[expression]:
-        return dict(result, reason="Wywołanie UTC przed polską porą startu; właściwy termin jest jeszcze przed nami.")
+    result = {"day": day, "run_scan": False, "late": local.replace(second=0, microsecond=0) > planned}
+    if local < planned:
+        return dict(result, reason="Właściwa pora uruchomienia w Europe/Warsaw jest jeszcze przed nami.")
     record = remote.published_report(day)
+    if record and expression != RECOVERY_CRON:
+        return dict(result, reason="Dzisiejszy raport jest już opublikowany.")
     if record and "readiness" not in record:
         return dict(result, run_scan=True, reason="Starszy manifest nie potwierdza świeżych odczytów; sprawdzam brakujący zakres.")
     if record and (retry := repair_domains(record.get("readiness", {}))):

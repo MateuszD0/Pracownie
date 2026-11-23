@@ -17,7 +17,7 @@ def workflow(name):
 
 def test_daily_scan_includes_weekends_and_uses_full_scope():
     config = workflow("monitor.yml")
-    assert config["on"]["schedule"] == [{"cron": expression} for expression in STARTS]
+    assert config["on"]["schedule"] == [{"cron": expression, "timezone": "Europe/Warsaw"} for expression in STARTS]
     assert all(slot["cron"].split()[2:] == ["*", "*", "*"] for slot in config["on"]["schedule"])
     scan = config["jobs"]["scan"]
     command = next(step for step in scan["steps"] if "SCAN_SCOPE" in step.get("env", {}))

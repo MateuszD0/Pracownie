@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-21 → 2026-11-22**
+**2026-11-22 → 2026-11-23**
 
 **Ten sam projekt:** [ANNECY 357,32m²](https://lipinscy.pl/projekt/annecy/)
 
@@ -16,37 +16,42 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://lipinscy.pl/)
 
-**Odczyty:** 21.11.2026 11:26 → 22.11.2026 11:46 (czas polski).
+**Odczyty:** 22.11.2026 11:46 → 23.11.2026 09:35 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-22%2Flipinscy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-23%2Flipinscy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2F%0A%0AOpis%3A)
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Black Friday w Lipińscy Domy – tydzień wyjątkowych cen!</strong> | [Otwórz stronę](https://lipinscy.pl/#slick-slide00) |
-| Komunikacja sprzedażowa · Baner | <strong>Energooszczędny projekt domu Alaska w typie nowoczesna stodoła o niewielkiej powierzchni, ale bogatym programie funkcjonalnym poleca się szczególnie na wąskie działki.</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://lipinscy.pl/) |
-| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Black Friday w Lipińscy Domy to doskonała okazja, aby znaleźć wymarzony projekt domu w jeszcze lepszej cenie! Tylko przez kilka dni wszystkie projekty z naszej oferty kupisz o 600 zł taniej.</strong> | [Otwórz stronę](https://lipinscy.pl/#slick-slide00) |
+| Promocje i rabaty · Nagłówek | <strong>PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://lipinscy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>BLACK FRIDAY - BLACK WEEK 2026 - PROJEKT TWOJEGO DOMU O 600 ZŁ TANIEJ</strong> | [Otwórz stronę](https://lipinscy.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-10-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-10-przed.jpg)
+**Wynik sprawdzenia oferty:** Komunikat zniknął. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann”
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+<details><summary>Źródła i zakres weryfikacji</summary>
 
-| Przed · 21.11.2026 11:26 | Po · 22.11.2026 11:46 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-10-przed.jpg) |
+- [Warunki oferty](https://lipinscy.pl/#slick-slide010): Rozwiązania do domu w promocji Hörmann
+- [Warunki oferty](https://lipinscy.pl/#home-article-carousel): ROZWIĄZANIA DO DOMU W PROMOCJI HÖRMANN
+- [Warunki oferty](https://lipinscy.pl/#slick-slide08): Projekt miesiąca kwietnia w promocji 20% na lipinscy.pl
+- [Sprawdzona strona](https://lipinscy.pl/) · 23.11.2026 09:35 · odczyt poprawny
+- [Sprawdzona strona](https://lipinscy.pl/projekt/annecy/) · 23.11.2026 09:35 · odczyt poprawny
+- [Sprawdzona strona](https://lipinscy.pl/) · 23.11.2026 09:46 · odczyt poprawny
+- [Sprawdzona strona](https://lipinscy.pl/projekt/annecy/) · 23.11.2026 09:46 · odczyt poprawny
+- [Sprawdzona strona](https://lipinscy.pl/aktualnosci/niezawodnosc-i-komfort-w-dobrej-cenie-sprawdz-promocje-roku-2026-hormann/) · 23.11.2026 09:46 · odczyt częściowy
+- [Sprawdzona strona](https://lipinscy.pl/aktualnosci/odkryj-wiosenna-promocje-hormann-na-domki-i-skrzynie-ogrodowe-juno/) · 23.11.2026 09:47 · odczyt poprawny
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+To inne lub dodatkowe komunikaty; nie potwierdzają zakończenia ani dalszego obowiązywania konkretnej wcześniejszej promocji.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-2-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-2-przed.jpg)
 
-- Zmiana prezentowanych projektów lub linków; nie potwierdza zmiany oferty stałego projektu.
+<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-Przykłady z zapisów:
+| Przed · 22.11.2026 11:46 | Po · 23.11.2026 09:35 |
+| --- | --- |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-2-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-2-przed.jpg) |
 
-- Projekt miesiąca grudnia 20% taniej tylko na lipinscy.pl → brak
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
+Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
@@ -54,19 +59,21 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://lipinscy.pl/projekt/annecy/)
 
-**Odczyty:** 21.11.2026 11:26 → 22.11.2026 11:46 (czas polski).
+**Odczyty:** 22.11.2026 11:46 → 23.11.2026 09:35 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-22%2Flipinscy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-23%2Flipinscy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Flipinscy.pl%2Fprojekt%2Fannecy%2F%0A%0AOpis%3A)
 
-**Bez ustalonej zmiany · obserwacje w szczegółach**
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Komunikacja sprzedażowa · Opis i argumenty oferty | od <strong>13</strong> do <strong>23</strong> listopada 2026 | od <strong>23</strong> do <strong>30</strong> listopada 2026 | [Otwórz stronę](https://lipinscy.pl/projekt/annecy/#single-project-view) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 21.11.2026 11:26 | Po · 22.11.2026 11:46 |
+| Przed · 22.11.2026 11:46 | Po · 23.11.2026 09:35 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -74,13 +81,13 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 ### Grafika i wygląd — różnica do obejrzenia
 
-**Zmieniła się zawartość obrazu: górna część strony**
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 21.11.2026 11:26 → 22.11.2026 11:46 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 22.11.2026 11:46 → 23.11.2026 09:35 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://lipinscy.pl/projekt/annecy/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-dowod-38-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-dowod-18-po.jpg)
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-22/2026-11-22-2026-11-22t171805.771802-0000-c305bb3b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t083158.181099-0000-2cbb1941-porownanie.html)
 

@@ -4,6 +4,10 @@
 
 [← Porównanie tygodni](porownanie-ofert.md#tydzień-do-tygodnia)
 
+- **pro-arte.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-10 · Współpracujące z nami<br>3 599,00 zł → 3 299,00 zł<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
+
+- **sej-pro.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-11 · Współpracujące z nami<br>5 697,00 zł → 5 397,00 zł<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
+
 - **3ddom.pl · współpracująca** · Podwyżka ceny projektu<br>2026-11-13 · Współpracujące z nami<br>3 799,00 zł → 4 199,00 zł<br>[Źródło](https://3ddom.pl/produkt/dom-na-majowej/)
 
 - **archeton.pl · współpracująca** · Podwyżka ceny projektu<br>2026-11-13 · Współpracujące z nami<br>3 640,00 zł → 3 990,00 zł<br>[Źródło](https://archeton.pl/strona-glowna/1880-projekt-domu-celia-mini.html)

@@ -24,6 +24,10 @@
 
 - **eg-domy.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-20 · Współpracujące z nami<br>5 949,00 zł → 5 549,00 zł<br>[Źródło](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/)
 
+- **homekoncept.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-23 · Współpracujące z nami<br>13 990,00 zł → 11 891,50 zł<br>[Źródło](https://homekoncept.com.pl/produkt/homekoncept-149-b2/)
+
+- **lipinscy.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-23 · Współpracujące z nami<br>15 570,00 zł → 15 370,00 zł<br>[Źródło](https://lipinscy.pl/projekt/annecy/)
+
 - **mgprojekt.com.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-20 · Współpracujące z nami<br>6 890,00 zł → 5 167,50 zł<br>[Źródło](https://www.mgprojekt.com.pl/amber-5)
 
 - **modernhouse-projekty.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-20 · Współpracujące z nami<br>5 890,00 zł → 5 184,00 zł<br>[Źródło](https://modernhouse-projekty.pl/projekt/newhouse-761/)
@@ -59,7 +63,3 @@
 - **mgprojekt.com.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-10 · Współpracujące z nami<br>6 890,00 zł → 5 512,00 zł<br>[Źródło](https://www.mgprojekt.com.pl/amber-5)
 
 - **postawdom24.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-11 · Współpracujące z nami<br>3 670,00 zł brutto → 3 570,00 zł brutto<br>[Źródło](https://postawdom24.pl/pl/p/Projekt-domu-BW-36-wariant-18-bez-garazu-Pow.-uzytkowa-99%2C00m2/416)
-
-- **pro-arte.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-10 · Współpracujące z nami<br>3 599,00 zł → 3 299,00 zł<br>[Źródło](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
-
-- **sej-pro.pl · współpracująca** · Obniżka ceny projektu<br>2026-11-11 · Współpracujące z nami<br>5 697,00 zł → 5 397,00 zł<br>[Źródło](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)

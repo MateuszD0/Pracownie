@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domyzweranda.pl · 2026-11-12 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
-| dompp.pl · 2026-11-12 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
-| dominanta.pl · 2026-11-12 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-12 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-12 | Zmiana komunikatu oferty: „Promocja od 09.11.2026 koniec za” → „Promocja od 11.11.2026 koniec za” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-11 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| projektyka.pl · 2026-11-11 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-11 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
-| projektstodola.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-11 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| postawdom24.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja trwa do 12 listopada 2026” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-11 | Nowa promocja w komunikacji: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
-| mgprojekt.com.pl · 2026-11-11 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-11 | „Tak niską cenę gwarantujemy do 10 listopada 2026” → „Tak niską cenę gwarantujemy do 20 listopada 2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | „\| 1,2 tys. opinii \| stan na: 02.11.2026” → „\| 1,2 tys. opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | „\| 794 opinii \| stan na: 02.11.2026” → „\| 794 opinii \| stan na: 10.11.2026”. | Potwierdzono ponownym odczytem |
-| kbprojekt.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dodaj do koszyka”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-11 | Pojawił się komunikat: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Dom parterowy z trzema sypialniami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-11 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
-| dompp.pl · 2026-11-11 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
-| domideaprojekt.pl · 2026-11-11 | „"Work Sans"” → „"Montserrat Thin"”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
+| postawdom24.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja trwa do 12 listopada 2026”. W sprawdzonym serwisie znaleziono również: „Dostawa i Dodatki” | Do sprawdzenia |
+| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „Nowość w naszej ofercie: Pierwszy projekt garażu 13 listopada 2026 Pierwszy projekt garażu Faro w nastrojowej, jesiennej odsłonie... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „FORMA – nowość wśród naszych projektów typowych 02 października 2026 FORMA to kolejna propozycja w naszej kolekcji projektów typowych – funkcjonalna, wyrazista i dopracowana w każ…”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „FORMA w artystycznej odsłonie – poznaj nasz projekt domu z innej perspektywy 06 listopada 2026 Poznaj projekt FORMA i zobacz go z zupełnie innej perspektywy.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „VIVIA – nowe spojrzenie 09 października 2026 Tym razem nie pokazujemy VIVII tylko jako gotowego domu, pozwalamy spojrzeć na nią jak na architektoniczny szkic, w którym forma,... C…”. | Potwierdzono ponownym odczytem |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667” | Sprawdzono w serwisie |
+| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653” | Sprawdzono w serwisie |
+| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-13 | „15 970 zł z VAT” → „15 570 zł z VAT 15 970 zł”. | Potwierdzono ponownym odczytem |
+| lipinscy.pl · 2026-11-13 | Zmiana komunikatu oferty: „PROMOCJA NA PROJEKTY DOMÓW NA ZGŁOSZENIE DO 70 M P.Z.” → „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²” | Sprawdzono w serwisie |
+| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „Do końca promocji”. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| postawdom24.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja trwa do 12 listopada 2026”. W sprawdzonym serwisie znaleziono również: „Dostawa i Dodatki” | Do sprawdzenia |
-| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „Nowość w naszej ofercie: Pierwszy projekt garażu 13 listopada 2026 Pierwszy projekt garażu Faro w nastrojowej, jesiennej odsłonie... Czytaj więcej”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „FORMA – nowość wśród naszych projektów typowych 02 października 2026 FORMA to kolejna propozycja w naszej kolekcji projektów typowych – funkcjonalna, wyrazista i dopracowana w każ…”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „FORMA w artystycznej odsłonie – poznaj nasz projekt domu z innej perspektywy 06 listopada 2026 Poznaj projekt FORMA i zobacz go z zupełnie innej perspektywy.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „VIVIA – nowe spojrzenie 09 października 2026 Tym razem nie pokazujemy VIVII tylko jako gotowego domu, pozwalamy spojrzeć na nią jak na architektoniczny szkic, w którym forma,... C…”. | Potwierdzono ponownym odczytem |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653” | Sprawdzono w serwisie |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| lipinscy.pl · 2026-11-13 | „15 970 zł z VAT” → „15 570 zł z VAT 15 970 zł”. | Potwierdzono ponownym odczytem |
-| lipinscy.pl · 2026-11-13 | Zmiana komunikatu oferty: „PROMOCJA NA PROJEKTY DOMÓW NA ZGŁOSZENIE DO 70 M P.Z.” → „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²” | Sprawdzono w serwisie |
-| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „Do końca promocji”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Poradnik od czego zacząć budowę domu”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Bezpłatna zgoda na zmiany”. | Zaobserwowana zmiana |
+| sej-pro.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pakiet extra dodatków o wartości 4100 zł” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Extra dodatki za 1 zł” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „PDF · bezpłatnie”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wysyłka w 1-4 dni robocze”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Bezpłatne pozwolenie na zmiany”. W sprawdzonym serwisie znaleziono również: „W cenie” | Do sprawdzenia |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Wymiana 30 dni, zwrot 14 dni”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Co zawiera gotowy projekt domu?”. | Potwierdzono ponownym odczytem |
+| mtmstyl.com.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann” | Sprawdzono w serwisie |
+| mtmstyl.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację.”. W sprawdzonym serwisie znaleziono również: „Atrakcyjne PROMOCJE” | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-14 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
+| mgprojekt.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| galeriadomow.pl · 2026-11-14 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jedno z częstszych pytań pojawiających się wśród inwestorów szukających projektu przyszłego domu brzmi: czy można wybudować dom za 200 tysięcy złotych? Oczywiście chodzi tu o stan…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jaki dom wybudujesz za 200 tysięcy złotych? Sekrety taniego domu z poddaszem.”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Dom przy Pastelowej 30 bis to kolejny przedstawiciel kolekcji, którą tworzą projekty domów parterowych z dachem dwuspadowym lub czterospadowym. Poza pierwszymi dwoma propozycjami,…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Co nowego przy Pastelowej? - Dom przy Pastelowej 30 bis”. | Potwierdzono ponownym odczytem |

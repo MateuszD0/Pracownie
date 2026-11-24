@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Next”. | Do sprawdzenia |
-| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Previous”. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Nowoczesna stodoła z poddaszem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i dachem dwuspadowym”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i z gabinetem”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem na wąską działkę”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-18 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| dobredomy.pl · 2026-11-18 | „Dodaj do ulubionych” → „Usuń z ulubionych”. | Do sprawdzenia |
-| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
-| archstodola.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „PARTEROWY DOM Z ZADASZONYM TARASEM – JAK WYBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DOM TRADYCYJNY CZY NOWOCZESNY? JAK WYBRAĆ STYL DOMU”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „STAN ZERO BUDYNKU – CO OBEJMUJE I JAK ZAPLANOWAĆ TEN ETAP?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DZIAŁKA POD BLIŹNIAKA – WYMIARY, WARUNKI ZABUDOWY I PODZIAŁ”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „BUDOWA DOMU NA SKARPIE – KIEDY MA SENS I JAK DOBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „NOWOCZESNA BALUSTRADA Z KSIĄŻKAMI – JAK POŁĄCZYĆ REGAŁ I BEZPIECZEŃSTWO?”. | Potwierdzono ponownym odczytem |
-| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „WSPÓŁPRACA Z ARCHITEKTEM – JAK SIĘ DO NIEJ PRZYGOTOWAĆ?”. | Potwierdzono ponownym odczytem |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | „Koszyk” → „Koszyk 1 1 pozycja”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Realizuj zakup”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-17 | Nie odnotowano wcześniejszego komunikatu: „Nadchodzi Black Friday, największa promocja roku 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Odzysk ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zyski cieplne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kompaktowy dom z poddaszem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| dompp.pl · 2026-11-19 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
+| dominanta.pl · 2026-11-19 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-19 | Pojawił się komunikat: „Agawa B-ZBL - nowy projekt domu!”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-19 | Pojawił się komunikat: „Funkcjonalny bliźniak z płaskim dachem.”. | Potwierdzono ponownym odczytem |
+| dobredomy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Nie, dziękuję”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Chcę być na bieżąco”. | Do sprawdzenia |
+| archipelag.pl · 2026-11-19 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| archipelag.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „VELUX Polska wspiera w praktycznym korzystaniu z programu „Czyste Powietrze””. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | Nowy dodatek lub pakiet: „Dodatki oznaczone PDF wysyłamy e-mailem na adres podany w zamówieniu.” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-18 | „Projekty małej architektury 1700 zł W pakiecie” → „Projekty małej architektury 1700 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | „Bądź ENERGO 120 zł W pakiecie” → „Bądź ENERGO 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | Nowa promocja w komunikacji: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-18 | „Poradnik Inwestora 120 zł W pakiecie” → „Poradnik Inwestora 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-18 | „Jak urządzić ogród 120 zł W pakiecie” → „Jak urządzić ogród 120 zł W pakiecie PDF na e-mail”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-18 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-18 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Potwierdzono ponownym odczytem |

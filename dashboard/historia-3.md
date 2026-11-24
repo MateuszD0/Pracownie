@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| dominanta.pl · 2026-11-22 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-22 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-22 | Zmiana komunikatu oferty: „Promocja od 11.11.2026 koniec za” → „Promocja od 13.11.2026 koniec za” | Sprawdzono w serwisie |
-| studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
-| studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „CENA PROMOCYJNA”. | Do sprawdzenia |
-| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-11-21 | Zauważono etykietę: „% PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-11-21 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
-| horyzont.com · 2026-11-21 | „Tax (w tym 23%)” → „w tym VAT (23%)”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „PROJEKTY DO 70M2 ZABUDOWY 4”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „projektu terenu i jego zagospodarowania,” → „projektu terenu i jego zagospodarowania”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „E-domy.pl to odpowiedź na wzorce z dalekiej przeszłości, które mieszają się ze współczesną architekturą, przy…” → „E-domy.pl to odpowiedź na wzorce z dalekiej przeszłości, które mieszają się ze współczesną architekturą, przy…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „min. szerokość działki: 17,1 m”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Nowość”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Koncepcje, które przedstawiamy to także plany uwzględniające parametry energetyczne. Rozwój nowych technologi…” → „Koncepcje przedstawiane przez e-domy.pl to także plany uwzględniające parametry energetyczne. Rozwój nowych t…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Nasze projekty energooszczędnych domów to przede wszystkim zastosowanie rozwiązań, które mają zapewnić inwest…” → „Projekty energooszczędnych domów to przede wszystkim zastosowanie rozwiązań, które mają zapewnić inwestorom p…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „południowo-zachodnia lokalizacja tarasu zapewni mieszkańcom słońce w tej części domu przez cały dzień.” → „południowo-zachodnia lokalizacja tarasu zapewni słońce w tej części domu przez cały dzień.”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Nowoczesny dom z płaskim dachem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Projekty (33) PROJEKTY DOMÓW BEZ GARAŻU”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „PROJEKTY DOMÓW PARTEROWYCH 107” → „Projekty (106) PROJEKTY DOMÓW PARTEROWYCH”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „min. szerokość działki: 20,0 m”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „PROJEKTY DOMÓW Z PODDASZEM 94” → „Projekty (91) PROJEKTY DOMÓW Z PODDASZEM”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „możliwość inspiracji naszymi propozycjami rozwiązań;” → „możliwość inspiracji zaproponowanymi rozwiązaniami;”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Za pomocą specjalnie przygotowanych filtrów wyszukiwarki, inwestorzy są w stanie dopasować własne potrzeby i…” → „Za pomocą specjalnie przygotowanych filtrów wyszukiwarki inwestorzy są w stanie dopasować własne potrzeby i w…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Jak widać, możliwości wyboru projektu domu są ogromne. Jak zatem wybrać ten jeden właściwy, który spełni ocze…” → „Możliwości wyboru projektu domu są ogromne. Jak zatem wybrać ten jeden właściwy, który spełni oczekiwania? Po…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Projekty budowlane e-domy.pl to autorskie koncepcje, które zostały przygotowane w oparciu o doświadczenie ora…” → „Projekty budowlane e-domy.pl to autorskie koncepcje, które zostały przygotowane w oparciu o doświadczenie ora…”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-24 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-24 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| domy21.pl · 2026-11-24 | Nowa promocja w komunikacji: „PROMOCJA -10% na wybrane projekty” | Sprawdzono w serwisie |
+| dompp.pl · 2026-11-24 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
+| archstodola.pl · 2026-11-24 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| archstodola.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |

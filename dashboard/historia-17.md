@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |
-| e-domy.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
-| domywstylu.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann” | Sprawdzono w serwisie |
-| domywstylu.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację.”. W sprawdzonym serwisie znaleziono również: „Atrakcyjne PROMOCJE” | Do sprawdzenia |
-| domywstylu.pl · 2026-11-14 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Porozmawiaj z architektem! Napisz lub zadzwoń. ›”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-14 | Nowa promocja w komunikacji: „Promocja: -500 zł na projekty domów!” | Sprawdzono w serwisie |
-| dominanta.pl · 2026-11-14 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-14 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
-| domato.pl · 2026-11-14 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
-| archdom.pl · 2026-11-14 | Pojawił się komunikat: „STODOŁA MIKRO 1”. | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK KUPIĆ PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „WARTO ZOBACZYĆ WSZYSTKIE PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „GOTOWY PROJEKT DOMU STUDIO ATRIUM I JEGO ADAPTACJA”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POSIADAMY NAWET PROJEKTY DOMÓW PARTEROWYCH Z PODDASZEM UŻYTKOWYM LUB NIEUŻYTKOWYM (STRYCH)”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZREALIZOWANY PROJEKT BUDYNKU STUDIO ATRIUM - RECEPTA NA DOM, KTÓRY URZECZYWISTNIA MARZENIA”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „PROJEKTY W STYLU STODOŁY”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nowy dodatek lub pakiet: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Projekty domów są rezultatem pracy grupy specjalistów, w której skład wchodzą eksperci z różnych dziedzin: architektury, budownictwa, insta…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztó…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pozycję dodano do koszyka”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | „Koszyk 1 1 pozycja” → „Koszyk”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizuj zakup”. | Do sprawdzenia |
+| projektyka.pl · 2026-11-16 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
+| pracowniaprojektowa.info · 2026-11-16 | Zmiana komunikatu oferty: „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-16 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „No items to show”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Saved For Later”. | Do sprawdzenia |
+| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |

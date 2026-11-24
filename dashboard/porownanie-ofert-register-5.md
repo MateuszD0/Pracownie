@@ -4,24 +4,24 @@
 
 [← Porównanie ofert](porownanie-ofert.md)
 
-2026-11-23
+2026-11-24
 
-- **domoweklimaty.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 300zł<br>„Zapisz się do newslettera i odbierz 300zł rabatu!” · 23.11.2026 09:33<br>[Strona główna](https://www.domoweklimaty.pl/)
+- **pro-arte.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 24.11.2026 10:54<br>[Strona warunków](https://www.pro-arte.pl/projekty-domow/1008/trypolis-7)
 
-- **mtmstyl.com.pl · niewspółpracująca** · Oferta · Strona warunków<br>Rabat · 200 zł<br>„Aktualny kosztorys budowlany z rabatem 200 zł (promocją nie są objęte kosztorysy w przygotowaniu oraz kosztorysy do projektów nie objętych promocją).” · 23.11.2026 09:47<br>[Strona warunków](http://www.mtmstyl.com.pl/promocje/promocja-na-projekty-domow-500/#page-main)
+- **sej-pro.pl · współpracująca** · BLACK500 · Strona główna<br>Rabat · do 1100 zł<br>Zakres · Wszystkie projekty domów<br>„Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥” · 24.11.2026 10:42<br>[Strona główna](https://www.sej-pro.pl/#page)
 
-- **skahus.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 30%<br>„Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%.” · 23.11.2026 09:37<br>[Strona główna](https://skahus.pl/#post-317570196)
+- **sej-pro.pl · współpracująca** · BLACK500 · Karta projektu<br>Rabat · 500 zł<br>Zakres · ten projekt<br>„Kup ten projekt jeszcze taniej o 500 zł z kodem „BLACK500” 🔥” · 24.11.2026 10:42<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
 
-- **slonecznedomy.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 10%<br>„10% RABATU” · 23.11.2026 09:37<br>[Strona główna](https://www.slonecznedomy.pl/#myCarousel1)
+- **sej-pro.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 15%<br>„15% rabatu na 1 dzień zakupów” · 24.11.2026 10:42<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
 
-- **slonecznedomy.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 10%<br>„FOTOGRAFUJ POSZCZEGÓLNE ETAPY BUDOWY I OTRZYMAJ 10% RABATU” · 23.11.2026 09:37<br>[Strona główna](https://www.slonecznedomy.pl/#myCarousel1)
+- **sej-pro.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 10%<br>„10% rabatu przez 12 mies.” · 24.11.2026 10:42<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
 
-- **slonecznedomy.pl · niewspółpracująca** · Oferta · Strona warunków<br>Rabat · 10%<br>„5.2 Zamawiając projekt należy zaznaczyć w formularzu zamówieniowym dodatek „Rabat za zdjęcia”, wówczas cena zakupu projektu będzie uwzględniała 10% rabatu.” · 23.11.2026 09:50<br>[Strona warunków](https://www.slonecznedomy.pl/wazne-informacje/gratis/rabat-za-zdjecia#ct)
+- **studiokrajobrazy.pl · współpracująca** · BLACK WEEK · Strona główna<br>Rabat · -10%<br>Zakres · na wybrane projekty<br>Termin · do końca listopada<br>„BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się ten Wasz wymarzony. Od prawie dwudziestu lat projektujemy domy parterowe oraz projekty domów z poddaszem jak również oferujemy projekty domów energooszczędnych z pompą ciepła i ciągle próbujemy zbliżyć sie do ideału, który być może nie do końca istnieje, gdyż nawet najpopularniejsze, sprawdzone schematy funkcjonalne domów nie muszą odpowiadać wszystkim inwestorom. Na szczęście gotowe projekty domów można na etapie adaptacji jeszcze w różnym zakresie korygować i zmieniać, aby bardziej dokładnie dopasować pod indywidualne wymagania. Dzięki temu jest duża szansa, że zaczynając od zakupu gotowej dokumentacji, po zaadaptowaniu stanie sie ona idealnie spełniającym nasze oczekiwania projektem nowego domu.” · 24.11.2026 10:42<br>[Strona główna](https://studiokrajobrazy.pl/#column-right)
 
-- **studioatrium.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 100zł<br>„Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu.” · 23.11.2026 09:37<br>[Strona główna](https://www.studioatrium.pl/#footer)
+- **domoweklimaty.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 300zł<br>„Zapisz się do newslettera i odbierz 300zł rabatu!” · 24.11.2026 10:38<br>[Strona główna](https://www.domoweklimaty.pl/)
 
-- **studioatrium.pl · niewspółpracująca** · Oferta · Karta projektu<br>Rabat · 100zł<br>„Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu.” · 23.11.2026 09:37<br>[Karta projektu](https://www.studioatrium.pl/projekty-domow/Rodrigo-sz,1730.html#footer)
+- **mtmstyl.com.pl · niewspółpracująca** · Oferta · Strona warunków<br>Rabat · 200 zł<br>„Aktualny kosztorys budowlany z rabatem 200 zł (promocją nie są objęte kosztorysy w przygotowaniu oraz kosztorysy do projektów nie objętych promocją).” · 24.11.2026 10:52<br>[Strona warunków](http://www.mtmstyl.com.pl/promocje/promocja-na-projekty-domow-500/#page-main)
 
-- **studioatrium.pl · niewspółpracująca** · Oferta · Strona warunków<br>Rabat · 100zł<br>„Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu.” · 23.11.2026 09:51<br>[Strona warunków](https://www.studioatrium.pl/dodatki/#footer)
+- **skahus.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 30%<br>„Nabywca projektu domu z oznaczeniem ,,Koncepcja” może skorzystać z rabatu -30%.” · 24.11.2026 10:42<br>[Strona główna](https://skahus.pl/#post-317570196)
 
-- **studioatrium.pl · niewspółpracująca** · Oferta · Strona warunków<br>Rabat · 100zł<br>„Zarejestruj się w naszym serwisie. Nie przegap informacji o nowościach i promocjach. Twoje konto to swoboda korzystania z narzędzi gdziekolwiek jesteś. Dodatkowo za założenie konta otrzymujesz od nas w prezencie 100zł rabatu na zakup projektu domu.” · 23.11.2026 09:51<br>[Strona warunków](https://www.studioatrium.pl/projekty-domow/promocje/#footer)
+- **slonecznedomy.pl · niewspółpracująca** · Oferta · Strona główna<br>Rabat · 10%<br>„10% RABATU” · 24.11.2026 10:42<br>[Strona główna](https://www.slonecznedomy.pl/#myCarousel1)

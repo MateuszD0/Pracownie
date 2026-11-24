@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Instalacje energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Dowiedz się więcej”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapisz się”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Aby odpowiedzieć na pytanie, jaki jest najczęściej kupowany projekt domu, trzeba racjonalnie określić kryteria wyboru. Nie sposób wskazać jednego projektu, stylu architektoniczneg…”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Jaki jest najczęściej kupowany projekt domu? Przegląd trendów w budownictwie jednorodzinnym.”. | Potwierdzono ponownym odczytem |
-| galeriadomow.pl · 2026-11-18 | Pojawił się komunikat: „Co nowego przy Imbirowej? NOWOŚĆ – Dom przy Imbirowej 11”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „1 Weryfikacja otoczenia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Orientacja”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dołącz do naszego newslettera”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Niskotemperaturowe ogrzewanie podłogowe”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zapisz się”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |

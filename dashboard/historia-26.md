@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Dzięki Pani Kamili mamy super piękny i komfortowy dom HG 01 passive”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Serdecznie polecam Hexa Green Architekt!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Jeśli miałbym jeszcze raz wybierać projekt i budować dom, to ponownie wybrałbym Hexa Green”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Współpraca z Kamilą nad osiedlem deweloperskim Hambar44 była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Ten projekt był strzałem w 10-tkę!”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „\[ENG\] Working with Kamila on the Hambar44 design was exceptional on every level. She blends creativity with technical expertise, communicates clearly, and truly cares about delive…”. | Zaobserwowana zmiana |
-| hexagreen.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „była wyjątkowa pod każdym względem.”. | Zaobserwowana zmiana |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu. \* Zastosowanie dodatkowych instalacji może mieć wpływ na konieczność dokonania z…” | Sprawdzono w serwisie |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu jeszcze łatwiej będą mogli Państwo dostosować projekt do własnych potrzeb. Poniż…” | Sprawdzono w serwisie |
-| hbstudio.pl · 2026-11-09 | Nowy dodatek lub pakiet: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Sprawdzono w serwisie |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-09 | Pojawił się komunikat: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Mały dom z poddaszem nieużytkowym”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | „Optymalny dom na wąskie działki” → „Dom dwuspadowy na wąskie działki”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | Pojawił się komunikat: „Rezydencja dla licznej rodziny”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „Optymalny dom na wąskie działki”. | Potwierdzono ponownym odczytem |
-| domenadom.pl · 2026-11-09 | Pojawił się komunikat: „Domena 171 C5NOWOŚĆ”. | Potwierdzono ponownym odczytem |
-| artinex-projekt.pl · 2026-11-09 | W nowym zapisie nie ma komunikatu: „D292A Gabinet, pracownia z niezależnym wejściem WT2021 wersja…”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D424A Zabudowa bliźniacza - segmenty dwulokalowe WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-09 | Pojawił się komunikat: „D350 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
-| artinex-projekt.pl · 2026-11-09 | „D322D WT2021 wersja drewniana” → „DM5 wersja drewniana”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z zadaszonym tarasem”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „nowośćDomidea 105tylko u autora”. | Potwierdzono ponownym odczytem |
+| domideaprojekt.pl · 2026-11-11 | „normalny (400)” → „300”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Liczba pozycji w koszyku: 0”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-11 | Pojawił się komunikat: „Projekty z dużym oknemw sypialni głównej na poddaszu”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-11 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| dom-projekt.pl · 2026-11-11 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 200 zł” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| dobredomy.pl · 2026-11-11 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| archi-projekt.com.pl · 2026-11-11 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 550 zł” | Sprawdzono w serwisie |
+| archdom.pl · 2026-11-11 | Pojawił się komunikat: „STODOŁA MINI 3 BG UNI EKO”. | Potwierdzono ponownym odczytem |
+| 3ddom.pl · 2026-11-11 | Zmiana komunikatu oferty: „Promocja od 07.11.2026 koniec za” → „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Powierzchnia zabudowy a użytkowa: czym się różnią i jak je liczyć”. | Potwierdzono ponownym odczytem |
+| projektydomowzbali.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektstodola.pl · 2026-11-10 | Pojawił się komunikat: „RZUT WERSJA LUSTRZANE ODBICIE:”. | Do sprawdzenia |
+| projektstodola.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
+| pro-arte.pl · 2026-11-10 | Nowa promocja w komunikacji: „RABAT 300 ZŁ” | Sprawdzono w serwisie |
+| pollio.pl · 2026-11-10 | Pojawił się komunikat: „Najczęściej zadawane pytania o budowę domu z Generalnym Wykonawcą”. | Potwierdzono ponownym odczytem |
+| mtmstyl.com.pl · 2026-11-10 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| lipinscy.pl · 2026-11-10 | Nie odnotowano wcześniejszego komunikatu: „Jeszcze tylko weekend został na zakup projektu w promocyjnej cenie na black-week. Skorzystaj z promocji -600 zł na projekty biorące udział…”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| eg-domy.pl · 2026-11-10 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-10 | W nowym zapisie nie ma komunikatu: „Dom piętrowy z bocznym tarasem”. | Potwierdzono ponownym odczytem |

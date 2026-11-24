@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Pokaż koszyk (1)”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | „Koszyk 1 1 pozycja” → „Koszyk”. | Do sprawdzenia |
-| sprytnaoaza.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizuj zakup”. | Do sprawdzenia |
-| projektyka.pl · 2026-11-16 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
-| pracowniaprojektowa.info · 2026-11-16 | Zmiana komunikatu oferty: „03.11.2026-05.11.2026 PROMOCJA JESIENNA - 300 PLN RABATU NA PROJEKT DOMU, 100 PLN RABATU NA PROJEKT GARAŻU” → „20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” | Sprawdzono w serwisie |
-| planujdom.pl · 2026-11-16 | Nie odnotowano wcześniejszego komunikatu: „WYBRANE PROJEKTY Z RABATEM -15% Łap okazję!!! Do końca promocji: \[licznik\] Zobacz &gt;”. W sprawdzonym serwisie znaleziono również: „GRATIS Tablica budowy” | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „No items to show”. | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Saved For Later”. | Do sprawdzenia |
-| homekoncept.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „PRZEGLĄDAJ PROJEKTY”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Mały dom z wolnym poddaszem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Dom dwuspadowy na wąskie działki”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Technologia”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Instalacje energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Przejdź do oferty”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „4 Optymalne ustawienie domu”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Energooszczędna pompa ciepła”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Dowiedz się więcej”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „2 Lokalizacja wjazdu”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapisz się”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-18 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Aby odpowiedzieć na pytanie, jaki jest najczęściej kupowany projekt domu, trzeba racjonalnie określić kryteria wyboru. Nie sposób wskazać jednego projektu, stylu architektoniczneg…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Jaki jest najczęściej kupowany projekt domu? Przegląd trendów w budownictwie jednorodzinnym.”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-18 | Pojawił się komunikat: „Co nowego przy Imbirowej? NOWOŚĆ – Dom przy Imbirowej 11”. | Potwierdzono ponownym odczytem |

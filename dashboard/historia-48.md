@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| projektyzwizja.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „CENA PROMOCYJNA”. W sprawdzonym serwisie znaleziono również: „Kosztorys” | Do sprawdzenia |
-| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „NOWOŚCI PROJEKTOWE”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „4249,- 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Jeśli chcesz otrzymać bezpłatnie rysunki szczegółowe projektu ODYN (G), wypełnij formularz. Po jego przesłaniu otrzymasz wiadomość e-mail z linkiem do pobrania pliku PDF.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys inwestorski to dokument finansowy, uwzględniający wszystkie koszty budowy domu – w tym przede wszystkim koszty zakup materiałów i ich rodzaj, robociznę (określaną w form…”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys nie obejmuje kosztów zagospodarowania działki.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowy egzemplarz projektu”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Kosztorys”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowe opcje przy zakupie projektu”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dane techniczne i kosztorys”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Kosztorys w opracowaniu.”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Nasze kosztorysy opracowywane są na podstawie porojektów technicznych w oparciu o ceny publikowane kwartalnie w Sekocenbud. Przyjmujemy stawki średnie w systemie zleconym z podzia…”. | Do sprawdzenia |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Dodatkowo można znaleźć informację o kosztach budowy stanu surowego zamkniętego metodą gospodarczą, wtedy koszt robocizny i koszty pośrednie pomniejszamy o 70% natomiast koszt mat…”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | Pojawił się komunikat: „Pobierz bezpłatnie”. | Zaobserwowana zmiana |
-| projekty.nordarchitekci.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Pobierz bezpłatnie”. | Do sprawdzenia |
-| pro-arte.pl · 2026-10-30 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
-| planujdom.pl · 2026-10-30 | Pojawił się komunikat: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „Anita to wygodny, parterowy, niepodpiwniczony dom z użytkowym poddaszem i wbudowanym garażem, przeznaczony dla 4-6 osobowej rodziny.”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | „Adam z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanow…” → „Granada L z Opusdom to bardzo wygodny i funkcjonalny dom parterowy z użytkowym poddaszem i wbudowanym garażem…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | Pojawił się komunikat: „ALFI – wygodny, nowoczesny dom parterowy z użytkowym poddaszem i wbudowanym garażem jednostanowiskowym. Dom został zaprojektowany z naciskiem na funkcjonalność, prostotę rozwiązań…”. | Zaobserwowana zmiana |
-| opusdom.pl · 2026-10-30 | W nowym zapisie nie ma komunikatu: „Filemon Dom wolno stojący, parterowy z użytkowym poddaszem, nie podpiwniczony, przeznaczony dla 4-5 osobowej rodziny.”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „POMPA CIEPŁA #1 – DOLNE ŹRÓDŁO CIEPŁA”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-01 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
+| dominanta.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Zaobserwowana zmiana |
+| dom-projekt.pl · 2026-11-01 | Nie odnotowano wcześniejszego komunikatu: „Promocja! Oszczędzasz 200 zł”. W sprawdzonym serwisie znaleziono również: „Promocja trwa od dnia 27.10.2026 roku do dnia 29.10.2026 roku.” | Do sprawdzenia |
+| dom-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „regulaminem promocji”. | Do sprawdzenia |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D349 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | W nowym zapisie nie ma komunikatu: „D438 Segment do zbliźniaczenia WT2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D340 wersja drewniana Wt2021”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | „D444 WT2021 wersja drewniana” → „DM10B wersja drewniana”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | Pojawił się komunikat: „D428 WT2021 segment dwulokalowy”. | Zaobserwowana zmiana |
+| artinex-projekt.pl · 2026-11-01 | „D57AD WT2021 wersja drewniana” → „D332 WT2021 wersja drewniana”. | Zaobserwowana zmiana |
+| architeka.pl · 2026-11-01 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| projektyka.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Autorskie projekty domów szyte na miarę”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo fachowa i uczciwa pomoc. Godna polecenia firma”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalne i konkretne podejście do klienta. Szybki kontakt. Polecam”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Projektant godny polecenia, szybki i solidny. Jestem zadowolona ze współpracy.Polecam z całego serca.”. | Zaobserwowana zmiana |
+| planujdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Bardzo profesjonalna obsługa. Architekt z dużą wiedzą i doświadczeniem”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | W nowym zapisie nie ma komunikatu: „Elis L z Opusdom jest wygodnym parterowym domem, przeznaczonym dla 4-5 osobowej rodziny. Dom ma zwartą bryłę na planie prostokąta z dwuspadowym dachem. Ma to bezpośredni wpływ na…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Adam L z Opusdom to reprezentacyjny, wygodny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwustanowiskowym, przeznaczony dla 4-7 osobowej rodziny.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Syntia II wersja B to reprezentacyjny parterowy dom z użytkowym poddaszem i garażem dwustanowiskowym. Dom ma funkcjonalny układ i niepowtarzalny styl.”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Sadyba II jest funkcjonalnym parterowym domem z poddaszem użytkowym przeznaczonym dla 4-6 osobowej rodziny. Dom zaprojektowany w sposób, który oprócz funkcjonalności oferuje właśc…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | „Arkadia II z Opusdom to wygodny, reprezentacyjny dom o powierzchni 173,6m2 z użytkowym poddaszem i wbudowanym…” → „Syntia w. B z Opusdom.pl to bardzo wygodny, reprezentacyjny dom parterowy dom z użytkowym poddaszem i wbudowa…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | „Magnolia II to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem i wbudowanym garażem dwust…” → „Kasia to bardzo wygodny, reprezentacyjny dom parterowy z użytkowym poddaszem, przeznaczony dla rodziny o sche…”. | Zaobserwowana zmiana |
+| opusdom.pl · 2026-10-31 | Pojawił się komunikat: „Przemek jest niewielkim, ale wygodnym, parterowym domem z użytkowym poddaszem, przeznaczonym dla 4-5 osobowej rodziny. Od frontu zlokalizowano urokliwą werandę, osłaniającą strefę…”. | Zaobserwowana zmiana |

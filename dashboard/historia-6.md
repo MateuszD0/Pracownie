@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „PROMOCJA - RABAT 500ZŁ” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Sprawdź projekty objęte promocją” | Sprawdzono w serwisie |
-| dom-projekt.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 300 zł” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| archstodola.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| archiportal.pl · 2026-11-20 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł3 999 zł”. | Potwierdzono ponownym odczytem |
-| archi-projekt.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 650 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 2 990 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 390 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 590 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 190 zł”. | Potwierdzono ponownym odczytem |
-| archdom.pl · 2026-11-20 | Pojawił się komunikat: „NOWOŚĆ”. | Do sprawdzenia |
-| archdom.pl · 2026-11-20 | Zauważono etykietę: „Promocja kończy się za:”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-19 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-19 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dobry wybór dla Twojej rodziny. 10 wariantów w 3 technologiach”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kolekcja wszystkich projektów ORLEAN”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup taniej, okresowe promocje”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „TRYPOLIS, który wybierzesz? Teraz taniej”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Małe domy z płaskim dachem”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup w promocji”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
-| mgprojekt.com.pl · 2026-11-19 | „Tomasz 2026-10-25 \[licznik\]” → „Dariusz Z. 2026-11-12 \[licznik\]”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-22 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
+| dominanta.pl · 2026-11-22 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| archstodola.pl · 2026-11-22 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-22 | Zmiana komunikatu oferty: „Promocja od 11.11.2026 koniec za” → „Promocja od 13.11.2026 koniec za” | Sprawdzono w serwisie |
+| studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
+| studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „CENA PROMOCYJNA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-11-21 | Zauważono etykietę: „% PROMOCJA”. | Do sprawdzenia |
+| projektstodola.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
+| mgprojekt.com.pl · 2026-11-21 | Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-21 | „Tak niską cenę gwarantujemy do 20 listopada 2026” → „Tak niską cenę gwarantujemy do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
+| horyzont.com · 2026-11-21 | „Tax (w tym 23%)” → „w tym VAT (23%)”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „zrealizowanych już 150+”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „autorską kolekcję projektów”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6 zasad projektowania”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „sześciu zasadach”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „6-krotnie mniej energii”. | Do sprawdzenia |

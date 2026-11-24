@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-22 → 2026-11-23**
+**2026-11-23 → 2026-11-24**
 
 **Ten sam projekt:** [Nord Architekci - projekty gotowe](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29)
 
@@ -16,20 +16,21 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://projekty.nordarchitekci.pl/)
 
-**Odczyty:** 22.11.2026 11:48 → 23.11.2026 09:36 (czas polski).
+**Odczyty:** 23.11.2026 09:36 → 24.11.2026 10:41 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-23%2Fprojekty.nordarchitekci.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojekty.nordarchitekci.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-24%2Fprojekty.nordarchitekci.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojekty.nordarchitekci.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (13) — nie są ustaloną zmianą oferty</summary>
 
 - Drobne przesunięcie układu; nie ustalono zmiany komunikacji.
 
 Przykłady z zapisów:
 
-- 42 × 38 px; położenie: 1082 px od lewej, 498 px od góry → 42 × 38 px; położenie: 1082 px od lewej, 510 px od góry
-- 42 × 38 px; położenie: 583 px od lewej, 498 px od góry → 42 × 38 px; położenie: 583 px od lewej, 510 px od góry
+- 227 × 152 px; położenie: 408 px od lewej, 405 px od góry → 227 × 152 px; położenie: 408 px od lewej, 394 px od góry
+- 227 × 152 px; położenie: 657 px od lewej, 405 px od góry → 227 × 152 px; położenie: 657 px od lewej, 394 px od góry
+- 42 × 38 px; położenie: 1082 px od lewej, 732 px od góry → 42 × 38 px; położenie: 1082 px od lewej, 720 px od góry
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -39,11 +40,11 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 [Otwórz stronę źródłową](https://projekty.nordarchitekci.pl/projekt/55/ODYN%20%28G%29)
 
-**Odczyty:** 22.11.2026 11:48 → 23.11.2026 09:36 (czas polski).
+**Odczyty:** 23.11.2026 09:36 → 24.11.2026 10:41 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-23%2Fprojekty.nordarchitekci.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojekty.nordarchitekci.pl%2Fprojekt%2F55%2FODYN%2520%28G%29%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-24%2Fprojekty.nordarchitekci.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fprojekty.nordarchitekci.pl%2Fprojekt%2F55%2FODYN%2520%28G%29%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t093710.524707-0000-0b3eaf0d-porownanie.html)
 

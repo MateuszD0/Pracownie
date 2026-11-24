@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „DLACZEGO WARTO ZDECYDOWAĆ SIĘ NA PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ODWIEDŹ NASZE FORUM DYSKUSYJNE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „W tej sekcji zaprezentowano projekty domów parterowych z poddaszem. Grupa tych konceptów zalicza się do najbardziej popularnych na rynku i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zespół architektów i specjalistów Studia Atrium z pełną świadomością podchodzi do spersonalizowanych potrzeb klienta. Oferujemy gotowe proj…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „AUTORSKIE PROJEKTY DOMÓW NA FACEBOOKU, INSTAGRAMIE, YOUTUBE I INNYCH MEDIACH SPOŁECZNOŚCIOWYCH”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „PROJEKTY DOMÓW Z KOSZTORYSEM”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „skontaktuj się z naszym konsultantem”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Odkryj wyjątkowy świat autorskich projektów Studia Atrium! Jesteśmy dla Ciebie w mediach społecznościowych, gdzie na bieżąco dzielimy się i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NOWOCZESNE PROJEKTY DOMÓW CZYLI PODĄŻANIE ZA TRENDAMI W ARCHITEKTURZE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POMIESZCZENIA GOSPODARCZE - SPERSONALIZUJ WNĘTRZE WYBIERAJĄC PROJEKT WŁASNEGO DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Zobacz dodatki” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Nasz darmowy katalog”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA OFERTA STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-13 | Nowa promocja w komunikacji: „Nadchodzi Black Friday, największa promocja roku 🔥” | Sprawdzono w serwisie |
-| projektydomowzbali.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-13 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
-| pro-arte.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
+| e-domy.pl · 2026-11-16 | W nowym zapisie nie ma komunikatu: „Dom dwuspadowy na wąskie działki”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
+| archstodola.pl · 2026-11-16 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| teaprojekt.pl · 2026-11-15 | „30 września 2026 · 9 min czytania” → „30 września 2026 · 10 min czytania”. | Potwierdzono ponownym odczytem |
+| teaprojekt.pl · 2026-11-15 | „28 września 2026 · 13 min czytania” → „28 września 2026 · 14 min czytania”. | Potwierdzono ponownym odczytem |
+| projektydomowzbali.pl · 2026-11-15 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Uff, jak gorąco! Jak uchronić dom przed upałem?”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
+| hbstudio.pl · 2026-11-15 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1…”. W sprawdzonym serwisie znaleziono również: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Do sprawdzenia |
+| galeriadomow.pl · 2026-11-15 | „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
+| archstodola.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |

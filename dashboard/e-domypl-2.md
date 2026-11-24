@@ -4,60 +4,59 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-11-23 → 2026-11-24**
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-Różnice tej pracowni: **73**. Strona **2/3** · pokazano **25** wpisów.
+**101 zmian w zapisanym zakresie.**
 
-Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md)
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md) · [4](e-domypl-4.md) · [5](e-domypl-5.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
+**Odczyty:** 23.11.2026 09:34 → 24.11.2026 10:39 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Strona główna | Dom z tarasem nad garażem | Dom bez garażu na wąską działkę | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | więcej informacji o projekcie domu E-122 | więcej informacji o projekcie domu E-173 | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Mały dom z widokiem | Dom parterowy z 3 sypialniami | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Next slide</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to page 4</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Więcej filtrów</strong> | [Otwórz stronę](https://www.e-domy.pl/#:~:text=Wi%C4%99cej%20filtr%C3%B3w) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to page 1</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to slide 5</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to slide 8</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to slide 4</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Funkcjonalności · Opcja na stronie | Nie odnotowano w tym odczycie | <strong>Go to slide 2</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | PROJEKTY DOMÓW PARTEROWYCH<strong> 107</strong> | <strong>Projekty (106) </strong>PROJEKTY DOMÓW PARTEROWYCH | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Min</strong>. <strong>szer.działki23</strong>,9 m | <strong>min</strong>. <strong>szerokość działki: 20</strong>,9 m | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide07) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | PROJEKTY DOMÓW DO 100M2<strong> 20</strong> | <strong>Projekty (20) </strong>PROJEKTY DOMÓW DO 100M2 | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Projekty (17) PROJEKTY DOMÓW Z PŁASKIM DACHEM</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Nowoczesny dom z tarasami</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide05) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>PROJEKTY MAŁYCH DOMÓW 86</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Min</strong>. <strong>szer.działki23</strong>,<strong>3</strong> m | <strong>min</strong>. <strong>szerokość działki: 23</strong>,<strong>0</strong> m | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide05) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Projekty (33) PROJEKTY DOMÓW BEZ GARAŻU</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>PROJEKTY DO 70M2 ZABUDOWY 4</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>min. szerokość działki: 22,7 m</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide04) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Dom parterowy z płaskim dachem</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide02) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>min. szerokość działki: 20,0 m</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide03) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>UZBROJENIE DZIAŁKI BUDOWLANEJ KROK PO KROKU – FORMALNOŚCI, KOSZTY I MEDIA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>min. szerokość działki: 17,1 m</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide06) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Projekty (20) NAJPOPULARNIEJSZE PROJEKTY DOMÓW 2026</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>– u nas kupujesz bez pośredników – odpowiedz na proste pytanie i zapłać mniej</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide01) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | PROJEKTY DOMÓW Z PODDASZEM<strong> 94</strong> | <strong>Projekty (91) </strong>PROJEKTY DOMÓW Z PODDASZEM | [Otwórz stronę](https://www.e-domy.pl/) |
 
 ## Karta projektu
 
-[Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
+[Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
+**Odczyty:** 23.11.2026 09:34 → 24.11.2026 10:39 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Klimatyzacja (+399,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Klimatyzacja%20%28%2B399%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Pompa ciepła (gruntowa) (+549,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Pompa ciepła (gruntowa) (+549,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Pompa%20ciep%C5%82a%20%28gruntowa%29%20%28%2B549%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Wentylacja mechaniczna + DGP (+649,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Kominek Płaszcz wodny (+449,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Kominek%20P%C5%82aszcz%20wodny%20%28%2B449%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Ogrzewanie podłogowe (+549,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Instalacja solarna (+449,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Dziennik budowy (+19,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Wentylacja mechaniczna + DGP (+649,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Wentylacja%20mechaniczna%20%2B%20DGP%20%28%2B649%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Pompa ciepła (powietrzna) (+549,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Pompa ciepła (powietrzna) (+549,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Pompa%20ciep%C5%82a%20%28powietrzna%29%20%28%2B549%2C00%20PLN%29) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Instalacja solarna (+449,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Instalacja%20solarna%20%28%2B449%2C00%20PLN%29) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Aneks - Odkurzacz centralny (+399,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Aneks%20-%20Odkurzacz%20centralny%20%28%2B399%2C00%20PLN%29) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Tablica budowy (+79,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Tablica%20budowy%20%28%2B79%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Kosztorys budowlany (+649,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Kominek Płaszcz wodny (+449,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Klimatyzacja (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Dziennik budowy (+19,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Dziennik%20budowy%20%28%2B19%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Tablica budowy (+79,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Dodano: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-101 | brak | Kosztorys budowlany (+649,00 PLN) | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262#:~:text=Kosztorys%20budowlany%20%28%2B649%2C00%20PLN%29) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Kotłownia na paliwo stałe (+499,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
-| Funkcjonalności · Usunięto: Funkcjonalność · ZAMÓW PROJEKT / Projekt:: E-111 | Aneks - Odkurzacz centralny (+399,00 PLN) | brak | [Otwórz stronę](https://www.e-domy.pl/zamow_projekt.html?ID=262) |
+**Częściowe · 2 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t093710.524707-0000-0b3eaf0d-porownanie.html)
 
-Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md)
+Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md) · [4](e-domypl-4.md) · [5](e-domypl-5.md)
 

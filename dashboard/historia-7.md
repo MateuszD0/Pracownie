@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| mgprojekt.com.pl · 2026-11-19 | „Karol F 2026-10-28 \[licznik\]” → „Marta 2026-11-12 \[licznik\]”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAKIE ZBIORNIKI NA GAZ PŁYNNY WYBRAĆ DO OGRZEWANIA DOMU”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „PŁYTKI GRANITOWE NA SCHODY: GRUBOŚĆ I WYKOŃCZENIE”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | Pojawił się komunikat: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „JAKI SYSTEM SMART HOME WYBRAĆ I DLACZEGO?”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-19 | „20 lipca 2026” → „18 listopada 2026”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „DLACZEGO GOTOWE DOMY Z PREFABRYKATÓW OD DANWOOD CIESZĄ SIĘ TAK DUŻĄ POPULARNOŚCIĄ?”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Technologia”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „autorską kolekcję projektów”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „zrealizowanych już 150+”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „sześciu zasadach”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „6 zasad projektowania”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Parametry”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Termoizolacja”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Przejdź do oferty”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Okna i drzwi”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „6-krotnie mniej energii”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Instalacje energooszczędne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Szczelność”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
+| ecodomy.pl · 2026-11-21 | Pojawił się komunikat: „ELEWACJE”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy na planie kwadratu”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-21 | „cena: 5 990 PLN dostępność: 5 dni” → „cena: 5 690 PLN 5 990 PLN dostępność: 5 dni”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
+| domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 3551,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11177,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-21 | Nowa promocja w komunikacji: „Rabat 500zł” | Sprawdzono w serwisie |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Nowy projekt - Majka A, już dostępny.”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Agawa B-ZBL - nowy projekt domu!”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Funkcjonalny bliźniak z płaskim dachem.”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | Pojawił się komunikat: „Nowy projekt - Agawa B-ZBL”. | Potwierdzono ponownym odczytem |
+| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| alexanderstudio.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja od 2026-11-20, koniec za:” | Sprawdzono w serwisie |
+| alexanderstudio.pl · 2026-11-21 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |

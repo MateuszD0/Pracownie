@@ -4,24 +4,24 @@
 
 [← Porównanie ofert](porownanie-ofert.md)
 
-2026-11-23
+2026-11-24
 
-- **pracowniaprojektowa.info · współpracująca** · BLACK WEEK · Strona główna<br>Zakres · NA PROJEKT DOMU / NA PROJEKT GARAŻU<br>Termin · 30.11.2026<br>„20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” · 23.11.2026 09:36<br>[Strona główna](https://www.pracowniaprojektowa.info/#contId%3A1496932650886%2CmodId%3A106%2CmodInst%3A32333)
+- **modernhouse-projekty.pl · współpracująca** · Black Week · Strona warunków<br>Rabat · 50%<br>Zakres · na projekt garażu<br>„Uczestnik, który otrzyma w Pudełku Prezentowym nagrodę w postaci rabatu 50% na projekt garażu Modern House, otrzymuje dodatkowy rabat naliczany od standardowej ceny katalogowej garażu, obowiązującej przed rozpoczęciem akcji Black Week. Rabat 50% nie jest naliczany od ceny garażu pomniejszonej wcześniej o podstawowy rabat Black Week.” · 24.11.2026 10:51<br>[Strona warunków](https://modernhouse-projekty.pl/regulamin-akcji-promocyjnej-black-week/#mdh-page)
 
-- **pro-arte.pl · współpracująca** · BLACK WEEK · Strona główna<br>Rabat · -500PLN<br>„BLACK WEEK - mniej za domy. -500PLN!” · 23.11.2026 09:36<br>[Strona główna](https://www.pro-arte.pl/#main-banner1)
+- **modernhouse-projekty.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 50%<br>Zakres · na garaż<br>„Rabat 50% na garaż Modern House – od ceny standardowej projektu” · 24.11.2026 10:51<br>[Strona warunków](https://modernhouse-projekty.pl/regulamin-akcji-promocyjnej-black-week/#mdh-page)
 
-- **pro-arte.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 23.11.2026 09:36<br>[Karta projektu](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
+- **modernhouse-projekty.pl · współpracująca** · Oferta · Strona warunków<br>Łączenie promocji · nie łączy się z innymi rabatami procentowymi oraz innymi akcjami promocyjnymi Organizatora, chyba że regulamin danej promocji stanowi inaczej<br>„Bon nie łączy się z innymi rabatami procentowymi oraz innymi akcjami promocyjnymi Organizatora, chyba że regulamin danej promocji stanowi inaczej.” · 24.11.2026 10:52<br>[Strona warunków](https://modernhouse-projekty.pl/regulamin-promocji/#mdh-page)
 
-- **pro-arte.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 23.11.2026 09:49<br>[Strona warunków](https://www.pro-arte.pl/projekty-domow/1007/trypolis-6)
+- **modernhouse-projekty.pl · współpracująca** · Oferta · Strona warunków<br>Łączenie promocji · nie łączy się z kodem rabatowym 5% za wypełnienie ankiety<br>„Promocja nie łączy się z kodem rabatowym 5% za wypełnienie ankiety.” · 24.11.2026 10:52<br>[Strona warunków](https://modernhouse-projekty.pl/regulamin-promocji/#mdh-page)
 
-- **pro-arte.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 23.11.2026 09:50<br>[Strona warunków](https://www.pro-arte.pl/projekty-domow/1008/trypolis-7)
+- **planujdom.pl · współpracująca** · BLACK WEEK · Strona główna<br>Rabat · 20%<br>Zakres · WSZYSTKIE PROJEKTY DOMÓW<br>„BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20%” · 24.11.2026 10:41<br>[Strona główna](https://planujdom.pl/#view)
 
-- **sej-pro.pl · współpracująca** · BLACK500 · Strona główna<br>Rabat · do 1100 zł<br>Zakres · Wszystkie projekty domów<br>„Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥” · 23.11.2026 09:37<br>[Strona główna](https://www.sej-pro.pl/#page)
+- **planujdom.pl · współpracująca** · BLACK WEEK · Karta projektu<br>Rabat · 20%<br>Zakres · WSZYSTKIE PROJEKTY DOMÓW<br>„BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20%” · 24.11.2026 10:41<br>[Karta projektu](https://planujdom.pl/projekty-domow/projekt-domu-d-072/#view)
 
-- **sej-pro.pl · współpracująca** · BLACK500 · Karta projektu<br>Rabat · 500 zł<br>Zakres · ten projekt<br>„Kup ten projekt jeszcze taniej o 500 zł z kodem „BLACK500” 🔥” · 23.11.2026 09:37<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
+- **pracowniaprojektowa.info · współpracująca** · BLACK WEEK · Strona główna<br>Zakres · NA PROJEKT DOMU / NA PROJEKT GARAŻU<br>Termin · 30.11.2026<br>„20.11.2026-30.11.2026 BLACK WEEK - 500 PLN RABATU NA PROJEKT DOMU, 200 PLN RABATU NA PROJEKT GARAŻU” · 24.11.2026 10:41<br>[Strona główna](https://www.pracowniaprojektowa.info/#contId%3A1496932650886%2CmodId%3A106%2CmodInst%3A32333)
 
-- **sej-pro.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 15%<br>„15% rabatu na 1 dzień zakupów” · 23.11.2026 09:37<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
+- **pro-arte.pl · współpracująca** · BLACK WEEK · Strona główna<br>Rabat · -500PLN<br>„BLACK WEEK - mniej za domy. -500PLN!” · 24.11.2026 10:41<br>[Strona główna](https://www.pro-arte.pl/#main-banner1)
 
-- **sej-pro.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 10%<br>„10% rabatu przez 12 mies.” · 23.11.2026 09:37<br>[Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426)
+- **pro-arte.pl · współpracująca** · Oferta · Karta projektu<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 24.11.2026 10:41<br>[Karta projektu](https://www.pro-arte.pl/projekty-domow/1025/trypolis-7-szkielet-drewniany)
 
-- **studiokrajobrazy.pl · współpracująca** · BLACK WEEK · Strona główna<br>Rabat · -10%<br>Zakres · na wybrane projekty<br>Termin · do końca listopada<br>„BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się ten Wasz wymarzony. Od prawie dwudziestu lat projektujemy domy parterowe oraz projekty domów z poddaszem jak również oferujemy projekty domów energooszczędnych z pompą ciepła i ciągle próbujemy zbliżyć sie do ideału, który być może nie do końca istnieje, gdyż nawet najpopularniejsze, sprawdzone schematy funkcjonalne domów nie muszą odpowiadać wszystkim inwestorom. Na szczęście gotowe projekty domów można na etapie adaptacji jeszcze w różnym zakresie korygować i zmieniać, aby bardziej dokładnie dopasować pod indywidualne wymagania. Dzięki temu jest duża szansa, że zaczynając od zakupu gotowej dokumentacji, po zaadaptowaniu stanie sie ona idealnie spełniającym nasze oczekiwania projektem nowego domu.” · 23.11.2026 09:37<br>[Strona główna](https://studiokrajobrazy.pl/#column-right)
+- **pro-arte.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 500 ZŁ<br>„RABAT 500 ZŁ” · 24.11.2026 10:54<br>[Strona warunków](https://www.pro-arte.pl/projekty-domow/1007/trypolis-6)

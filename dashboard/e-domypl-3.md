@@ -4,57 +4,59 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-10-21 → 2026-10-22**
+**2026-11-23 → 2026-11-24**
 
 **Ten sam projekt:** [E-268a Dom parterowy na planie kwadratu](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
 
-Różnice tej pracowni: **73**. Strona **3/3** · pokazano **23** wpisów.
+**101 zmian w zapisanym zakresie.**
 
-Strony porównania: [1](e-domypl.md) · [2](e-domypl-2.md) · **3**
+Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Treści w tabelach są skrócone do 240 znaków. Pełne teksty i zrzuty są w plikach raportu.
+Strony porównania: [1](e-domypl.md) · [2](e-domypl-2.md) · **3** · [4](e-domypl-4.md) · [5](e-domypl-5.md)
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://www.e-domy.pl/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
+**Odczyty:** 23.11.2026 09:34 → 24.11.2026 10:39 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Baner · Strona główna | więcej informacji o projekcie domu E-221 | więcej informacji o projekcie domu E-274 | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Powierzchniaużytkowa / netto168,1 m² / 200,5 m² | Powierzchniaużytkowa / netto112,2 m² / 112,2 m² | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Powierzchniaużytkowa / netto104,7 m² / 110,4 m² | Powierzchniaużytkowa / netto181,1 m² / 213,4 m² | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Zwarty dom z pokojem od wjazdu | Dom nowoczesny dwuspadowy | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Powierzchniaużytkowa / netto113,9 m² / 132,0 m² | Powierzchniaużytkowa / netto104,6 m² / 111,1 m² | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Powierzchniaużytkowa / netto119,9 m² / 148,6 m² | Powierzchniaużytkowa / netto125,6 m² / 167,2 m² | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | więcej informacji o projekcie domu E-275 | więcej informacji o projekcie domu E-106 | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Prosty dom o tradycyjnej bryle | Podmiejska rezydencja | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | więcej informacji o projekcie domu E-247a | więcej informacji o projekcie domu E-136 | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki20,3 m | Min. szer.działki21,5 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.e-domy.pl/cache/images/offer/7/8/1/9/7819\_cm\_958x588\_78\_aa85e45da94cb0d7.jpg | https://www.e-domy.pl/cache/images/offer/1/0/3/4/1/10341\_cm\_958x588\_78\_859b755563f548d0.jpg | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki21,9 m | Min. szer.działki22,8 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Baner · Strona główna | Min. szer.działki21,8 m | Min. szer.działki29,6 m | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.e-domy.pl/cache/images/offer/1/1/6/5/9/11659\_cm\_958x588\_78\_c940ec3829dddd36.jpg | https://www.e-domy.pl/cache/images/offer/3/7/4/7/3747\_cm\_958x588\_78\_d8847be3f7cc1b14.jpg | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.e-domy.pl/cache/images/offer/3/3/8/2/3382\_cm\_958x588\_78\_29ddbdb402491a6a.jpg | https://www.e-domy.pl/cache/images/offer/5/3/0/1/5301\_cm\_958x588\_78\_b27d5296bede63b1.jpg | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Nagłówek · Strona główna | PROJEKT DOMU | ADAPTACJA PROJEKTU | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Komunikacja sprzedażowa · Źródło grafiki w zestawie banerów · Strona główna | https://www.e-domy.pl/cache/images/offer/1/0/5/2/9/10529\_cm\_958x588\_78\_24a29a235c067885.jpg | https://www.e-domy.pl/cache/images/offer/3/1/1/7/3117\_cm\_958x588\_78\_8b313cbf30999888.jpg | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/5/2/4/5/5245_cm_220x156_78_435d6ab1ba16ba7e.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/9/7/0/5/9705_cm_220x156_78_14553eed6ae802da.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Widoczny nagłówek: ADAPTACJA PROJEKTU | PROJEKT DOMU | ADAPTACJA PROJEKTU | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/7/7/9/9/7799_cm_220x156_78_1de7d2b90d554be9.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/8/7/5/8/8758_cm_220x156_78_bf4d73f316737b26.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/6/1/6/1/6161_cm_220x156_78_5bf73bc6c6e6775d.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/7/5/6/5/7565_cm_220x156_78_0e274e1d1a8948f1.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/7/8/1/9/7819_cm_958x588_78_aa85e45da94cb0d7.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/1/0/3/4/1/10341_cm_958x588_78_859b755563f548d0.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
-| Zmiany wyglądu · Źródło grafiki: treść strony | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/1/0/9/2/2/10922_cm_220x156_78_4219840f5b401ebe.jpg) | [Otwórz grafikę](https://www.e-domy.pl/cache/images/offer/1/0/3/5/2/10352_cm_220x156_78_7fc0e8de9ce1ab7d.jpg) | [Otwórz stronę](https://www.e-domy.pl/#js-body) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Nowoczesny dom z płaskim dachem</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide04) |
+| Komunikacja sprzedażowa · Baner | <strong>Min</strong>. <strong>szer.działki23</strong>,6 m | <strong>min</strong>. <strong>szerokość działki: 23</strong>,6 m | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide02) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Projekty (4) PROJEKTY NA ZGŁOSZENIE DO 70M2</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Mały dom z poddaszem</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide03) |
+| Komunikacja sprzedażowa · Baner | <strong>Parterowy dom bez okapu</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>CO NOWEGO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>OPCJE ZAAWANSOWANE</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>BIURO@E-DOMY.PL</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Nowość</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide03) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>SCHOWAJ</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>więcej</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>powierzchnia użytkowa:</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide02) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>NOWE PROJEKTY DOMÓW 24</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>Mały dom na zgłoszenie</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide06) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Wyczyść wszystkie filtry</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | Nie odnotowano w tym odczycie | <strong>min. szerokość działki:</strong> | [Otwórz stronę](https://www.e-domy.pl/#splide01-slide02) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>NASZE PROJEKTY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>KUP TANIEJ U AUTORA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>KOMENTARZ DO E-179</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>ZNAJDŹ PROJEKT</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Więcej filtrów</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | ZOBACZ WSZYSTKIE | ZOBACZ WSZYSTKIE<strong> PROJEKTY</strong> | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Baner | <strong>Rozbudowana rezydencja</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>POLECANE PROJEKTY</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>MASZ PYTANIA?</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://www.e-domy.pl/) |
 
 ## Karta projektu
 
-[Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu.html)
+[Otwórz stronę źródłową](https://www.e-domy.pl/projekt-domu-e-268a-dom-parterowy-na-planie-kwadratu/)
 
-**Odczyty:** 21.10.2026 09:36 → 22.10.2026 08:36 (czas polski).
+**Odczyty:** 23.11.2026 09:34 → 24.11.2026 10:39 (czas polski).
 
-Pozostałe strony tego porównania zawierają 46 różnic tej strony; użyj numerów stron powyżej.
+**Częściowe · 2 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-10-22/2026-10-22-2026-10-22t092238.582438-0000-7f5f8153-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t093710.524707-0000-0b3eaf0d-porownanie.html)
 
-Strony porównania: [1](e-domypl.md) · [2](e-domypl-2.md) · **3**
+Strony porównania: [1](e-domypl.md) · [2](e-domypl-2.md) · **3** · [4](e-domypl-4.md) · [5](e-domypl-5.md)
 

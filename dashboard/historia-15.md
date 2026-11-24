@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-16 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-16 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-15 | „30 września 2026 · 9 min czytania” → „30 września 2026 · 10 min czytania”. | Potwierdzono ponownym odczytem |
-| teaprojekt.pl · 2026-11-15 | „28 września 2026 · 13 min czytania” → „28 września 2026 · 14 min czytania”. | Potwierdzono ponownym odczytem |
-| projektydomowzbali.pl · 2026-11-15 | Nowa promocja w komunikacji: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Uff, jak gorąco! Jak uchronić dom przed upałem?”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hbstudio.pl · 2026-11-15 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia projektu można dokonać: telefonicznie dzwoniąc lub wysyłając faks na numer 71 7843936; telefonicznie dzwoniąc na numer 502 133 1…”. W sprawdzonym serwisie znaleziono również: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto” | Do sprawdzenia |
-| galeriadomow.pl · 2026-11-15 | „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł” → „wysyłka już jutro koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Mały dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-15 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-14 | Nowy dodatek lub pakiet: „Bezpłatna zgoda na zmiany” | Sprawdzono w serwisie |
-| sej-pro.pl · 2026-11-14 | Pojawił się komunikat: „Poradnik od czego zacząć budowę domu”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Mały dom na planie kwadratu”. | Potwierdzono ponownym odczytem |
+| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Next”. | Do sprawdzenia |
+| domydlanas.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „Previous”. | Do sprawdzenia |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Nowoczesna stodoła z poddaszem”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i dachem dwuspadowym”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem i z gabinetem”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-18 | Pojawił się komunikat: „Z poddaszem na wąską działkę”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-18 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| dobredomy.pl · 2026-11-18 | „Dodaj do ulubionych” → „Usuń z ulubionych”. | Do sprawdzenia |
+| dobredomy.pl · 2026-11-18 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
+| archstodola.pl · 2026-11-18 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „PARTEROWY DOM Z ZADASZONYM TARASEM – JAK WYBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DOM TRADYCYJNY CZY NOWOCZESNY? JAK WYBRAĆ STYL DOMU”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „STAN ZERO BUDYNKU – CO OBEJMUJE I JAK ZAPLANOWAĆ TEN ETAP?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „DZIAŁKA POD BLIŹNIAKA – WYMIARY, WARUNKI ZABUDOWY I PODZIAŁ”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „BUDOWA DOMU NA SKARPIE – KIEDY MA SENS I JAK DOBRAĆ PROJEKT?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „NOWOCZESNA BALUSTRADA Z KSIĄŻKAMI – JAK POŁĄCZYĆ REGAŁ I BEZPIECZEŃSTWO?”. | Potwierdzono ponownym odczytem |
+| uarchitekta.pl · 2026-11-17 | Pojawił się komunikat: „WSPÓŁPRACA Z ARCHITEKTEM – JAK SIĘ DO NIEJ PRZYGOTOWAĆ?”. | Potwierdzono ponownym odczytem |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pozycję dodano do koszyka”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | „Koszyk” → „Koszyk 1 1 pozycja”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Realizuj zakup”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Pokaż koszyk (1)”. | Do sprawdzenia |
+| sprytnaoaza.pl · 2026-11-17 | Pojawił się komunikat: „Kontynuuj zakupy”. | Do sprawdzenia |

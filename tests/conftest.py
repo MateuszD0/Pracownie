@@ -18,6 +18,14 @@ def sample_site():
 
         def do_GET(self):
             state.requests += 1
+            if self.path == "/layout.css":
+                failed = state.stylesheet_failures > 0
+                state.stylesheet_failures = max(0, state.stylesheet_failures - 1)
+                self.send_response(503 if failed else 200)
+                self.send_header("Content-Type", "text/css")
+                self.end_headers()
+                self.wfile.write(b"body { color: #123; }" if not failed else b"")
+                return
             if self.path == "/favicon.ico":
                 self.send_response(204)
                 self.end_headers()
@@ -82,12 +90,15 @@ def sample_site():
             if state.no_sales:
                 body = '<h1>Pracownia testowa</h1><p>Witamy na naszej stronie internetowej. Zapraszamy do oglądania zdjęć i poznania naszej historii.</p>'
             body += state.cookie_panel
-            html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title><style>body{{font:18px sans-serif;margin:30px;background:{state.background}}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
+            stylesheet = '<link rel="stylesheet" href="/layout.css">' if state.use_stylesheet else ''
+            html = f'''<!doctype html><html lang="pl"><head><meta charset="utf-8"><title>Oferta pracowni</title>{stylesheet}<style>body{{font:18px sans-serif;margin:30px;background:{state.background}}}h1{{color:#235}}summary,button{{margin:12px}}</style></head><body>{body}</body></html>'''
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
             self.wfile.write(html.encode())
 
+    state.stylesheet_failures = 0
+    state.use_stylesheet = False
     server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
     thread = threading.Thread(target=server.serve_forever, daemon=True)
     thread.start()

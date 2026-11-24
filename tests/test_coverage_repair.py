@@ -85,7 +85,7 @@ def test_first_usable_read_and_old_history_remain_distinct_from_failed_reads():
     gap = page_gap(dict(page, compared_at='2026-10-26T06:00:00+00:00', gap_days=2), '2026-10-28')
     assert gap['category'] == 'history' and 'sprzed 2 dni' in gap['reason']
     failed = page_gap(dict(page, current_read=False, error_text='Witryna blokuje dostęp (403).'), '2026-10-28')
-    assert failed['category'] == 'repair' and 'odrzucony' in failed['status']
+    assert failed['category'] == 'external' and 'odrzucony' in failed['status']
 
 
 def test_search_page_with_project_words_in_navigation_is_not_a_project():
@@ -111,3 +111,11 @@ async def test_inspected_graphical_card_requires_both_its_fixed_url_and_visible_
         site.project_identity['text'] = 'INNY PROJEKT'
         with pytest.raises(ValueError, match='Nazwa nie odpowiada'):
             await scanner.capture(site, 'projekt', site.project_url, scenario, tmp_path / 'wrong-name.png')
+
+
+def test_missing_project_rows_report_the_homepage_dependency():
+    from pracownie.gaps import page_gap
+
+    missing = {'page': 'projekt', 'error_text': 'Nie ustalono poprawnej karty projektu.'}
+    assert page_gap(missing, '2026-11-24', home_failed=True)['category'] == 'dependency'
+    assert page_gap(missing, '2026-11-24')['category'] == 'repair'

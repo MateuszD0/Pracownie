@@ -32,7 +32,7 @@ Format wyniku pokazuje [syntetyczny przykład TXT](examples/raport-przykladowy.t
 
 **Uruchomienie w GitHub Actions**
 
-Workflow „Codzienny monitoring pracowni” uruchamia się według harmonogramu codziennie o **09:00 czasu warszawskiego**, również w weekendy. GitHub Actions przelicza strefę `Europe/Warsaw` przy zmianach czasu. Jeśli wciąż brakuje dzisiejszego raportu, dodatkowe próby zaplanowano na **09:07** i **09:17**. Próba o **10:30** może też ponowić brakujące lub częściowe odczyty, zachowując poprawne wyniki. Wszystkie próby sprawdzają stan raportu po uzyskaniu wspólnej blokady. GitHub może opóźnić uruchomienie zadania, a raport jest dostępny po zakończeniu skanu i publikacji. Kontrola danych od **10:50** zgłasza braki i ograniczenia. Publikację potwierdza dopiero zweryfikowany zapis raportu.
+Workflow „Codzienny monitoring pracowni” uruchamia się według harmonogramu codziennie o **09:00 czasu warszawskiego**, również w weekendy. GitHub Actions przelicza strefę `Europe/Warsaw` przy zmianach czasu. Wywołania o **08:24** i **08:44** przygotowują przeglądarkę. Jeśli środowisko jest gotowe wcześniej, odczyt czeka do 09:00. Jeśli wciąż brakuje dzisiejszego raportu, dodatkowe próby zaplanowano na **09:07** i **09:17**. Próba o **10:30** może też ponowić brakujące lub częściowe odczyty, zachowując poprawne wyniki. Wszystkie próby sprawdzają stan raportu po uzyskaniu wspólnej blokady. GitHub może opóźnić uruchomienie zadania, a raport jest dostępny po zakończeniu skanu i publikacji. Kontrola danych od **10:50** zgłasza braki i ograniczenia. Publikację potwierdza dopiero zweryfikowany zapis raportu.
 
 Cron używa UTC (`17 2,3 * * *` i `7 3,4 * * *`), a moduł `pracownie.schedule` stosuje `Europe/Warsaw`. Dzięki temu obie polskie godziny startu działają także po zmianie czasu. Dodatkowe wywołania wynikające z dwóch przesunięć UTC są pomijane przed właściwą porą albo po sprawdzeniu gotowego raportu; jeżeli raport nadal nie powstał, mogą podjąć kolejną próbę. Kontrola działa pod tą samą blokadą co skan i przebudowa raportu, więc oczekujące ponowienie widzi wynik poprzednika. Ręczne skany i naprawy pozostają dostępne niezależnie od tej kontroli.
 
@@ -95,7 +95,7 @@ Każdy wynik sprawdzenia ma cytaty, źródła i rzeczywiste daty odczytów, dost
 
 **Limity i koszt**
 
-Używane są standardowe runnery Ubuntu, jedna maszyna i ograniczona współbieżność przeglądarki. Skan ma budżet 60 minut, a cały job 75 minut; raport wyraźnie pokazuje domeny pominięte z powodu czasu. Zapas zwiększono po pełnym pomiarze 26 min 22 s, aby uwzględnić porównania obrazów w kolejnych dniach. Codzienna praca nie wymaga płatnego API.
+Używane są standardowe runnery Ubuntu, jedna maszyna i ograniczona współbieżność przeglądarki. Skan ma budżet 60 minut, a cały job 115 minut, łącznie z przygotowaniem i oczekiwaniem na 09:00; raport wyraźnie pokazuje domeny pominięte z powodu czasu. Zapas zwiększono po pełnym pomiarze 26 min 22 s, aby uwzględnić porównania obrazów w kolejnych dniach. Codzienna praca nie wymaga płatnego API.
 
 Standardowe runnery publicznego repozytorium są bezpłatne zgodnie z aktualnymi zasadami GitHuba. Przy prywatnym GitHub Free należy uwzględnić 2000 minut miesięcznie współdzielonych z innymi workflow. Zmierz pełny przebieg przed przyjęciem, że zmieści się w limicie. Równoległe joby sumują zużycie minut; ten projekt używa jednego joba skanującego.
 

@@ -11,6 +11,7 @@ import uuid
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from playwright.async_api import Error as BrowserError
 from playwright.async_api import TimeoutError as BrowserTimeout
@@ -141,9 +142,11 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                 shutil.copytree(previous, staging / day / slug(domain))
         async with BrowserScanner(options.browser_executable, options.navigation_timeout, options.settle_ms) as scanner:
             async def capture_retry(site, kind, url, scenario, dest):
+                retained = None
                 for attempt in range(options.retries + 1):
                     try:
-                        return await scanner.capture(site, kind, url, scenario, dest)
+                        shot = await scanner.capture(site, kind, url, scenario,
+                                                     dest if retained is None else dest.with_stem(dest.stem + "-retry"))
                     except Exception as exc:
                         failure_path = staging / day / slug(site.domain) / kind / 'bledy-odczytu.json'
                         failure_path.parent.mkdir(parents=True, exist_ok=True)
@@ -159,8 +162,26 @@ async def run_scan(sites: list[Site], store: StateStore, output: Path, options: 
                         )
                         delay = max(min(2 ** attempt, 4), getattr(exc, "retry_after", 0))
                         if attempt == options.retries or not retryable or delay > 30:
+                            if retained is not None:
+                                return retained
                             raise
                         await asyncio.sleep(delay + 0.05)
+                        continue
+
+                    snapshot = shot.snapshot
+                    if snapshot.quality != "partial":
+                        return shot
+                    if retained is not None:
+                        return retained
+                    if scenario.id != "podstawowy" or attempt == options.retries or not any(
+                        urlsplit(css).hostname == urlsplit(snapshot.url).hostname
+                        for css in snapshot.document.get("unresolved_styles", [])
+                    ):
+                        return shot
+                    # A validated page with failed first-party CSS can benefit
+                    # from a fresh navigation. Keep the original if it does not.
+                    retained = shot
+                    await asyncio.sleep(1)
 
             async def record(capture: Capture):
                 snapshot = capture.snapshot

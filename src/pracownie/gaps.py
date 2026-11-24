@@ -4,7 +4,7 @@ from __future__ import annotations
 from datetime import date, timedelta
 
 
-def page_gap(page: dict, day: str) -> dict:
+def page_gap(page: dict, day: str, *, home_failed: bool = False) -> dict:
     communication = page.get('communication', {})
     reason = page.get('error_text') or communication.get('reason') or communication.get('label') or 'Brak porównywalnej pary zapisów'
     current = page.get('current_read', False)
@@ -35,10 +35,19 @@ def page_gap(page: dict, day: str) -> dict:
     elif communication.get('status') == 'pending':
         status, action = 'Oczekuje na pierwszy skan', 'Włączyć stronę do najbliższego skanu.'
     elif 'karty projektu' in reason:
-        status, action = 'Nie wybrano stałej karty', 'Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres.'
+        if home_failed and page['page'] == 'projekt':
+            category, status = 'dependency', 'Wybór karty wstrzymany'
+            reason = 'Wybór stałego projektu wymaga odczytu strony głównej lub potwierdzonego adresu karty.'
+            action = 'Najpierw przywrócić odczyt strony głównej.'
+        else:
+            status, action = 'Nie wybrano stałej karty', 'Zweryfikować pojedynczy projekt w katalogu pracowni i zapisać jego stały adres.'
     elif '403' in reason:
+        category = 'external'
         status, action = 'Dostęp odrzucony przez serwis', 'Potrzebne dopuszczenie odczytu przez właściciela witryny lub inne udostępnione źródło.'
+    elif 'certyfikat' in reason:
+        status, action = 'Błąd certyfikatu HTTPS', 'Ponowić po poprawieniu certyfikatu lub potwierdzić oficjalny adres z działającym HTTPS.'
     elif 'DNS' in reason:
+        category = 'external'
         status, action = 'Adres WWW nie działa', 'Zweryfikować aktualny adres pracowni; ponowienie nie odtworzy brakującej historii.'
     elif 'Przekierowanie' in reason:
         status, action = 'Adres przekierowuje do innego serwisu', 'Sprawdzić, czy serwis docelowy nadal należy do tej pracowni.'

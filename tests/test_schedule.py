@@ -31,12 +31,13 @@ def test_daily_start_and_fallbacks_across_dst_and_weekends():
         published = Publication(published=True)
         slots = list(invocations(day))
         assert [now.astimezone(WARSAW).time() for now, _ in slots] == [
-            time(9), time(9, 7), time(9, 17), time(10, 30),
+            time(8, 24), time(8, 44), time(9), time(9, 7), time(9, 17), time(10, 30),
         ]
         for now, cron in slots:
             decision = daily_gate(cron, now, Publication())
             assert decision["day"] == day.isoformat()
             assert decision["run_scan"] and not decision["late"]
+            assert bool(decision.get("wait_until_start")) == (now.astimezone(WARSAW).hour < 9)
             assert not daily_gate(cron, now, published)["run_scan"]
 
 
@@ -118,3 +119,22 @@ def test_queued_missing_report_scan_checks_the_published_day_and_local_clock_aga
     assert remote.calls == [day, day]
     for delayed in [late.replace(hour=21), late + timedelta(days=1)]:
         assert not schedule.missing_report_gate(day, delayed, Publication())['run_scan']
+
+
+def test_prepared_scan_waits_until_0900_and_rejects_previous_day(monkeypatch):
+    timestamps = iter(datetime(2026, 11, 24, 8, minute, second, tzinfo=WARSAW)
+                      for minute, second in [(58, 30), (59, 30)])
+    target = datetime(2026, 11, 24, 9, 0, tzinfo=WARSAW)
+
+    class Clock(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return next(timestamps, target).astimezone(tz)
+
+    waits = []
+    monkeypatch.setattr(schedule, "datetime", Clock)
+    monkeypatch.setattr(schedule, "sleep", waits.append)
+    schedule.wait_for_scan("2026-11-24")
+    assert waits == [60, 30]
+    with pytest.raises(ValueError, match="Zmieniła się data"):
+        schedule.wait_for_scan("2026-11-23")

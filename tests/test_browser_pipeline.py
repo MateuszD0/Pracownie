@@ -278,3 +278,20 @@ def test_registry_and_workflow_contract():
     assert workflow["jobs"]["pages"]["permissions"] == {"contents": "read", "pages": "write", "id-token": "write"}
     assert not workflow["jobs"]["scan"]["concurrency"]["cancel-in-progress"]
     assert json.loads((root / "config/sites.json").read_text())["schema"] == 1
+
+
+@pytest.mark.browser
+@pytest.mark.parametrize(("failures", "expected"), [(1, "ok"), (2, "partial")])
+async def test_base_scan_retries_missing_first_party_stylesheet(sample_site, executable, tmp_path, failures, expected):
+    sample_site.use_stylesheet = True
+    sample_site.stylesheet_failures = failures
+    site = replace(site_config(sample_site), project_url=sample_site.url + "/projekt-domu-testowy")
+    store = StateStore(tmp_path / "state")
+    scan_options = replace(options(executable, "2026-10-18"), retries=1, max_scenarios=1)
+    output = tmp_path / "report"
+    result = await run_scan([site], store, output, scan_options)
+    home = next(r for r in result["results"] if r.page == "glowna" and r.scenario == "podstawowy")
+    assert sample_site.stylesheet_failures == 0
+    assert home.data_quality == expected
+    assert bool(home.error) is False
+    verify_outputs(output, "2026-10-18")

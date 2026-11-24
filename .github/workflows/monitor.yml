@@ -7,6 +7,11 @@ on:
     types: [completed]
     branches: [main]
   schedule:
+    # Prepare the runner before 09:00 so setup finishes before the first read.
+    - cron: '24 8 * * *'
+      timezone: Europe/Warsaw
+    - cron: '44 8 * * *'
+      timezone: Europe/Warsaw
     - cron: '0 9 * * *'
       timezone: Europe/Warsaw
     # Try off the hour if the 09:00 event was delayed or dropped.
@@ -58,7 +63,7 @@ jobs:
        github.event.workflow_run.head_repository.full_name == github.repository &&
        contains(github.event.workflow_run.head_commit.message, '[scan]'))
     runs-on: ubuntu-24.04
-    timeout-minutes: 75
+    timeout-minutes: 115
     outputs:
       pages_enabled: ${{ steps.pages.outputs.enabled }}
     env:
@@ -109,6 +114,11 @@ jobs:
               with Path(os.environ['GITHUB_OUTPUT']).open('a') as output:
                   output.write('repair_domains=' + match[1] + '\n')
           PY
+      - name: Poczekaj do 09:00 czasu warszawskiego
+        if: steps.schedule.outputs.wait_until_start == 'true'
+        run: uv run python -m pracownie.schedule --wait
+        env:
+          SCAN_DAY: ${{ steps.schedule.outputs.day }}
       - name: Skan, raport i trwały zapis
         if: steps.schedule.outcome == 'skipped' || steps.schedule.outputs.run_scan == 'true'
         env:

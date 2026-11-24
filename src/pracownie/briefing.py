@@ -177,10 +177,12 @@ def build_briefing(view: dict, management: dict | None = None) -> dict:
     gaps = []
     for row in view['rows']:
         issues = []
+        home_failed = any(p['page'] == 'glowna' and not p.get('current_read') and p.get('error_text')
+                          for p in row['pages'])
         for p in row['pages']:
             if p.get('communication', {}).get('daily'):
                 continue
-            issues.append(page_gap(p, view['day']))
+            issues.append(page_gap(p, view['day'], home_failed=home_failed))
         if issues:
             gaps.append({'domain': row['domain'], 'issues': issues})
     return {'events': events, 'total': len(view['rows']), 'complete_domains': complete, 'gaps': gaps,
@@ -359,7 +361,10 @@ def markdown_briefing(view: dict, data: dict, targets: dict[str, str], extra_doc
         gap_summary = 'Bez pełnego porównania: **' + str(len(data['gaps'])) + '**, w tym **' + str(len(data['pending_domains'])) + ' oczekuje na pierwszy skan**.'
     lines += ['', '## Braki porównania', '', gap_summary + ' Brak porównania nie oznacza „bez zmian”.', '']
     from .dashboard import company_anchor
-    for category, title in [('history', 'Odczyt działa — potrzebna historia'), ('repair', 'Problemy wymagające naprawy')]:
+    for category, title in [('history', 'Odczyt działa — potrzebna historia'),
+                            ('repair', 'Odczyty do ponowienia lub sprawdzenia'),
+                            ('external', 'Dostęp lub adres wymaga potwierdzenia'),
+                            ('dependency', 'Wybór karty zależy od odczytu strony głównej')]:
         issues = [(gap['domain'], issue) for gap in data['gaps'] for issue in gap['issues'] if issue['category'] == category]
         if not issues:
             continue

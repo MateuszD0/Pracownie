@@ -45,13 +45,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Kolor tekstu: Szukaj | <strong>biały (</strong>#<strong>FFFFFF)</strong> | #<strong>292B26</strong> | [Otwórz stronę](https://domyzweranda.pl/#header) |
 | Zmiany wyglądu · Kolor tekstu: Koszyk | <strong>biały (</strong>#<strong>FFFFFF)</strong> | #<strong>292B26</strong> | [Otwórz stronę](https://domyzweranda.pl/#header) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-6-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-6-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-6-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 23.11.2026 09:34 | Po · 24.11.2026 10:39 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-6-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-6-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-6-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -88,13 +88,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 | Komunikacja sprzedażowa · Nagłówek · Karta projektu · Pytania | <strong>Parterowy Klasyczny 138</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 | Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Pytania | <strong>Do porównania</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://domyzweranda.pl/projekty/uroczy-klasyczny-82) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-12-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-12-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 23.11.2026 09:43 | Po · 24.11.2026 10:48 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-dowod-12-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-dowod-12-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -116,5 +116,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t100937.219309-0000-f8780f0d-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-porownanie.html)
 

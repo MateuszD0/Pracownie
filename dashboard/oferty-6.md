@@ -10,10 +10,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | domdlaciebie.com.pl | Cena promocyjna do: 30.11.2026 | Obecna w zapisie · 24.11.2026 10:38<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domdlaciebie.com.pl | DODATKI (12) | Obecna w zapisie · 24.11.2026 10:38<br>[Źródło](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domenadom.pl | PROMOCJA -250 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie · 24.11.2026 11:09 · 24.11.2026 11:10<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | PROMOCJA -250 zł | Obecna w zapisie · 24.11.2026 11:09 · 24.11.2026 11:10<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | Kosztorys | Obecna w zapisie · 24.11.2026 11:10<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
-| domenadom.pl | Szczegóły Opis Kosztorys Technologie Pliki do pobrania Dodatki | Obecna w zapisie · 24.11.2026 11:10<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | PROMOCJA -250 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie · 24.11.2026 11:40 · 24.11.2026 11:40<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | PROMOCJA -250 zł | Obecna w zapisie · 24.11.2026 11:40 · 24.11.2026 11:40<br>[Źródło](https://domenadom.pl/) · [Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | Kosztorys | Obecna w zapisie · 24.11.2026 11:40<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl | Szczegóły Opis Kosztorys Technologie Pliki do pobrania Dodatki | Obecna w zapisie · 24.11.2026 11:40<br>[Źródło](https://domenadom.pl/p/domena-169-a1-i532) |
 | domideaprojekt.pl | Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł | Obecna w zapisie · 24.11.2026 10:38<br>[Źródło](https://domideaprojekt.pl/) |
 | domideaprojekt.pl | Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11177,00 zł | Obecna w zapisie · 24.11.2026 10:38<br>[Źródło](https://domideaprojekt.pl/) |
 | domideaprojekt.pl | Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 3551,00 zł | Obecna w zapisie · 24.11.2026 10:38<br>[Źródło](https://domideaprojekt.pl/) |

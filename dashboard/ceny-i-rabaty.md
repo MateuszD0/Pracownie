@@ -23,7 +23,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | coolhouses.studio<br>Dom Aria | 15 400,00 zł netto + VAT | 24.11.2026 10:38 | [Karta projektu](https://coolhouses.studio/produkt/dom-aria/) |
 | dom-projekt.pl<br>gryfice 31 pcr | 5 180,00 zł | 24.11.2026 10:38 | [Karta projektu](https://www.dom-projekt.pl/projekt-gryfice-31-pcr,1840.html) |
 | domdlaciebie.com.pl<br>Klara IV | 4 890,00 zł | 24.11.2026 10:38 | [Karta projektu](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
-| domenadom.pl<br>Domena 169 A1 | 4 950,00 zł | 24.11.2026 11:10 | [Karta projektu](https://domenadom.pl/p/domena-169-a1-i532) |
+| domenadom.pl<br>Domena 169 A1 | 4 950,00 zł | 24.11.2026 11:40 | [Karta projektu](https://domenadom.pl/p/domena-169-a1-i532) |
 | domideaprojekt.pl<br>domidea 1 w6 | 4 186,99 zł netto + VAT | 24.11.2026 10:38 | [Karta projektu](https://domideaprojekt.pl/projekt/domidea-1-w-6/) |
 | dominanta.pl<br>Lolek II N | 5 300,00 zł | 24.11.2026 10:38 | [Karta projektu](https://www.dominanta.pl/projekty-domow/lolek-ii-n) |
 | dompasja.pl<br>Dompasja 61B | 4 900,00 zł | 24.11.2026 10:38 | [Karta projektu](https://dompasja.pl/dompasja-61b.html) |
@@ -105,8 +105,8 @@ Obecność komunikatu nie oznacza, że promocja rozpoczęła się dzisiaj. Daty 
 | domdlaciebie.com.pl | Nie podano | PROMOCJA - RABAT 500ZŁ | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://www.domdlaciebie.com.pl/projekty-domow-parterowych/klara-iv,1701.html) |
 | domdlaciebie.com.pl | Nie podano | Rabat 500zł | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://www.domdlaciebie.com.pl/) |
 | domdlaciebie.com.pl | Nie podano | Rabat do 500 zł na projekty domów! | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://www.domdlaciebie.com.pl/) |
-| domenadom.pl | Nie podano | PROMOCJA -250 zł | Obecna w zapisie<br>24.11.2026 11:09 | [Oferta](https://domenadom.pl/) |
-| domenadom.pl | Nie podano | PROMOCJA -250 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie<br>24.11.2026 11:09 | [Oferta](https://domenadom.pl/) |
+| domenadom.pl | Nie podano | PROMOCJA -250 zł | Obecna w zapisie<br>24.11.2026 11:40 | [Oferta](https://domenadom.pl/) |
+| domenadom.pl | Nie podano | PROMOCJA -250 zł DO KOŃCA PROMOCJI POZOSTAŁO: | Obecna w zapisie<br>24.11.2026 11:40 | [Oferta](https://domenadom.pl/) |
 | domideaprojekt.pl | Nie podano | Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 3551,00 zł | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://domideaprojekt.pl/) |
 | domideaprojekt.pl | Nie podano | Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5150,00 zł | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://domideaprojekt.pl/) |
 | domideaprojekt.pl | Nie podano | Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł | Obecna w zapisie<br>24.11.2026 10:38 | [Oferta](https://domideaprojekt.pl/) |

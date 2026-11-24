@@ -56,7 +56,7 @@ Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md) · [4](e-dom
 
 **Częściowe · 2 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t103948.676199-0000-64d07514-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t202017.393602-0000-1cb383ab-porownanie.html)
 
 Strony porównania: [1](e-domypl.md) · **2** · [3](e-domypl-3.md) · [4](e-domypl-4.md) · [5](e-domypl-5.md)
 

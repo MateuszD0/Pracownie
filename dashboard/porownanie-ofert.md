@@ -18,7 +18,7 @@ Brak udokumentowanego przejścia między dopłatą, dostępnością i wliczeniem
 
 ## Widoczność tej samej oferty
 
-Porównano położenie na 149 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 38.
+Porównano położenie na 151 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 38.
 
 ## Od baneru do ceny projektu
 
@@ -27,11 +27,11 @@ Porównano położenie na 149 stronach. Ten sam komunikat ofertowy udało się z
 Zestawienie dotyczy ofert obecnych w dzisiejszym odczycie. Cena na karcie pochodzi z osobnego pomiaru.
 
 - [Wpisy 1–10 · sej-pro.pl, 3ddom.pl, alexanderstudio.pl, archeton.pl](porownanie-ofert-cards-1.md)
-- [Wpisy 11–20 · archi-projekt.com.pl, archipelag.pl, domdlaciebie.com.pl, domy21.pl, e-domy.pl](porownanie-ofert-cards-2.md)
-- [Wpisy 21–30 · lipinscy.pl, modernhouse-projekty.pl, partero.pl, planujdom.pl, pracowniaprojektowa.info, projektyprestige.pl](porownanie-ofert-cards-3.md)
-- [Wpisy 31–40 · studiokrajobrazy.pl, archdom.pl, dobredomy.pl, domoweklimaty.pl](porownanie-ofert-cards-4.md)
+- [Wpisy 11–20 · archi-projekt.com.pl, archipelag.pl, domdlaciebie.com.pl, domenadom.pl, domy21.pl, e-domy.pl](porownanie-ofert-cards-2.md)
+- [Wpisy 21–30 · e-domy.pl, lipinscy.pl, modernhouse-projekty.pl, partero.pl, planujdom.pl, pracowniaprojektowa.info](porownanie-ofert-cards-3.md)
+- [Wpisy 31–40 · projektyprestige.pl, studiokrajobrazy.pl, archdom.pl, dobredomy.pl, domoweklimaty.pl](porownanie-ofert-cards-4.md)
 - [Wpisy 41–50 · domoweklimaty.pl, pollio.pl, skahus.pl, slonecznedomy.pl](porownanie-ofert-cards-5.md)
-- [Wpisy 51–57 · studioatrium.pl, teaprojekt.pl, zbudujsamdom.pl](porownanie-ofert-cards-6.md)
+- [Wpisy 51–58 · slonecznedomy.pl, studioatrium.pl, teaprojekt.pl, zbudujsamdom.pl](porownanie-ofert-cards-6.md)
 
 ## Odczytane warunki ofert
 

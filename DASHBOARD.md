@@ -19,7 +19,7 @@ Obniżki **0** · podwyżki **0** · porównane ceny **66/112 projektów**.
 
 <details><summary>Zakres, godziny i publikacja raportu</summary>
 
-<!-- delivery:2026-11-25 -->Planowany start skanu: 09:00 · Termin publikacji: brak potwierdzonej godziny · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
+<!-- delivery:2026-11-25 -->Planowany start skanu: 09:00 · Pierwsza publikacja: 09:38 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
 Dzisiejsze odczyty: 199/224 stron (w tym częściowe: 14). Bez odczytu: 25. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 

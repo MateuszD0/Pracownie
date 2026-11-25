@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy niskoenergetyczne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy samowystarczalne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Domy pasywne”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-21 | Pojawił się komunikat: „Co nas wyróżnia?”. | Do sprawdzenia |
-| ecodomy.pl · 2026-11-21 | Pojawił się komunikat: „ELEWACJE”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Dom parterowy na planie kwadratu”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-21 | „cena: 5 990 PLN dostępność: 5 dni” → „cena: 5 690 PLN 5 990 PLN dostępność: 5 dni”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Mały dom z garażem w bryle”. | Potwierdzono ponownym odczytem |
-| domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
-| domoweklimaty.pl · 2026-11-21 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
-| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5650,00 zł” → „Nowość Promocja domidea 12 w 6 96.14 m2 4 2 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-21 | „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 4051,00 zł” → „Nowość Promocja domidea 12 w 4 59.71 m2 3 2 0 4551,00 zł 3551,00 zł”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11177,00 zł”. | Zaobserwowana zmiana |
-| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
-| domdlaciebie.com.pl · 2026-11-21 | Nowa promocja w komunikacji: „Rabat 500zł” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Nowy projekt - Majka A, już dostępny.”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Agawa B-ZBL - nowy projekt domu!”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Funkcjonalny bliźniak z płaskim dachem.”. | Potwierdzono ponownym odczytem |
-| domdlaciebie.com.pl · 2026-11-21 | Pojawił się komunikat: „Nowy projekt - Agawa B-ZBL”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja od 2026-11-20, koniec za:” | Sprawdzono w serwisie |
-| alexanderstudio.pl · 2026-11-21 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Co nas wyróżnia?”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy pasywne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Domy niskoenergetyczne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Realizacje #domyHexaGreen”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „#6 zasad”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Sprawdź pełną ofertę”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-22 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-22 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-22 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-22 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
+| dominanta.pl · 2026-11-22 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| archstodola.pl · 2026-11-22 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-22 | Zmiana komunikatu oferty: „Promocja od 11.11.2026 koniec za” → „Promocja od 13.11.2026 koniec za” | Sprawdzono w serwisie |
+| studiokrajobrazy.pl · 2026-11-21 | „Ponad czterysta różnych wariantów naszych autorskich projektów, wśród których, mamy nadzieję, znajdzie się te…” → „BLACK WEEK -10% na wybrane projekty do końca listopada! Cała nasza oferta to już ponad pięćset różnych warian…”. | Potwierdzono ponownym odczytem |
+| studiokrajobrazy.pl · 2026-11-21 | „Najnowsze projekty domów - ZOBACZ NOWOŚCI!” → „-10% na najnowsze projekty domów - ZOBACZ NOWOŚCI!”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Zauważono etykietę: „Do końca promocji:”. | Do sprawdzenia |
+| sej-pro.pl · 2026-11-21 | „Projekty domów taniej o 600 zł, a z kodem BLACK500 jeszcze o 500 zł 🔥” → „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥”. | Potwierdzono ponownym odczytem |
+| sej-pro.pl · 2026-11-21 | Nie odnotowano wcześniejszego komunikatu: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥”. W sprawdzonym serwisie znaleziono również: „rabatu przez 12 mies.” | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja kończy się: 30.11.2026” | Sprawdzono w serwisie |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „CENA PROMOCYJNA”. | Do sprawdzenia |
+| projektyzwizja.pl · 2026-11-21 | Zauważono etykietę: „PROMOCJA KOŃCZY SIĘ ZA:”. | Do sprawdzenia |
+| projekty.nordarchitekci.pl · 2026-11-21 | Zauważono etykietę: „% PROMOCJA”. | Do sprawdzenia |

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztó…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „DLACZEGO WARTO ZDECYDOWAĆ SIĘ NA PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ODWIEDŹ NASZE FORUM DYSKUSYJNE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „W tej sekcji zaprezentowano projekty domów parterowych z poddaszem. Grupa tych konceptów zalicza się do najbardziej popularnych na rynku i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zespół architektów i specjalistów Studia Atrium z pełną świadomością podchodzi do spersonalizowanych potrzeb klienta. Oferujemy gotowe proj…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „AUTORSKIE PROJEKTY DOMÓW NA FACEBOOKU, INSTAGRAMIE, YOUTUBE I INNYCH MEDIACH SPOŁECZNOŚCIOWYCH”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „PROJEKTY DOMÓW Z KOSZTORYSEM”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „skontaktuj się z naszym konsultantem”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Odkryj wyjątkowy świat autorskich projektów Studia Atrium! Jesteśmy dla Ciebie w mediach społecznościowych, gdzie na bieżąco dzielimy się i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NOWOCZESNE PROJEKTY DOMÓW CZYLI PODĄŻANIE ZA TRENDAMI W ARCHITEKTURZE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POMIESZCZENIA GOSPODARCZE - SPERSONALIZUJ WNĘTRZE WYBIERAJĄC PROJEKT WŁASNEGO DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Gotowe projekty domów z poddaszem użytkowym”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK DZIAŁA WYSZUKIWARKA DOMÓW ONLINE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „TARAS - A GOTOWY PROJEKT DOMU”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CZY STUDIO ATRIUM PRZEWIDUJE ZMIANY W PROJEKCIE DOMU?”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Zobacz dodatki” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Nasz darmowy katalog”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA OFERTA STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
-| sej-pro.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „Do końca promocji:”. | Do sprawdzenia |
-| sej-pro.pl · 2026-11-13 | Nowa promocja w komunikacji: „Nadchodzi Black Friday, największa promocja roku 🔥” | Sprawdzono w serwisie |
-| projektydomowzbali.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJA”. | Do sprawdzenia |
-| projektstodola.pl · 2026-11-13 | Pojawił się komunikat: „RZUT WERSJA PODSTAWOWA:”. | Do sprawdzenia |
+| mtmstyl.com.pl · 2026-11-14 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
+| mgprojekt.com.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Promocja w MGPROJEKT”. Nie udało się zweryfikować zmiany oferty w serwisie. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jeśli w naszej autorskiej kolekcji projektów domów nie znalazłeś gotowego rozwiązania, stworzymy dla Ciebie indywidualny projekt domu wysoce energooszczędnego, precyzyjnie dopasow…”. | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Zamówienia można składać pod numerem telefonu 71 784-39-36, wówczas zostaną Państwo poinformowani o czasie realizacji dodatkowego pakietu.…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „4. Kosztorys: Aktualny kosztorys pozwala zaplanować koszty realizacji inwestycji. Cena: 246,00 zł brutto”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| hbstudio.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Wychodząc naprzeciw Państwa oczekiwaniom stworzyliśmy możliwość zakupu pakietu dodatków do większości naszych projektów domów. Dzięki temu…”. W sprawdzonym serwisie znaleziono również: „Kosztorysy i materiały do pobrania” | Do sprawdzenia |
+| galeriadomow.pl · 2026-11-14 | „wysyłka już dzisiaj koszty dostawy: 0,00 zł” → „wysyłka w dniu 16 listopada 2026 koszty dostawy: 0,00 zł”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jedno z częstszych pytań pojawiających się wśród inwestorów szukających projektu przyszłego domu brzmi: czy można wybudować dom za 200 tysięcy złotych? Oczywiście chodzi tu o stan…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Jaki dom wybudujesz za 200 tysięcy złotych? Sekrety taniego domu z poddaszem.”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Dom przy Pastelowej 30 bis to kolejny przedstawiciel kolekcji, którą tworzą projekty domów parterowych z dachem dwuspadowym lub czterospadowym. Poza pierwszymi dwoma propozycjami,…”. | Potwierdzono ponownym odczytem |
+| galeriadomow.pl · 2026-11-14 | Pojawił się komunikat: „Co nowego przy Pastelowej? - Dom przy Pastelowej 30 bis”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Prosty dom z czterema sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Kosztorys budowlany jest opracowywany w programie NORMA i zawiera zestawienie kosztów wykonania robót budowlanych, kosztów materiałów, sprz…”. W sprawdzonym serwisie znaleziono również: „Jak dokupić dodatki do projektu” | Do sprawdzenia |
+| e-domy.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Prosty dom z dwuspadowym dachem”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Parterowy Klasyczny 138”. | Do sprawdzenia |
+| domyzweranda.pl · 2026-11-14 | Pojawił się komunikat: „Do porównania”. | Do sprawdzenia |
+| domywstylu.pl · 2026-11-14 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Niezawodność i komfort w dobrej cenie. Sprawdź Promocję Roku 2026 Hörmann” | Sprawdzono w serwisie |
+| domywstylu.pl · 2026-11-14 | Nie odnotowano wcześniejszego komunikatu: „Nowa oferta promocyjna firmy Hörmann jest dobrą okazją dla inwestorów, którzy rozpoczynają budowę domu lub przeprowadzają jego modernizację.”. W sprawdzonym serwisie znaleziono również: „Atrakcyjne PROMOCJE” | Do sprawdzenia |
+| domywstylu.pl · 2026-11-14 | Pojawił się komunikat: „Drzwi wejściowe, które nadążają za codziennością”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-14 | W nowym zapisie nie ma komunikatu: „Porozmawiaj z architektem! Napisz lub zadzwoń. ›”. | Potwierdzono ponownym odczytem |
+| domoweklimaty.pl · 2026-11-14 | Nowa promocja w komunikacji: „Promocja: -500 zł na projekty domów!” | Sprawdzono w serwisie |
+| dominanta.pl · 2026-11-14 | Pojawił się komunikat: „SYPIEMY NOWOŚCIAMI !Lolek II Nelegancka nowoczesność »”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-14 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-14 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| archdom.pl · 2026-11-14 | Pojawił się komunikat: „STODOŁA MIKRO 1”. | Do sprawdzenia |

@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 840 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 440 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 240 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Najniższa cena z ostatnich 30 dni 3 640 zł”. | Zaobserwowana zmiana |
-| archeton.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA -350 zł”. W sprawdzonym serwisie znaleziono również: „Promocja 200 zł na zakupy w Empiku” | Do sprawdzenia |
-| alexanderstudio.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 2026-11-03, koniec za:”. W sprawdzonym serwisie znaleziono również: „Dostawa gratis” | Do sprawdzenia |
-| 3ddom.pl · 2026-11-06 | Nie odnotowano wcześniejszego komunikatu: „Promocja od 04.11.2026 koniec za”. W sprawdzonym serwisie znaleziono również: „RABATY NA DODATKI” | Do sprawdzenia |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Adaptacja i zmiany w projekcie”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | „Czym różni się opcja EKO od STANDARD?” → „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czym różni się opcja EKO od STANDARD w projekcie domu AR-22 P?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Ile kosztuje adaptacja projektu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Czym różni się opcja EKO od STANDARD?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Czy przed zakupem ocenię koszt budowy domu?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | Pojawił się komunikat: „Co zawiera gotowy projekt domu? Czy wystarczy do pozwolenia na budowę?”. | Zaobserwowana zmiana |
-| teaprojekt.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Co zawiera gotowy projekt domu?”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-05 | W nowym zapisie nie ma komunikatu: „Szczególnie cenimy firmę Studio Atrium za profesjonalne, niezwykle dokładne oraz przejrzyste przygotowanie każdej swojej dokumentacji technicznej.”. | Zaobserwowana zmiana |
-| studioatrium.pl · 2026-11-05 | Pojawił się komunikat: „Firma Studio Atrium jest godna zaufania i dalszego polecenia. Zaproponowane rozwiązania architektoniczne i konstrukcyjne sprawdziły się w 100%.”. | Zaobserwowana zmiana |
-| projektyka.pl · 2026-11-05 | Pojawił się komunikat: „w atrakcyjnych cenach”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Kraków,…” → „Ten projekt zmienimy pod Twoją działkę i potrzeby — układ pomieszczeń, wymiary, elewację. Pracujemy w Chrzano…”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | Pojawił się komunikat: „Jak to wygląda krok po kroku”. | Zaobserwowana zmiana |
-| projektygebala.com · 2026-11-05 | „Dostajesz komplet dokumentacji. Prowadzimy sprawy urzędowe do uzyskania pozwolenia na budowę.” → „Dostajesz komplet dokumentacji. Na podstawie pełnomocnictwa prowadzimy sprawy urzędowe aż do uzyskania pozwol…”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO PR\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO RELAKSU\|” → „PROJEKTUJEMY MIEJSCA DO RE\|”. | Zaobserwowana zmiana |
+| kowalscypracownia.pl · 2026-11-06 | „PROJEKTUJEMY MIEJSCA DO PRAC\|” → „PROJEKTUJEMY MIEJSCA DO RELAKSU\|”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Zaobserwowana zmiana |
+| hexagreen.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Zaobserwowana zmiana |
+| galeriadomow.pl · 2026-11-06 | „salon + 4 pokoje garaż: brak 120.00 m²” → „salon + 3 pokoje garaż: brak 88.00 m²”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Wiatrołap – małe pomieszczenie, duże znaczenie”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Jak zaplanować komunikację na osiedlu domów jednorodzinnych?”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Garaż w bliźniaku i szeregowcu – najciekawsze rozwiązania”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Rezydencja z pokojem seniora”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-06 | Pojawił się komunikat: „Prosty dom na wąskie działki”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | „Katalog 08/26:” → „Katalog Nr 08/26”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | „Zobacz katalog online” → „Zobacz katalog”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
+| domywstylu.pl · 2026-11-06 | Pojawił się komunikat: „Mały dom bez kompromisów”. | Zaobserwowana zmiana |
+| domywstylu.pl · 2026-11-06 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
+| dompp.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „TWOJA WIZJA, NASZA PASJA”. | Zaobserwowana zmiana |
+| domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'MerchantReturnPolicy', 'applicableCountry': 'PL', 'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow', 'merchantReturnDays': 14, 'returnMethod…”. | Zaobserwowana zmiana |
+| domoweklimaty.pl · 2026-11-06 | Pojawił się komunikat: „{'@type': 'OfferShippingDetails', 'shippingRate': {'@type': 'MonetaryAmount', 'value': '0.00', 'currency': 'PLN'}, 'shippingDestination': {'@type': 'DefinedRegion', 'addressCountr…”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-06 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-06 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Zaobserwowana zmiana |
+| domato.pl · 2026-11-06 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Zaobserwowana zmiana |

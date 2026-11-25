@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl · 2026-11-24 | Nowa promocja w komunikacji: „RABAT 450” | Sprawdzono w serwisie |
-| studioatrium.pl · 2026-11-24 | Pojawił się komunikat: „ZNAJDŹ PROJEKT IDEALNY DLA SIEBIE”. | Potwierdzono ponownym odczytem |
-| studioatrium.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
-| projektdomudo100m2.pl · 2026-11-24 | Nowa promocja w komunikacji: „🖤 BLACK FRIDAY W BRUMAR! 🏠 Już 27 listopada rusza wyjątkowa promocja na projekty domów! 🎁 Szczegóły ujawnimy w dniu rozpoczęcia. Wybierz swój projekt już dziś! 👋 Jestem Asystentem AI Brumar. W czym mogę Ci pomóc?” | Sprawdzono w serwisie |
-| kreodom.pl · 2026-11-24 | „27 lipca 2026” → „23 listopada 2026”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „MAŁA SAUNA DO MIESZKANIA – CZY SAUNA W BLOKU JEST MOŻLIWA?”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-24 | Pojawił się komunikat: „AMPIO SMART HOME, INTELIGENTNE OGRZEWANIE I ROLETY – JAK STWORZYĆ KOMFORTOWY DOM STEROWANY AUTOMATYCZNIE?”. | Do sprawdzenia |
-| ecodomy.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „ELEWACJE”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Nowoczesny dom z tarasami”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „Projekty budowlane e-domy.pl to autorskie koncepcje, które zostały przygotowane w oparciu o doświadczenie ora…” → „Projekty budowlane e-domy.pl to autorskie koncepcje, które zostały przygotowane w oparciu o doświadczenie ora…”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „Rabat 10%” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-24 | „wygodnie pomieszczenia dodatkowe i pomocnicze;” → „wygodne pomieszczenia dodatkowe i pomocnicze;”. | Zaobserwowana zmiana |
-| e-domy.pl · 2026-11-24 | Nowy dodatek lub pakiet: „Dodatkowo do każdego projektu zamówionego w naszej pracowni oferujemy godzinę bezpłatnych konsultacji online z doświadczoną projektantką wnętrz. Kontakt: mail: biuro@e-domy.pl” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-24 | „Min. szer.działki23,9 m” → „min. szerokość działki: 20,9 m”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „Część opisowa powinna w dokładnych sposób opisywać przedmiot inwestycji, uwzględniając wszystkie obiekty, któ…” → „Część opisowa powinna w dokładny sposób opisywać przedmiot inwestycji, uwzględniając wszystkie obiekty, które…”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „SPRAWDŹ PROMOCJĘ” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-24 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
-| e-domy.pl · 2026-11-24 | „Każdy z poszczególnych projektów powinien zawierać ściśle określone informacje jak na przykład wymiary działk…” → „Każdy z poszczególnych projektów powinien zawierać ściśle określone informacje, jak na przykład wymiary dział…”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „min. szerokość działki: 22,7 m”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „Sprawdź, jakie propozycje przygotowała Pracownia projektowa e-domy.pl Skontaktuj się z nami telefonicznie lub…” → „Sprawdź, jakie propozycje przygotowała Pracownia projektowa e-domy.pl. Skontaktuj się z nami telefonicznie lu…”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „Połączyliśmy siły z renomowaną pracownią projektowania wnętrz Senstetik. Konsultacja w cenie projektu!”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Dom parterowy z płaskim dachem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „warunki bezpieczeństwa i ochrony zdrowia – plan BIOZ (Bezpieczeństwo i Ochrona Zdrowia).” → „warunki bezpieczeństwa i ochrony zdrowia – plan BIOZ (Bezpieczeństwa i ochrony Zdrowia).”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „Promocja — Dodatkowy egzemplarz za 1 zł” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „PROJEKTY MAŁYCH DOMÓW 86”. | Potwierdzono ponownym odczytem |
+| teaprojekt.pl · 2026-11-25 | Nowa promocja w komunikacji: „projekty domów w promocji” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-25 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-25 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
+| projektydomowzbali.pl · 2026-11-25 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
+| projektydomowzbali.pl · 2026-11-25 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
+| pro-arte.pl · 2026-11-25 | Pojawił się komunikat: „Realizacja projektu domu - ORLEAN 7 C szkielet drewniany”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Realizacja projektu domu - TRYPOLIS 8”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „NOWOCZESNE DOMY MODUŁOWE – SZYBKI SPOSÓB NA WŁASNY DOM”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „MONTAŻ KLIMATYZACJI W BLOKU KROK PO KROKU: OD ZGODY WSPÓLNOTY PO PIERWSZY CHŁÓD”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „NOWOCZESNA PRODUKCJA PANELI SIP I WARSTWOWYCH – JAK TECHNOLOGIA GLUESTREAM WSPIERA ROZWÓJ PREFABRYKACJI?”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „BADANIE SZCZELNOŚCI DACHU PŁASKIEGO – KIEDY JE ZLECIĆ I OD CZEGO ZALEŻY CENA”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-25 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
+| ecodomy.pl · 2026-11-25 | Pojawił się komunikat: „ELEWACJE”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | Nowy dodatek lub pakiet: „Znamy te projekty od środka! Wyodrębniamy nowy dział pracowni, w którym przygotujemy indywidualnie projekt wnętrza. Nasze projekty powstają z wykorzystaniem modelowania komputerowego, dzięki czemu wspólne opracowanie ko…” | Sprawdzono w serwisie |
+| e-domy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Dodatkowo do każdego projektu zamówionego w naszej pracowni oferujemy godzinę bezpłatnych konsultacji online z doświadczoną projektantką wn…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Zmian może dokonać wyłącznie osoba uprawniona. W przypadku chęci wprowadzenia innych przeróbek niż wymienione należy uzyskać zgodę pracowni…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Zamawiając projekt domu z pracowni e-domy.pl, mogą Państwo zamówić kosztorys budowlany wraz z przedmiarem robót \[…\]”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Mały dom z 2 pokojami i garderobą”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Prosty dom z dużym garażem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Pomoc w doborze projektu”. | Potwierdzono ponownym odczytem |

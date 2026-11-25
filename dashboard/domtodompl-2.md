@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-22 → 2026-11-23**
+**2026-11-24 → 2026-11-25**
 
 **Ten sam projekt:** [ATKA](http://domtodom.pl/projekty-domow/projekt/20)
 
@@ -18,27 +18,27 @@ Strony porównania: [1](domtodompl.md) · **2**
 
 [Otwórz stronę źródłową](http://domtodom.pl/)
 
-**Odczyty:** 22.11.2026 11:45 → 23.11.2026 09:33 (czas polski).
+**Odczyty:** 24.11.2026 10:38 → 25.11.2026 09:10 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | <strong>CANARIA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>CARAVELA 2 G2</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>KOMODO 1G</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 | Komunikacja sprzedażowa · Nagłówek | <strong>KOS 2</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ALFA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>DWA POKOLENIA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>JURA N</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>QUATTRO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
+| Komunikacja sprzedażowa · Nagłówek | <strong>TOSKANIA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 | Komunikacja sprzedażowa · Nagłówek | <strong>MARTYNIKA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>CARAVELA</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
-| Komunikacja sprzedażowa · Nagłówek | <strong>ORINOKO</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](http://domtodom.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](http://domtodom.pl/projekty-domow/projekt/20)
 
-**Odczyty:** 22.11.2026 11:45 → 23.11.2026 09:33 (czas polski).
+**Odczyty:** 24.11.2026 10:38 → 25.11.2026 09:10 (czas polski).
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t080843.629871-0000-07dcba1f-porownanie.html)
 
 Strony porównania: [1](domtodompl.md) · **2**
 

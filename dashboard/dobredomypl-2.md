@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-24 → 2026-11-25**
 
 **Ten sam projekt:** [Projekt domu Jantar VII](https://www.dobredomy.pl/projekt/jantarVII)
 
@@ -18,45 +18,45 @@ Strony porównania: [1](dobredomypl.md) · **2** · [3](dobredomypl-3.md) · [4]
 
 [Otwórz stronę źródłową](https://www.dobredomy.pl/)
 
-**Odczyty:** 19.11.2026 11:51 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 24.11.2026 10:38 → 25.11.2026 09:10 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · Dlaczego warto kupić u nas projekt domu? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · parterowe | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Projekt domu gotowy czy na zamówienie – co wybrać? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Projekty domów – czym są i dlaczego są niezbędne do rozpoczęcia budowy? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Wysoki salon | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · projekty koncepcje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · z poddaszem | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · ZAPISZ SIĘ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/#newsletter-component) |
-| Zmiany wyglądu · Układ · Projekty domów nowoczesnych i tradycyjnych – jak wybrać idealny projekt i rozpocząć budowę domu? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · od 120m2 do 160m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Projekt domu jednorodzinnego i wielorodzinnego – jak kupić? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Wszystkie aktualności | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Domy z pompą ciepła | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Pomoc architekta | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Domy w promocji | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Do 70 mkw zabudowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · ponad 160m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · garaż podwójny | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Aktualności | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · do 120 m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Ogrzewanie podł. gaz | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · KONKURS | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Małe i ekonomiczne | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
-| Zmiany wyglądu · Układ · Nowoczesne stodoły | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · tanie w budowie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Zapisz się do newslettera | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/#newsletter-component) |
+| Zmiany wyglądu · Układ · Polecane projekty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · ZAPISZ SIĘ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/#newsletter-component) |
+| Zmiany wyglądu · Układ · Projekty domów z kosztorysem – czego możesz się dzięki nim dowiedzieć? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Domy budowane na podstawie projektów – kto może wykonać projekt? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Wszystkie aktualności | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Polecane kategorie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · dach płaski | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Oferta dla developera | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · z poddaszem | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · SPRAWDŹ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Pomoc w doborze projektu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Aktualności | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Do 70 mkw zabudowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · WYSZUKIWANIE SZCZEGÓŁOWE | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/#header_search-bar) |
+| Zmiany wyglądu · Układ · Ważne informacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · POBIERZ KATALOG | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/#katalog) |
+| Zmiany wyglądu · Układ · Nasi Partnerzy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · ponad 160m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · garaż podwójny | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Nowoczesne stodoły | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Najnowsze komentarze do projektów | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · do 120 m2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
+| Zmiany wyglądu · Układ · Pomoc architekta | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.dobredomy.pl/) |
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.dobredomy.pl/projekt/jantarVII/)
 
-**Odczyty:** 19.11.2026 11:51 → 20.11.2026 09:23 (czas polski).
+**Odczyty:** 24.11.2026 10:38 → 25.11.2026 09:10 (czas polski).
 
 Pozostałe strony tego porównania zawierają 46 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t080843.629871-0000-07dcba1f-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · **2** · [3](dobredomypl-3.md) · [4](dobredomypl-4.md) · [5](dobredomypl-5.md) · [6](dobredomypl-6.md)
 

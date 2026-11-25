@@ -2,15 +2,15 @@
 
 # Promocje, dodatki i ceny projektu
 
-**2026-11-23 → 2026-11-24**
+**2026-11-24 → 2026-11-25**
 
 [← Dashboard](../DASHBOARD.md)
 
 ## Zmiany warunków promocji
 
-- **e-domy.pl · współpracująca** · Komunikat zniknął z tej strony · KUPTANIEJ<br>Wczoraj · „1. ZAKUP PROJEKTU Z DODATKOWYM RABATEM 10% - "KUPTANIEJ" Aby skorzytać z oferty należy wpisać kod rabatowy "KUPTANIEJ" podczas zamawiania projektu. 2. KOSZTORYS BUDOWLANY i PRZEDMIAR ROBÓT ZA 129zł. 3. DODATKOWY EGZEMPLARZ PROJEKTU ARCHITEKTONICZNO-BUDOWLANEGO ZA 1zł. 4. TABLICA I DZIENNIK...” · 23.11.2026 09:34<br>Dostępność promocji w pozostałych miejscach wymaga odrębnego potwierdzenia.<br>[Strona główna](https://www.e-domy.pl/#js-body)
+- **teaprojekt.pl · niewspółpracująca** · Pojawił się komunikat · Black Week<br>Dziś · „Black Week-500 pln !!! na projekty domów w promocji do 30.11.2026 \| TeA Projekt \| gotowe projekty domów” · 25.11.2026 09:14<br>[Strona główna](https://teaprojekt.pl/#top-bar-content)
 
-- **e-domy.pl · współpracująca** · Pojawił się komunikat · Oferta<br>Dziś · „Rabat 10%” · 24.11.2026 10:39<br>[Strona główna](https://www.e-domy.pl/#splide01-slide01)
+- **teaprojekt.pl · niewspółpracująca** · Pojawił się komunikat · Black Week<br>Dziś · „Black Week-500 pln !!! na projekty domów w promocji do 30.11.2026 \| TeA Projekt \| gotowe projekty domów” · 25.11.2026 09:14<br>[Karta projektu](https://teaprojekt.pl/gotowe-projekty-domow/projekt-domu-ar-22-p/#top-bar-content)
 
 ## Co klient dostaje w cenie projektu
 
@@ -18,11 +18,11 @@ Brak udokumentowanego przejścia między dopłatą, dostępnością i wliczeniem
 
 ## Widoczność tej samej oferty
 
-Porównano położenie na 152 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 38.
+Porównano położenie na 154 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 39.
 
 ## Od baneru do ceny projektu
 
-- **sej-pro.pl · współpracująca** · BLACK500<br>Strona główna · „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥” · 24.11.2026 10:42<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>SEJ-PRO 016 ENERGO · Stały projekt wymieniony w zakresie; realizacja kodu niesprawdzona<br>Komunikat na karcie · „Kup ten projekt jeszcze taniej o 500 zł z kodem „BLACK500” 🔥” · 24.11.2026 10:42<br>Cena na karcie · Cena bez zmian: 5 097,00 zł brutto<br>[Baner lub komunikat](https://www.sej-pro.pl/#page) · [Komunikat na karcie](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) · [Stała karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
+- **sej-pro.pl · współpracująca** · BLACK500<br>Strona główna · „Wszystkie projekty domów taniej nawet o 1100 zł z kodem BLACK500 🔥” · 25.11.2026 09:14<br>Osobna strona warunków · brak dopasowanego zapisu z tego dnia.<br>SEJ-PRO 016 ENERGO · Stały projekt wymieniony w zakresie; realizacja kodu niesprawdzona<br>Komunikat na karcie · „Kup ten projekt jeszcze taniej o 500 zł z kodem „BLACK500” 🔥” · 25.11.2026 09:14<br>Cena na karcie · Cena bez zmian: 5 097,00 zł brutto<br>[Baner lub komunikat](https://www.sej-pro.pl/#page) · [Komunikat na karcie](https://www.sej-pro.pl/projekt/sej-pro-016-energo/#product-4426) · [Stała karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/)
 
 Zestawienie dotyczy ofert obecnych w dzisiejszym odczycie. Cena na karcie pochodzi z osobnego pomiaru.
 
@@ -31,7 +31,7 @@ Zestawienie dotyczy ofert obecnych w dzisiejszym odczycie. Cena na karcie pochod
 - [Wpisy 21–30 · e-domy.pl, lipinscy.pl, modernhouse-projekty.pl, partero.pl, planujdom.pl, pracowniaprojektowa.info](porownanie-ofert-cards-3.md)
 - [Wpisy 31–40 · projektyprestige.pl, studiokrajobrazy.pl, archdom.pl, dobredomy.pl, domoweklimaty.pl](porownanie-ofert-cards-4.md)
 - [Wpisy 41–50 · domoweklimaty.pl, pollio.pl, skahus.pl, slonecznedomy.pl](porownanie-ofert-cards-5.md)
-- [Wpisy 51–58 · slonecznedomy.pl, studioatrium.pl, teaprojekt.pl, zbudujsamdom.pl](porownanie-ofert-cards-6.md)
+- [Wpisy 51–57 · studioatrium.pl, teaprojekt.pl, zbudujsamdom.pl](porownanie-ofert-cards-6.md)
 
 ## Odczytane warunki ofert
 
@@ -42,7 +42,7 @@ Każdy wpis podaje warunki widoczne w cytacie. Skan sprawdza stronę główną, 
 - [Wpisy 21–30 · e-domy.pl, eg-domy.pl, housecollection.pl, mgprojekt.com.pl, modernhouse-projekty.pl](porownanie-ofert-register-3.md)
 - [Wpisy 31–40 · modernhouse-projekty.pl, planujdom.pl, pracowniaprojektowa.info, pro-arte.pl](porownanie-ofert-register-4.md)
 - [Wpisy 41–50 · pro-arte.pl, sej-pro.pl, studiokrajobrazy.pl, domoweklimaty.pl, mtmstyl.com.pl, skahus.pl, slonecznedomy.pl](porownanie-ofert-register-5.md)
-- [Wpisy 51–56 · slonecznedomy.pl, studioatrium.pl](porownanie-ofert-register-6.md)
+- [Wpisy 51–59 · slonecznedomy.pl, studioatrium.pl, teaprojekt.pl](porownanie-ofert-register-6.md)
 
 ## Tydzień do tygodnia
 
@@ -50,17 +50,17 @@ Każda pracownia liczy się raz w danym wierszu i tygodniu. Po ukośniku podano 
 
 ### Współpracujące z nami
 
-| Liczba pracowni | 2026-11-11 – 2026-11-17 (7/7 dni) | 2026-11-18 – 2026-11-24 (7/7 dni) |
+| Liczba pracowni | 2026-11-12 – 2026-11-18 (7/7 dni) | 2026-11-19 – 2026-11-25 (7/7 dni) |
 | --- | ---: | ---: |
-| Obniżka ceny projektu | 6 / 47 | 18 / 47 |
-| Podwyżka ceny projektu | 11 / 47 | 1 / 47 |
-| Nowy komunikat z rozpoznanym kodem lub nazwą kampanii | 0 / 67 | 1 / 68 |
-| Zmiana treści przy tych samych odczytanych warunkach | 0 / 69 | 0 / 70 |
-| Zmiana warunków dodatku na karcie projektu | 0 / 63 | 0 / 63 |
+| Obniżka ceny projektu | 2 / 47 | 18 / 46 |
+| Podwyżka ceny projektu | 11 / 47 | 1 / 46 |
+| Nowy komunikat z rozpoznanym kodem lub nazwą kampanii | 0 / 67 | 1 / 67 |
+| Zmiana treści przy tych samych odczytanych warunkach | 0 / 70 | 0 / 69 |
+| Zmiana warunków dodatku na karcie projektu | 0 / 63 | 0 / 62 |
 
 ### Niewspółpracujące z nami
 
-| Liczba pracowni | 2026-11-11 – 2026-11-17 (7/7 dni) | 2026-11-18 – 2026-11-24 (7/7 dni) |
+| Liczba pracowni | 2026-11-12 – 2026-11-18 (7/7 dni) | 2026-11-19 – 2026-11-25 (7/7 dni) |
 | --- | ---: | ---: |
 | Obniżka ceny projektu | 2 / 27 | 1 / 27 |
 | Podwyżka ceny projektu | 1 / 27 | 0 / 27 |
@@ -70,5 +70,5 @@ Każda pracownia liczy się raz w danym wierszu i tygodniu. Po ukośniku podano 
 
 [Pracownie, daty i źródła · wpisy 1–30](porownanie-ofert-tydzien-1.md)
 
-[Pracownie, daty i źródła · wpisy 31–41](porownanie-ofert-tydzien-2.md)
+[Pracownie, daty i źródła · wpisy 31–37](porownanie-ofert-tydzien-2.md)
 

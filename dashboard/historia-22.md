@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| pro-arte.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „RABAT 300 ZŁ”. W sprawdzonym serwisie znaleziono również: „Kup w promocji” | Do sprawdzenia |
-| postawdom24.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Promocja trwa do 12 listopada 2026”. W sprawdzonym serwisie znaleziono również: „Dostawa i Dodatki” | Do sprawdzenia |
-| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „Nowość w naszej ofercie: Pierwszy projekt garażu 13 listopada 2026 Pierwszy projekt garażu Faro w nastrojowej, jesiennej odsłonie... Czytaj więcej”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „FORMA – nowość wśród naszych projektów typowych 02 października 2026 FORMA to kolejna propozycja w naszej kolekcji projektów typowych – funkcjonalna, wyrazista i dopracowana w każ…”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | Pojawił się komunikat: „FORMA w artystycznej odsłonie – poznaj nasz projekt domu z innej perspektywy 06 listopada 2026 Poznaj projekt FORMA i zobacz go z zupełnie innej perspektywy.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
-| opprojekt.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „VIVIA – nowe spojrzenie 09 października 2026 Tym razem nie pokazujemy VIVII tylko jako gotowego domu, pozwalamy spojrzeć na nią jak na architektoniczny szkic, w którym forma,... C…”. | Potwierdzono ponownym odczytem |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B658 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU W STYLU AMERYKAŃSKIM B650” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B640” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych Projekt Domu parterowego - DWOREK STAROPOLSKI B652” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B636” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B644 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu Parterowego- NOWOCZESNA WILLAB676” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT KOMFORTOWEGO DOMU B657” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WERANDĄ B635” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji - Gratis Dodatki” → „Projekt Architektoniczno-Konstrukcyjny Domu B663 - wersja bez instalacji” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - Projekt Domu parterowego -DWOREK STAROPOLSKI B667” | Sprawdzono w serwisie |
-| nowoczesne-projektydomow.pl · 2026-11-13 | Zmiana komunikatu oferty: „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653 - Gratis Dodatki” → „Gotowe Projekty Domów Energooszczędnych - PROJEKT DOMU Z WARSZTATEM B653” | Sprawdzono w serwisie |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „Regulamin promocji &gt;&gt;”. | Do sprawdzenia |
-| mtmstyl.com.pl · 2026-11-13 | W nowym zapisie nie ma etykiety: „PROMOCJI”. | Do sprawdzenia |
-| lipinscy.pl · 2026-11-13 | „15 970 zł z VAT” → „15 570 zł z VAT 15 970 zł”. | Potwierdzono ponownym odczytem |
-| lipinscy.pl · 2026-11-13 | Zmiana komunikatu oferty: „PROMOCJA NA PROJEKTY DOMÓW NA ZGŁOSZENIE DO 70 M P.Z.” → „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²” | Sprawdzono w serwisie |
-| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| lipinscy.pl · 2026-11-13 | Zauważono etykietę: „Do końca promocji”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-13 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „JAK KUPIĆ PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO NALEŻY SPRAWDZIĆ DOBIERAJĄC PROJEKT DOMU DO DZIAŁKI?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZAKUP MAŁEGO CZY DUŻEGO DOMU ?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASI SPECJALIŚCI OPRACOWALI WYRÓŻNIAJĄCE SIĘ PROJEKTY ARCHITEKTONICZNO-BUDOWLANE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „WARTO ZOBACZYĆ WSZYSTKIE PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „GOTOWY PROJEKT DOMU STUDIO ATRIUM I JEGO ADAPTACJA”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POSIADAMY NAWET PROJEKTY DOMÓW PARTEROWYCH Z PODDASZEM UŻYTKOWYM LUB NIEUŻYTKOWYM (STRYCH)”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ZREALIZOWANY PROJEKT BUDYNKU STUDIO ATRIUM - RECEPTA NA DOM, KTÓRY URZECZYWISTNIA MARZENIA”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „PROJEKTY W STYLU STODOŁY”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nowy dodatek lub pakiet: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Projekty domów są rezultatem pracy grupy specjalistów, w której skład wchodzą eksperci z różnych dziedzin: architektury, budownictwa, insta…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Decydując się na zakup projektu domu z kosztorysem, inwestor nabywa gotowe plany budowlane z uwzględnieniem szczegółowych informacji kosztó…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „DLACZEGO WARTO ZDECYDOWAĆ SIĘ NA PROJEKTY DOMÓW STUDIO ATRIUM”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „ODWIEDŹ NASZE FORUM DYSKUSYJNE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „W tej sekcji zaprezentowano projekty domów parterowych z poddaszem. Grupa tych konceptów zalicza się do najbardziej popularnych na rynku i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zespół architektów i specjalistów Studia Atrium z pełną świadomością podchodzi do spersonalizowanych potrzeb klienta. Oferujemy gotowe proj…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „CO ZAWIERA PROJEKT DOMU STUDIO ATRIUM?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „AUTORSKIE PROJEKTY DOMÓW NA FACEBOOKU, INSTAGRAMIE, YOUTUBE I INNYCH MEDIACH SPOŁECZNOŚCIOWYCH”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „PROJEKTY DOMÓW Z KOSZTORYSEM”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „skontaktuj się z naszym konsultantem”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Odkryj wyjątkowy świat autorskich projektów Studia Atrium! Jesteśmy dla Ciebie w mediach społecznościowych, gdzie na bieżąco dzielimy się i…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NOWOCZESNE PROJEKTY DOMÓW CZYLI PODĄŻANIE ZA TRENDAMI W ARCHITEKTURZE”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „POMIESZCZENIA GOSPODARCZE - SPERSONALIZUJ WNĘTRZE WYBIERAJĄC PROJEKT WŁASNEGO DOMU”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | W nowym zapisie nie ma komunikatu: „NASZ KATALOG PROJEKTÓW DOMÓW - CO W NIM ZNAJDZIESZ?”. | Potwierdzono ponownym odczytem |
+| studioatrium.pl · 2026-11-13 | Nie odnotowano wcześniejszego komunikatu: „Zakup projektu domu w Studio Atrium to przejrzysty i łatwy proces, który składa się z kilku etapów. Aby wybrać idealny projekt domu, warto…”. W sprawdzonym serwisie znaleziono również: „RABAT 250” | Do sprawdzenia |

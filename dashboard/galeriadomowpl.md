@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-23 → 2026-11-24**
+**2026-11-24 → 2026-11-25**
 
 **Ten sam projekt:** [Projekt domu - Dom przy Bukowej 14](https://www.galeriadomow.pl/projekty-domow/projekt-dom-przy-bukowej-14.html)
 
@@ -32,5 +32,5 @@ Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
 Powód braku odczytu: Błąd komunikacji HTTP/2 z serwerem witryny.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-24/2026-11-24-2026-11-24t202017.393602-0000-1cb383ab-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t080843.629871-0000-07dcba1f-porownanie.html)
 

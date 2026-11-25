@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Rabat do 500 zł na projekty domów!” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „PROMOCJA - RABAT 500ZŁ” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| domdlaciebie.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Sprawdź projekty objęte promocją” | Sprawdzono w serwisie |
-| dom-projekt.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja! Oszczędzasz 300 zł” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja do –300 zł na wybrane projekty” | Sprawdzono w serwisie |
-| dobredomy.pl · 2026-11-20 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
-| archstodola.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| archiportal.pl · 2026-11-20 | „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł” → „Tracja 11 Strop drewniany wersja podstawowa 4 199 zł3 999 zł”. | Potwierdzono ponownym odczytem |
-| archi-projekt.com.pl · 2026-11-20 | Nowa promocja w komunikacji: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionychRabat 650 zł” | Sprawdzono w serwisie |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 2 990 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 390 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 590 zł”. | Potwierdzono ponownym odczytem |
-| archeton.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z ostatnich 30 dni 3 190 zł”. | Potwierdzono ponownym odczytem |
-| archdom.pl · 2026-11-20 | Pojawił się komunikat: „NOWOŚĆ”. | Do sprawdzenia |
-| archdom.pl · 2026-11-20 | Zauważono etykietę: „Promocja kończy się za:”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja od 09.11.2026 koniec za” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-19 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-19 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Dobry wybór dla Twojej rodziny. 10 wariantów w 3 technologiach”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Kolekcja wszystkich projektów ORLEAN”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup taniej, okresowe promocje”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „TRYPOLIS, który wybierzesz? Teraz taniej”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | W nowym zapisie nie ma komunikatu: „Małe domy z płaskim dachem”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-19 | Nie odnotowano wcześniejszego komunikatu: „Kup w promocji”. W sprawdzonym serwisie znaleziono również: „Promocje okresowe na domy. Często wracaj i sprawdzaj ofertę” | Do sprawdzenia |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11677,00 zł” → „Nowość Tylko u Autora Promocja domidea 103 243.09 m2 7 3 2 12177,00 zł 11177,00 zł”. | Zaobserwowana zmiana |
+| domideaprojekt.pl · 2026-11-21 | „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5650,00 zł” → „Nowość Tylko u Autora Promocja domidea 1 w6 127.65 m2 4 3 0 6150,00 zł 5150,00 zł”. | Zaobserwowana zmiana |
+| domdlaciebie.com.pl · 2026-11-21 | Nowa promocja w komunikacji: „Rabat 500zł” | Sprawdzono w serwisie |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Nowy projekt - Majka A, już dostępny.”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Agawa B-ZBL - nowy projekt domu!”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | W nowym zapisie nie ma komunikatu: „Funkcjonalny bliźniak z płaskim dachem.”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-21 | Pojawił się komunikat: „Nowy projekt - Agawa B-ZBL”. | Potwierdzono ponownym odczytem |
+| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
+| archstodola.pl · 2026-11-21 | Pojawił się komunikat: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
+| alexanderstudio.pl · 2026-11-21 | Nowa promocja w komunikacji: „Promocja od 2026-11-20, koniec za:” | Sprawdzono w serwisie |
+| alexanderstudio.pl · 2026-11-21 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| 3ddom.pl · 2026-11-21 | Zmiana komunikatu oferty: „Promocja od 09.11.2026 koniec za” → „Promocja od 11.11.2026 koniec za” | Sprawdzono w serwisie |
+| sej-pro.pl · 2026-11-20 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Już 20.11 rusza Black Friday, największa promocja roku! 🔥” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4091,12 4649,- Najniższa cena z 30 dni przed obniżką: 4649”. | Potwierdzono ponownym odczytem |
+| projektyka.pl · 2026-11-20 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-20 | Pojawił się komunikat: „4575,12 5199,- Najniższa cena z 30 dni przed obniżką: 5199”. | Potwierdzono ponownym odczytem |
+| pro-arte.pl · 2026-11-20 | Nowa promocja w komunikacji: „RABAT 500 ZŁ” | Sprawdzono w serwisie |
+| postawdom24.pl · 2026-11-20 | Nowa promocja w komunikacji: „Promocja trwa do 30 listopada 2026” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-20 | Nowa promocja w komunikacji: „BLACK WEEK !!! WSZYSTKIE PROJEKTY DOMÓW Z RABATEM - 20% Do końca promocji: \[licznik\] Zobacz &gt;” | Sprawdzono w serwisie |
+| planujdom.pl · 2026-11-20 | Pojawił się komunikat: „Najniższa cena z 30 dni przed obniżką: 2960,00 zł.”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „Premiera w naszej bazie: Poznaj projekt Luna 2G – Twój ulubiony dom teraz w wersji z garażem! 16 października 2026 Zobacz Lunę 2G w jesiennej odsłonie.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| mtmstyl.com.pl · 2026-11-20 | Zauważono etykietę: „PROMOCJI”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-20 | Pojawił się komunikat: „JAK WYBRAĆ ROLETY ZEWNĘTRZNE NATYNKOWE DO SWOJEGO DOMU”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-20 | W nowym zapisie nie ma komunikatu: „ZAWÓR REGULACYJNY Z SIŁOWNIKIEM - JAK DOBRAĆ WSPÓŁCZYNNIK KVS, CHARAKTERYSTYKĘ I NAPĘD?”. | Potwierdzono ponownym odczytem |
+| kbprojekt.pl · 2026-11-20 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |

@@ -18,7 +18,7 @@
 
 - **eg-domy.pl · współpracująca** · BLACK WEEK · Karta projektu<br>Rabat · - 400 PLN<br>Termin · 30.11.2026<br>„BLACK WEEK Gotowe projekty domów - 400 PLN w dniach 20-30.11.2026” · 25.11.2026 09:11<br>[Karta projektu](https://eg-domy.pl/projekty-gotowe/wyszukany-d64-wariant-ii/#swiper-wrapper-376e6c5a7cabf1aa)
 
-- **housecollection.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 10%<br>Zakres · na wszystkie projekty<br>„Posiadasz kartę Dużej Rodziny? W HouseCollection otrzymasz rabat 10% na wszystkie projekty” · 25.11.2026 09:43<br>[Strona warunków](https://housecollection.pl/#content)
+- **housecollection.pl · współpracująca** · Oferta · Strona warunków<br>Rabat · 10%<br>Zakres · na wszystkie projekty<br>„Posiadasz kartę Dużej Rodziny? W HouseCollection otrzymasz rabat 10% na wszystkie projekty” · 25.11.2026 20:34<br>[Strona warunków](https://housecollection.pl/#content)
 
 - **mgprojekt.com.pl · współpracująca** · Oferta · Strona warunków<br>Łączenie promocji · nie łączy się z innymi promocjami<br>„Przy składaniu zamówienia prosimy o informację o chęci skorzystania z Promocji. Oferta skierowana do Inwestorów bezpośrednio zamawiających w pracowni MG Projekt, oraz do wybranych przedstawicieli. Promocja ograniczona czasowo - trwa tylko od 20 do 30 listopada 2026 i nie łączy się z innymi promocjami! Promocją objęte są tylko projekty gotowe, w których nie są dokonywane żadne przeróbki w naszej pracowni.” · 25.11.2026 09:24<br>[Strona warunków](https://www.mgprojekt.com.pl/aktualnosci/promocja-cenowa#news)
 

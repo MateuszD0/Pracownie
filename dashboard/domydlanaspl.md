@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domydlanas.pl/)
 
-**Odczyty:** 24.11.2026 10:39 → 25.11.2026 09:43 (czas polski).
+**Odczyty:** 24.11.2026 10:39 → 25.11.2026 20:34 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-25%2Fdomydlanas.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fdomydlanas.pl%2F%0A%0AOpis%3A)
 
@@ -26,9 +26,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/)
 
-**Odczyty:** 24.11.2026 10:39 → 25.11.2026 09:44 (czas polski).
+**Odczyty:** 24.11.2026 10:39 → 25.11.2026 20:34 (czas polski).
 
 **Częściowe · 49 zgodnych tekstów**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t084334.304242-0000-5b518337-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t193406.801550-0000-8931936f-porownanie.html)
 

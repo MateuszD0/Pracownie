@@ -8,13 +8,13 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Komfortowy dom parterowy z gabinetem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Zamawiając projekt domu z kolekcji e-domy.pl, mogą Państwo zamówić dodatkowo 1 egzemplarz projektu architektoniczno-budowlanego (TOM \[…\]”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-25 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Zmian może dokonać wyłącznie osoba uprawniona. W przypadku chęci wprowadzenia innych przeróbek niż wymienione należy uzyskać zgodę pracowni…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
 | e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Dom namiotowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Jak wybrać idealny projekt domu? Podpowiadamy krok po kroku. Krok pierwszy – działka Zanim Państwo \[…\]”. | Potwierdzono ponownym odczytem |
 | domyzweranda.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | domyzweranda.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
+| domyzweranda.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Gwarancja ponadczasowego piękna”. | Do sprawdzenia |
 | dobredomy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Promocja do –300 zł na wybrane projekty”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | dobredomy.pl · 2026-11-25 | Nie odnotowano wcześniejszego komunikatu: „Do końca promocji pozostało:”. W sprawdzonym serwisie znaleziono również: „Domy W Promocji” | Do sprawdzenia |
 | archi-projekt.com.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Maksymalna ilość produktów w porównywarce Maksymalna ilość produktów w ulubionych”. | Potwierdzono ponownym odczytem |

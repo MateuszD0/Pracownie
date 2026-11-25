@@ -51,7 +51,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | projektyzwizja.pl<br>Idealny M3 | 5 729,00 zł | 25.11.2026 09:14 | [Karta projektu](https://projektyzwizja.pl/projekty-domow/193,idealny-m3) |
 | sej-pro.pl<br>SEJ-PRO 016 ENERGO | 5 097,00 zł brutto | 25.11.2026 09:14 | [Karta projektu](https://www.sej-pro.pl/projekt/sej-pro-016-energo/) |
 | studiokrajobrazy.pl<br>Projekt domu dwulokalowego bliźniaka do 130m2 z garażem. Studio 72 2L | 8 095,00 zł | 25.11.2026 09:14 | [Karta projektu](https://studiokrajobrazy.pl/projekt-domu-dwulokalowego-blizniaka-do-130m2-z-garazem-studio-72-2l) |
-| tipitom.space<br>TT 01 – „Merkury” – Murowany | 4 450,00 zł | 25.11.2026 09:15 | [Karta projektu](https://tipitom.space/produkt/tt-1-merkury-murowany/) |
+| tipitom.space<br>TT 01 – „Merkury” – Murowany | 4 450,00 zł | 25.11.2026 09:44 | [Karta projektu](https://tipitom.space/produkt/tt-1-merkury-murowany/) |
 | uarchitekta.pl<br>Projekt domu z poddaszem i garażem dwustanowiskowym uA441 | 6 290,00 zł | 25.11.2026 09:15 | [Karta projektu](https://www.uarchitekta.pl/projekt/uA441,6969) |
 ## Niewspółpracujące z nami
 
@@ -161,4 +161,4 @@ Zachowano grafikę przed zamknięciem okna. Kwoty i kody z obrazu wymagają odcz
 
 | Pracownia | Odczyt | Grafika | Strona |
 | --- | --- | --- | --- |
-| domydlanas.pl | 25.11.2026 09:10 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |
+| domydlanas.pl | 25.11.2026 09:43 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |

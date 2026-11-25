@@ -8,7 +8,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 24.11.2026 10:39<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
+| hbstudio.pl | Kosztorysy i materiały do pobrania | Obecna w zapisie · 25.11.2026 09:44<br>[Źródło](https://hbstudio.pl/projekt/groszek-dach-dwuspadowy/) |
 | hexagreen.pl | Zyskaj dostęp do eksperckiej wiedzy o domach wysoce energooszczędnych prosto na swoją skrzynkę mailową. Jako subskrybent zyskasz priorytetowy dostęp do premierowych projektów oraz specjalnych ofert promocyjnych, niedostępnych nigdzie indziej. To Twoje sprawdzone źródło inspiracji i technicznego wsparcia w jednym miejscu. | Obecna w zapisie · 25.11.2026 09:11<br>[Źródło](https://hexagreen.pl/) |
 | hexagreen.pl | Dodatki funkcjonalne | Obecna w zapisie · 25.11.2026 09:11<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |
 | hexagreen.pl | bezpłatną zgodę na zmiany projektowe | Obecna w zapisie · 25.11.2026 09:11<br>[Źródło](https://hexagreen.pl/produkt/projekt-domu-dom-pasywny-hg-01-premium/) |

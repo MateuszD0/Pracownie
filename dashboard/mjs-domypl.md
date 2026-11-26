@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-24 → 2026-11-25**
+**2026-11-25 → 2026-11-26**
 
 **Ten sam projekt:** [MJS-101](https://www.mjs-domy.pl/mjs-101/)
 
@@ -32,5 +32,5 @@ Powód braku odczytu: Przejściowy błąd HTTP 500
 
 Powód braku odczytu: Przejściowy błąd HTTP 500
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-25/2026-11-25-2026-11-25t193406.801550-0000-8931936f-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-porownanie.html)
 

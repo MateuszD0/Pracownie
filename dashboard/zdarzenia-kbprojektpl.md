@@ -6,59 +6,59 @@
 
 [kbprojekt.pl — wszystkie odczyty](kbprojektpl.md)
 
-## Zdarzenie 2842f4432d008dee
+## Zdarzenie 83473d197efcfab3
 
-**„\| 794 opinii \| stan na: 16.11.2026” → „\| 795 opinii \| stan na: 23.11.2026”.**
+**Pojawił się komunikat: „Dodaj do koszyka”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | \| <strong>794</strong> opinii \| stan na: <strong>16</strong>.11.2026 | \| <strong>795</strong> opinii \| stan na: <strong>23</strong>.11.2026 | [Otwórz stronę](https://www.kbprojekt.pl/#main) |
+| Komunikacja sprzedażowa · Przycisk / wezwanie do działania · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Dodaj do koszyka</strong> | [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main) |
 
-[Strona główna](https://www.kbprojekt.pl/#main)
+[Karta projektu](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#main)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 22.11.2026 11:46 | Po · 23.11.2026 09:34 |
+| Przed · 25.11.2026 09:23 | Po · 26.11.2026 09:23 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-dowod-17-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-dowod-10-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2F2842f4432d008dee%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+794+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+795+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2F2842f4432d008dee%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+794+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+795+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2F2842f4432d008dee%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+794+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+795+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F83473d197efcfab3%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F83473d197efcfab3%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F83473d197efcfab3%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23main%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 
-## Zdarzenie cafde36790523d54
+## Zdarzenie 3ebc70df1ae339e6
 
-**„\| 1,2 tys. opinii \| stan na: 16.11.2026” → „\| 1,2 tys. opinii \| stan na: 23.11.2026”.**
+**Pojawił się komunikat: „Dodaj do koszyka”.**
 
-**Potwierdzono ponownym odczytem** · Zmianę komunikatu potwierdzono w dodatkowym odczycie tej samej strony.
+**Do sprawdzenia** · Nie zakończono dodatkowego odczytu komunikacji.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Opis i argumenty oferty | \| 1,2 tys. opinii \| stan na: <strong>16</strong>.11.2026 | \| 1,2 tys. opinii \| stan na: <strong>23</strong>.11.2026 | [Otwórz stronę](https://www.kbprojekt.pl/#main) |
+| Funkcjonalności · Opcja na stronie · Karta projektu · Dodaj do koszyka | Nie odnotowano w tym odczycie | <strong>Dodaj do koszyka</strong> | [Otwórz stronę](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#:~:text=Dodaj%20do%20koszyka) |
 
-[Strona główna](https://www.kbprojekt.pl/#main)
+[Karta projektu](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912#:~:text=Dodaj%20do%20koszyka)
 
 Liczba źródłowych obserwacji: 1. Pełne zapisy pozostają w szczegółach pracowni.
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 22.11.2026 11:46 | Po · 23.11.2026 09:34 |
+| Przed · 25.11.2026 09:23 | Po · 26.11.2026 09:23 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-dowod-17-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-23/2026-11-23-2026-11-23t214455.494222-0000-d27d6008-dowod-17-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-dowod-10-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-dowod-10-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2Fcafde36790523d54%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2Fcafde36790523d54%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-23%2Fcafde36790523d54%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+16.11.2026%E2%80%9D+%E2%86%92+%E2%80%9E%7C+1%2C2+tys.+opinii+%7C+stan+na%3A+23.11.2026%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2F%23main%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F3ebc70df1ae339e6%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23%3A~%3Atext%3DDodaj%2520do%2520koszyka%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F3ebc70df1ae339e6%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23%3A~%3Atext%3DDodaj%2520do%2520koszyka%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-26%2F3ebc70df1ae339e6%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+kbprojekt.pl%0AZdarzenie%3A+Pojawi%C5%82+si%C4%99+komunikat%3A+%E2%80%9EDodaj+do+koszyka%E2%80%9D.%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.kbprojekt.pl%2Fprojekty-domow%2Fprojekt-domu-ragon-dm-6912%23%3A~%3Atext%3DDodaj%2520do%2520koszyka%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

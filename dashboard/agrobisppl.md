@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.agrobisp.pl/cgi-bin/store)
 
-**Odczyty:** brak odczytu → 26.11.2026 09:07 (czas polski).
+**Odczyty:** brak odczytu → 26.11.2026 09:46 (czas polski).
 
 **Niepełny zakres porównania**
 
@@ -24,9 +24,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.agrobisp.pl/cgi-bin/store?action=display&item=433)
 
-**Odczyty:** brak odczytu → 26.11.2026 09:07 (czas polski).
+**Odczyty:** brak odczytu → 26.11.2026 09:46 (czas polski).
 
 **Niepełny zakres porównania**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t080649.131938-0000-a846861b-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
 

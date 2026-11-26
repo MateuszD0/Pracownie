@@ -10,10 +10,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | --- | --- | --- |
 | ekoarchitekci.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Potwierdzono ponownym odczytem |
 | ekoarchitekci.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-26 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
 | e-domy.pl · 2026-11-26 | Nowa promocja w komunikacji: „Promocja — Dodatkowy egzemplarz za 1 zł” | Sprawdzono w serwisie |
 | e-domy.pl · 2026-11-26 | Nowa promocja w komunikacji: „Promocja — Kosztorys z przedmiarem za 149 zł” | Sprawdzono w serwisie |
 | e-domy.pl · 2026-11-26 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-26 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
 | domato.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Potwierdzono ponownym odczytem |
 | domato.pl · 2026-11-26 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
 | 3ddom.pl · 2026-11-26 | Zmiana komunikatu oferty: „Promocja od 19.11.2026 koniec za” → „Promocja od 21.11.2026 koniec za” | Sprawdzono w serwisie |

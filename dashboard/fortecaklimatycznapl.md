@@ -16,7 +16,7 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.fortecaklimatyczna.pl/)
 
-**Odczyty:** 25.11.2026 20:34 → 26.11.2026 09:46 (czas polski).
+**Odczyty:** 25.11.2026 20:34 → 26.11.2026 20:16 (czas polski).
 
 [Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-26%2Ffortecaklimatyczna.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.fortecaklimatyczna.pl%2F%0A%0AOpis%3A)
 
@@ -32,5 +32,5 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 Powód braku odczytu: Witryna ogranicza liczbę odczytów (429).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 

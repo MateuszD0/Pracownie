@@ -45,13 +45,13 @@ Strony porównania: **1** · [2](domoweklimatypl-2.md)
 | Zmiany wyglądu · Układ · Jak znaleźć projekt tani w budowie? – poradnik Domowe Klimaty | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>139 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/#reading-room-content) |
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>139 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/#our-partners-content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.11.2026 09:10 | Po · 26.11.2026 09:08 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -88,13 +88,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 | Zmiany wyglądu · Układ · ATRAKCYJNE RABATY | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>272 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
 | Zmiany wyglądu · Układ · treść strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>272 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#our-partners-content) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-25-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-25-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-25-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.11.2026 09:10 | Po · 26.11.2026 09:09 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-25-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-25-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-25-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -115,7 +115,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 
 Strony porównania: **1** · [2](domoweklimatypl-2.md)
 

@@ -30,13 +30,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Komunikacja sprzedażowa · Baner | <strong>paź14</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ekoarchitekci.pl/) |
 | Komunikacja sprzedażowa · Baner | <strong>eko Typowy 84 pierwotny</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://ekoarchitekci.pl/) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-13-przed.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-13-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-13-przed.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.11.2026 09:11 | Po · 26.11.2026 09:09 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-13-przed.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-13-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-13-przed.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -52,5 +52,5 @@ Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikat
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 

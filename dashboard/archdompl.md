@@ -45,13 +45,13 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Częściowe · 63 zgodnych tekstów**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-32-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-32-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-32-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.11.2026 09:09 | Po · 26.11.2026 09:07 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-32-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-32-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-32-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-32-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -71,5 +71,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 

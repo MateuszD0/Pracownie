@@ -32,13 +32,13 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 | Zmiany wyglądu · Położenie i rozmiar: treść strony (18 px w dół) | 300 × <strong>225</strong> px; położenie: 970 px od lewej, <strong>605</strong> px od góry | 300 × <strong>188</strong> px; położenie: 970 px od lewej, <strong>623</strong> px od góry | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 | Zmiany wyglądu · Położenie i rozmiar: treść strony (18 px w dół) | 300 × <strong>225</strong> px; położenie: 650 px od lewej, <strong>862</strong> px od góry | 300 × <strong>188</strong> px; położenie: 650 px od lewej, <strong>880</strong> px od góry | [Otwórz stronę](https://archetyp.pl/#ajax-load-more) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-22-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-22-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-22-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 25.11.2026 09:09 | Po · 26.11.2026 09:07 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-dowod-22-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-22-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-dowod-22-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -69,5 +69,5 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 

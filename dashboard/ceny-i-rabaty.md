@@ -39,6 +39,7 @@ Cena dotyczy jednego zapamiętanego projektu. Kody i rabaty pochodzą z publiczn
 | kupprojekt.pl<br>Dawid | 4 400,00 zł | 26.11.2026 09:11 | [Karta projektu](https://www.kupprojekt.pl/projekt/dawid/) |
 | lipinscy.pl<br>ANNECY 357,32m² | 15 370,00 zł | 26.11.2026 09:11 | [Karta projektu](https://lipinscy.pl/projekt/annecy/) |
 | mgprojekt.com.pl<br>Projekt domu Amber 5 | 5 167,50 zł | 26.11.2026 09:11 | [Karta projektu](https://www.mgprojekt.com.pl/amber-5) |
+| mjs-domy.pl<br>MJS-101 | 8 200,00 zł | 26.11.2026 20:17 | [Karta projektu](https://www.mjs-domy.pl/mjs-101/) |
 | modernhouse-projekty.pl<br>NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE | 5 184,00 zł | 26.11.2026 09:11 | [Karta projektu](https://modernhouse-projekty.pl/projekt/newhouse-761/) |
 | moj-dom-projekty.pl<br>Projekt domu z bali A-154 "DOM PIASKOWA" | 4 299,00 zł | 26.11.2026 09:11 | [Karta projektu](https://www.moj-dom-projekty.pl/projekt/A-154/bale) |
 | partero.pl<br>PARTERO-01 | 4 700,00 zł | 26.11.2026 09:12 | [Karta projektu](https://www.partero.pl/partero-01) |
@@ -164,4 +165,4 @@ Zachowano grafikę przed zamknięciem okna. Kwoty i kody z obrazu wymagają odcz
 
 | Pracownia | Odczyt | Grafika | Strona |
 | --- | --- | --- | --- |
-| domydlanas.pl | 26.11.2026 09:46 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |
+| domydlanas.pl | 26.11.2026 20:16 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |

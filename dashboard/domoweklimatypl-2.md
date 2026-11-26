@@ -46,7 +46,7 @@ Pozostałe strony tego porównania zawierają 20 różnic tej strony; użyj nume
 | Zmiany wyglądu · Położenie i rozmiar: 5 000,00 zł (9 px w lewo, 24 px w dół) | <strong>134</strong> × 22 px; położenie: <strong>1034</strong> px od lewej, <strong>703</strong> px od góry | <strong>125</strong> × 22 px; położenie: <strong>1025</strong> px od lewej, <strong>727</strong> px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/) |
 | Zmiany wyglądu · Układ · BEZPŁATNE DODATKI | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>272 px</strong> w <strong>górę</strong> | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#additional-information-content) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 
 Strony porównania: [1](domoweklimatypl.md) · **2**
 

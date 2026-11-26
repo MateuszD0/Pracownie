@@ -16,21 +16,17 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.mjs-domy.pl/)
 
-**Odczyty:** brak odczytu → brak odczytu (czas polski).
+**Odczyty:** 22.11.2026 11:46 → 26.11.2026 20:17 (czas polski).
 
-**Brak odczytu**
-
-Powód braku odczytu: Przejściowy błąd HTTP 500
+**Luka 4 dni · brak porównania z wczoraj**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.mjs-domy.pl/mjs-101/)
 
-**Odczyty:** 22.11.2026 11:47 → brak odczytu (czas polski).
+**Odczyty:** 22.11.2026 11:47 → 26.11.2026 20:17 (czas polski).
 
-**Brak odczytu**
+**Luka 4 dni · brak porównania z wczoraj**
 
-Powód braku odczytu: Przejściowy błąd HTTP 500
-
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t084619.962939-0000-80e31c16-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-26/2026-11-26-2026-11-26t191642.899907-0000-0041b40a-porownanie.html)
 

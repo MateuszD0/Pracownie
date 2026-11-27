@@ -22,7 +22,7 @@ Brak udokumentowanego przejścia między dopłatą, dostępnością i wliczeniem
 
 ## Widoczność tej samej oferty
 
-Porównano położenie na 161 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 40.
+Porównano położenie na 162 stronach. Ten sam komunikat ofertowy udało się zlokalizować w obu dniach na 40.
 
 ## Od baneru do ceny projektu
 

@@ -28,7 +28,7 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | domy21.pl | PROMOCJA -10% na wybrane projekty | Obecna w zapisie · 27.11.2026 09:05<br>[Źródło](https://domy21.pl/) |
 | domy21.pl | Bezpłatne wyceny, polecane technologie, energooszczędne rozwiązania. | Obecna w zapisie · 27.11.2026 09:05 · 27.11.2026 09:05<br>[Źródło](https://domy21.pl/) · [Źródło](https://domy21.pl/projekty/stodoly/) |
 | domy21.pl | Odkryj najpopularniejsze etui na iPhone’a 13! Podnieś poziom swojego telefonu dzięki coque iphone 13 Le Plus Populaire, elegancki i trwały dodatek łączący styl i ochronę. | Obecna w zapisie · 27.11.2026 09:05<br>[Źródło](https://domy21.pl/projekty/stodoly/) |
-| domydlanas.pl | https://domydlanas.pl/images/rabat-desktop.png | Obecna w zapisie · 27.11.2026 09:05 · 24.11.2026 10:39<br>[Źródło](https://domydlanas.pl/) · [Źródło](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/) |
+| domydlanas.pl | https://domydlanas.pl/images/rabat-desktop.png | Obecna w zapisie · 27.11.2026 09:40 · 24.11.2026 10:39<br>[Źródło](https://domydlanas.pl/) · [Źródło](https://domydlanas.pl/projekty-domow/domy-parterowe/n55-g2/) |
 | domywstylu.pl | Bezpłatna ANALIZA DZIAŁKI | Obecna w zapisie · 27.11.2026 09:05<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Atrakcyjne PROMOCJE | Obecna w zapisie · 27.11.2026 09:05<br>[Źródło](https://www.domywstylu.pl/) |
 | domywstylu.pl | Bezpłatna WYSYŁKA W 24H | Obecna w zapisie · 27.11.2026 09:05<br>[Źródło](https://www.domywstylu.pl/) |

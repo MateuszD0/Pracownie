@@ -4,7 +4,7 @@
 
 **2026-11-26 → 2026-11-27** · strona główna i ta sama karta projektu.
 
-**Porównano obie strony: 95/112 pracowni.** · [Braki porównania (17)](#braki-porównania)
+**Porównano obie strony: 96/112 pracowni.** · [Braki porównania (16)](#braki-porównania)
 
 ## Najważniejsze zmiany dnia
 
@@ -25,11 +25,11 @@ Obniżki **1** · podwyżki **0** · porównane ceny **69/112 projektów**.
 
 <!-- delivery:2026-11-27 -->Planowany start skanu: 09:00 · Pierwsza publikacja: 09:37 · E-mail: wysyłka niewłączona · czas polski.<!-- /delivery -->
 
-Dzisiejsze odczyty: 203/224 stron (w tym częściowe: 13). Bez odczytu: 21. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
+Dzisiejsze odczyty: 204/224 stron (w tym częściowe: 13). Bez odczytu: 20. Porównanie dzień do dnia wymaga także zapisu z wczoraj.
 
 Dla 4 stron dostępny jest tekst, ale ocena grafiki jest ograniczona przez brak czcionek.
 
-Odczyty: 27.11.2026 09:03 – 27.11.2026 09:10, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
+Odczyty: 27.11.2026 09:03 – 27.11.2026 09:41, czas polski. Późniejsze uzupełnienia nie są porannym skanem.
 
 </details>
 
@@ -83,7 +83,7 @@ Zachowano grafikę przed zamknięciem okna. Kwoty i kody z obrazu wymagają odcz
 
 | Pracownia | Odczyt | Grafika | Strona |
 | --- | --- | --- | --- |
-| domydlanas.pl | 27.11.2026 09:05 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |
+| domydlanas.pl | 27.11.2026 09:40 | [Otwórz grafikę](https://domydlanas.pl/images/black_week_2026_600x645.jpg) | [Strona](https://domydlanas.pl/) |
 
 ## Zmiany oferty i komunikacji
 
@@ -152,9 +152,9 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 
 ## Braki porównania
 
-**17 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
+**16 pracowni bez pełnego porównania obu stron.** Brak porównania nie oznacza „bez zmian”.
 
-### Odczyty do ponowienia lub sprawdzenia · 15 stron
+### Odczyty do ponowienia lub sprawdzenia · 14 stron
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
@@ -166,12 +166,12 @@ Najważniejsze zdarzenia; datowane teksty i zrzuty pod linkiem „Przed / po”.
 | [fortecaklimatyczna.pl](dashboard/fortecaklimatycznapl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [galeriadomow.pl](dashboard/galeriadomowpl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [galeriadomow.pl](dashboard/galeriadomowpl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Błąd komunikacji HTTP/2 z serwerem witryny. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
-| [hbstudio.pl](dashboard/hbstudiopl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Witryna ogranicza liczbę odczytów (429). | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [housecollection.pl](dashboard/housecollectionpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: housecollection.pl; Wykryto niezaładowane obrazy; porównanie wizualne może być niepełne. | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [housecollection.pl](dashboard/housecollectionpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: housecollection.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [machonarchitekci.pl](dashboard/machonarchitekcipl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: machonarchitekci.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
+| [machonarchitekci.pl](dashboard/machonarchitekcipl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: machonarchitekci.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 
-[Dalsze strony 13–15](dashboard/odczyty-repair-2.md)
+[Dalsze strony 13–14](dashboard/odczyty-repair-2.md)
 
 ### Dostęp lub adres wymaga potwierdzenia · 8 stron
 
@@ -329,9 +329,16 @@ Historia zdarzeń (1748): [1](dashboard/historia-1.md) · [2](dashboard/historia
 - **sprytnaoaza.pl**: Realizuj zakup · od 2026-11-16; następna próba: 2026-11-28
 - **dobredomy.pl**: Promocja do –300 zł na wybrane projekty · od 2026-10-28; następna próba: 2026-11-28
 - **mgprojekt.com.pl**: Promocja w MGPROJEKT · od 2026-10-30; następna próba: 2026-11-28
+
+<details><summary>Wcześniejsze wydania tego dnia</summary>
+
+- [27.11.2026 09:36](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-porownanie.html)
+
+</details>
+
 <details><summary>Zakres odczytów i techniczne obserwacje</summary>
 
-Strony główne: 99/112; stałe karty: 95/112; łącznie 194/224 stron z porównaniem.
+Strony główne: 99/112; stałe karty: 96/112; łącznie 195/224 stron z porównaniem.
 
 Pełna lista różnic, również przesunięć i etykiet, jest na stronach pracowni. Nie są one liczbą zdarzeń biznesowych.
 
@@ -350,17 +357,17 @@ różnice obrazu bez jednoznacznego opisu: **14 pracowni**.
 
 | Pracownia / strona | Co wykryto | Podstawa |
 | --- | --- | --- |
-| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-28-po.jpg) |
-| [archdom.pl](dashboard/archdompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-29-po.jpg) |
-| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-31-po.jpg) |
-| [coolhouses.studio](dashboard/coolhousesstudio.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-33-po.jpg) |
-| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-34-po.jpg) |
-| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#strona-główna) · główna | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-35-po.jpg) |
+| [alexanderstudio.pl](dashboard/alexanderstudiopl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-28-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-28-po.jpg) |
+| [archdom.pl](dashboard/archdompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-29-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-29-po.jpg) |
+| [archi-projekt.com.pl](dashboard/archi-projektcompl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-31-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-31-po.jpg) |
+| [coolhouses.studio](dashboard/coolhousesstudio.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-33-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-33-po.jpg) |
+| [dom-projekt.pl](dashboard/dom-projektpl.md#strona-główna) · główna | Inna kolejność lub aktywny slajd istniejących grafik | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-34-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-34-po.jpg) |
+| [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#strona-główna) · główna | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-35-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-35-po.jpg) |
 | [domdlaciebie.com.pl](dashboard/domdlaciebiecompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
-| [ecodomy.pl](dashboard/ecodomypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-36-po.jpg) |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-37-po.jpg) |
-| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-38-po.jpg) |
-| [lipinscy.pl](dashboard/lipinscypl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-dowod-40-po.jpg) |
+| [ecodomy.pl](dashboard/ecodomypl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-36-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#strona-główna) · główna | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-37-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-37-po.jpg) |
+| [kowalscypracownia.pl](dashboard/kowalscypracowniapl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-38-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-38-po.jpg) |
+| [lipinscy.pl](dashboard/lipinscypl.md#karta-projektu) · stały projekt | Zmieniła się zawartość obrazu: górna część strony | Różnica zrzutów; przyczyna niepotwierdzona. [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-40-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-dowod-40-po.jpg) |
 | [modernhouse-projekty.pl](dashboard/modernhouse-projektypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [moj-dom-projekty.pl](dashboard/moj-dom-projektypl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
 | [mtmstyl.com.pl](dashboard/mtmstylcompl.md#karta-projektu) · stały projekt | Różnica zrzutów: górna część strony — przyczyna nieustalona | Różnica zrzutów; przyczyna niepotwierdzona.  |
@@ -472,7 +479,7 @@ Kliknij pracownię, aby zobaczyć porównanie obu stron i dowody. „Bez ustalon
 | [archdesign.pl](dashboard/archdesignpl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |
 | [archdom.pl](dashboard/archdompl.md) | Bez zmian w zapisanej komunikacji | Bez ustalonej zmiany · obserwacje w szczegółach · obraz do obejrzenia |
 | [archido.pl](dashboard/archidopl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Nie ustalono poprawnej karty projektu. |
-| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Brak odczytu · Witryna ogranicza liczbę odczytów (429). |
+| [hbstudio.pl](dashboard/hbstudiopl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez zmian w zapisanej komunikacji |
 | [hexagreen.pl](dashboard/hexagreenpl.md) | Bez ustalonej zmiany · obserwacje w szczegółach | Bez ustalonej zmiany · obserwacje w szczegółach |
 | [kbprojekt.pl](dashboard/kbprojektpl.md) | Brak odczytu · Witryna blokuje dostęp ze skanera (403). | Brak odczytu · Witryna blokuje dostęp ze skanera (403). |
 | [klimatdrewna.pl](dashboard/klimatdrewnapl.md) | Bez zmian w zapisanej komunikacji | Bez zmian w zapisanej komunikacji |

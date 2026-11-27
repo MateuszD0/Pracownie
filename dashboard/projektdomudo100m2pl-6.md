@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 110 różnic tej strony; użyj num
 | Zmiany wyglądu · Układ · Dach i wymiary | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#post-8666) |
 | Zmiany wyglądu · Układ · Materiały i etapy budowy domu RNS100C | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-porownanie.html)
 
 Strony porównania: [1](projektdomudo100m2pl.md) · [2](projektdomudo100m2pl-2.md) · [3](projektdomudo100m2pl-3.md) · [4](projektdomudo100m2pl-4.md) · [5](projektdomudo100m2pl-5.md) · **6** · [7](projektdomudo100m2pl-7.md) · [8](projektdomudo100m2pl-8.md)
 

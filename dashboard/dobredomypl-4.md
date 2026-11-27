@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 57 różnic tej strony; użyj nume
 | Zmiany wyglądu · Układ · ODPOWIEDZ | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 | Zmiany wyglądu · Układ · element strony | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>74 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.dobredomy.pl/projekt/jantarVII/) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t080327.399029-0000-19ad6124-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-porownanie.html)
 
 Strony porównania: [1](dobredomypl.md) · [2](dobredomypl-2.md) · [3](dobredomypl-3.md) · **4** · [5](dobredomypl-5.md)
 

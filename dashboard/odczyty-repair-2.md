@@ -6,5 +6,4 @@
 
 | Pracownia / strona | Stan odczytu | Co dalej |
 | --- | --- | --- |
-| [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [projektymalachit.pl](projektymalachitpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |

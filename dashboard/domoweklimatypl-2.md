@@ -32,7 +32,7 @@ Pozostałe strony tego porównania zawierają 20 różnic tej strony; użyj nume
 | --- | --- | --- | --- |
 | Zmiany wyglądu · Położenie i rozmiar: Podobny projekt domu Akord 12 128,08 m² – wizualizacja (18 px w lewo) | <strong>267</strong> × <strong>150</strong> px; położenie: <strong>668</strong> px od lewej, 5343 px od góry | <strong>258</strong> × <strong>144</strong> px; położenie: <strong>650</strong> px od lewej, 5343 px od góry | [Otwórz stronę](https://www.domoweklimaty.pl/projekt/projekt-domu-akord-14-t/#owl-silimar-projects) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
 
 Strony porównania: [1](domoweklimatypl.md) · **2**
 

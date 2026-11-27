@@ -56,7 +56,7 @@ Strony porównania: [1](projektdomudo100m2pl.md) · [2](projektdomudo100m2pl-2.m
 
 Pozostałe strony tego porównania zawierają 77 różnic tej strony; użyj numerów stron powyżej.
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
 
 Strony porównania: [1](projektdomudo100m2pl.md) · [2](projektdomudo100m2pl-2.md) · [3](projektdomudo100m2pl-3.md) · **4** · [5](projektdomudo100m2pl-5.md) · [6](projektdomudo100m2pl-6.md) · [7](projektdomudo100m2pl-7.md) · [8](projektdomudo100m2pl-8.md)
 

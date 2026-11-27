@@ -56,7 +56,7 @@ Pozostałe strony tego porównania zawierają 110 różnic tej strony; użyj num
 | Zmiany wyglądu · Układ · RNS100C – projekt domu 100 m² z dachem czterospadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brmGalleryThumbs) |
 | Zmiany wyglądu · Układ · Pokaż kolejną wizualizację domu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brmGalleryThumbs) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t084042.616526-0000-0009ae51-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
 
 Strony porównania: [1](projektdomudo100m2pl.md) · [2](projektdomudo100m2pl-2.md) · [3](projektdomudo100m2pl-3.md) · [4](projektdomudo100m2pl-4.md) · [5](projektdomudo100m2pl-5.md) · [6](projektdomudo100m2pl-6.md) · **7** · [8](projektdomudo100m2pl-8.md)
 

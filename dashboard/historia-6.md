@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
+| e-domy.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „Zmian może dokonać wyłącznie osoba uprawniona. W przypadku chęci wprowadzenia innych przeróbek niż wymienione należy uzyskać zgodę naszej p…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „Jak autorzy projektów E-DOMY.PL zapraszamy Klientów indywidualnych do skorzystania z PROMOCJI:”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | „Wychodząc naprzeciw potrzebom, oferujemy również projekty z propozycją aranżacji wnętrz. Wybierając taką opcj…” → „Dostępne są również projekty z propozycją aranżacji wnętrz. Wybierając taką opcję, można liczyć na:”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „Promocja — Kosztorys z przedmiarem za 149 zł” | Sprawdzono w serwisie |
+| e-domy.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „UZBROJENIE DZIAŁKI BUDOWLANEJ KROK PO KROKU – FORMALNOŚCI, KOSZTY I MEDIA”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Projekty (4) PROJEKTY NA ZGŁOSZENIE DO 70M2”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „– u nas kupujesz bez pośredników – odpowiedz na proste pytanie i zapłać mniej”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Oczywiście realizacja tego idealnego scenariusza nie zawsze jest możliwa, dlatego usytuowanie domu względem s…” → „Realizacja tego idealnego scenariusza nie zawsze jest możliwa, dlatego usytuowanie domu względem stron świata…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „Podsumowując, aby nanieść wymagane zmiany adaptacyjne, potrzebne będą dokumenty zawierające:” → „Aby nanieść wymagane zmiany adaptacyjne, potrzebne będą dokumenty zawierające:”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Nowy dodatek lub pakiet: „Zmian może dokonać wyłącznie osoba uprawniona. W przypadku chęci wprowadzenia innych przeróbek niż wymienione należy uzyskać zgodę pracowni. Taką zgodę wystawia się bezpłatnie na życzenie inwestora, pod warunkiem że opi…” | Sprawdzono w serwisie |
+| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „Promocyjne dodatki” | Sprawdzono w serwisie |
+| e-domy.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „1. ZAKUP PROJEKTU Z DODATKOWYM RABATEM 10% - "KUPTANIEJ" Aby skorzytać z oferty należy wpisać kod rabatowy "KUPTANIEJ" podczas zamawiania p…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Projekty (17) PROJEKTY DOMÓW Z PŁASKIM DACHEM”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Nie odnotowano wcześniejszego komunikatu: „Zapraszamy do szczegółowego zapoznania się z naszymi projektami gotowych domów. Plany budynków dostępne są w katalogu online, który umożliw…”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | „Min. szer.działki23,6 m” → „min. szerokość działki: 23,6 m”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „PROJEKTY DO 70M2 ZABUDOWY 4”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | „projektu terenu i jego zagospodarowania,” → „projektu terenu i jego zagospodarowania”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Nowa promocja w komunikacji: „– u nas kupujesz bez pośredników i i zyskujesz dodatki w promocyjnej cenie” | Sprawdzono w serwisie |
+| e-domy.pl · 2026-11-24 | „E-domy.pl to odpowiedź na wzorce z dalekiej przeszłości, które mieszają się ze współczesną architekturą, przy…” → „E-domy.pl to odpowiedź na wzorce z dalekiej przeszłości, które mieszają się ze współczesną architekturą, przy…”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „min. szerokość działki: 17,1 m”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Nowość”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-24 | „Koncepcje, które przedstawiamy to także plany uwzględniające parametry energetyczne. Rozwój nowych technologi…” → „Koncepcje przedstawiane przez e-domy.pl to także plany uwzględniające parametry energetyczne. Rozwój nowych t…”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-24 | „Nasze projekty energooszczędnych domów to przede wszystkim zastosowanie rozwiązań, które mają zapewnić inwest…” → „Projekty energooszczędnych domów to przede wszystkim zastosowanie rozwiązań, które mają zapewnić inwestorom p…”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-24 | „południowo-zachodnia lokalizacja tarasu zapewni mieszkańcom słońce w tej części domu przez cały dzień.” → „południowo-zachodnia lokalizacja tarasu zapewni słońce w tej części domu przez cały dzień.”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Nowoczesny dom z płaskim dachem”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „Projekty (33) PROJEKTY DOMÓW BEZ GARAŻU”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „PROJEKTY DOMÓW PARTEROWYCH 107” → „Projekty (106) PROJEKTY DOMÓW PARTEROWYCH”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Pojawił się komunikat: „min. szerokość działki: 20,0 m”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | Nowy dodatek lub pakiet: „SPRAWDŹ DODATKI” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-24 | „PROJEKTY DOMÓW Z PODDASZEM 94” → „Projekty (91) PROJEKTY DOMÓW Z PODDASZEM”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „możliwość inspiracji naszymi propozycjami rozwiązań;” → „możliwość inspiracji zaproponowanymi rozwiązaniami;”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „Za pomocą specjalnie przygotowanych filtrów wyszukiwarki, inwestorzy są w stanie dopasować własne potrzeby i…” → „Za pomocą specjalnie przygotowanych filtrów wyszukiwarki inwestorzy są w stanie dopasować własne potrzeby i w…”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-24 | „Jak widać, możliwości wyboru projektu domu są ogromne. Jak zatem wybrać ten jeden właściwy, który spełni ocze…” → „Możliwości wyboru projektu domu są ogromne. Jak zatem wybrać ten jeden właściwy, który spełni oczekiwania? Po…”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-24 | Pojawił się komunikat: „Relacja oparta na zaufaniu”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „Do porównania”. | Do sprawdzenia |
-| domyzweranda.pl · 2026-11-24 | Pojawił się komunikat: „Kompletna dokumentacja bez kompromisów”. | Potwierdzono ponownym odczytem |
-| domyzweranda.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „Parterowy Klasyczny 138”. | Do sprawdzenia |
-| domy21.pl · 2026-11-24 | Nowa promocja w komunikacji: „PROMOCJA -10% na wybrane projekty” | Sprawdzono w serwisie |
-| dompp.pl · 2026-11-24 | Pojawił się komunikat: „GOTOWY NA SWÓJ WYMARZONY DOM?”. | Potwierdzono ponownym odczytem |
-| archstodola.pl · 2026-11-24 | Pojawił się komunikat: „STODOŁA CHALET Z BALA”. | Do sprawdzenia |
-| archstodola.pl · 2026-11-24 | W nowym zapisie nie ma komunikatu: „STODOŁA Z WIDOKIEM”. | Do sprawdzenia |
-| 3ddom.pl · 2026-11-24 | Zmiana komunikatu oferty: „Promocja od 15.11.2026 koniec za” → „Promocja od 17.11.2026 koniec za” | Sprawdzono w serwisie |
-| lipinscy.pl · 2026-11-23 | „od 13 do 23 listopada 2026” → „od 23 do 30 listopada 2026”. | Potwierdzono ponownym odczytem |
-| lipinscy.pl · 2026-11-23 | Pojawił się komunikat: „BLACK FRIDAY - BLACK WEEK 2026 - PROJEKT TWOJEGO DOMU O 600 ZŁ TANIEJ”. | Potwierdzono ponownym odczytem |
-| lipinscy.pl · 2026-11-23 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA NA PROJEKTY DOMÓW PONAD 200 M²”. W sprawdzonym serwisie znaleziono również: „Rozwiązania do domu w promocji Hörmann” | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-23 | „\| 794 opinii \| stan na: 16.11.2026” → „\| 795 opinii \| stan na: 23.11.2026”. | Potwierdzono ponownym odczytem |

@@ -1,6 +1,6 @@
 <!-- pracownie-monitor:v1 -->
 
-# Odczyty do ponowienia lub sprawdzenia · 2026-11-26
+# Odczyty do ponowienia lub sprawdzenia · 2026-11-27
 
 [← Odprawa dnia](../DASHBOARD.md)
 

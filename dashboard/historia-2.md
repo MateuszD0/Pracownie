@@ -8,10 +8,10 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Zamawiając projekt domu z kolekcji e-domy.pl, mogą Państwo zamówić dodatkowo 1 egzemplarz projektu architektoniczno-budowlanego (TOM \[…\]”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Dom namiotowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Jak wybrać idealny projekt domu? Podpowiadamy krok po kroku. Krok pierwszy – działka Zanim Państwo \[…\]”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-28 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „SPRAWDŹ PROMOCJĘ”. | Do sprawdzenia |
 | dompp.pl · 2026-11-28 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
 | domato.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Potwierdzono ponownym odczytem |
 | domato.pl · 2026-11-28 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |

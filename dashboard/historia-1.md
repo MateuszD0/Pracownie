@@ -24,12 +24,12 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 | hexagreen.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
 | hexagreen.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Dowiedz się więcej”. | Do sprawdzenia |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Mały dom z 2 pokojami i garderobą”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „SPRAWDŹ PROMOCJĘ”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma etykiety: „Promocja”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-28 | Nie odnotowano wcześniejszego komunikatu: „Zamawiając projekt domu z pracowni e-domy.pl, mogą Państwo zamówić kosztorys budowlany wraz z przedmiarem robót \[…\]”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Prosty dom z dużym garażem”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-28 | Pojawił się komunikat: „– u nas kupujesz bez pośredników - zyskaj 15% z kodem BLACKFRIDAY”. | Potwierdzono ponownym odczytem |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Pomoc w doborze projektu”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
 | e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Komfortowy dom parterowy z gabinetem”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Zamawiając projekt domu z kolekcji e-domy.pl, mogą Państwo zamówić dodatkowo 1 egzemplarz projektu architektoniczno-budowlanego (TOM \[…\]”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | Nie odnotowano wcześniejszego komunikatu: „Zamawiając projekt domu z pracowni e-domy.pl, mogą Państwo zamówić kosztorys budowlany wraz z przedmiarem robót \[…\]”. W sprawdzonym serwisie znaleziono również: „Rabat 10%” | Do sprawdzenia |

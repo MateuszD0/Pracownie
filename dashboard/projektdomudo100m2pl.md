@@ -70,13 +70,13 @@ Porównanie: 27.11.2026 09:09 → 28.11.2026 10:04 (czas polski). Różnica zrzu
 | Zmiany wyglądu · Układ · Kosztorys budowy projektu RNS100C | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#rns100c-kosztorys-box) |
 | Zmiany wyglądu · Układ · RNS100G – projekt 100 m² z garażem | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-24-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-dowod-24-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-dowod-24-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
 | Przed · 27.11.2026 09:09 | Po · 28.11.2026 10:04 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-24-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-dowod-24-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-dowod-24-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
@@ -98,7 +98,7 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-porownanie.html)
 
 Strony porównania: **1** · [2](projektdomudo100m2pl-2.md)
 

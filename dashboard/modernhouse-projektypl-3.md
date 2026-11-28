@@ -56,7 +56,7 @@ Strony porównania: [1](modernhouse-projektypl.md) · [2](modernhouse-projektypl
 | Zmiany wyglądu · Układ · NewHouse 761 w1 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>411 px</strong> w <strong>lewo,</strong> <strong>286 px w dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#swiper-wrapper-8ae758172110aa011) |
 | Zmiany wyglądu · Układ · Dodaj do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-porownanie.html)
 
 Strony porównania: [1](modernhouse-projektypl.md) · [2](modernhouse-projektypl-2.md) · **3** · [4](modernhouse-projektypl-4.md)
 

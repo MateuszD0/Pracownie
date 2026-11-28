@@ -8,5 +8,5 @@
 | --- | --- | --- |
 | [opushome.pl](opushomepl.md#strona-główna)<br>Strona główna | **Odczyt nieudany**<br>Strona lub kontrolka nie odpowiedziała w limicie czasu. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
 | [opushome.pl](opushomepl.md#karta-projektu)<br>Karta projektu | **Odczyt nieudany**<br>Strona lub kontrolka nie odpowiedziała w limicie czasu. | Ponowić odczyt i sprawdzić przyczynę, jeśli problem się utrzyma. |
-| [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl; Wykryto niezaładowane obrazy; porównanie wizualne może być niepełne. | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
+| [projektymalachit.pl](projektymalachitpl.md#strona-główna)<br>Strona główna | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |
 | [projektymalachit.pl](projektymalachitpl.md#karta-projektu)<br>Karta projektu | **Odczyt częściowy**<br>Niezaładowane obrazy/style z hostów: www.projektymalachit.pl | Naprawić niepełny odczyt; dostępne fragmenty nie wystarczają do oceny całej strony. |

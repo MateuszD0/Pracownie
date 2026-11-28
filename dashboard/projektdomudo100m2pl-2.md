@@ -56,7 +56,7 @@ Strony porównania: [1](projektdomudo100m2pl.md) · **2**
 | Zmiany wyglądu · Układ · RNS76C – dach czterospadowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
 | Zmiany wyglądu · Układ · 08. Komin System kominowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t093505.644058-0000-b196a168-porownanie.html)
 
 Strony porównania: [1](projektdomudo100m2pl.md) · **2**
 

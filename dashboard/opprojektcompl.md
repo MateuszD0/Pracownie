@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-26 → 2026-11-27**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [PROJEKT LIVIA](https://opprojekt.com.pl/projekt-livia)
 
-**13 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,59 +16,31 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/)
 
-**Odczyty:** 26.11.2026 09:11 → 27.11.2026 09:08 (czas polski).
+**Odczyty:** 27.11.2026 09:08 → 28.11.2026 10:03 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fopprojekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopprojekt.com.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fopprojekt.com.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopprojekt.com.pl%2F%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | Nie odnotowano w tym odczycie | <strong>Nowoczesny i funkcjonalny dom parterowy – poznaj Projekt Mila, nowość w naszej bazie! 27 listopada 2026 Zapraszamy do wyboru Projektu Mila i zrealizowania swoich marzeń o własnym, komfortowym domu.... Czytaj więcej</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_193_content) |
-| Komunikacja sprzedażowa · Przycisk / wezwanie do działania | <strong>Idziemy za ciosem! Poznaj projekt Luna 3 z zachwycającą otwartą przestrzenią nad salonem 23 października 2026 Zobacz projekt w nowej wersji rysunkowej.... Czytaj więcej</strong> | Nie odnotowano w tym odczycie | [Otwórz stronę](https://opprojekt.com.pl/) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
-| Zmiany wyglądu · Układ · bullet | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>79 px</strong> w <strong>prawo</strong> | [Otwórz stronę](https://opprojekt.com.pl/#element_89_content) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-12-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-12-po.jpg)
+### Grafika i wygląd — różnica do obejrzenia
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+**Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-| Przed · 26.11.2026 09:11 | Po · 27.11.2026 09:08 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-12-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-12-po.jpg) |
+Porównanie: 27.11.2026 09:08 → 28.11.2026 10:03 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+[Otwórz stronę](https://opprojekt.com.pl/)
 
-</details>
 
-<details><summary>Obserwacje pomocnicze (1) — nie są ustaloną zmianą oferty</summary>
-
-- Zmiana adresu lub zestawu plików; nie ustalono zmiany wyglądu grafiki.
-
-Przykłady z zapisów:
-
-- https://opprojekt.com.pl/files/dynamicContent/sites/yaqkzd/images/pl/webpage\_1/mww1gpz0/element\_89/11/rwdMode\_1/1198x653/indywidualny-proje… → brak
-
-Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
-
-</details>
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://opprojekt.com.pl/projekt-livia)
 
-**Odczyty:** 26.11.2026 09:11 → 27.11.2026 09:08 (czas polski).
+**Odczyty:** 27.11.2026 09:08 → 28.11.2026 10:03 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fopprojekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopprojekt.com.pl%2Fprojekt-livia%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fopprojekt.com.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fopprojekt.com.pl%2Fprojekt-livia%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 

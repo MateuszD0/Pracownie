@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-26 → 2026-11-27**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [Projekt domu 70 m² bez pozwolenia + instrukcja budowy domu krok po kroku – Pakiet PRO](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
@@ -16,9 +16,9 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.zbudujsamdom.pl/)
 
-**Odczyty:** 26.11.2026 09:14 → 27.11.2026 09:10 (czas polski).
+**Odczyty:** 27.11.2026 09:10 → 28.11.2026 10:06 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fzbudujsamdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fzbudujsamdom.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2F%0A%0AOpis%3A)
 
 **Bez zmian w zapisanej komunikacji**
 
@@ -26,25 +26,24 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://www.zbudujsamdom.pl/produkt/projekt-domu-70m2-bez-pozwolenia-instrukcja-budowy/)
 
-**Odczyty:** 26.11.2026 09:14 → 27.11.2026 09:10 (czas polski).
+**Odczyty:** 27.11.2026 09:10 → 28.11.2026 10:06 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fzbudujsamdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fzbudujsamdom.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fwww.zbudujsamdom.pl%2Fprodukt%2Fprojekt-domu-70m2-bez-pozwolenia-instrukcja-budowy%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-<details><summary>Obserwacje pomocnicze (3) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (2) — nie są ustaloną zmianą oferty</summary>
 
 - Zmieniła się wyłącznie liczba odsłon lub oglądających; treść komunikatu pozostała taka sama.
 
 Przykłady z zapisów:
 
-- 39 osób przegląda ten projekt teraz → 17 osób przegląda ten projekt teraz
-- 43 osób przegląda ten projekt teraz → 18 osób przegląda ten projekt teraz
-- 21 osób przegląda ten projekt teraz → 17 osób przegląda ten projekt teraz
+- 17 osób przegląda ten projekt teraz → 13 osób przegląda ten projekt teraz
+- 18 osób przegląda ten projekt teraz → 29 osób przegląda ten projekt teraz
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 

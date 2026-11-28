@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-19 → 2026-11-20**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [NewHouse 761 projekt parterowego domu o powierzchni 133 m2, 3 sypialnie, duży zadaszony taras \| MODERN HOUSE](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
-**80 zmian w zapisanym zakresie.**
+**94 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -18,25 +18,39 @@ Strony porównania: [1](modernhouse-projektypl.md) · [2](modernhouse-projektypl
 
 [Otwórz stronę źródłową](https://modernhouse-projekty.pl/)
 
-**Odczyty:** 19.11.2026 11:54 → 20.11.2026 09:25 (czas polski).
+**Odczyty:** 27.11.2026 09:07 → 28.11.2026 10:02 (czas polski).
 
-Pozostałe strony tego porównania zawierają 70 różnic tej strony; użyj numerów stron powyżej.
+**Bez zmian w zapisanej komunikacji**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://modernhouse-projekty.pl/projekt/newhouse-761/)
 
-**Odczyty:** 19.11.2026 11:54 → 20.11.2026 09:26 (czas polski).
+**Odczyty:** 27.11.2026 09:08 → 28.11.2026 10:03 (czas polski).
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Zmiany wyglądu · Kolor tła: Go to slide 2 | <strong>przezroczysty</strong> | <strong>#D44222</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#warianty-produktu) |
-| Zmiany wyglądu · Układ · NewHouse 761 w2 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>411 px</strong> w <strong>lewo,</strong> <strong>34 px w dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#swiper-wrapper-cd95a92bd283222c) |
-| Zmiany wyglądu · Rozmiar: baner | 1280 × <strong>206</strong> px; położenie: 0 px od lewej, 158 px od góry | 1280 × <strong>240</strong> px; położenie: 0 px od lewej, 158 px od góry | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
-| Zmiany wyglądu · Układ · NewHouse 761 w1 | <strong>Pozycja</strong> w <strong>poprzednim</strong> <strong>zapisie</strong> | <strong>411 px</strong> w <strong>lewo,</strong> <strong>33 px w dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#swiper-wrapper-cd95a92bd283222c) |
-| Zmiany wyglądu · Kolor tła: Go to slide 1 | <strong>#D44222</strong> | <strong>przezroczysty</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#warianty-produktu) |
+| Zmiany wyglądu · Układ · Widok 3D / 360° | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · NewHouse 725 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>286 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#swiper-wrapper-c3b3236e9e54c78a) |
+| Zmiany wyglądu · Układ · Zapytaj o możliwość modyfikacji | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Dodaj do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Cena projektu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Komfortowy dom dla rodziny 2+2 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>71 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Go to slide 4 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>286 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#warianty-produktu) |
+| Zmiany wyglądu · Układ · Dodaj do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Sprawdzimy to dla Ciebie bezpłatnie! | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Zapytaj o projekt | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>71 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Dane techniczne | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#section-3) |
+| Zmiany wyglądu · Układ · Next slide | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>286 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#warianty-produktu) |
+| Zmiany wyglądu · Układ · Szczegóły | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Zapytaj o możliwość modyfikacji | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · NewHouse 708 | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>286 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#swiper-wrapper-c3b3236e9e54c78a) |
+| Zmiany wyglądu · Układ · Energooszczędność | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Technologie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Dodaj do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>71 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
+| Zmiany wyglądu · Układ · Dodaj kosztorys do koszyka | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>72 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://modernhouse-projekty.pl/projekt/newhouse-761/#mdh-page) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-20/2026-11-20-2026-11-20t175806.865838-0000-a2e9d212-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 
 Strony porównania: [1](modernhouse-projektypl.md) · [2](modernhouse-projektypl-2.md) · [3](modernhouse-projektypl-3.md) · **4**
 

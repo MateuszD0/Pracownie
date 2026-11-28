@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| studioatrium.pl · 2026-11-26 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026”. W sprawdzonym serwisie znaleziono również: „RABAT 750” | Do sprawdzenia |
-| studioatrium.pl · 2026-11-26 | Nie odnotowano wcześniejszego komunikatu: „RABAT 450”. W sprawdzonym serwisie znaleziono również: „RABAT 750” | Do sprawdzenia |
-| projektyka.pl · 2026-11-26 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-26 | Nowy kod rabatowy: „Kod rabatowy: BLACK8” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-26 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
-| projektdomudo100m2.pl · 2026-11-26 | Nowa promocja w komunikacji: „🖤 BLACK FRIDAY W BRUMAR! 🏠 Już 27 listopada rusza wyjątkowa promocja na projekty domów! 🎁 Szczegóły ujawnimy w dniu rozpoczęcia. Wybierz swój projekt już dziś! 👋 Jestem Asystentem AI Brumar. W czym mogę Ci pomóc?” | Sprawdzono w serwisie |
-| kbprojekt.pl · 2026-11-26 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
-| kbprojekt.pl · 2026-11-26 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Dołącz do naszego newslettera”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | Nie odnotowano wcześniejszego komunikatu: „Zyskaj dostęp do eksperckiej wiedzy o domach wysoce energooszczędnych prosto na swoją skrzynkę mailową. Jako subskrybent zyskasz prioryteto…”. W sprawdzonym serwisie znaleziono również: „Dodatki funkcjonalne” | Do sprawdzenia |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Bądź na bieżąco z naszymi nowościami”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Wentylacja mechaniczna z rekuperacją”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
-| ekoarchitekci.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Często nowi potencjalni klienci zastanawiają się jak wygląda proces sporządzania projektu indywidualnego i co taki projekt zawiera. Żeby…”. | Potwierdzono ponownym odczytem |
-| ekoarchitekci.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Jak wygląda projekt indywidualny?”. | Potwierdzono ponownym odczytem |
-| ekoarchitekci.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Instalacja fotowoltaiki w domu jednorodzinnym”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-26 | Nowy komunikat nie powtórzył się w drugim odczycie; zmiana oferty niepotwierdzona. | Do sprawdzenia |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Zamawiając projekt domu z kolekcji e-domy.pl, mogą Państwo zamówić dodatkowo 1 egzemplarz projektu architektoniczno-budowlanego (TOM \[…\]”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Dom namiotowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „Jak wybrać idealny projekt domu? Podpowiadamy krok po kroku. Krok pierwszy – działka Zanim Państwo \[…\]”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-28 | „300” → „normalny (400)”. | Zaobserwowana zmiana |
+| dompp.pl · 2026-11-28 | Pojawił się komunikat: „TWOJA WIZJA, NASZA PASJA”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-28 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Potwierdzono ponownym odczytem |
+| domato.pl · 2026-11-28 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
+| 3ddom.pl · 2026-11-28 | Zmiana komunikatu oferty: „Promocja od 23.11.2026 koniec za” → „Promocja od 25.11.2026 koniec za” | Sprawdzono w serwisie |
+| projektdomudo100m2.pl · 2026-11-27 | Nowy kod rabatowy: „KOD RABATOWY BF20 Dotknij, aby skopiować” | Sprawdzono w serwisie |
+| projektdomudo100m2.pl · 2026-11-27 | Nowa promocja w komunikacji: „🔥 \*\*BLACK FRIDAY – 20% TANIEJ!\*\* Kup projekt domu z kodem \*\*BF20\*\*. Promocja trwa tylko do 30 listopada, do godz. 23:59. W czym mogę Ci pomóc?” | Sprawdzono w serwisie |
+| projektdomudo100m2.pl · 2026-11-27 | Nie odnotowano wcześniejszego komunikatu: „🖤 BLACK FRIDAY W BRUMAR! 🏠 Już 27 listopada rusza wyjątkowa promocja na projekty domów! 🎁 Szczegóły ujawnimy w dniu rozpoczęcia. Wybierz sw…”. W sprawdzonym serwisie znaleziono również: „KOD RABATOWY” | Do sprawdzenia |
+| opprojekt.com.pl · 2026-11-27 | Pojawił się komunikat: „Nowoczesny i funkcjonalny dom parterowy – poznaj Projekt Mila, nowość w naszej bazie! 27 listopada 2026 Zapraszamy do wyboru Projektu Mila i zrealizowania swoich marzeń o własnym,…”. | Potwierdzono ponownym odczytem |
+| opprojekt.com.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „Idziemy za ciosem! Poznaj projekt Luna 3 z zachwycającą otwartą przestrzenią nad salonem 23 października 2026 Zobacz projekt w nowej wersji rysunkowej.... Czytaj więcej”. | Potwierdzono ponownym odczytem |
+| myhome.eco · 2026-11-27 | Zauważono etykietę: „Promocja!”. | Do sprawdzenia |
+| myhome.eco · 2026-11-27 | W nowym zapisie nie ma komunikatu: „NOWOŚĆ”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „JAKIE ZBIORNIKI NA GAZ PŁYNNY WYBRAĆ DO OGRZEWANIA DOMU”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „KIEDY KOCIOŁ NA PELLET Z ZEWNĘTRZNYM PALNIKIEM SPRAWDZI SIĘ LEPIEJ NIŻ TRADYCYJNY PIEC?”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-27 | Pojawił się komunikat: „GDZIE ZAMAWIAĆ KAMIEŃ NATURALNY DO DUŻYCH REALIZACJI? ZALETY BEZPOŚREDNIEJ WSPÓŁPRACY Z HURTOWNIĄ PŁYT GRANITOWYCH”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „JAK WYBRAĆ ROLETY ZEWNĘTRZNE NATYNKOWE DO SWOJEGO DOMU”. | Potwierdzono ponownym odczytem |
+| kreodom.pl · 2026-11-27 | Pojawił się komunikat: „JAKIE EKOLOGICZNE OGRZEWANIE DOMU JEST NAJTAŃSZE”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-27 | Pojawił się komunikat: „JAKIE SĄ ZALETY PŁYTY GAZOWEJ BEZPŁOMIENIOWEJ W KUCHNI”. | Do sprawdzenia |
+| kreodom.pl · 2026-11-27 | „18 listopada 2026” → „26 listopada 2026”. | Do sprawdzenia |
+| e-domy.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „Nowość”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „Dom namiotowy z 2 sypialniami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „Dom namiotowy z 3 sypialniami”. | Potwierdzono ponownym odczytem |

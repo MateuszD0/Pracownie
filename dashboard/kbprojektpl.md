@@ -4,7 +4,7 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-26 → 2026-11-27**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [Ragon](https://www.kbprojekt.pl/projekty-domow/projekt-domu-ragon-dm-6912)
 
@@ -32,5 +32,5 @@ Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
 Powód braku odczytu: Witryna blokuje dostęp ze skanera (403).
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 

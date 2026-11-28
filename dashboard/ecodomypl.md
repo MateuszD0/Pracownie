@@ -4,11 +4,11 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-26 → 2026-11-27**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [Eco 53 - ECODOMY](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**5 zmian w zapisanym zakresie.**
+**Bez ustalonych zmian biznesowych w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
@@ -16,33 +16,33 @@ Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie 
 
 [Otwórz stronę źródłową](https://ecodomy.pl/)
 
-**Odczyty:** 26.11.2026 09:09 → 27.11.2026 09:06 (czas polski).
+**Odczyty:** 27.11.2026 09:06 → 28.11.2026 10:01 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fecodomy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2F%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fecodomy.pl%2Fglowna%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2F%0A%0AOpis%3A)
 
 **Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-po.jpg)
+**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-po.jpg)
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.11.2026 09:09 | Po · 27.11.2026 09:06 |
+| Przed · 27.11.2026 09:06 | Po · 28.11.2026 10:01 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-<details><summary>Obserwacje pomocnicze (4) — nie są ustaloną zmianą oferty</summary>
+<details><summary>Obserwacje pomocnicze (5) — nie są ustaloną zmianą oferty</summary>
 
-- Fragment pojawił się tylko w jednym zapisie; brak dopasowanego miejsca przed / po.
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 
 Przykłady z zapisów:
 
-- brak → gotowych projektów
-- brak → zadowolonych Klientów
-- brak → zaprzyjaźnionych Partnerów
+- ECODOMY - projekty domów. Projekty domów powstały w oparciu o wieloletnie doświadczenie zdobyte w branży projektowo – budowlanej, obserwacj… → brak
+- Wybierz interesujący Cię projekt z naszej oferty → brak
+- Kliknij "Kup projekt" przy interesującym Cię projekcie → brak
 
 Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
@@ -52,39 +52,35 @@ Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 **Różnica zrzutów: górna część strony — przyczyna nieustalona**
 
-Porównanie: 26.11.2026 09:09 → 27.11.2026 09:06 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
+Porównanie: 27.11.2026 09:06 → 28.11.2026 10:01 (czas polski). Różnica zrzutów nie potwierdza sama w sobie zmiany oferty ani przebudowy strony.
 
 [Otwórz stronę](https://ecodomy.pl/)
 
-[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-36-po.jpg)
+[Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-36-po.jpg)
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53)
 
-**Odczyty:** 26.11.2026 09:09 → 27.11.2026 09:06 (czas polski).
+**Odczyty:** 27.11.2026 09:06 → 28.11.2026 10:01 (czas polski).
 
-[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-27%2Fecodomy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2Fnasze-projekty%2Fjednorodzinne%2Feco-53%0A%0AOpis%3A)
+[Zgłoś pominiętą zmianę](https://github.com/MateuszD0/Pracownie/issues/new?title=Pomini%C4%99ta+zmiana+%5B2026-11-28%2Fecodomy.pl%2Fprojekt%5D&body=Opisz+zmian%C4%99%2C+kt%C3%B3r%C4%85+monitor+pomin%C4%85%C5%82%2C+oraz+kiedy+j%C4%85+zauwa%C5%BCono.%0A%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2Fecodomy.pl%2Fnasze-projekty%2Fjednorodzinne%2Feco-53%0A%0AOpis%3A)
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>ZUŻYCIE ENERGII</strong> | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53#sppb-addon-1599746101939) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>SZACUNKOWE KOSZTY BUDOWY</strong> | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53#sppb-addon-1599746101945) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>PRZEKRÓJ</strong> | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53#sppb-addon-1567065830373) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>SYTUACJA NA DZIAŁCE</strong> | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53#sppb-addon-1566377798776) |
-| Komunikacja sprzedażowa · Nagłówek | Nie odnotowano w tym odczycie | <strong>TECHNOLOGIA I KONSTRUKCJA</strong> | [Otwórz stronę](https://ecodomy.pl/nasze-projekty/jednorodzinne/eco-53#sppb-addon-1599746101948) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
-**Zapisane zrzuty:** [Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-16-przed.jpg) · [Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-16-przed.jpg)
+<details><summary>Obserwacje pomocnicze (5) — nie są ustaloną zmianą oferty</summary>
 
-<details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
+- Komunikat nie powtórzył się w dodatkowym odczycie; obserwacja niestabilna.
 
-| Przed · 26.11.2026 09:09 | Po · 27.11.2026 09:06 |
-| --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-16-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-16-przed.jpg) |
+Przykłady z zapisów:
 
-Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
+- ZUŻYCIE ENERGII → brak
+- PRZEKRÓJ → brak
+- SZACUNKOWE KOSZTY BUDOWY → brak
+
+Pełna lista pozostaje w dzienniku CSV i raporcie HTML.
 
 </details>
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 

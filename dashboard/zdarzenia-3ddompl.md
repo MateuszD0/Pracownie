@@ -6,15 +6,15 @@
 
 [3ddom.pl — wszystkie odczyty](3ddompl.md)
 
-## Zdarzenie e1845f3340bd68a8
+## Zdarzenie 28ec3a8d6c6fc949
 
-**Zmiana komunikatu oferty: „Promocja od 21.11.2026 koniec za” → „Promocja od 23.11.2026 koniec za”**
+**Zmiana komunikatu oferty: „Promocja od 23.11.2026 koniec za” → „Promocja od 25.11.2026 koniec za”**
 
 **Sprawdzono w serwisie** · Kod lub oferta są opublikowane w serwisie; nie sprawdzano realizacji zamówienia.
 
 | Zmiana / miejsce | Było | Jest | Źródło |
 | --- | --- | --- | --- |
-| Promocje i rabaty · Opis i argumenty oferty | Promocja od <strong>21</strong>.11.2026 koniec za | Promocja od <strong>23</strong>.11.2026 koniec za | [Otwórz stronę](https://3ddom.pl/produkt/dom-na-majowej/#product-63) |
+| Promocje i rabaty · Opis i argumenty oferty | Promocja od <strong>23</strong>.11.2026 koniec za | Promocja od <strong>25</strong>.11.2026 koniec za | [Otwórz stronę](https://3ddom.pl/produkt/dom-na-majowej/#product-63) |
 
 [Karta projektu](https://3ddom.pl/produkt/dom-na-majowej/#product-63)
 
@@ -22,15 +22,15 @@ Liczba źródłowych obserwacji: 3. Pełne zapisy pozostają w szczegółach pra
 
 <details><summary>Zrzuty przed / po — rozwiń porównanie</summary>
 
-| Przed · 26.11.2026 09:07 | Po · 27.11.2026 09:04 |
+| Przed · 27.11.2026 09:04 | Po · 28.11.2026 09:59 |
 | --- | --- |
-| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-dowod-1-po.jpg) |
+| ![Przed](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-1-przed.jpg) | ![Po](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-dowod-1-po.jpg) |
 
 Fragment uchwyconego widoku; może nie obejmować wszystkich opisanych komunikatów. Kliknij obraz, aby powiększyć.
 
 </details>
 
-**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-27%2Fe1845f3340bd68a8%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+21.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-27%2Fe1845f3340bd68a8%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+21.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-27%2Fe1845f3340bd68a8%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+21.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A)
+**Twoja ocena:** brak oceny. Oceń alert: [Trafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-28%2F28ec3a8d6c6fc949%5D+TRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+25.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A) · [Nietrafny](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-28%2F28ec3a8d6c6fc949%5D+NIETRAFNY&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+25.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A) · [Nie wiem](https://github.com/MateuszD0/Pracownie/issues/new?title=Ocena+alertu+%5B2026-11-28%2F28ec3a8d6c6fc949%5D+NIE+WIEM&body=Ocena+alertu+z+dashboardu.+Po+sprawdzeniu+kliknij+%E2%80%9ESubmit+new+issue%E2%80%9D.%0A%0APracownia%3A+3ddom.pl%0AZdarzenie%3A+Zmiana+komunikatu+oferty%3A+%E2%80%9EPromocja+od+23.11.2026+koniec+za%E2%80%9D+%E2%86%92+%E2%80%9EPromocja+od+25.11.2026+koniec+za%E2%80%9D%0A%C5%B9r%C3%B3d%C5%82o%3A+https%3A%2F%2F3ddom.pl%2Fprodukt%2Fdom-na-majowej%2F%23product-63%0A%0AOpcjonalny+komentarz%3A)
 
 Wybór otwiera publiczne zgłoszenie GitHub; zapisz je przyciskiem „Submit new issue”. Oceny pojawią się w kolejnym raporcie.
 

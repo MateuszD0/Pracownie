@@ -4,59 +4,59 @@
 
 [← Wszystkie pracownie](../DASHBOARD.md)
 
-**2026-11-26 → 2026-11-27**
+**2026-11-27 → 2026-11-28**
 
 **Ten sam projekt:** [Projekt domu parterowego 100 m² – dach czterospadowy](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**187 zmian w zapisanym zakresie.**
+**50 zmian w zapisanym zakresie.**
 
 Pogrubione fragmenty wskazują różnicę. Dłuższe teksty pokazują otoczenie zmiany. Pełny zapis pozostaje w HTML i dzienniku CSV.
 
-Strony porównania: [1](projektdomudo100m2pl.md) · **2** · [3](projektdomudo100m2pl-3.md) · [4](projektdomudo100m2pl-4.md) · [5](projektdomudo100m2pl-5.md) · [6](projektdomudo100m2pl-6.md) · [7](projektdomudo100m2pl-7.md) · [8](projektdomudo100m2pl-8.md)
+Strony porównania: [1](projektdomudo100m2pl.md) · **2**
 
 ## Strona główna
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/)
 
-**Odczyty:** 26.11.2026 09:12 → 27.11.2026 09:09 (czas polski).
+**Odczyty:** 27.11.2026 09:09 → 28.11.2026 10:04 (czas polski).
 
-| Zmiana / miejsce | Było | Jest | Źródło |
-| --- | --- | --- | --- |
-| Zmiany wyglądu · Układ · RNS86C — 86 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-do-100) |
-| Zmiany wyglądu · Układ · RNS108 — dom 108 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-popular-projects) |
-| Zmiany wyglądu · Układ · Projekt domu parterowego RNS109 109 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Zobacz opinie Google → | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-trust-community) |
-| Zmiany wyglądu · Układ · Projekt domu z garażem | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-home-seo) |
-| Zmiany wyglądu · Układ · Budowa domu 108 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-realizacje) |
-| Zmiany wyglądu · Układ · Wszystko znajdziesz w jednym miejscu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-why-rns) |
-| Zmiany wyglądu · Układ · RNS109 — 109 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Projekt domu RNS109C 109 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Projekt domu parterowego RNS76 76 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-do-100) |
-| Zmiany wyglądu · Układ · Twój dom zaczyna się od dobrego projektu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#bfcta-title) |
-| Zmiany wyglądu · Układ · Możesz zobaczyć prawdziwe realizacje | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-why-rns) |
-| Zmiany wyglądu · Układ · Najczęściej wybierane projekty domów | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#popular-projects-title) |
-| Zmiany wyglądu · Układ · Projekt domu RNS94C 94 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-do-100) |
-| Zmiany wyglądu · Rozmiar: nagłówek strony | 1280 × <strong>189</strong> px; położenie: 0 px od lewej, 0 px od góry | 1280 × <strong>284</strong> px; położenie: 0 px od lewej, 0 px od góry | [Otwórz stronę](https://www.projektdomudo100m2.pl/#masthead) |
-| Zmiany wyglądu · Układ · RNS76 — 76 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-do-100) |
-| Zmiany wyglądu · Układ · Zobacz, jak nasze projekty powstają naprawdę | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#br-realizacje-title) |
-| Zmiany wyglądu · Układ · RNS145 — 145 m² + garaż | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-poddasze) |
-| Zmiany wyglądu · Układ · Kosztorys budowy — 30 zł | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#pdc-cost-link) |
-| Zmiany wyglądu · Układ · Budowa domu 100 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>94 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#brumar-realizacje) |
-| Zmiany wyglądu · Układ · Projekt domu parterowego RNS108 108 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Projekt RNS109 W1 z dachem czterospadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Wszystkie projekty domów Rodzina na Swoim | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#bcat-title) |
-| Zmiany wyglądu · Układ · RNS108CG — 108 m² + garaż | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-108-109) |
-| Zmiany wyglądu · Układ · Projekt domu RNS76C 76 m² z dachem czterospadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>95 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/#projekty-do-100) |
+**Bez ustalonej zmiany · obserwacje w szczegółach**
 
 ## Karta projektu
 
 [Otwórz stronę źródłową](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/)
 
-**Odczyty:** 26.11.2026 09:12 → 27.11.2026 09:09 (czas polski).
+**Odczyty:** 27.11.2026 09:09 → 28.11.2026 10:04 (czas polski).
 
-Pozostałe strony tego porównania zawierają 77 różnic tej strony; użyj numerów stron powyżej.
+| Zmiana / miejsce | Było | Jest | Źródło |
+| --- | --- | --- | --- |
+| Zmiany wyglądu · Układ · Wymiary pomieszczeń | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#post-8666) |
+| Zmiany wyglądu · Układ · RNS94C – projekt domu około 94 m² z dachem czterospadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
+| Zmiany wyglądu · Układ · Zobacz projekt domu RNS100C z dachem czterospadowym w animacji 3D | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-animation-title) |
+| Zmiany wyglądu · Układ · 05. Ściany nośne Materiały konstrukcyjne ścian zewnętrznych i wewnętrznych | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · Dla kogo projekt domu RNS100C może być dobrym wyborem? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · 03. Kanalizacja pod posadzką Rury i kształtki kanalizacyjne | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · RNS100C czy RNS100 – dach kopertowy czy dwuspadowy? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · RNS100C – wersja podstawowa i lustrzane odbicie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · 06. Ściany działowe Materiały ścian wewnętrznych | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · 11. Tynki wewnętrzne Materiały do wykonania tynków | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · RNS100C jako projekt domu do 100 m² | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · Odtwórz animację 3D projektu domu RNS100C | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brmRns100cAnimationStart) |
+| Zmiany wyglądu · Układ · 10. Elewacja Ocieplenie i wykończenie elewacji | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · RNS100 – projekt domu parterowego 100 m² z dachem dwuspadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
+| Zmiany wyglądu · Układ · Dane techniczne projektu | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#post-8666) |
+| Zmiany wyglądu · Układ · Projekt domu 100 m² z dachem kopertowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · Projekt domu 100 m² z dachem kopertowym – RNS100C | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo-title) |
+| Zmiany wyglądu · Układ · 01. Ławy fundamentowe Beton, stal, szalunki i uziemienie | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
+| Zmiany wyglądu · Układ · Porównaj RNS100C z innymi projektami | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related-title) |
+| Zmiany wyglądu · Układ · Kup kosztorys RNS100C → | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#rns100c-kosztorys-box) |
+| Zmiany wyglądu · Układ · Materiały i etapy budowy domu RNS100C | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>280 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · RNS76C – mały dom parterowy z dachem czterospadowym | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
+| Zmiany wyglądu · Układ · Jak wygląda układ pomieszczeń w projekcie RNS100C? | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-seo) |
+| Zmiany wyglądu · Układ · RNS76C – dach czterospadowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100c-related) |
+| Zmiany wyglądu · Układ · 08. Komin System kominowy | <strong>Pozycja</strong> w <strong>poprzednim zapisie</strong> | <strong>279 px</strong> w <strong>dół</strong> | [Otwórz stronę](https://www.projektdomudo100m2.pl/projekt-domu-parterowego-100m2/#brm-rns100-materials) |
 
-[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-27/2026-11-27-2026-11-27t191055.029276-0000-5dbaac0e-porownanie.html)
+[Zrzuty przed / po — pobierz pełne porównanie HTML](https://github.com/MateuszD0/Pracownie/releases/download/monitor-report-2026-11-28/2026-11-28-2026-11-28t085848.156189-0000-7592a8ac-porownanie.html)
 
-Strony porównania: [1](projektdomudo100m2pl.md) · **2** · [3](projektdomudo100m2pl-3.md) · [4](projektdomudo100m2pl-4.md) · [5](projektdomudo100m2pl-5.md) · [6](projektdomudo100m2pl-6.md) · [7](projektdomudo100m2pl-7.md) · [8](projektdomudo100m2pl-8.md)
+Strony porównania: [1](projektdomudo100m2pl.md) · **2**
 

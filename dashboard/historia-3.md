@@ -8,28 +8,28 @@ Daty oznaczają zapis źródła; starszy zapis nie jest dzisiejszą weryfikacją
 
 | Pracownia / dzień | Ustalenie | Status / źródła |
 | --- | --- | --- |
-| e-domy.pl · 2026-11-26 | Nowa promocja w komunikacji: „Promocja — Dodatkowy egzemplarz za 1 zł” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-26 | Nowa promocja w komunikacji: „Promocja — Kosztorys z przedmiarem za 149 zł” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-26 | Zauważono etykietę: „Promocja”. | Do sprawdzenia |
-| domato.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „POTRZEBUJESZ DOMU NA MAŁĄ DZIAŁKĘ? A MOŻE SZUKASZ ALTERNATYWY DLA MIESZKANIA W BUDYKU WIELORODZINNYM?”. | Potwierdzono ponownym odczytem |
-| domato.pl · 2026-11-26 | Pojawił się komunikat: „Nowoczesne rozwiązania projektowe dla wymagających.”. | Potwierdzono ponownym odczytem |
-| 3ddom.pl · 2026-11-26 | Zmiana komunikatu oferty: „Promocja od 19.11.2026 koniec za” → „Promocja od 21.11.2026 koniec za” | Sprawdzono w serwisie |
-| teaprojekt.pl · 2026-11-25 | Nowa promocja w komunikacji: „projekty domów w promocji” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-25 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „W PROMOCJI” | Sprawdzono w serwisie |
-| projektyka.pl · 2026-11-25 | Pojawił się komunikat: „Autorskie projekty domów szyte na miarę”. | Potwierdzono ponownym odczytem |
-| projektydomowzbali.pl · 2026-11-25 | Komunikat zniknął z tego miejsca, ale nadal występuje w serwisie: „Pamiętaj o podaniu danych wysyłkowych, formy płatności (pobranie, przelew), wersji projektu (podstawowa czy lustrzane odbicie) oraz planowanych zmian. Zadbamy, abyś otrzymał zgodę na zmiany. Nie zapomnij zapytać o rabat…” | Sprawdzono w serwisie |
-| projektydomowzbali.pl · 2026-11-25 | Zauważono etykietę: „PROMOCJA”. | Do sprawdzenia |
-| pro-arte.pl · 2026-11-25 | Pojawił się komunikat: „Realizacja projektu domu - ORLEAN 7 C szkielet drewniany”. | Potwierdzono ponownym odczytem |
-| pro-arte.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Realizacja projektu domu - TRYPOLIS 8”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „MONTAŻ KLIMATYZACJI W BLOKU KROK PO KROKU: OD ZGODY WSPÓLNOTY PO PIERWSZY CHŁÓD”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „NOWOCZESNE DOMY MODUŁOWE – SZYBKI SPOSÓB NA WŁASNY DOM”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „JAK WYBRAĆ DOBREGO PRODUCENTA DRZWI WEWNĘTRZNYCH”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „NOWOCZESNA PRODUKCJA PANELI SIP I WARSTWOWYCH – JAK TECHNOLOGIA GLUESTREAM WSPIERA ROZWÓJ PREFABRYKACJI?”. | Do sprawdzenia |
-| kreodom.pl · 2026-11-25 | Pojawił się komunikat: „BADANIE SZCZELNOŚCI DACHU PŁASKIEGO – KIEDY JE ZLECIĆ I OD CZEGO ZALEŻY CENA”. | Potwierdzono ponownym odczytem |
-| kreodom.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „JAKIE WYROBY BETONOWE SPRAWDZĄ SIĘ W OGRODZIE I WOKÓŁ DOMU”. | Potwierdzono ponownym odczytem |
-| hexagreen.pl · 2026-11-25 | Pojawił się komunikat: „Zapoznałem/-am się z Regulaminem i Polityką Prywatności \*”. | Zaobserwowana zmiana |
-| ecodomy.pl · 2026-11-25 | Pojawił się komunikat: „ELEWACJE”. | Do sprawdzenia |
-| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Mały dom z 2 pokojami i garderobą”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Parterowy dom o zwartej bryle”. | Potwierdzono ponownym odczytem |
-| e-domy.pl · 2026-11-25 | Nowy dodatek lub pakiet: „Znamy te projekty od środka! Wyodrębniamy nowy dział pracowni, w którym przygotujemy indywidualnie projekt wnętrza. Nasze projekty powstają z wykorzystaniem modelowania komputerowego, dzięki czemu wspólne opracowanie ko…” | Sprawdzono w serwisie |
-| e-domy.pl · 2026-11-25 | W nowym zapisie nie ma komunikatu: „Mały dom z dwoma pokojami”. | Potwierdzono ponownym odczytem |
+| e-domy.pl · 2026-11-27 | W nowym zapisie nie ma komunikatu: „Dom parterowy z pokojem na froncie”. | Potwierdzono ponownym odczytem |
+| domdlaciebie.com.pl · 2026-11-27 | Pojawił się komunikat: „Zamów bezpłatny katalog”. | Zaobserwowana zmiana |
+| dobredomy.pl · 2026-11-27 | Nowa promocja w komunikacji: „Do końca promocji pozostało:” | Sprawdzono w serwisie |
+| dobredomy.pl · 2026-11-27 | Nowa promocja w komunikacji: „Promocja do –1000 zł na wybrane projekty” | Sprawdzono w serwisie |
+| 3ddom.pl · 2026-11-27 | Zmiana komunikatu oferty: „Promocja od 21.11.2026 koniec za” → „Promocja od 23.11.2026 koniec za” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-26 | W nowym zapisie nie ma etykiety: „promocje”. | Do sprawdzenia |
+| studioatrium.pl · 2026-11-26 | Nowy dodatek lub pakiet: „Kupując projekt domu w naszej pracowni otrzymujesz dodatkowo zawsze atrakcyjny pakiet dodatków warty minimum 1000 zł.” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-26 | Zmiana komunikatu oferty: „RABAT 250” → „RABAT 750” | Sprawdzono w serwisie |
+| studioatrium.pl · 2026-11-26 | Nie odnotowano wcześniejszego komunikatu: „PROMOCJA DLA KLIENTÓW INDYWIDUALNYCH WAŻNA DO 25-11-2026”. W sprawdzonym serwisie znaleziono również: „RABAT 750” | Do sprawdzenia |
+| studioatrium.pl · 2026-11-26 | Nie odnotowano wcześniejszego komunikatu: „RABAT 450”. W sprawdzonym serwisie znaleziono również: „RABAT 750” | Do sprawdzenia |
+| projektyka.pl · 2026-11-26 | Nowa promocja w komunikacji: „W PROMOCJI” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-26 | Nowy kod rabatowy: „Kod rabatowy: BLACK8” | Sprawdzono w serwisie |
+| projektyka.pl · 2026-11-26 | Pojawił się komunikat: „NOWOŚCI PROJEKTOWE”. | Potwierdzono ponownym odczytem |
+| projektdomudo100m2.pl · 2026-11-26 | Nowa promocja w komunikacji: „🖤 BLACK FRIDAY W BRUMAR! 🏠 Już 27 listopada rusza wyjątkowa promocja na projekty domów! 🎁 Szczegóły ujawnimy w dniu rozpoczęcia. Wybierz swój projekt już dziś! 👋 Jestem Asystentem AI Brumar. W czym mogę Ci pomóc?” | Sprawdzono w serwisie |
+| kbprojekt.pl · 2026-11-26 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| kbprojekt.pl · 2026-11-26 | Pojawił się komunikat: „Dodaj do koszyka”. | Do sprawdzenia |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Zaawansowany standard energetyczny domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Web Summit 2026 Wracam z głową pełną inspiracji”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „3 Analiza nasłonecznienia i zacienienia”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Jak wybrać optymalną działkę dla domu wysoce energooszczędnego”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Dołącz do naszego newslettera”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Ostatnie tygodnie były niezwykle pracowite! W t”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „Nowe Warunki Techniczne przynoszą istotne zmiany w”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „projektuję domy wysoce energooszczędne”. | Potwierdzono ponownym odczytem |
+| hexagreen.pl · 2026-11-26 | W nowym zapisie nie ma komunikatu: „4 Optymalne ustawienie domu”. | Potwierdzono ponownym odczytem |
